@@ -1,0 +1,3178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Revision Practice</title>
+<style>
+:root{
+  --bg:#f7f7f5; --panel:#fff; --ink:#1b1b1f; --sub:#6b6b74; --line:#e4e4e0;
+  --accent:#3a5ba0; --accent-ink:#fff; --good:#2e7d4f; --warn:#b8860b; --bad:#b4432f;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){ --bg:#16171a; --panel:#1f2024; --ink:#eceef1; --sub:#9a9ca3; --line:#2c2d31; --accent:#7fa1e0; --accent-ink:#101223; }
+}
+:root[data-theme="dark"]{ --bg:#16171a; --panel:#1f2024; --ink:#eceef1; --sub:#9a9ca3; --line:#2c2d31; --accent:#7fa1e0; --accent-ink:#101223; }
+html{scroll-padding-top:env(safe-area-inset-top,0px);}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;min-height:100%;}
+.wrap{max-width:640px;margin:0 auto;padding:20px 16px 80px;}
+h1{font-size:1.3rem;margin:4px 0 2px;}
+h2{font-size:1.1rem;margin:0 0 10px;}
+h3{font-size:.85rem;color:var(--sub);margin:14px 0 4px;text-transform:uppercase;letter-spacing:.03em;}
+.sub{color:var(--sub);font-size:.9rem;margin-bottom:18px;}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:14px;}
+.folder{background:var(--panel);border:1px solid var(--line);border-radius:14px;margin-bottom:14px;overflow:hidden;}
+.folder>summary{padding:13px 16px;font-weight:600;cursor:pointer;list-style:none;}
+.folder>summary::-webkit-details-marker{display:none;}
+.folder-body{padding:0 16px 6px;}
+.topic-row{display:grid;grid-template-columns:1fr 84px;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid var(--line);}
+.browse-btn{width:84px;padding:10px 0;border-radius:10px;border:1px solid var(--accent);background:transparent;color:var(--accent);font-weight:600;font-size:.9rem;cursor:pointer;}
+.topic-row:last-child{border-bottom:none;}
+.topic-name{font-weight:600;font-size:.95rem;}
+.mastery{font-size:.76rem;color:var(--sub);text-align:right;}
+label.chk{display:flex;align-items:center;gap:10px;}
+input[type=checkbox]{width:19px;height:19px;accent-color:var(--accent);flex-shrink:0;}
+input[type=text],input[type=number],textarea,select{width:100%;padding:10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:inherit;margin-bottom:8px;}
+textarea{min-height:64px;resize:vertical;}
+label.field{display:block;font-size:.8rem;color:var(--sub);margin:10px 0 3px;}
+button{font:inherit;border:none;border-radius:10px;padding:11px 16px;cursor:pointer;}
+.btn-primary{background:var(--accent);color:var(--accent-ink);font-weight:600;width:100%;font-size:1rem;}
+.btn-ghost{background:transparent;color:var(--accent);border:1px solid var(--line);}
+.btn-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px;}
+.btn-row button{flex:1;min-width:100px;}
+.qmeta{font-size:.8rem;color:var(--sub);margin-bottom:6px;}
+.qprompt{font-size:1.02rem;line-height:1.5;white-space:pre-wrap;}
+.hintbox{margin-top:12px;padding:10px 12px;background:var(--bg);border-left:3px solid var(--accent);border-radius:6px;font-size:.92rem;}
+.solbox{margin-top:12px;padding:10px 12px;background:var(--bg);border-left:3px solid var(--warn);border-radius:6px;font-size:.92rem;white-space:pre-wrap;}
+.assess{margin-top:14px;}
+.assess p{font-size:.85rem;color:var(--sub);margin-bottom:8px;}
+.correct{background:var(--good);color:#fff;}
+.silly{background:var(--warn);color:#fff;}
+.wrong{background:var(--bad);color:#fff;}
+.pill{display:inline-block;font-size:.72rem;padding:2px 8px;border-radius:20px;background:var(--line);color:var(--sub);margin-left:6px;}
+a.reset{font-size:.78rem;color:var(--sub);text-decoration:underline;cursor:pointer;}
+.hint-item{display:flex;gap:6px;margin-bottom:6px;}
+.hint-item input{margin:0;}
+.icon-btn{background:transparent;color:var(--bad);border:none;padding:6px 8px;font-size:.85rem;white-space:nowrap;}
+.icon-btn.accent{color:var(--accent);}
+.qlist-row{padding:10px 4px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:flex-start;gap:8px;}
+.qlist-row:last-child{border-bottom:none;}
+.qlist-text{font-size:.88rem;}
+.qlist-topic{font-size:.75rem;color:var(--sub);}
+.qlist-actions{display:flex;gap:2px;flex-shrink:0;}
+.toprow{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;gap:8px;flex-wrap:wrap;}
+.toprow-links{display:flex;gap:18px;margin-left:auto;}
+.toprow-links{flex-wrap:wrap;align-items:center;row-gap:2px;}
+.nav-link{background:none;border:none;color:var(--accent);text-decoration:underline;font-size:1.2rem;font-weight:700;padding:8px 4px;cursor:pointer;}
+.theme-switch{position:relative;display:inline-flex;align-items:center;gap:6px;font-size:.78rem;color:var(--sub);}
+.theme-switch .track{position:relative;width:42px;height:23px;flex-shrink:0;}
+.theme-switch input{position:absolute;opacity:0;width:100%;height:100%;margin:0;cursor:pointer;}
+.theme-switch .slider{position:absolute;inset:0;background:var(--line);border-radius:24px;transition:.15s;pointer-events:none;}
+.theme-switch .slider::before{content:"";position:absolute;width:17px;height:17px;left:3px;top:3px;background:var(--panel);border-radius:50%;transition:.15s;box-shadow:0 1px 2px rgba(0,0,0,.3);}
+.theme-switch input:checked + .slider{background:var(--accent);}
+.theme-switch input:checked + .slider::before{transform:translateX(19px);}
+.link-btn{background:none;border:none;color:var(--accent);text-decoration:underline;font-size:.85rem;padding:0;cursor:pointer;}
+.skip-link{display:block;text-align:center;font-size:.82rem;color:var(--sub);text-decoration:underline;margin-top:12px;background:none;border:none;width:100%;padding:6px;}
+.toast{position:fixed;left:16px;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));max-width:608px;margin:0 auto;background:var(--ink);color:var(--bg);padding:12px 14px;border-radius:10px;font-size:.88rem;display:flex;justify-content:space-between;align-items:center;gap:10px;z-index:5;}
+.toast .link-btn{color:var(--accent);white-space:nowrap;}
+.report-box{margin-top:12px;padding:10px 12px;background:var(--bg);border:1px dashed var(--line);border-radius:8px;}
+.stat-row{display:grid;grid-template-columns:64px 1fr;align-items:center;gap:14px;padding:12px 0;border-bottom:1px solid var(--line);}
+.stat-row:last-child{border-bottom:none;}
+.stat-nums{font-size:.76rem;color:var(--sub);}
+.qline{display:flex;justify-content:space-between;align-items:flex-end;gap:14px;}
+.qline + .qline{margin-top:3px;}
+.qtext{flex:1;min-width:0;white-space:pre-wrap;}
+.qtext mjx-container[display="true"]:last-child{margin-bottom:0 !important;}
+.qmark{flex-shrink:0;min-width:2.6em;text-align:right;font-weight:600;color:var(--sub);white-space:nowrap;}
+.qgap{height:.6em;}
+.grade-badge{display:flex;align-items:center;justify-content:center;width:60px;height:60px;border-radius:14px;font-weight:800;font-size:1.75rem;line-height:1;border:2px solid;flex-shrink:0;}
+.grade-badge.sm{width:44px;height:44px;font-size:1.2rem;border-radius:10px;}
+.grade-badge.none{color:var(--sub);border:2px dashed var(--line);font-weight:600;font-size:1.3rem;}
+.q-card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:10px;}
+.q-card-tags{display:flex;flex-wrap:wrap;gap:4px;align-items:center;font-size:.85rem;}
+.q-card-tags .pill{margin-left:0;}
+.q-card-score{display:flex;align-items:center;gap:8px;text-align:right;font-size:.74rem;color:var(--sub);flex-shrink:0;}
+.diagram{margin:14px 0 0;text-align:center;color:var(--ink);}
+.diagram svg{max-width:100%;height:auto;}
+.diagram figcaption{font-size:.78rem;color:var(--sub);margin-top:4px;}
+mjx-container[display="true"]{overflow-x:auto;overflow-y:hidden;max-width:100%;margin:.6em 0 !important;}
+.acct-bar{max-width:640px;margin:0 auto;padding:10px 16px 0;display:flex;justify-content:space-between;align-items:center;gap:6px 14px;flex-wrap:wrap;font-size:.8rem;color:var(--sub);}
+.acct-bar:empty{display:none;}
+.acct-bar .ok{color:var(--good);font-weight:600;}
+.acct-bar .err{color:var(--bad);}
+.acct-bar .link-btn{font-size:.8rem;}
+.acct-who{display:flex;gap:10px;align-items:center;margin-left:auto;}
+.auth-wrap{max-width:420px;margin:0 auto;padding:36px 16px 80px;}
+.auth-tabs{display:flex;gap:6px;margin-bottom:12px;}
+.auth-tabs button{flex:1;background:transparent;border:1px solid var(--line);color:var(--sub);font-weight:600;}
+.auth-tabs button.on{border-color:var(--accent);color:var(--accent);background:var(--bg);}
+input[type=email],input[type=password]{width:100%;padding:10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:inherit;margin-bottom:8px;}
+.auth-msg{font-size:.86rem;margin:4px 0 12px;line-height:1.4;}
+.auth-msg.err{color:var(--bad);}
+.auth-msg.ok{color:var(--good);}
+button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+.admin-tabs button{padding:9px 4px;font-size:.85rem;white-space:nowrap;}
+.admin-report{padding:8px 0;border-top:1px solid var(--line);}
+.admin-qid{font-size:.75rem;color:var(--sub);margin-bottom:6px;overflow-wrap:anywhere;}
+.admin-qid code{font-size:.75rem;user-select:all;}
+.admin-preview{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line);}
+.uname-status{font-size:.8rem;min-height:1.1em;margin:-4px 0 2px;color:var(--sub);}
+.uname-status.ok{color:var(--good);} .uname-status.err{color:var(--bad);}
+.uname-help{font-size:.76rem;color:var(--sub);margin-bottom:4px;}
+.home-hello{font-weight:700;font-size:1rem;}
+.home-link{font-size:.95rem;font-weight:600;text-decoration:none;}
+.home-continue-name{font-size:1.15rem;font-weight:700;margin-top:2px;}
+.subject-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px;margin-bottom:6px;}
+.subject-card{display:flex;align-items:center;justify-content:space-between;gap:12px;text-align:left;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 16px;color:var(--ink);min-height:74px;}
+.subject-card:hover{border-color:var(--accent);}
+.subject-card-text{display:flex;flex-direction:column;gap:3px;}
+.subject-card-name{font-weight:700;font-size:1rem;}
+.subject-card-detail{font-size:.8rem;color:var(--sub);}
+.subject-card-go{font-size:1.5rem;color:var(--accent);line-height:1;}
+.social-name{font-weight:600;font-size:.95rem;overflow-wrap:anywhere;}
+.nav-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--bad);vertical-align:super;}
+.group-row{display:flex;justify-content:space-between;align-items:center;width:100%;background:none;border:none;border-bottom:1px solid var(--line);padding:12px 2px;color:var(--ink);text-align:left;border-radius:0;}
+.group-row:last-child{border-bottom:none;}
+.group-row > span:first-child{display:flex;flex-direction:column;gap:2px;}
+.chat-card{padding:0;overflow:hidden;}
+.chat-list{height:min(55vh,460px);overflow-y:auto;padding:14px 14px 6px;display:flex;flex-direction:column;gap:10px;}
+.chat-msg{max-width:85%;align-self:flex-start;}
+.chat-msg.mine{align-self:flex-end;text-align:right;}
+.chat-meta{font-size:.72rem;color:var(--sub);margin-bottom:2px;}
+.chat-body{display:inline-block;text-align:left;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:8px 11px;font-size:.93rem;white-space:pre-wrap;overflow-wrap:anywhere;}
+.chat-msg.mine .chat-body{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);}
+.chat-del{background:none;border:none;padding:0 0 0 4px;color:var(--sub);font-size:.72rem;text-decoration:underline;cursor:pointer;}
+.chat-compose{display:flex;gap:8px;padding:10px 12px;border-top:1px solid var(--line);align-items:flex-end;}
+.chat-compose textarea{margin:0;min-height:42px;max-height:140px;resize:vertical;}
+.chat-compose .btn-primary{width:auto;flex-shrink:0;}
+.chat-note{font-size:.72rem;margin:0;padding:0 12px 10px;}
+.lb-row{display:grid;grid-template-columns:28px 1fr auto auto;gap:12px;align-items:center;padding:10px 4px;border-bottom:1px solid var(--line);}
+.lb-row:last-child{border-bottom:none;}
+.lb-row.me{background:var(--bg);border-radius:8px;}
+.lb-rank{font-weight:800;color:var(--sub);text-align:center;}
+.lb-name{font-weight:600;overflow-wrap:anywhere;}
+.lb-num{display:flex;flex-direction:column;align-items:flex-end;font-size:.95rem;}
+.lb-num span{font-size:.68rem;color:var(--sub);}
+.share-row{display:flex;justify-content:space-between;gap:10px;padding:10px 0;border-bottom:1px solid var(--line);align-items:flex-start;flex-wrap:wrap;}
+.share-row:last-child{border-bottom:none;}
+.tab-bar{position:fixed;left:0;right:0;bottom:0;z-index:30;display:flex;justify-content:space-around;background:var(--panel);border-top:1px solid var(--line);padding:6px 4px calc(6px + env(safe-area-inset-bottom,0px));}
+.tab-btn{flex:1;max-width:120px;display:flex;flex-direction:column;align-items:center;gap:2px;background:none;border:none;padding:4px 0;color:var(--sub);font-size:.7rem;font-weight:600;border-radius:10px;}
+.tab-btn.on{color:var(--accent);}
+.tab-btn:focus-visible{outline:2px solid var(--accent);}
+.tab-ico{position:relative;display:inline-flex;}
+.tab-badge{position:absolute;top:-5px;right:-10px;min-width:17px;height:17px;padding:0 4px;border-radius:9px;background:var(--bad);color:#fff;font-size:.65rem;font-weight:700;display:flex;align-items:center;justify-content:center;}
+body.has-tabbar .wrap{padding-bottom:calc(90px + env(safe-area-inset-bottom,0px));}
+body.has-tabbar .toast{bottom:calc(78px + env(safe-area-inset-bottom,0px));}
+.inbox-row{display:flex;align-items:center;gap:12px;width:100%;background:none;border:none;border-bottom:1px solid var(--line);padding:12px 2px;color:var(--ink);text-align:left;border-radius:0;}
+.inbox-row:last-child{border-bottom:none;}
+.inbox-icon{font-size:1.3rem;width:36px;height:36px;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.inbox-icon.avatar{border-radius:50%;background:var(--accent);color:var(--accent-ink);font-weight:700;font-size:1rem;}
+.inbox-text{flex:1;display:flex;flex-direction:column;gap:3px;min-width:0;}
+.new-pill{display:inline-block;background:var(--bad);color:#fff;font-size:.65rem;font-weight:700;border-radius:8px;padding:1px 6px;vertical-align:middle;}
+.share-bubble{display:flex;gap:10px;align-items:center;text-align:left;margin-top:4px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:9px 12px;color:var(--ink);font-size:.85rem;}
+.share-bubble span span{color:var(--accent);font-size:.78rem;}
+.subject-bar{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px;}
+.subject-select{width:auto;max-width:62%;margin:0;padding:8px 10px;font-weight:600;border-radius:10px;}
+.coin-pill{background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:20px;padding:7px 12px;font-weight:700;font-size:.9rem;white-space:nowrap;}
+.coin-pill span{color:var(--accent);font-weight:600;margin-left:4px;}
+.topic-row.soon .topic-name{color:var(--sub);font-weight:500;}
+.shop-balance{text-align:center;}
+.coin-big{font-size:2.2rem;font-weight:800;letter-spacing:-.01em;}
+.shop-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px;}
+.shop-card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:10px;display:flex;flex-direction:column;gap:8px;}
+.shop-card.active{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent);}
+.swatch{display:grid;grid-template-columns:1fr 1fr;height:64px;border-radius:9px;overflow:hidden;border:1px solid var(--line);}
+.swatch-half{position:relative;display:flex;align-items:center;justify-content:center;}
+.swatch-rainbow{position:absolute;left:0;right:0;top:0;height:5px;}
+.swatch-btn{padding:4px 10px;border-radius:7px;font-weight:700;font-size:.8rem;}
+.shop-name{font-weight:700;}
+.shop-btn{width:100%;padding:9px 8px;font-size:.85rem;}
+.shop-btn[disabled]{opacity:.75;cursor:default;}
+@media (max-width:420px){ .toprow-links{gap:12px;margin-left:0;} .nav-link{font-size:1rem;padding:6px 1px;} }
+</style>
+<script>window.MathJax={tex:{inlineMath:[['$','$']],displayMath:[['$$','$$']],processEscapes:true,macros:{pounds:'\\text{£}'}},svg:{fontCache:'local'},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code','svg']}};</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-svg.js"></script>
+</head>
+<body>
+<div id="mjNote" style="display:none;position:sticky;top:0;z-index:6;background:var(--warn);color:#fff;padding:8px 14px;font-size:.82rem;text-align:center;">Equations need an internet connection to display properly — connect and reload the page.</div>
+<script>
+(function(){
+  var n=0, iv=setInterval(function(){
+    var el=document.getElementById("mjNote"); if(!el) return; n++;
+    var ok = window.MathJax && window.MathJax.typesetPromise;
+    if(ok){ el.style.display="none"; clearInterval(iv); }
+    else if(n>=3){ el.style.display="block"; }
+    if(n>=40) clearInterval(iv);
+  }, 1500);
+})();
+</script>
+<div class="acct-bar" id="acctBar"></div>
+<div id="authScreen" style="display:none"></div>
+<div class="wrap" id="app"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+// ================= Accounts (Supabase) =================
+// To turn on accounts, paste your Supabase Project URL and publishable/anon key below.
+// Leave both empty and the site works as before: progress is saved in this browser only.
+const SUPABASE_URL = "https://daldnmzegopgvmddokdv.supabase.co";
+const SUPABASE_KEY = "sb_publishable_YHfamnrt_os7C29yJ0JH-Q_z6TMmaD9";
+
+const META_KEY = "alevel_maths_meta_v1";
+const GUEST_KEY = "alevel_maths_guest_v1";
+const PENDING_KEY = "alevel_maths_pending_signup_v1";
+let sb = null, user = null, syncTimer = null, syncing = false, syncAgain = false, applyingRemote = false, lastSyncOk = true, barStatus = "";
+
+function accountsEnabled(){ return !!(SUPABASE_URL && SUPABASE_KEY); }
+function isHosted(){ return /^https?:$/.test(location.protocol); }
+function herePage(){ return location.origin + location.pathname; }
+
+// ---- change tracking, so two devices can be merged without losing edits or bringing back deletions ----
+function metaFix(m){
+  m = m || {}; m.tomb = m.tomb || {}; m.tomb.custom = m.tomb.custom || {}; m.tomb.reports = m.tomb.reports || {}; m.tomb.decks = m.tomb.decks || {};
+  m.stamp = m.stamp || {}; m.stamp.custom = m.stamp.custom || {}; m.stamp.attempts = m.stamp.attempts || {}; m.stamp.decks = m.stamp.decks || {};
+  m.resetAt = m.resetAt || 0; return m;
+}
+function metaLoad(){ try{ return metaFix(JSON.parse(localStorage.getItem(META_KEY))); }catch(e){ return metaFix({}); } }
+function metaSave(m){ try{ localStorage.setItem(META_KEY, JSON.stringify(m)); }catch(e){} }
+function reportKey(r){ return String(r.id) + "|" + r.ts; }
+function flatCustom(c){ const out = {}; (c||[]).forEach(t=>(t.questions||[]).forEach(q=>{ out[q.id] = q; })); return out; }
+function trackCustomChanges(oldC, newC){
+  const m = metaLoad(), now = Date.now(), a = flatCustom(oldC), b = flatCustom(newC);
+  Object.keys(a).forEach(id=>{ if(!b[id]) m.tomb.custom[id] = now; });
+  Object.keys(b).forEach(id=>{ if(!a[id] || JSON.stringify(a[id])!==JSON.stringify(b[id])){ m.stamp.custom[id] = now; delete m.tomb.custom[id]; } });
+  metaSave(m);
+}
+function trackAttemptChanges(oldA, newA){
+  const old = {}; (oldA||[]).forEach(a=>{ old[a.id] = a; });
+  const m = metaLoad(), now = Date.now(); let changed = false;
+  (newA||[]).forEach(a=>{ const o = old[a.id]; if(o && o.rating!==a.rating){ m.stamp.attempts[a.id] = now; changed = true; } });
+  if(changed) metaSave(m);
+}
+function trackReportChanges(oldR, newR){
+  const keep = new Set((newR||[]).map(reportKey)), m = metaLoad(), now = Date.now(); let changed = false;
+  (oldR||[]).forEach(r=>{ const k = reportKey(r); if(!keep.has(k)){ m.tomb.reports[k] = now; changed = true; } });
+  if(changed) metaSave(m);
+}
+function trackDeckChanges(oldD, newD){
+  const m = metaLoad(), now = Date.now(), a = {}, b = {};
+  (oldD||[]).forEach(d=>{ a[d.id] = d; }); (newD||[]).forEach(d=>{ b[d.id] = d; });
+  Object.keys(a).forEach(id=>{ if(!b[id]) m.tomb.decks[id] = now; });
+  Object.keys(b).forEach(id=>{ if(!a[id] || JSON.stringify(a[id])!==JSON.stringify(b[id])){ m.stamp.decks[id] = now; delete m.tomb.decks[id]; } });
+  metaSave(m);
+}
+function markReset(){ const m = metaLoad(); m.resetAt = Date.now(); m.stamp.attempts = {}; metaSave(m); }
+
+// ---- merging ----
+function localBlob(){
+  return { progress:loadJSON(PROGRESS_KEY,{}), qstate:loadJSON(QSTATE_KEY,{}), attempts:loadJSON(ATTEMPTS_KEY,[]),
+           custom:loadJSON(CUSTOM_KEY,[]), reports:loadJSON(REPORTS_KEY,[]), decks:loadJSON(DECKS_KEY,[]), shop:loadJSON(SHOP_KEY,{}), meta:metaLoad() };
+}
+function localHasData(){
+  const b = localBlob();
+  return b.attempts.length>0 || b.custom.length>0 || b.decks.length>0 || b.reports.length>0 || Object.keys(b.qstate).length>0 || Object.keys(b.progress).length>0;
+}
+function clearLocalData(){ [PROGRESS_KEY, CUSTOM_KEY, QSTATE_KEY, REPORTS_KEY, ATTEMPTS_KEY, DECKS_KEY, SHOP_KEY, META_KEY, REPORT_QUEUE_KEY, USERNAME_KEY, WALLET_KEY, AWARD_QUEUE_KEY, INBOX_SEEN_KEY].forEach(k=>{ try{ localStorage.removeItem(k); }catch(e){} }); }
+function maxMap(a, b){ const o = {...(a||{})}; for(const k in (b||{})) o[k] = Math.max(o[k]||0, b[k]||0); return o; }
+function deriveProgress(attempts){
+  const by = {};
+  attempts.forEach(a=>{
+    const key = topicKey(a.subject, a.topic);
+    const s = by[key] || (by[key] = {seen:0, correct:0, silly:0, wrong:0, possibleMarks:0, earnedPoints:0});
+    const marks = a.marks||1;
+    s.seen++;
+    if(a.rating==="correct") s.correct++; else if(a.rating==="silly") s.silly++; else s.wrong++;
+    s.possibleMarks += marks; s.earnedPoints += ratingDelta(a.rating, a.hints, marks);
+  });
+  return by;
+}
+function mergeBlobs(L, R){
+  L = L || {}; R = R || {};
+  const lm = metaFix(L.meta), rm = metaFix(R.meta);
+  const meta = { owner:lm.owner, resetAt:Math.max(lm.resetAt, rm.resetAt),
+    tomb:{ custom:maxMap(lm.tomb.custom, rm.tomb.custom), reports:maxMap(lm.tomb.reports, rm.tomb.reports), decks:maxMap(lm.tomb.decks, rm.tomb.decks) },
+    stamp:{ custom:maxMap(lm.stamp.custom, rm.stamp.custom), attempts:maxMap(lm.stamp.attempts, rm.stamp.attempts), decks:maxMap(lm.stamp.decks, rm.stamp.decks) } };
+
+  const am = {};
+  (R.attempts||[]).forEach(a=>{ am[a.id] = {a, s:rm.stamp.attempts[a.id]||0}; });
+  (L.attempts||[]).forEach(a=>{ const s = lm.stamp.attempts[a.id]||0; if(!am[a.id] || s>=am[a.id].s) am[a.id] = {a, s}; });
+  const attempts = Object.values(am).map(x=>x.a).filter(a=>(a.ts||0)>=meta.resetAt).sort((x,y)=>(x.ts||0)-(y.ts||0));
+
+  const qstate = {}, lq = L.qstate||{}, rq = R.qstate||{};
+  new Set([...Object.keys(lq), ...Object.keys(rq)]).forEach(id=>{
+    const a = lq[id], b = rq[id];
+    const w = !b ? a : !a ? b : ((a.t||0)>=(b.t||0) ? a : b);
+    if(meta.resetAt && (w.t||0)<meta.resetAt) return;
+    qstate[id] = w;
+  });
+
+  const progress = deriveProgress(attempts);
+  if(!meta.resetAt){
+    const lp = L.progress||{}, rp = R.progress||{};
+    new Set([...Object.keys(lp), ...Object.keys(rp)]).forEach(t=>{
+      if(progress[t]) return;
+      const a = lp[t], b = rp[t];
+      progress[t] = !b ? a : !a ? b : ((a.seen||0)>=(b.seen||0) ? a : b);
+    });
+  }
+
+  const cm = {}, order = [], cats = {};
+  const ckey = t=>((t && t.subject) || "alevel-maths") + "|" + t.topic;
+  const addSide = (c, stamps, isLocal)=>{
+    (c||[]).forEach(t=>{
+      const k = ckey(t);
+      if(!order.includes(k)) order.push(k);
+      if(!cats[k] || isLocal) cats[k] = {topic:t.topic, category:t.category, subject:t.subject};
+      (t.questions||[]).forEach(q=>{
+        const s = stamps[q.id]||0, cur = cm[q.id];
+        if(!cur || (isLocal ? s>=cur.s : s>cur.s)) cm[q.id] = {q, key:k, s};
+      });
+    });
+  };
+  addSide(L.custom, lm.stamp.custom, true);
+  addSide(R.custom, rm.stamp.custom, false);
+  const byTopic = {};
+  Object.entries(cm).forEach(([id, x])=>{
+    const dead = meta.tomb.custom[id];
+    if(dead && dead>=(meta.stamp.custom[id]||0)) return;
+    (byTopic[x.key] = byTopic[x.key] || []).push(x.q);
+  });
+  const custom = order.filter(k=>byTopic[k] && byTopic[k].length).map(k=>{
+    const c = cats[k], e = {topic:c.topic, category:c.category, questions:byTopic[k]};
+    if(c.subject) e.subject = c.subject;
+    return e;
+  });
+
+  const rmap = {};
+  [...(R.reports||[]), ...(L.reports||[])].forEach(r=>{ const k = reportKey(r); if(!meta.tomb.reports[k]) rmap[k] = r; });
+  const reports = Object.values(rmap).sort((x,y)=>(x.ts||0)-(y.ts||0));
+
+  const dm = {}, dOrder = [];
+  (L.decks||[]).forEach(d=>{ dOrder.push(d.id); dm[d.id] = {d, s:lm.stamp.decks[d.id]||0}; });
+  (R.decks||[]).forEach(d=>{ const s = rm.stamp.decks[d.id]||0; if(!dm[d.id]){ dOrder.push(d.id); dm[d.id] = {d, s}; } else if(s>dm[d.id].s) dm[d.id] = {d, s}; });
+  const decks = dOrder.filter(id=>{ const dead = meta.tomb.decks[id]; return !(dead && dead>=(meta.stamp.decks[id]||0)); }).map(id=>dm[id].d);
+
+  const ls = L.shop||{}, rs = R.shop||{};
+  const la = ls.active||{t:0}, ra = rs.active||{t:0};
+  const shop = { active:(la.t||0)>=(ra.t||0) ? la : ra };
+  if(!shop.active.id) shop.active = {id:"classic", t:0};
+
+  return { progress, qstate, attempts, custom, reports, decks, shop, meta };
+}
+function writeLocal(b){
+  applyingRemote = true;
+  try{
+    localStorage.setItem(PROGRESS_KEY, JSON.stringify(b.progress));
+    localStorage.setItem(QSTATE_KEY, JSON.stringify(b.qstate));
+    localStorage.setItem(ATTEMPTS_KEY, JSON.stringify(b.attempts));
+    localStorage.setItem(CUSTOM_KEY, JSON.stringify(b.custom));
+    localStorage.setItem(REPORTS_KEY, JSON.stringify(b.reports));
+    localStorage.setItem(DECKS_KEY, JSON.stringify(b.decks||[]));
+    localStorage.setItem(SHOP_KEY, JSON.stringify(b.shop||{}));
+    metaSave(b.meta);
+  }catch(e){} finally{ applyingRemote = false; }
+}
+function forCloud(b){ const meta = {...b.meta}; delete meta.owner; return {...b, meta}; }
+function sameData(a, b){ return JSON.stringify(forCloud(a))===JSON.stringify(forCloud(b)); }
+
+// ---- syncing ----
+function cloudSchedule(){
+  if(applyingRemote || !user) return;
+  setBar("saving");
+  clearTimeout(syncTimer);
+  syncTimer = setTimeout(syncNow, 1500);
+}
+async function syncNow(){
+  if(!user || !sb) return false;
+  clearTimeout(syncTimer);
+  if(syncing){ syncAgain = true; return false; }
+  syncing = true;
+  try{
+    const res = await sb.from("progress").select("data").eq("user_id", user.id).maybeSingle();
+    if(res.error) throw res.error;
+    const before = localBlob();
+    const merged = mergeBlobs(before, res.data && res.data.data ? res.data.data : {});
+    const changed = !sameData(merged, before);
+    if(changed) writeLocal(merged);
+    const up = await sb.from("progress").upsert({ user_id:user.id, data:forCloud(merged), updated_at:new Date().toISOString() });
+    if(up.error) throw up.error;
+    lastSyncOk = true;
+    setBar("saved");
+    flushReports();
+    flushAwards();
+    if(changed) refreshApp();
+  }catch(e){
+    lastSyncOk = false;
+    setBar(navigator.onLine===false ? "offline" : "error");
+    console.error("Sync failed:", e);
+  }finally{
+    syncing = false;
+    if(syncAgain){ syncAgain = false; syncNow(); }
+  }
+  return lastSyncOk;
+}
+function refreshApp(){
+  state.progress = loadProgress();
+  applyShopTheme();
+  const a = document.activeElement;
+  const typing = a && /^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName);
+  if(["home","select","stats","browse","decks","shop","friends"].includes(state.screen) && !typing && document.getElementById("app").style.display!=="none") render();
+}
+
+// ---- status bar ----
+function setBar(status){
+  barStatus = status || barStatus;
+  const el = document.getElementById("acctBar");
+  if(!el) return;
+  if(!accountsEnabled()){ el.innerHTML = ""; return; }
+  const msgs = {
+    loading:`<span>Loading…</span>`,
+    saving:`<span>Saving…</span>`,
+    saved:`<span class="ok">✓ Saved to your account</span>`,
+    offline:`<span class="err">Offline. Saving on this device and will sync when you reconnect.</span>`,
+    error:`<span class="err">Couldn't reach your account. Saving on this device for now.</span> <button class="link-btn" id="retrySyncBtn">Try again</button>`,
+    guest:`<span>Progress is saved on this device only.</span>`,
+    unavailable:`<span class="err">Log in isn't available right now. Progress is saving on this device.</span>`
+  };
+  let right = "";
+  if(user) right = `<span class="acct-who"><span title="${esc(user.email||"")}">${user.username ? "@"+esc(user.username) : esc(user.email||"")}</span><button class="link-btn" id="logoutBtn">Log out</button></span>`;
+  else if(barStatus==="guest") right = `<button class="link-btn" id="showLoginBtn">Log in or create account</button>`;
+  el.innerHTML = `<div class="acct-status">${msgs[barStatus]||""}</div>${right}`;
+  const lo = document.getElementById("logoutBtn"); if(lo) lo.onclick = logOut;
+  const sl = document.getElementById("showLoginBtn"); if(sl) sl.onclick = ()=>showAuth("login");
+  const rt = document.getElementById("retrySyncBtn"); if(rt) rt.onclick = ()=>{ setBar("saving"); syncNow(); };
+}
+
+// ---- login screen ----
+let authMode = "login";
+function authHtml(mode, msg, cls){
+  const m = msg ? `<div class="auth-msg ${cls||"err"}" role="status">${esc(msg)}</div>` : "";
+  const guestBtn = `<button type="button" class="skip-link" id="authGuest">Continue without an account</button>`;
+  let body = "";
+  if(mode==="login" || mode==="signup"){
+    const su = mode==="signup";
+    body = `
+      <div class="auth-tabs" role="tablist">
+        <button type="button" id="tabLogin" class="${su?"":"on"}" aria-selected="${!su}">Log in</button>
+        <button type="button" id="tabSignup" class="${su?"on":""}" aria-selected="${su}">Create account</button>
+      </div>
+      <form id="authForm" novalidate>
+        ${su ? `<label class="field" for="authUser">Username</label>
+        <input type="text" id="authUser" autocomplete="username" maxlength="20" autocapitalize="off" spellcheck="false" required>
+        <div class="uname-status" id="unameStatus"></div>
+        <div class="uname-help">3–20 letters, numbers or underscores. You can't change it later.</div>` : ""}
+        <label class="field" for="authEmail">Email</label>
+        <input type="email" id="authEmail" autocomplete="email" required>
+        <label class="field" for="authPass">Password${su?" (at least 6 characters)":""}</label>
+        <input type="password" id="authPass" autocomplete="${su?"new-password":"current-password"}" required>
+        ${m}
+        <button type="submit" class="btn-primary" id="authGo">${su?"Create account":"Log in"}</button>
+      </form>
+      ${su?"":`<button type="button" class="link-btn" id="authForgot" style="margin-top:14px;">Forgot password?</button>`}`;
+  }else if(mode==="forgot"){
+    body = `
+      <h2>Reset your password</h2>
+      <form id="authForm" novalidate>
+        <label class="field" for="authEmail">Email</label>
+        <input type="email" id="authEmail" autocomplete="email" required>
+        ${m}
+        <button type="submit" class="btn-primary" id="authGo">Send reset link</button>
+      </form>
+      <button type="button" class="link-btn" id="authBack" style="margin-top:14px;">Back to log in</button>`;
+  }else if(mode==="username"){
+    body = `
+      <h2>Choose your username</h2>
+      <div class="sub" style="margin-bottom:6px;">Pick a username for your account. It must be unique, and you can't change it later.</div>
+      <form id="authForm" novalidate>
+        <label class="field" for="authUser">Username</label>
+        <input type="text" id="authUser" autocomplete="username" maxlength="20" autocapitalize="off" spellcheck="false" required>
+        <div class="uname-status" id="unameStatus"></div>
+        <div class="uname-help">3–20 letters, numbers or underscores.</div>
+        ${m}
+        <button type="submit" class="btn-primary" id="authGo">Save username</button>
+      </form>
+      <button type="button" class="link-btn" id="authLogout" style="margin-top:14px;">Log out</button>`;
+  }else if(mode==="newpass"){
+    body = `
+      <h2>Choose a new password</h2>
+      <form id="authForm" novalidate>
+        <label class="field" for="authPass">New password (at least 6 characters)</label>
+        <input type="password" id="authPass" autocomplete="new-password" required>
+        <label class="field" for="authPass2">Type it again</label>
+        <input type="password" id="authPass2" autocomplete="new-password" required>
+        ${m}
+        <button type="submit" class="btn-primary" id="authGo">Save new password</button>
+      </form>`;
+  }
+  return `<div class="auth-wrap">
+    <h1>${esc(SITE_NAME)}</h1>
+    ${mode==="username" ? "" : `<div class="sub">Log in to save your progress to your account and carry on from any device.</div>`}
+    <div class="card">${body}</div>
+    ${mode==="newpass" || mode==="username" ? "" : guestBtn}
+  </div>`;
+}
+function showAuth(mode, msg, cls){
+  authMode = mode;
+  const email = document.getElementById("authEmail");
+  const keepEmail = email ? email.value : "";
+  const un = document.getElementById("authUser"); const keepUser = un ? un.value : "";
+  document.getElementById("app").style.display = "none";
+  const el = document.getElementById("authScreen");
+  el.style.display = "block";
+  el.innerHTML = authHtml(mode, msg, cls);
+  if(typeof updateTabBar==="function") updateTabBar();
+  const e2 = document.getElementById("authEmail"); if(e2 && keepEmail) e2.value = keepEmail;
+  const u2 = document.getElementById("authUser"); if(u2 && keepUser) u2.value = keepUser;
+  if(!user && barStatus!=="unavailable") document.getElementById("acctBar").innerHTML = "";
+  attachAuth();
+  window.scrollTo(0,0);
+}
+function hideAuth(){
+  document.getElementById("authScreen").style.display = "none";
+  document.getElementById("authScreen").innerHTML = "";
+  document.getElementById("app").style.display = "";
+  state.progress = loadProgress();
+  render();
+}
+function authBusy(on){ const b = document.getElementById("authGo"); if(b){ b.disabled = on; b.style.opacity = on ? .6 : 1; } }
+function friendlyAuthError(err){
+  const t = String(err && err.message || err || "");
+  if(/invalid login credentials/i.test(t)) return "That email and password don't match an account.";
+  if(/email not confirmed/i.test(t)) return "Confirm your email first. Check your inbox for the link, then log in.";
+  if(/already registered|already exists/i.test(t)) return "There's already an account with this email. Log in instead.";
+  if(/rate limit|too many/i.test(t)) return "Too many attempts. Wait a few minutes and try again.";
+  if(/username_available|profiles/i.test(t)) return "Usernames aren't set up on the server yet. Run the username SQL in Supabase.";
+  if(/failed to fetch|network/i.test(t)) return "Couldn't connect. Check your internet connection and try again.";
+  if(/password/i.test(t) && /(6|characters|short|weak)/i.test(t)) return "Choose a longer password (at least 6 characters).";
+  return t || "Something went wrong. Try again.";
+}
+function attachAuth(){
+  const g = (id)=>document.getElementById(id);
+  if(g("tabLogin")) g("tabLogin").onclick = ()=>showAuth("login");
+  if(g("tabSignup")) g("tabSignup").onclick = ()=>showAuth("signup");
+  if(g("authForgot")) g("authForgot").onclick = ()=>showAuth("forgot");
+  if(g("authBack")) g("authBack").onclick = ()=>showAuth("login");
+  if(g("authLogout")) g("authLogout").onclick = logOut;
+  watchUsernameField();
+  if(g("authGuest")) g("authGuest").onclick = ()=>{ localStorage.setItem(GUEST_KEY, "1"); hideAuth(); setBar("guest"); };
+  const f = g("authForm");
+  if(f) f.onsubmit = async (ev)=>{
+    ev.preventDefault();
+    const email = g("authEmail") ? g("authEmail").value.trim() : "";
+    const pass = g("authPass") ? g("authPass").value : "";
+    const uname = g("authUser") ? g("authUser").value.trim() : "";
+    if((authMode==="signup" || authMode==="username") && usernameProblem(uname)) return showAuth(authMode, usernameProblem(uname));
+    if(authMode!=="newpass" && authMode!=="username" && !/^\S+@\S+\.\S+$/.test(email)) return showAuth(authMode, "Enter a valid email address.");
+    authBusy(true);
+    try{
+      if(authMode==="login"){
+        const { data, error } = await sb.auth.signInWithPassword({ email, password:pass });
+        if(error) throw error;
+        await afterLogin(data.user, false);
+      }else if(authMode==="signup"){
+        if(pass.length<6) return showAuth("signup", "Choose a longer password (at least 6 characters).");
+        if(!(await usernameAvailable(uname))) return showAuth("signup", `“${uname}” is taken. Try another username.`);
+        const opts = { data:{ username:uname }, ...(isHosted() ? { emailRedirectTo:herePage() } : {}) };
+        const { data, error } = await sb.auth.signUp({ email, password:pass, options:opts });
+        if(error) throw error;
+        if(data.user && Array.isArray(data.user.identities) && data.user.identities.length===0)
+          return showAuth("login", "There's already an account with this email. Log in instead.");
+        if(data.session) await afterLogin(data.user, true);
+        else{
+          localStorage.setItem(PENDING_KEY, email.toLowerCase());
+          showAuth("login", "Account created. Check your email for a confirmation link, then log in.", "ok");
+        }
+      }else if(authMode==="username"){
+        const r = await claimUsername(uname);
+        if(r==="taken") return showAuth("username", `“${uname}” is taken. Try another username.`);
+        await finishLogin();
+      }else if(authMode==="forgot"){
+        if(!isHosted()) return showAuth("forgot", "Password reset only works once the site is online at a web address, not from a downloaded file.");
+        const { error } = await sb.auth.resetPasswordForEmail(email, { redirectTo:herePage() });
+        if(error) throw error;
+        showAuth("forgot", "If there's an account for that email, a reset link is on its way. Check your inbox.", "ok");
+      }else if(authMode==="newpass"){
+        if(pass.length<6) return showAuth("newpass", "Choose a longer password (at least 6 characters).");
+        if(pass!==g("authPass2").value) return showAuth("newpass", "The two passwords don't match.");
+        const { data, error } = await sb.auth.updateUser({ password:pass });
+        if(error) throw error;
+        cleanUrl();
+        await afterLogin(data.user, false);
+      }
+    }catch(err){
+      showAuth(authMode, friendlyAuthError(err));
+    }finally{ authBusy(false); }
+  };
+}
+function cleanUrl(){ if(location.hash || /[?&](code|error)=/.test(location.search)) history.replaceState(null, "", location.pathname); }
+
+
+// ---- usernames ----
+const USERNAME_KEY = "alevel_maths_username_v1";
+const USERNAME_RE = /^[A-Za-z0-9_]{3,20}$/;
+function usernameProblem(name){
+  if(!name) return "Choose a username.";
+  if(name.length<3) return "Usernames need at least 3 characters.";
+  if(name.length>20) return "Usernames can be at most 20 characters.";
+  if(!USERNAME_RE.test(name)) return "Use only letters, numbers and underscores (no spaces).";
+  return "";
+}
+function cachedUsername(){ try{ const c = JSON.parse(localStorage.getItem(USERNAME_KEY)); return c && user && c.uid===user.id ? c.name : ""; }catch(e){ return ""; } }
+function cacheUsername(name){ try{ localStorage.setItem(USERNAME_KEY, JSON.stringify({uid:user.id, name})); }catch(e){} user.username = name; }
+async function usernameAvailable(name){
+  const { data, error } = await sb.rpc("username_available", { name });
+  if(error) throw error;
+  return !!data;
+}
+async function claimUsername(name){
+  const { error } = await sb.from("profiles").insert({ user_id:user.id, username:name });
+  if(error){
+    if(error.code==="23505" || /duplicate|unique/i.test(error.message||"")) return "taken";
+    throw error;
+  }
+  cacheUsername(name);
+  return "ok";
+}
+// Returns true when the account has a username (or we can't check right now), false if one must be chosen.
+async function ensureUsername(){
+  try{
+    const { data, error } = await sb.from("profiles").select("username").eq("user_id", user.id).maybeSingle();
+    if(error) throw error;
+    if(data && data.username){ cacheUsername(data.username); return true; }
+    const wanted = (user.user_metadata && user.user_metadata.username) || "";
+    if(wanted && !usernameProblem(wanted)){
+      const r = await claimUsername(wanted);
+      if(r==="ok") return true;
+      pendingUsernameMsg = `Sorry, “${wanted}” was taken by someone else before your account was confirmed. Choose another.`;
+    }
+    return false;
+  }catch(e){
+    const c = cachedUsername(); if(c) user.username = c;
+    return true; // offline or temporary error: don't lock the person out
+  }
+}
+let pendingUsernameMsg = "";
+async function finishLogin(){
+  const ok = await ensureUsername();
+  if(!ok){ showAuth("username", pendingUsernameMsg, pendingUsernameMsg ? "err" : ""); pendingUsernameMsg = ""; return; }
+  state.screen = "home"; document.title = SITE_NAME;
+  applyShopTheme();
+  hideAuth();
+  setBar("saving");
+  checkAdmin();
+  refreshWallet();
+  loadSocial();
+  loadInbox();
+  startInboxPolling();
+  await syncNow();
+}
+let unameTimer = null;
+function watchUsernameField(){
+  const f = document.getElementById("authUser"), out = document.getElementById("unameStatus");
+  if(!f || !out) return;
+  f.oninput = ()=>{
+    clearTimeout(unameTimer);
+    const name = f.value.trim();
+    const prob = usernameProblem(name);
+    if(!name){ out.textContent = ""; return; }
+    if(prob){ out.textContent = prob; out.className = "uname-status err"; return; }
+    out.textContent = "Checking…"; out.className = "uname-status";
+    unameTimer = setTimeout(async ()=>{
+      try{
+        const free = await usernameAvailable(name);
+        if(f.value.trim()!==name) return;
+        out.textContent = free ? `✓ ${name} is available` : `${name} is taken. Try another.`;
+        out.className = "uname-status " + (free ? "ok" : "err");
+      }catch(e){ out.textContent = ""; }
+    }, 400);
+  };
+}
+async function afterLogin(u, isNew){
+  if(!u) return;
+  const m = metaLoad();
+  const pending = localStorage.getItem(PENDING_KEY);
+  const justConfirmed = pending && u.email && pending===u.email.toLowerCase();
+  if(m.owner!==u.id && localHasData() && !isNew && !justConfirmed){
+    const add = confirm("This browser has practice progress that isn't saved to your account.\n\nOK: add it to your account\nCancel: discard it and load your account's progress");
+    if(!add) clearLocalData();
+  }else if(m.owner && m.owner!==u.id){
+    clearLocalData();
+  }
+  const m2 = metaLoad(); m2.owner = u.id; metaSave(m2);
+  localStorage.removeItem(GUEST_KEY);
+  localStorage.removeItem(PENDING_KEY);
+  user = u;
+  await finishLogin();
+}
+async function logOut(){
+  if(user){
+    setBar("saving");
+    const ok = await syncNow();
+    if(!ok && !confirm("Your latest progress hasn't reached your account yet (you may be offline). Log out anyway and lose it?")) return;
+  }
+  try{ await sb.auth.signOut(); }catch(e){}
+  clearLocalData();
+  localStorage.removeItem(GUEST_KEY);
+  location.reload();
+}
+
+function initAccounts(){
+  if(!accountsEnabled()) return;
+  if(!window.supabase || !window.supabase.createClient){ setBar("unavailable"); return; }
+  sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY, { auth:{ persistSession:true, autoRefreshToken:true, detectSessionInUrl:true } });
+  const hash = location.hash + location.search;
+  const recovery = /type=recovery/.test(hash);
+  const linkError = (hash.match(/error_description=([^&]+)/)||[])[1];
+  const guest = localStorage.getItem(GUEST_KEY)==="1";
+  if(!guest || recovery){ document.getElementById("app").style.display = "none"; setBar("loading"); }
+  let inRecovery = recovery;
+  sb.auth.onAuthStateChange((event, session)=>{
+    if(event==="PASSWORD_RECOVERY"){ inRecovery = true; setTimeout(()=>showAuth("newpass"), 0); }
+  });
+  sb.auth.getSession().then(({ data })=>{
+    const s = data && data.session;
+    if(linkError){
+      cleanUrl();
+      return showAuth(recovery ? "forgot" : "login", "That link has expired or was already used. " + (recovery ? "Send a new reset link." : "Log in, or request a new link."));
+    }
+    if(inRecovery){ if(s) return showAuth("newpass"); return showAuth("forgot", "That reset link has expired. Send a new one."); }
+    cleanUrl();
+    if(s) afterLogin(s.user, false);
+    else if(guest){ document.getElementById("app").style.display = ""; setBar("guest"); }
+    else showAuth("login");
+  }).catch(()=>{ document.getElementById("app").style.display = ""; setBar("unavailable"); });
+  window.addEventListener("online", ()=>{ if(user) syncNow(); });
+  document.addEventListener("visibilitychange", ()=>{ if(user && document.visibilityState==="visible") syncNow(); });
+}
+
+// ================= Question reports + admin screen =================
+const REPORT_QUEUE_KEY = "alevel_maths_report_queue_v1";
+let isAdmin = false, adminOpenCount = 0;
+const admin = { status:"open", loading:false, error:"", reports:[], expanded:{} };
+
+// Reports are queued on the device and sent when the person is logged in and online.
+function queueReport(r){
+  const q = loadJSON(REPORT_QUEUE_KEY, []);
+  q.push(r);
+  try{ localStorage.setItem(REPORT_QUEUE_KEY, JSON.stringify(q)); }catch(e){}
+  flushReports();
+}
+let flushingReports = false;
+async function flushReports(){
+  if(!user || !sb || flushingReports) return;
+  const q = loadJSON(REPORT_QUEUE_KEY, []);
+  if(!q.length) return;
+  flushingReports = true;
+  try{
+    const rows = q.map(r=>({ question_id:String(r.id), topic:String(r.topic||"").slice(0,200), prompt_snippet:String(r.prompt||"").slice(0,300),
+                             reason:String(r.reason||"").slice(0,100), comment:String(r.comment||"").slice(0,2000), user_id:user.id }));
+    const { error } = await sb.from("reports").insert(rows);
+    if(!error){
+      const now = loadJSON(REPORT_QUEUE_KEY, []);
+      try{ localStorage.setItem(REPORT_QUEUE_KEY, JSON.stringify(now.slice(q.length))); }catch(e){}
+    }else console.error("Report upload failed:", error);
+  }catch(e){ console.error("Report upload failed:", e); }
+  finally{ flushingReports = false; }
+}
+
+async function checkAdmin(){
+  isAdmin = false;
+  if(!user || !sb) return;
+  try{
+    const { data } = await sb.from("admins").select("user_id").eq("user_id", user.id).maybeSingle();
+    isAdmin = !!data;
+    if(isAdmin) await refreshAdminCount();
+  }catch(e){}
+  if((state.screen==="select" || state.screen==="home") && document.getElementById("app").style.display!=="none") render();
+}
+async function refreshAdminCount(){
+  try{
+    const { count } = await sb.from("reports").select("id", { count:"exact", head:true }).eq("status", "open");
+    adminOpenCount = count || 0;
+  }catch(e){}
+}
+async function loadAdminReports(){
+  admin.loading = true; admin.error = ""; render();
+  try{
+    let q = sb.from("reports").select("*");
+    if(admin.status!=="all") q = q.eq("status", admin.status);
+    const { data, error } = await q.order("created_at", { ascending:false }).limit(1000);
+    if(error) throw error;
+    admin.reports = data || [];
+    const ids = [...new Set(admin.reports.map(r=>r.user_id).filter(Boolean))];
+    admin.names = {};
+    if(ids.length){
+      const pr = await sb.from("profiles").select("user_id,username").in("user_id", ids);
+      (pr.data||[]).forEach(p=>{ admin.names[p.user_id] = p.username; });
+    }
+  }catch(e){
+    admin.error = "Couldn't load reports. Check your connection and try again.";
+  }
+  admin.loading = false;
+  await refreshAdminCount();
+  await refreshCatalogCount();
+  if(state.screen==="admin") render();
+}
+async function adminAct(ids, action){
+  if(!ids.length) return;
+  let res;
+  if(action==="delete"){
+    if(!confirm(ids.length===1 ? "Delete this report permanently?" : `Delete these ${ids.length} reports permanently?`)) return;
+    res = await sb.from("reports").delete().in("id", ids);
+  }else{
+    const patch = { status:action, resolved_at: action==="open" ? null : new Date().toISOString() };
+    res = await sb.from("reports").update(patch).in("id", ids);
+  }
+  if(res && res.error){ alert("That didn't save. Check your connection and try again."); return; }
+  const done = { fixed:"Marked as fixed.", dismissed:"Dismissed.", open:"Reopened.", delete:"Deleted." }[action];
+  state.toast = { message:done, showUndo:false };
+  await loadAdminReports();
+  setTimeout(()=>{ state.toast = null; if(state.screen==="admin") render(); }, 3000);
+}
+function findQuestion(id){
+  let found = null;
+  getEveryTopic().forEach(t=>t.questions.forEach(q=>{ if(q.id===id && !found) found = {...q, topic:t.topic}; }));
+  return found;
+}
+function renderAdmin(){
+  const tabs = [["open","Open"],["fixed","Fixed"],["dismissed","Dismissed"],["all","All"]]
+    .map(([k,l])=>`<button type="button" data-admin-tab="${k}" class="${admin.status===k?"on":""}">${l}${k==="open"&&adminOpenCount?` (${adminOpenCount})`:""}</button>`).join("");
+  let body = "";
+  if(admin.loading) body = `<div class="sub">Loading reports…</div>`;
+  else if(admin.error) body = `<div class="auth-msg err">${esc(admin.error)}</div>`;
+  else if(!admin.reports.length) body = `<div class="card"><div class="sub" style="margin:0;">${admin.status==="open" ? "No open reports. Everything's been dealt with." : "Nothing here."}</div></div>`;
+  else{
+    const groups = {};
+    admin.reports.forEach(r=>{ (groups[r.question_id] = groups[r.question_id] || []).push(r); });
+    const nQ = Object.keys(groups).length;
+    body = `<div class="sub">${nQ} question${nQ===1?"":"s"}, ${admin.reports.length} report${admin.reports.length===1?"":"s"}. Most reported first.</div>` +
+      Object.entries(groups).sort((a,b)=>b[1].length-a[1].length).map(([qid, rs])=>{
+        const q = findQuestion(qid);
+        const ids = rs.map(r=>r.id).join(",");
+        const open = !!admin.expanded[qid];
+        const list = rs.map(r=>`
+          <div class="admin-report">
+            <div class="qlist-topic"><strong>${esc(r.reason||"Other")}</strong> · ${new Date(r.created_at).toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"})}${admin.names && admin.names[r.user_id] ? ` · @${esc(admin.names[r.user_id])}` : ""}${admin.status==="all"?` <span class="pill">${esc(r.status)}</span>`:""}</div>
+            ${r.comment ? `<div class="qlist-text">${esc(r.comment)}</div>` : `<div class="qlist-text" style="color:var(--sub);">No details given.</div>`}
+          </div>`).join("");
+        const preview = !open ? "" : q ? `
+          <div class="admin-preview">
+            <div class="qprompt">${fmtPrompt(q.prompt)}</div>${diagramHtml(q)}
+            ${(q.hints||[]).map((h,i)=>`<div class="hintbox"><strong>Hint ${i+1}:</strong> ${esc(h)}</div>`).join("")}
+            <div class="solbox"><strong>Solution:</strong> ${esc(q.solution)}</div>
+          </div>` : `<div class="hintbox">This question isn't in the site's question bank. It was probably one the reporter added themselves in Manage. What they reported: “${esc(rs[0].prompt_snippet||"")}”</div>`;
+        const acts = admin.status==="open"
+          ? `<button class="btn-ghost" data-admin-act="fixed" data-ids="${ids}">Mark fixed</button><button class="btn-ghost" data-admin-act="dismissed" data-ids="${ids}">Dismiss</button>`
+          : `<button class="btn-ghost" data-admin-act="open" data-ids="${ids}">Reopen</button>`;
+        return `<div class="card">
+          <div class="q-card-head">
+            <div class="q-card-tags"><strong>${esc(q ? q.topic : (rs[0].topic||"Unknown topic"))}</strong><span class="pill">${rs.length} report${rs.length===1?"":"s"}</span>${q?`<span class="pill">${q.marks||1} marks</span>`:""}</div>
+          </div>
+          <div class="qlist-text" style="margin-bottom:8px;">${snip(q ? q.prompt : rs[0].prompt_snippet, 140)}</div>
+          <div class="admin-qid">Question ID: <code>${esc(qid)}</code></div>
+          ${list}
+          ${preview}
+          <div class="btn-row">
+            <button class="btn-ghost" data-admin-toggle="${esc(qid)}">${open ? "Hide question" : "Show question"}</button>
+            ${acts}
+          </div>
+          <button class="skip-link" data-admin-act="delete" data-ids="${ids}" style="text-align:right;">Delete ${rs.length===1?"report":"reports"}</button>
+        </div>`;
+      }).join("");
+  }
+  return `
+    <div class="toprow"><h2>Reported questions</h2><button class="link-btn" id="backSelectBtn">Back</button></div>
+    <div class="card"><h2 style="font-size:1rem;">Coins</h2>
+      <div class="sub" style="margin:0 0 10px;">Questions only earn coins once the server knows about them. ${admin.catalogCount===null||admin.catalogCount===undefined ? "" : `The server knows <strong>${admin.catalogCount}</strong> question${admin.catalogCount===1?"":"s"}; the site has <strong>${siteQuestionItems().length}</strong>.`} Press this after uploading new or changed question files.</div>
+      <button class="btn-ghost" id="syncCatalogBtn">Update coin question list</button>
+    </div>
+    <h3>Reported questions</h3>
+    <div class="auth-tabs admin-tabs">${tabs}</div>
+    <div style="margin-bottom:12px;"><button class="link-btn" id="adminRefreshBtn">Refresh</button></div>
+    ${body}`;
+}
+function siteQuestionItems(){
+  const out = [];
+  SUBJECTS.forEach(sb2=>(SUBJECT_BANKS[sb2.id]||[]).forEach(t=>(t.questions||[]).forEach(q=>out.push({ id:q.id, subject:sb2.id, marks:Math.max(1, parseInt(q.marks)||1) }))));
+  return out;
+}
+async function refreshCatalogCount(){
+  try{ const { count } = await sb.from("question_catalog").select("id", { count:"exact", head:true }); admin.catalogCount = count||0; }
+  catch(e){ admin.catalogCount = null; }
+}
+async function syncCatalog(btn){
+  btn.disabled = true; btn.textContent = "Updating…";
+  try{
+    await loadAllSubjects();
+    const items = siteQuestionItems();
+    for(let i=0; i<items.length; i+=500){ const r = await sb.rpc("admin_sync_catalog", { p_items:items.slice(i, i+500) }); if(r.error) throw r.error; }
+    await refreshCatalogCount();
+    state.toast = { message:`Coin list updated: ${items.length} questions.`, showUndo:false };
+  }catch(e){
+    state.toast = { message: /does not exist|could not find/i.test(e.message||"") ? "Run social-and-coins-setup.sql in Supabase first." : "Couldn't update the coin list. Try again.", showUndo:false };
+  }
+  render();
+  setTimeout(()=>{ state.toast = null; if(state.screen==="admin") render(); }, 3000);
+}
+function attachAdminHandlers(){
+  const ab = document.getElementById("adminBtn");
+  if(ab) ab.onclick = ()=>{ state.backTo = state.screen; state.screen = "admin"; admin.expanded = {}; loadAdminReports(); window.scrollTo(0,0); };
+  if(state.screen!=="admin") return;
+  document.querySelectorAll("[data-admin-tab]").forEach(b=>{ b.onclick = ()=>{ admin.status = b.dataset.adminTab; admin.expanded = {}; loadAdminReports(); }; });
+  const rf = document.getElementById("adminRefreshBtn"); if(rf) rf.onclick = loadAdminReports;
+  const sc = document.getElementById("syncCatalogBtn"); if(sc) sc.onclick = ()=>syncCatalog(sc);
+  document.querySelectorAll("[data-admin-toggle]").forEach(b=>{ b.onclick = ()=>{ const k = b.dataset.adminToggle; admin.expanded[k] = !admin.expanded[k]; render(); }; });
+  document.querySelectorAll("[data-admin-act]").forEach(b=>{ b.onclick = ()=>adminAct(b.dataset.ids.split(",").map(Number), b.dataset.adminAct); });
+}
+</script>
+
+<script>
+
+// ======================= SUBJECTS =======================
+// HOW TO ADD QUESTIONS
+// 1. Open the subject's file in the questions folder (e.g. questions/gcse-maths-higher.json) and find the topic.
+// 2. Add question objects to that topic's "questions" list, then change QUESTIONS_VERSION below:
+//    { "id": "gcse-h-surds-001", "marks": 3, "prompt": "Simplify $\\sqrt{50}$.", "hints": ["50 = 25 × 2"],
+//      "solution": "$\\sqrt{50} = 5\\sqrt{2}$", "year": "2023", "paper": "Edexcel 1MA1 Paper 1H" }
+// Rules that protect everyone's saved progress:
+//  - Every id must be unique across the WHOLE site and must never change once published.
+//    Start ids with the subject's prefix: gcse-h-, gcse-f-, alp-, fm- (A-Level Maths keeps its existing ids).
+//  - Never rename a topic once people have practised it (scores are stored by topic name).
+//  - Topics with no questions show as "Coming soon", so you can fill them in gradually.
+const SUBJECT_KEY = "alevel_maths_subject_v1";
+const SUBJECTS = [
+  { id:"gcse-maths-foundation", name:"GCSE Maths (Foundation)", group:"GCSE", grades:"gcse-foundation", idPrefix:"gcse-f-" },
+  { id:"gcse-maths-higher",     name:"GCSE Maths (Higher)",     group:"GCSE", grades:"gcse-higher",     idPrefix:"gcse-h-" },
+  { id:"alevel-maths",          name:"A-Level Maths",           group:"A-Level", grades:"alevel",       idPrefix:"" },
+  { id:"alevel-further-maths",  name:"A-Level Further Maths",   group:"A-Level", grades:"alevel",       idPrefix:"fm-" },
+  { id:"alevel-physics",        name:"A-Level Physics",         group:"A-Level", grades:"alevel",       idPrefix:"alp-" }
+];
+// Each subject's questions live in their own file: questions/<subject id>.json
+// Change QUESTIONS_VERSION whenever you edit a question file, so browsers fetch the new copy straight away.
+const QUESTIONS_VERSION = "1";
+const SUBJECT_BANKS = {};
+const bankLoads = {}, bankErrors = {};
+function bankLoaded(sid){ return !!SUBJECT_BANKS[sid]; }
+function loadSubject(sid){
+  if(SUBJECT_BANKS[sid]) return Promise.resolve(SUBJECT_BANKS[sid]);
+  if(bankLoads[sid]) return bankLoads[sid];
+  const url = `questions/${sid}.json?v=${QUESTIONS_VERSION}`;
+  bankLoads[sid] = fetch(url).catch(()=>fetch(url, {cache:"force-cache"}))
+    .then(r=>{ if(!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+    .then(data=>{
+      const topics = Array.isArray(data) ? data : (data.topics || []);
+      topics.forEach(t=>{ t.questions = t.questions || []; t.questions.forEach(q=>{ q.subject = sid; }); });
+      SUBJECT_BANKS[sid] = topics; delete bankErrors[sid]; delete bankLoads[sid];
+      return topics;
+    })
+    .catch(e=>{ bankErrors[sid] = location.protocol==="file:" ? "file" : "network"; delete bankLoads[sid]; throw e; });
+  return bankLoads[sid];
+}
+function loadAllSubjects(){ return Promise.allSettled(SUBJECTS.map(s=>loadSubject(s.id))); }
+function subjectOf(x){ return (x && x.subject) || "alevel-maths"; }
+function currentSubject(){
+  let s = null; try{ s = localStorage.getItem(SUBJECT_KEY); }catch(e){}
+  return SUBJECTS.some(x=>x.id===s) ? s : "alevel-maths";
+}
+function subjectInfo(id){ const sid = id || currentSubject(); return SUBJECTS.find(s=>s.id===sid) || SUBJECTS[2]; }
+// A-Level Maths keeps plain topic names (so existing progress is untouched); other subjects are namespaced.
+function topicKey(subject, topic){ subject = subject || "alevel-maths"; return subject==="alevel-maths" ? topic : subject + "|" + topic; }
+function subjectPickerHtml(){
+  const cur = currentSubject();
+  const groups = [...new Set(SUBJECTS.map(s=>s.group))];
+  return `<select id="subjectSelect" class="subject-select" aria-label="Subject">${groups.map(g=>`<optgroup label="${g}">${
+    SUBJECTS.filter(s=>s.group===g).map(s=>`<option value="${s.id}" ${s.id===cur?"selected":""}>${esc(s.name)}</option>`).join("")}</optgroup>`).join("")}</select>`;
+}
+
+// ======================= HOME PAGE =======================
+const SITE_NAME = "Revision Practice";
+function subjectSummary(sid){
+  let n = 0, pm = 0, ep = 0, last = 0;
+  loadAttempts().forEach(a=>{
+    if(subjectOf(a)!==sid) return;
+    const m = a.marks||1; n++; pm += m; ep += ratingDelta(a.rating, a.hints, m); last = Math.max(last, a.ts||0);
+  });
+  return { count:n, pct: pm>0 ? Math.max(0, Math.round(ep/pm*100)) : null, last };
+}
+function ago(ts){
+  const d = Math.floor((Date.now()-ts)/DAY_MS);
+  return d<=0 ? "today" : d===1 ? "yesterday" : d<7 ? `${d} days ago` : d<14 ? "last week" : `${Math.floor(d/7)} weeks ago`;
+}
+function renderHome(){
+  const name = user && user.username ? user.username : "";
+  const attempts = loadAttempts();
+  const lastA = attempts.reduce((b,a)=>(!b || (a.ts||0)>(b.ts||0)) ? a : b, null);
+  const lastSid = lastA ? subjectOf(lastA) : null;
+  const cont = lastSid ? `<div class="card home-continue">
+      <div class="qlist-topic">Pick up where you left off</div>
+      <div class="home-continue-name">${esc(subjectInfo(lastSid).name)}</div>
+      <div class="sub" style="margin:2px 0 12px;">Last practised ${ago(lastA.ts)}</div>
+      <button class="btn-primary" data-open-subject="${lastSid}">Continue</button>
+    </div>` : `<div class="card home-continue">
+      <div class="home-continue-name">Where do you want to start?</div>
+      <div class="sub" style="margin:4px 0 0;">Pick a subject below. You'll earn a coin for every whole mark you score, to spend on colour themes in the shop.</div>
+    </div>`;
+  const groups = [...new Set(SUBJECTS.map(s=>s.group))].map(g=>{
+    const cards = SUBJECTS.filter(s=>s.group===g).map(s=>{
+      const sm = subjectSummary(s.id);
+      const detail = sm.count ? `${sm.count} question${sm.count===1?"":"s"} answered` : "Not started yet";
+      return `<button class="subject-card" data-open-subject="${s.id}">
+        <span class="subject-card-text"><span class="subject-card-name">${esc(s.name)}</span><span class="subject-card-detail">${detail}</span></span>
+        ${sm.count ? gradeBadge(sm.pct, true, s.id) : `<span class="subject-card-go" aria-hidden="true">›</span>`}
+      </button>`;
+    }).join("");
+    return `<h3>${esc(g)}</h3><div class="subject-grid">${cards}</div>`;
+  }).join("");
+  return `
+    <div class="subject-bar"><div class="home-hello">${name ? `Hi, ${esc(name)}` : "Welcome"}</div>${coinPillHtml()}</div>
+    <div class="toprow"><h1>Your revision</h1>
+      <div class="toprow-links">${themeSwitchHtml()}${isAdmin ? `<button class="nav-link" id="adminBtn">Admin${adminOpenCount ? ` (${adminOpenCount})` : ""}</button>` : ""}</div></div>
+    ${cont}
+    ${groups}`;
+}
+function attachHomeHandlers(){
+  document.querySelectorAll("[data-open-subject]").forEach(b=>{ b.onclick = ()=>{ switchSubject(b.dataset.openSubject); window.scrollTo(0,0); }; });
+  const hb = document.getElementById("homeBtn");
+  if(hb) hb.onclick = ()=>{ state.screen = "home"; state.editForm = null; document.title = SITE_NAME; render(); window.scrollTo(0,0); };
+}
+
+// ======================= FRIENDS & GROUPS =======================
+// Everything here goes through database functions in social-and-coins-setup.sql.
+// Only usernames are ever sent to other users; email addresses never leave the server.
+const social = {
+  tab:"friends", query:"", results:null, searching:false, friends:[], invites:[], groups:[], loaded:false, error:"",
+  group:null, gtab:"chat", messages:[], members:[], shares:[], board:[], draft:"", busy:false
+};
+let socialSearchTimer = null, chatPoll = null;
+
+async function rpc(fn, args){
+  const { data, error } = await sb.rpc(fn, args||{});
+  if(error) throw error;
+  return data;
+}
+function socialErr(e){
+  const t = String(e && e.message || e || "");
+  if(/function .* does not exist|could not find the function/i.test(t)) return "Friends and groups aren't set up on the server yet. Run social-and-coins-setup.sql in Supabase.";
+  if(/failed to fetch|network/i.test(t)) return "Couldn't connect. Check your internet connection.";
+  return t.replace(/^.*?exception:\s*/i, "") || "Something went wrong. Try again.";
+}
+function socialToast(msg){
+  state.toast = { message:msg, showUndo:false };
+  render();
+  setTimeout(()=>{ if(state.toast && state.toast.message===msg){ state.toast = null; render(); } }, 2800);
+}
+async function loadSocial(){
+  if(!user) return;
+  try{
+    const [friends, invites, groups] = await Promise.all([rpc("my_friends"), rpc("my_group_invites"), rpc("my_groups")]);
+    social.friends = friends||[]; social.invites = invites||[]; social.groups = groups||[]; social.error = "";
+  }catch(e){ social.error = socialErr(e); }
+  social.loaded = true;
+  if(state.screen==="friends") render(); else updateTabBar();
+}
+async function runSearch(){
+  const q = social.query.trim();
+  if(q.length<2){ social.results = null; updateSearchResults(); return; }
+  social.searching = true; updateSearchResults();
+  try{ const r = await rpc("search_users", { p_query:q }); if(social.query.trim()===q) social.results = r||[]; }
+  catch(e){ social.results = []; social.error = socialErr(e); }
+  social.searching = false; updateSearchResults();
+}
+function relationButton(u){
+  const id = esc(u.user_id);
+  if(u.relation==="friend") return `<span class="pill">Friends ✓</span>`;
+  if(u.relation==="outgoing") return `<button class="icon-btn" data-friend-remove="${id}">Cancel request</button>`;
+  if(u.relation==="incoming") return `<button class="icon-btn accent" data-friend-accept="${id}">Accept</button>`;
+  return `<button class="icon-btn accent" data-friend-add="${id}">Add friend</button>`;
+}
+function searchResultsHtml(){
+  if(social.query.trim().length<2) return `<div class="sub" style="margin:6px 0 0;">Type at least 2 letters of a username.</div>`;
+  if(social.searching && !social.results) return `<div class="sub" style="margin:6px 0 0;">Searching…</div>`;
+  if(!social.results || !social.results.length) return `<div class="sub" style="margin:6px 0 0;">No usernames start with “${esc(social.query.trim())}”.</div>`;
+  return social.results.map(u=>`<div class="qlist-row"><div class="social-name">@${esc(u.username)}</div><div class="qlist-actions">${relationButton(u)}</div></div>`).join("");
+}
+function updateSearchResults(){
+  const el = document.getElementById("friendResults");
+  if(el){ el.innerHTML = searchResultsHtml(); attachSocialButtons(el); }
+}
+function renderFriendsPage(){
+  const tabs = `<div class="auth-tabs"><button type="button" data-social-tab="friends" class="${social.tab==="friends"?"on":""}">Friends</button><button type="button" data-social-tab="groups" class="${social.tab==="groups"?"on":""}">Groups${social.invites.length?` (${social.invites.length})`:""}</button></div>`;
+  const head = `<div class="toprow"><h2>Friends &amp; groups</h2><button class="link-btn" id="backSelectBtn">Back</button></div>`;
+  if(!user) return `${head}<div class="card"><div class="sub" style="margin:0 0 12px;">Log in to add friends, join groups and compare scores.</div><button class="btn-primary" id="shopLoginBtn">Log in or create account</button></div>`;
+  const err = social.error ? `<div class="auth-msg err">${esc(social.error)}</div>` : "";
+  if(!social.loaded) return `${head}${tabs}<div class="sub">Loading…</div>`;
+  if(social.tab==="friends"){
+    const incoming = social.friends.filter(f=>f.status==="incoming"), outgoing = social.friends.filter(f=>f.status==="outgoing"), friends = social.friends.filter(f=>f.status==="friend");
+    const row = (f, actions)=>`<div class="qlist-row"><div class="social-name">@${esc(f.username||"unknown")}</div><div class="qlist-actions">${actions}</div></div>`;
+    return `${head}${tabs}${err}
+      <div class="card">
+        <label class="field" for="friendSearch" style="margin-top:0;">Find people by username</label>
+        <input type="text" id="friendSearch" placeholder="Search usernames" autocomplete="off" autocapitalize="off" spellcheck="false" value="${esc(social.query)}">
+        <div id="friendResults">${searchResultsHtml()}</div>
+      </div>
+      ${incoming.length ? `<div class="card"><h2 style="font-size:1rem;">Friend requests</h2>${incoming.map(f=>row(f, `<button class="icon-btn accent" data-friend-accept="${esc(f.user_id)}">Accept</button><button class="icon-btn" data-friend-decline="${esc(f.user_id)}">Decline</button>`)).join("")}</div>` : ""}
+      <div class="card"><h2 style="font-size:1rem;">Your friends (${friends.length})</h2>
+        ${friends.length ? friends.map(f=>row(f, `<button class="icon-btn accent" data-open-thread="${esc(f.user_id)}" data-thread-name="${esc(f.username||"")}">Message</button><button class="icon-btn" data-friend-remove="${esc(f.user_id)}" data-confirm="Remove @${esc(f.username||"")} as a friend?">Remove</button>`)).join("") : `<div class="sub" style="margin:0;">No friends yet. Search for a username above.</div>`}
+      </div>
+      ${outgoing.length ? `<div class="card"><h2 style="font-size:1rem;">Requests you've sent</h2>${outgoing.map(f=>row(f, `<button class="icon-btn" data-friend-remove="${esc(f.user_id)}">Cancel</button>`)).join("")}</div>` : ""}`;
+  }
+  return `${head}${tabs}${err}
+    ${social.invites.length ? `<div class="card"><h2 style="font-size:1rem;">Invitations</h2>${social.invites.map(i=>`<div class="qlist-row"><div><div class="social-name">${esc(i.group_name)}</div><div class="qlist-topic">Invited by @${esc(i.inviter||"unknown")}</div></div><div class="qlist-actions"><button class="icon-btn accent" data-invite-accept="${esc(i.group_id)}">Join</button><button class="icon-btn" data-invite-decline="${esc(i.group_id)}">Decline</button></div></div>`).join("")}</div>` : ""}
+    <div class="card"><h2 style="font-size:1rem;">Your groups</h2>
+      ${social.groups.length ? social.groups.map(g=>`<button class="group-row" data-open-group="${esc(g.id)}"><span><span class="social-name">${esc(g.name)}</span><span class="qlist-topic">${g.members} member${g.members===1?"":"s"}${g.role==="owner"?" · you own this group":""}</span></span><span class="subject-card-go">›</span></button>`).join("") : `<div class="sub" style="margin:0;">You're not in any groups yet.</div>`}
+    </div>
+    <div class="card"><h2 style="font-size:1rem;">Start a group</h2>
+      <div class="sub" style="margin:0 0 8px;">You can invite any of your friends once it's created.</div>
+      <div class="btn-row" style="margin-top:0;"><input type="text" id="newGroupName" maxlength="40" placeholder="Group name, e.g. Year 13 Maths" style="flex:2;margin-bottom:0;"><button class="btn-primary" id="createGroupBtn" style="flex:1;">Create</button></div>
+    </div>`;
+}
+
+// ---------- a single group ----------
+function openGroup(id){
+  const g = social.groups.find(x=>x.id===id); if(!g) return;
+  social.group = g; social.gtab = "chat"; social.messages = []; social.members = []; social.shares = []; social.board = []; social.draft = "";
+  state.screen = "group"; render(); window.scrollTo(0,0);
+  loadGroupTab();
+  rpc("group_member_list", { p_group:id }).then(m=>{ social.members = m||[]; if(state.screen==="group" && social.gtab==="members") render(); }).catch(()=>{});
+}
+async function loadGroupTab(){
+  const g = social.group; if(!g) return;
+  try{
+    if(social.gtab==="chat"){ await fetchMessages(true); }
+    else if(social.gtab==="leaderboard"){ social.board = await rpc("group_leaderboard", { p_group:g.id }) || []; }
+    else if(social.gtab==="shared"){ social.shares = await rpc("get_shares", { p_group:g.id }) || []; }
+    else if(social.gtab==="members"){ social.members = await rpc("group_member_list", { p_group:g.id }) || []; if(!social.loaded) await loadSocial(); }
+    social.error = "";
+  }catch(e){ social.error = socialErr(e); }
+  if(state.screen==="group" && social.gtab!=="chat") render();
+}
+async function fetchMessages(full){
+  const g = social.group; if(!g) return;
+  const last = social.messages.length ? social.messages[social.messages.length-1].id : null;
+  const rows = await rpc("get_messages", { p_group:g.id, p_after: full ? null : last });
+  if(full) social.messages = rows||[];
+  else if(rows && rows.length){ const seen = new Set(social.messages.map(m=>m.id)); social.messages.push(...rows.filter(m=>!seen.has(m.id))); }
+  else return;
+  updateChatList(true);
+}
+function fmtWhen(ts){
+  const d = new Date(ts), now = new Date();
+  const time = d.toLocaleTimeString("en-GB", {hour:"2-digit", minute:"2-digit"});
+  return d.toDateString()===now.toDateString() ? time : d.toLocaleDateString("en-GB", {day:"numeric", month:"short"}) + " " + time;
+}
+function chatListHtml(){
+  if(!social.messages.length) return `<div class="sub" style="text-align:center;margin:20px 0;">No messages yet. Say hello!</div>`;
+  const ownerMe = social.group && social.group.role==="owner";
+  return social.messages.map(m=>{
+    const mine = user && m.user_id===user.id;
+    return `<div class="chat-msg${mine?" mine":""}">
+      <div class="chat-meta">${mine ? "You" : "@"+esc(m.username||"deleted user")} · ${fmtWhen(m.created_at)}${mine||ownerMe ? ` <button class="chat-del" data-msg-del="${m.id}" aria-label="Delete message">Delete</button>` : ""}</div>
+      <div class="chat-body">${esc(m.body)}</div>
+    </div>`;
+  }).join("");
+}
+function updateChatList(scroll){
+  const el = document.getElementById("chatList"); if(!el) return;
+  const nearBottom = el.scrollHeight - el.scrollTop - el.clientHeight < 80;
+  el.innerHTML = chatListHtml();
+  el.querySelectorAll("[data-msg-del]").forEach(b=>{ b.onclick = ()=>deleteMessage(Number(b.dataset.msgDel)); });
+  if(scroll || nearBottom) el.scrollTop = el.scrollHeight;
+}
+async function sendMessage(){
+  const box = document.getElementById("chatInput"); if(!box) return;
+  const body = box.value.trim(); if(!body || social.busy) return;
+  social.busy = true;
+  try{ await rpc("post_message", { p_group:social.group.id, p_body:body }); box.value = ""; social.draft = ""; await fetchMessages(false); updateChatList(true); }
+  catch(e){ socialToast(socialErr(e)); }
+  social.busy = false;
+  const b2 = document.getElementById("chatInput"); if(b2) b2.focus();
+}
+async function deleteMessage(id){
+  if(!confirm("Delete this message?")) return;
+  try{ await rpc("delete_message", { p_id:id }); social.messages = social.messages.filter(m=>m.id!==id); updateChatList(false); }
+  catch(e){ socialToast(socialErr(e)); }
+}
+function startChatPolling(){
+  if(chatPoll) return;   // keep one steady timer; re-rendering must not restart it
+  chatPoll = setInterval(()=>{
+    if(state.screen!=="group" || social.gtab!=="chat" || document.visibilityState!=="visible"){ return; }
+    fetchMessages(false).catch(()=>{});
+  }, 5000);
+}
+function stopChatPolling(){ if(chatPoll){ clearInterval(chatPoll); chatPoll = null; } }
+
+// Sharing: decks carry the ids of built-in questions plus full copies of any questions the sharer wrote.
+function customQuestionIndex(){
+  const idx = {};
+  loadCustom().forEach(t=>(t.questions||[]).forEach(q=>{ idx[q.id] = {subject:subjectOf(t), topic:t.topic, category:t.category, question:q}; }));
+  return idx;
+}
+function importCustom(items){
+  const custom = loadCustom(), have = new Set(); let added = 0;
+  custom.forEach(t=>(t.questions||[]).forEach(q=>have.add(q.id)));
+  (items||[]).forEach(it=>{
+    if(!it || !it.question || !it.question.id || have.has(it.question.id)) return;
+    const sid = SUBJECTS.some(s=>s.id===it.subject) ? it.subject : "alevel-maths";
+    let e = custom.find(t=>t.topic===it.topic && subjectOf(t)===sid);
+    if(!e){ e = {topic:String(it.topic||"Shared questions"), category:String(it.category||"Shared"), subject:sid, questions:[]}; custom.push(e); }
+    const q = it.question;
+    e.questions.push({ id:String(q.id), prompt:String(q.prompt||""), solution:String(q.solution||""), hints:Array.isArray(q.hints)?q.hints.map(String):[], marks:Math.max(1, parseInt(q.marks)||1),
+      year:String(q.year||""), paper:String(q.paper||""), link:"", subtopic:String(q.subtopic||""), ...(q.diagram && q.diagram.image && /^data:image\//.test(q.diagram.image) ? {diagram:{image:q.diagram.image, caption:String(q.diagram.caption||""), alt:String(q.diagram.alt||"Diagram")}} : {}) });
+    have.add(q.id); added++;
+  });
+  if(added) saveCustom(custom);
+  return added;
+}
+async function shareDeck(){
+  const sel = document.getElementById("shareDeckSelect"); if(!sel || !sel.value) return;
+  const d = loadDecks().find(x=>x.id===sel.value); if(!d) return;
+  const idx = customQuestionIndex();
+  const payload = { name:d.name, questionIds:d.questionIds.slice(0,500), custom:d.questionIds.filter(id=>idx[id]).map(id=>idx[id]) };
+  try{ await rpc("share_to_group", { p_group:social.group.id, p_kind:"deck", p_title:d.name, p_payload:payload }); socialToast("Deck shared."); social.gtab = "shared"; loadGroupTab(); }
+  catch(e){ socialToast(/pg_column_size|check constraint/i.test(e.message||"") ? "That deck is too big to share (its pictures take up too much space)." : socialErr(e)); }
+}
+async function shareQuestion(){
+  const sel = document.getElementById("shareQSelect"); if(!sel || !sel.value) return;
+  const it = customQuestionIndex()[sel.value]; if(!it) return;
+  try{ await rpc("share_to_group", { p_group:social.group.id, p_kind:"question", p_title:snipPlain(it.question.prompt, 80), p_payload:it }); socialToast("Question shared."); loadGroupTab(); }
+  catch(e){ socialToast(/pg_column_size|check constraint/i.test(e.message||"") ? "That question's picture is too big to share." : socialErr(e)); }
+}
+function snipPlain(s, n){ const t = String(s||"").replace(/\$+/g,"").replace(/\s+/g," ").trim(); return t.length>n ? t.slice(0,n)+"…" : (t||"Question"); }
+function saveShare(id){
+  const sh = social.shares.find(x=>x.id===id); if(!sh) return;
+  const p = sh.payload || {};
+  if(sh.kind==="deck"){
+    const added = importCustom(p.custom);
+    const decks = loadDecks();
+    decks.push({ id:"deck"+Date.now()+Math.random().toString(36).slice(2,6), name:String(p.name||sh.title).slice(0,60), questionIds:(p.questionIds||[]).map(String) });
+    saveDecksL(decks);
+    socialToast(`Saved “${sh.title}” to your decks${added?` (plus ${added} new question${added===1?"":"s"})`:""}.`);
+  }else{
+    const added = importCustom([p]);
+    socialToast(added ? "Question added to your questions (see Manage)." : "You already have this question.");
+  }
+}
+async function deleteShare(id){
+  if(!confirm("Remove this from the group?")) return;
+  try{ await rpc("delete_share", { p_id:id }); social.shares = social.shares.filter(s=>s.id!==id); render(); }
+  catch(e){ socialToast(socialErr(e)); }
+}
+function renderGroupPage(){
+  const g = social.group;
+  if(!g) return `<div class="sub">Group not found.</div>`;
+  const tabs = [["chat","Chat"],["leaderboard","Leaderboard"],["shared","Shared"],["members","Members"]]
+    .map(([k,l])=>`<button type="button" data-group-tab="${k}" class="${social.gtab===k?"on":""}">${l}</button>`).join("");
+  const err = social.error ? `<div class="auth-msg err">${esc(social.error)}</div>` : "";
+  let body = "";
+  if(social.gtab==="chat"){
+    body = `<div class="card chat-card">
+      <div class="chat-list" id="chatList">${chatListHtml()}</div>
+      <div class="chat-compose">
+        <textarea id="chatInput" maxlength="1000" rows="1" placeholder="Message ${esc(g.name)}">${esc(social.draft)}</textarea>
+        <button class="btn-primary" id="chatSendBtn">Send</button>
+      </div>
+      <div class="sub chat-note">Be kind. Messages can be seen by everyone in this group and by site admins.</div>
+    </div>`;
+  }else if(social.gtab==="leaderboard"){
+    const rows = social.board.map((r,i)=>`<div class="lb-row${user && r.user_id===user.id?" me":""}">
+      <div class="lb-rank">${i+1}</div><div class="lb-name">@${esc(r.username||"unknown")}${user && r.user_id===user.id?" (you)":""}</div>
+      <div class="lb-num"><strong>${r.week_coins}</strong><span>this week</span></div><div class="lb-num"><strong>${r.total_coins}</strong><span>all time</span></div></div>`).join("");
+    body = `<div class="card"><div class="sub" style="margin:0 0 8px;">Coins earned from practice. Ranked by the last 7 days.</div>${rows || `<div class="sub">Loading…</div>`}</div>`;
+  }else if(social.gtab==="shared"){
+    const decks = loadDecks(), mine = Object.entries(customQuestionIndex());
+    const list = social.shares.map(sh=>{
+      const canDel = user && (sh.user_id===user.id || g.role==="owner");
+      const count = sh.kind==="deck" ? ((sh.payload && sh.payload.questionIds || []).length) : 1;
+      return `<div class="share-row">
+        <div><div class="social-name">${esc(sh.title)} <span class="pill">${sh.kind==="deck" ? `Deck · ${count} question${count===1?"":"s"}` : "Question"}</span></div>
+        <div class="qlist-topic">Shared by @${esc(sh.username||"unknown")} · ${fmtWhen(sh.created_at)}</div></div>
+        <div class="qlist-actions"><button class="icon-btn accent" data-share-save="${sh.id}">View</button>${canDel ? `<button class="icon-btn" data-share-del="${sh.id}">Remove</button>` : ""}</div>
+      </div>`;
+    }).join("");
+    body = `<div class="card"><h2 style="font-size:1rem;">Share with the group</h2>
+        <label class="field">One of your decks</label>
+        <div class="btn-row" style="margin-top:0;"><select id="shareDeckSelect" style="flex:2;margin-bottom:0;">${decks.length ? decks.map(d=>`<option value="${esc(d.id)}">${esc(d.name)} (${d.questionIds.length})</option>`).join("") : `<option value="">You have no decks yet</option>`}</select><button class="btn-ghost" id="shareDeckBtn" style="flex:1;" ${decks.length?"":"disabled"}>Share deck</button></div>
+        <label class="field">A question you wrote</label>
+        <div class="btn-row" style="margin-top:0;"><select id="shareQSelect" style="flex:2;margin-bottom:0;">${mine.length ? mine.map(([id,it])=>`<option value="${esc(id)}">${esc(snipPlain(it.question.prompt, 50))}</option>`).join("") : `<option value="">You haven't written any questions</option>`}</select><button class="btn-ghost" id="shareQBtn" style="flex:1;" ${mine.length?"":"disabled"}>Share question</button></div>
+      </div>
+      <div class="card"><h2 style="font-size:1rem;">Shared in ${esc(g.name)}</h2>${list || `<div class="sub" style="margin:0;">Nothing shared yet.</div>`}</div>`;
+  }else{
+    const inGroup = new Set(social.members.map(m=>m.user_id));
+    const invitable = social.friends.filter(f=>f.status==="friend" && !inGroup.has(f.user_id));
+    const rows = social.members.map(m=>`<div class="qlist-row"><div><div class="social-name">@${esc(m.username||"unknown")}${user && m.user_id===user.id?" (you)":""}</div><div class="qlist-topic">${m.role==="owner" ? "Owner" : m.invited ? "Invited" : "Member"}</div></div>
+      <div class="qlist-actions">${g.role==="owner" && user && m.user_id!==user.id ? `<button class="icon-btn" data-member-remove="${esc(m.user_id)}">${m.invited?"Cancel invite":"Remove"}</button>` : ""}</div></div>`).join("");
+    body = `<div class="card"><h2 style="font-size:1rem;">Members</h2>${rows || `<div class="sub">Loading…</div>`}</div>
+      <div class="card"><h2 style="font-size:1rem;">Invite friends</h2>
+        ${invitable.length ? invitable.map(f=>`<div class="qlist-row"><div class="social-name">@${esc(f.username||"")}</div><div class="qlist-actions"><button class="icon-btn accent" data-group-invite="${esc(f.user_id)}">Invite</button></div></div>`).join("") : `<div class="sub" style="margin:0;">All your friends are already here or invited. Add more friends from the Friends tab.</div>`}
+      </div>
+      <button class="skip-link" id="leaveGroupBtn" style="color:var(--bad);">Leave group</button>`;
+  }
+  return `<div class="toprow"><h2>${esc(g.name)}</h2><button class="link-btn" id="groupBackBtn">Back</button></div>
+    <div class="auth-tabs admin-tabs">${tabs}</div>${err}${body}`;
+}
+
+// ---------- handlers ----------
+async function socialAction(fn, args, doneMsg){
+  try{ await rpc(fn, args); if(doneMsg) socialToast(doneMsg); }
+  catch(e){ socialToast(socialErr(e)); }
+  await loadSocial();
+  if(social.query.trim().length>=2) runSearch();
+}
+function attachSocialButtons(root){
+  root.querySelectorAll("[data-friend-add]").forEach(b=>{ b.onclick = ()=>{ b.disabled = true; socialAction("send_friend_request", { p_user:b.dataset.friendAdd }, "Friend request sent."); }; });
+  root.querySelectorAll("[data-friend-accept]").forEach(b=>{ b.onclick = ()=>{ b.disabled = true; socialAction("respond_friend_request", { p_user:b.dataset.friendAccept, p_accept:true }, "You're now friends."); }; });
+  root.querySelectorAll("[data-friend-decline]").forEach(b=>{ b.onclick = ()=>socialAction("respond_friend_request", { p_user:b.dataset.friendDecline, p_accept:false }); });
+  root.querySelectorAll("[data-friend-remove]").forEach(b=>{ b.onclick = ()=>{ if(b.dataset.confirm && !confirm(b.dataset.confirm)) return; socialAction("remove_friend", { p_user:b.dataset.friendRemove }); }; });
+}
+function attachSocialHandlers(){
+  const fb = document.getElementById("friendsBtn");
+  if(fb) fb.onclick = ()=>{ state.backTo = state.screen; state.screen = "friends"; social.error = ""; render(); window.scrollTo(0,0); loadSocial(); };
+  if(state.screen==="friends"){
+    const lb = document.getElementById("shopLoginBtn"); if(lb) lb.onclick = ()=>showAuth("login");
+    document.querySelectorAll("[data-social-tab]").forEach(b=>{ b.onclick = ()=>{ social.tab = b.dataset.socialTab; render(); }; });
+    const box = document.getElementById("friendSearch");
+    if(box) box.oninput = ()=>{ social.query = box.value; clearTimeout(socialSearchTimer); socialSearchTimer = setTimeout(runSearch, 300); };
+    attachSocialButtons(document.getElementById("app"));
+    document.querySelectorAll("[data-invite-accept]").forEach(b=>{ b.onclick = ()=>socialAction("respond_group_invite", { p_group:b.dataset.inviteAccept, p_accept:true }, "You've joined the group."); });
+    document.querySelectorAll("[data-invite-decline]").forEach(b=>{ b.onclick = ()=>socialAction("respond_group_invite", { p_group:b.dataset.inviteDecline, p_accept:false }); });
+    document.querySelectorAll("[data-open-group]").forEach(b=>{ b.onclick = ()=>openGroup(b.dataset.openGroup); });
+    document.querySelectorAll("[data-open-thread]").forEach(b=>{ b.onclick = ()=>openThread(b.dataset.openThread, b.dataset.threadName); });
+    const cg = document.getElementById("createGroupBtn");
+    if(cg) cg.onclick = async ()=>{
+      const name = document.getElementById("newGroupName").value.trim();
+      if(!name) return socialToast("Give the group a name first.");
+      cg.disabled = true;
+      try{ const id = await rpc("create_group", { p_name:name }); await loadSocial(); openGroup(id); }
+      catch(e){ cg.disabled = false; socialToast(socialErr(e)); }
+    };
+  }
+  if(state.screen!=="group"){ stopChatPolling(); return; }
+  const back = document.getElementById("groupBackBtn");
+  if(back) back.onclick = ()=>{ stopChatPolling(); state.screen = "friends"; social.tab = "groups"; social.group = null; render(); loadSocial(); };
+  document.querySelectorAll("[data-group-tab]").forEach(b=>{ b.onclick = ()=>{ social.gtab = b.dataset.groupTab; social.error = ""; render(); loadGroupTab(); }; });
+  if(social.gtab==="chat"){
+    updateChatList(true);
+    const input = document.getElementById("chatInput");
+    if(input){
+      input.oninput = ()=>{ social.draft = input.value; };
+      input.onkeydown = (e)=>{ if(e.key==="Enter" && !e.shiftKey){ e.preventDefault(); sendMessage(); } };
+    }
+    const send = document.getElementById("chatSendBtn"); if(send) send.onclick = sendMessage;
+    startChatPolling();
+  }else stopChatPolling();
+  const sd = document.getElementById("shareDeckBtn"); if(sd) sd.onclick = shareDeck;
+  const sq = document.getElementById("shareQBtn"); if(sq) sq.onclick = shareQuestion;
+  document.querySelectorAll("[data-share-save]").forEach(b=>{ b.onclick = ()=>{
+    const sh = social.shares.find(x=>x.id===Number(b.dataset.shareSave)); if(!sh) return;
+    stopChatPolling();
+    openSharedItem({ item_key: user && sh.user_id===user.id ? null : "g"+sh.id, source: user && sh.user_id===user.id ? "sent" : "group",
+      from_user:sh.username, group_name:social.group.name, kind:sh.kind, title:sh.title, payload:sh.payload, created_at:sh.created_at }, "group");
+  }; });
+  document.querySelectorAll("[data-share-del]").forEach(b=>{ b.onclick = ()=>deleteShare(Number(b.dataset.shareDel)); });
+  document.querySelectorAll("[data-group-invite]").forEach(b=>{ b.onclick = async ()=>{
+    b.disabled = true;
+    try{ await rpc("invite_to_group", { p_group:social.group.id, p_user:b.dataset.groupInvite }); socialToast("Invite sent."); }
+    catch(e){ socialToast(socialErr(e)); }
+    social.members = await rpc("group_member_list", { p_group:social.group.id }).catch(()=>social.members) || social.members; render();
+  }; });
+  document.querySelectorAll("[data-member-remove]").forEach(b=>{ b.onclick = async ()=>{
+    if(!confirm("Remove this person from the group?")) return;
+    try{ await rpc("remove_member", { p_group:social.group.id, p_user:b.dataset.memberRemove }); }
+    catch(e){ socialToast(socialErr(e)); }
+    social.members = await rpc("group_member_list", { p_group:social.group.id }).catch(()=>social.members) || social.members; render();
+  }; });
+  const leave = document.getElementById("leaveGroupBtn");
+  if(leave) leave.onclick = async ()=>{
+    const msg = social.group.role==="owner" ? "Leave this group? Ownership passes to the longest-standing member, or the group is deleted if you're the only one left." : "Leave this group?";
+    if(!confirm(msg)) return;
+    try{ await rpc("leave_group", { p_group:social.group.id }); stopChatPolling(); social.group = null; state.screen = "friends"; social.tab = "groups"; await loadSocial(); render(); }
+    catch(e){ socialToast(socialErr(e)); }
+  };
+}
+
+// ======================= INBOX & DIRECT MESSAGES =======================
+// "Shared with me" lists decks and questions sent to you by friends or shared in your groups.
+// "Messages" holds one-to-one chats with friends; a message can carry a deck or question.
+const INBOX_SEEN_KEY = "alevel_maths_inbox_seen_v1";
+const inbox = { tab:"shared", items:[], convos:[], loaded:false, error:"", unreadDM:0,
+                thread:null, tmsgs:[], tdraft:"", view:null, viewFrom:"inbox" };
+let threadPoll = null, inboxPoll = null;
+
+function seenKeys(){ const s = loadJSON(INBOX_SEEN_KEY, null); return new Set(s && user && s.uid===user.id ? s.keys : []); }
+function markSeen(keys){
+  if(!user) return;
+  const set = seenKeys(); keys.forEach(k=>set.add(k));
+  try{ localStorage.setItem(INBOX_SEEN_KEY, JSON.stringify({ uid:user.id, keys:[...set].slice(-600) })); }catch(e){}
+}
+function unseenShares(){ const seen = seenKeys(); return inbox.items.filter(i=>!seen.has(i.item_key)).length; }
+function inboxBadge(){ return user ? unseenShares() + (inbox.unreadDM||0) : 0; }
+
+async function loadInbox(){
+  if(!user || !sb) return;
+  try{
+    const [items, convos] = await Promise.all([rpc("inbox_items"), rpc("my_conversations")]);
+    inbox.items = items||[]; inbox.convos = convos||[];
+    inbox.unreadDM = inbox.convos.reduce((n,c)=>n + (c.unread||0), 0);
+    inbox.error = "";
+  }catch(e){ inbox.error = socialErr(e).replace("social-and-coins-setup.sql", "inbox-setup.sql"); }
+  inbox.loaded = true;
+  if(["inbox"].includes(state.screen)) render(); else updateTabBar();
+}
+function startInboxPolling(){
+  if(inboxPoll) return;
+  inboxPoll = setInterval(()=>{ if(user && document.visibilityState==="visible" && state.screen!=="practice") loadInbox(); }, 60000);
+}
+
+// ---------- saving shared things ----------
+function payloadQuestionCount(kind, p){ return kind==="deck" ? ((p && p.questionIds) || []).length : 1; }
+function saveSharedThing(kind, title, p){
+  p = p || {};
+  if(kind==="deck"){
+    const added = importCustom(p.custom);
+    const decks = loadDecks();
+    const id = "deck" + Date.now() + Math.random().toString(36).slice(2,6);
+    decks.push({ id, name:String(p.name||title||"Shared deck").slice(0,60), questionIds:(p.questionIds||[]).map(String) });
+    saveDecksL(decks);
+    return { deckId:id, added };
+  }
+  return { added: importCustom([p]) };
+}
+function practiseIds(ids, origin){
+  const pool = ids.map(qid=>findQuestionById(qid)).filter(q=>q && !getQState(q.id).suspended);
+  if(!pool.length){ alert("None of these questions can be practised right now."); return; }
+  stopThreadPolling();
+  state.queue = shuffleArr(pool); state.screen = "practice"; state.lastAnswered = null;
+  state.practiceOrigin = origin || "decks"; state.session = { possibleMarks:0, earnedPoints:0, answered:0 };
+  nextQuestion(); render(); window.scrollTo(0,0);
+}
+// Work out what each question in a shared deck is, for the preview.
+function describeSharedQuestion(qid, p){
+  const own = (p.custom||[]).find(c=>c && c.question && c.question.id===qid);
+  if(own) return { topic:own.topic, prompt:own.question.prompt, marks:own.question.marks||1, subject:own.subject };
+  const q = findQuestionById(qid);
+  if(q) return { topic:q.topic, prompt:q.prompt, marks:q.marks||1, subject:subjectOf(q) };
+  return null;
+}
+
+// ---------- inbox page ----------
+function openSharedItem(item, from){
+  inbox.view = item; inbox.viewFrom = from || "inbox";
+  if(item.item_key) markSeen([item.item_key]);
+  stopThreadPolling();
+  state.screen = "sharedItem"; render(); window.scrollTo(0,0);
+}
+function renderInbox(){
+  const head = `<div class="toprow"><h2>Inbox</h2></div>`;
+  if(!user) return `${head}<div class="card"><div class="sub" style="margin:0 0 12px;">Log in to receive decks and messages from friends.</div><button class="btn-primary" id="shopLoginBtn">Log in or create account</button></div>`;
+  const unseen = unseenShares();
+  const tabs = `<div class="auth-tabs"><button type="button" data-inbox-tab="shared" class="${inbox.tab==="shared"?"on":""}">Shared with me${unseen?` (${unseen})`:""}</button><button type="button" data-inbox-tab="messages" class="${inbox.tab==="messages"?"on":""}">Messages${inbox.unreadDM?` (${inbox.unreadDM})`:""}</button></div>`;
+  const err = inbox.error ? `<div class="auth-msg err">${esc(inbox.error)}</div>` : "";
+  if(!inbox.loaded) return `${head}${tabs}<div class="sub">Loading…</div>`;
+  if(inbox.tab==="shared"){
+    const seen = seenKeys();
+    const rows = inbox.items.map((it,i)=>{
+      const n = payloadQuestionCount(it.kind, it.payload);
+      const src = it.source==="group" ? `@${esc(it.from_user||"someone")} in ${esc(it.group_name||"a group")}` : `from @${esc(it.from_user||"someone")}`;
+      return `<button class="inbox-row" data-inbox-item="${i}">
+        <span class="inbox-icon" aria-hidden="true">${it.kind==="deck" ? "📚" : "❓"}</span>
+        <span class="inbox-text"><span class="social-name">${esc(it.title)}${seen.has(it.item_key) ? "" : ` <span class="new-pill">New</span>`}</span>
+          <span class="qlist-topic">${it.kind==="deck" ? `Deck · ${n} question${n===1?"":"s"}` : "Question"} · ${src} · ${fmtWhen(it.created_at)}</span></span>
+        <span class="subject-card-go" aria-hidden="true">›</span>
+      </button>`;
+    }).join("");
+    return `${head}${tabs}${err}
+      <div class="card">${rows || `<div class="sub" style="margin:0;">Nothing here yet. When a friend sends you a deck or question, or someone shares one in your groups, it appears here.</div>`}</div>
+      ${inbox.items.length && unseen ? `<button class="skip-link" id="markAllSeenBtn">Mark all as seen</button>` : ""}`;
+  }
+  const friends = social.friends.filter(f=>f.status==="friend");
+  const talked = new Set(inbox.convos.map(c=>c.user_id));
+  const rows = inbox.convos.map(c=>`<button class="inbox-row" data-open-thread="${esc(c.user_id)}" data-thread-name="${esc(c.username||"")}">
+      <span class="inbox-icon avatar" aria-hidden="true">${esc((c.username||"?").slice(0,1).toUpperCase())}</span>
+      <span class="inbox-text"><span class="social-name">@${esc(c.username||"unknown")}${c.unread ? ` <span class="new-pill">${c.unread}</span>` : ""}</span>
+        <span class="qlist-topic">${c.last_from_me ? "You: " : ""}${esc(snipPlain(c.last_body, 60))} · ${fmtWhen(c.last_at)}</span></span>
+      <span class="subject-card-go" aria-hidden="true">›</span>
+    </button>`).join("");
+  const others = friends.filter(f=>!talked.has(f.user_id));
+  return `${head}${tabs}${err}
+    <div class="card">${rows || `<div class="sub" style="margin:0;">No conversations yet.</div>`}</div>
+    <div class="card"><h2 style="font-size:1rem;">Start a conversation</h2>
+      ${others.length ? others.map(f=>`<div class="qlist-row"><div class="social-name">@${esc(f.username||"")}</div><div class="qlist-actions"><button class="icon-btn accent" data-open-thread="${esc(f.user_id)}" data-thread-name="${esc(f.username||"")}">Message</button></div></div>`).join("")
+        : friends.length ? `<div class="sub" style="margin:0;">You've already got a conversation with every friend.</div>` : `<div class="sub" style="margin:0 0 10px;">You can message people once you're friends.</div><button class="btn-ghost" id="goFriendsBtn">Find friends</button>`}
+    </div>`;
+}
+
+// ---------- a shared deck or question ----------
+function renderSharedItem(){
+  const it = inbox.view;
+  if(!it) return `<div class="sub">Nothing to show.</div>`;
+  const p = it.payload || {};
+  const back = `<button class="link-btn" id="sharedBackBtn">Back</button>`;
+  const src = it.source==="group" ? `Shared by @${esc(it.from_user||"someone")} in ${esc(it.group_name||"a group")}` :
+              it.source==="sent" ? "You sent this" : `Sent by @${esc(it.from_user||"someone")}`;
+  if(it.kind==="deck"){
+    const ids = (p.questionIds||[]).map(String);
+    const qs = ids.map(id=>({ id, d:describeSharedQuestion(id, p) }));
+    const list = qs.map(({d},i)=>`<div class="qlist-row"><div><div class="qlist-topic">${d ? `${esc(d.topic||"")} · ${d.marks} mark${d.marks===1?"":"s"}${d.subject && d.subject!==currentSubject() ? ` · ${esc(subjectInfo(d.subject).name)}` : ""}` : "Unavailable"}</div>
+      <div class="qlist-text">${d ? snip(d.prompt, 110) : "This question isn't on the site any more."}</div></div></div>`).join("");
+    return `<div class="toprow"><h2>${esc(it.title)}</h2>${back}</div>
+      <div class="card">
+        <div class="qlist-topic" style="margin-bottom:4px;">${src} · ${fmtWhen(it.created_at)}</div>
+        <div class="sub" style="margin:0 0 12px;">A deck of ${ids.length} question${ids.length===1?"":"s"}.</div>
+        <div class="btn-row" style="margin-top:0;">
+          <button class="btn-primary" id="sharedSaveBtn">Save to my decks</button>
+          <button class="btn-ghost" id="sharedPractiseBtn">Save and practise</button>
+        </div>
+      </div>
+      <div class="card"><h2 style="font-size:1rem;">What's in it</h2>${list || `<div class="sub" style="margin:0;">This deck is empty.</div>`}</div>`;
+  }
+  const q = p.question || {};
+  return `<div class="toprow"><h2>Shared question</h2>${back}</div>
+    <div class="card">
+      <div class="qlist-topic" style="margin-bottom:8px;">${src} · ${esc(p.topic||"")} · ${q.marks||1} mark${(q.marks||1)===1?"":"s"}</div>
+      <div class="qprompt">${fmtPrompt(q.prompt||"")}</div>
+      <div class="btn-row">
+        <button class="btn-primary" id="sharedSaveBtn">Save to my questions</button>
+        <button class="btn-ghost" id="sharedPractiseBtn">Save and try it</button>
+      </div>
+    </div>`;
+}
+
+// ---------- one-to-one chat ----------
+function openThread(uid, name){
+  inbox.thread = { user_id:uid, username:name }; inbox.tmsgs = []; inbox.tdraft = "";
+  stopChatPolling();
+  state.screen = "thread"; render(); window.scrollTo(0,0);
+  fetchThread(true).then(()=>loadInbox());
+  startThreadPolling();
+}
+async function fetchThread(full){
+  const t = inbox.thread; if(!t) return;
+  const last = inbox.tmsgs.length ? inbox.tmsgs[inbox.tmsgs.length-1].id : null;
+  try{
+    const rows = await rpc("get_direct", { p_user:t.user_id, p_after: full ? null : last });
+    if(full) inbox.tmsgs = rows||[];
+    else if(rows && rows.length){ const seen = new Set(inbox.tmsgs.map(m=>m.id)); inbox.tmsgs.push(...rows.filter(m=>!seen.has(m.id))); }
+    else return;
+    updateThreadList(true);
+  }catch(e){ inbox.error = socialErr(e); if(state.screen==="thread") render(); }
+}
+function threadListHtml(){
+  if(!inbox.tmsgs.length) return `<div class="sub" style="text-align:center;margin:20px 0;">No messages yet. Say hello, or send a deck below.</div>`;
+  return inbox.tmsgs.map((m,i)=>{
+    const card = m.share_kind ? `<button class="share-bubble" data-thread-share="${i}">
+        <span aria-hidden="true">${m.share_kind==="deck" ? "📚" : "❓"}</span>
+        <span><strong>${esc(m.share_title||"")}</strong><br><span>${m.share_kind==="deck" ? `Deck · ${payloadQuestionCount("deck", m.payload)} questions` : "Question"} · View ›</span></span>
+      </button>` : "";
+    return `<div class="chat-msg${m.from_me?" mine":""}">
+      <div class="chat-meta">${m.from_me ? "You" : "@"+esc(inbox.thread.username||"")} · ${fmtWhen(m.created_at)}${m.from_me ? ` <button class="chat-del" data-dm-del="${m.id}">Delete</button>` : ""}</div>
+      ${m.body ? `<div class="chat-body">${esc(m.body)}</div>` : ""}${card}
+    </div>`;
+  }).join("");
+}
+function updateThreadList(scroll){
+  const el = document.getElementById("chatList"); if(!el || state.screen!=="thread") return;
+  const nearBottom = el.scrollHeight - el.scrollTop - el.clientHeight < 80;
+  el.innerHTML = threadListHtml();
+  el.querySelectorAll("[data-dm-del]").forEach(b=>{ b.onclick = async ()=>{
+    if(!confirm("Delete this message? It disappears for both of you.")) return;
+    try{ await rpc("delete_direct", { p_id:Number(b.dataset.dmDel) }); inbox.tmsgs = inbox.tmsgs.filter(m=>m.id!==Number(b.dataset.dmDel)); updateThreadList(false); }
+    catch(e){ socialToast(socialErr(e)); }
+  }; });
+  el.querySelectorAll("[data-thread-share]").forEach(b=>{ b.onclick = ()=>{
+    const m = inbox.tmsgs[Number(b.dataset.threadShare)];
+    openSharedItem({ item_key: m.from_me ? null : "d"+m.id, source: m.from_me ? "sent" : "direct", from_user: inbox.thread.username,
+                     kind:m.share_kind, title:m.share_title, payload:m.payload, created_at:m.created_at }, "thread");
+  }; });
+  if(scroll || nearBottom) el.scrollTop = el.scrollHeight;
+}
+async function sendDirect(kind, title, payload){
+  const box = document.getElementById("chatInput");
+  const body = box ? box.value.trim() : "";
+  if(!body && !kind) return;
+  if(inbox.busy) return; inbox.busy = true;
+  try{
+    await rpc("send_direct", { p_to:inbox.thread.user_id, p_body: kind ? "" : body, p_kind:kind||null, p_title:title||null, p_payload:payload||null });
+    if(!kind && box){ box.value = ""; inbox.tdraft = ""; }
+    await fetchThread(false); updateThreadList(true);
+    if(kind) socialToast(kind==="deck" ? "Deck sent." : "Question sent.");
+  }catch(e){ socialToast(/pg_column_size|check constraint/i.test(e.message||"") ? "That's too big to send (its pictures take up too much space)." : socialErr(e)); }
+  inbox.busy = false;
+}
+function renderThread(){
+  const t = inbox.thread; if(!t) return `<div class="sub">Conversation not found.</div>`;
+  const decks = loadDecks(), mine = Object.entries(customQuestionIndex());
+  return `<div class="toprow"><h2>@${esc(t.username||"")}</h2><button class="link-btn" id="threadBackBtn">Back</button></div>
+    ${inbox.error ? `<div class="auth-msg err">${esc(inbox.error)}</div>` : ""}
+    <div class="card chat-card">
+      <div class="chat-list" id="chatList">${threadListHtml()}</div>
+      <div class="chat-compose">
+        <textarea id="chatInput" maxlength="1000" rows="1" placeholder="Message @${esc(t.username||"")}">${esc(inbox.tdraft)}</textarea>
+        <button class="btn-primary" id="chatSendBtn">Send</button>
+      </div>
+    </div>
+    <div class="card"><h2 style="font-size:1rem;">Send something to practise</h2>
+      <div class="btn-row" style="margin-top:0;"><select id="dmDeckSelect" style="flex:2;margin-bottom:0;">${decks.length ? decks.map(d=>`<option value="${esc(d.id)}">${esc(d.name)} (${d.questionIds.length})</option>`).join("") : `<option value="">You have no decks yet</option>`}</select><button class="btn-ghost" id="dmDeckBtn" style="flex:1;" ${decks.length?"":"disabled"}>Send deck</button></div>
+      ${mine.length ? `<div class="btn-row"><select id="dmQSelect" style="flex:2;margin-bottom:0;">${mine.map(([id,it])=>`<option value="${esc(id)}">${esc(snipPlain(it.question.prompt, 50))}</option>`).join("")}</select><button class="btn-ghost" id="dmQBtn" style="flex:1;">Send question</button></div>` : ""}
+    </div>`;
+}
+function startThreadPolling(){
+  if(threadPoll) return;
+  threadPoll = setInterval(()=>{ if(state.screen==="thread" && document.visibilityState==="visible") fetchThread(false); }, 5000);
+}
+function stopThreadPolling(){ if(threadPoll){ clearInterval(threadPoll); threadPoll = null; } }
+
+function attachInboxHandlers(){
+  if(state.screen!=="thread") stopThreadPolling();
+  if(state.screen==="inbox"){
+    const lb = document.getElementById("shopLoginBtn"); if(lb) lb.onclick = ()=>showAuth("login");
+    document.querySelectorAll("[data-inbox-tab]").forEach(b=>{ b.onclick = ()=>{ inbox.tab = b.dataset.inboxTab; render(); }; });
+    document.querySelectorAll("[data-inbox-item]").forEach(b=>{ b.onclick = ()=>openSharedItem({...inbox.items[Number(b.dataset.inboxItem)]}, "inbox"); });
+    document.querySelectorAll("[data-open-thread]").forEach(b=>{ b.onclick = ()=>openThread(b.dataset.openThread, b.dataset.threadName); });
+    const ma = document.getElementById("markAllSeenBtn"); if(ma) ma.onclick = ()=>{ markSeen(inbox.items.map(i=>i.item_key)); render(); };
+    const gf = document.getElementById("goFriendsBtn"); if(gf) gf.onclick = ()=>goTab("friends");
+  }
+  if(state.screen==="sharedItem"){
+    const it = inbox.view;
+    const back = document.getElementById("sharedBackBtn");
+    if(back) back.onclick = ()=>{
+      if(inbox.viewFrom==="thread" && inbox.thread){ state.screen = "thread"; render(); fetchThread(false); startThreadPolling(); }
+      else if(inbox.viewFrom==="group" && social.group){ state.screen = "group"; render(); loadGroupTab(); }
+      else { state.screen = "inbox"; render(); }
+    };
+    const save = document.getElementById("sharedSaveBtn");
+    if(save) save.onclick = ()=>{
+      const r = saveSharedThing(it.kind, it.title, it.payload);
+      if(it.kind==="deck"){ state.viewDeckId = r.deckId; state.backTo = "inbox"; state.screen = "decks"; render(); window.scrollTo(0,0); socialToast(`Saved “${it.title}” to your decks.`); }
+      else socialToast(r.added ? "Added to your questions. Find it in Manage for its subject." : "You already have this question.");
+    };
+    const pr = document.getElementById("sharedPractiseBtn");
+    if(pr) pr.onclick = ()=>{
+      saveSharedThing(it.kind, it.title, it.payload);
+      const ids = it.kind==="deck" ? (it.payload.questionIds||[]).map(String) : [String(it.payload.question && it.payload.question.id)];
+      practiseIds(ids, "decks");
+    };
+  }
+  if(state.screen==="thread"){
+    updateThreadList(true);
+    const back = document.getElementById("threadBackBtn");
+    if(back) back.onclick = ()=>{ stopThreadPolling(); inbox.tab = "messages"; state.screen = "inbox"; render(); loadInbox(); };
+    const input = document.getElementById("chatInput");
+    if(input){ input.oninput = ()=>{ inbox.tdraft = input.value; }; input.onkeydown = (e)=>{ if(e.key==="Enter" && !e.shiftKey){ e.preventDefault(); sendDirect(); } }; }
+    const send = document.getElementById("chatSendBtn"); if(send) send.onclick = ()=>sendDirect();
+    const db = document.getElementById("dmDeckBtn");
+    if(db) db.onclick = ()=>{
+      const d = loadDecks().find(x=>x.id===document.getElementById("dmDeckSelect").value); if(!d) return;
+      const idx = customQuestionIndex();
+      sendDirect("deck", d.name, { name:d.name, questionIds:d.questionIds.slice(0,500), custom:d.questionIds.filter(id=>idx[id]).map(id=>idx[id]) });
+    };
+    const qb = document.getElementById("dmQBtn");
+    if(qb) qb.onclick = ()=>{
+      const it = customQuestionIndex()[document.getElementById("dmQSelect").value]; if(!it) return;
+      sendDirect("question", snipPlain(it.question.prompt, 80), it);
+    };
+  }
+}
+
+// ======================= TAB BAR (links every main page) =======================
+const TAB_ICONS = {
+  home:'<path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/>',
+  decks:'<rect x="4" y="7" width="14" height="13" rx="2"/><path d="M8 4h11a1 1 0 0 1 1 1v12"/>',
+  inbox:'<path d="M4 5h16v11H9l-5 4z"/>',
+  friends:'<circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="9" r="2.6"/><path d="M16 14.2c2.8.3 5 2.6 5 5.8"/>',
+  shop:'<path d="M5 8h14l-1.2 11.2a1 1 0 0 1-1 .8H7.2a1 1 0 0 1-1-.8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/>'
+};
+const TAB_FOR_SCREEN = { home:"home", select:"home", stats:"home", browse:"home", manage:"home", admin:"home",
+  decks:"decks", inbox:"inbox", sharedItem:"inbox", thread:"inbox", friends:"friends", group:"friends", shop:"shop" };
+function goTab(tab){
+  stopChatPolling(); stopThreadPolling();
+  state.editForm = null; state.backTo = "home";
+  if(tab==="home"){ state.screen = "home"; document.title = SITE_NAME; }
+  else if(tab==="decks"){ state.viewDeckId = null; state.screen = "decks"; }
+  else if(tab==="inbox"){ state.screen = "inbox"; loadInbox(); if(!social.loaded) loadSocial(); }
+  else if(tab==="friends"){ state.screen = "friends"; social.error = ""; loadSocial(); }
+  else if(tab==="shop"){ state.screen = "shop"; refreshWallet(); }
+  render(); window.scrollTo(0,0);
+}
+function updateTabBar(){
+  let bar = document.getElementById("tabBar");
+  if(!bar){ bar = document.createElement("nav"); bar.id = "tabBar"; bar.className = "tab-bar"; bar.setAttribute("aria-label", "Main"); document.body.appendChild(bar); }
+  const appShown = document.getElementById("app").style.display!=="none";
+  const show = appShown && state.screen!=="practice";
+  bar.style.display = show ? "" : "none";
+  document.body.classList.toggle("has-tabbar", show);
+  if(!show) return;
+  const active = TAB_FOR_SCREEN[state.screen] || "home";
+  const friendAlerts = user ? (social.invites.length + social.friends.filter(f=>f.status==="incoming").length) : 0;
+  const badge = { inbox: inboxBadge(), friends: friendAlerts };
+  bar.innerHTML = [["home","Home"],["decks","Decks"],["inbox","Inbox"],["friends","Friends"],["shop","Shop"]].map(([k,l])=>`
+    <button class="tab-btn${active===k?" on":""}" data-tab="${k}" ${active===k?'aria-current="page"':""}>
+      <span class="tab-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${TAB_ICONS[k]}</svg>${badge[k] ? `<span class="tab-badge">${badge[k]>9 ? "9+" : badge[k]}</span>` : ""}</span>
+      <span class="tab-label">${l}</span>
+    </button>`).join("");
+  bar.querySelectorAll("[data-tab]").forEach(b=>{ b.onclick = ()=>goTab(b.dataset.tab); });
+}
+
+// ======================= LOADING SUBJECT FILES =======================
+function bankScreenBlocked(){
+  const sid = currentSubject();
+  if(["select","stats","browse","manage"].includes(state.screen) && !bankLoaded(sid)){
+    if(!bankErrors[sid]) loadSubject(sid).then(render, render);
+    return bankLoadingHtml(sid);
+  }
+  if(["decks","admin","sharedItem"].includes(state.screen)){
+    const missing = SUBJECTS.filter(s=>!bankLoaded(s.id) && !bankErrors[s.id]);
+    if(missing.length){ loadAllSubjects().then(render); return `<div class="card"><div class="sub" style="margin:0;">Loading questions…</div></div>`; }
+  }
+  return null;
+}
+function bankLoadingHtml(sid){
+  const err = bankErrors[sid];
+  const back = `<button class="link-btn" id="homeBtn">‹ Home</button>`;
+  if(!err) return `${back}<div class="card" style="margin-top:12px;"><div class="sub" style="margin:0;">Loading ${esc(subjectInfo(sid).name)} questions…</div></div>`;
+  const msg = err==="file"
+    ? "The questions can't load when the page is opened straight from a file on your computer. Open the site from its web address instead."
+    : "Couldn't load the questions. Check your internet connection and try again.";
+  return `${back}<div class="card" style="margin-top:12px;"><div class="auth-msg err" style="margin-top:0;">${msg}</div><button class="btn-primary" id="bankRetryBtn">Try again</button></div>`;
+}
+
+// ======================= SHOP & COLOUR THEMES =======================
+// Coins are awarded, counted and spent on the server (see social-and-coins-setup.sql), so they can't be faked.
+// Each question pays floor(marks scored) coins, at most once every 20 hours. Prices are set on the server too;
+// the prices below are only for display and must match the shop_items table.
+const SHOP_KEY = "alevel_maths_shop_v1";      // this device's chosen theme
+const WALLET_KEY = "alevel_maths_wallet_v1";  // last known wallet, so the theme shows instantly on load
+const AWARD_QUEUE_KEY = "alevel_maths_award_queue_v1";
+const THEMES = [
+  { id:"classic", name:"Classic",  price:0,
+    light:{accent:"#3a5ba0", ink:"#ffffff", bg:"#f7f7f5"}, dark:{accent:"#7fa1e0", ink:"#101223", bg:"#16171a"} },
+  { id:"red",     name:"Red",      price:100,
+    light:{accent:"#c0392b", ink:"#ffffff", bg:"#fbf4f3"}, dark:{accent:"#f28b7d", ink:"#2a0d09", bg:"#1b1515"} },
+  { id:"orange",  name:"Orange",   price:200,
+    light:{accent:"#c2570c", ink:"#ffffff", bg:"#fcf5ee"}, dark:{accent:"#f7a15a", ink:"#2b1403", bg:"#1b1712"} },
+  { id:"yellow",  name:"Yellow",   price:300,
+    light:{accent:"#9a7200", ink:"#ffffff", bg:"#fcf9e8"}, dark:{accent:"#f5cf4a", ink:"#2a2000", bg:"#1b1a12"} },
+  { id:"green",   name:"Green",    price:400,
+    light:{accent:"#2d7a45", ink:"#ffffff", bg:"#f2f8f3"}, dark:{accent:"#6fcf8c", ink:"#06210f", bg:"#131a15"} },
+  { id:"blue",    name:"Blue",     price:500,
+    light:{accent:"#1668c1", ink:"#ffffff", bg:"#f1f6fc"}, dark:{accent:"#6cb2ff", ink:"#041a33", bg:"#12161c"} },
+  { id:"indigo",  name:"Indigo",   price:600,
+    light:{accent:"#4338ca", ink:"#ffffff", bg:"#f4f4fc"}, dark:{accent:"#a5a0ff", ink:"#140f45", bg:"#15151e"} },
+  { id:"violet",  name:"Violet",   price:700,
+    light:{accent:"#7c3aed", ink:"#ffffff", bg:"#f7f2fd"}, dark:{accent:"#c7a2ff", ink:"#230a4a", bg:"#18141f"} },
+  { id:"rainbow", name:"Full Rainbow", price:800, rainbow:true,
+    light:{accent:"#6d28d9", ink:"#ffffff", bg:"#faf8fc"}, dark:{accent:"#c7a2ff", ink:"#230a4a", bg:"#17151c"} }
+];
+const RAINBOW_LIGHT = "#d32f2f,#ef6c00,#b58900,#2e7d32,#1565c0,#3949ab,#7b1fa2";
+const RAINBOW_DARK  = "#ff6b6b,#ffa94d,#ffd43b,#69db7c,#4dabf7,#9775fa,#e599f7";
+
+function loadShop(){ const s = loadJSON(SHOP_KEY, {}); s.active = s.active || {id:"classic", t:0}; return s; }
+function saveShop(s){ saveJSON(SHOP_KEY, s); }
+function walletCache(){
+  const w = loadJSON(WALLET_KEY, null);
+  return (w && user && w.uid===user.id) ? w : {earned:0, spent:0, owned:[], is_admin:false};
+}
+function coinBalance(){ const w = walletCache(); return Math.max(0, (w.earned||0) - (w.spent||0)); }
+function ownsTheme(id){ const w = walletCache(); return id==="classic" || w.is_admin || (w.owned||[]).includes(id); }
+function activeTheme(){ const t = THEMES.find(x=>x.id===loadShop().active.id); return t && ownsTheme(t.id) ? t : THEMES[0]; }
+function carryCoinsBeforeReset(){} // coins live on the server, so resetting practice progress never touches them
+function coinsFor(attempt){ return Math.max(0, Math.floor(ratingDelta(attempt.rating, attempt.hints, attempt.marks||1) + 1e-9)); }
+
+function storeWallet(w){
+  if(!user || !w) return;
+  try{ localStorage.setItem(WALLET_KEY, JSON.stringify({ uid:user.id, earned:Number(w.earned)||0, spent:Number(w.spent)||0, owned:w.owned||[], is_admin:!!w.is_admin })); }catch(e){}
+  applyShopTheme();
+}
+async function refreshWallet(){
+  if(!user || !sb) return;
+  try{
+    const { data, error } = await sb.rpc("my_wallet");
+    if(error) throw error;
+    storeWallet(data);
+    if(["home","select","shop"].includes(state.screen) && document.getElementById("app").style.display!=="none") render();
+  }catch(e){ console.error("Wallet refresh failed:", e); }
+}
+// Ask the server for coins after each rating. If offline, keep the request and send it later.
+function requestCoins(q, rating, hints){
+  if(!user || !sb) return;
+  const item = { qid:q.id, rating, hints };
+  sendAward(item).catch(()=>{
+    const qd = loadJSON(AWARD_QUEUE_KEY, []); qd.push(item);
+    try{ localStorage.setItem(AWARD_QUEUE_KEY, JSON.stringify(qd.slice(-500))); }catch(e){}
+  });
+}
+async function sendAward(item){
+  const { data, error } = await sb.rpc("award_coins", { p_question_id:item.qid, p_rating:item.rating, p_hints:item.hints });
+  if(error) throw error;
+  const coins = Number(data)||0;
+  if(coins>0){
+    const w = walletCache(); w.earned = (w.earned||0) + coins; storeWallet(w);
+    if(!state.toast || state.toast.coin){
+      state.toast = { message:`+${coins} coin${coins===1?"":"s"} 🪙`, showUndo:false, coin:true };
+      clearTimeout(window.__coinToastTimer);
+      window.__coinToastTimer = setTimeout(()=>{ if(state.toast && state.toast.coin){ state.toast = null; render(); } }, 1800);
+      if(document.getElementById("app").style.display!=="none") render();
+    }
+  }
+  return coins;
+}
+let flushingAwards = false;
+async function flushAwards(){
+  if(!user || !sb || flushingAwards) return;
+  const qd = loadJSON(AWARD_QUEUE_KEY, []);
+  if(!qd.length) return;
+  flushingAwards = true;
+  let sent = 0;
+  try{ for(const item of qd){ await sendAward(item); sent++; } }catch(e){}
+  const now = loadJSON(AWARD_QUEUE_KEY, []);
+  try{ localStorage.setItem(AWARD_QUEUE_KEY, JSON.stringify(now.slice(sent))); }catch(e){}
+  flushingAwards = false;
+}
+
+function themeVars(v){ return `--accent:${v.accent};--accent-ink:${v.ink};--bg:${v.bg};`; }
+function applyShopTheme(){
+  const t = activeTheme();
+  let el = document.getElementById("shopThemeStyle");
+  if(!el){ el = document.createElement("style"); el.id = "shopThemeStyle"; document.head.appendChild(el); }
+  if(t.id==="classic"){ el.textContent = ""; return; }
+  let css = `:root{${themeVars(t.light)}}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){${themeVars(t.dark)}} }
+:root[data-theme="dark"]{${themeVars(t.dark)}}`;
+  if(t.rainbow){
+    css += `
+body::before{content:"";position:fixed;left:0;right:0;top:0;height:5px;z-index:20;background:linear-gradient(90deg,${RAINBOW_LIGHT});}
+h1{background:linear-gradient(90deg,${RAINBOW_LIGHT});-webkit-background-clip:text;background-clip:text;color:transparent;}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) h1{background-image:linear-gradient(90deg,${RAINBOW_DARK});} :root:not([data-theme="light"]) body::before{background:linear-gradient(90deg,${RAINBOW_DARK});} }
+:root[data-theme="dark"] h1{background-image:linear-gradient(90deg,${RAINBOW_DARK});}
+:root[data-theme="dark"] body::before{background:linear-gradient(90deg,${RAINBOW_DARK});}`;
+  }
+  el.textContent = css;
+}
+let buying = false;
+async function buyTheme(id){
+  const t = THEMES.find(x=>x.id===id); if(!t || buying) return;
+  if(ownsTheme(id)) return useTheme(id);
+  if(!user){ showAuth("login", "Log in to buy themes. Coins are saved to your account."); return; }
+  const bal = coinBalance();
+  if(bal < t.price){ alert(`You need ${t.price - bal} more coins for ${t.name}.`); return; }
+  if(!confirm(`Buy the ${t.name} theme for ${t.price} coins?`)) return;
+  buying = true;
+  try{
+    const { data, error } = await sb.rpc("buy_item", { p_item:id });
+    if(error) throw error;
+    storeWallet(data);
+    const s = loadShop(); s.active = { id, t:Date.now() }; saveShop(s);
+    applyShopTheme();
+    state.toast = { message:`${t.name} unlocked and switched on.`, showUndo:false };
+  }catch(e){
+    const msg = /not enough/i.test(e.message||"") ? "You don't have enough coins for that yet." : "That didn't go through. Check your connection and try again.";
+    state.toast = { message:msg, showUndo:false };
+    refreshWallet();
+  }
+  buying = false;
+  render();
+  setTimeout(()=>{ state.toast = null; if(state.screen==="shop") render(); }, 3000);
+}
+function useTheme(id){
+  if(!ownsTheme(id)) return;
+  const s = loadShop(); s.active = { id, t:Date.now() }; saveShop(s);
+  applyShopTheme();
+  render();
+}
+function coinPillHtml(){
+  if(!user) return `<button class="coin-pill" id="shopBtn">🪙 <span>Shop ›</span></button>`;
+  return `<button class="coin-pill" id="shopBtn" aria-label="Shop, ${coinBalance()} coins">🪙 ${coinBalance()} <span>Shop ›</span></button>`;
+}
+function renderShop(){
+  const w = walletCache(), bal = coinBalance(), active = activeTheme().id;
+  const cards = THEMES.map(t=>{
+    const owned = ownsTheme(t.id), isActive = active===t.id;
+    const rb = t.rainbow ? `<div class="swatch-rainbow" style="background:linear-gradient(90deg,${RAINBOW_LIGHT});"></div>` : "";
+    const rbD = t.rainbow ? `<div class="swatch-rainbow" style="background:linear-gradient(90deg,${RAINBOW_DARK});"></div>` : "";
+    let action;
+    if(isActive) action = `<button class="btn-ghost shop-btn" disabled>✓ In use</button>`;
+    else if(owned) action = `<button class="btn-ghost shop-btn" data-theme-use="${t.id}">Use</button>`;
+    else if(!user) action = `<button class="btn-ghost shop-btn" disabled>🪙 ${t.price}</button>`;
+    else if(bal >= t.price) action = `<button class="btn-primary shop-btn" data-theme-buy="${t.id}">Buy · 🪙 ${t.price}</button>`;
+    else action = `<button class="btn-ghost shop-btn" disabled>🪙 ${t.price} · need ${t.price-bal} more</button>`;
+    return `<div class="shop-card${isActive?" active":""}">
+      <div class="swatch" aria-hidden="true">
+        <div class="swatch-half" style="background:${t.light.bg};">${rb}<span class="swatch-btn" style="background:${t.light.accent};color:${t.light.ink};">Aa</span></div>
+        <div class="swatch-half" style="background:${t.dark.bg};">${rbD}<span class="swatch-btn" style="background:${t.dark.accent};color:${t.dark.ink};">Aa</span></div>
+      </div>
+      <div class="shop-name">${esc(t.name)}${t.price===0?` <span class="pill">Free</span>`:""}</div>
+      ${action}
+    </div>`;
+  }).join("");
+  const top = !user
+    ? `<div class="card shop-balance"><div class="coin-big">🪙</div><div class="sub" style="margin:4px 0 12px;">Coins are saved to your account. Log in or create an account to start earning them.</div><button class="btn-primary" id="shopLoginBtn">Log in or create account</button></div>`
+    : `<div class="card shop-balance">
+      <div class="coin-big">🪙 ${bal}</div>
+      <div class="sub" style="margin:4px 0 0;">You earn a coin for every whole mark you score on a question, so 2.5 marks earns 2 coins. Hints cost marks, so they cost coins too. Each question pays out once every 20 hours, and questions you add yourself don't earn coins.</div>
+      <div class="stat-nums" style="margin-top:8px;">${w.is_admin ? "Admin: every theme is unlocked" : `Earned ${w.earned||0} · Spent ${w.spent||0}`}</div>
+    </div>`;
+  return `
+    <div class="toprow"><h2>Shop</h2><button class="link-btn" id="backSelectBtn">Back</button></div>
+    ${top}
+    <h3>Colour themes</h3>
+    <div class="sub" style="margin-bottom:10px;">Each theme works in light and dark mode (left and right of each preview).</div>
+    <div class="shop-grid">${cards}</div>`;
+}
+function attachShopHandlers(){
+  const sbn = document.getElementById("shopBtn");
+  if(sbn) sbn.onclick = ()=>{ state.backTo = state.screen; state.screen = "shop"; render(); window.scrollTo(0,0); refreshWallet(); };
+  if(state.screen!=="shop") return;
+  const lb = document.getElementById("shopLoginBtn"); if(lb) lb.onclick = ()=>showAuth("login");
+  document.querySelectorAll("[data-theme-buy]").forEach(b=>{ b.onclick = ()=>buyTheme(b.dataset.themeBuy); });
+  document.querySelectorAll("[data-theme-use]").forEach(b=>{ b.onclick = ()=>useTheme(b.dataset.themeUse); });
+}
+
+const PROGRESS_KEY = "alevel_maths_progress_v1";
+const CUSTOM_KEY = "alevel_maths_custom_v1";
+const QSTATE_KEY = "alevel_maths_qstate_v1";
+const REPORTS_KEY = "alevel_maths_reports_v1";
+const ATTEMPTS_KEY = "alevel_maths_attempts_v1";
+const DECKS_KEY = "alevel_maths_decks_v1";
+const THEME_KEY = "alevel_maths_theme_v1";
+const INTERVAL_DAYS = [0, 1, 2, 4, 9, 19, 40, 90];
+const DAY_MS = 24*60*60*1000;
+
+function loadJSON(key, fb){ try{ const v = JSON.parse(localStorage.getItem(key)); return v===null||v===undefined?fb:v; }catch(e){ return fb; } }
+function saveJSON(key, val){ try{ localStorage.setItem(key, JSON.stringify(val)); }catch(e){} cloudSchedule(); }
+function loadProgress(){ return loadJSON(PROGRESS_KEY, {}); }
+function saveProgress(p){ saveJSON(PROGRESS_KEY, p); }
+function loadCustom(){ return loadJSON(CUSTOM_KEY, []); }
+function saveCustom(c){ trackCustomChanges(loadCustom(), c); saveJSON(CUSTOM_KEY, c); }
+function loadQStates(){ return loadJSON(QSTATE_KEY, {}); }
+function saveQStates(q){ saveJSON(QSTATE_KEY, q); }
+function loadReports(){ return loadJSON(REPORTS_KEY, []); }
+function loadDecks(){ return loadJSON(DECKS_KEY, []); }
+function saveDecksL(d){ trackDeckChanges(loadDecks(), d); saveJSON(DECKS_KEY, d); }
+function applyTheme(){
+  const t = localStorage.getItem(THEME_KEY);
+  if(t==="dark" || t==="light") document.documentElement.setAttribute("data-theme", t);
+  else document.documentElement.removeAttribute("data-theme");
+}
+function isDarkActive(){
+  const t = localStorage.getItem(THEME_KEY);
+  if(t==="dark") return true;
+  if(t==="light") return false;
+  return !!(window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches);
+}
+applyTheme();
+function saveReports(r){ trackReportChanges(loadReports(), r); saveJSON(REPORTS_KEY, r); }
+function loadAttempts(){ return loadJSON(ATTEMPTS_KEY, []); }
+function saveAttempts(a){ trackAttemptChanges(loadAttempts(), a); saveJSON(ATTEMPTS_KEY, a); }
+function getQState(id){ const all = loadQStates(); return all[id] || {streak:0, due:0, suspended:false}; }
+function setQState(id, patch){ const all = loadQStates(); all[id] = { ...(all[id]||{streak:0, due:0, suspended:false}), ...patch, t:Date.now() }; saveQStates(all); }
+function getTopicStat(prog, topic){ return prog[topic] || {seen:0, correct:0, silly:0, wrong:0, possibleMarks:0, earnedPoints:0}; }
+function ratingLabel(r){ return r==="correct"?"Got it right":r==="silly"?"Right idea, silly mistake":"Got it wrong"; }
+function ratingDelta(rating, hints, marks){
+  const m = marks||1;
+  const base = rating==="correct" ? m : rating==="silly" ? m/2 : 0;
+  return base - (hints||0);
+}
+function pctFor(stat){ return stat && stat.possibleMarks>0 ? Math.max(0, Math.round((stat.earnedPoints/stat.possibleMarks)*100)) : null; }
+function fmtPoints(n){ return Number.isInteger(n) ? String(n) : n.toFixed(1); }
+
+// Percentage-equivalent of the 2026 A-level Maths grade boundaries (out of 300 raw marks: A*254 A210 B173 C136 D100 E64)
+const GRADE_BOUNDARIES = [
+  {grade:"A*", min:85, color:"#14b8a6"},
+  {grade:"A",  min:70, color:"#2e7d4f"},
+  {grade:"B",  min:58, color:"#8a9a3e"},
+  {grade:"C",  min:45, color:"#b8860b"},
+  {grade:"D",  min:33, color:"#cf9a3e"},
+  {grade:"E",  min:21, color:"#c96a3e"},
+  {grade:"U",  min:0,  color:"#b4432f"}
+];
+// GCSE boundaries are rough percentage equivalents of recent exam boundaries; they change every year, so adjust as needed.
+const GRADE_SCALES = {
+  "alevel": GRADE_BOUNDARIES,
+  "gcse-higher": [
+    {grade:"9", min:80, color:"#14b8a6"}, {grade:"8", min:68, color:"#2e7d4f"}, {grade:"7", min:56, color:"#5f8f3e"},
+    {grade:"6", min:44, color:"#8a9a3e"}, {grade:"5", min:32, color:"#b8860b"}, {grade:"4", min:20, color:"#cf9a3e"},
+    {grade:"3", min:13, color:"#c96a3e"}, {grade:"U", min:0,  color:"#b4432f"}],
+  "gcse-foundation": [
+    {grade:"5", min:70, color:"#14b8a6"}, {grade:"4", min:52, color:"#2e7d4f"}, {grade:"3", min:35, color:"#b8860b"},
+    {grade:"2", min:20, color:"#cf9a3e"}, {grade:"1", min:7,  color:"#c96a3e"}, {grade:"U", min:0,  color:"#b4432f"}]
+};
+function gradeForPct(pct, sid){
+  if(pct===null || pct===undefined) return null;
+  const scale = GRADE_SCALES[(typeof subjectInfo==="function" && subjectInfo(sid).grades) || "alevel"] || GRADE_BOUNDARIES;
+  for(const g of scale){ if(pct>=g.min) return g; }
+  return scale[scale.length-1];
+}
+
+function esc(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;"); }
+function splitPromptLines(str){
+  const out = []; let cur = ""; let inDisplay = false;
+  for(let i=0;i<str.length;i++){
+    if(str[i]==="\\" && str[i+1]==="$"){ cur += "\\$"; i++; continue; }
+    if(str[i]==="$" && str[i+1]==="$"){ inDisplay = !inDisplay; cur += "$$"; i++; continue; }
+    if(str[i]==="\n" && !inDisplay){ out.push(cur); cur = ""; continue; }
+    cur += str[i];
+  }
+  out.push(cur);
+  return out;
+}
+// Lays a question out line by line, pulling any trailing "(n)" mark into a fixed right-hand column
+function fmtPrompt(text){
+  const rows = [];
+  splitPromptLines(String(text==null ? "" : text)).forEach(line=>{
+    const only = line.match(/^\s*\((\d{1,2})\)\s*$/);
+    if(only){
+      const last = rows[rows.length-1];
+      if(last && last.mark===null) last.mark = only[1]; else rows.push({text:"", mark:only[1]});
+      return;
+    }
+    const m = line.match(/^([\s\S]*?\S)\s+\((\d{1,2})\)\s*$/);
+    rows.push(m ? {text:m[1], mark:m[2]} : {text:line, mark:null});
+  });
+  return rows.map(r=>{
+    if(r.text.trim()==="" && r.mark===null) return '<div class="qgap"></div>';
+    return `<div class="qline"><div class="qtext">${esc(r.text)}</div>${r.mark!==null ? `<div class="qmark">(${r.mark})</div>` : ""}</div>`;
+  }).join("");
+}
+function snip(s,n){ const t=String(s||"").replace(/\$+/g,"").replace(/\s+/g," ").trim(); return esc(t.length>n ? t.slice(0,n)+"…" : t); }
+function diagramHtml(q){
+  if(!q.diagram) return "";
+  const inner = q.diagram.svg ? q.diagram.svg
+    : q.diagram.image ? `<img src="${q.diagram.image}" alt="${esc(q.diagram.alt||"Diagram")}" style="max-width:100%;height:auto;border-radius:8px;">`
+    : "";
+  if(!inner) return "";
+  return `<figure class="diagram" role="img" aria-label="${esc(q.diagram.alt||"Diagram")}">${inner}${q.diagram.caption ? `<figcaption>${esc(q.diagram.caption)}</figcaption>` : ""}</figure>`;
+}
+function diagramFieldHtml(){
+  const ef = state.editForm;
+  const upload = state.formDiagramImage;
+  const removed = state.formDiagramRemoved;
+  const current = !removed && (upload || (ef && ef.diagram));
+  let preview = "";
+  if(current){
+    const src = upload ? upload.image : (ef.diagram.image || null);
+    const isSvgOnly = !src && ef && ef.diagram && ef.diagram.svg;
+    preview = `<div class="diagram" style="margin:6px 0;">${
+      src ? `<img src="${src}" style="max-width:220px;max-height:160px;border-radius:8px;display:block;">`
+      : isSvgOnly ? ef.diagram.svg : ""
+    }</div><button type="button" class="skip-link" id="removeDiagramBtn" style="margin-top:0;">Remove diagram</button>`;
+  }
+  return `${preview}
+    <input type="file" id="qImageFile" accept="image/*">
+    <div class="sub" id="imageUploadStatus"></div>
+    <input type="text" id="qDiagramCaption" placeholder="Caption (optional)" value="${upload ? esc(upload.caption||"") : (ef && ef.diagram ? esc(ef.diagram.caption||"") : "")}">`;
+}
+function deckAssignFieldHtml(ef){
+  const decks = loadDecks();
+  if(decks.length===0) return `<div class="sub">No decks yet — create one from the Decks page, then come back here to add this question to it.</div>`;
+  return decks.map(d=>`<label class="chk" style="margin-bottom:4px;"><input type="checkbox" data-deck-assign="${esc(d.id)}" ${ef && d.questionIds.includes(ef.id) ? "checked":""}> <span>${esc(d.name)} (${d.questionIds.length})</span></label>`).join("");
+}
+function typesetMath(){
+  const mj = window.MathJax;
+  if(mj && mj.typesetPromise){
+    try{ if(mj.typesetClear) mj.typesetClear(); mj.typesetPromise([document.getElementById("app")]).catch(()=>{}); }catch(e){}
+  }
+}
+
+function themeSwitchHtml(){
+  return `<label class="theme-switch"><span class="track"><input type="checkbox" id="themeSwitch" ${isDarkActive()?"checked":""}><span class="slider"></span></span>Dark</label>`;
+}
+function difficultyOf(marks){
+  const m = marks||1;
+  return m<=3 ? {key:"easy",label:"Easy"} : m<=6 ? {key:"medium",label:"Medium"} : {key:"hard",label:"Hard"};
+}
+function gradeBadge(pct, small, sid){
+  const g = gradeForPct(pct, sid);
+  const cls = "grade-badge" + (small ? " sm" : "");
+  if(!g) return `<div class="${cls} none" title="Not attempted">—</div>`;
+  return `<div class="${cls}" style="color:${g.color};border-color:${g.color};background:${g.color}1f;" title="${pct}%">${g.grade}</div>`;
+}
+function statsByQuestion(){
+  const map = {};
+  loadAttempts().forEach(a=>{
+    const st = map[a.qid] || (map[a.qid] = {seen:0, possibleMarks:0, earnedPoints:0});
+    const m = a.marks||1;
+    st.seen++; st.possibleMarks += m; st.earnedPoints += ratingDelta(a.rating, a.hints, m);
+  });
+  return map;
+}
+function syncOptionsFromDOM(){
+  const e = document.getElementById("includeEasyCheck"), m = document.getElementById("includeMediumCheck"),
+        h = document.getElementById("includeHardCheck"), t = document.getElementById("targetMarksInput");
+  if(e) state.includeEasy = e.checked;
+  if(m) state.includeMedium = m.checked;
+  if(h) state.includeHard = h.checked;
+  if(t) state.targetMarks = t.value.trim();
+}
+function syncSelectionFromDOM(){
+  document.querySelectorAll('input[data-topic]:checked').forEach(cb=>{
+    if(!state.selected.includes(cb.dataset.topic)) state.selected.push(cb.dataset.topic);
+  });
+  document.querySelectorAll('input[data-topic]:not(:checked)').forEach(cb=>{
+    state.selected = state.selected.filter(t=>t!==cb.dataset.topic);
+  });
+  syncOptionsFromDOM();
+}
+let browseTimer = null;
+
+function findQuestionById(qid){
+  let found = null;
+  getEveryTopic().forEach(t=>t.questions.forEach(q=>{ if(q.id===qid && !found) found = {...q, topic:t.topic}; }));
+  return found;
+}
+
+function startSingleQuestion(qid){
+  let found = null;
+  getEveryTopic().forEach(t=>t.questions.forEach(q=>{ if(q.id===qid && !found) found = {...q, topic:t.topic}; }));
+  if(!found) return;
+  state.queue = [];
+  state.screen = "practice";
+  state.lastAnswered = null;
+  state.reviewing = null;
+  state.session = { possibleMarks:0, earnedPoints:0, answered:0 };
+  state.practiceOrigin = "browse";
+  state.current = found;
+  state.hintIndex = 0;
+  state.solutionShown = false;
+  state.reportOpen = false;
+  render();
+  window.scrollTo(0,0);
+}
+function leavePractice(){
+  const origin = state.practiceOrigin;
+  state.session = null;
+  state.practiceOrigin = null;
+  state.screen = origin==="browse" ? "browse" : origin==="decks" ? "decks" : "select";
+  render();
+  if(origin==="browse" || origin==="decks") window.scrollTo(0,0);
+}
+
+function getAllTopics(subject){
+  const sid = subject || currentSubject();
+  const map = {};
+  (SUBJECT_BANKS[sid]||[]).forEach(t=>{ map[t.topic] = { topic:t.topic, category:t.category, subject:sid, questions:[...t.questions] }; });
+  loadCustom().filter(t=>subjectOf(t)===sid).forEach(t=>{
+    if(!map[t.topic]) map[t.topic] = { topic:t.topic, category:t.category||"General", subject:sid, questions:[] };
+    map[t.topic].questions.push(...t.questions.map(q=>({...q, subject:sid})));
+  });
+  return Object.values(map);
+}
+// Every subject's topics: used to look up a question by id (decks, admin, single-question practice).
+function getEveryTopic(){ return SUBJECTS.flatMap(s=>getAllTopics(s.id)); }
+
+function topicDueInfo(questions){
+  const now = Date.now();
+  const active = questions.filter(q=>!getQState(q.id).suspended);
+  if(active.length===0) return "All hidden";
+  const minDue = Math.min(...active.map(q=>getQState(q.id).due||0));
+  if(minDue <= now) return "Due now";
+  const days = Math.ceil((minDue-now)/DAY_MS);
+  return `Due in ${days} day${days===1?"":"s"}`;
+}
+
+function computeSchedule(streakBefore, rating){
+  let streak = streakBefore;
+  if(rating === "correct") streak = Math.min(streak+1, INTERVAL_DAYS.length-1);
+  else if(rating === "silly") streak = Math.max(Math.floor(streak/2), 0);
+  else streak = 0;
+  const days = INTERVAL_DAYS[streak];
+  return { streak, due: Date.now() + days*DAY_MS };
+}
+
+function statsForRange(rangeDays){
+  const attempts = loadAttempts();
+  const cutoff = rangeDays ? Date.now() - rangeDays*DAY_MS : 0;
+  const byTopic = {};
+  attempts.filter(a=>a.ts>=cutoff).forEach(a=>{
+    const key = topicKey(a.subject, a.topic);
+    if(!byTopic[key]) byTopic[key] = {seen:0, correct:0, silly:0, wrong:0, possibleMarks:0, earnedPoints:0};
+    const s = byTopic[key];
+    const marks = a.marks||1;
+    s.seen++;
+    if(a.rating==="correct") s.correct++;
+    else if(a.rating==="silly") s.silly++;
+    else s.wrong++;
+    s.possibleMarks += marks;
+    s.earnedPoints += ratingDelta(a.rating, a.hints, marks);
+  });
+  return byTopic;
+}
+
+function editAttemptRating(attemptId, newRating){
+  const attempts = loadAttempts();
+  const attempt = attempts.find(a=>a.id===attemptId);
+  if(!attempt || attempt.rating===newRating) return;
+  const oldRating = attempt.rating;
+  const marks = attempt.marks||1;
+  const prog = loadProgress();
+  const stat = getTopicStat(prog, topicKey(attempt.subject, attempt.topic));
+  if(oldRating==="correct") stat.correct = Math.max(0, stat.correct-1);
+  else if(oldRating==="silly") stat.silly = Math.max(0, stat.silly-1);
+  else stat.wrong = Math.max(0, stat.wrong-1);
+  if(newRating==="correct") stat.correct++;
+  else if(newRating==="silly") stat.silly++;
+  else stat.wrong++;
+  stat.earnedPoints += ratingDelta(newRating, attempt.hints, marks) - ratingDelta(oldRating, attempt.hints, marks);
+  prog[topicKey(attempt.subject, attempt.topic)] = stat;
+  saveProgress(prog);
+  state.progress = prog;
+  attempt.rating = newRating;
+  saveAttempts(attempts);
+  const sched = computeSchedule(attempt.qStreakBefore, newRating);
+  setQState(attempt.qid, sched);
+  if(state.session && state.session.lastAttemptId===attemptId){
+    state.session.earnedPoints += ratingDelta(newRating, attempt.hints, marks) - ratingDelta(oldRating, attempt.hints, marks);
+  }
+}
+
+let state = { screen:"home", backTo:"select", selected:[], queue:[], current:null, hintIndex:0, solutionShown:false,
+  progress:loadProgress(), formHints:[""], toast:null, lastAnswered:null, reviewing:null,
+  reviewEditing:false, editForm:null, reportOpen:false, statsRange:"all", includeEasy:true, includeMedium:true, includeHard:true, browseTopic:null, browseSort:"default", browseSearch:"", practiceOrigin:null,
+  targetMarks:"", session:null, viewDeckId:null, deckPickerFor:null, formDiagramImage:null, formDiagramRemoved:false };
+
+function masteryLabel(pct){
+  if(pct===null || pct===undefined) return "Not attempted";
+  if(pct >= 85) return "Strong";
+  if(pct >= 65) return "Building";
+  if(pct >= 40) return "Shaky";
+  return "Needs work";
+}
+
+function render(){
+  const app = document.getElementById("app");
+  let html = "";
+  const blocked = bankScreenBlocked();
+  if(blocked) html = blocked;
+  else if(state.screen === "home") html = renderHome();
+  else if(state.screen === "select") html = renderSelect();
+  else if(state.screen === "practice") html = renderPractice();
+  else if(state.screen === "manage") html = renderManage();
+  else if(state.screen === "stats") html = renderStats();
+  else if(state.screen === "browse") html = renderBrowse();
+  else if(state.screen === "decks") html = renderDecks();
+  else if(state.screen === "admin") html = renderAdmin();
+  else if(state.screen === "shop") html = renderShop();
+  else if(state.screen === "friends") html = renderFriendsPage();
+  else if(state.screen === "group") html = renderGroupPage();
+  else if(state.screen === "inbox") html = renderInbox();
+  else if(state.screen === "sharedItem") html = renderSharedItem();
+  else if(state.screen === "thread") html = renderThread();
+  html += renderToast();
+  app.innerHTML = html;
+  attachHandlers();
+  attachAdminHandlers();
+  attachShopHandlers();
+  attachHomeHandlers();
+  attachSocialHandlers();
+  attachInboxHandlers();
+  updateTabBar();
+  const retry = document.getElementById("bankRetryBtn");
+  if(retry) retry.onclick = ()=>{ delete bankErrors[currentSubject()]; render(); };
+  const subjSel = document.getElementById("subjectSelect");
+  if(subjSel) subjSel.onchange = ()=>switchSubject(subjSel.value);
+  typesetMath();
+}
+
+function switchSubject(id){
+  try{ localStorage.setItem(SUBJECT_KEY, id); }catch(e){}
+  state.selected = []; state.browseTopic = null; state.editForm = null;
+  state.screen = "select";
+  document.title = subjectInfo().name + " Practice";
+  render();
+}
+function renderToast(){
+  if(!state.toast) return "";
+  const undo = state.toast.showUndo ? `<button class="link-btn" id="undoSuspendBtn">Undo</button>` : "";
+  return `<div class="toast"><span>${state.toast.message}</span>${undo}</div>`;
+}
+
+function renderSelect(){
+  const topics = getAllTopics();
+  const byCat = {};
+  topics.forEach(t=>{ (byCat[t.category||"General"] = byCat[t.category||"General"]||[]).push(t); });
+  const folders = Object.entries(byCat).map(([cat, ts])=>{
+    const rows = ts.map(t=>{
+      if(t.questions.length===0) return `<div class="topic-row soon">
+        <div><span class="topic-name">${esc(t.topic)}</span><div class="mastery" style="text-align:left;margin:3px 0 0;">Coming soon</div></div><span></span>
+      </div>`;
+      const checked = state.selected.includes(t.topic) ? "checked" : "";
+      const stat = getTopicStat(state.progress, topicKey(t.subject, t.topic));
+      const pct = pctFor(stat);
+      const g = gradeForPct(pct);
+      const pctHtml = pct===null ? "" : ` · <span style="color:${g.color};font-weight:700;">${g.grade}</span> <span style="color:var(--sub);">(${pct}%)</span>`;
+      return `<div class="topic-row">
+        <div>
+          <label class="chk"><input type="checkbox" data-topic="${esc(t.topic)}" ${checked}>
+            <span class="topic-name">${esc(t.topic)}</span></label>
+          <div class="mastery" style="text-align:left;margin:3px 0 0 29px;">${t.questions.length} question${t.questions.length===1?"":"s"}${pctHtml} · ${topicDueInfo(t.questions)}</div>
+        </div>
+        <button class="browse-btn" data-browse="${esc(t.topic)}">Browse ›</button>
+      </div>`;
+    }).join("");
+    return `<details class="folder" open><summary>📁 ${cat}</summary><div class="folder-body">${rows}</div></details>`;
+  }).join("");
+  const allTopicNames = topics.filter(t=>t.questions.length>0).map(t=>t.topic);
+  const subj = subjectInfo();
+  const noneYet = allTopicNames.length===0;
+  const allSelected = allTopicNames.length>0 && allTopicNames.every(n=>state.selected.includes(n));
+  return `
+    <div class="subject-bar"><button class="link-btn home-link" id="homeBtn">‹ Home</button>${coinPillHtml()}</div>
+    <div class="toprow"><h1>${esc(subj.name)} Practice</h1>
+      <div class="toprow-links">${themeSwitchHtml()}${isAdmin ? `<button class="nav-link" id="adminBtn">Admin${adminOpenCount ? ` (${adminOpenCount})` : ""}</button>` : ""}<button class="nav-link" id="statsBtn">Stats</button><button class="nav-link" id="manageBtn">Manage</button></div></div>
+    <div class="sub">Pick topics, then work through questions. Each hint costs 1 point. Questions get spaced further apart the better you know them.</div>
+    ${noneYet ? `<div class="card"><strong>Questions for ${esc(subj.name)} are on the way.</strong><div class="sub" style="margin:6px 0 0;">Here are the topics that will be covered. Each one opens up as soon as it has questions.</div></div>` : `<button class="btn-ghost" id="selectAllBtn" style="width:auto;padding:8px 14px;margin-bottom:10px;">${allSelected ? "Clear all" : "Select all topics"}</button>`}
+    ${folders}
+    <div class="card">
+      <h2 style="font-size:1rem;">Session options</h2>
+      <label class="field">Difficulty</label>
+      <label class="chk" style="margin-bottom:6px;"><input type="checkbox" id="includeEasyCheck" ${state.includeEasy?"checked":""}> <span>Easy (1–3 marks)</span></label>
+      <label class="chk" style="margin-bottom:6px;"><input type="checkbox" id="includeMediumCheck" ${state.includeMedium?"checked":""}> <span>Medium (4–6 marks)</span></label>
+      <label class="chk" style="margin-bottom:8px;"><input type="checkbox" id="includeHardCheck" ${state.includeHard?"checked":""}> <span>Hard (7+ marks)</span></label>
+      <label class="field">Target marks (optional)</label>
+      <input type="number" id="targetMarksInput" min="1" placeholder="e.g. 30 — pulls in questions not yet due if needed to fill it" value="${state.targetMarks||""}">
+    </div>
+    <button class="btn-primary" id="startBtn">Start practice</button>
+    <div style="margin-top:10px;"><a class="reset" id="resetBtn">Reset all progress</a></div>
+  `;
+}
+
+function renderStats(){
+  const topics = getAllTopics();
+  const rangeDays = state.statsRange === "month" ? 30 : null;
+  const byTopic = statsForRange(rangeDays);
+  const rows = topics.filter(t=>t.questions.length>0).map(t=>{
+    const s = byTopic[topicKey(t.subject, t.topic)] || {seen:0, correct:0, silly:0, wrong:0, possibleMarks:0, earnedPoints:0};
+    const pct = pctFor(s);
+    return `<div class="stat-row">
+      ${gradeBadge(pct)}
+      <div>
+        <div class="topic-name">${esc(t.topic)}</div>
+        <div class="qlist-topic">${esc(t.category||"General")} · ${pct!==null ? fmtPoints(s.earnedPoints)+"/"+s.possibleMarks+" marks ("+pct+"%)" : "No attempts in this period"}</div>
+        <div class="stat-nums" style="margin-top:2px;">${s.seen} attempts · ${s.correct} right · ${s.silly} silly · ${s.wrong} wrong</div>
+      </div>
+    </div>`;
+  }).join("");
+  return `
+    <div class="toprow"><h2>Your stats: ${esc(subjectInfo().name)}</h2><button class="link-btn" id="backSelectBtn">Back</button></div>
+    <div class="btn-row" style="margin-top:0;">
+      <button class="${state.statsRange!=='month' ? 'btn-primary' : 'btn-ghost'}" id="rangeAllBtn">All time</button>
+      <button class="${state.statsRange==='month' ? 'btn-primary' : 'btn-ghost'}" id="rangeMonthBtn">Past 30 days</button>
+    </div>
+    <div class="card">${rows || '<div class="sub">No practice recorded yet.</div>'}</div>
+  `;
+}
+
+function browseListHtml(){
+  const t = getAllTopics().find(x=>x.topic===state.browseTopic);
+  if(!t) return '<div class="sub">Topic not found.</div>';
+  const qStats = statsByQuestion();
+  const term = state.browseSearch.trim().toLowerCase();
+  let items = t.questions.map((q,i)=>{
+    const st = qStats[q.id];
+    return { q, idx:i+1, seen: st ? st.seen : 0, pct: st ? pctFor(st) : null };
+  });
+  if(term){
+    items = items.filter(it=>{
+      const hay = (String(it.q.prompt).replace(/\$+/g,"") + " " + [it.q.year, it.q.paper].filter(Boolean).join(" ")).toLowerCase();
+      return hay.includes(term);
+    });
+  }
+  const nullLast = (a,b)=> (a.pct===null) - (b.pct===null);
+  const sorters = {
+    "grade-asc":  (a,b)=> nullLast(a,b) || (a.pct-b.pct) || (a.idx-b.idx),
+    "grade-desc": (a,b)=> nullLast(a,b) || (b.pct-a.pct) || (a.idx-b.idx),
+    "marks-asc":  (a,b)=> ((a.q.marks||1)-(b.q.marks||1)) || (a.idx-b.idx),
+    "marks-desc": (a,b)=> ((b.q.marks||1)-(a.q.marks||1)) || (a.idx-b.idx)
+  };
+  if(sorters[state.browseSort]) items.sort(sorters[state.browseSort]);
+  if(items.length===0) return '<div class="sub">No questions match your search.</div>';
+  const cards = items.map(it=>{
+    const q = it.q;
+    const marks = q.marks||1;
+    const hidden = getQState(q.id).suspended;
+    const source = q.year||q.paper ? `<span class="pill">Inspired by ${esc([q.year,q.paper].filter(Boolean).join(" · "))}</span>` : "";
+    const scoreText = it.pct===null ? "Not attempted" : `${it.pct}%<br>${it.seen} attempt${it.seen===1?"":"s"}`;
+    return `<div class="card">
+      <div class="q-card-head">
+        <div class="q-card-tags">
+          <strong>Q${it.idx}</strong>
+          <span class="pill">${marks} mark${marks===1?"":"s"}</span>
+          <span class="pill">${difficultyOf(marks).label}</span>
+          ${hidden ? '<span class="pill">Hidden</span>' : ""}
+          ${source}
+        </div>
+        <div class="q-card-score"><div>${scoreText}</div>${gradeBadge(it.pct, true)}</div>
+      </div>
+      <div class="qprompt">${fmtPrompt(q.prompt)}</div>${diagramHtml(q)}
+      <div class="btn-row">
+        <button class="btn-primary" data-practice-q="${esc(q.id)}">Practice this question</button>
+        <button class="btn-ghost" data-deck-open="${esc(q.id)}">Save to deck</button>
+      </div>
+      ${deckPickerHtml(q.id)}
+    </div>`;
+  }).join("");
+  return `<div class="sub" style="margin-bottom:8px;">Showing ${items.length} of ${t.questions.length}</div>${cards}`;
+}
+
+function refreshBrowseList(){
+  const el = document.getElementById("browseList");
+  if(el){ el.innerHTML = browseListHtml(); typesetMath(); }
+}
+
+function renderBrowse(){
+  const t = getAllTopics().find(x=>x.topic===state.browseTopic);
+  if(!t){ state.screen = "select"; return renderSelect(); }
+  const sortOpts = [
+    ["default","Sort: original order"],
+    ["grade-asc","Grade: low to high (U → A*)"],
+    ["grade-desc","Grade: high to low (A* → U)"],
+    ["marks-asc","Marks: low to high"],
+    ["marks-desc","Marks: high to low"]
+  ].map(([v,l])=>`<option value="${v}" ${state.browseSort===v?"selected":""}>${l}</option>`).join("");
+  return `
+    <div class="toprow"><h2>${esc(t.topic)}</h2><button class="link-btn" id="backSelectBtn">Back</button></div>
+    <div class="sub" style="margin-bottom:10px;">${t.questions.length} question${t.questions.length===1?"":"s"}. Your percentage and grade for each come from your practice attempts.</div>
+    <div class="card">
+      <input type="text" id="browseSearch" placeholder="Search questions…" value="${esc(state.browseSearch)}">
+      <select id="browseSort" style="margin-bottom:0;">${sortOpts}</select>
+    </div>
+    <div id="browseList">${browseListHtml()}</div>
+  `;
+}
+
+function difficultyAllows(marks){
+  if(!(state.includeEasy || state.includeMedium || state.includeHard)) return true; // nothing ticked — treat as all
+  const k = difficultyOf(marks).key;
+  return (k==="easy" && state.includeEasy) || (k==="medium" && state.includeMedium) || (k==="hard" && state.includeHard);
+}
+
+function shuffleArr(arr){
+  for(let i=arr.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [arr[i],arr[j]]=[arr[j],arr[i]]; }
+  return arr;
+}
+
+function collectPool(dueOnly){
+  let pool = [];
+  const now = Date.now();
+  getAllTopics().filter(t=>state.selected.includes(t.topic)).forEach(t=>{
+    t.questions.forEach(q=>{
+      const marks = q.marks||1;
+      if(!difficultyAllows(marks)) return;
+      const qs = getQState(q.id);
+      if(qs.suspended) return;
+      if(dueOnly && qs.due > now) return;
+      pool.push({...q, topic:t.topic});
+    });
+  });
+  return pool;
+}
+
+function buildQueue(includeNotDue){
+  const target = parseInt(state.targetMarks);
+  const duePool = shuffleArr(collectPool(true));
+  if(target > 0){
+    let sum = 0; const chosen = []; const chosenIds = new Set();
+    for(const q of duePool){
+      if(sum >= target) break;
+      chosen.push(q); chosenIds.add(q.id); sum += q.marks||1;
+    }
+    if(sum < target){
+      const extraPool = shuffleArr(collectPool(false)).filter(q=>!chosenIds.has(q.id));
+      for(const q of extraPool){
+        if(sum >= target) break;
+        chosen.push(q); sum += q.marks||1;
+      }
+    }
+    return chosen;
+  }
+  return includeNotDue ? shuffleArr(collectPool(false)) : duePool;
+}
+
+function renderReview(){
+  const q = state.reviewing.q;
+  const hintsHtml = (q.hints||[]).map((h,i)=>`<div class="hintbox"><strong>Hint ${i+1}:</strong> ${esc(h)}</div>`).join("");
+  const ratingBlock = state.reviewEditing ? `
+    <div class="assess">
+      <p>Change your rating for this attempt:</p>
+      <div class="btn-row">
+        <button class="correct" data-edit-r="correct">Got it right</button>
+        <button class="silly" data-edit-r="silly">Right idea, silly mistake</button>
+        <button class="wrong" data-edit-r="wrong">Got it wrong</button>
+      </div>
+    </div>` : `<div class="sub" style="margin-top:8px;">You rated this: ${ratingLabel(q.rating)} · <button class="link-btn" id="editResponseBtn">Edit response</button></div>`;
+  return `
+    <div class="qmeta">${q.topic} <span class="pill">${q.marks||1} marks</span>${q.year||q.paper ? `<span class="pill">Inspired by ${[q.year,q.paper].filter(Boolean).join(" · ")}</span>` : ""}${q.link ? ` <a class="pill" href="${q.link}" target="_blank" rel="noopener">🔗 See original</a>` : ""} <span class="pill">Reviewing</span></div>
+    <div class="card">
+      <div class="qprompt">${fmtPrompt(q.prompt)}</div>${diagramHtml(q)}
+      ${q.inspiredBy ? `<div class="sub" style="font-style:italic;margin-top:-6px;">${q.inspiredBy}</div>` : ""}
+      ${hintsHtml}
+      <div class="solbox"><strong>Solution:</strong> ${esc(q.solution)}${q.subtopic ? `\n\n<span class="qlist-topic">Subtopic: ${esc(q.subtopic)}</span>` : ""}</div>
+      ${q.rating ? ratingBlock : ""}
+      <button class="btn-primary" id="returnPracticeBtn" style="margin-top:14px;">Back to practice</button>
+    </div>`;
+}
+
+function renderSummary(){
+  const s = state.session;
+  const pct = s.possibleMarks>0 ? Math.round((s.earnedPoints/s.possibleMarks)*100) : 0;
+  return `<div class="card">
+    <h2>Session complete 🎉</h2>
+    <p class="qprompt">You scored ${fmtPoints(s.earnedPoints)} / ${s.possibleMarks} marks — ${pct}% across ${s.answered} question${s.answered===1?"":"s"}.</p>
+    <button class="btn-primary" id="backBtn">${state.practiceOrigin==="browse" ? "Back to questions" : state.practiceOrigin==="decks" ? "Back to decks" : "Back to topics"}</button>
+  </div>`;
+}
+
+function renderPractice(){
+  if(state.reviewing) return renderReview();
+  if(!state.current){
+    if(state.session && state.session.answered>0) return renderSummary();
+    return `<div class="card"><p>Nothing due for practice right now in these topics — questions you've nailed are resting for a while, like flashcards.</p>
+      <button class="btn-ghost" id="anywayBtn" style="margin-bottom:8px;">Practice anyway (ignore spacing)</button>
+      <button class="btn-ghost" id="backBtn">Back to topics</button></div>`;
+  }
+  const q = state.current;
+  const prevLink = state.lastAnswered ? `<button class="link-btn" id="prevBtn" style="margin-bottom:8px;">◀ Back to previous question</button>` : "";
+  const hintsHtml = state.hintIndex > 0
+    ? q.hints.slice(0, state.hintIndex).map((h,i)=>`<div class="hintbox"><strong>Hint ${i+1}:</strong> ${esc(h)}</div>`).join("")
+    : "";
+  const hintBtn = state.hintIndex < q.hints.length && !state.solutionShown
+    ? `<button class="btn-ghost" id="hintBtn">Show hint (${state.hintIndex}/${q.hints.length} used, −1 pt each)</button>` : "";
+  const solBtn = !state.solutionShown ? `<button class="btn-ghost" id="solBtn">Show solution</button>` : "";
+  const solHtml = state.solutionShown ? `<div class="solbox"><strong>Solution:</strong> ${esc(q.solution)}${q.subtopic ? `\n\n<span class="qlist-topic">Subtopic: ${esc(q.subtopic)}</span>` : ""}</div>` : "";
+  const assess = state.solutionShown ? `
+    <div class="assess">
+      <p>How did it go?</p>
+      <div class="btn-row">
+        <button class="correct" data-r="correct">Got it right</button>
+        <button class="silly" data-r="silly">Right idea, silly mistake</button>
+        <button class="wrong" data-r="wrong">Got it wrong</button>
+      </div>
+    </div>` : "";
+  const reportHtml = state.reportOpen ? `
+    <div class="report-box">
+      <label class="field">What's wrong?</label>
+      <select id="reportReason">
+        <option value="Incorrect solution">Incorrect solution</option>
+        <option value="Unhelpful hint">Unhelpful hint</option>
+        <option value="Unclear question">Unclear question</option>
+        <option value="Other">Other</option>
+      </select>
+      <textarea id="reportComment" placeholder="Optional details"></textarea>
+      <div class="btn-row">
+        <button class="btn-primary" id="submitReportBtn">Submit report</button>
+        <button class="btn-ghost" id="cancelReportBtn">Cancel</button>
+      </div>
+    </div>` : "";
+  return `
+    ${prevLink}
+    <div class="qmeta">${q.topic} <span class="pill">${q.marks||1} marks</span>${q.year||q.paper ? `<span class="pill">Inspired by ${[q.year,q.paper].filter(Boolean).join(" · ")}</span>` : ""}${q.link ? ` <a class="pill" href="${q.link}" target="_blank" rel="noopener">🔗 See original</a>` : ""} <span class="pill">${state.practiceOrigin==="browse" ? "Single question" : state.practiceOrigin==="decks" ? "Deck practice — "+state.queue.length+" left" : state.queue.length+" left in queue"}</span></div>
+    ${q.inspiredBy ? `<div class="sub" style="margin-top:-10px;font-style:italic;">${q.inspiredBy}</div>` : ""}
+    <div class="card">
+      <div class="qprompt">${fmtPrompt(q.prompt)}</div>${diagramHtml(q)}
+      ${hintsHtml}
+      ${solHtml}
+      <div class="btn-row">${hintBtn}${solBtn}</div>
+      ${assess}
+      ${reportHtml}
+      ${deckPickerHtml(q.id)}
+      <div class="btn-row" style="margin-top:4px;">
+        <button class="skip-link" id="suspendBtn">Don't ask again</button>
+        <button class="skip-link" data-deck-open="${esc(q.id)}">Save to deck</button>
+        ${!state.reportOpen ? `<button class="skip-link" id="reportBtn">Report an issue</button>` : ""}
+      </div>
+    </div>
+    <a class="reset" id="quitBtn">End session</a>
+  `;
+}
+
+function deckPickerHtml(qid){
+  if(state.deckPickerFor !== qid) return "";
+  const decks = loadDecks();
+  const options = decks.map(d=>`<option value="${esc(d.id)}">${esc(d.name)} (${d.questionIds.length})</option>`).join("");
+  return `<div class="report-box">
+    <label class="field">Add to an existing deck</label>
+    <div class="btn-row" style="margin-top:0;">
+      <select id="deckPickSelect" style="flex:2;">${options || '<option value="">No decks yet</option>'}</select>
+      <button class="btn-ghost" data-deck-add-existing="${esc(qid)}" style="flex:1;">Add</button>
+    </div>
+    <label class="field">Or create a new deck</label>
+    <div class="btn-row" style="margin-top:0;">
+      <input type="text" id="deckNewName" placeholder="New deck name" style="flex:2;margin-bottom:0;">
+      <button class="btn-primary" data-deck-add-new="${esc(qid)}" style="flex:1;">Create &amp; add</button>
+    </div>
+    <button class="skip-link" data-deck-cancel="1">Cancel</button>
+  </div>`;
+}
+
+function renderDecks(){
+  const decks = loadDecks();
+  const rows = decks.map(d=>{
+    const expanded = state.viewDeckId === d.id;
+    let inner = "";
+    if(expanded){
+      if(d.questionIds.length===0){
+        inner = `<div class="sub" style="padding:6px 0;">No questions in this deck yet — add some from Browse or from a practice question.</div>`;
+      } else {
+        inner = d.questionIds.map(qid=>{
+          const q = findQuestionById(qid);
+          const label = q ? snip(q.prompt, 70) : `<span class="sub">(question no longer in the bank)</span>`;
+          return `<div class="qlist-row">
+            <div class="qlist-text">${label}</div>
+            <button class="icon-btn" data-deck-remove-q="${esc(d.id)}|${esc(qid)}">Remove</button>
+          </div>`;
+        }).join("");
+      }
+    }
+    return `<div class="card">
+      <div class="q-card-head">
+        <div><div class="topic-name">${esc(d.name)}</div><div class="qlist-topic">${d.questionIds.length} question${d.questionIds.length===1?"":"s"}</div></div>
+        <div class="qlist-actions">
+          <button class="icon-btn accent" data-deck-view="${esc(d.id)}">${expanded ? "Hide" : "View"}</button>
+          <button class="icon-btn accent" data-deck-rename="${esc(d.id)}">Rename</button>
+          <button class="icon-btn" data-deck-delete="${esc(d.id)}">Delete</button>
+        </div>
+      </div>
+      ${d.questionIds.length>0 ? `<button class="btn-primary" data-deck-practice="${esc(d.id)}" style="margin-top:10px;">Practice this deck</button>` : ""}
+      ${inner}
+    </div>`;
+  }).join("");
+  return `
+    <div class="toprow"><h2>Your decks</h2><button class="link-btn" id="backSelectBtn">Back</button></div>
+    <div class="sub" style="margin-bottom:10px;">Save any question to a deck from its question card, then drill just that set. Decks respect "Don't ask again" but ignore spacing — every non-hidden question in the deck is included each time.</div>
+    <div class="card">
+      <label class="field">Create a new deck</label>
+      <div class="btn-row" style="margin-top:0;">
+        <input type="text" id="newDeckStandaloneName" placeholder="Deck name, e.g. Exam resits" style="flex:2;margin-bottom:0;">
+        <button class="btn-primary" id="createDeckBtn" style="flex:1;">Create</button>
+      </div>
+    </div>
+    ${rows || '<div class="sub">No decks yet — create one above.</div>'}
+  `;
+}
+
+function renderManage(){
+  const topics = getAllTopics();
+  const ef = state.editForm;
+  const options = topics.map(t=>`<option value="${t.topic}" ${ef && ef.topic===t.topic ? "selected":""}>${t.topic}</option>`).join("");
+  const hintFields = state.formHints.map((h,i)=>`
+    <div class="hint-item">
+      <input type="text" data-hint-idx="${i}" placeholder="Hint ${i+1}" value="${esc(h||"")}">
+      ${state.formHints.length>1 ? `<button type="button" class="icon-btn" data-remove-hint="${i}">✕</button>` : ""}
+    </div>`).join("");
+
+  const custom = loadCustom().filter(t=>subjectOf(t)===currentSubject());
+  let listHtml = "";
+  custom.forEach(t=>{
+    t.questions.forEach(q=>{
+      listHtml += `<div class="qlist-row">
+        <div><div class="qlist-topic">${t.topic} · ${q.marks||1} marks${q.year||q.paper ? " · "+[q.year,q.paper].filter(Boolean).join(" ") : ""}</div><div class="qlist-text">${snip(q.prompt,60)}</div></div>
+        <div class="qlist-actions">
+          <button class="icon-btn accent" data-edit-topic="${t.topic}" data-edit-id="${q.id}">Edit</button>
+          <button class="icon-btn" data-del-topic="${t.topic}" data-del-id="${q.id}">Delete</button>
+        </div>
+      </div>`;
+    });
+  });
+  if(!listHtml) listHtml = `<div class="sub">No custom questions added yet.</div>`;
+
+  let hiddenHtml = "";
+  topics.forEach(t=>{
+    const hiddenQs = t.questions.filter(q=>getQState(q.id).suspended);
+    if(hiddenQs.length===0) return;
+    hiddenHtml += `<h3>${t.topic}</h3>`;
+    hiddenQs.forEach(q=>{
+      hiddenHtml += `<div class="qlist-row">
+        <div class="qlist-text">${snip(q.prompt,60)}</div>
+        <button class="icon-btn accent" data-unhide="${q.id}">Unhide</button>
+      </div>`;
+    });
+  });
+  if(!hiddenHtml) hiddenHtml = `<div class="sub">No hidden questions.</div>`;
+
+  const reports = loadReports();
+  let reportsHtml = reports.map((r,i)=>`
+    <div class="qlist-row">
+      <div><div class="qlist-topic">${r.topic} · ${r.reason}</div>
+        <div class="qlist-text">${snip(r.prompt,80)}${r.comment ? " — "+esc(r.comment) : ""}</div></div>
+      <button class="icon-btn" data-dismiss-report="${i}">Dismiss</button>
+    </div>`).join("");
+  if(!reportsHtml) reportsHtml = `<div class="sub">No reports.</div>`;
+
+  return `
+    <div class="toprow"><h2>${ef ? "Edit question" : "Add a question"}</h2><button class="link-btn" id="backSelectBtn">Back</button></div>
+    <div class="card">
+      <label class="field">Topic</label>
+      <select id="topicSelect">${options}</select>
+
+      <label class="field">Question</label>
+      <textarea id="qPrompt" placeholder="Question text">${ef ? esc(ef.prompt) : ""}</textarea>
+
+      <label class="field">Marks available</label>
+      <input type="number" id="qMarks" min="1" max="30" value="${ef ? ef.marks : 1}">
+
+      <label class="field">Inspired by (optional) — credits the real paper's style/topic without implying this is a copy. Should point people to find a similar real question elsewhere (e.g. PMT), for your own original question.</label>
+      <div style="display:flex;gap:8px;">
+        <input type="text" id="qYear" placeholder="Year e.g. 2018" style="flex:1;" value="${ef && ef.year ? ef.year : ""}">
+        <input type="text" id="qPaper" placeholder="Paper e.g. Edexcel Pure Paper 1" style="flex:2;" value="${ef && ef.paper ? ef.paper : ""}">
+      </div>
+      <input type="text" id="qLink" placeholder="Link to the original (optional), e.g. a PMT page" value="${ef && ef.link ? ef.link.replace(/"/g,'&quot;') : ""}">
+
+      <label class="field">Diagram (optional)</label>
+      ${diagramFieldHtml()}
+
+      <label class="field">Hints (shown one at a time, in order)</label>
+      ${hintFields}
+      <button type="button" class="btn-ghost" id="addHintBtn" style="width:100%;margin-top:4px;">+ Add another hint</button>
+
+      <label class="field">Full solution</label>
+      <textarea id="qSolution" placeholder="Full worked solution">${ef ? esc(ef.solution) : ""}</textarea>
+
+      <label class="field">Add to deck(s) (optional)</label>
+      ${deckAssignFieldHtml(ef)}
+
+      <div class="btn-row">
+        <button class="btn-primary" id="saveQBtn">${ef ? "Update question" : "Save question"}</button>
+        ${ef ? `<button class="btn-ghost" id="cancelEditBtn">Cancel edit</button>` : ""}
+      </div>
+    </div>
+    <div class="card"><h2 style="font-size:1rem;">Your custom questions</h2>${listHtml}</div>
+    <div class="card"><h2 style="font-size:1rem;">Hidden questions</h2>
+      <div class="sub">Grouped by topic. Unhide to bring one back into rotation.</div>${hiddenHtml}</div>
+    <div class="card"><h2 style="font-size:1rem;">Reported questions</h2>${reportsHtml}</div>
+  `;
+}
+
+function nextQuestion(){
+  state.current = state.queue.shift() || null;
+  state.hintIndex = 0;
+  state.solutionShown = false;
+  state.reportOpen = false;
+}
+
+function scheduleAfterRating(qid, rating){
+  const qs = getQState(qid);
+  const sched = computeSchedule(qs.streak, rating);
+  setQState(qid, sched);
+}
+
+function attachHandlers(){
+  document.querySelectorAll('[data-browse]').forEach(btn=>{
+    btn.onclick = ()=>{
+      syncSelectionFromDOM();
+      state.browseTopic = btn.dataset.browse;
+      state.browseSearch = "";
+      state.browseSort = "default";
+      state.screen = "browse";
+      render();
+      window.scrollTo(0,0);
+    };
+  });
+  const browseSearch = document.getElementById("browseSearch");
+  if(browseSearch) browseSearch.oninput = ()=>{
+    state.browseSearch = browseSearch.value;
+    clearTimeout(browseTimer);
+    browseTimer = setTimeout(refreshBrowseList, 150);
+  };
+  const browseList = document.getElementById("browseList");
+  if(browseList) browseList.onclick = (e)=>{
+    const b = e.target.closest && e.target.closest("[data-practice-q]");
+    if(b) startSingleQuestion(b.dataset.practiceQ);
+  };
+  const browseSort = document.getElementById("browseSort");
+  if(browseSort) browseSort.onchange = ()=>{ state.browseSort = browseSort.value; refreshBrowseList(); };
+  const startBtn = document.getElementById("startBtn");
+  if(startBtn) startBtn.onclick = ()=>{
+    syncSelectionFromDOM();
+    if(state.selected.length===0){ alert("Pick at least one topic."); return; }
+    state.queue = buildQueue(false);
+    state.screen = "practice";
+    state.lastAnswered = null;
+    state.practiceOrigin = null;
+    state.session = { possibleMarks:0, earnedPoints:0, answered:0 };
+    nextQuestion();
+    render();
+  };
+  const selectAllBtn = document.getElementById("selectAllBtn");
+  if(selectAllBtn) selectAllBtn.onclick = ()=>{
+    syncOptionsFromDOM();
+    const allNames = getAllTopics().map(t=>t.topic);
+    const allSelected = allNames.length>0 && allNames.every(n=>state.selected.includes(n));
+    state.selected = allSelected ? [] : allNames;
+    render();
+  };
+  const resetBtn = document.getElementById("resetBtn");
+  if(resetBtn) resetBtn.onclick = ()=>{
+    if(confirm("Reset all saved progress and scheduling? Your coins and themes are kept.")){ markReset(); state.progress = {}; saveProgress(state.progress); saveQStates({}); saveAttempts([]); render(); }
+  };
+  const statsBtn = document.getElementById("statsBtn");
+  if(statsBtn) statsBtn.onclick = ()=>{ state.screen="stats"; render(); };
+  const decksBtn = document.getElementById("decksBtn");
+  if(decksBtn) decksBtn.onclick = ()=>{ state.backTo = state.screen; state.viewDeckId=null; state.screen="decks"; render(); };
+  const themeSwitch = document.getElementById("themeSwitch");
+  if(themeSwitch) themeSwitch.onchange = ()=>{
+    localStorage.setItem(THEME_KEY, themeSwitch.checked ? "dark" : "light");
+    applyTheme();
+  };
+  const manageBtn = document.getElementById("manageBtn");
+  if(manageBtn) manageBtn.onclick = ()=>{ state.formHints=[""]; state.editForm=null; state.formDiagramImage=null; state.formDiagramRemoved=false; state.screen="manage"; render(); };
+  const backSelectBtn = document.getElementById("backSelectBtn");
+  if(backSelectBtn) backSelectBtn.onclick = ()=>{ state.editForm=null; state.screen = (["decks","shop","admin","friends"].includes(state.screen) && ["home","select","inbox","decks","friends","shop"].includes(state.backTo) && state.backTo!==state.screen) ? state.backTo : "select"; if(state.screen==="home") document.title = SITE_NAME; if(state.screen==="inbox") loadInbox(); render(); };
+  const rangeAllBtn = document.getElementById("rangeAllBtn");
+  if(rangeAllBtn) rangeAllBtn.onclick = ()=>{ state.statsRange="all"; render(); };
+  const rangeMonthBtn = document.getElementById("rangeMonthBtn");
+  if(rangeMonthBtn) rangeMonthBtn.onclick = ()=>{ state.statsRange="month"; render(); };
+
+  const hintBtn = document.getElementById("hintBtn");
+  if(hintBtn) hintBtn.onclick = ()=>{ state.hintIndex++; render(); };
+  const solBtn = document.getElementById("solBtn");
+  if(solBtn) solBtn.onclick = ()=>{ state.solutionShown = true; render(); };
+  const quitBtn = document.getElementById("quitBtn");
+  if(quitBtn) quitBtn.onclick = leavePractice;
+  const backBtn = document.getElementById("backBtn");
+  if(backBtn) backBtn.onclick = leavePractice;
+  const anywayBtn = document.getElementById("anywayBtn");
+  if(anywayBtn) anywayBtn.onclick = ()=>{ state.queue = buildQueue(true); nextQuestion(); render(); };
+  const prevBtn = document.getElementById("prevBtn");
+  if(prevBtn) prevBtn.onclick = ()=>{
+    state.reviewEditing = false;
+    state.reviewing = { q: state.lastAnswered, returnCurrent: state.current, returnHintIndex: state.hintIndex, returnSolutionShown: state.solutionShown };
+    render();
+  };
+  const returnPracticeBtn = document.getElementById("returnPracticeBtn");
+  if(returnPracticeBtn) returnPracticeBtn.onclick = ()=>{
+    state.current = state.reviewing.returnCurrent;
+    state.hintIndex = state.reviewing.returnHintIndex;
+    state.solutionShown = state.reviewing.returnSolutionShown;
+    state.reviewing = null;
+    state.reviewEditing = false;
+    render();
+  };
+  const editResponseBtn = document.getElementById("editResponseBtn");
+  if(editResponseBtn) editResponseBtn.onclick = ()=>{ state.reviewEditing = true; render(); };
+  document.querySelectorAll('[data-edit-r]').forEach(btn=>{
+    btn.onclick = ()=>{
+      const newRating = btn.dataset.editR;
+      const q = state.reviewing.q;
+      editAttemptRating(q.attemptId, newRating);
+      q.rating = newRating;
+      if(state.lastAnswered && state.lastAnswered.attemptId===q.attemptId) state.lastAnswered.rating = newRating;
+      state.reviewEditing = false;
+      state.toast = { message:"Response updated.", showUndo:false };
+      render();
+      setTimeout(()=>{ state.toast=null; render(); }, 3000);
+    };
+  });
+
+  const suspendBtn = document.getElementById("suspendBtn");
+  if(suspendBtn) suspendBtn.onclick = ()=>{
+    const qid = state.current.id;
+    setQState(qid, { suspended: true });
+    state.toast = { message:"Question hidden — won't be asked again.", showUndo:true, qid };
+    nextQuestion();
+    if(!state.current && (state.practiceOrigin==="browse" || state.practiceOrigin==="decks")){
+      const dest = state.practiceOrigin==="browse" ? "browse" : "decks";
+      state.session=null; state.practiceOrigin=null; state.screen=dest;
+    }
+    render();
+    setTimeout(()=>{ if(state.toast && state.toast.qid===qid){ state.toast=null; render(); } }, 6000);
+  };
+  const undoSuspendBtn = document.getElementById("undoSuspendBtn");
+  if(undoSuspendBtn) undoSuspendBtn.onclick = ()=>{
+    setQState(state.toast.qid, { suspended: false });
+    state.toast = null;
+    render();
+  };
+
+  const reportBtn = document.getElementById("reportBtn");
+  if(reportBtn) reportBtn.onclick = ()=>{ state.reportOpen = true; render(); };
+  const cancelReportBtn = document.getElementById("cancelReportBtn");
+  if(cancelReportBtn) cancelReportBtn.onclick = ()=>{ state.reportOpen = false; render(); };
+  const submitReportBtn = document.getElementById("submitReportBtn");
+  if(submitReportBtn) submitReportBtn.onclick = ()=>{
+    const q = state.current;
+    const reason = document.getElementById("reportReason").value;
+    const comment = document.getElementById("reportComment").value.trim();
+    const reports = loadReports();
+    reports.push({ id:q.id, topic:q.topic, prompt:q.prompt.slice(0,80), reason, comment, ts:Date.now() });
+    saveReports(reports);
+    queueReport({ id:q.id, topic:q.topic, prompt:q.prompt.slice(0,300), reason, comment });
+    state.reportOpen = false;
+    state.toast = { message:"Report submitted — thanks.", showUndo:false };
+    render();
+    setTimeout(()=>{ state.toast=null; render(); }, 4000);
+  };
+
+  document.querySelectorAll('[data-r]').forEach(btn=>{
+    btn.onclick = ()=>{
+      const rating = btn.dataset.r;
+      const q = state.current;
+      const hints = state.hintIndex;
+      const marks = q.marks||1;
+      const delta = ratingDelta(rating, hints, marks);
+      const tkey = topicKey(q.subject, q.topic);
+      const stat = getTopicStat(state.progress, tkey);
+      stat.seen++;
+      if(rating==="correct") stat.correct++;
+      else if(rating==="silly") stat.silly++;
+      else stat.wrong++;
+      stat.possibleMarks += marks;
+      stat.earnedPoints += delta;
+      state.progress[tkey] = stat;
+      saveProgress(state.progress);
+
+      const qStreakBefore = getQState(q.id).streak;
+      const attempt = { id:"a"+Date.now()+Math.random().toString(36).slice(2,7), topic:q.topic, subject:subjectOf(q), qid:q.id, rating, hints, marks, ts:Date.now(), qStreakBefore };
+      const attempts = loadAttempts();
+      attempts.push(attempt);
+      saveAttempts(attempts);
+      scheduleAfterRating(q.id, rating);
+
+      if(!state.session) state.session = { possibleMarks:0, earnedPoints:0, answered:0 };
+      state.session.possibleMarks += marks;
+      state.session.earnedPoints += delta;
+      state.session.answered++;
+      state.session.lastAttemptId = attempt.id;
+
+      state.lastAnswered = { ...q, rating, attemptId: attempt.id, hintsUsed: hints };
+      requestCoins(q, rating, hints);
+      nextQuestion();
+      render();
+    };
+  });
+
+  const addHintBtn = document.getElementById("addHintBtn");
+  if(addHintBtn) addHintBtn.onclick = ()=>{ syncFormHintsFromDOM(); state.formHints.push(""); render(); };
+  document.querySelectorAll('[data-remove-hint]').forEach(btn=>{
+    btn.onclick = ()=>{ syncFormHintsFromDOM(); state.formHints.splice(Number(btn.dataset.removeHint),1); render(); };
+  });
+  const cancelEditBtn = document.getElementById("cancelEditBtn");
+  if(cancelEditBtn) cancelEditBtn.onclick = ()=>{ state.editForm=null; state.formHints=[""]; state.formDiagramImage=null; state.formDiagramRemoved=false; render(); };
+  const saveQBtn = document.getElementById("saveQBtn");
+  if(saveQBtn) saveQBtn.onclick = ()=>{
+    syncFormHintsFromDOM();
+    const topics = getAllTopics();
+    const topic = document.getElementById("topicSelect").value;
+    const prompt = document.getElementById("qPrompt").value.trim();
+    const solution = document.getElementById("qSolution").value.trim();
+    const marks = Math.max(1, parseInt(document.getElementById("qMarks").value) || 1);
+    const year = document.getElementById("qYear").value.trim();
+    const paper = document.getElementById("qPaper").value.trim();
+    const link = document.getElementById("qLink").value.trim();
+    const hints = state.formHints.map(h=>h.trim()).filter(h=>h.length>0);
+    if(!topic || !prompt || !solution){ alert("Please pick a topic, and fill in the question and solution."); return; }
+    const existingTopicObj = topics.find(t=>t.topic===topic);
+    const category = existingTopicObj ? existingTopicObj.category : "General";
+    const ef = state.editForm;
+    const captionEl = document.getElementById("qDiagramCaption");
+    const caption = captionEl ? captionEl.value.trim() : "";
+    let diagram = null;
+    if(!state.formDiagramRemoved){
+      if(state.formDiagramImage) diagram = { image: state.formDiagramImage.image, caption, alt: caption || "Diagram" };
+      else if(ef && ef.diagram) diagram = { ...ef.diagram, caption: caption || ef.diagram.caption || "" };
+    }
+    const custom = loadCustom();
+    let finalId;
+    if(ef){
+      const sid = currentSubject();
+      const oldEntry = custom.find(t=>t.topic===ef.topic && subjectOf(t)===sid);
+      if(oldEntry) oldEntry.questions = oldEntry.questions.filter(q=>q.id!==ef.id);
+      let newEntry = custom.find(t=>t.topic===topic && subjectOf(t)===sid);
+      if(!newEntry){ newEntry = {topic, category, subject:sid, questions:[]}; custom.push(newEntry); }
+      finalId = ef.id;
+      newEntry.questions.push({ id: ef.id, prompt, hints: hints.length?hints:["Think about which technique applies here."], solution, marks, year, paper, link, subtopic: ef.subtopic||"", ...(diagram ? {diagram} : {}) });
+      saveCustom(custom.filter(t=>t.questions.length>0));
+      state.editForm = null;
+    } else {
+      const sid = currentSubject();
+      let entry = custom.find(t=>t.topic===topic && subjectOf(t)===sid);
+      if(!entry){ entry = {topic, category, subject:sid, questions:[]}; custom.push(entry); }
+      finalId = "c"+Date.now();
+      entry.questions.push({ id: finalId, prompt, hints: hints.length?hints:["Think about which technique applies here."], solution, marks, year, paper, link, ...(diagram ? {diagram} : {}) });
+      saveCustom(custom);
+    }
+    const checkedDeckIds = new Set([...document.querySelectorAll('[data-deck-assign]:checked')].map(cb=>cb.dataset.deckAssign));
+    const decks = loadDecks();
+    let decksChanged = false;
+    decks.forEach(d=>{
+      const has = d.questionIds.includes(finalId);
+      if(checkedDeckIds.has(d.id) && !has){ d.questionIds.push(finalId); decksChanged = true; }
+      else if(!checkedDeckIds.has(d.id) && has){ d.questionIds = d.questionIds.filter(id=>id!==finalId); decksChanged = true; }
+    });
+    if(decksChanged) saveDecksL(decks);
+    state.formHints = [""];
+    state.formDiagramImage = null;
+    state.formDiagramRemoved = false;
+    render();
+  };
+  const qImageFile = document.getElementById("qImageFile");
+  if(qImageFile) qImageFile.onchange = ()=>{
+    const f = qImageFile.files && qImageFile.files[0];
+    const status = document.getElementById("imageUploadStatus");
+    if(!f) return;
+    if(f.size > 1500000){
+      if(status) status.textContent = "That image is quite large (" + Math.round(f.size/1024) + " KB) — it's saved in this browser's storage, so very large images may not fit. Consider a smaller file if saving fails.";
+    } else if(status) status.textContent = "";
+    const reader = new FileReader();
+    reader.onload = ()=>{
+      state.formDiagramImage = { image: String(reader.result||""), caption:"" };
+      state.formDiagramRemoved = false;
+      render();
+    };
+    reader.onerror = ()=>{ if(status) status.textContent = "Couldn't read that image."; };
+    reader.readAsDataURL(f);
+  };
+  const removeDiagramBtn = document.getElementById("removeDiagramBtn");
+  if(removeDiagramBtn) removeDiagramBtn.onclick = ()=>{
+    state.formDiagramImage = null;
+    state.formDiagramRemoved = true;
+    render();
+  };
+  document.querySelectorAll('[data-edit-topic]').forEach(btn=>{
+    btn.onclick = ()=>{
+      const custom = loadCustom();
+      const entry = custom.find(t=>t.topic===btn.dataset.editTopic && subjectOf(t)===currentSubject());
+      const q = entry && entry.questions.find(q=>q.id===btn.dataset.editId);
+      if(!q) return;
+      state.editForm = { topic: btn.dataset.editTopic, category: entry.category, id: q.id, prompt: q.prompt, solution: q.solution, marks: q.marks||1, year: q.year||"", paper: q.paper||"", link: q.link||"", subtopic: q.subtopic||"", diagram: q.diagram||null };
+      state.formHints = q.hints && q.hints.length ? [...q.hints] : [""];
+      state.formDiagramImage = null;
+      state.formDiagramRemoved = false;
+      render();
+      document.getElementById("qPrompt").scrollIntoView({behavior:"smooth", block:"start"});
+    };
+  });
+  document.querySelectorAll('[data-del-topic]').forEach(btn=>{
+    btn.onclick = ()=>{
+      const custom = loadCustom();
+      const entry = custom.find(t=>t.topic===btn.dataset.delTopic && subjectOf(t)===currentSubject());
+      if(entry){
+        entry.questions = entry.questions.filter(q=>q.id!==btn.dataset.delId);
+        saveCustom(custom.filter(t=>t.questions.length>0));
+      }
+      render();
+    };
+  });
+  document.querySelectorAll('[data-unhide]').forEach(btn=>{
+    btn.onclick = ()=>{ setQState(btn.dataset.unhide, { suspended:false }); render(); };
+  });
+  document.querySelectorAll('[data-dismiss-report]').forEach(btn=>{
+    btn.onclick = ()=>{
+      const reports = loadReports();
+      reports.splice(Number(btn.dataset.dismissReport), 1);
+      saveReports(reports);
+      render();
+    };
+  });
+
+  document.querySelectorAll('[data-deck-open]').forEach(btn=>{
+    btn.onclick = ()=>{ state.deckPickerFor = btn.dataset.deckOpen; render(); };
+  });
+  document.querySelectorAll('[data-deck-cancel]').forEach(btn=>{
+    btn.onclick = ()=>{ state.deckPickerFor = null; render(); };
+  });
+  document.querySelectorAll('[data-deck-add-existing]').forEach(btn=>{
+    btn.onclick = ()=>{
+      const qid = btn.dataset.deckAddExisting;
+      const sel = document.getElementById("deckPickSelect");
+      const deckId = sel && sel.value;
+      if(!deckId){ alert("Create a deck first, or pick one from the list."); return; }
+      const decks = loadDecks();
+      const deck = decks.find(d=>d.id===deckId);
+      if(deck && !deck.questionIds.includes(qid)) deck.questionIds.push(qid);
+      saveDecksL(decks);
+      state.deckPickerFor = null;
+      state.toast = { message: `Added to "${deck ? deck.name : "deck"}".`, showUndo:false };
+      render();
+      setTimeout(()=>{ state.toast=null; render(); }, 3000);
+    };
+  });
+  document.querySelectorAll('[data-deck-add-new]').forEach(btn=>{
+    btn.onclick = ()=>{
+      const qid = btn.dataset.deckAddNew;
+      const nameEl = document.getElementById("deckNewName");
+      const name = nameEl ? nameEl.value.trim() : "";
+      if(!name){ alert("Give the new deck a name."); return; }
+      const decks = loadDecks();
+      const deck = { id:"deck"+Date.now()+Math.random().toString(36).slice(2,6), name, questionIds:[qid] };
+      decks.push(deck);
+      saveDecksL(decks);
+      state.deckPickerFor = null;
+      state.toast = { message: `Created "${name}" and added the question.`, showUndo:false };
+      render();
+      setTimeout(()=>{ state.toast=null; render(); }, 3000);
+    };
+  });
+  const createDeckBtn = document.getElementById("createDeckBtn");
+  if(createDeckBtn) createDeckBtn.onclick = ()=>{
+    const nameEl = document.getElementById("newDeckStandaloneName");
+    const name = nameEl ? nameEl.value.trim() : "";
+    if(!name){ alert("Give the deck a name."); return; }
+    const decks = loadDecks();
+    decks.push({ id:"deck"+Date.now()+Math.random().toString(36).slice(2,6), name, questionIds:[] });
+    saveDecksL(decks);
+    render();
+  };
+  document.querySelectorAll('[data-deck-view]').forEach(btn=>{
+    btn.onclick = ()=>{ state.viewDeckId = state.viewDeckId===btn.dataset.deckView ? null : btn.dataset.deckView; render(); };
+  });
+  document.querySelectorAll('[data-deck-rename]').forEach(btn=>{
+    btn.onclick = ()=>{
+      const decks = loadDecks();
+      const deck = decks.find(d=>d.id===btn.dataset.deckRename);
+      if(!deck) return;
+      const name = prompt("Rename deck", deck.name);
+      if(name && name.trim()){ deck.name = name.trim(); saveDecksL(decks); render(); }
+    };
+  });
+  document.querySelectorAll('[data-deck-delete]').forEach(btn=>{
+    btn.onclick = ()=>{
+      if(!confirm("Delete this deck? The questions themselves are not affected.")) return;
+      const decks = loadDecks().filter(d=>d.id!==btn.dataset.deckDelete);
+      saveDecksL(decks);
+      if(state.viewDeckId===btn.dataset.deckDelete) state.viewDeckId = null;
+      render();
+    };
+  });
+  document.querySelectorAll('[data-deck-remove-q]').forEach(btn=>{
+    btn.onclick = ()=>{
+      const [deckId, qid] = btn.dataset.deckRemoveQ.split("|");
+      const decks = loadDecks();
+      const deck = decks.find(d=>d.id===deckId);
+      if(deck){ deck.questionIds = deck.questionIds.filter(id=>id!==qid); saveDecksL(decks); }
+      render();
+    };
+  });
+  document.querySelectorAll('[data-deck-practice]').forEach(btn=>{
+    btn.onclick = ()=>{
+      const deck = loadDecks().find(d=>d.id===btn.dataset.deckPractice);
+      if(!deck || deck.questionIds.length===0) return;
+      const pool = deck.questionIds
+        .map(qid=>findQuestionById(qid))
+        .filter(q=>q && !getQState(q.id).suspended);
+      if(pool.length===0){ alert("Every question in this deck is currently hidden."); return; }
+      state.queue = shuffleArr(pool);
+      state.screen = "practice";
+      state.lastAnswered = null;
+      state.practiceOrigin = "decks";
+      state.session = { possibleMarks:0, earnedPoints:0, answered:0 };
+      nextQuestion();
+      render();
+      window.scrollTo(0,0);
+    };
+  });
+}
+
+function syncFormHintsFromDOM(){
+  document.querySelectorAll('[data-hint-idx]').forEach(inp=>{
+    state.formHints[Number(inp.dataset.hintIdx)] = inp.value;
+  });
+}
+
+applyShopTheme();
+document.title = SITE_NAME;
+initAccounts();
+loadSubject(currentSubject()).catch(()=>{});
+render();
+</script>
+</body>
+</html>

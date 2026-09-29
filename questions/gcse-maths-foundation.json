@@ -1,0 +1,195 @@
+{
+ "subject": "gcse-maths-foundation",
+ "topics": [
+  {
+   "topic": "Place value, ordering and negatives",
+   "category": "Number",
+   "questions": []
+  },
+  {
+   "topic": "Order of operations",
+   "category": "Number",
+   "questions": []
+  },
+  {
+   "topic": "Fractions, decimals and percentages",
+   "category": "Number",
+   "questions": []
+  },
+  {
+   "topic": "Powers, roots and standard form",
+   "category": "Number",
+   "questions": []
+  },
+  {
+   "topic": "Factors, multiples and primes",
+   "category": "Number",
+   "questions": []
+  },
+  {
+   "topic": "Rounding and estimation",
+   "category": "Number",
+   "questions": []
+  },
+  {
+   "topic": "Error intervals",
+   "category": "Number",
+   "questions": []
+  },
+  {
+   "topic": "Expressions and simplifying",
+   "category": "Algebra",
+   "questions": []
+  },
+  {
+   "topic": "Expanding and factorising",
+   "category": "Algebra",
+   "questions": []
+  },
+  {
+   "topic": "Formulae and substitution",
+   "category": "Algebra",
+   "questions": []
+  },
+  {
+   "topic": "Linear equations and inequalities",
+   "category": "Algebra",
+   "questions": []
+  },
+  {
+   "topic": "Simultaneous equations",
+   "category": "Algebra",
+   "questions": []
+  },
+  {
+   "topic": "Sequences",
+   "category": "Algebra",
+   "questions": []
+  },
+  {
+   "topic": "Straight-line graphs",
+   "category": "Algebra",
+   "questions": []
+  },
+  {
+   "topic": "Quadratic graphs",
+   "category": "Algebra",
+   "questions": []
+  },
+  {
+   "topic": "Ratio",
+   "category": "Ratio, proportion and rates of change",
+   "questions": []
+  },
+  {
+   "topic": "Proportion",
+   "category": "Ratio, proportion and rates of change",
+   "questions": []
+  },
+  {
+   "topic": "Percentages and interest",
+   "category": "Ratio, proportion and rates of change",
+   "questions": []
+  },
+  {
+   "topic": "Compound measures",
+   "category": "Ratio, proportion and rates of change",
+   "questions": []
+  },
+  {
+   "topic": "Units and conversions",
+   "category": "Ratio, proportion and rates of change",
+   "questions": []
+  },
+  {
+   "topic": "Angles and polygons",
+   "category": "Geometry and measures",
+   "questions": []
+  },
+  {
+   "topic": "Area and perimeter",
+   "category": "Geometry and measures",
+   "questions": []
+  },
+  {
+   "topic": "Volume and surface area",
+   "category": "Geometry and measures",
+   "questions": []
+  },
+  {
+   "topic": "Pythagoras' theorem",
+   "category": "Geometry and measures",
+   "questions": []
+  },
+  {
+   "topic": "Trigonometry",
+   "category": "Geometry and measures",
+   "questions": []
+  },
+  {
+   "topic": "Transformations",
+   "category": "Geometry and measures",
+   "questions": []
+  },
+  {
+   "topic": "Similarity and congruence",
+   "category": "Geometry and measures",
+   "questions": []
+  },
+  {
+   "topic": "Constructions and loci",
+   "category": "Geometry and measures",
+   "questions": []
+  },
+  {
+   "topic": "Vectors",
+   "category": "Geometry and measures",
+   "questions": []
+  },
+  {
+   "topic": "Bearings and scale drawings",
+   "category": "Geometry and measures",
+   "questions": []
+  },
+  {
+   "topic": "Basic probability",
+   "category": "Probability",
+   "questions": []
+  },
+  {
+   "topic": "Frequency trees and relative frequency",
+   "category": "Probability",
+   "questions": []
+  },
+  {
+   "topic": "Tree diagrams",
+   "category": "Probability",
+   "questions": []
+  },
+  {
+   "topic": "Venn diagrams",
+   "category": "Probability",
+   "questions": []
+  },
+  {
+   "topic": "Averages and range",
+   "category": "Statistics",
+   "questions": []
+  },
+  {
+   "topic": "Charts and diagrams",
+   "category": "Statistics",
+   "questions": []
+  },
+  {
+   "topic": "Scatter graphs",
+   "category": "Statistics",
+   "questions": []
+  },
+  {
+   "topic": "Sampling",
+   "category": "Statistics",
+   "questions": []
+  }
+ ]
+}
