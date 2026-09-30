@@ -9,12 +9,145 @@
   {
    "topic": "Order of operations",
    "category": "Number",
-   "questions": []
+   "questions": [
+    {
+     "id": "gcse-f-2024nov-p1-q12a",
+     "marks": 1,
+     "prompt": "Maya was asked to work out $20 - 4 \\times 3$\n\nMaya wrote $20 - 4 = 16$\nShe then worked out $16 \\times 3$\n\nExplain what is wrong with the method.",
+     "hints": [
+      "Think about BIDMAS: which operations come first?"
+     ],
+     "solution": "Model answer: She should do the multiplication before the subtraction. [B1]\n\nMultiplication comes before subtraction: $4 \\times 3 = 12$, then $20 - 12 = 8$. Maya subtracted first.",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q12"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q12b",
+     "marks": 1,
+     "prompt": "Sam was asked to work out $12 + 6 \\div 3$\n\nSam wrote $12 + 6 = 18$\nHe then worked out $18 \\div 3 = 6$\n\nExplain what is wrong with the method.",
+     "hints": [
+      "Think about BIDMAS: which operations come first?"
+     ],
+     "solution": "Model answer: He should do the division before the addition. [B1]\n\nDivision comes before addition: $6 \\div 3 = 2$, then $12 + 2 = 14$. Sam added first.",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q12"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q12c",
+     "marks": 1,
+     "prompt": "Leah was asked to work out $3 \\times (8 - 2)$\n\nLeah wrote $3 \\times 8 = 24$\nShe then worked out $24 - 2 = 22$\n\nExplain what is wrong with the method.",
+     "hints": [
+      "Think about BIDMAS: which operations come first?"
+     ],
+     "solution": "Model answer: She should work out the bracket first. [B1]\n\nBrackets come first: $8 - 2 = 6$, then $3 \\times 6 = 18$. Leah ignored the bracket.",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q12"
+    }
+   ]
   },
   {
    "topic": "Fractions, decimals and percentages",
    "category": "Number",
-   "questions": []
+   "questions": [
+    {
+     "id": "gcse-f-2024nov-p1-q01",
+     "marks": 1,
+     "prompt": "Write $35\\%$ as a decimal.",
+     "hints": [
+      "Per cent means 'out of 100'.",
+      "Divide by $100$: move each digit two places to the right."
+     ],
+     "solution": "$35\\% = \\dfrac{35}{100} = 0.35$ [B1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q1",
+     "answer": "0.35"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q01b",
+     "marks": 1,
+     "prompt": "Write $8\\%$ as a decimal.",
+     "hints": [
+      "Per cent means 'out of 100'.",
+      "$8\\%$ is $8$ hundredths, so the $8$ goes in the hundredths column."
+     ],
+     "solution": "$8\\% = \\dfrac{8}{100} = 0.08$ [B1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q1",
+     "answer": "0.08"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q01c",
+     "marks": 1,
+     "prompt": "Write $0.6$ as a percentage.",
+     "hints": [
+      "To turn a decimal into a percentage, multiply by $100$."
+     ],
+     "solution": "$0.6 \\times 100 = 60$, so $0.6 = 60\\%$ [B1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q1",
+     "answer": "60%"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q20a",
+     "marks": 5,
+     "prompt": "(a) Work out $\\;4\\tfrac{2}{3} - 1\\tfrac{1}{4}$\nGive your answer as a mixed number. (2)\n\n(b) Show that $\\;4\\tfrac{1}{2} \\div 1\\tfrac{1}{5} = 3\\tfrac{3}{4}$ (3)",
+     "hints": [
+      "Change mixed numbers into improper fractions first.",
+      "For (a), write both fractions over a common denominator before subtracting.",
+      "For (b), keep the first fraction, flip the second, and multiply."
+     ],
+     "solution": "(a) $4\\tfrac{2}{3} - 1\\tfrac{1}{4} = \\tfrac{14}{3} - \\tfrac{5}{4} = \\tfrac{56}{12} - \\tfrac{15}{12} = \\tfrac{41}{12} = 3\\tfrac{5}{12}$ [M1 A1]\n\n(b) $4\\tfrac{1}{2} \\div 1\\tfrac{1}{5} = \\tfrac{9}{2} \\div \\tfrac{6}{5} = \\tfrac{9}{2} \\times \\tfrac{5}{6} = \\tfrac{45}{12} = \\tfrac{15}{4} = 3\\tfrac{3}{4}$ [M1 M1 A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q20",
+     "parts": [
+      {
+       "label": "a",
+       "answer": "3 5/12",
+       "exact": true
+      }
+     ]
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q20b",
+     "marks": 5,
+     "prompt": "(a) Work out $\\;5\\tfrac{3}{4} - 2\\tfrac{5}{6}$\nGive your answer as a mixed number. (2)\n\n(b) Show that $\\;3\\tfrac{1}{3} \\div 1\\tfrac{1}{4} = 2\\tfrac{2}{3}$ (3)",
+     "hints": [
+      "Change mixed numbers into improper fractions first.",
+      "For (a), write both fractions over a common denominator before subtracting.",
+      "For (b), keep the first fraction, flip the second, and multiply."
+     ],
+     "solution": "(a) $5\\tfrac{3}{4} - 2\\tfrac{5}{6} = \\tfrac{23}{4} - \\tfrac{17}{6} = \\tfrac{69}{12} - \\tfrac{34}{12} = \\tfrac{35}{12} = 2\\tfrac{11}{12}$ [M1 A1]\n\n(b) $3\\tfrac{1}{3} \\div 1\\tfrac{1}{4} = \\tfrac{10}{3} \\div \\tfrac{5}{4} = \\tfrac{10}{3} \\times \\tfrac{4}{5} = \\tfrac{40}{15} = \\tfrac{8}{3} = 2\\tfrac{2}{3}$ [M1 M1 A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q20",
+     "parts": [
+      {
+       "label": "a",
+       "answer": "2 11/12",
+       "exact": true
+      }
+     ]
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q20c",
+     "marks": 5,
+     "prompt": "(a) Work out $\\;6\\tfrac{1}{5} - 3\\tfrac{1}{2}$\nGive your answer as a mixed number. (2)\n\n(b) Show that $\\;2\\tfrac{2}{5} \\div 1\\tfrac{1}{3} = 1\\tfrac{4}{5}$ (3)",
+     "hints": [
+      "Change mixed numbers into improper fractions first.",
+      "For (a), write both fractions over a common denominator before subtracting.",
+      "For (b), keep the first fraction, flip the second, and multiply."
+     ],
+     "solution": "(a) $6\\tfrac{1}{5} - 3\\tfrac{1}{2} = \\tfrac{31}{5} - \\tfrac{7}{2} = \\tfrac{62}{10} - \\tfrac{35}{10} = \\tfrac{27}{10} = 2\\tfrac{7}{10}$ [M1 A1]\n\n(b) $2\\tfrac{2}{5} \\div 1\\tfrac{1}{3} = \\tfrac{12}{5} \\div \\tfrac{4}{3} = \\tfrac{12}{5} \\times \\tfrac{3}{4} = \\tfrac{36}{20} = \\tfrac{9}{5} = 1\\tfrac{4}{5}$ [M1 M1 A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q20",
+     "parts": [
+      {
+       "label": "a",
+       "answer": "2 7/10",
+       "exact": true
+      }
+     ]
+    }
+   ]
   },
   {
    "topic": "Powers, roots and standard form",
@@ -24,7 +157,46 @@
   {
    "topic": "Factors, multiples and primes",
    "category": "Number",
-   "questions": []
+   "questions": [
+    {
+     "id": "gcse-f-2024nov-p1-q04",
+     "marks": 1,
+     "prompt": "Write down the multiple of $7$ that is between $30$ and $40$.",
+     "hints": [
+      "List the $7$ times table: $7, 14, 21, \\dots$",
+      "Which one lands between $30$ and $40$?"
+     ],
+     "solution": "Multiples of $7$: $28, 35, 42, \\dots$ Only $35$ is between $30$ and $40$. [B1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q4",
+     "answer": "35"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q04b",
+     "marks": 1,
+     "prompt": "Write down the multiple of $8$ that is between $50$ and $60$.",
+     "hints": [
+      "Count up in $8$s: $8, 16, 24, \\dots$"
+     ],
+     "solution": "Multiples of $8$: $48, 56, 64, \\dots$ Only $56$ is between $50$ and $60$. [B1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q4",
+     "answer": "56"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q04c",
+     "marks": 1,
+     "prompt": "Write down the factor of $36$ that is between $10$ and $15$.",
+     "hints": [
+      "A factor divides into $36$ exactly.",
+      "List the factor pairs of $36$: $1 \\times 36$, $2 \\times 18$, …"
+     ],
+     "solution": "Factors of $36$: $1, 2, 3, 4, 6, 9, 12, 18, 36$. Only $12$ is between $10$ and $15$. [B1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q4",
+     "answer": "12"
+    }
+   ]
   },
   {
    "topic": "Rounding and estimation",
@@ -35,6 +207,180 @@
    "topic": "Error intervals",
    "category": "Number",
    "questions": []
+  },
+  {
+   "topic": "Written calculations",
+   "category": "Number",
+   "questions": [
+    {
+     "id": "gcse-f-2024nov-p1-q05",
+     "marks": 1,
+     "prompt": "Work out $480 + 356$",
+     "hints": [
+      "Line the numbers up in columns: hundreds, tens, units.",
+      "Add the units first and remember to carry."
+     ],
+     "solution": "Units: $0 + 6 = 6$. Tens: $8 + 5 = 13$, write $3$ carry $1$. Hundreds: $4 + 3 + 1 = 8$. Answer $836$. [B1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q5",
+     "answer": "836"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q05b",
+     "marks": 1,
+     "prompt": "Work out $700 - 264$",
+     "hints": [
+      "Line the numbers up in columns.",
+      "You will need to exchange from the hundreds column."
+     ],
+     "solution": "$700 - 264 = 436$ (check: $436 + 264 = 700$) [B1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q5",
+     "answer": "436"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q05c",
+     "marks": 1,
+     "prompt": "Work out $1250 + 375$",
+     "hints": [
+      "Line up units, tens, hundreds and thousands.",
+      "Add from the right and carry when a column goes over $9$."
+     ],
+     "solution": "Units: $0 + 5 = 5$. Tens: $5 + 7 = 12$, write $2$ carry $1$. Hundreds: $2 + 3 + 1 = 6$. Thousands: $1$. Answer $1625$. [B1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q5",
+     "answer": "1625"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q18a",
+     "marks": 3,
+     "prompt": "Work out $\\;745.2 \\div 1.8$",
+     "hints": [
+      "Make the divisor a whole number by multiplying both numbers by the same power of $10$.",
+      "Multiply both by $10$, then use short or long division.",
+      "Estimate first to check your answer is the right size."
+     ],
+     "solution": "Multiply both by $10$: $745.2 \\div 1.8 = 7452 \\div 18$ [M1]\n$7452 \\div 18 = 414$ [M1 A1]\nCheck: $414 \\times 1.8 = 745.2$",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q18",
+     "answer": "414"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q18b",
+     "marks": 3,
+     "prompt": "Work out $\\;563.5 \\div 1.4$",
+     "hints": [
+      "Make the divisor a whole number by multiplying both numbers by the same power of $10$.",
+      "Multiply both by $10$, then use short or long division.",
+      "Estimate first to check your answer is the right size."
+     ],
+     "solution": "Multiply both by $10$: $563.5 \\div 1.4 = 5635 \\div 14$ [M1]\n$5635 \\div 14 = 402.5$ [M1 A1]\nCheck: $402.5 \\times 1.4 = 563.5$",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q18",
+     "answer": "402.5"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q18c",
+     "marks": 3,
+     "prompt": "Work out $\\;97.44 \\div 0.24$",
+     "hints": [
+      "Make the divisor a whole number by multiplying both numbers by the same power of $10$.",
+      "Multiply both by $100$, then use short or long division.",
+      "Estimate first to check your answer is the right size."
+     ],
+     "solution": "Multiply both by $100$: $97.44 \\div 0.24 = 9744 \\div 24$ [M1]\n$9744 \\div 24 = 406$ [M1 A1]\nCheck: $406 \\times 0.24 = 97.44$",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q18",
+     "answer": "406"
+    }
+   ]
+  },
+  {
+   "topic": "Money problems",
+   "category": "Number",
+   "questions": [
+    {
+     "id": "gcse-f-2024nov-p1-q06a",
+     "marks": 3,
+     "prompt": "Priya hires a bike for $8$ days.\nShe pays $\\pounds 35$ for each day.\nShe also pays $\\pounds 25$ to hire a helmet.\n\nPriya pays with four $\\pounds 100$ notes.\nWork out how much change she should get.",
+     "hints": [
+      "First find the cost of the bike for all $8$ days.",
+      "Add the helmet, then subtract the total from the amount she pays."
+     ],
+     "solution": "Bike: $8 \\times 35 = \\pounds 280$ [M1]\nTotal cost: $280 + 25 = \\pounds 305$ [M1]\nPaid: $4 \\times 100 = \\pounds 400$\nChange: $400 - 305 = \\pounds 95$ [A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q6",
+     "answer": "£95"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q06b",
+     "marks": 3,
+     "prompt": "Tom rents a caravan for $6$ nights.\nHe pays $\\pounds 65$ for each night.\nHe also pays a cleaning fee of $\\pounds 45$.\n\nTom pays with nine $\\pounds 50$ notes.\nWork out how much change he should get.",
+     "hints": [
+      "Work out $6 \\times 65$ for the nights.",
+      "Nine $\\pounds 50$ notes is $9 \\times 50$. Compare this with the total cost."
+     ],
+     "solution": "Nights: $6 \\times 65 = \\pounds 390$ [M1]\nTotal cost: $390 + 45 = \\pounds 435$ [M1]\nPaid: $9 \\times 50 = \\pounds 450$\nChange: $450 - 435 = \\pounds 15$ [A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q6",
+     "answer": "£15"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q06c",
+     "marks": 3,
+     "prompt": "Aisha hires a van for $12$ days.\nShe pays $\\pounds 38$ for each day.\nShe also pays $\\pounds 54$ for insurance.\n\nAisha pays with thirty $\\pounds 20$ notes.\nWork out how much change she should get.",
+     "hints": [
+      "Split $12 \\times 38$ into $10 \\times 38$ and $2 \\times 38$.",
+      "Add the insurance to get the total, then subtract it from $30 \\times 20$."
+     ],
+     "solution": "Van: $12 \\times 38 = 380 + 76 = \\pounds 456$ [M1]\nTotal cost: $456 + 54 = \\pounds 510$ [M1]\nPaid: $30 \\times 20 = \\pounds 600$\nChange: $600 - 510 = \\pounds 90$ [A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q6",
+     "answer": "£90"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q16a",
+     "marks": 5,
+     "prompt": "1 sandwich and 1 drink cost $\\pounds 5.20$\n2 sandwiches and 1 drink cost $\\pounds 8.70$\n\nWork out the total cost of 3 sandwiches and 2 drinks.\nYou must show all your working.",
+     "hints": [
+      "Compare the two lines: what is different between them?",
+      "The difference in cost is caused only by the extra items.",
+      "Once you know one price, use the first line to find the other."
+     ],
+     "solution": "The extra sandwich costs $\\pounds 8.70 - \\pounds 5.20 = \\pounds 3.50$ [P1]\n1 drink $= \\pounds 5.20 - \\pounds 3.50 = \\pounds 1.70$ [P1]\nTotal: $3 \\times \\pounds 3.50 + 2 \\times \\pounds 1.70 = \\pounds 10.50 + \\pounds 3.40 = \\pounds 13.90$ [P1 P1 A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q16",
+     "answer": "£13.90"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q16b",
+     "marks": 5,
+     "prompt": "1 pen and 1 notebook cost $\\pounds 3.60$\n1 pen and 4 notebooks cost $\\pounds 9.90$\n\nWork out the total cost of 5 pens and 2 notebooks.\nYou must show all your working.",
+     "hints": [
+      "Compare the two lines: what is different between them?",
+      "The difference in cost is caused only by the extra items.",
+      "Once you know one price, use the first line to find the other."
+     ],
+     "solution": "Difference: $3$ notebooks cost $\\pounds 9.90 - \\pounds 3.60 = \\pounds 6.30$ [P1]\n1 notebook $= \\pounds 6.30 \\div 3 = \\pounds 2.10$ [P1]\n1 pen $= \\pounds 3.60 - \\pounds 2.10 = \\pounds 1.50$ [P1]\nTotal: $5 \\times \\pounds 1.50 + 2 \\times \\pounds 2.10 = \\pounds 7.50 + \\pounds 4.20 = \\pounds 11.70$ [P1 A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q16",
+     "answer": "£11.70"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q16c",
+     "marks": 5,
+     "prompt": "1 adult ticket and 1 child ticket cost $\\pounds 13.00$\n3 adult tickets and 1 child ticket cost $\\pounds 31.00$\n\nWork out the total cost of 2 adult tickets and 4 child tickets.\nYou must show all your working.",
+     "hints": [
+      "Compare the two lines: what is different between them?",
+      "The difference in cost is caused only by the extra items.",
+      "Once you know one price, use the first line to find the other."
+     ],
+     "solution": "Difference: $2$ adult tickets cost $\\pounds 31.00 - \\pounds 13.00 = \\pounds 18.00$ [P1]\n1 adult ticket $= \\pounds 18.00 \\div 2 = \\pounds 9.00$ [P1]\n1 child ticket $= \\pounds 13.00 - \\pounds 9.00 = \\pounds 4.00$ [P1]\nTotal: $2 \\times \\pounds 9.00 + 4 \\times \\pounds 4.00 = \\pounds 18.00 + \\pounds 16.00 = \\pounds 34.00$ [P1 A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q16",
+     "answer": "£34.00"
+    }
+   ]
   },
   {
    "topic": "Expressions and simplifying",
@@ -49,12 +395,148 @@
   {
    "topic": "Formulae and substitution",
    "category": "Algebra",
-   "questions": []
+   "questions": [
+    {
+     "id": "gcse-f-2024nov-p1-q25a",
+     "marks": 2,
+     "prompt": "Make $w$ the subject of the formula $\\;y = 4w + 7$",
+     "hints": [
+      "Do the inverse operations to get $w$ on its own, in reverse order to how it was built.",
+      "First deal with the number being added or subtracted, then divide by the number multiplying $w$."
+     ],
+     "solution": "$y - 7 = 4w$ [M1]\n$w = \\dfrac{y - 7}{4}$ [A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q25",
+     "answers": [
+      "w = (y - 7)/4",
+      "w = y/4 - 7/4",
+      "w = (y - 7) ÷ 4"
+     ],
+     "fraction": false
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q25b",
+     "marks": 2,
+     "prompt": "Make $q$ the subject of the formula $\\;p = 5q - 12$",
+     "hints": [
+      "Do the inverse operations to get $q$ on its own, in reverse order to how it was built.",
+      "First deal with the number being added or subtracted, then divide by the number multiplying $q$."
+     ],
+     "solution": "$p + 12 = 5q$ [M1]\n$q = \\dfrac{p + 12}{5}$ [A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q25",
+     "answers": [
+      "q = (p + 12)/5",
+      "q = p/5 + 12/5",
+      "q = (p + 12) ÷ 5"
+     ],
+     "fraction": false
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q25c",
+     "marks": 2,
+     "prompt": "Make $r$ the subject of the formula $\\;A = 8 - 3r$",
+     "hints": [
+      "Do the inverse operations to get $r$ on its own, in reverse order to how it was built.",
+      "First deal with the number being added or subtracted, then divide by the number multiplying $r$."
+     ],
+     "solution": "$A + 3r = 8$\n$3r = 8 - A$ [M1]\n$r = \\dfrac{8 - A}{3}$ [A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q25",
+     "answers": [
+      "r = (8 - A)/3",
+      "r = 8/3 - A/3",
+      "r = (8 - A) ÷ 3",
+      "r = (A - 8)/-3",
+      "r = -(A - 8)/3"
+     ],
+     "fraction": false
+    }
+   ]
   },
   {
    "topic": "Linear equations and inequalities",
    "category": "Algebra",
-   "questions": []
+   "questions": [
+    {
+     "id": "gcse-f-2024nov-p1-q15a",
+     "marks": 4,
+     "prompt": "(a) Factorise $\\;8b + 20$ (1)\n\n(b) Solve $\\;3(2x - 5) = 21$ (3)",
+     "hints": [
+      "For (a), find the highest common factor of both terms and put it outside the bracket.",
+      "For (b), you can divide both sides by $3$ first, or expand the bracket.",
+      "Then get the $x$ term on its own and divide."
+     ],
+     "solution": "(a) HCF of $8$ and $20$ is $4$, so $8b + 20 = 4(2b + 5)$ [B1]\n\n(b) $\\div 3$: $2x - 5 = 7$ [M1]\n$2x = 12$ [M1]\n$x = 6$ [A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q15",
+     "parts": [
+      {
+       "label": "a",
+       "answers": [
+        "4(2b + 5)",
+        "4(5 + 2b)"
+       ]
+      },
+      {
+       "label": "b",
+       "answer": "x = 6"
+      }
+     ]
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q15b",
+     "marks": 4,
+     "prompt": "(a) Factorise $\\;10c - 15$ (1)\n\n(b) Solve $\\;5(2y + 3) = 45$ (3)",
+     "hints": [
+      "For (a), find the highest common factor of both terms and put it outside the bracket.",
+      "For (b), you can divide both sides by $5$ first, or expand the bracket.",
+      "Then get the $y$ term on its own and divide."
+     ],
+     "solution": "(a) HCF of $10$ and $15$ is $5$, so $10c - 15 = 5(2c - 3)$ [B1]\n\n(b) $\\div 5$: $2y + 3 = 9$ [M1]\n$2y = 6$ [M1]\n$y = 3$ [A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q15",
+     "parts": [
+      {
+       "label": "a",
+       "answers": [
+        "5(2c - 3)",
+        "5(-3 + 2c)"
+       ]
+      },
+      {
+       "label": "b",
+       "answer": "y = 3"
+      }
+     ]
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q15c",
+     "marks": 4,
+     "prompt": "(a) Factorise $\\;12m + 18$ (1)\n\n(b) Solve $\\;2(4x - 1) = 30$ (3)",
+     "hints": [
+      "For (a), find the highest common factor of both terms and put it outside the bracket.",
+      "For (b), you can divide both sides by $2$ first, or expand the bracket.",
+      "Then get the $x$ term on its own and divide."
+     ],
+     "solution": "(a) HCF of $12$ and $18$ is $6$, so $12m + 18 = 6(2m + 3)$ [B1]\n\n(b) $\\div 2$: $4x - 1 = 15$ [M1]\n$4x = 16$ [M1]\n$x = 4$ [A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q15",
+     "parts": [
+      {
+       "label": "a",
+       "answers": [
+        "6(2m + 3)",
+        "6(3 + 2m)"
+       ]
+      },
+      {
+       "label": "b",
+       "answer": "x = 4"
+      }
+     ]
+    }
+   ]
   },
   {
    "topic": "Simultaneous equations",
@@ -64,12 +546,99 @@
   {
    "topic": "Sequences",
    "category": "Algebra",
-   "questions": []
+   "questions": [
+    {
+     "id": "gcse-f-2024nov-p1-q02",
+     "marks": 1,
+     "prompt": "Here are the first four odd numbers.\n\n$1 \\quad 3 \\quad 5 \\quad 7$\n\nFind the $12$th odd number.",
+     "hints": [
+      "The numbers go up by $2$ each time.",
+      "Each odd number is one less than the matching even number: the $n$th odd number is $2n - 1$."
+     ],
+     "solution": "The $12$th even number is $2 \\times 12 = 24$, so the $12$th odd number is $24 - 1 = 23$. [B1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q2",
+     "answer": "23"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q02b",
+     "marks": 1,
+     "prompt": "Here are the first four multiples of $5$.\n\n$5 \\quad 10 \\quad 15 \\quad 20$\n\nFind the $9$th multiple of $5$.",
+     "hints": [
+      "The $1$st is $1 \\times 5$, the $2$nd is $2 \\times 5$ …"
+     ],
+     "solution": "$9 \\times 5 = 45$ [B1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q2",
+     "answer": "45"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q02c",
+     "marks": 1,
+     "prompt": "Here are the first four square numbers.\n\n$1 \\quad 4 \\quad 9 \\quad 16$\n\nFind the $7$th square number.",
+     "hints": [
+      "$1 = 1 \\times 1$, $4 = 2 \\times 2$, $9 = 3 \\times 3$ …"
+     ],
+     "solution": "$7 \\times 7 = 49$ [B1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q2",
+     "answer": "49"
+    }
+   ]
   },
   {
    "topic": "Straight-line graphs",
    "category": "Algebra",
-   "questions": []
+   "questions": [
+    {
+     "id": "gcse-f-2024nov-p1-q24a",
+     "marks": 1,
+     "prompt": "The graph shows the distance, $d$ km, of a car from home at time $t$ hours.\n\nWhat does the gradient of this graph represent?",
+     "hints": [
+      "Gradient $=$ change in $y \\div$ change in $x$.",
+      "Look at the units on each axis: what is (vertical unit) per (horizontal unit)?"
+     ],
+     "solution": "Model answer: The speed of the car (in km per hour). [B1]\n\nThe gradient is change in distance $\\div$ change in time, which is speed: $200 \\div 5 = 40$ km/h.",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q24",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 380\" font-family=\"Times New Roman, serif\" style=\"max-width:100%;height:auto\"><line x1=\"90.0\" y1=\"20\" x2=\"90.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"20.0\" x2=\"390\" y2=\"20.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"120.0\" y1=\"20\" x2=\"120.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"50.0\" x2=\"390\" y2=\"50.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"150.0\" y1=\"20\" x2=\"150.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"80.0\" x2=\"390\" y2=\"80.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"180.0\" y1=\"20\" x2=\"180.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"110.0\" x2=\"390\" y2=\"110.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"210.0\" y1=\"20\" x2=\"210.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"140.0\" x2=\"390\" y2=\"140.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"240.0\" y1=\"20\" x2=\"240.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"170.0\" x2=\"390\" y2=\"170.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"270.0\" y1=\"20\" x2=\"270.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"200.0\" x2=\"390\" y2=\"200.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"300.0\" y1=\"20\" x2=\"300.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"230.0\" x2=\"390\" y2=\"230.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"330.0\" y1=\"20\" x2=\"330.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"260.0\" x2=\"390\" y2=\"260.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"360.0\" y1=\"20\" x2=\"360.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"290.0\" x2=\"390\" y2=\"290.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"390.0\" y1=\"20\" x2=\"390.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"320.0\" x2=\"390\" y2=\"320.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"320\" x2=\"408\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-opacity=\"1\"/><line x1=\"90\" y1=\"320\" x2=\"90\" y2=\"6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-opacity=\"1\"/><polygon points=\"414,320 404,315 404,325\" fill=\"currentColor\"/><polygon points=\"90,0 85,10 95,10\" fill=\"currentColor\"/><text x=\"90.0\" y=\"340.0\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">0</text><text x=\"150.0\" y=\"340.0\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">1</text><text x=\"210.0\" y=\"340.0\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">2</text><text x=\"270.0\" y=\"340.0\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">3</text><text x=\"330.0\" y=\"340.0\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">4</text><text x=\"390.0\" y=\"340.0\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">5</text><text x=\"82.0\" y=\"325.0\" font-size=\"14\" text-anchor=\"end\" fill=\"currentColor\">0</text><text x=\"82.0\" y=\"265.0\" font-size=\"14\" text-anchor=\"end\" fill=\"currentColor\">40</text><text x=\"82.0\" y=\"205.0\" font-size=\"14\" text-anchor=\"end\" fill=\"currentColor\">80</text><text x=\"82.0\" y=\"145.0\" font-size=\"14\" text-anchor=\"end\" fill=\"currentColor\">120</text><text x=\"82.0\" y=\"85.0\" font-size=\"14\" text-anchor=\"end\" fill=\"currentColor\">160</text><text x=\"82.0\" y=\"25.0\" font-size=\"14\" text-anchor=\"end\" fill=\"currentColor\">200</text><line x1=\"90.0\" y1=\"320.0\" x2=\"390.0\" y2=\"20.0\" stroke=\"currentColor\" stroke-width=\"2\" stroke-opacity=\"1\"/><text x=\"240.0\" y=\"365.0\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\">Time (t hours)</text><text x=\"22.0\" y=\"170.0\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" transform=\"rotate(-90 22 170.0)\">Distance (d km)</text></svg>",
+      "alt": "Straight-line graph of Distance (d km) against Time (t hours)."
+     }
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q24b",
+     "marks": 1,
+     "prompt": "The graph shows the cost, $\\pounds C$, of hiring a bike for $h$ hours.\n\nWhat does the gradient of this graph represent?",
+     "hints": [
+      "Gradient $=$ change in $y \\div$ change in $x$.",
+      "Look at the units on each axis: what is (vertical unit) per (horizontal unit)?"
+     ],
+     "solution": "Model answer: The cost per hour of hiring the bike (the hourly rate). [B1]\n\nThe gradient is change in cost $\\div$ change in hours, which is the cost per hour: $40 \\div 10 = \\pounds 4$ per hour.",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q24",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 380\" font-family=\"Times New Roman, serif\" style=\"max-width:100%;height:auto\"><line x1=\"90.0\" y1=\"20\" x2=\"90.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"20.0\" x2=\"390\" y2=\"20.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"120.0\" y1=\"20\" x2=\"120.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"50.0\" x2=\"390\" y2=\"50.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"150.0\" y1=\"20\" x2=\"150.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"80.0\" x2=\"390\" y2=\"80.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"180.0\" y1=\"20\" x2=\"180.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"110.0\" x2=\"390\" y2=\"110.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"210.0\" y1=\"20\" x2=\"210.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"140.0\" x2=\"390\" y2=\"140.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"240.0\" y1=\"20\" x2=\"240.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"170.0\" x2=\"390\" y2=\"170.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"270.0\" y1=\"20\" x2=\"270.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"200.0\" x2=\"390\" y2=\"200.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"300.0\" y1=\"20\" x2=\"300.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"230.0\" x2=\"390\" y2=\"230.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"330.0\" y1=\"20\" x2=\"330.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"260.0\" x2=\"390\" y2=\"260.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"360.0\" y1=\"20\" x2=\"360.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"290.0\" x2=\"390\" y2=\"290.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"390.0\" y1=\"20\" x2=\"390.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"320.0\" x2=\"390\" y2=\"320.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"320\" x2=\"408\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-opacity=\"1\"/><line x1=\"90\" y1=\"320\" x2=\"90\" y2=\"6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-opacity=\"1\"/><polygon points=\"414,320 404,315 404,325\" fill=\"currentColor\"/><polygon points=\"90,0 85,10 95,10\" fill=\"currentColor\"/><text x=\"90.0\" y=\"340.0\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">0</text><text x=\"150.0\" y=\"340.0\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">2</text><text x=\"210.0\" y=\"340.0\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">4</text><text x=\"270.0\" y=\"340.0\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">6</text><text x=\"330.0\" y=\"340.0\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">8</text><text x=\"390.0\" y=\"340.0\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">10</text><text x=\"82.0\" y=\"325.0\" font-size=\"14\" text-anchor=\"end\" fill=\"currentColor\">0</text><text x=\"82.0\" y=\"265.0\" font-size=\"14\" text-anchor=\"end\" fill=\"currentColor\">10</text><text x=\"82.0\" y=\"205.0\" font-size=\"14\" text-anchor=\"end\" fill=\"currentColor\">20</text><text x=\"82.0\" y=\"145.0\" font-size=\"14\" text-anchor=\"end\" fill=\"currentColor\">30</text><text x=\"82.0\" y=\"85.0\" font-size=\"14\" text-anchor=\"end\" fill=\"currentColor\">40</text><text x=\"82.0\" y=\"25.0\" font-size=\"14\" text-anchor=\"end\" fill=\"currentColor\">50</text><line x1=\"90.0\" y1=\"260.0\" x2=\"390.0\" y2=\"20.0\" stroke=\"currentColor\" stroke-width=\"2\" stroke-opacity=\"1\"/><text x=\"240.0\" y=\"365.0\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\">Time (h hours)</text><text x=\"22.0\" y=\"170.0\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" transform=\"rotate(-90 22 170.0)\">Cost (£C)</text></svg>",
+      "alt": "Straight-line graph of Cost (£C) against Time (h hours)."
+     }
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q24c",
+     "marks": 1,
+     "prompt": "The graph shows the amount of fuel, $F$ litres, in a car's tank after it has travelled $d$ km.\n\nWhat does the gradient of this graph represent?",
+     "hints": [
+      "Gradient $=$ change in $y \\div$ change in $x$.",
+      "Look at the units on each axis: what is (vertical unit) per (horizontal unit)?"
+     ],
+     "solution": "Model answer: The rate at which the car uses fuel (litres used per km). [B1]\n\nThe gradient is change in fuel $\\div$ change in distance, which is the fuel used per km: $40 \\div 500 = 0.08$ litres per km (the negative sign shows the fuel is going down).",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q24",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 380\" font-family=\"Times New Roman, serif\" style=\"max-width:100%;height:auto\"><line x1=\"90.0\" y1=\"20\" x2=\"90.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"20.0\" x2=\"390\" y2=\"20.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"120.0\" y1=\"20\" x2=\"120.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"50.0\" x2=\"390\" y2=\"50.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"150.0\" y1=\"20\" x2=\"150.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"80.0\" x2=\"390\" y2=\"80.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"180.0\" y1=\"20\" x2=\"180.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"110.0\" x2=\"390\" y2=\"110.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"210.0\" y1=\"20\" x2=\"210.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"140.0\" x2=\"390\" y2=\"140.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"240.0\" y1=\"20\" x2=\"240.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"170.0\" x2=\"390\" y2=\"170.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"270.0\" y1=\"20\" x2=\"270.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"200.0\" x2=\"390\" y2=\"200.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"300.0\" y1=\"20\" x2=\"300.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"230.0\" x2=\"390\" y2=\"230.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"330.0\" y1=\"20\" x2=\"330.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"260.0\" x2=\"390\" y2=\"260.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"360.0\" y1=\"20\" x2=\"360.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"290.0\" x2=\"390\" y2=\"290.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"390.0\" y1=\"20\" x2=\"390.0\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"320.0\" x2=\"390\" y2=\"320.0\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.3\"/><line x1=\"90\" y1=\"320\" x2=\"408\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-opacity=\"1\"/><line x1=\"90\" y1=\"320\" x2=\"90\" y2=\"6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-opacity=\"1\"/><polygon points=\"414,320 404,315 404,325\" fill=\"currentColor\"/><polygon points=\"90,0 85,10 95,10\" fill=\"currentColor\"/><text x=\"90.0\" y=\"340.0\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">0</text><text x=\"150.0\" y=\"340.0\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">100</text><text x=\"210.0\" y=\"340.0\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">200</text><text x=\"270.0\" y=\"340.0\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">300</text><text x=\"330.0\" y=\"340.0\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">400</text><text x=\"390.0\" y=\"340.0\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">500</text><text x=\"82.0\" y=\"325.0\" font-size=\"14\" text-anchor=\"end\" fill=\"currentColor\">0</text><text x=\"82.0\" y=\"265.0\" font-size=\"14\" text-anchor=\"end\" fill=\"currentColor\">8</text><text x=\"82.0\" y=\"205.0\" font-size=\"14\" text-anchor=\"end\" fill=\"currentColor\">16</text><text x=\"82.0\" y=\"145.0\" font-size=\"14\" text-anchor=\"end\" fill=\"currentColor\">24</text><text x=\"82.0\" y=\"85.0\" font-size=\"14\" text-anchor=\"end\" fill=\"currentColor\">32</text><text x=\"82.0\" y=\"25.0\" font-size=\"14\" text-anchor=\"end\" fill=\"currentColor\">40</text><line x1=\"90.0\" y1=\"20.0\" x2=\"390.0\" y2=\"320.0\" stroke=\"currentColor\" stroke-width=\"2\" stroke-opacity=\"1\"/><text x=\"240.0\" y=\"365.0\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\">Distance travelled (d km)</text><text x=\"22.0\" y=\"170.0\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" transform=\"rotate(-90 22 170.0)\">Fuel (F litres)</text></svg>",
+      "alt": "Straight-line graph of Fuel (F litres) against Distance travelled (d km)."
+     }
+    }
+   ]
   },
   {
    "topic": "Quadratic graphs",
@@ -77,9 +646,209 @@
    "questions": []
   },
   {
+   "topic": "Number machines",
+   "category": "Algebra",
+   "questions": [
+    {
+     "id": "gcse-f-2024nov-p1-q13a",
+     "marks": 4,
+     "prompt": "Here are two number machines.\n\n(a) Find the output of Machine A when the input is $14$. (2)\n\n(b) For Machine B, when the input is $12$, the output is $7$.\nComplete Machine B by filling in the missing operation. (2)",
+     "hints": [
+      "For (a), do each box in order from left to right.",
+      "For (b), work backwards from the output using the inverse operation.",
+      "Once you know the number between the boxes, compare it with the input."
+     ],
+     "solution": "(a) $14 - 3 = 11$, $11 \\times 2 = 22$ [M1 A1]\n\n(b) Work backwards from the output: $7 \\times 3 = 21$. To get from $12$ to $21$, add $9$. (Accept $\\times 1.75$.) [M1 A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q13",
+     "parts": [
+      {
+       "label": "a",
+       "answer": "22"
+      },
+      {
+       "label": "b",
+       "answers": [
+        "+ 9",
+        "add 9",
+        "plus 9",
+        "× 1.75",
+        "x 1.75",
+        "times 1.75",
+        "*1.75"
+       ]
+      }
+     ],
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 530 220\" font-family=\"Times New Roman, serif\" style=\"max-width:100%;height:auto\"><text x=\"0\" y=\"20\" font-size=\"15\" font-weight=\"bold\" fill=\"currentColor\">Machine A</text><text x=\"0\" y=\"66\" font-size=\"17\" fill=\"currentColor\">input</text><line x1=\"50\" y1=\"60\" x2=\"112\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"112,55 120,60 112,65\" fill=\"currentColor\"/><polygon points=\"120,30 200,30 220,60 200,90 120,90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"165\" y=\"67\" text-anchor=\"middle\" font-size=\"18\" fill=\"currentColor\">− 3</text><line x1=\"220\" y1=\"60\" x2=\"282\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"282,55 290,60 282,65\" fill=\"currentColor\"/><polygon points=\"290,30 370,30 390,60 370,90 290,90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"335\" y=\"67\" text-anchor=\"middle\" font-size=\"18\" fill=\"currentColor\">× 2</text><line x1=\"390\" y1=\"60\" x2=\"452\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"452,55 460,60 452,65\" fill=\"currentColor\"/><text x=\"468\" y=\"66\" font-size=\"17\" fill=\"currentColor\">output</text><text x=\"0\" y=\"140\" font-size=\"15\" font-weight=\"bold\" fill=\"currentColor\">Machine B</text><text x=\"0\" y=\"186\" font-size=\"17\" fill=\"currentColor\">input</text><line x1=\"50\" y1=\"180\" x2=\"112\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"112,175 120,180 112,185\" fill=\"currentColor\"/><polygon points=\"120,150 200,150 220,180 200,210 120,210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"135\" y1=\"192\" x2=\"195\" y2=\"192\" stroke=\"currentColor\" stroke-dasharray=\"2,3\"/><line x1=\"220\" y1=\"180\" x2=\"282\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"282,175 290,180 282,185\" fill=\"currentColor\"/><polygon points=\"290,150 370,150 390,180 370,210 290,210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"335\" y=\"187\" text-anchor=\"middle\" font-size=\"18\" fill=\"currentColor\">÷ 3</text><line x1=\"390\" y1=\"180\" x2=\"452\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"452,175 460,180 452,185\" fill=\"currentColor\"/><text x=\"468\" y=\"186\" font-size=\"17\" fill=\"currentColor\">output</text></svg>",
+      "alt": "Two number machines. Machine A: input, then − 3, then × 2, then output. Machine B: input, then an empty box, then ÷ 3, then output."
+     }
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q13b",
+     "marks": 4,
+     "prompt": "Here are two number machines.\n\n(a) Find the output of Machine A when the input is $6$. (2)\n\n(b) For Machine B, when the input is $9$, the output is $22$.\nComplete Machine B by filling in the missing operation. (2)",
+     "hints": [
+      "For (a), do each box in order from left to right.",
+      "For (b), work backwards from the output using the inverse operation.",
+      "Once you know the number between the boxes, compare it with the input."
+     ],
+     "solution": "(a) $6 \\times 4 = 24$, $24 + 7 = 31$ [M1 A1]\n\n(b) Work backwards from the output: $22 + 5 = 27$. To get from $9$ to $27$, multiply by $3$. (Accept $+18$.) [M1 A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q13",
+     "parts": [
+      {
+       "label": "a",
+       "answer": "31"
+      },
+      {
+       "label": "b",
+       "answers": [
+        "× 3",
+        "x 3",
+        "times 3",
+        "*3",
+        "multiply by 3",
+        "+ 18",
+        "add 18",
+        "plus 18"
+       ]
+      }
+     ],
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 530 220\" font-family=\"Times New Roman, serif\" style=\"max-width:100%;height:auto\"><text x=\"0\" y=\"20\" font-size=\"15\" font-weight=\"bold\" fill=\"currentColor\">Machine A</text><text x=\"0\" y=\"66\" font-size=\"17\" fill=\"currentColor\">input</text><line x1=\"50\" y1=\"60\" x2=\"112\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"112,55 120,60 112,65\" fill=\"currentColor\"/><polygon points=\"120,30 200,30 220,60 200,90 120,90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"165\" y=\"67\" text-anchor=\"middle\" font-size=\"18\" fill=\"currentColor\">× 4</text><line x1=\"220\" y1=\"60\" x2=\"282\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"282,55 290,60 282,65\" fill=\"currentColor\"/><polygon points=\"290,30 370,30 390,60 370,90 290,90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"335\" y=\"67\" text-anchor=\"middle\" font-size=\"18\" fill=\"currentColor\">+ 7</text><line x1=\"390\" y1=\"60\" x2=\"452\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"452,55 460,60 452,65\" fill=\"currentColor\"/><text x=\"468\" y=\"66\" font-size=\"17\" fill=\"currentColor\">output</text><text x=\"0\" y=\"140\" font-size=\"15\" font-weight=\"bold\" fill=\"currentColor\">Machine B</text><text x=\"0\" y=\"186\" font-size=\"17\" fill=\"currentColor\">input</text><line x1=\"50\" y1=\"180\" x2=\"112\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"112,175 120,180 112,185\" fill=\"currentColor\"/><polygon points=\"120,150 200,150 220,180 200,210 120,210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"135\" y1=\"192\" x2=\"195\" y2=\"192\" stroke=\"currentColor\" stroke-dasharray=\"2,3\"/><line x1=\"220\" y1=\"180\" x2=\"282\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"282,175 290,180 282,185\" fill=\"currentColor\"/><polygon points=\"290,150 370,150 390,180 370,210 290,210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"335\" y=\"187\" text-anchor=\"middle\" font-size=\"18\" fill=\"currentColor\">− 5</text><line x1=\"390\" y1=\"180\" x2=\"452\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"452,175 460,180 452,185\" fill=\"currentColor\"/><text x=\"468\" y=\"186\" font-size=\"17\" fill=\"currentColor\">output</text></svg>",
+      "alt": "Two number machines. Machine A: input, then × 4, then + 7, then output. Machine B: input, then an empty box, then − 5, then output."
+     }
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q13c",
+     "marks": 4,
+     "prompt": "Here are two number machines.\n\n(a) Find the output of Machine A when the input is $30$. (2)\n\n(b) For Machine B, when the input is $4$, the output is $30$.\nComplete Machine B by filling in the missing operation. (2)",
+     "hints": [
+      "For (a), do each box in order from left to right.",
+      "For (b), work backwards from the output using the inverse operation.",
+      "Once you know the number between the boxes, compare it with the input."
+     ],
+     "solution": "(a) $30 \\div 2 = 15$, $15 - 6 = 9$ [M1 A1]\n\n(b) Work backwards from the output: $30 \\div 5 = 6$. To get from $4$ to $6$, add $2$. (Accept $\\times 1.5$.) [M1 A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q13",
+     "parts": [
+      {
+       "label": "a",
+       "answer": "9"
+      },
+      {
+       "label": "b",
+       "answers": [
+        "+ 2",
+        "add 2",
+        "plus 2",
+        "× 1.5",
+        "x 1.5",
+        "times 1.5",
+        "*1.5"
+       ]
+      }
+     ],
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 530 220\" font-family=\"Times New Roman, serif\" style=\"max-width:100%;height:auto\"><text x=\"0\" y=\"20\" font-size=\"15\" font-weight=\"bold\" fill=\"currentColor\">Machine A</text><text x=\"0\" y=\"66\" font-size=\"17\" fill=\"currentColor\">input</text><line x1=\"50\" y1=\"60\" x2=\"112\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"112,55 120,60 112,65\" fill=\"currentColor\"/><polygon points=\"120,30 200,30 220,60 200,90 120,90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"165\" y=\"67\" text-anchor=\"middle\" font-size=\"18\" fill=\"currentColor\">÷ 2</text><line x1=\"220\" y1=\"60\" x2=\"282\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"282,55 290,60 282,65\" fill=\"currentColor\"/><polygon points=\"290,30 370,30 390,60 370,90 290,90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"335\" y=\"67\" text-anchor=\"middle\" font-size=\"18\" fill=\"currentColor\">− 6</text><line x1=\"390\" y1=\"60\" x2=\"452\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"452,55 460,60 452,65\" fill=\"currentColor\"/><text x=\"468\" y=\"66\" font-size=\"17\" fill=\"currentColor\">output</text><text x=\"0\" y=\"140\" font-size=\"15\" font-weight=\"bold\" fill=\"currentColor\">Machine B</text><text x=\"0\" y=\"186\" font-size=\"17\" fill=\"currentColor\">input</text><line x1=\"50\" y1=\"180\" x2=\"112\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"112,175 120,180 112,185\" fill=\"currentColor\"/><polygon points=\"120,150 200,150 220,180 200,210 120,210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"135\" y1=\"192\" x2=\"195\" y2=\"192\" stroke=\"currentColor\" stroke-dasharray=\"2,3\"/><line x1=\"220\" y1=\"180\" x2=\"282\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"282,175 290,180 282,185\" fill=\"currentColor\"/><polygon points=\"290,150 370,150 390,180 370,210 290,210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"335\" y=\"187\" text-anchor=\"middle\" font-size=\"18\" fill=\"currentColor\">× 5</text><line x1=\"390\" y1=\"180\" x2=\"452\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"452,175 460,180 452,185\" fill=\"currentColor\"/><text x=\"468\" y=\"186\" font-size=\"17\" fill=\"currentColor\">output</text></svg>",
+      "alt": "Two number machines. Machine A: input, then ÷ 2, then − 6, then output. Machine B: input, then an empty box, then × 5, then output."
+     }
+    }
+   ]
+  },
+  {
+   "topic": "Quadratic equations",
+   "category": "Algebra",
+   "questions": [
+    {
+     "id": "gcse-f-2024nov-p1-q26a",
+     "marks": 3,
+     "prompt": "Solve $\\;x^2 + 3x - 10 = 0$",
+     "hints": [
+      "Find two numbers that multiply to $-10$ and add to $3$.",
+      "Use them to factorise into two brackets.",
+      "Set each bracket equal to $0$."
+     ],
+     "solution": "$5$ and $-2$ multiply to $-10$ and add to $3$\n$(x + 5)(x - 2) = 0$ [M1 A1]\n$x = -5$ or $x = 2$ [A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q26",
+     "answer": "x = -5 or x = 2"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q26b",
+     "marks": 3,
+     "prompt": "Solve $\\;x^2 - 7x + 12 = 0$",
+     "hints": [
+      "Find two numbers that multiply to $12$ and add to $-7$.",
+      "Use them to factorise into two brackets.",
+      "Set each bracket equal to $0$."
+     ],
+     "solution": "$-3$ and $-4$ multiply to $12$ and add to $-7$\n$(x - 3)(x - 4) = 0$ [M1 A1]\n$x = 3$ or $x = 4$ [A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q26",
+     "answer": "x = 3 or x = 4"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q26c",
+     "marks": 3,
+     "prompt": "Solve $\\;x^2 - 4x - 21 = 0$",
+     "hints": [
+      "Find two numbers that multiply to $-21$ and add to $-4$.",
+      "Use them to factorise into two brackets.",
+      "Set each bracket equal to $0$."
+     ],
+     "solution": "$-7$ and $3$ multiply to $-21$ and add to $-4$\n$(x - 7)(x + 3) = 0$ [M1 A1]\n$x = 7$ or $x = -3$ [A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q26",
+     "answer": "x = -3 or x = 7"
+    }
+   ]
+  },
+  {
    "topic": "Ratio",
    "category": "Ratio, proportion and rates of change",
-   "questions": []
+   "questions": [
+    {
+     "id": "gcse-f-2024nov-p1-q17a",
+     "marks": 3,
+     "prompt": "Leon wants to make $30$ litres of orange paint.\nHe is going to mix red paint, yellow paint and white paint in the ratio $2:3:1$\n\nLeon has\n\n$\\quad 11$ litres of red paint\n$\\quad 15$ litres of yellow paint\n$\\quad 4$ litres of white paint\n\nDoes Leon have enough red paint, yellow paint and white paint to make $30$ litres of orange paint?\nYou must show how you get your answer.",
+     "hints": [
+      "Add the ratio parts to find how many parts there are altogether.",
+      "Divide $30$ by the total number of parts to find one part.",
+      "Multiply to find how much of each is needed, then compare with what is available."
+     ],
+     "solution": "Total parts: $2 + 3 + 1 = 6$\nOne part: $30 \\div 6 = 5$ litres [P1]\nred paint: $2 \\times 5 = 10$ litres (has $11$)\nyellow paint: $3 \\times 5 = 15$ litres (has $15$)\nwhite paint: $1 \\times 5 = 5$ litres (has $4$) [P1]\n\nNo. Leon needs $5$ litres of white paint but only has $4$. [C1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q17"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q17b",
+     "marks": 3,
+     "prompt": "Hana wants to make $40$ litres of purple paint.\nShe is going to mix red paint, blue paint and white paint in the ratio $3:4:1$\n\nHana has\n\n$\\quad 16$ litres of red paint\n$\\quad 22$ litres of blue paint\n$\\quad 5$ litres of white paint\n\nDoes Hana have enough red paint, blue paint and white paint to make $40$ litres of purple paint?\nYou must show how you get your answer.",
+     "hints": [
+      "Add the ratio parts to find how many parts there are altogether.",
+      "Divide $40$ by the total number of parts to find one part.",
+      "Multiply to find how much of each is needed, then compare with what is available."
+     ],
+     "solution": "Total parts: $3 + 4 + 1 = 8$\nOne part: $40 \\div 8 = 5$ litres [P1]\nred paint: $3 \\times 5 = 15$ litres (has $16$)\nblue paint: $4 \\times 5 = 20$ litres (has $22$)\nwhite paint: $1 \\times 5 = 5$ litres (has $5$) [P1]\n\nYes. Hana has at least as much as needed of each paint. [C1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q17"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q17c",
+     "marks": 3,
+     "prompt": "Ravi wants to make $18$ litres of fruit punch.\nHe is going to mix orange juice, apple juice and lemonade in the ratio $2:5:2$\n\nRavi has\n\n$\\quad 5$ litres of orange juice\n$\\quad 9$ litres of apple juice\n$\\quad 6$ litres of lemonade\n\nDoes Ravi have enough orange juice, apple juice and lemonade to make $18$ litres of fruit punch?\nYou must show how you get your answer.",
+     "hints": [
+      "Add the ratio parts to find how many parts there are altogether.",
+      "Divide $18$ by the total number of parts to find one part.",
+      "Multiply to find how much of each is needed, then compare with what is available."
+     ],
+     "solution": "Total parts: $2 + 5 + 2 = 9$\nOne part: $18 \\div 9 = 2$ litres [P1]\norange juice: $2 \\times 2 = 4$ litres (has $5$)\napple juice: $5 \\times 2 = 10$ litres (has $9$)\nlemonade: $2 \\times 2 = 4$ litres (has $6$) [P1]\n\nNo. Ravi needs $10$ litres of apple juice but only has $9$. [C1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q17"
+    }
+   ]
   },
   {
    "topic": "Proportion",
@@ -94,17 +863,236 @@
   {
    "topic": "Compound measures",
    "category": "Ratio, proportion and rates of change",
-   "questions": []
+   "questions": [
+    {
+     "id": "gcse-f-2024nov-p1-q22a",
+     "marks": 4,
+     "prompt": "A car travelled $7.92$ miles at an average speed of $40.3$ miles per hour.\n\n(a) Work out an estimate for the time taken by the car.\nGive your answer in minutes. (3)\n\n(b) Is your answer to part (a) an underestimate or an overestimate?\nGive a reason for your answer. (1)",
+     "hints": [
+      "Round each number to $1$ significant figure first.",
+      "Time $=$ distance $\\div$ speed. This gives the time in hours.",
+      "Multiply hours by $60$ to get minutes. For (b), think about whether each rounding makes the time bigger or smaller."
+     ],
+     "solution": "(a) Time $\\approx 8 \\div 40 = 0.2$ hours [M1 M1]\n$0.2 \\times 60 = 12$ minutes [A1]\n\n(b) Overestimate: the distance was rounded up and the speed was rounded down, so the time is bigger than it should be. [C1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q22",
+     "parts": [
+      {
+       "label": "a",
+       "answer": "12 minutes"
+      }
+     ]
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q22b",
+     "marks": 4,
+     "prompt": "A van travelled $9.14$ miles at an average speed of $59.7$ miles per hour.\n\n(a) Work out an estimate for the time taken by the van.\nGive your answer in minutes. (3)\n\n(b) Is your answer to part (a) an underestimate or an overestimate?\nGive a reason for your answer. (1)",
+     "hints": [
+      "Round each number to $1$ significant figure first.",
+      "Time $=$ distance $\\div$ speed. This gives the time in hours.",
+      "Multiply hours by $60$ to get minutes. For (b), think about whether each rounding makes the time bigger or smaller."
+     ],
+     "solution": "(a) Time $\\approx 9 \\div 60 = 0.15$ hours [M1 M1]\n$0.15 \\times 60 = 9$ minutes [A1]\n\n(b) Underestimate: the distance was rounded down and the speed was rounded up, so the time is smaller than it should be. [C1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q22",
+     "parts": [
+      {
+       "label": "a",
+       "answer": "9 minutes"
+      }
+     ]
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q22c",
+     "marks": 4,
+     "prompt": "A cyclist travelled $5.93$ km at an average speed of $20.2$ km per hour.\n\n(a) Work out an estimate for the time taken by the cyclist.\nGive your answer in minutes. (3)\n\n(b) Is your answer to part (a) an underestimate or an overestimate?\nGive a reason for your answer. (1)",
+     "hints": [
+      "Round each number to $1$ significant figure first.",
+      "Time $=$ distance $\\div$ speed. This gives the time in hours.",
+      "Multiply hours by $60$ to get minutes. For (b), think about whether each rounding makes the time bigger or smaller."
+     ],
+     "solution": "(a) Time $\\approx 6 \\div 20 = 0.3$ hours [M1 M1]\n$0.3 \\times 60 = 18$ minutes [A1]\n\n(b) Overestimate: the distance was rounded up and the speed was rounded down, so the time is bigger than it should be. [C1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q22",
+     "parts": [
+      {
+       "label": "a",
+       "answer": "18 minutes"
+      }
+     ]
+    }
+   ]
   },
   {
    "topic": "Units and conversions",
    "category": "Ratio, proportion and rates of change",
-   "questions": []
+   "questions": [
+    {
+     "id": "gcse-f-2024nov-p1-q03",
+     "marks": 1,
+     "prompt": "Change $27$ centimetres into millimetres.",
+     "hints": [
+      "How many millimetres are in $1$ centimetre?",
+      "$1\\text{ cm} = 10\\text{ mm}$, so multiply by $10$."
+     ],
+     "solution": "$27 \\times 10 = 270\\text{ mm}$ [B1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q3",
+     "answer": "270 mm"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q03b",
+     "marks": 1,
+     "prompt": "Change $4$ metres into centimetres.",
+     "hints": [
+      "How many centimetres are in $1$ metre?",
+      "$1\\text{ m} = 100\\text{ cm}$"
+     ],
+     "solution": "$4 \\times 100 = 400\\text{ cm}$ [B1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q3",
+     "answer": "400 cm"
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q03c",
+     "marks": 1,
+     "prompt": "Change $2.5$ kilometres into metres.",
+     "hints": [
+      "How many metres are in $1$ kilometre?",
+      "$1\\text{ km} = 1000\\text{ m}$, so multiply by $1000$."
+     ],
+     "solution": "$2.5 \\times 1000 = 2500\\text{ m}$ [B1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q3",
+     "answer": "2500 m"
+    }
+   ]
   },
   {
    "topic": "Angles and polygons",
    "category": "Geometry and measures",
-   "questions": []
+   "questions": [
+    {
+     "id": "gcse-f-2024nov-p1-q21a",
+     "marks": 3,
+     "prompt": "$PQRS$ is a parallelogram.\n\nAll angles are measured in degrees.\n\nFind an expression, in terms of $x$, for the size of angle $RPS$.\nGive a reason for each stage of your working.",
+     "hints": [
+      "Opposite sides of a parallelogram are parallel, so look for alternate or co-interior angles.",
+      "Opposite angles of a parallelogram are equal.",
+      "Angles in a triangle add up to $180°$."
+     ],
+     "solution": "Angle $PRS = x$ (alternate angles are equal, $PQ$ is parallel to $SR$). [M1]\nAngle $RPS = 180 - 2x - x = 180 - 3x$ (angles in a triangle add up to $180°$). [A1 C1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q21",
+     "answers": [
+      "180 - 3x",
+      "180° - 3x",
+      "-3x + 180"
+     ],
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 490 260\" font-family=\"Times New Roman, serif\" style=\"max-width:100%;height:auto\"><polygon points=\"110,40 430,40 380,230 60,230\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"40\" x2=\"380\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-opacity=\"1\"/><text x=\"102.0\" y=\"30.0\" font-size=\"17\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">P</text><text x=\"438.0\" y=\"30.0\" font-size=\"17\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">Q</text><text x=\"390.0\" y=\"250.0\" font-size=\"17\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">R</text><text x=\"48.0\" y=\"250.0\" font-size=\"17\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">S</text><path d=\"M146.0,40.0 A36,36 0 0 1 139.4,60.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"131.0\" y=\"51.6\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">x</text><path d=\"M69.2,195.2 A36,36 0 0 1 96.0,230.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"79.0\" y=\"220.3\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">2x</text></svg>",
+      "alt": "Parallelogram PQRS with a diagonal drawn. Angles marked x and 2x."
+     }
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q21b",
+     "marks": 3,
+     "prompt": "$ABCD$ is a parallelogram.\n\nAll angles are measured in degrees.\n\nFind an expression, in terms of $m$, for the size of angle $CAD$.\nGive a reason for each stage of your working.",
+     "hints": [
+      "Opposite sides of a parallelogram are parallel, so look for alternate or co-interior angles.",
+      "Opposite angles of a parallelogram are equal.",
+      "Angles in a triangle add up to $180°$."
+     ],
+     "solution": "Angle $ADC = 5m$ (opposite angles of a parallelogram are equal). [M1]\nAngle $CAD = 180 - 5m - 2m = 180 - 7m$ (angles in a triangle add up to $180°$). [A1 C1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q21",
+     "answers": [
+      "180 - 7m",
+      "180° - 7m",
+      "-7m + 180"
+     ],
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 490 260\" font-family=\"Times New Roman, serif\" style=\"max-width:100%;height:auto\"><polygon points=\"110,40 430,40 380,230 60,230\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"40\" x2=\"380\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-opacity=\"1\"/><text x=\"102.0\" y=\"30.0\" font-size=\"17\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">A</text><text x=\"438.0\" y=\"30.0\" font-size=\"17\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">B</text><text x=\"390.0\" y=\"250.0\" font-size=\"17\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">C</text><text x=\"48.0\" y=\"250.0\" font-size=\"17\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">D</text><path d=\"M344.0,230.0 A36,36 0 0 1 350.6,209.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"357.1\" y=\"227.8\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">2m</text><path d=\"M394.0,40.0 A36,36 0 0 0 420.8,74.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"411.0\" y=\"59.7\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">5m</text></svg>",
+      "alt": "Parallelogram ABCD with a diagonal drawn. Angles marked 2m and 5m."
+     }
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q21c",
+     "marks": 3,
+     "prompt": "$KLMN$ is a parallelogram.\n\nAll angles are measured in degrees.\n\nFind an expression, in terms of $n$, for the size of angle $MKN$.\nGive a reason for each stage of your working.",
+     "hints": [
+      "Opposite sides of a parallelogram are parallel, so look for alternate or co-interior angles.",
+      "Opposite angles of a parallelogram are equal.",
+      "Angles in a triangle add up to $180°$."
+     ],
+     "solution": "Angle $LKN = 180 - 4n$ (co-interior angles add up to $180°$, $KN$ is parallel to $LM$). [M1]\nAngle $MKN = (180 - 4n) - n = 180 - 5n$ (angle $LKN$ is split into $LKM$ and $MKN$). [A1 C1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q21",
+     "answers": [
+      "180 - 5n",
+      "180° - 5n",
+      "-5n + 180"
+     ],
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 490 260\" font-family=\"Times New Roman, serif\" style=\"max-width:100%;height:auto\"><polygon points=\"110,40 430,40 380,230 60,230\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"40\" x2=\"380\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-opacity=\"1\"/><text x=\"102.0\" y=\"30.0\" font-size=\"17\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">K</text><text x=\"438.0\" y=\"30.0\" font-size=\"17\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">L</text><text x=\"390.0\" y=\"250.0\" font-size=\"17\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">M</text><text x=\"48.0\" y=\"250.0\" font-size=\"17\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">N</text><path d=\"M146.0,40.0 A36,36 0 0 1 139.4,60.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"131.0\" y=\"51.6\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">n</text><path d=\"M394.0,40.0 A36,36 0 0 0 420.8,74.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"411.0\" y=\"59.7\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">4n</text></svg>",
+      "alt": "Parallelogram KLMN with a diagonal drawn. Angles marked n and 4n."
+     }
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q23a",
+     "marks": 4,
+     "prompt": "Here is a pentagon.\n\nAngle $a = $ angle $c$\nAngle $b = 150°$\nAngle $d$ is two times the size of angle $c$\nAngle $e$ is two times the size of angle $c$\n\nWork out the size of angle $d$",
+     "hints": [
+      "The interior angles of a pentagon add up to $540°$ (use $(n-2) \\times 180$).",
+      "Write every angle in terms of $c$, then add them and set the total equal to $540$.",
+      "Solve for $c$, then use it to find angle $d$."
+     ],
+     "solution": "Angles in a pentagon: $(5 - 2) \\times 180 = 540°$ [M1]\n$c + 150 + c + 2c + 2c = 540$ [M1]\n$6c + 150 = 540$\n$6c = 390$, so $c = 65°$ [M1]\nAngle $d = 2 \\times 65 = 130°$ [A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q23",
+     "answer": "130°",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 230\" font-family=\"Times New Roman, serif\" style=\"max-width:100%;height:auto\"><polygon points=\"40,120 220,50 420,50 345,135 180,195\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M64.7,133.2 A28,28 0 0 0 66.1,109.9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"57.0\" y=\"126.0\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">a</text><path d=\"M193.9,60.1 A28,28 0 0 0 248.0,50.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"223.1\" y=\"71.7\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">b</text><path d=\"M392.0,50.0 A28,28 0 0 0 401.5,71.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"404.5\" y=\"62.0\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">c</text><path d=\"M363.5,114.0 A28,28 0 0 0 318.7,144.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"335.4\" y=\"126.0\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">d</text><path d=\"M206.3,185.4 A28,28 0 0 0 155.3,181.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"181.2\" y=\"183.0\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">e</text></svg>",
+      "alt": "A pentagon with interior angles labelled a, b, c, d, e."
+     }
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q23b",
+     "marks": 4,
+     "prompt": "Here is a pentagon.\n\nAngle $p = 100°$\nAngle $q = $ angle $r$\nAngle $s$ is two times the size of angle $q$\nAngle $t$ is $40°$ more than angle $q$\n\nWork out the size of angle $t$",
+     "hints": [
+      "The interior angles of a pentagon add up to $540°$ (use $(n-2) \\times 180$).",
+      "Write every angle in terms of $q$, then add them and set the total equal to $540$.",
+      "Solve for $q$, then use it to find angle $t$."
+     ],
+     "solution": "Angles in a pentagon: $(5 - 2) \\times 180 = 540°$ [M1]\n$100 + q + q + 2q + (q + 40) = 540$ [M1]\n$5q + 140 = 540$\n$5q = 400$, so $q = 80°$ [M1]\nAngle $t = 80 + 40 = 120°$ [A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q23",
+     "answer": "120°",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 230\" font-family=\"Times New Roman, serif\" style=\"max-width:100%;height:auto\"><polygon points=\"40,120 220,50 420,50 345,135 180,195\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M64.7,133.2 A28,28 0 0 0 66.1,109.9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"57.0\" y=\"126.0\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">p</text><path d=\"M193.9,60.1 A28,28 0 0 0 248.0,50.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"223.1\" y=\"71.7\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">q</text><path d=\"M392.0,50.0 A28,28 0 0 0 401.5,71.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"404.5\" y=\"62.0\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">r</text><path d=\"M363.5,114.0 A28,28 0 0 0 318.7,144.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"335.4\" y=\"126.0\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">s</text><path d=\"M206.3,185.4 A28,28 0 0 0 155.3,181.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"181.2\" y=\"183.0\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">t</text></svg>",
+      "alt": "A pentagon with interior angles labelled p, q, r, s, t."
+     }
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q23c",
+     "marks": 4,
+     "prompt": "Here is a pentagon.\n\nAngle $f = 90°$\nAngle $g = $ angle $h = $ angle $i$\nAngle $j$ is $30°$ less than two times angle $g$\n\nWork out the size of angle $j$",
+     "hints": [
+      "The interior angles of a pentagon add up to $540°$ (use $(n-2) \\times 180$).",
+      "Write every angle in terms of $g$, then add them and set the total equal to $540$.",
+      "Solve for $g$, then use it to find angle $j$."
+     ],
+     "solution": "Angles in a pentagon: $(5 - 2) \\times 180 = 540°$ [M1]\n$90 + g + g + g + (2g - 30) = 540$ [M1]\n$5g + 60 = 540$\n$5g = 480$, so $g = 96°$ [M1]\nAngle $j = 2 \\times 96 - 30 = 162°$ [A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q23",
+     "answer": "162°",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 230\" font-family=\"Times New Roman, serif\" style=\"max-width:100%;height:auto\"><polygon points=\"40,120 220,50 420,50 345,135 180,195\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M64.7,133.2 A28,28 0 0 0 66.1,109.9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"57.0\" y=\"126.0\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">f</text><path d=\"M193.9,60.1 A28,28 0 0 0 248.0,50.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"223.1\" y=\"71.7\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">g</text><path d=\"M392.0,50.0 A28,28 0 0 0 401.5,71.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"404.5\" y=\"62.0\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">h</text><path d=\"M363.5,114.0 A28,28 0 0 0 318.7,144.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"335.4\" y=\"126.0\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">i</text><path d=\"M206.3,185.4 A28,28 0 0 0 155.3,181.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"181.2\" y=\"183.0\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">j</text></svg>",
+      "alt": "A pentagon with interior angles labelled f, g, h, i, j."
+     }
+    }
+   ]
   },
   {
    "topic": "Area and perimeter",
@@ -114,7 +1102,89 @@
   {
    "topic": "Volume and surface area",
    "category": "Geometry and measures",
-   "questions": []
+   "questions": [
+    {
+     "id": "gcse-f-2024nov-p1-q14a",
+     "marks": 5,
+     "prompt": "Cuboid A has length $8\\text{ cm}$ and width $5\\text{ cm}$.\nIts volume is $120\\text{ cm}^3$.\n\n(a) Work out the height of Cuboid A. (2)\n\n(b) Cuboid B measures $7\\text{ cm}$ by $2\\text{ cm}$ by $4\\text{ cm}$.\nWork out the total surface area of Cuboid B. (3)",
+     "hints": [
+      "Volume of a cuboid $=$ length $\\times$ width $\\times$ height.",
+      "For (a), multiply length by width, then divide the volume by that.",
+      "For (b), a cuboid has $6$ faces in $3$ matching pairs. Find the area of each different face, then double."
+     ],
+     "solution": "(a) $8 \\times 5 = 40$, so height $= 120 \\div 40 = 3\\text{ cm}$ [M1 A1]\n\n(b) $2(7\\times2) + 2(7\\times4) + 2(2\\times4) = 28 + 56 + 16 = 100\\text{ cm}^2$ [M1 M1 A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q14",
+     "parts": [
+      {
+       "label": "a",
+       "answer": "3 cm"
+      },
+      {
+       "label": "b",
+       "answer": "100 cm²"
+      }
+     ],
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 200\" font-family=\"Times New Roman, serif\" style=\"max-width:100%;height:auto\"><text x=\"20\" y=\"22\" font-size=\"15\" font-weight=\"bold\" fill=\"currentColor\">Cuboid A</text><rect x=\"20\" y=\"122\" width=\"128\" height=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"20\" y1=\"122\" x2=\"55\" y2=\"87\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"55\" y1=\"87\" x2=\"183\" y2=\"87\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"148\" y1=\"122\" x2=\"183\" y2=\"87\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"148\" y1=\"170\" x2=\"183\" y2=\"135\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"183\" y1=\"135\" x2=\"183\" y2=\"87\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"84.0\" y=\"190\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\">8 cm</text><text x=\"173.5\" y=\"158.5\" font-size=\"15\" text-anchor=\"start\" fill=\"currentColor\">5 cm</text><text x=\"191\" y=\"116.0\" font-size=\"15\" text-anchor=\"start\" fill=\"currentColor\">height</text><text x=\"330\" y=\"22\" font-size=\"15\" font-weight=\"bold\" fill=\"currentColor\">Cuboid B</text><rect x=\"330\" y=\"106\" width=\"112\" height=\"64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"330\" y1=\"106\" x2=\"344\" y2=\"92\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"344\" y1=\"92\" x2=\"456\" y2=\"92\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"442\" y1=\"106\" x2=\"456\" y2=\"92\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"442\" y1=\"170\" x2=\"456\" y2=\"156\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"456\" y1=\"156\" x2=\"456\" y2=\"92\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"344\" y1=\"156\" x2=\"330\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\"/><line x1=\"344\" y1=\"156\" x2=\"456\" y2=\"156\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\"/><line x1=\"344\" y1=\"156\" x2=\"344\" y2=\"92\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\"/><text x=\"386.0\" y=\"190\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\">7 cm</text><text x=\"457.0\" y=\"169.0\" font-size=\"15\" text-anchor=\"start\" fill=\"currentColor\">2 cm</text><text x=\"464\" y=\"129.0\" font-size=\"15\" text-anchor=\"start\" fill=\"currentColor\">4 cm</text></svg>",
+      "alt": "Cuboid A: length 8 cm, width 5 cm, height unknown. Cuboid B: 7 cm by 2 cm by 4 cm."
+     }
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q14b",
+     "marks": 5,
+     "prompt": "Cuboid A has length $12\\text{ cm}$ and width $3\\text{ cm}$.\nIts volume is $180\\text{ cm}^3$.\n\n(a) Work out the height of Cuboid A. (2)\n\n(b) Cuboid B measures $5\\text{ cm}$ by $2\\text{ cm}$ by $5\\text{ cm}$.\nWork out the total surface area of Cuboid B. (3)",
+     "hints": [
+      "Volume of a cuboid $=$ length $\\times$ width $\\times$ height.",
+      "For (a), multiply length by width, then divide the volume by that.",
+      "For (b), a cuboid has $6$ faces in $3$ matching pairs. Find the area of each different face, then double."
+     ],
+     "solution": "(a) $12 \\times 3 = 36$, so height $= 180 \\div 36 = 5\\text{ cm}$ [M1 A1]\n\n(b) $2(5\\times2) + 2(5\\times5) + 2(2\\times5) = 20 + 50 + 20 = 90\\text{ cm}^2$ [M1 M1 A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q14",
+     "parts": [
+      {
+       "label": "a",
+       "answer": "5 cm"
+      },
+      {
+       "label": "b",
+       "answer": "90 cm²"
+      }
+     ],
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 200\" font-family=\"Times New Roman, serif\" style=\"max-width:100%;height:auto\"><text x=\"20\" y=\"22\" font-size=\"15\" font-weight=\"bold\" fill=\"currentColor\">Cuboid A</text><rect x=\"20\" y=\"90\" width=\"192\" height=\"80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"20\" y1=\"90\" x2=\"41\" y2=\"69\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"41\" y1=\"69\" x2=\"233\" y2=\"69\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"212\" y1=\"90\" x2=\"233\" y2=\"69\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"212\" y1=\"170\" x2=\"233\" y2=\"149\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"233\" y1=\"149\" x2=\"233\" y2=\"69\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"116.0\" y=\"190\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\">12 cm</text><text x=\"230.5\" y=\"165.5\" font-size=\"15\" text-anchor=\"start\" fill=\"currentColor\">3 cm</text><text x=\"241\" y=\"114.0\" font-size=\"15\" text-anchor=\"start\" fill=\"currentColor\">height</text><text x=\"330\" y=\"22\" font-size=\"15\" font-weight=\"bold\" fill=\"currentColor\">Cuboid B</text><rect x=\"330\" y=\"90\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"330\" y1=\"90\" x2=\"344\" y2=\"76\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"344\" y1=\"76\" x2=\"424\" y2=\"76\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"410\" y1=\"90\" x2=\"424\" y2=\"76\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"410\" y1=\"170\" x2=\"424\" y2=\"156\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"424\" y1=\"156\" x2=\"424\" y2=\"76\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"344\" y1=\"156\" x2=\"330\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\"/><line x1=\"344\" y1=\"156\" x2=\"424\" y2=\"156\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\"/><line x1=\"344\" y1=\"156\" x2=\"344\" y2=\"76\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\"/><text x=\"370.0\" y=\"190\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\">5 cm</text><text x=\"425.0\" y=\"169.0\" font-size=\"15\" text-anchor=\"start\" fill=\"currentColor\">2 cm</text><text x=\"432\" y=\"121.0\" font-size=\"15\" text-anchor=\"start\" fill=\"currentColor\">5 cm</text></svg>",
+      "alt": "Cuboid A: length 12 cm, width 3 cm, height unknown. Cuboid B: 5 cm by 2 cm by 5 cm."
+     }
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q14c",
+     "marks": 5,
+     "prompt": "Cuboid A has length $9\\text{ cm}$ and width $2\\text{ cm}$.\nIts volume is $72\\text{ cm}^3$.\n\n(a) Work out the height of Cuboid A. (2)\n\n(b) Cuboid B measures $8\\text{ cm}$ by $3\\text{ cm}$ by $4\\text{ cm}$.\nWork out the total surface area of Cuboid B. (3)",
+     "hints": [
+      "Volume of a cuboid $=$ length $\\times$ width $\\times$ height.",
+      "For (a), multiply length by width, then divide the volume by that.",
+      "For (b), a cuboid has $6$ faces in $3$ matching pairs. Find the area of each different face, then double."
+     ],
+     "solution": "(a) $9 \\times 2 = 18$, so height $= 72 \\div 18 = 4\\text{ cm}$ [M1 A1]\n\n(b) $2(8\\times3) + 2(8\\times4) + 2(3\\times4) = 48 + 64 + 24 = 136\\text{ cm}^2$ [M1 M1 A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q14",
+     "parts": [
+      {
+       "label": "a",
+       "answer": "4 cm"
+      },
+      {
+       "label": "b",
+       "answer": "136 cm²"
+      }
+     ],
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 200\" font-family=\"Times New Roman, serif\" style=\"max-width:100%;height:auto\"><text x=\"20\" y=\"22\" font-size=\"15\" font-weight=\"bold\" fill=\"currentColor\">Cuboid A</text><rect x=\"20\" y=\"106\" width=\"144\" height=\"64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"20\" y1=\"106\" x2=\"34\" y2=\"92\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"34\" y1=\"92\" x2=\"178\" y2=\"92\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"164\" y1=\"106\" x2=\"178\" y2=\"92\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"164\" y1=\"170\" x2=\"178\" y2=\"156\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"178\" y1=\"156\" x2=\"178\" y2=\"92\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"92.0\" y=\"190\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\">9 cm</text><text x=\"179.0\" y=\"169.0\" font-size=\"15\" text-anchor=\"start\" fill=\"currentColor\">2 cm</text><text x=\"186\" y=\"129.0\" font-size=\"15\" text-anchor=\"start\" fill=\"currentColor\">height</text><text x=\"330\" y=\"22\" font-size=\"15\" font-weight=\"bold\" fill=\"currentColor\">Cuboid B</text><rect x=\"330\" y=\"106\" width=\"128\" height=\"64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"330\" y1=\"106\" x2=\"351\" y2=\"85\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"351\" y1=\"85\" x2=\"479\" y2=\"85\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"458\" y1=\"106\" x2=\"479\" y2=\"85\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"458\" y1=\"170\" x2=\"479\" y2=\"149\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"479\" y1=\"149\" x2=\"479\" y2=\"85\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"351\" y1=\"149\" x2=\"330\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\"/><line x1=\"351\" y1=\"149\" x2=\"479\" y2=\"149\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\"/><line x1=\"351\" y1=\"149\" x2=\"351\" y2=\"85\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\"/><text x=\"394.0\" y=\"190\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\">8 cm</text><text x=\"476.5\" y=\"165.5\" font-size=\"15\" text-anchor=\"start\" fill=\"currentColor\">3 cm</text><text x=\"487\" y=\"122.0\" font-size=\"15\" text-anchor=\"start\" fill=\"currentColor\">4 cm</text></svg>",
+      "alt": "Cuboid A: length 9 cm, width 2 cm, height unknown. Cuboid B: 8 cm by 3 cm by 4 cm."
+     }
+    }
+   ]
   },
   {
    "topic": "Pythagoras' theorem",
@@ -154,7 +1224,68 @@
   {
    "topic": "Basic probability",
    "category": "Probability",
-   "questions": []
+   "questions": [
+    {
+     "id": "gcse-f-2024nov-p1-q19a",
+     "marks": 4,
+     "prompt": "The table shows the probabilities that a biased dice will land on $1$, $2$, $3$ and $4$.\n\nPriya assumes that the probabilities that the dice will land on $5$ and on $6$ are the same.\n\nPriya rolls the biased dice $400$ times.\n\n(a) Assuming Priya is right, work out an estimate for the number of times the dice will land on $6$. (3)\n\nPriya is wrong.\nThe probability that the dice will land on $6$ is greater than the probability that it will land on $5$.\n\n(b) How does this information affect your answer to part (a)? (1)",
+     "hints": [
+      "All the probabilities must add up to $1$.",
+      "Subtract the known probabilities from $1$, then split what's left equally between the two missing values.",
+      "Expected number $=$ probability $\\times$ number of trials."
+     ],
+     "solution": "(a) Known total: $0.15 + 0.20 + 0.25 + 0.10 = 0.70$ [M1]\nRemaining: $1 - 0.70 = 0.30$, so each is $0.30 \\div 2 = 0.15$ [M1]\nEstimate: $0.15 \\times 400 = 60$ [A1]\n\n(b) The probability of $6$ is really more than $0.15$, so the number of times should be higher than $60$. [C1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q19",
+     "table": "Number on dice | 1 | 2 | 3 | 4 | 5 | 6\nProbability | 0.15 | 0.20 | 0.25 | 0.10 | [] | []",
+     "parts": [
+      {
+       "label": "a",
+       "answer": "60"
+      }
+     ]
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q19b",
+     "marks": 4,
+     "prompt": "The table shows the probabilities that a biased spinner will land on Blue, Green and Yellow.\n\nOwen assumes that the probabilities that the spinner will land on Red and on White are the same.\n\nOwen spins the biased spinner $300$ times.\n\n(a) Assuming Owen is right, work out an estimate for the number of times the spinner will land on Red. (3)\n\nOwen is wrong.\nThe probability that the spinner will land on Red is less than the probability that it will land on White.\n\n(b) How does this information affect your answer to part (a)? (1)",
+     "hints": [
+      "All the probabilities must add up to $1$.",
+      "Subtract the known probabilities from $1$, then split what's left equally between the two missing values.",
+      "Expected number $=$ probability $\\times$ number of trials."
+     ],
+     "solution": "(a) Known total: $0.35 + 0.20 + 0.05 = 0.60$ [M1]\nRemaining: $1 - 0.60 = 0.40$, so each is $0.40 \\div 2 = 0.20$ [M1]\nEstimate: $0.20 \\times 300 = 60$ [A1]\n\n(b) The probability of Red is really less than $0.20$, so the number of times should be lower than $60$. [C1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q19",
+     "table": "Colour | Red | Blue | Green | Yellow | White\nProbability | [] | 0.35 | 0.20 | 0.05 | []",
+     "parts": [
+      {
+       "label": "a",
+       "answer": "60"
+      }
+     ]
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q19c",
+     "marks": 4,
+     "prompt": "The table shows the probabilities that a biased dice will land on $3$, $4$, $5$ and $6$.\n\nJess assumes that the probabilities that the dice will land on $1$ and on $2$ are the same.\n\nJess rolls the biased dice $250$ times.\n\n(a) Assuming Jess is right, work out an estimate for the number of times the dice will land on $1$. (3)\n\nJess is wrong.\nThe probability that the dice will land on $1$ is less than the probability that it will land on $2$.\n\n(b) How does this information affect your answer to part (a)? (1)",
+     "hints": [
+      "All the probabilities must add up to $1$.",
+      "Subtract the known probabilities from $1$, then split what's left equally between the two missing values.",
+      "Expected number $=$ probability $\\times$ number of trials."
+     ],
+     "solution": "(a) Known total: $0.12 + 0.18 + 0.22 + 0.28 = 0.80$ [M1]\nRemaining: $1 - 0.80 = 0.20$, so each is $0.20 \\div 2 = 0.10$ [M1]\nEstimate: $0.10 \\times 250 = 25$ [A1]\n\n(b) The probability of $1$ is really less than $0.10$, so the number of times should be lower than $25$. [C1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q19",
+     "table": "Number on dice | 1 | 2 | 3 | 4 | 5 | 6\nProbability | [] | [] | 0.12 | 0.18 | 0.22 | 0.28",
+     "parts": [
+      {
+       "label": "a",
+       "answer": "25"
+      }
+     ]
+    }
+   ]
   },
   {
    "topic": "Frequency trees and relative frequency",
@@ -190,6 +1321,78 @@
    "topic": "Sampling",
    "category": "Statistics",
    "questions": []
+  },
+  {
+   "topic": "Two-way tables",
+   "category": "Statistics",
+   "questions": [
+    {
+     "id": "gcse-f-2024nov-p1-q11a",
+     "marks": 5,
+     "prompt": "$400$ students were asked which sport they liked best.\n\n$220$ of the $400$ students were boys.\n$90$ of the boys said they liked football best.\n$50$ of the girls said they liked tennis best.\n\n$140$ of the students said they liked football best.\n$130$ of the students said they liked swimming best.\n\n(a) Complete the two-way table below. (3)\n\nOne of these $400$ people is chosen at random.\n\n(b) Find the probability that this person is a girl who said she liked swimming best. (2)",
+     "hints": [
+      "Start with the totals: the two rows must add to the grand total, and so must the three columns.",
+      "Fill in any cell where you know all but one value in its row or column.",
+      "For (b), read the single cell from the table and put it over the grand total."
+     ],
+     "solution": "(a) Girls $= 400 - 220 = 180$. Tennis total $= 400 - 140 - 130 = 130$. [B1]\nGirls football $= 140 - 90 = 50$. Boys tennis $= 130 - 50 = 80$. [B1]\nGirls swimming $= 180 - 50 - 50 = 80$. Boys swimming $= 130 - 80 = 50$. [B1]\n\n(b) $\\dfrac{80}{400} = \\dfrac{1}{5}$ (any equivalent fraction, decimal or percentage) [M1 A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q11",
+     "table": "  | Football | Tennis | Swimming | Total\nBoys | [90] | [80] | [50] | [220]\nGirls | [50] | [50] | [80] | [180]\nTotal | [140] | [130] | [130] | 400",
+     "parts": [
+      {
+       "label": "b",
+       "answers": [
+        "1/5"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q11b",
+     "marks": 5,
+     "prompt": "$200$ people were asked which fruit they liked best.\n\n$90$ of the $200$ people were women.\n$35$ of the women said they liked bananas best.\n$25$ of the men said they liked oranges best.\n\n$70$ of the people said they liked apples best.\n$60$ of the people said they liked oranges best.\n\n(a) Complete the two-way table below. (3)\n\nOne of these $200$ people is chosen at random.\n\n(b) Find the probability that this person is a man who said he liked apples best. (2)",
+     "hints": [
+      "Start with the totals: the two rows must add to the grand total, and so must the three columns.",
+      "Fill in any cell where you know all but one value in its row or column.",
+      "For (b), read the single cell from the table and put it over the grand total."
+     ],
+     "solution": "(a) Men $= 200 - 90 = 110$. Banana total $= 200 - 70 - 60 = 70$. [B1]\nMen banana $= 70 - 35 = 35$. Women orange $= 60 - 25 = 35$. [B1]\nWomen apple $= 90 - 35 - 35 = 20$. Men apple $= 70 - 20 = 50$. [B1]\n\n(b) $\\dfrac{50}{200} = \\dfrac{1}{4}$ (any equivalent fraction, decimal or percentage) [M1 A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q11",
+     "table": "  | Apple | Banana | Orange | Total\nMen | [50] | [35] | [25] | [110]\nWomen | [20] | [35] | [35] | [90]\nTotal | [70] | [70] | [60] | 200",
+     "parts": [
+      {
+       "label": "b",
+       "answers": [
+        "1/4"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "gcse-f-2024nov-p1-q11c",
+     "marks": 5,
+     "prompt": "$600$ visitors to a museum were asked which gallery they liked best.\n\n$350$ of the $600$ visitors were children.\n$150$ of the children said they liked the dinosaurs gallery best.\n$40$ of the adults said they liked the space gallery best.\n\n$200$ of the visitors said they liked the dinosaurs gallery best.\n$180$ of the visitors said they liked the art gallery best.\n\n(a) Complete the two-way table below. (3)\n\nOne of these $600$ people is chosen at random.\n\n(b) Find the probability that this person is a child who said they liked the space gallery best. (2)",
+     "hints": [
+      "Start with the totals: the two rows must add to the grand total, and so must the three columns.",
+      "Fill in any cell where you know all but one value in its row or column.",
+      "For (b), read the single cell from the table and put it over the grand total."
+     ],
+     "solution": "(a) Adults $= 600 - 350 = 250$. Space total $= 600 - 200 - 180 = 220$. [B1]\nAdults dinosaurs $= 200 - 150 = 50$. Children space $= 220 - 40 = 180$. [B1]\nChildren art $= 350 - 150 - 180 = 20$. Adults art $= 180 - 20 = 160$. [B1]\n\n(b) $\\dfrac{180}{600} = \\dfrac{3}{10}$ (any equivalent fraction, decimal or percentage) [M1 A1]",
+     "calculator": false,
+     "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q11",
+     "table": "  | Dinosaurs | Space | Art | Total\nAdults | [50] | [40] | [160] | [250]\nChildren | [150] | [180] | [20] | [350]\nTotal | [200] | [220] | [180] | 600",
+     "parts": [
+      {
+       "label": "b",
+       "answers": [
+        "3/10"
+       ]
+      }
+     ]
+    }
+   ]
   }
  ]
 }

@@ -173,6 +173,127 @@ body.has-tabbar .toast{bottom:calc(78px + env(safe-area-inset-bottom,0px));}
 .new-pill{display:inline-block;background:var(--bad);color:#fff;font-size:.65rem;font-weight:700;border-radius:8px;padding:1px 6px;vertical-align:middle;}
 .share-bubble{display:flex;gap:10px;align-items:center;text-align:left;margin-top:4px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:9px 12px;color:var(--ink);font-size:.85rem;}
 .share-bubble span span{color:var(--accent);font-size:.78rem;}
+.site-footer{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;margin:26px 0 6px;font-size:.8rem;color:var(--sub);}
+.site-footer a,.site-footer .link-btn{color:var(--sub);font-size:.8rem;}
+.acct-name{font-size:.8rem;color:var(--sub);text-decoration:none;}
+.agree-row{display:flex;gap:10px;align-items:flex-start;font-size:.86rem;line-height:1.4;margin:6px 0 12px;cursor:pointer;}
+.agree-row input{width:20px;height:20px;margin:1px 0 0;flex-shrink:0;accent-color:var(--accent);}
+.link-as-btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;color:var(--ink);flex:1;text-align:center;}
+.help-box{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:10px;padding:12px 14px;font-size:.86rem;line-height:1.5;margin:12px 0;}
+.danger-card{border-color:var(--bad);}
+.danger-btn{color:var(--bad);border-color:var(--bad);}
+.thread-actions{display:flex;gap:16px;justify-content:flex-end;margin:-6px 0 10px;}
+.thread-actions .link-btn{font-size:.8rem;color:var(--sub);}
+.safety-report{border-top:1px solid var(--line);padding:12px 0;}
+.safety-report.done{opacity:.7;}
+.safety-report .btn-row{flex-wrap:wrap;gap:6px;}
+.safety-report .btn-ghost{flex:1 1 auto;width:auto;padding:8px 10px;font-size:.84rem;}
+.snapshot{white-space:pre-wrap;overflow-wrap:anywhere;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:.85rem;margin:6px 0;max-height:160px;overflow-y:auto;}
+.seg{display:inline-flex;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:3px;gap:3px;flex-wrap:wrap;margin-bottom:12px;}
+.seg button{background:none;border:none;border-radius:9px;padding:7px 12px;font-weight:600;font-size:.88rem;color:var(--sub);}
+.seg button.on{background:var(--accent);color:var(--accent-ink);}
+.calc-bar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:4px 0 2px;}
+.calc-bar .seg{margin-bottom:10px;}
+.calc-bar-label{font-size:.8rem;font-weight:700;color:var(--sub);text-transform:uppercase;letter-spacing:.04em;margin-bottom:10px;}
+.calc-pill{background:#e8f2ec;color:#1f5f3a;}
+.calc-pill.non{background:#fdf0e1;color:#8a4b0c;}
+:root[data-theme="dark"] .calc-pill{background:#1d3326;color:#9fe0b5;}
+:root[data-theme="dark"] .calc-pill.non{background:#3a2a15;color:#f2c28a;}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .calc-pill{background:#1d3326;color:#9fe0b5;} :root:not([data-theme="light"]) .calc-pill.non{background:#3a2a15;color:#f2c28a;} }
+.answer-box{margin:12px 0 4px;padding:14px;border:1px solid var(--line);border-radius:12px;background:var(--bg);}
+.answer-box.done{background:var(--panel);}
+.ans-head{display:flex;justify-content:space-between;align-items:center;font-weight:700;font-size:.9rem;margin-bottom:8px;}
+.try-dots{display:inline-flex;gap:5px;}
+.try-dot{width:10px;height:10px;border-radius:50%;background:var(--line);}
+.try-dot.used{background:var(--bad);}
+.ans-row{display:flex;align-items:center;gap:8px;margin-bottom:8px;}
+.ans-row input{margin:0;flex:1;font-size:1.05rem;}
+.ans-input.ok{border-color:var(--good);background:var(--panel);}
+.ans-label{font-weight:700;min-width:2.2em;}
+.ans-tick{color:var(--good);font-weight:800;font-size:1.2rem;}
+.ans-feedback{color:var(--bad);font-weight:600;font-size:.9rem;margin:2px 0 10px;}
+.ans-tools{display:inline-flex;gap:6px;flex-shrink:0;}
+.ans-tool{min-width:44px;height:44px;padding:0 10px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--ink);font-size:1.05rem;font-weight:700;display:inline-flex;align-items:center;justify-content:center;}
+.ans-tool{font-family:inherit;}
+.ans-tool.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);}
+.frac-row{align-items:center;}
+.frac-wrap{display:inline-flex;align-items:center;gap:8px;}
+.frac-stack{display:inline-flex;flex-direction:column;align-items:center;gap:6px;}
+.answer-box input.frac-in{width:84px;flex:none;text-align:center;margin:0;font-size:1.1rem;padding:8px 6px;}
+.answer-box .frac-wrap > input.frac-in{width:60px;}
+.frac-bar{display:block;width:100%;height:2px;background:var(--ink);border-radius:1px;}
+.frac-show{display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.1;font-size:.9em;}
+.frac-show span:first-child{border-bottom:1.5px solid currentColor;padding:0 3px;}
+.ans-help{font-size:.78rem;color:var(--sub);margin-top:8px;line-height:1.45;}
+.ans-result{font-weight:800;font-size:1.05rem;margin-bottom:4px;}
+.ans-result.ok{color:var(--good);}
+.ans-result.bad{color:var(--bad);}
+.qtable-wrap{overflow-x:auto;margin:12px 0 4px;-webkit-overflow-scrolling:touch;}
+.qtable{border-collapse:collapse;min-width:min(100%,280px);font-size:1rem;background:var(--panel);}
+.qtable th,.qtable td{border:1.5px solid var(--ink);padding:7px 10px;text-align:center;min-width:44px;white-space:nowrap;}
+.qtable th{background:var(--bg);font-weight:700;}
+.qtable td.cell-blank{background:var(--panel);}
+.qtable td.cell-answer{color:var(--good);font-weight:700;}
+.qtable td.cell-input{padding:3px;}
+.qtable input.cell-in{width:64px;min-width:52px;margin:0;padding:7px 4px;text-align:center;font-size:1rem;}
+.qtable td.cell-ok{color:var(--good);font-weight:700;background:var(--panel);}
+.qtable td.cell-revealed{color:var(--bad);font-weight:700;background:var(--panel);text-decoration:underline dotted;}
+.ans-input.bad{border-color:var(--bad);box-shadow:0 0 0 1px var(--bad);}
+@media (max-width:420px){ .qtable{font-size:.9rem;} .qtable th,.qtable td{padding:6px 5px;min-width:0;} .qtable td.cell-input{padding:2px;} .qtable input.cell-in{width:50px;min-width:44px;padding:6px 2px;} }
+.sol-line{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;}
+.sol-line .sol-text{white-space:pre-wrap;flex:1;}
+.sol-gap{height:8px;}
+.mk-wrap{display:inline-flex;gap:3px;flex-shrink:0;padding-top:2px;}
+.mk{display:inline-block;font:800 .72rem/1.5 system-ui,sans-serif;padding:0 6px;border-radius:6px;background:#e3eaf8;color:#23457f;white-space:nowrap;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+.mk-A{background:#e1f3e7;color:#1b6437;} .mk-B{background:#efe6f9;color:#57298a;} .mk-P{background:#fdeedd;color:#86470b;} .mk-C{background:#dff1f2;color:#195f63;} .mk-E{background:#fbe4e4;color:#8a2525;}
+.paper-chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px;}
+.paper-chips .icon-btn{border:1px solid var(--line);border-radius:9px;padding:7px 14px;color:var(--ink);background:var(--panel);font-weight:700;}
+.paper-chips .icon-btn.accent{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);}
+.paper-topic{margin:5px 0;}
+.paper-count{color:var(--sub);font-size:.78rem;margin-left:4px;white-space:nowrap;}
+.paper-folder{margin:10px 0 2px;}
+#paperAllBtn{margin-right:14px;}
+.paper-doc{background:#fff;color:#111;border:1px solid var(--line);border-radius:10px;padding:26px 24px;margin-top:14px;font-family:Georgia,"Times New Roman",serif;line-height:1.5;}
+.paper-doc .qprompt,.paper-doc .qline .qmark,.paper-doc .diagram{color:#111;}
+.paper-doc .qline .qmark{font-weight:700;}
+.paper-doc .qtable{background:#fff;color:#111;}
+.paper-doc .qtable th,.paper-doc .qtable td{border-color:#111;}
+.paper-doc .qtable th{background:#f1f1f1;}
+.paper-doc .qtable td.cell-answer{color:#1b6437;}
+.pd-head{border-bottom:2px solid #111;padding-bottom:14px;margin-bottom:6px;}
+.pd-site{font:.78rem system-ui,sans-serif;color:#555;}
+.pd-head h1{font-size:1.5rem;margin:4px 0 0;color:#111;background:none;-webkit-text-fill-color:#111;}
+.pd-title{font-size:1.15rem;font-weight:700;}
+.pd-meta{font-size:.9rem;color:#333;margin-top:4px;}
+.pd-cand{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:18px 0 8px;}
+.pd-instr,.pd-key{font-size:.88rem;border:1.5px solid #111;padding:8px 12px;margin-top:10px;line-height:1.8;}
+.pd-instr ul{margin:2px 0 0;padding-left:18px;}
+.pd-q{border-bottom:1px solid #bbb;padding:18px 0 12px;break-inside:avoid;page-break-inside:avoid;}
+.pd-qhead{display:flex;align-items:center;gap:10px;margin-bottom:6px;}
+.pd-num{display:inline-flex;align-items:center;justify-content:center;min-width:32px;height:32px;border:2px solid #111;font:800 1rem system-ui,sans-serif;}
+.pd-qmeta{font:.78rem system-ui,sans-serif;color:#555;}
+.pd-work{border-left:1px dashed #ccc;margin:10px 0 6px 0;}
+.pd-ansline{display:flex;align-items:flex-end;gap:6px;justify-content:flex-end;margin:10px 0 4px;font-size:.95rem;}
+.pd-dots{display:inline-block;width:min(260px,60%);border-bottom:1.5px dotted #111;height:1em;}
+.pd-total{text-align:right;font-weight:700;font-size:.9rem;margin-top:8px;}
+.pd-end{text-align:center;font-weight:800;margin-top:18px;letter-spacing:.03em;}
+.pd-sub{font-size:1rem;margin:18px 0 6px;color:#111;text-transform:none;letter-spacing:0;break-after:avoid;page-break-after:avoid;}
+.pd-qhead,.pd-head{break-after:avoid;page-break-after:avoid;}
+.pd-summary td,.pd-summary th{white-space:normal;text-align:left;}
+.ms-q .ms-sol{margin-top:6px;}
+.ms-q .sol-line{padding:3px 0;border-bottom:1px dotted #ddd;}
+.ms-note{font:.8rem system-ui,sans-serif;color:#86470b;background:#fdf3e6;border-radius:6px;padding:6px 8px;margin-top:8px;}
+@media (max-width:420px){ .paper-doc{padding:18px 14px;} }
+@page{ margin:14mm 13mm; }
+@media print{
+  body.printing-paper{background:#fff !important;}
+  body.printing-paper #acctBar, body.printing-paper #tabBar, body.printing-paper #authScreen, body.printing-paper .no-print,
+  body.printing-paper .site-footer, body.printing-paper .toast, body.printing-paper #mjNote{display:none !important;}
+  body.printing-paper .wrap{max-width:none;padding:0 !important;margin:0;}
+  body.printing-paper::before{display:none !important;}
+  body.printing-paper .paper-doc{border:none;padding:0;margin:0;border-radius:0;}
+  body.printing-paper .pd-q{border-bottom:1px solid #999;}
+}
 .subject-bar{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px;}
 .subject-select{width:auto;max-width:62%;margin:0;padding:8px 10px;font-weight:600;border-radius:10px;}
 .coin-pill{background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:20px;padding:7px 12px;font-weight:700;font-size:.9rem;white-space:nowrap;}
@@ -437,7 +558,7 @@ function setBar(status){
     unavailable:`<span class="err">Log in isn't available right now. Progress is saving on this device.</span>`
   };
   let right = "";
-  if(user) right = `<span class="acct-who"><span title="${esc(user.email||"")}">${user.username ? "@"+esc(user.username) : esc(user.email||"")}</span><button class="link-btn" id="logoutBtn">Log out</button></span>`;
+  if(user) right = `<span class="acct-who"><button class="link-btn acct-name" data-go-account title="Your account">${user.username ? "@"+esc(user.username) : esc(user.email||"")}</button><button class="link-btn" id="logoutBtn">Log out</button></span>`;
   else if(barStatus==="guest") right = `<button class="link-btn" id="showLoginBtn">Log in or create account</button>`;
   el.innerHTML = `<div class="acct-status">${msgs[barStatus]||""}</div>${right}`;
   const lo = document.getElementById("logoutBtn"); if(lo) lo.onclick = logOut;
@@ -446,7 +567,7 @@ function setBar(status){
 }
 
 // ---- login screen ----
-let authMode = "login";
+let authMode = "login", authModeShown = "";
 function authHtml(mode, msg, cls){
   const m = msg ? `<div class="auth-msg ${cls||"err"}" role="status">${esc(msg)}</div>` : "";
   const guestBtn = `<button type="button" class="skip-link" id="authGuest">Continue without an account</button>`;
@@ -468,6 +589,7 @@ function authHtml(mode, msg, cls){
         <label class="field" for="authPass">Password${su?" (at least 6 characters)":""}</label>
         <input type="password" id="authPass" autocomplete="${su?"new-password":"current-password"}" required>
         ${m}
+        ${su ? `<label class="agree-row"><input type="checkbox" id="authAgree"> <span>I'm 13 or older, and I agree to the <a href="terms.html" target="_blank" rel="noopener">rules</a> and have read the <a href="privacy.html" target="_blank" rel="noopener">privacy notice</a>.</span></label>` : ""}
         <button type="submit" class="btn-primary" id="authGo">${su?"Create account":"Log in"}</button>
       </form>
       ${su?"":`<button type="button" class="link-btn" id="authForgot" style="margin-top:14px;">Forgot password?</button>`}`;
@@ -494,6 +616,18 @@ function authHtml(mode, msg, cls){
         <button type="submit" class="btn-primary" id="authGo">Save username</button>
       </form>
       <button type="button" class="link-btn" id="authLogout" style="margin-top:14px;">Log out</button>`;
+  }else if(mode==="terms"){
+    body = `
+      <h2>Before you carry on</h2>
+      <div class="sub" style="margin:0 0 10px;">We've written some simple rules to keep everyone safe, and a privacy notice explaining what we store and why. Please have a read.</div>
+      <div class="btn-row" style="margin:0 0 12px;"><a class="btn-ghost link-as-btn" href="terms.html" target="_blank" rel="noopener">Read the rules</a><a class="btn-ghost link-as-btn" href="privacy.html" target="_blank" rel="noopener">Read the privacy notice</a></div>
+      <form id="authForm" novalidate>
+        <label class="agree-row"><input type="checkbox" id="authAgree"> <span>I'm 13 or older, and I agree to the rules and have read the privacy notice.</span></label>
+        ${m}
+        <button type="submit" class="btn-primary" id="authGo">Continue</button>
+      </form>
+      <button type="button" class="link-btn" id="authUnder13" style="margin-top:14px;">I'm under 13</button>
+      <button type="button" class="link-btn" id="authLogout" style="margin:14px 0 0 16px;">Log out</button>`;
   }else if(mode==="newpass"){
     body = `
       <h2>Choose a new password</h2>
@@ -508,9 +642,10 @@ function authHtml(mode, msg, cls){
   }
   return `<div class="auth-wrap">
     <h1>${esc(SITE_NAME)}</h1>
-    ${mode==="username" ? "" : `<div class="sub">Log in to save your progress to your account and carry on from any device.</div>`}
+    ${mode==="username" || mode==="terms" ? "" : `<div class="sub">Log in to save your progress to your account and carry on from any device.</div>`}
     <div class="card">${body}</div>
-    ${mode==="newpass" || mode==="username" ? "" : guestBtn}
+    ${mode==="newpass" || mode==="username" || mode==="terms" ? "" : guestBtn}
+    <div class="site-footer"><a href="privacy.html" target="_blank" rel="noopener">Privacy notice</a><span>·</span><a href="terms.html" target="_blank" rel="noopener">Rules</a></div>
   </div>`;
 }
 function showAuth(mode, msg, cls){
@@ -518,6 +653,8 @@ function showAuth(mode, msg, cls){
   const email = document.getElementById("authEmail");
   const keepEmail = email ? email.value : "";
   const un = document.getElementById("authUser"); const keepUser = un ? un.value : "";
+  const pw = document.getElementById("authPass"); const keepPass = (pw && mode===authModeShown) ? pw.value : "";
+  const ag = document.getElementById("authAgree"); const keepAgree = !!(ag && ag.checked && mode===authModeShown);
   document.getElementById("app").style.display = "none";
   const el = document.getElementById("authScreen");
   el.style.display = "block";
@@ -525,6 +662,9 @@ function showAuth(mode, msg, cls){
   if(typeof updateTabBar==="function") updateTabBar();
   const e2 = document.getElementById("authEmail"); if(e2 && keepEmail) e2.value = keepEmail;
   const u2 = document.getElementById("authUser"); if(u2 && keepUser) u2.value = keepUser;
+  const p2 = document.getElementById("authPass"); if(p2 && keepPass) p2.value = keepPass;
+  const a2 = document.getElementById("authAgree"); if(a2 && keepAgree) a2.checked = true;
+  authModeShown = mode;
   if(!user && barStatus!=="unavailable") document.getElementById("acctBar").innerHTML = "";
   attachAuth();
   window.scrollTo(0,0);
@@ -555,6 +695,10 @@ function attachAuth(){
   if(g("authForgot")) g("authForgot").onclick = ()=>showAuth("forgot");
   if(g("authBack")) g("authBack").onclick = ()=>showAuth("login");
   if(g("authLogout")) g("authLogout").onclick = logOut;
+  if(g("authUnder13")) g("authUnder13").onclick = async ()=>{
+    alert("Sorry, accounts are only for people aged 13 and over. You can still practise without an account: your progress will be saved on this device.");
+    await logOut();
+  };
   watchUsernameField();
   if(g("authGuest")) g("authGuest").onclick = ()=>{ localStorage.setItem(GUEST_KEY, "1"); hideAuth(); setBar("guest"); };
   const f = g("authForm");
@@ -564,7 +708,7 @@ function attachAuth(){
     const pass = g("authPass") ? g("authPass").value : "";
     const uname = g("authUser") ? g("authUser").value.trim() : "";
     if((authMode==="signup" || authMode==="username") && usernameProblem(uname)) return showAuth(authMode, usernameProblem(uname));
-    if(authMode!=="newpass" && authMode!=="username" && !/^\S+@\S+\.\S+$/.test(email)) return showAuth(authMode, "Enter a valid email address.");
+    if(!["newpass","username","terms"].includes(authMode) && !/^\S+@\S+\.\S+$/.test(email)) return showAuth(authMode, "Enter a valid email address.");
     authBusy(true);
     try{
       if(authMode==="login"){
@@ -574,7 +718,8 @@ function attachAuth(){
       }else if(authMode==="signup"){
         if(pass.length<6) return showAuth("signup", "Choose a longer password (at least 6 characters).");
         if(!(await usernameAvailable(uname))) return showAuth("signup", `“${uname}” is taken. Try another username.`);
-        const opts = { data:{ username:uname }, ...(isHosted() ? { emailRedirectTo:herePage() } : {}) };
+        if(!g("authAgree") || !g("authAgree").checked) return showAuth("signup", "Please confirm you're 13 or older and agree to the rules.");
+        const opts = { data:{ username:uname, terms_version:TERMS_VERSION, age_13_plus:true }, ...(isHosted() ? { emailRedirectTo:herePage() } : {}) };
         const { data, error } = await sb.auth.signUp({ email, password:pass, options:opts });
         if(error) throw error;
         if(data.user && Array.isArray(data.user.identities) && data.user.identities.length===0)
@@ -584,6 +729,13 @@ function attachAuth(){
           localStorage.setItem(PENDING_KEY, email.toLowerCase());
           showAuth("login", "Account created. Check your email for a confirmation link, then log in.", "ok");
         }
+      }else if(authMode==="terms"){
+        if(!g("authAgree").checked) return showAuth("terms", "Please tick the box to carry on.");
+        const uname2 = user.username;
+        const { data, error } = await sb.auth.updateUser({ data:{ terms_version:TERMS_VERSION, age_13_plus:true } });
+        if(error) throw error;
+        if(data && data.user){ user = data.user; if(uname2) user.username = uname2; }
+        await finishLogin();
       }else if(authMode==="username"){
         const r = await claimUsername(uname);
         if(r==="taken") return showAuth("username", `“${uname}” is taken. Try another username.`);
@@ -657,6 +809,7 @@ let pendingUsernameMsg = "";
 async function finishLogin(){
   const ok = await ensureUsername();
   if(!ok){ showAuth("username", pendingUsernameMsg, pendingUsernameMsg ? "err" : ""); pendingUsernameMsg = ""; return; }
+  if(!termsAccepted()){ showAuth("terms"); return; }
   state.screen = "home"; document.title = SITE_NAME;
   applyShopTheme();
   hideAuth();
@@ -813,6 +966,7 @@ async function loadAdminReports(){
   admin.loading = false;
   await refreshAdminCount();
   await refreshCatalogCount();
+  await loadSafetyReports();
   if(state.screen==="admin") render();
 }
 async function adminAct(ids, action){
@@ -859,9 +1013,10 @@ function renderAdmin(){
           </div>`).join("");
         const preview = !open ? "" : q ? `
           <div class="admin-preview">
-            <div class="qprompt">${fmtPrompt(q.prompt)}</div>${diagramHtml(q)}
+            <div class="qprompt">${fmtPrompt(q.prompt)}</div>${diagramHtml(q, "answers")}
             ${(q.hints||[]).map((h,i)=>`<div class="hintbox"><strong>Hint ${i+1}:</strong> ${esc(h)}</div>`).join("")}
-            <div class="solbox"><strong>Solution:</strong> ${esc(q.solution)}</div>
+            ${answerSpec(q) ? `<div class="qlist-topic">Accepted answers: ${answerSpec(q).map(p=>`${p.label?`(${esc(p.label)}) `:""}${p.answers.map(esc).join(" / ")}`).join(" · ")}${q.exact ? " (exact)" : ""}</div>` : ""}
+            <div class="solbox"><strong>Solution:</strong> ${solutionHtml(q.solution)}</div>
           </div>` : `<div class="hintbox">This question isn't in the site's question bank. It was probably one the reporter added themselves in Manage. What they reported: “${esc(rs[0].prompt_snippet||"")}”</div>`;
         const acts = admin.status==="open"
           ? `<button class="btn-ghost" data-admin-act="fixed" data-ids="${ids}">Mark fixed</button><button class="btn-ghost" data-admin-act="dismissed" data-ids="${ids}">Dismiss</button>`
@@ -883,7 +1038,8 @@ function renderAdmin(){
       }).join("");
   }
   return `
-    <div class="toprow"><h2>Reported questions</h2><button class="link-btn" id="backSelectBtn">Back</button></div>
+    <div class="toprow"><h2>Admin</h2><button class="link-btn" id="backSelectBtn">Back</button></div>
+    ${renderSafetyQueue()}
     <div class="card"><h2 style="font-size:1rem;">Coins</h2>
       <div class="sub" style="margin:0 0 10px;">Questions only earn coins once the server knows about them. ${admin.catalogCount===null||admin.catalogCount===undefined ? "" : `The server knows <strong>${admin.catalogCount}</strong> question${admin.catalogCount===1?"":"s"}; the site has <strong>${siteQuestionItems().length}</strong>.`} Press this after uploading new or changed question files.</div>
       <button class="btn-ghost" id="syncCatalogBtn">Update coin question list</button>
@@ -892,6 +1048,40 @@ function renderAdmin(){
     <div class="auth-tabs admin-tabs">${tabs}</div>
     <div style="margin-bottom:12px;"><button class="link-btn" id="adminRefreshBtn">Refresh</button></div>
     ${body}`;
+}
+const SAFETY_KIND = { group_message:"Group message", direct_message:"Private message", group_share:"Shared item", user:"User" };
+async function loadSafetyReports(){
+  try{ admin.safety = await rpc("admin_list_content_reports", { p_status: admin.safetyAll ? "all" : "open" }) || []; admin.safetyError = ""; }
+  catch(e){ admin.safety = []; admin.safetyError = socialErr(e).replace("social-and-coins-setup.sql", "safety-and-privacy-setup.sql"); }
+}
+function renderSafetyQueue(){
+  const list = admin.safety || [];
+  const open = list.filter(r=>r.status==="open").length;
+  const rows = list.map(r=>{
+    const urgent = /risk of harm|sexual|threat/i.test(r.reason);
+    return `<div class="safety-report${r.status!=="open" ? " done" : ""}">
+      <div class="qlist-topic"><strong>${esc(r.reason)}</strong>${urgent && r.status==="open" ? ` <span class="new-pill">Check first</span>` : ""} · ${SAFETY_KIND[r.kind]||r.kind}${r.group_name ? ` in ${esc(r.group_name)}` : ""} · ${fmtWhen(r.created_at)}${r.status!=="open" ? ` · <span class="pill">${esc(r.status)}</span>` : ""}</div>
+      <div class="qlist-text">Reported: <strong>@${esc(r.reported_username||"deleted account")}</strong>${r.reported_banned ? ` <span class="pill">Banned</span>` : ""} · by @${esc(r.reporter_name||"deleted account")}</div>
+      ${r.snapshot ? `<div class="snapshot">${esc(String(r.snapshot).slice(0,800))}</div>` : ""}
+      ${r.details ? `<div class="qlist-text"><em>Reporter says:</em> ${esc(r.details)}</div>` : ""}
+      <div class="btn-row">
+        ${r.status==="open" && r.kind!=="user" ? `<button class="btn-ghost" data-sr-remove="${r.id}">Remove it</button>` : ""}
+        ${r.reported_user ? `<button class="btn-ghost" data-sr-ban="${esc(r.reported_user)}" data-sr-banned="${r.reported_banned?1:0}" data-sr-name="${esc(r.reported_username||"")}">${r.reported_banned ? "Unban" : "Ban from social features"}</button>` : ""}
+        ${r.status==="open" ? `<button class="btn-ghost" data-sr-status="${r.id}" data-sr-to="actioned">Mark handled</button><button class="btn-ghost" data-sr-status="${r.id}" data-sr-to="dismissed">Dismiss</button>` : `<button class="btn-ghost" data-sr-status="${r.id}" data-sr-to="open">Reopen</button>`}
+      </div>
+    </div>`;
+  }).join("");
+  return `<div class="card"><h2 style="font-size:1rem;">Safety reports${open ? ` (${open} open)` : ""}</h2>
+    ${admin.safetyError ? `<div class="auth-msg err">${esc(admin.safetyError)}</div>` : ""}
+    ${rows || `<div class="sub" style="margin:0;">${admin.safetyAll ? "No safety reports yet." : "No open safety reports."}</div>`}
+    <button class="link-btn" id="safetyToggleBtn" style="margin-top:8px;">${admin.safetyAll ? "Show open reports only" : "Show handled reports too"}</button>
+  </div>`;
+}
+async function safetyAction(fn, args, msg){
+  try{ await rpc(fn, args); state.toast = { message:msg, showUndo:false }; }
+  catch(e){ state.toast = { message:socialErr(e), showUndo:false }; }
+  await loadSafetyReports(); render();
+  setTimeout(()=>{ state.toast = null; if(state.screen==="admin") render(); }, 2500);
 }
 function siteQuestionItems(){
   const out = [];
@@ -923,6 +1113,16 @@ function attachAdminHandlers(){
   document.querySelectorAll("[data-admin-tab]").forEach(b=>{ b.onclick = ()=>{ admin.status = b.dataset.adminTab; admin.expanded = {}; loadAdminReports(); }; });
   const rf = document.getElementById("adminRefreshBtn"); if(rf) rf.onclick = loadAdminReports;
   const sc = document.getElementById("syncCatalogBtn"); if(sc) sc.onclick = ()=>syncCatalog(sc);
+  const st = document.getElementById("safetyToggleBtn"); if(st) st.onclick = async ()=>{ admin.safetyAll = !admin.safetyAll; await loadSafetyReports(); render(); };
+  document.querySelectorAll("[data-sr-remove]").forEach(b=>{ b.onclick = ()=>{ if(confirm("Delete the reported content for everyone? A copy stays in this report.")) safetyAction("admin_remove_reported_content", { p_id:Number(b.dataset.srRemove) }, "Removed."); }; });
+  document.querySelectorAll("[data-sr-status]").forEach(b=>{ b.onclick = ()=>safetyAction("admin_resolve_report", { p_id:Number(b.dataset.srStatus), p_status:b.dataset.srTo }, "Updated."); });
+  document.querySelectorAll("[data-sr-ban]").forEach(b=>{ b.onclick = ()=>{
+    const banned = b.dataset.srBanned==="1", name = b.dataset.srName;
+    if(banned){ safetyAction("admin_set_ban", { p_user:b.dataset.srBan, p_banned:false, p_reason:null }, `@${name} can use social features again.`); return; }
+    const why = prompt(`Ban @${name} from friends, groups and messages? They can still practise.\n\nReason (kept for your records):`);
+    if(why===null) return;
+    safetyAction("admin_set_ban", { p_user:b.dataset.srBan, p_banned:true, p_reason:why }, `@${name} is banned from social features.`);
+  }; });
   document.querySelectorAll("[data-admin-toggle]").forEach(b=>{ b.onclick = ()=>{ const k = b.dataset.adminToggle; admin.expanded[k] = !admin.expanded[k]; render(); }; });
   document.querySelectorAll("[data-admin-act]").forEach(b=>{ b.onclick = ()=>adminAct(b.dataset.ids.split(",").map(Number), b.dataset.adminAct); });
 }
@@ -935,7 +1135,12 @@ function attachAdminHandlers(){
 // 1. Open the subject's file in the questions folder (e.g. questions/gcse-maths-higher.json) and find the topic.
 // 2. Add question objects to that topic's "questions" list, then change QUESTIONS_VERSION below:
 //    { "id": "gcse-h-surds-001", "marks": 3, "prompt": "Simplify $\\sqrt{50}$.", "hints": ["50 = 25 × 2"],
-//      "solution": "$\\sqrt{50} = 5\\sqrt{2}$", "year": "2023", "paper": "Edexcel 1MA1 Paper 1H" }
+//      "solution": "$\\sqrt{50} = 5\\sqrt{2}$", "year": "2023", "paper": "Edexcel 1MA1 Paper 1H", "calculator": false }
+// GCSE questions also need "calculator": true (calculator paper) or "calculator": false (non-calculator paper),
+// so the calculator filter can find them. GCSE difficulty: 1 mark = easy, 2-4 = medium, 5-6 = hard.
+// GCSE questions should also have "answer" (or "answers" / "parts"), so students type their answer to unlock
+// the solution. See "GCSE: TYPED ANSWERS" further down for the format.
+// Any question can include a "table"; blank cells become answer boxes on GCSE. See "QUESTION TABLES".
 // Rules that protect everyone's saved progress:
 //  - Every id must be unique across the WHOLE site and must never change once published.
 //    Start ids with the subject's prefix: gcse-h-, gcse-f-, alp-, fm- (A-Level Maths keeps its existing ids).
@@ -951,7 +1156,7 @@ const SUBJECTS = [
 ];
 // Each subject's questions live in their own file: questions/<subject id>.json
 // Change QUESTIONS_VERSION whenever you edit a question file, so browsers fetch the new copy straight away.
-const QUESTIONS_VERSION = "1";
+const QUESTIONS_VERSION = "3";
 const SUBJECT_BANKS = {};
 const bankLoads = {}, bankErrors = {};
 function bankLoaded(sid){ return !!SUBJECT_BANKS[sid]; }
@@ -1070,11 +1275,11 @@ async function loadSocial(){
     social.friends = friends||[]; social.invites = invites||[]; social.groups = groups||[]; social.error = "";
   }catch(e){ social.error = socialErr(e); }
   social.loaded = true;
-  if(state.screen==="friends") render(); else updateTabBar();
+  if(state.screen==="friends" || state.screen==="shareDeck") render(); else updateTabBar();
 }
 async function runSearch(){
   const q = social.query.trim();
-  if(q.length<2){ social.results = null; updateSearchResults(); return; }
+  if(q.length<3){ social.results = null; updateSearchResults(); return; }
   social.searching = true; updateSearchResults();
   try{ const r = await rpc("search_users", { p_query:q }); if(social.query.trim()===q) social.results = r||[]; }
   catch(e){ social.results = []; social.error = socialErr(e); }
@@ -1088,9 +1293,9 @@ function relationButton(u){
   return `<button class="icon-btn accent" data-friend-add="${id}">Add friend</button>`;
 }
 function searchResultsHtml(){
-  if(social.query.trim().length<2) return `<div class="sub" style="margin:6px 0 0;">Type at least 2 letters of a username.</div>`;
+  if(social.query.trim().length<3) return `<div class="sub" style="margin:6px 0 0;">Type your friend's full username. For privacy, people only show up when you type their exact username.</div>`;
   if(social.searching && !social.results) return `<div class="sub" style="margin:6px 0 0;">Searching…</div>`;
-  if(!social.results || !social.results.length) return `<div class="sub" style="margin:6px 0 0;">No usernames start with “${esc(social.query.trim())}”.</div>`;
+  if(!social.results || !social.results.length) return `<div class="sub" style="margin:6px 0 0;">No one has the username “${esc(social.query.trim())}”. Check the spelling with your friend.</div>`;
   return social.results.map(u=>`<div class="qlist-row"><div class="social-name">@${esc(u.username)}</div><div class="qlist-actions">${relationButton(u)}</div></div>`).join("");
 }
 function updateSearchResults(){
@@ -1108,13 +1313,13 @@ function renderFriendsPage(){
     const row = (f, actions)=>`<div class="qlist-row"><div class="social-name">@${esc(f.username||"unknown")}</div><div class="qlist-actions">${actions}</div></div>`;
     return `${head}${tabs}${err}
       <div class="card">
-        <label class="field" for="friendSearch" style="margin-top:0;">Find people by username</label>
-        <input type="text" id="friendSearch" placeholder="Search usernames" autocomplete="off" autocapitalize="off" spellcheck="false" value="${esc(social.query)}">
+        <label class="field" for="friendSearch" style="margin-top:0;">Add a friend by their username</label>
+        <input type="text" id="friendSearch" placeholder="Their exact username" autocomplete="off" autocapitalize="off" spellcheck="false" value="${esc(social.query)}">
         <div id="friendResults">${searchResultsHtml()}</div>
       </div>
-      ${incoming.length ? `<div class="card"><h2 style="font-size:1rem;">Friend requests</h2>${incoming.map(f=>row(f, `<button class="icon-btn accent" data-friend-accept="${esc(f.user_id)}">Accept</button><button class="icon-btn" data-friend-decline="${esc(f.user_id)}">Decline</button>`)).join("")}</div>` : ""}
+      ${incoming.length ? `<div class="card"><h2 style="font-size:1rem;">Friend requests</h2>${incoming.map(f=>row(f, `<button class="icon-btn accent" data-friend-accept="${esc(f.user_id)}">Accept</button><button class="icon-btn" data-friend-decline="${esc(f.user_id)}">Decline</button><button class="icon-btn" data-block-user="${esc(f.user_id)}" data-block-name="${esc(f.username||"")}">Block</button>`)).join("")}</div>` : ""}
       <div class="card"><h2 style="font-size:1rem;">Your friends (${friends.length})</h2>
-        ${friends.length ? friends.map(f=>row(f, `<button class="icon-btn accent" data-open-thread="${esc(f.user_id)}" data-thread-name="${esc(f.username||"")}">Message</button><button class="icon-btn" data-friend-remove="${esc(f.user_id)}" data-confirm="Remove @${esc(f.username||"")} as a friend?">Remove</button>`)).join("") : `<div class="sub" style="margin:0;">No friends yet. Search for a username above.</div>`}
+        ${friends.length ? friends.map(f=>row(f, `<button class="icon-btn accent" data-deck-share="">Send a deck</button><button class="icon-btn" data-friend-remove="${esc(f.user_id)}" data-confirm="Remove @${esc(f.username||"")} as a friend?">Remove</button>`)).join("") : `<div class="sub" style="margin:0;">No friends yet. Search for a username above.</div>`}
       </div>
       ${outgoing.length ? `<div class="card"><h2 style="font-size:1rem;">Requests you've sent</h2>${outgoing.map(f=>row(f, `<button class="icon-btn" data-friend-remove="${esc(f.user_id)}">Cancel</button>`)).join("")}</div>` : ""}`;
   }
@@ -1132,7 +1337,7 @@ function renderFriendsPage(){
 // ---------- a single group ----------
 function openGroup(id){
   const g = social.groups.find(x=>x.id===id); if(!g) return;
-  social.group = g; social.gtab = "chat"; social.messages = []; social.members = []; social.shares = []; social.board = []; social.draft = "";
+  social.group = g; social.gtab = "leaderboard"; social.messages = []; social.members = []; social.shares = []; social.board = []; social.draft = "";
   state.screen = "group"; render(); window.scrollTo(0,0);
   loadGroupTab();
   rpc("group_member_list", { p_group:id }).then(m=>{ social.members = m||[]; if(state.screen==="group" && social.gtab==="members") render(); }).catch(()=>{});
@@ -1168,7 +1373,7 @@ function chatListHtml(){
   return social.messages.map(m=>{
     const mine = user && m.user_id===user.id;
     return `<div class="chat-msg${mine?" mine":""}">
-      <div class="chat-meta">${mine ? "You" : "@"+esc(m.username||"deleted user")} · ${fmtWhen(m.created_at)}${mine||ownerMe ? ` <button class="chat-del" data-msg-del="${m.id}" aria-label="Delete message">Delete</button>` : ""}</div>
+      <div class="chat-meta">${mine ? "You" : "@"+esc(m.username||"deleted user")} · ${fmtWhen(m.created_at)}${mine||ownerMe ? ` <button class="chat-del" data-msg-del="${m.id}" aria-label="Delete message">Delete</button>` : ""}${mine ? "" : ` <button class="chat-del" data-report-kind="group_message" data-report-target="${m.id}" data-report-label="a message from @${esc(m.username||"someone")}">Report</button>`}</div>
       <div class="chat-body">${esc(m.body)}</div>
     </div>`;
   }).join("");
@@ -1219,7 +1424,7 @@ function importCustom(items){
     if(!e){ e = {topic:String(it.topic||"Shared questions"), category:String(it.category||"Shared"), subject:sid, questions:[]}; custom.push(e); }
     const q = it.question;
     e.questions.push({ id:String(q.id), prompt:String(q.prompt||""), solution:String(q.solution||""), hints:Array.isArray(q.hints)?q.hints.map(String):[], marks:Math.max(1, parseInt(q.marks)||1),
-      year:String(q.year||""), paper:String(q.paper||""), link:"", subtopic:String(q.subtopic||""), ...(q.diagram && q.diagram.image && /^data:image\//.test(q.diagram.image) ? {diagram:{image:q.diagram.image, caption:String(q.diagram.caption||""), alt:String(q.diagram.alt||"Diagram")}} : {}) });
+      year:String(q.year||""), paper:String(q.paper||""), link:"", subtopic:String(q.subtopic||""), ...(typeof q.calculator==="boolean" ? {calculator:q.calculator} : {}), ...(Array.isArray(q.answers) ? {answers:q.answers.map(String).slice(0,20)} : q.answer!==undefined ? {answers:[String(q.answer)]} : {}), ...(q.exact ? {exact:true} : {}), ...(q.table ? {table:tableToText(q.table).slice(0,5000)} : {}), ...(Array.isArray(q.parts) ? {parts:q.parts.slice(0,10).map(pp=>({label:String(pp.label||""), answers:acceptedList(pp).slice(0,20), ...(pp.exact?{exact:true}:{})}))} : {}), ...(q.diagram && q.diagram.image && /^data:image\//.test(q.diagram.image) ? {diagram:{image:q.diagram.image, caption:String(q.diagram.caption||""), alt:String(q.diagram.alt||"Diagram")}} : {}) });
     have.add(q.id); added++;
   });
   if(added) saveCustom(custom);
@@ -1262,7 +1467,7 @@ async function deleteShare(id){
 function renderGroupPage(){
   const g = social.group;
   if(!g) return `<div class="sub">Group not found.</div>`;
-  const tabs = [["chat","Chat"],["leaderboard","Leaderboard"],["shared","Shared"],["members","Members"]]
+  const tabs = [["leaderboard","Leaderboard"],["shared","Shared decks"],["members","Members"]]
     .map(([k,l])=>`<button type="button" data-group-tab="${k}" class="${social.gtab===k?"on":""}">${l}</button>`).join("");
   const err = social.error ? `<div class="auth-msg err">${esc(social.error)}</div>` : "";
   let body = "";
@@ -1294,15 +1499,13 @@ function renderGroupPage(){
     body = `<div class="card"><h2 style="font-size:1rem;">Share with the group</h2>
         <label class="field">One of your decks</label>
         <div class="btn-row" style="margin-top:0;"><select id="shareDeckSelect" style="flex:2;margin-bottom:0;">${decks.length ? decks.map(d=>`<option value="${esc(d.id)}">${esc(d.name)} (${d.questionIds.length})</option>`).join("") : `<option value="">You have no decks yet</option>`}</select><button class="btn-ghost" id="shareDeckBtn" style="flex:1;" ${decks.length?"":"disabled"}>Share deck</button></div>
-        <label class="field">A question you wrote</label>
-        <div class="btn-row" style="margin-top:0;"><select id="shareQSelect" style="flex:2;margin-bottom:0;">${mine.length ? mine.map(([id,it])=>`<option value="${esc(id)}">${esc(snipPlain(it.question.prompt, 50))}</option>`).join("") : `<option value="">You haven't written any questions</option>`}</select><button class="btn-ghost" id="shareQBtn" style="flex:1;" ${mine.length?"":"disabled"}>Share question</button></div>
       </div>
       <div class="card"><h2 style="font-size:1rem;">Shared in ${esc(g.name)}</h2>${list || `<div class="sub" style="margin:0;">Nothing shared yet.</div>`}</div>`;
   }else{
     const inGroup = new Set(social.members.map(m=>m.user_id));
     const invitable = social.friends.filter(f=>f.status==="friend" && !inGroup.has(f.user_id));
     const rows = social.members.map(m=>`<div class="qlist-row"><div><div class="social-name">@${esc(m.username||"unknown")}${user && m.user_id===user.id?" (you)":""}</div><div class="qlist-topic">${m.role==="owner" ? "Owner" : m.invited ? "Invited" : "Member"}</div></div>
-      <div class="qlist-actions">${g.role==="owner" && user && m.user_id!==user.id ? `<button class="icon-btn" data-member-remove="${esc(m.user_id)}">${m.invited?"Cancel invite":"Remove"}</button>` : ""}</div></div>`).join("");
+      <div class="qlist-actions">${g.role==="owner" && user && m.user_id!==user.id ? `<button class="icon-btn" data-member-remove="${esc(m.user_id)}">${m.invited?"Cancel invite":"Remove"}</button>` : ""}${user && m.user_id!==user.id && !m.invited ? `<button class="icon-btn" data-report-kind="user" data-report-target="${esc(m.user_id)}" data-report-label="@${esc(m.username||"")}">Report</button><button class="icon-btn" data-block-user="${esc(m.user_id)}" data-block-name="${esc(m.username||"")}">Block</button>` : ""}</div></div>`).join("");
     body = `<div class="card"><h2 style="font-size:1rem;">Members</h2>${rows || `<div class="sub">Loading…</div>`}</div>
       <div class="card"><h2 style="font-size:1rem;">Invite friends</h2>
         ${invitable.length ? invitable.map(f=>`<div class="qlist-row"><div class="social-name">@${esc(f.username||"")}</div><div class="qlist-actions"><button class="icon-btn accent" data-group-invite="${esc(f.user_id)}">Invite</button></div></div>`).join("") : `<div class="sub" style="margin:0;">All your friends are already here or invited. Add more friends from the Friends tab.</div>`}
@@ -1318,7 +1521,7 @@ async function socialAction(fn, args, doneMsg){
   try{ await rpc(fn, args); if(doneMsg) socialToast(doneMsg); }
   catch(e){ socialToast(socialErr(e)); }
   await loadSocial();
-  if(social.query.trim().length>=2) runSearch();
+  if(social.query.trim().length>=3) runSearch();
 }
 function attachSocialButtons(root){
   root.querySelectorAll("[data-friend-add]").forEach(b=>{ b.onclick = ()=>{ b.disabled = true; socialAction("send_friend_request", { p_user:b.dataset.friendAdd }, "Friend request sent."); }; });
@@ -1333,7 +1536,7 @@ function attachSocialHandlers(){
     const lb = document.getElementById("shopLoginBtn"); if(lb) lb.onclick = ()=>showAuth("login");
     document.querySelectorAll("[data-social-tab]").forEach(b=>{ b.onclick = ()=>{ social.tab = b.dataset.socialTab; render(); }; });
     const box = document.getElementById("friendSearch");
-    if(box) box.oninput = ()=>{ social.query = box.value; clearTimeout(socialSearchTimer); socialSearchTimer = setTimeout(runSearch, 300); };
+    if(box) box.oninput = ()=>{ social.query = box.value; clearTimeout(socialSearchTimer); socialSearchTimer = setTimeout(runSearch, 500); };
     attachSocialButtons(document.getElementById("app"));
     document.querySelectorAll("[data-invite-accept]").forEach(b=>{ b.onclick = ()=>socialAction("respond_group_invite", { p_group:b.dataset.inviteAccept, p_accept:true }, "You've joined the group."); });
     document.querySelectorAll("[data-invite-decline]").forEach(b=>{ b.onclick = ()=>socialAction("respond_group_invite", { p_group:b.dataset.inviteDecline, p_accept:false }); });
@@ -1412,9 +1615,7 @@ function inboxBadge(){ return user ? unseenShares() + (inbox.unreadDM||0) : 0; }
 async function loadInbox(){
   if(!user || !sb) return;
   try{
-    const [items, convos] = await Promise.all([rpc("inbox_items"), rpc("my_conversations")]);
-    inbox.items = items||[]; inbox.convos = convos||[];
-    inbox.unreadDM = inbox.convos.reduce((n,c)=>n + (c.unread||0), 0);
+    inbox.items = await rpc("inbox_items") || []; inbox.convos = []; inbox.unreadDM = 0;
     inbox.error = "";
   }catch(e){ inbox.error = socialErr(e).replace("social-and-coins-setup.sql", "inbox-setup.sql"); }
   inbox.loaded = true;
@@ -1464,10 +1665,11 @@ function openSharedItem(item, from){
   state.screen = "sharedItem"; render(); window.scrollTo(0,0);
 }
 function renderInbox(){
-  const head = `<div class="toprow"><h2>Inbox</h2></div>`;
-  if(!user) return `${head}<div class="card"><div class="sub" style="margin:0 0 12px;">Log in to receive decks and messages from friends.</div><button class="btn-primary" id="shopLoginBtn">Log in or create account</button></div>`;
+  const head = `<div class="toprow"><h2>Shared with me</h2></div>`;
+  if(!user) return `${head}<div class="card"><div class="sub" style="margin:0 0 12px;">Log in to receive decks from friends.</div><button class="btn-primary" id="shopLoginBtn">Log in or create account</button></div>`;
   const unseen = unseenShares();
-  const tabs = `<div class="auth-tabs"><button type="button" data-inbox-tab="shared" class="${inbox.tab==="shared"?"on":""}">Shared with me${unseen?` (${unseen})`:""}</button><button type="button" data-inbox-tab="messages" class="${inbox.tab==="messages"?"on":""}">Messages${inbox.unreadDM?` (${inbox.unreadDM})`:""}</button></div>`;
+  const tabs = "";
+  inbox.tab = "shared";
   const err = inbox.error ? `<div class="auth-msg err">${esc(inbox.error)}</div>` : "";
   if(!inbox.loaded) return `${head}${tabs}<div class="sub">Loading…</div>`;
   if(inbox.tab==="shared"){
@@ -1483,7 +1685,7 @@ function renderInbox(){
       </button>`;
     }).join("");
     return `${head}${tabs}${err}
-      <div class="card">${rows || `<div class="sub" style="margin:0;">Nothing here yet. When a friend sends you a deck or question, or someone shares one in your groups, it appears here.</div>`}</div>
+      <div class="card">${rows || `<div class="sub" style="margin:0;">Nothing here yet. When a friend sends you a deck, or someone shares one in your groups, it appears here. To share one of your own, open Decks and press "Share with friends or groups".</div>`}</div>
       ${inbox.items.length && unseen ? `<button class="skip-link" id="markAllSeenBtn">Mark all as seen</button>` : ""}`;
   }
   const friends = social.friends.filter(f=>f.status==="friend");
@@ -1509,6 +1711,8 @@ function renderSharedItem(){
   if(!it) return `<div class="sub">Nothing to show.</div>`;
   const p = it.payload || {};
   const back = `<button class="link-btn" id="sharedBackBtn">Back</button>`;
+  const canReport = it.item_key && it.source!=="sent";
+  const reportLink = canReport ? ` · <button class="link-btn" style="font-size:inherit;" data-report-kind="${it.item_key[0]==="g" ? "group_share" : "direct_message"}" data-report-target="${esc(it.item_key.slice(1))}" data-report-label="this ${it.kind}">Report</button>` : "";
   const src = it.source==="group" ? `Shared by @${esc(it.from_user||"someone")} in ${esc(it.group_name||"a group")}` :
               it.source==="sent" ? "You sent this" : `Sent by @${esc(it.from_user||"someone")}`;
   if(it.kind==="deck"){
@@ -1518,7 +1722,7 @@ function renderSharedItem(){
       <div class="qlist-text">${d ? snip(d.prompt, 110) : "This question isn't on the site any more."}</div></div></div>`).join("");
     return `<div class="toprow"><h2>${esc(it.title)}</h2>${back}</div>
       <div class="card">
-        <div class="qlist-topic" style="margin-bottom:4px;">${src} · ${fmtWhen(it.created_at)}</div>
+        <div class="qlist-topic" style="margin-bottom:4px;">${src} · ${fmtWhen(it.created_at)}${reportLink}</div>
         <div class="sub" style="margin:0 0 12px;">A deck of ${ids.length} question${ids.length===1?"":"s"}.</div>
         <div class="btn-row" style="margin-top:0;">
           <button class="btn-primary" id="sharedSaveBtn">Save to my decks</button>
@@ -1530,7 +1734,7 @@ function renderSharedItem(){
   const q = p.question || {};
   return `<div class="toprow"><h2>Shared question</h2>${back}</div>
     <div class="card">
-      <div class="qlist-topic" style="margin-bottom:8px;">${src} · ${esc(p.topic||"")} · ${q.marks||1} mark${(q.marks||1)===1?"":"s"}</div>
+      <div class="qlist-topic" style="margin-bottom:8px;">${src} · ${esc(p.topic||"")} · ${q.marks||1} mark${(q.marks||1)===1?"":"s"}${reportLink}</div>
       <div class="qprompt">${fmtPrompt(q.prompt||"")}</div>
       <div class="btn-row">
         <button class="btn-primary" id="sharedSaveBtn">Save to my questions</button>
@@ -1566,7 +1770,7 @@ function threadListHtml(){
         <span><strong>${esc(m.share_title||"")}</strong><br><span>${m.share_kind==="deck" ? `Deck · ${payloadQuestionCount("deck", m.payload)} questions` : "Question"} · View ›</span></span>
       </button>` : "";
     return `<div class="chat-msg${m.from_me?" mine":""}">
-      <div class="chat-meta">${m.from_me ? "You" : "@"+esc(inbox.thread.username||"")} · ${fmtWhen(m.created_at)}${m.from_me ? ` <button class="chat-del" data-dm-del="${m.id}">Delete</button>` : ""}</div>
+      <div class="chat-meta">${m.from_me ? "You" : "@"+esc(inbox.thread.username||"")} · ${fmtWhen(m.created_at)}${m.from_me ? ` <button class="chat-del" data-dm-del="${m.id}">Delete</button>` : ` <button class="chat-del" data-report-kind="direct_message" data-report-target="${m.id}" data-report-label="a message from @${esc(inbox.thread.username||"someone")}">Report</button>`}</div>
       ${m.body ? `<div class="chat-body">${esc(m.body)}</div>` : ""}${card}
     </div>`;
   }).join("");
@@ -1604,6 +1808,7 @@ function renderThread(){
   const t = inbox.thread; if(!t) return `<div class="sub">Conversation not found.</div>`;
   const decks = loadDecks(), mine = Object.entries(customQuestionIndex());
   return `<div class="toprow"><h2>@${esc(t.username||"")}</h2><button class="link-btn" id="threadBackBtn">Back</button></div>
+    <div class="thread-actions"><button class="link-btn" data-report-kind="user" data-report-target="${esc(t.user_id)}" data-report-label="@${esc(t.username||"")}">Report @${esc(t.username||"")}</button><button class="link-btn" data-block-user="${esc(t.user_id)}" data-block-name="${esc(t.username||"")}">Block</button></div>
     ${inbox.error ? `<div class="auth-msg err">${esc(inbox.error)}</div>` : ""}
     <div class="card chat-card">
       <div class="chat-list" id="chatList">${threadListHtml()}</div>
@@ -1655,6 +1860,7 @@ function attachInboxHandlers(){
     };
   }
   if(state.screen==="thread"){
+    startThreadPolling();
     updateThreadList(true);
     const back = document.getElementById("threadBackBtn");
     if(back) back.onclick = ()=>{ stopThreadPolling(); inbox.tab = "messages"; state.screen = "inbox"; render(); loadInbox(); };
@@ -1684,7 +1890,7 @@ const TAB_ICONS = {
   shop:'<path d="M5 8h14l-1.2 11.2a1 1 0 0 1-1 .8H7.2a1 1 0 0 1-1-.8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/>'
 };
 const TAB_FOR_SCREEN = { home:"home", select:"home", stats:"home", browse:"home", manage:"home", admin:"home",
-  decks:"decks", inbox:"inbox", sharedItem:"inbox", thread:"inbox", friends:"friends", group:"friends", shop:"shop" };
+  decks:"decks", inbox:"inbox", sharedItem:"inbox", thread:"inbox", friends:"friends", group:"friends", shop:"shop", account:"home", report:"inbox", shareDeck:"decks", paperSetup:"home", paperView:"home" };
 function goTab(tab){
   stopChatPolling(); stopThreadPolling();
   state.editForm = null; state.backTo = "home";
@@ -1706,7 +1912,7 @@ function updateTabBar(){
   const active = TAB_FOR_SCREEN[state.screen] || "home";
   const friendAlerts = user ? (social.invites.length + social.friends.filter(f=>f.status==="incoming").length) : 0;
   const badge = { inbox: inboxBadge(), friends: friendAlerts };
-  bar.innerHTML = [["home","Home"],["decks","Decks"],["inbox","Inbox"],["friends","Friends"],["shop","Shop"]].map(([k,l])=>`
+  bar.innerHTML = [["home","Home"],["decks","Decks"],["inbox","Shared"],["friends","Friends"],["shop","Shop"]].map(([k,l])=>`
     <button class="tab-btn${active===k?" on":""}" data-tab="${k}" ${active===k?'aria-current="page"':""}>
       <span class="tab-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${TAB_ICONS[k]}</svg>${badge[k] ? `<span class="tab-badge">${badge[k]>9 ? "9+" : badge[k]}</span>` : ""}</span>
       <span class="tab-label">${l}</span>
@@ -1714,10 +1920,805 @@ function updateTabBar(){
   bar.querySelectorAll("[data-tab]").forEach(b=>{ b.onclick = ()=>goTab(b.dataset.tab); });
 }
 
+// ======================= PRIVACY, RULES & SAFETY =======================
+// Change TERMS_VERSION whenever you change privacy.html or terms.html in a way people should agree to again.
+const TERMS_VERSION = "2026-09-29";
+// Your contact email for privacy requests, reports and appeals. Also put it in privacy.html and terms.html.
+const CONTACT_EMAIL = "";
+const REPORT_REASONS = [
+  "Bullying or being unkind", "Hate or discrimination", "Sexual or inappropriate content",
+  "Someone might be at risk of harm", "Sharing someone's personal information", "Threats or violence",
+  "Spam or scams", "Something else"
+];
+const HELP_BOX = `<div class="help-box"><strong>Need help now?</strong> If you or someone else is in danger, call <strong>999</strong>.
+  You can talk to <strong>Childline</strong> free, any time, on <strong>0800 1111</strong> or at childline.org.uk.
+  If someone is sending you sexual messages or asking to meet up, you can also report it to CEOP at ceop.police.uk.</div>`;
+
+function termsAccepted(){ return !!(user && user.user_metadata && user.user_metadata.terms_version===TERMS_VERSION); }
+function contactHtml(){ return CONTACT_EMAIL ? `<a href="mailto:${esc(CONTACT_EMAIL)}">${esc(CONTACT_EMAIL)}</a>` : "the site owner"; }
+function footerHtml(){
+  if(state.screen==="practice") return "";
+  return `<footer class="site-footer"><a href="privacy.html" target="_blank" rel="noopener">Privacy</a><span>·</span><a href="terms.html" target="_blank" rel="noopener">Rules</a>${user ? `<span>·</span><button class="link-btn" data-go-account>Account</button>` : ""}${CONTACT_EMAIL ? `<span>·</span><a href="mailto:${esc(CONTACT_EMAIL)}">Contact</a>` : ""}</footer>`;
+}
+
+// ---------- reporting ----------
+let reportCtx = null;
+function openReport(kind, target, label){
+  if(!user) return;
+  reportCtx = { kind, target:String(target), label:label||"this", returnTo:state.screen };
+  state.screen = "report"; render(); window.scrollTo(0,0);
+}
+function renderReport(){
+  const r = reportCtx; if(!r) return `<div class="sub">Nothing to report.</div>`;
+  return `<div class="toprow"><h2>Report ${esc(r.label)}</h2><button class="link-btn" id="reportBackBtn">Cancel</button></div>
+    <div class="card">
+      <div class="sub" style="margin:0 0 10px;">Reports go to the site owner, not to the person you're reporting. We'll look at it and remove anything that breaks the rules.</div>
+      <label class="field" for="safetyReason">What's wrong?</label>
+      <select id="safetyReason">${REPORT_REASONS.map(x=>`<option>${esc(x)}</option>`).join("")}</select>
+      <label class="field" for="safetyDetails">Anything else we should know? (optional)</label>
+      <textarea id="safetyDetails" maxlength="1000" rows="3"></textarea>
+      <button class="btn-primary" id="safetySendBtn" style="margin-top:6px;">Send report</button>
+    </div>
+    ${HELP_BOX}
+    <div class="sub" style="margin-top:10px;">You can also block people so they can't send you decks or add you as a friend.</div>`;
+}
+function leaveReport(){
+  const back = reportCtx ? reportCtx.returnTo : "home";
+  state.screen = back; render();
+  if(back==="thread") fetchThread(false);
+  if(back==="group") loadGroupTab();
+}
+async function sendReport(btn){
+  btn.disabled = true;
+  try{
+    await rpc("report_content", { p_kind:reportCtx.kind, p_target:reportCtx.target,
+      p_reason:document.getElementById("safetyReason").value, p_details:document.getElementById("safetyDetails").value });
+    leaveReport();
+    socialToast("Thanks. Your report has been sent and will be reviewed.");
+  }catch(e){ btn.disabled = false; socialToast(socialErr(e).replace("social-and-coins-setup.sql", "safety-and-privacy-setup.sql")); }
+}
+async function blockUser(uid, name){
+  if(!confirm(`Block @${name}?\n\nThey won't be able to send you decks, friend requests or group invites, and you'll stop being friends. They won't be told. You can unblock them from your Account page.`)) return;
+  try{ await rpc("block_user", { p_user:uid }); }
+  catch(e){ socialToast(socialErr(e).replace("social-and-coins-setup.sql", "safety-and-privacy-setup.sql")); return; }
+  await loadSocial(); loadInbox();
+  if(state.screen==="thread"){ stopThreadPolling(); inbox.tab = "messages"; state.screen = "inbox"; }
+  if(state.screen==="group"){ social.messages = []; loadGroupTab(); }
+  render();
+  socialToast(`You've blocked @${name}.`);
+}
+
+// ---------- account page ----------
+const account = { blocks:[], loaded:false, busy:false };
+async function loadAccount(){
+  if(!user) return;
+  try{ account.blocks = await rpc("my_blocks") || []; }catch(e){ account.blocks = []; }
+  account.loaded = true;
+  if(state.screen==="account") render();
+}
+function goAccount(){ stopChatPolling(); stopThreadPolling(); state.backTo = state.screen; state.screen = "account"; render(); window.scrollTo(0,0); loadAccount(); }
+function renderAccount(){
+  if(!user) return `<div class="toprow"><h2>Account</h2></div><div class="card"><div class="sub" style="margin:0 0 12px;">You're not logged in. Progress is saved on this device only.</div><button class="btn-primary" id="shopLoginBtn">Log in or create account</button></div>${HELP_BOX}`;
+  const since = user.created_at ? new Date(user.created_at).toLocaleDateString("en-GB", {day:"numeric", month:"long", year:"numeric"}) : "";
+  return `<div class="toprow"><h2>Account</h2><button class="link-btn" id="accountBackBtn">Back</button></div>
+    <div class="card">
+      <div class="social-name">@${esc(user.username||"")}</div>
+      <div class="qlist-topic">${esc(user.email||"")}${since ? ` · joined ${since}` : ""}</div>
+      <div class="sub" style="margin:8px 0 0;">Only you can see your email address. Other people only ever see your username.</div>
+    </div>
+    <div class="card"><h2 style="font-size:1rem;">Your data</h2>
+      <div class="sub" style="margin:0 0 10px;">Read how we use your information in the <a href="privacy.html" target="_blank" rel="noopener">privacy notice</a>, and the <a href="terms.html" target="_blank" rel="noopener">rules</a> for using the site. You can download a copy of everything we store about you at any time.</div>
+      <button class="btn-ghost" id="downloadDataBtn">Download my data</button>
+    </div>
+    <div class="card"><h2 style="font-size:1rem;">Blocked people</h2>
+      ${!account.loaded ? `<div class="sub" style="margin:0;">Loading…</div>` : account.blocks.length ? account.blocks.map(b=>`<div class="qlist-row"><div class="social-name">@${esc(b.username||"unknown")}</div><div class="qlist-actions"><button class="icon-btn" data-unblock="${esc(b.user_id)}">Unblock</button></div></div>`).join("") : `<div class="sub" style="margin:0;">You haven't blocked anyone.</div>`}
+    </div>
+    ${HELP_BOX}
+    <div class="card danger-card"><h2 style="font-size:1rem;">Delete account</h2>
+      <div class="sub" style="margin:0 0 10px;">This permanently deletes your account, progress, coins, themes, friends, and the decks you've shared. Groups you own pass to another member. It can't be undone.</div>
+      <button class="btn-ghost danger-btn" id="deleteAccountBtn">Delete my account</button>
+    </div>
+    <button class="skip-link" id="accountLogoutBtn">Log out</button>`;
+}
+async function downloadMyData(btn){
+  btn.disabled = true; btn.textContent = "Preparing…";
+  try{
+    const server = await rpc("export_my_data");
+    const bundle = { about:"Everything " + SITE_NAME + " stores about your account.", from_our_server:server,
+      on_this_device:{ decks:loadDecks(), questions_you_wrote:loadCustom(), theme:loadShop().active } };
+    const blob = new Blob([JSON.stringify(bundle, null, 2)], {type:"application/json"});
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = `my-data-${(user.username||"account")}-${new Date().toISOString().slice(0,10)}.json`;
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(()=>URL.revokeObjectURL(a.href), 5000);
+  }catch(e){ socialToast(socialErr(e).replace("social-and-coins-setup.sql", "safety-and-privacy-setup.sql")); }
+  btn.disabled = false; btn.textContent = "Download my data";
+}
+async function deleteMyAccount(){
+  const name = user.username || "";
+  const typed = prompt(`This permanently deletes your account and everything in it.\n\nTo confirm, type your username: ${name}`);
+  if(typed===null) return;
+  if(typed.trim().toLowerCase()!==name.toLowerCase()){ alert("That didn't match your username, so nothing was deleted."); return; }
+  try{ await rpc("delete_my_account"); }
+  catch(e){ alert("Your account couldn't be deleted: " + socialErr(e)); return; }
+  try{ await sb.auth.signOut(); }catch(e){}
+  clearLocalData(); localStorage.removeItem(GUEST_KEY);
+  alert("Your account has been deleted.");
+  location.reload();
+}
+
+function attachSafetyHandlers(){
+  if(state.screen==="report"){
+    const b = document.getElementById("reportBackBtn"); if(b) b.onclick = leaveReport;
+    const s = document.getElementById("safetySendBtn"); if(s) s.onclick = ()=>sendReport(s);
+  }
+  if(state.screen==="account"){
+    const lb = document.getElementById("shopLoginBtn"); if(lb) lb.onclick = ()=>showAuth("login");
+    const back = document.getElementById("accountBackBtn");
+    if(back) back.onclick = ()=>{ const to = ["home","select","inbox","decks","friends","shop"].includes(state.backTo) ? state.backTo : "home"; state.screen = to; render(); };
+    const dl = document.getElementById("downloadDataBtn"); if(dl) dl.onclick = ()=>downloadMyData(dl);
+    const del = document.getElementById("deleteAccountBtn"); if(del) del.onclick = deleteMyAccount;
+    const lo = document.getElementById("accountLogoutBtn"); if(lo) lo.onclick = logOut;
+    document.querySelectorAll("[data-unblock]").forEach(b=>{ b.onclick = async ()=>{
+      try{ await rpc("unblock_user", { p_user:b.dataset.unblock }); account.blocks = account.blocks.filter(x=>x.user_id!==b.dataset.unblock); render(); }
+      catch(e){ socialToast(socialErr(e)); }
+    }; });
+  }
+}
+// Report / block / account buttons can appear anywhere (including chat lists that update in place),
+// so they're handled with one listener.
+document.addEventListener("click", (e)=>{
+  const rep = e.target.closest("[data-report-kind]");
+  if(rep){ e.preventDefault(); openReport(rep.dataset.reportKind, rep.dataset.reportTarget, rep.dataset.reportLabel); return; }
+  const blk = e.target.closest("[data-block-user]");
+  if(blk){ e.preventDefault(); blockUser(blk.dataset.blockUser, blk.dataset.blockName||""); return; }
+  const shr = e.target.closest("[data-deck-share]");
+  if(shr){ e.preventDefault(); openShareDeck(shr.dataset.deckShare); return; }
+  const acc = e.target.closest("[data-go-account]");
+  if(acc){ e.preventDefault(); goAccount(); }
+});
+
+// ======================= SHARING DECKS =======================
+// The only social features are sharing decks (with friends or groups) and group leaderboards.
+// There is no chat: nothing typed by one user is sent to another except deck and question content.
+const shareUI = { deckId:null, sent:{} };
+function openShareDeck(deckId){
+  const decks = loadDecks();
+  shareUI.deckId = deckId || (decks[0] && decks[0].id) || null; shareUI.sent = {};
+  state.backTo = state.screen; state.screen = "shareDeck"; render(); window.scrollTo(0,0);
+  loadSocial();
+}
+function deckPayload(d){
+  const idx = customQuestionIndex();
+  return { name:d.name, questionIds:d.questionIds.slice(0,500), custom:d.questionIds.filter(id=>idx[id]).map(id=>idx[id]) };
+}
+function renderShareDeck(){
+  const head = `<div class="toprow"><h2>Share a deck</h2><button class="link-btn" id="shareBackBtn">Back</button></div>`;
+  if(!user) return `${head}<div class="card"><div class="sub" style="margin:0 0 12px;">Log in to share decks with friends.</div><button class="btn-primary" id="shopLoginBtn">Log in or create account</button></div>`;
+  const decks = loadDecks().filter(d=>d.questionIds.length>0);
+  if(!decks.length) return `${head}<div class="card"><div class="sub" style="margin:0 0 12px;">You don't have any decks with questions in yet. Make one on the Decks page, then share it here.</div><button class="btn-ghost" id="goDecksBtn">Go to Decks</button></div>`;
+  if(!decks.some(d=>d.id===shareUI.deckId)) shareUI.deckId = decks[0].id;
+  const friends = social.friends.filter(f=>f.status==="friend");
+  const row = (key, name, sub, attr)=>`<div class="qlist-row"><div><div class="social-name">${name}</div>${sub ? `<div class="qlist-topic">${sub}</div>` : ""}</div>
+    <div class="qlist-actions">${shareUI.sent[key] ? `<span class="pill">Sent ✓</span>` : `<button class="icon-btn accent" ${attr}>Send</button>`}</div></div>`;
+  return `${head}
+    <div class="card">
+      <label class="field" for="shareDeckPick" style="margin-top:0;">Deck</label>
+      <select id="shareDeckPick">${decks.map(d=>`<option value="${esc(d.id)}" ${d.id===shareUI.deckId?"selected":""}>${esc(d.name)} (${d.questionIds.length} question${d.questionIds.length===1?"":"s"})</option>`).join("")}</select>
+      <div class="sub" style="margin:4px 0 0;">They'll find it in their Shared tab and can save a copy. Any questions you wrote yourself go with it.</div>
+    </div>
+    <div class="card"><h2 style="font-size:1rem;">Send to a friend</h2>
+      ${!social.loaded ? `<div class="sub" style="margin:0;">Loading…</div>` : friends.length ? friends.map(f=>row("f"+f.user_id, "@"+esc(f.username||""), "", `data-send-friend="${esc(f.user_id)}"`)).join("") : `<div class="sub" style="margin:0 0 10px;">No friends yet.</div><button class="btn-ghost" id="goFriendsBtn">Find friends</button>`}
+    </div>
+    <div class="card"><h2 style="font-size:1rem;">Share with a group</h2>
+      ${!social.loaded ? `<div class="sub" style="margin:0;">Loading…</div>` : social.groups.length ? social.groups.map(g=>row("g"+g.id, esc(g.name), `${g.members} member${g.members===1?"":"s"}`, `data-send-group="${esc(g.id)}"`)).join("") : `<div class="sub" style="margin:0;">You're not in any groups yet.</div>`}
+    </div>`;
+}
+async function sendDeck(kind, id, btn){
+  const d = loadDecks().find(x=>x.id===shareUI.deckId); if(!d) return;
+  btn.disabled = true;
+  try{
+    if(kind==="friend") await rpc("send_direct", { p_to:id, p_body:"", p_kind:"deck", p_title:d.name, p_payload:deckPayload(d) });
+    else await rpc("share_to_group", { p_group:id, p_kind:"deck", p_title:d.name, p_payload:deckPayload(d) });
+    shareUI.sent[(kind==="friend"?"f":"g")+id] = true; render();
+  }catch(e){
+    btn.disabled = false;
+    socialToast(/pg_column_size|check constraint/i.test(e.message||"") ? "That deck is too big to share (its pictures take up too much space)." : socialErr(e));
+  }
+}
+function attachShareDeckHandlers(){
+  if(state.screen!=="shareDeck") return;
+  const back = document.getElementById("shareBackBtn");
+  if(back) back.onclick = ()=>{ state.screen = ["decks","friends","group","home","inbox"].includes(state.backTo) ? state.backTo : "decks"; render(); if(state.screen==="group") loadGroupTab(); };
+  const lb = document.getElementById("shopLoginBtn"); if(lb) lb.onclick = ()=>showAuth("login");
+  const gd = document.getElementById("goDecksBtn"); if(gd) gd.onclick = ()=>goTab("decks");
+  const gf = document.getElementById("goFriendsBtn"); if(gf) gf.onclick = ()=>goTab("friends");
+  const pick = document.getElementById("shareDeckPick"); if(pick) pick.onchange = ()=>{ shareUI.deckId = pick.value; shareUI.sent = {}; render(); };
+  document.querySelectorAll("[data-send-friend]").forEach(b=>{ b.onclick = ()=>sendDeck("friend", b.dataset.sendFriend, b); });
+  document.querySelectorAll("[data-send-group]").forEach(b=>{ b.onclick = ()=>sendDeck("group", b.dataset.sendGroup, b); });
+}
+
+// ======================= QUESTION TABLES =======================
+// A question can include a table. Write it as text, one row per line, cells separated by "|".
+// A cell in [square brackets] is a blank the student fills in; on GCSE pages each one gets its own
+// answer box. Put alternative answers inside the brackets separated by "//", e.g. [3/4 // 0.75].
+// [] on its own is a blank with nothing to fill in.
+//   "table": "x | -2 | -1 | 0 | 1 | 2\ny | 6 | [3] | 2 | [3] | 6"
+// The first row is shown as headings. The first column is shown as headings too when it's words
+// (like x / y). You can also give an object:
+//   "table": { "rows": [["Score","Frequency"],["1","[4]"]], "headerRow": true, "headerColumn": false }
+function parseCell(v){
+  if(v && typeof v==="object"){
+    const answers = acceptedList(v);
+    return { blank:true, answers, exact:v.exact };
+  }
+  const s = String(v==null ? "" : v).trim();
+  const m = s.match(/^\[(.*)\]$/s);
+  if(m) return { blank:true, answers:m[1].split("//").map(x=>x.trim()).filter(Boolean) };
+  return { text:s };
+}
+function parseTable(t){
+  if(!t) return null;
+  let rows, headerRow = true, headerCol = null;
+  if(typeof t==="string"){
+    rows = t.split(/\r?\n/).filter(l=>l.trim()).map(l=>{
+      let line = l.trim();
+      if(line.startsWith("|") && line.endsWith("|") && line.length>1) line = line.slice(1, -1);   // | a | b | style
+      return line.split("|").map(parseCell);
+    });
+  } else if(Array.isArray(t.rows)){
+    rows = t.rows.map(r=>(Array.isArray(r) ? r : []).map(parseCell));
+    if(t.headerRow===false) headerRow = false;
+    if(typeof t.headerColumn==="boolean") headerCol = t.headerColumn;
+  } else return null;
+  rows = rows.filter(r=>r.length);
+  if(!rows.length) return null;
+  if(headerCol===null){
+    const body = rows.slice(headerRow ? 1 : 0);
+    headerCol = body.length>0 && body.every(r=>r[0] && !r[0].blank && r[0].text!=="" && toNumber(r[0].text)===null && !/^\$/.test(r[0].text));
+  }
+  return { rows, headerRow, headerCol };
+}
+function tableToText(t){
+  if(!t) return "";
+  if(typeof t==="string") return t;
+  const p = parseTable(t); if(!p) return "";
+  return p.rows.map(r=>r.map(c=>c.blank ? `[${c.answers.join(" // ")}]` : c.text).join(" | ")).join("\n");
+}
+// The answer parts that come from blank table cells (each has .r and .c).
+function tableParts(q){
+  const t = parseTable(q && q.table); if(!t) return [];
+  const out = [];
+  t.rows.forEach((row, r)=>row.forEach((cell, c)=>{
+    if(!cell.blank || !cell.answers.length) return;
+    const colHead = t.headerRow && r>0 && t.rows[0][c] && !t.rows[0][c].blank ? t.rows[0][c].text : "";
+    const rowHead = t.headerCol && c>0 && row[0] && !row[0].blank ? row[0].text : "";
+    const label = [rowHead, colHead].filter(Boolean).join(", ") || `row ${r+1}, column ${c+1}`;
+    out.push({ label, answers:cell.answers, exact:!!(cell.exact ?? q.exact), tolerance:q.tolerance, fraction:false, kind:"", table:true, r, c });
+  }));
+  return out;
+}
+// mode: "display" (blanks empty), "answers" (blanks show the answer), "input" (answer boxes).
+function tableHtml(q, mode){
+  const t = parseTable(q && q.table); if(!t) return "";
+  const spec = mode==="input" ? (answerSpec(q)||[]) : [];
+  const idxAt = {}; spec.forEach((p,i)=>{ if(p.table) idxAt[p.r+","+p.c] = i; });
+  const a = state.ans || {ok:{}, drafts:{}, bad:{}};
+  const cellHtml = (cell, r, c)=>{
+    const isHead = (t.headerRow && r===0) || (t.headerCol && c===0);
+    const tag = isHead ? "th" : "td";
+    const scope = isHead ? (r===0 && t.headerRow ? ` scope="col"` : ` scope="row"`) : "";
+    if(!cell.blank) return `<${tag}${scope}>${esc(cell.text)}</${tag}>`;
+    if(mode==="answers") return `<${tag} class="cell-answer">${esc(cell.answers[0]||"")}</${tag}>`;
+    if(mode!=="input" || idxAt[r+","+c]===undefined) return `<${tag} class="cell-blank"></${tag}>`;
+    const i = idxAt[r+","+c], p = spec[i];
+    if(a.result){
+      if(a.ok[i]) return `<td class="cell-ok">${esc(a.drafts[i]||p.answers[0])} <span aria-label="correct">✓</span></td>`;
+      return `<td class="cell-revealed" title="Correct answer">${esc(p.answers[0])}</td>`;
+    }
+    if(a.ok[i]) return `<td class="cell-ok">${esc(a.drafts[i]||"")} <span aria-label="correct">✓</span></td>`;
+    return `<td class="cell-input"><input type="text" class="ans-input cell-in${a.bad && a.bad[i] ? " bad" : ""}" data-ans="${i}" value="${esc(typeof a.drafts[i]==="string" ? a.drafts[i] : "")}" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Answer for ${esc(p.label)}"></td>`;
+  };
+  return `<div class="qtable-wrap"><table class="qtable">${t.rows.map((row, r)=>`<tr>${row.map((cell, c)=>cellHtml(cell, r, c)).join("")}</tr>`).join("")}</table></div>`;
+}
+
+// ======================= GCSE: TYPED ANSWERS =======================
+// On GCSE pages, a question with an answer shows an answer box instead of "Show solution".
+// The solution appears once the answer is right, or after MAX_TRIES wrong tries.
+// Each wrong try costs 1 point (like a hint). Questions without an answer use the old
+// "Show solution" + self-marking.
+// Question fields (in the subject's JSON file):
+//   "answer": "12"                          one accepted answer, or
+//   "answers": ["3/4", "0.75"]              several accepted answers
+//   "parts": [ {"label":"a", "answers":["12"]}, {"label":"b", "answer":"3/4", "exact":true} ]
+//   "exact": true      must match the text (no "6/8 = 3/4" equivalence), e.g. "simplest form"
+//   "tolerance": 0.01  how close a number has to be (default: essentially exact)
+// Answers that are fractions ("3/4", "-2/5", "1 3/4") get separate numerator/denominator boxes
+// (plus a whole-number box for mixed numbers). Add "fraction": false to use a normal box instead.
+// Powers can be written as x^2 or x² and standard form as 3.2x10^4 or 3.2×10⁴.
+const MAX_TRIES = 5;
+const SUP = {"0":"⁰","1":"¹","2":"²","3":"³","4":"⁴","5":"⁵","6":"⁶","7":"⁷","8":"⁸","9":"⁹","-":"⁻","−":"⁻","+":"⁺","(":"⁽",")":"⁾","=":"⁼",
+  "n":"ⁿ","x":"ˣ","y":"ʸ","a":"ᵃ","b":"ᵇ","c":"ᶜ","d":"ᵈ","e":"ᵉ","k":"ᵏ","m":"ᵐ","p":"ᵖ","t":"ᵗ"};
+const SUP_BACK = Object.fromEntries(Object.entries(SUP).filter(([k])=>k!=="−").map(([k,v])=>[v,k]));
+const SUP_RUN = new RegExp("[" + Object.values(SUP).join("") + "]+", "g");
+// Turns common LaTeX into plain text so answers like "$\\pounds 95$", "$270\\text{ mm}$" or "$3\\tfrac{5}{12}$" can be checked.
+function texClean(s){
+  return String(s||"")
+    .replace(/\$/g,"")
+    .replace(/\\(?:text|mathrm|textbf|mathbf|operatorname)\s*\{([^{}]*)\}/g,"$1")
+    .replace(/\\pounds\s*/g,"£").replace(/\\degree|\^\{?\\circ\}?|\\circ/g,"°")
+    .replace(/\\[dt]?frac/g,"\\frac")
+    .replace(/(\d)\s*\\frac\{(\d+)\}\{(\d+)\}/g,"$1 $2/$3")          // 3\frac{5}{12} -> 3 5/12
+    .replace(/\\(?:quad|qquad|,|;|:|!| )/g," ")
+    .replace(/\\%/g,"%")
+    .replace(/\\left|\\right/g,"");
+}
+function supToCaret(s){ return String(s||"").replace(SUP_RUN, run=>"^" + [...run].map(c=>SUP_BACK[c]||"").join("")); }
+
+function fractionKind(p){
+  if(p.fraction===false) return "";
+  const first = texClean(String(p.answers[0]||"")).trim().replace(/[−–—]/g,"-");
+  const tex = first.match(/^(-?)\\frac\{(\d+)\}\{(\d+)\}$/);
+  if(tex || /^-?\d+\s*\/\s*\d+$/.test(first) || p.fraction===true) return "fraction";
+  if(/^-?\d+\s+\d+\s*\/\s*\d+$/.test(first)) return "mixed";
+  return "";
+}
+function answerSpec(q){
+  if(!q) return null;
+  let parts = [];
+  if(Array.isArray(q.parts) && q.parts.length) parts = q.parts.map((p,i)=>({ label:p.label || String.fromCharCode(97+i), answers:acceptedList(p), exact:!!(p.exact ?? q.exact), tolerance:p.tolerance ?? q.tolerance, fraction:p.fraction ?? q.fraction }));
+  else {
+    const list = acceptedList(q);
+    if(list.length) parts = [{ label:"", answers:list, exact:!!q.exact, tolerance:q.tolerance, fraction:q.fraction }];
+  }
+  parts.forEach(p=>{ p.kind = fractionKind(p); });
+  const cells = tableParts(q);
+  if(cells.length && parts.length===1 && !parts[0].label) parts[0].label = "answer";
+  const all = [...cells, ...parts].filter(p=>p.answers.length);
+  return all.length ? all : null;
+}
+function acceptedList(o){
+  const out = [];
+  if(Array.isArray(o.answers)) out.push(...o.answers);
+  if(o.answer!==undefined && o.answer!==null && o.answer!=="") out.push(o.answer);
+  return out.map(String).filter(s=>s.trim()!=="");
+}
+function usesTypedAnswer(q){ return !!(q && isGcse(subjectOf(q)) && answerSpec(q)); }
+
+// ---- answer checking ----
+function normAns(raw){
+  let s = supToCaret(texClean(raw)).toLowerCase().trim();
+  s = s.replace(/\$/g,"").replace(/\\left|\\right|\\,|\\;|\\!|\\ /g,"");
+  s = s.replace(/\\sqrt\{([^{}]*)\}/g,"√($1)").replace(/\\frac\{([^{}]*)\}\{([^{}]*)\}/g,"($1)/($2)");
+  s = s.replace(/\\times|×/g,"*").replace(/\\div|÷/g,"/").replace(/\\pi/g,"π").replace(/\\%/g,"%").replace(/\\cdot/g,"*").replace(/[{}]/g,"").replace(/\\/g,"");
+  s = s.replace(/[−–—]/g,"-");
+  s = s.replace(/\s+(and|or)\s+/g,",").replace(/;/g,",");
+  s = s.replace(/square\s*root\s*(of)?|sqrt|root/g,"√").replace(/\bpi\b/g,"π");
+  s = s.replace(/\s+/g,"");
+  s = s.replace(/√\(([^()]*)\)/g,"√$1");
+  s = s.replace(/\^\((-?[\w.]+)\)/g,"^$1");                  // x^(2) -> x^2
+  s = s.replace(/^\((-?\d+)\)\/\((\d+)\)$/,"$1/$2");          // (3)/(4) -> 3/4
+  s = s.replace(/\((-?[a-z0-9.]+)\)/g,"$1");                  // (4) -> 4, (y) -> y
+  s = s.replace(/(\d),(?=\d{3}(?!\d))/g,"$1");                 // 1,000 -> 1000
+  s = s.replace(/\.$/,"");
+  return s;
+}
+function stripVar(s){ return s.replace(/^[a-z]=(?=.)/,""); }  // "x=3" -> "3"
+function toNumber(raw){
+  let t = supToCaret(texClean(raw)).trim().toLowerCase().replace(/[−–—]/g,"-").replace(/^[a-z]\s*=\s*/,"").replace(/^£\s*/,"").replace(/,(?=\d{3}(?!\d))/g,"");
+  t = t.replace(/\$/g,"").replace(/\\times|×|\\cdot/g,"*").replace(/[{}]/g,"").replace(/\\frac(\d+)(\d+)$/,"$1/$2");
+  let m = t.match(/^(-?\d+)\s+(\d+)\s*\/\s*(\d+)$/);                       // mixed number 1 3/4
+  if(m){ const w = +m[1], f = +m[2]/+m[3]; return (w<0 || m[1]==="-0") ? w - f : w + f; }
+  t = t.replace(/\s+/g,"");
+  m = t.match(/^(-?\d*\.?\d+)(?:\*|x)10\^(-?\d+)$/);                       // standard form 3.2x10^4
+  if(m) return +m[1] * Math.pow(10, +m[2]);
+  m = t.match(/^(-?\d*\.?\d+)\^(-?\d*\.?\d+)$/);                           // power 2^5
+  if(m) return Math.pow(+m[1], +m[2]);
+  t = t.replace(/(%|°|pence|p|[a-z]+(\^-?\d+)?)$/,"");                     // trailing units (cm, cm^2, %, °)
+  m = t.match(/^(-?\d*\.?\d+)\/(-?\d*\.?\d+)$/);                          // fraction
+  if(m){ const d = +m[2]; return d===0 ? null : +m[1]/d; }
+  m = t.match(/^-?\d*\.?\d+(e-?\d+)?$/);
+  return m ? +t : null;
+}
+function sameValue(input, expected, part){
+  const a = stripVar(normAns(input)), b = stripVar(normAns(expected));
+  if(a===b) return true;
+  if(part.exact) return false;
+  const x = toNumber(input), y = toNumber(expected);
+  if(x===null || y===null) return false;
+  const tol = part.tolerance!==undefined ? Math.abs(+part.tolerance) : 1e-9 * Math.max(1, Math.abs(y));
+  return Math.abs(x - y) <= tol + 1e-12;
+}
+function listItems(s){ return normAns(s).split(",").filter(Boolean); }
+function checkPart(input, part){
+  if(!String(input||"").trim()) return false;
+  return part.answers.some(acc=>{
+    const n = normAns(acc);
+    if(n.includes(",") && !/[()\[\]]/.test(n)){                               // a list like "2, -3": any order
+      const want = listItems(acc), got = listItems(input);
+      if(want.length!==got.length) return false;
+      const used = new Set();
+      return want.every(w=>{ const i = got.findIndex((g,j)=>!used.has(j) && sameValue(g, w, part)); if(i<0) return false; used.add(i); return true; });
+    }
+    return sameValue(input, acc, part);
+  });
+}
+// What the student typed for part i, as one string ("3/4", "1 3/4" or free text).
+function partInput(i, p){
+  const d = state.ans.drafts[i];
+  if(!p.kind) return typeof d==="string" ? d : "";
+  const o = (d && typeof d==="object") ? d : {};
+  const n = String(o.n||"").trim(), den = String(o.d||"").trim(), w = String(o.w||"").trim();
+  if(!n && !den && !w) return "";
+  if(p.kind==="mixed") return `${w||"0"} ${n}/${den}`;
+  return `${n}/${den}`;
+}
+function partFilled(i, p){
+  if(!p.kind) return !!partInput(i, p).trim();
+  const o = state.ans.drafts[i] || {};
+  return !!(String(o.n||"").trim() && String(o.d||"").trim() && (p.kind!=="mixed" || String(o.w||"").trim()));
+}
+
+// ---- state for the current card ----
+function resetAnswerState(){ state.ans = { tries:0, drafts:{}, ok:{}, sup:{}, bad:{}, result:null, feedback:"", attempt:null }; }
+function prettyAnswer(s){
+  const str = String(s);
+  const m = str.trim().match(/^(-?\d+\s+)?(-?\d+)\s*\/\s*(\d+)$/);
+  if(m) return `${m[1] ? esc(m[1].trim()) + " " : ""}<span class="frac-show"><span>${esc(m[2])}</span><span>${esc(m[3])}</span></span>`;
+  return esc(str.replace(/\^\(?(-?[0-9a-z+]+)\)?/gi, (x, e)=>[...e].map(c=>SUP[c]||c).join("")));
+}
+function answerInputHtml(p, i, a){
+  const ok = a.ok[i], dis = ok ? "disabled" : "";
+  const partName = p.label ? `part ${esc(p.label)}` : "your answer";
+  if(p.kind){
+    const o = a.drafts[i] || {};
+    const box = (f, ph, lab)=>`<input type="text" inputmode="numeric" class="ans-input frac-in${ok?" ok":""}" data-ans="${i}" data-field="${f}" value="${esc(o[f]||"")}" ${dis} autocomplete="off" placeholder="${ph}" aria-label="${lab} for ${partName}">`;
+    return `<div class="frac-wrap">
+      ${p.kind==="mixed" ? box("w","","Whole number") : ""}
+      <span class="frac-stack">${box("n","","Numerator")}<span class="frac-bar" aria-hidden="true"></span>${box("d","","Denominator")}</span>
+    </div>`;
+  }
+  const supOn = !!a.sup[i];
+  return `<input type="text" id="ans${i}" class="ans-input${ok?" ok":""}" data-ans="${i}" value="${esc(typeof a.drafts[i]==="string" ? a.drafts[i] : "")}" ${dis} autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="${p.label ? "Answer to part "+esc(p.label) : "Your answer"}" aria-label="${p.label ? "Answer to part "+esc(p.label) : "Your answer"}">
+    ${ok ? "" : `<span class="ans-tools">
+      <button type="button" class="ans-tool" data-insert-sqrt="${i}" aria-label="Insert square root">√</button>
+      <button type="button" class="ans-tool${supOn?" on":""}" data-toggle-sup="${i}" aria-pressed="${supOn}" aria-label="Type a power (index)">xⁿ</button>
+    </span>`}`;
+}
+function answerBoxHtml(q){
+  const spec = answerSpec(q); const a = state.ans || (resetAnswerState(), state.ans);
+  const left = MAX_TRIES - a.tries;
+  const dots = Array.from({length:MAX_TRIES}, (_,i)=>`<span class="try-dot${i<a.tries?" used":""}"></span>`).join("");
+  if(a.result){
+    const pts = ratingDelta(a.result==="correct" ? "correct" : "wrong", state.hintIndex + a.tries, q.marks||1);
+    const head = a.result==="correct"
+      ? `<div class="ans-result ok">✓ Correct${a.tries ? ` after ${a.tries} wrong ${a.tries===1?"try":"tries"}` : " first time"}!</div>`
+      : `<div class="ans-result bad">Out of tries. Here's the answer and full solution.</div>`;
+    const answers = spec.filter(p=>!p.table).map(p=>`${p.label ? `(${esc(p.label)}) ` : ""}${prettyAnswer(p.answers[0])}`).join(" · ");
+    return `<div class="answer-box done">${head}
+      ${spec.some(p=>p.table) ? `<div class="qlist-topic">The completed table is shown above${spec.some((p,i)=>p.table && !a.ok[i]) ? " (answers you missed are highlighted)" : ""}.</div>` : ""}
+      ${answers ? `<div class="qlist-topic">Answer: <strong>${answers}</strong></div>` : ""}
+      <div class="qlist-topic">Score: <strong>${fmtPoints(pts)} / ${q.marks||1}</strong>${state.hintIndex ? ` · ${state.hintIndex} hint${state.hintIndex===1?"":"s"}` : ""}${a.tries ? ` · ${a.tries} wrong ${a.tries===1?"try":"tries"}` : ""}</div>
+    </div>`;
+  }
+  const hasTable = spec.some(p=>p.table);
+  const rows = spec.map((p,i)=>p.table ? "" : `<div class="ans-row${p.kind ? " frac-row" : ""}">
+      ${p.label ? `<span class="ans-label">(${esc(p.label)})</span>` : ""}
+      ${answerInputHtml(p, i, a)}
+      ${a.ok[i] ? `<span class="ans-tick" aria-label="correct">✓</span>` : ""}
+    </div>`).join("");
+  const anyText = spec.some(p=>!p.kind && !p.table), anyFrac = spec.some(p=>p.kind);
+  const help = [
+    anyText ? `Type just the final answer, e.g. <em>12</em>, <em>2.5</em> or <em>5√2</em>. Use <strong>√</strong> for a square root and <strong>x<sup>n</sup></strong> to type a power: tap it, type the power, then tap it again.` : "",
+    anyFrac ? `For a fraction, put the top number in the upper box and the bottom number in the lower box.` : "",
+    hasTable ? `Fill in every empty box in the table.` : "",
+    `Wrong tries cost 1 point each. The solution unlocks when you're right, or after ${MAX_TRIES} tries.`
+  ].filter(Boolean).join(" ");
+  return `<div class="answer-box">
+    <div class="ans-head"><span>${hasTable ? (spec.some(p=>!p.table) ? "Complete the table and your answers" : "Complete the table above") : spec.length>1 ? "Your answers" : "Your answer"}</span><span class="try-dots" aria-label="${left} tries left">${dots}</span></div>
+    ${rows}
+    ${a.feedback ? `<div class="ans-feedback" role="status">${esc(a.feedback)}</div>` : ""}
+    <button class="btn-primary" id="checkAnsBtn">Check answer</button>
+    <div class="ans-help">${help}</div>
+  </div>`;
+}
+function readDrafts(){
+  const a = state.ans;
+  document.querySelectorAll("[data-ans]").forEach(el=>{
+    const i = el.dataset.ans;
+    if(el.dataset.field){ const o = (a.drafts[i] && typeof a.drafts[i]==="object") ? a.drafts[i] : {}; o[el.dataset.field] = el.value; a.drafts[i] = o; }
+    else a.drafts[i] = el.value;
+  });
+}
+function checkTypedAnswer(){
+  const q = state.current; const spec = answerSpec(q); const a = state.ans;
+  if(!q || !spec || a.result) return;
+  readDrafts();
+  const pending = spec.map((p,i)=>i).filter(i=>!a.ok[i]);
+  const empty = pending.filter(i=>!partFilled(i, spec[i]));
+  if(empty.length){
+    a.feedback = spec[empty[0]].table ? "Fill in every box in the table first." : spec[empty[0]].kind ? "Fill in both the top and bottom of the fraction first." : spec.length>1 ? "Fill in every part first." : "Type an answer first.";
+    render(); focusAnswer(); return;
+  }
+  let allOk = true;
+  a.bad = {};
+  pending.forEach(i=>{ if(checkPart(partInput(i, spec[i]), spec[i])) a.ok[i] = true; else { allOk = false; a.bad[i] = true; } });
+  if(allOk){ finishTyped("correct"); return; }
+  a.tries++;
+  if(a.tries>=MAX_TRIES){ finishTyped("wrong"); return; }
+  const left = MAX_TRIES - a.tries;
+  const someRight = spec.length>1 && Object.keys(a.ok).length;
+  const wrongCells = spec.filter((p,i)=>p.table && a.bad[i]).length;
+  a.feedback = `✗ ${wrongCells ? `${wrongCells} box${wrongCells===1?" isn't":"es aren't"} right yet (outlined in red)` : someRight ? "Not all parts are right yet" : "Not quite"}. −1 point. ${left} ${left===1?"try":"tries"} left.`;
+  render(); focusAnswer();
+}
+function focusAnswer(){ const el = document.querySelector(".ans-input.bad") || document.querySelector(".ans-input:not([disabled])"); if(el){ el.focus(); if(el.select) el.select(); } }
+function finishTyped(result){
+  const a = state.ans;
+  a.result = result; a.feedback = "";
+  state.solutionShown = true;
+  const penalty = state.hintIndex + a.tries;
+  a.attempt = recordRating(result, penalty, { auto:true, wrongTries:a.tries, hintsUsed:state.hintIndex });
+  render();
+  const nb = document.getElementById("nextQBtn"); if(nb) nb.focus();
+}
+// Inserts text at the cursor of an answer box.
+function insertAtCursor(el, text){
+  const start = el.selectionStart ?? el.value.length, end = el.selectionEnd ?? el.value.length;
+  el.value = el.value.slice(0, start) + text + el.value.slice(end);
+  const pos = start + text.length;
+  el.focus(); try{ el.setSelectionRange(pos, pos); }catch(e){}
+  state.ans.drafts[el.dataset.ans] = el.value;
+}
+function attachAnswerHandlers(){
+  if(state.screen!=="practice" || !state.current || !usesTypedAnswer(state.current)) return;
+  const btn = document.getElementById("checkAnsBtn"); if(btn) btn.onclick = checkTypedAnswer;
+  document.querySelectorAll("[data-ans]").forEach(el=>{
+    el.oninput = ()=>{ readDrafts(); el.classList.remove("bad"); };
+    el.onkeydown = (e)=>{ if(e.key==="Enter"){ e.preventDefault(); checkTypedAnswer(); } };
+    if(!el.dataset.field){
+      // Power (index) mode: characters typed while it's on come out raised, e.g. 2 -> ².
+      el.addEventListener("beforeinput", (e)=>{
+        const i = el.dataset.ans;
+        if(!state.ans.sup[i] || e.inputType!=="insertText" || !e.data) return;
+        const mapped = [...e.data].map(c=>SUP[c.toLowerCase()] || null);
+        if(mapped.some(c=>c===null)) return;          // no raised version (e.g. a space): type it normally
+        e.preventDefault();
+        insertAtCursor(el, mapped.join(""));
+      });
+    }
+  });
+  document.querySelectorAll("[data-insert-sqrt]").forEach(b=>{
+    b.onmousedown = (e)=>e.preventDefault();               // keep the cursor in the box
+    b.onclick = ()=>{ const el = document.getElementById("ans"+b.dataset.insertSqrt); if(el) insertAtCursor(el, "√"); };
+  });
+  document.querySelectorAll("[data-toggle-sup]").forEach(b=>{
+    b.onmousedown = (e)=>e.preventDefault();
+    b.onclick = ()=>{
+      const i = b.dataset.toggleSup; const el = document.getElementById("ans"+i);
+      state.ans.sup[i] = !state.ans.sup[i];
+      b.classList.toggle("on", state.ans.sup[i]); b.setAttribute("aria-pressed", String(state.ans.sup[i]));
+      if(el) el.focus();
+    };
+  });
+  const nb = document.getElementById("nextQBtn");
+  if(nb) nb.onclick = ()=>{ nextQuestion(); render(); window.scrollTo(0,0); };
+}
+
+// ======================= GENERATE A PAPER =======================
+// Builds a printable exam-style paper from the chosen topics, up to a target number of marks,
+// plus a separate mark scheme with fully worked solutions. "Save as PDF" uses the browser's
+// print dialog (choose "Save as PDF" / "Save to Files"), so maths and diagrams stay sharp.
+// Mark-scheme marks come from tags at the end of solution lines, e.g. "... = £95 [A1]" or "[M1 M1 A1]".
+const MARK_TAG = /\s*\[((?:[MABPCE]\d\s*)+)\]\s*$/;
+const MARK_INFO = { M:"Method mark", A:"Accuracy mark (depends on the method mark before it)", B:"Independent mark", P:"Process mark", C:"Communication mark", E:"Explanation mark" };
+const paper = { topics:null, marks:40, doc:null, view:"paper", error:"" };
+
+function solutionLines(text){
+  return String(text||"").split("\n").map(line=>{
+    const m = line.match(MARK_TAG);
+    return { text: m ? line.replace(MARK_TAG,"") : line, marks: m ? m[1].trim().split(/\s+/) : [] };
+  });
+}
+function markBadges(list){ return list.length ? `<span class="mk-wrap">${list.map(k=>`<span class="mk mk-${k[0]}" title="${esc(MARK_INFO[k[0]]||"Mark")}">${esc(k)}</span>`).join("")}</span>` : ""; }
+// Worked solution with mark badges on the lines where marks are earned.
+function solutionHtml(text){
+  return solutionLines(text).map(l=> l.text.trim()==="" && !l.marks.length ? `<div class="sol-gap"></div>`
+    : `<div class="sol-line"><span class="sol-text">${esc(l.text)}</span>${markBadges(l.marks)}</div>`).join("");
+}
+function hasMarkTags(q){ return solutionLines(q.solution).some(l=>l.marks.length); }
+function questionFamily(q){ return q.inspiredBy ? "i:" + q.inspiredBy : "d:" + String(q.id).replace(/[a-z]$/,""); }
+
+function paperTopics(){ return getAllTopics().filter(t=>t.questions.length>0); }
+function renderPaperSetup(){
+  const topics = paperTopics(), subj = subjectInfo();
+  if(paper.topics===null) paper.topics = state.selected.length ? state.selected.filter(n=>topics.some(t=>t.topic===n)) : topics.map(t=>t.topic);
+  const folders = {};
+  topics.forEach(t=>{ (folders[t.category] = folders[t.category] || []).push(t); });
+  const avail = paperPool().reduce((n,q)=>n + (q.marks||1), 0);
+  const chk = t=>{
+    const pool = t.questions.filter(q=>calcAllows(q) && !getQState(q.id).suspended);
+    return `<label class="chk paper-topic"><input type="checkbox" data-paper-topic="${esc(t.topic)}" ${paper.topics.includes(t.topic)?"checked":""}> <span>${esc(t.topic)} <span class="paper-count">${pool.length} q · ${pool.reduce((n,q)=>n+(q.marks||1),0)} marks</span></span></label>`;
+  };
+  return `<div class="toprow"><h2>Generate a paper</h2><button class="link-btn" id="paperBackBtn">Back</button></div>
+    <div class="sub">Pick the topics and how many marks you want. You'll get a numbered exam-style paper, plus a separate mark scheme with fully worked solutions, both ready to save as PDFs.</div>
+    ${!topics.length ? `<div class="card">There aren't any ${esc(subj.name)} questions yet.</div>` : `
+    <div class="card paper-controls">
+      <label class="field" for="paperMarks" style="margin-top:0;">Total marks</label>
+      <div class="paper-chips">${[20,40,60,80,100].map(n=>`<button type="button" class="icon-btn${paper.marks===n?" accent":""}" data-paper-marks="${n}">${n}</button>`).join("")}</div>
+      <input type="number" id="paperMarks" min="5" max="200" value="${paper.marks}">
+      ${isGcse() ? `<label class="field">Paper type</label>${calcToggleHtml()}` : ""}
+    </div>
+    <div class="card">
+      <div class="q-card-head" style="margin-bottom:6px;"><h2 style="font-size:1rem;margin:0;">Topics</h2>
+        <div><button class="link-btn" id="paperAllBtn">Select all</button><button class="link-btn" id="paperNoneBtn">Clear</button></div></div>
+      ${Object.entries(folders).map(([f, ts])=>`<div class="paper-folder"><div class="qlist-topic"><strong>${esc(f)}</strong></div>${ts.map(chk).join("")}</div>`).join("")}
+    </div>
+    <div class="sub">${paper.topics.length} topic${paper.topics.length===1?"":"s"} selected · ${avail} marks of questions available</div>
+    ${paper.error ? `<div class="auth-msg err">${esc(paper.error)}</div>` : ""}
+    <button class="btn-primary" id="paperGoBtn">Generate paper</button>`}`;
+}
+function paperPool(){
+  const chosen = new Set(paper.topics||[]);
+  const out = [];
+  paperTopics().filter(t=>chosen.has(t.topic)).forEach(t=>t.questions.forEach(q=>{
+    if(!calcAllows(q) || getQState(q.id).suspended) return;
+    out.push({...q, topic:t.topic});
+  }));
+  return out;
+}
+// Picks questions to reach the target marks, spreading across topics and never using two
+// versions of the same original question.
+function buildPaper(){
+  const target = Math.max(5, Math.min(200, parseInt(paper.marks)||40));
+  const pool = shuffleArr(paperPool());
+  if(!pool.length) return { error:"Choose at least one topic with questions." };
+  const byTopic = {};
+  pool.forEach(q=>{ (byTopic[q.topic] = byTopic[q.topic] || []).push(q); });
+  const topicOrder = shuffleArr(Object.keys(byTopic));
+  const chosen = [], usedFam = new Set(), usedId = new Set();
+  let total = 0, progress = true;
+  const fits = q=>!usedId.has(q.id) && !usedFam.has(questionFamily(q)) && total + (q.marks||1) <= target;
+  const take = q=>{ chosen.push(q); usedId.add(q.id); usedFam.add(questionFamily(q)); total += q.marks||1; };
+  while(progress && total < target){           // one question per topic per round
+    progress = false;
+    for(const t of topicOrder){
+      const q = byTopic[t].find(fits);
+      if(q){ take(q); progress = true; if(total>=target) break; }
+    }
+  }
+  pool.filter(fits).sort((a,b)=>(b.marks||1)-(a.marks||1)).forEach(q=>{ if(fits(q)) take(q); });   // top up
+  if(!chosen.length) return { error:`No questions fit in ${target} marks. Try a bigger total.` };
+  chosen.sort((a,b)=>(a.marks||1)-(b.marks||1) || (Math.random()-0.5));      // shorter questions first, like an exam
+  const calcSet = new Set(chosen.filter(q=>typeof q.calculator==="boolean").map(q=>q.calculator));
+  return { subject:currentSubject(), questions:chosen, total, target, created:Date.now(),
+           code:Math.random().toString(36).slice(2,8).toUpperCase(),
+           calc: isGcse() ? (calcSet.size===1 ? ([...calcSet][0] ? "calc" : "noncalc") : "mixed") : null,
+           topics:[...new Set(chosen.map(q=>q.topic))] };
+}
+function suggestedMinutes(total, sid){ const perMark = isGcse(sid) ? 1.1 : 1.2; return Math.max(5, Math.round(total*perMark/5)*5); }
+function answerLinesHtml(q){
+  const spec = answerSpec(q);
+  const parts = spec ? spec.filter(p=>!p.table) : [];
+  const space = Math.min(260, Math.max(56, (q.marks||1) * 30));
+  const lines = parts.length ? parts.map(p=>`<div class="pd-ansline">${p.label && p.label!=="answer" ? `(${esc(p.label)}) ` : ""}Answer <span class="pd-dots"></span></div>`).join("")
+    : `<div class="pd-ansline"><span class="pd-dots"></span></div>`;
+  return `<div class="pd-work" style="min-height:${space}px"></div>${lines}`;
+}
+function paperHeaderHtml(doc, kind){
+  const s = subjectInfo(doc.subject);
+  const calcText = doc.calc==="calc" ? "Calculator allowed" : doc.calc==="noncalc" ? "Non-calculator: you must not use a calculator" : doc.calc==="mixed" ? "Calculator allowed only for questions marked 🧮" : "";
+  return `<div class="pd-head">
+    <div class="pd-site">${esc(SITE_NAME)} · kelvincard.co.uk</div>
+    <h1>${esc(s.name)}</h1>
+    <div class="pd-title">${kind==="ms" ? "Mark scheme and worked solutions" : "Practice paper"}</div>
+    <div class="pd-meta">Paper ${esc(doc.code)} · ${new Date(doc.created).toLocaleDateString("en-GB",{day:"numeric",month:"long",year:"numeric"})} · ${doc.questions.length} questions · <strong>Total ${doc.total} marks</strong>${kind==="ms" ? "" : ` · Suggested time ${suggestedMinutes(doc.total, doc.subject)} minutes`}</div>
+    ${kind==="ms" ? "" : `<div class="pd-cand"><span>Name ______________________________</span><span>Score ______ / ${doc.total}</span></div>
+    <div class="pd-instr"><strong>Instructions</strong><ul>
+      <li>Answer all questions in the spaces provided.</li><li>Show all your working: marks are given for method.</li>
+      ${calcText ? `<li>${esc(calcText)}</li>` : ""}<li>The marks for each question are shown in brackets.</li></ul></div>`}
+    ${kind==="ms" ? `<div class="pd-key"><strong>Key:</strong> ${Object.entries(MARK_INFO).map(([k,v])=>`<span class="mk mk-${k}">${k}</span> ${esc(v)}`).join(" · ")}. The badge shows the mark earned on that line.</div>` : ""}
+  </div>`;
+}
+function paperDocHtml(doc){
+  const qs = doc.questions.map((q,i)=>`<section class="pd-q">
+      <div class="pd-qhead"><span class="pd-num">${i+1}</span><span class="pd-qmeta">${esc(q.topic)}${typeof q.calculator==="boolean" && doc.calc==="mixed" ? (q.calculator ? " · 🧮 calculator" : " · ✏️ non-calculator") : ""}</span></div>
+      <div class="qprompt">${fmtPrompt(q.prompt)}</div>${diagramHtml(q, "display")}
+      ${answerLinesHtml(q)}
+      <div class="pd-total">(Total for Question ${i+1} is ${q.marks||1} mark${(q.marks||1)===1?"":"s"})</div>
+    </section>`).join("");
+  return `<article class="paper-doc" id="paperDoc">${paperHeaderHtml(doc,"paper")}${qs}<div class="pd-end">TOTAL FOR PAPER IS ${doc.total} MARKS</div></article>`;
+}
+function msDocHtml(doc){
+  const summary = doc.questions.map((q,i)=>{
+    const spec = answerSpec(q);
+    const ans = spec ? spec.filter(p=>!p.table).map(p=>`${p.label && p.label!=="answer" ? `(${esc(p.label)}) ` : ""}${prettyAnswer(p.answers[0])}`).join("; ") : "";
+    return `<tr><td>${i+1}</td><td>${ans || (spec && spec.some(p=>p.table) ? "Table: see below" : "See worked solution")}${spec && spec.some(p=>p.table) && ans ? "; table: see below" : ""}</td><td>${q.marks||1}</td></tr>`;
+  }).join("");
+  const qs = doc.questions.map((q,i)=>{
+    const tagged = hasMarkTags(q);
+    return `<section class="pd-q ms-q">
+      <div class="pd-qhead"><span class="pd-num">${i+1}</span><span class="pd-qmeta">${esc(q.topic)} · ${q.marks||1} mark${(q.marks||1)===1?"":"s"}${q.inspiredBy ? ` · ${esc(q.inspiredBy)}` : ""}</span></div>
+      ${q.table ? diagramHtml({table:q.table}, "answers") : ""}
+      <div class="ms-sol">${solutionHtml(q.solution)}</div>
+      ${tagged ? "" : `<div class="ms-note">Total ${q.marks||1} mark${(q.marks||1)===1?"":"s"}. A line-by-line mark breakdown isn't available for this question yet: award marks for correct method and a correct final answer.</div>`}
+    </section>`;
+  }).join("");
+  return `<article class="paper-doc" id="msDoc">${paperHeaderHtml(doc,"ms")}
+    <h3 class="pd-sub">Answers at a glance</h3>
+    <div class="qtable-wrap"><table class="qtable pd-summary"><tr><th>Q</th><th>Answer</th><th>Marks</th></tr>${summary}</table></div>
+    <h3 class="pd-sub">Worked solutions</h3>${qs}</article>`;
+}
+function renderPaperView(){
+  const doc = paper.doc; if(!doc) return renderPaperSetup();
+  const short = doc.total < doc.target;
+  return `<div class="toprow no-print"><h2>Your paper</h2><button class="link-btn" id="paperEditBtn">Change options</button></div>
+    <div class="card no-print">
+      <div class="sub" style="margin:0 0 10px;">${doc.questions.length} questions · ${doc.total} marks${short ? ` (the closest to ${doc.target} these topics allow)` : ""}. To make a PDF, press Save and choose <strong>Save as PDF</strong> (on a phone: Print, then Share → Save to Files).</div>
+      <div class="auth-tabs"><button type="button" data-paper-view="paper" class="${paper.view==="paper"?"on":""}">Question paper</button><button type="button" data-paper-view="ms" class="${paper.view==="ms"?"on":""}">Mark scheme</button></div>
+      <div class="btn-row" style="margin-top:0;">
+        <button class="btn-primary" id="paperPrintBtn">Save ${paper.view==="ms" ? "mark scheme" : "paper"} as PDF</button>
+        <button class="btn-ghost" id="paperNewBtn">New questions</button>
+      </div>
+      <div class="btn-row"><button class="btn-ghost" id="paperDeckBtn">Save as a deck</button><button class="btn-ghost" id="paperPractiseBtn">Practise on screen</button></div>
+    </div>
+    <div class="paper-pages">${paper.view==="ms" ? msDocHtml(doc) : paperDocHtml(doc)}</div>`;
+}
+function printPaper(){
+  document.body.classList.add("printing-paper");
+  const done = ()=>{ document.body.classList.remove("printing-paper"); window.removeEventListener("afterprint", done); };
+  window.addEventListener("afterprint", done);
+  const go = ()=>{ window.print(); setTimeout(done, 1500); };
+  if(window.MathJax && MathJax.typesetPromise) MathJax.typesetPromise([document.getElementById("app")]).then(go, go); else go();
+}
+function attachPaperHandlers(){
+  if(state.screen==="paperSetup"){
+    const back = document.getElementById("paperBackBtn"); if(back) back.onclick = ()=>{ state.screen = "select"; render(); };
+    document.querySelectorAll("[data-paper-topic]").forEach(b=>{ b.onchange = ()=>{
+      const n = b.dataset.paperTopic;
+      paper.topics = b.checked ? [...new Set([...paper.topics, n])] : paper.topics.filter(x=>x!==n);
+      paper.error = ""; render();
+    }; });
+    const all = document.getElementById("paperAllBtn"); if(all) all.onclick = ()=>{ paper.topics = paperTopics().map(t=>t.topic); render(); };
+    const none = document.getElementById("paperNoneBtn"); if(none) none.onclick = ()=>{ paper.topics = []; render(); };
+    document.querySelectorAll("[data-paper-marks]").forEach(b=>{ b.onclick = ()=>{ paper.marks = Number(b.dataset.paperMarks); render(); }; });
+    const mk = document.getElementById("paperMarks");
+    if(mk) mk.oninput = ()=>{   // update without redrawing, so the Generate button still works on the first tap
+      const v = parseInt(mk.value); if(v>0) paper.marks = Math.min(200, v);
+      document.querySelectorAll("[data-paper-marks]").forEach(b=>b.classList.toggle("accent", Number(b.dataset.paperMarks)===paper.marks));
+    };
+    const go = document.getElementById("paperGoBtn");
+    if(go) go.onclick = ()=>{
+      const mkEl = document.getElementById("paperMarks"); if(mkEl) paper.marks = Math.max(5, Math.min(200, parseInt(mkEl.value)||40));
+      const r = buildPaper();
+      if(r.error){ paper.error = r.error; render(); return; }
+      paper.error = ""; paper.doc = r; paper.view = "paper"; state.screen = "paperView"; render(); window.scrollTo(0,0);
+    };
+  }
+  if(state.screen==="paperView"){
+    const ed = document.getElementById("paperEditBtn"); if(ed) ed.onclick = ()=>{ state.screen = "paperSetup"; render(); };
+    document.querySelectorAll("[data-paper-view]").forEach(b=>{ b.onclick = ()=>{ paper.view = b.dataset.paperView; render(); }; });
+    const pr = document.getElementById("paperPrintBtn"); if(pr) pr.onclick = printPaper;
+    const nw = document.getElementById("paperNewBtn"); if(nw) nw.onclick = ()=>{ const r = buildPaper(); if(!r.error){ paper.doc = r; paper.view = "paper"; render(); window.scrollTo(0,0); } };
+    const dk = document.getElementById("paperDeckBtn");
+    if(dk) dk.onclick = ()=>{
+      const decks = loadDecks(), d = paper.doc;
+      decks.push({ id:"deck"+Date.now(), name:`${subjectInfo(d.subject).name} paper ${d.code}`, questionIds:d.questions.map(q=>q.id) });
+      saveDecksL(decks);
+      state.toast = { message:"Saved to your decks.", showUndo:false }; render();
+      setTimeout(()=>{ state.toast = null; if(state.screen==="paperView") render(); }, 2500);
+    };
+    const pp = document.getElementById("paperPractiseBtn"); if(pp) pp.onclick = ()=>practiseIds(paper.doc.questions.map(q=>q.id), "select");
+  }
+  const open = document.getElementById("openPaperBtn");
+  if(open) open.onclick = ()=>{ paper.topics = null; paper.error = ""; state.screen = "paperSetup"; render(); window.scrollTo(0,0); };
+}
+
 // ======================= LOADING SUBJECT FILES =======================
 function bankScreenBlocked(){
   const sid = currentSubject();
-  if(["select","stats","browse","manage"].includes(state.screen) && !bankLoaded(sid)){
+  if(["select","stats","browse","manage","paperSetup","paperView"].includes(state.screen) && !bankLoaded(sid)){
     if(!bankErrors[sid]) loadSubject(sid).then(render, render);
     return bankLoadingHtml(sid);
   }
@@ -2035,7 +3036,10 @@ function fmtPrompt(text){
   }).join("");
 }
 function snip(s,n){ const t=String(s||"").replace(/\$+/g,"").replace(/\s+/g," ").trim(); return esc(t.length>n ? t.slice(0,n)+"…" : t); }
-function diagramHtml(q){
+function diagramHtml(q, tableMode){
+  return tableHtml(q, tableMode||"display") + figureHtml(q);
+}
+function figureHtml(q){
   if(!q.diagram) return "";
   const inner = q.diagram.svg ? q.diagram.svg
     : q.diagram.image ? `<img src="${q.diagram.image}" alt="${esc(q.diagram.alt||"Diagram")}" style="max-width:100%;height:auto;border-radius:8px;">`
@@ -2077,10 +3081,44 @@ function typesetMath(){
 function themeSwitchHtml(){
   return `<label class="theme-switch"><span class="track"><input type="checkbox" id="themeSwitch" ${isDarkActive()?"checked":""}><span class="slider"></span></span>Dark</label>`;
 }
-function difficultyOf(marks){
+// Difficulty comes from a question's marks. GCSE and A-Level use different bands.
+function isGcse(sid){ return String(sid || currentSubject()).startsWith("gcse-"); }
+function difficultyBands(sid){
+  return isGcse(sid)
+    ? { easy:"Easy (1 mark)", medium:"Medium (2–4 marks)", hard:"Hard (5–6 marks)" }
+    : { easy:"Easy (1–3 marks)", medium:"Medium (4–6 marks)", hard:"Hard (7+ marks)" };
+}
+function difficultyOf(marks, sid){
   const m = marks||1;
+  if(isGcse(sid)) return m<=1 ? {key:"easy",label:"Easy"} : m<=4 ? {key:"medium",label:"Medium"} : {key:"hard",label:"Hard"};
   return m<=3 ? {key:"easy",label:"Easy"} : m<=6 ? {key:"medium",label:"Medium"} : {key:"hard",label:"Hard"};
 }
+// ---- GCSE calculator / non-calculator ----
+// GCSE questions carry "calculator": true (calculator paper) or false (non-calculator paper).
+const CALC_KEY = "alevel_maths_calc_filter_v1";
+function calcFilter(){ let v = "all"; try{ v = localStorage.getItem(CALC_KEY) || "all"; }catch(e){} return ["all","calc","noncalc"].includes(v) ? v : "all"; }
+function calcAllows(q){
+  if(!isGcse(subjectOf(q))) return true;
+  const f = calcFilter();
+  if(f==="calc") return q.calculator===true;
+  if(f==="noncalc") return q.calculator===false;
+  return true;
+}
+function calcPill(q){
+  if(!isGcse(subjectOf(q)) || typeof q.calculator!=="boolean") return "";
+  return q.calculator ? `<span class="pill calc-pill">🧮 Calculator</span>` : `<span class="pill calc-pill non">✏️ Non-calculator</span>`;
+}
+function calcToggleHtml(){
+  if(!isGcse()) return "";
+  const f = calcFilter();
+  const b = (v, l)=>`<button type="button" data-calc="${v}" class="${f===v?"on":""}" aria-pressed="${f===v}">${l}</button>`;
+  return `<div class="seg" role="group" aria-label="Calculator or non-calculator">${b("all","Both")}${b("calc","🧮 Calculator")}${b("noncalc","✏️ Non-calc")}</div>`;
+}
+document.addEventListener("click", (e)=>{
+  const b = e.target.closest("[data-calc]"); if(!b) return;
+  try{ localStorage.setItem(CALC_KEY, b.dataset.calc); }catch(err){}
+  if(state.screen==="browse") render(); else render();
+});
 function gradeBadge(pct, small, sid){
   const g = gradeForPct(pct, sid);
   const cls = "grade-badge" + (small ? " sm" : "");
@@ -2132,6 +3170,7 @@ function startSingleQuestion(qid){
   state.session = { possibleMarks:0, earnedPoints:0, answered:0 };
   state.practiceOrigin = "browse";
   state.current = found;
+  resetAnswerState();
   state.hintIndex = 0;
   state.solutionShown = false;
   state.reportOpen = false;
@@ -2240,6 +3279,7 @@ function masteryLabel(pct){
 
 function render(){
   const app = document.getElementById("app");
+  if(state.screen==="thread") state.screen = "inbox";
   let html = "";
   const blocked = bankScreenBlocked();
   if(blocked) html = blocked;
@@ -2256,7 +3296,12 @@ function render(){
   else if(state.screen === "group") html = renderGroupPage();
   else if(state.screen === "inbox") html = renderInbox();
   else if(state.screen === "sharedItem") html = renderSharedItem();
-  else if(state.screen === "thread") html = renderThread();
+  else if(state.screen === "shareDeck") html = renderShareDeck();
+  else if(state.screen === "report") html = renderReport();
+  else if(state.screen === "account") html = renderAccount();
+  else if(state.screen === "paperSetup") html = renderPaperSetup();
+  else if(state.screen === "paperView") html = renderPaperView();
+  html += footerHtml();
   html += renderToast();
   app.innerHTML = html;
   attachHandlers();
@@ -2265,6 +3310,9 @@ function render(){
   attachHomeHandlers();
   attachSocialHandlers();
   attachInboxHandlers();
+  attachSafetyHandlers();
+  attachShareDeckHandlers();
+  attachPaperHandlers();
   updateTabBar();
   const retry = document.getElementById("bankRetryBtn");
   if(retry) retry.onclick = ()=>{ delete bankErrors[currentSubject()]; render(); };
@@ -2320,18 +3368,20 @@ function renderSelect(){
     <div class="toprow"><h1>${esc(subj.name)} Practice</h1>
       <div class="toprow-links">${themeSwitchHtml()}${isAdmin ? `<button class="nav-link" id="adminBtn">Admin${adminOpenCount ? ` (${adminOpenCount})` : ""}</button>` : ""}<button class="nav-link" id="statsBtn">Stats</button><button class="nav-link" id="manageBtn">Manage</button></div></div>
     <div class="sub">Pick topics, then work through questions. Each hint costs 1 point. Questions get spaced further apart the better you know them.</div>
+    ${isGcse() ? `<div class="calc-bar"><span class="calc-bar-label">Paper type</span>${calcToggleHtml()}</div>` : ""}
     ${noneYet ? `<div class="card"><strong>Questions for ${esc(subj.name)} are on the way.</strong><div class="sub" style="margin:6px 0 0;">Here are the topics that will be covered. Each one opens up as soon as it has questions.</div></div>` : `<button class="btn-ghost" id="selectAllBtn" style="width:auto;padding:8px 14px;margin-bottom:10px;">${allSelected ? "Clear all" : "Select all topics"}</button>`}
     ${folders}
     <div class="card">
       <h2 style="font-size:1rem;">Session options</h2>
       <label class="field">Difficulty</label>
-      <label class="chk" style="margin-bottom:6px;"><input type="checkbox" id="includeEasyCheck" ${state.includeEasy?"checked":""}> <span>Easy (1–3 marks)</span></label>
-      <label class="chk" style="margin-bottom:6px;"><input type="checkbox" id="includeMediumCheck" ${state.includeMedium?"checked":""}> <span>Medium (4–6 marks)</span></label>
-      <label class="chk" style="margin-bottom:8px;"><input type="checkbox" id="includeHardCheck" ${state.includeHard?"checked":""}> <span>Hard (7+ marks)</span></label>
+      <label class="chk" style="margin-bottom:6px;"><input type="checkbox" id="includeEasyCheck" ${state.includeEasy?"checked":""}> <span>${difficultyBands().easy}</span></label>
+      <label class="chk" style="margin-bottom:6px;"><input type="checkbox" id="includeMediumCheck" ${state.includeMedium?"checked":""}> <span>${difficultyBands().medium}</span></label>
+      <label class="chk" style="margin-bottom:8px;"><input type="checkbox" id="includeHardCheck" ${state.includeHard?"checked":""}> <span>${difficultyBands().hard}</span></label>
       <label class="field">Target marks (optional)</label>
       <input type="number" id="targetMarksInput" min="1" placeholder="e.g. 30 — pulls in questions not yet due if needed to fill it" value="${state.targetMarks||""}">
     </div>
     <button class="btn-primary" id="startBtn">Start practice</button>
+    ${noneYet ? "" : `<button class="btn-ghost" id="openPaperBtn" style="width:100%;margin-top:10px;">📄 Generate a practice paper (PDF)</button>`}
     <div style="margin-top:10px;"><a class="reset" id="resetBtn">Reset all progress</a></div>
   `;
 }
@@ -2371,6 +3421,7 @@ function browseListHtml(){
     const st = qStats[q.id];
     return { q, idx:i+1, seen: st ? st.seen : 0, pct: st ? pctFor(st) : null };
   });
+  items = items.filter(it=>calcAllows(it.q));
   if(term){
     items = items.filter(it=>{
       const hay = (String(it.q.prompt).replace(/\$+/g,"") + " " + [it.q.year, it.q.paper].filter(Boolean).join(" ")).toLowerCase();
@@ -2385,7 +3436,7 @@ function browseListHtml(){
     "marks-desc": (a,b)=> ((b.q.marks||1)-(a.q.marks||1)) || (a.idx-b.idx)
   };
   if(sorters[state.browseSort]) items.sort(sorters[state.browseSort]);
-  if(items.length===0) return '<div class="sub">No questions match your search.</div>';
+  if(items.length===0) return `<div class="sub">${calcFilter()!=="all" && isGcse() ? "No questions match. Try switching the calculator filter to Both." : "No questions match your search."}</div>`;
   const cards = items.map(it=>{
     const q = it.q;
     const marks = q.marks||1;
@@ -2397,7 +3448,8 @@ function browseListHtml(){
         <div class="q-card-tags">
           <strong>Q${it.idx}</strong>
           <span class="pill">${marks} mark${marks===1?"":"s"}</span>
-          <span class="pill">${difficultyOf(marks).label}</span>
+          <span class="pill">${difficultyOf(marks, subjectOf(q)).label}</span>
+          ${calcPill(q)}
           ${hidden ? '<span class="pill">Hidden</span>' : ""}
           ${source}
         </div>
@@ -2411,7 +3463,7 @@ function browseListHtml(){
       ${deckPickerHtml(q.id)}
     </div>`;
   }).join("");
-  return `<div class="sub" style="margin-bottom:8px;">Showing ${items.length} of ${t.questions.length}</div>${cards}`;
+  return `<div class="sub" style="margin-bottom:8px;">Showing ${items.length} of ${t.questions.length}${isGcse() && calcFilter()!=="all" ? (calcFilter()==="calc" ? " (calculator only)" : " (non-calculator only)") : ""}</div>${cards}`;
 }
 
 function refreshBrowseList(){
@@ -2432,6 +3484,7 @@ function renderBrowse(){
   return `
     <div class="toprow"><h2>${esc(t.topic)}</h2><button class="link-btn" id="backSelectBtn">Back</button></div>
     <div class="sub" style="margin-bottom:10px;">${t.questions.length} question${t.questions.length===1?"":"s"}. Your percentage and grade for each come from your practice attempts.</div>
+    ${calcToggleHtml()}
     <div class="card">
       <input type="text" id="browseSearch" placeholder="Search questions…" value="${esc(state.browseSearch)}">
       <select id="browseSort" style="margin-bottom:0;">${sortOpts}</select>
@@ -2442,7 +3495,7 @@ function renderBrowse(){
 
 function difficultyAllows(marks){
   if(!(state.includeEasy || state.includeMedium || state.includeHard)) return true; // nothing ticked — treat as all
-  const k = difficultyOf(marks).key;
+  const k = difficultyOf(marks, currentSubject()).key;
   return (k==="easy" && state.includeEasy) || (k==="medium" && state.includeMedium) || (k==="hard" && state.includeHard);
 }
 
@@ -2458,6 +3511,7 @@ function collectPool(dueOnly){
     t.questions.forEach(q=>{
       const marks = q.marks||1;
       if(!difficultyAllows(marks)) return;
+      if(!calcAllows(q)) return;
       const qs = getQState(q.id);
       if(qs.suspended) return;
       if(dueOnly && qs.due > now) return;
@@ -2501,13 +3555,13 @@ function renderReview(){
       </div>
     </div>` : `<div class="sub" style="margin-top:8px;">You rated this: ${ratingLabel(q.rating)} · <button class="link-btn" id="editResponseBtn">Edit response</button></div>`;
   return `
-    <div class="qmeta">${q.topic} <span class="pill">${q.marks||1} marks</span>${q.year||q.paper ? `<span class="pill">Inspired by ${[q.year,q.paper].filter(Boolean).join(" · ")}</span>` : ""}${q.link ? ` <a class="pill" href="${q.link}" target="_blank" rel="noopener">🔗 See original</a>` : ""} <span class="pill">Reviewing</span></div>
+    <div class="qmeta">${q.topic} <span class="pill">${q.marks||1} marks</span>${calcPill(q)}${q.year||q.paper ? `<span class="pill">Inspired by ${[q.year,q.paper].filter(Boolean).join(" · ")}</span>` : ""}${q.link ? ` <a class="pill" href="${q.link}" target="_blank" rel="noopener">🔗 See original</a>` : ""} <span class="pill">Reviewing</span></div>
     <div class="card">
-      <div class="qprompt">${fmtPrompt(q.prompt)}</div>${diagramHtml(q)}
+      <div class="qprompt">${fmtPrompt(q.prompt)}</div>${diagramHtml(q, "answers")}
       ${q.inspiredBy ? `<div class="sub" style="font-style:italic;margin-top:-6px;">${q.inspiredBy}</div>` : ""}
       ${hintsHtml}
-      <div class="solbox"><strong>Solution:</strong> ${esc(q.solution)}${q.subtopic ? `\n\n<span class="qlist-topic">Subtopic: ${esc(q.subtopic)}</span>` : ""}</div>
-      ${q.rating ? ratingBlock : ""}
+      <div class="solbox"><strong>Solution:</strong> ${solutionHtml(q.solution)}${q.subtopic ? `\n\n<span class="qlist-topic">Subtopic: ${esc(q.subtopic)}</span>` : ""}</div>
+      ${q.rating ? (q.auto ? `<div class="sub" style="margin-top:8px;">Marked automatically: ${q.rating==="correct" ? `correct${q.wrongTries ? ` after ${q.wrongTries} wrong ${q.wrongTries===1?"try":"tries"}` : ""}` : "not answered correctly"}.</div>` : ratingBlock) : ""}
       <button class="btn-primary" id="returnPracticeBtn" style="margin-top:14px;">Back to practice</button>
     </div>`;
 }
@@ -2526,20 +3580,23 @@ function renderPractice(){
   if(state.reviewing) return renderReview();
   if(!state.current){
     if(state.session && state.session.answered>0) return renderSummary();
-    return `<div class="card"><p>Nothing due for practice right now in these topics — questions you've nailed are resting for a while, like flashcards.</p>
+    return `<div class="card"><p>Nothing due for practice right now in these topics — questions you've nailed are resting for a while, like flashcards.${isGcse() && calcFilter()!=="all" ? ` You're only seeing ${calcFilter()==="calc" ? "calculator" : "non-calculator"} questions; switch the paper type to Both for more.` : ""}</p>
       <button class="btn-ghost" id="anywayBtn" style="margin-bottom:8px;">Practice anyway (ignore spacing)</button>
       <button class="btn-ghost" id="backBtn">Back to topics</button></div>`;
   }
   const q = state.current;
-  const prevLink = state.lastAnswered ? `<button class="link-btn" id="prevBtn" style="margin-bottom:8px;">◀ Back to previous question</button>` : "";
+  const prevLink = state.lastAnswered && !(state.ans && state.ans.result) ? `<button class="link-btn" id="prevBtn" style="margin-bottom:8px;">◀ Back to previous question</button>` : "";
   const hintsHtml = state.hintIndex > 0
     ? q.hints.slice(0, state.hintIndex).map((h,i)=>`<div class="hintbox"><strong>Hint ${i+1}:</strong> ${esc(h)}</div>`).join("")
     : "";
   const hintBtn = state.hintIndex < q.hints.length && !state.solutionShown
     ? `<button class="btn-ghost" id="hintBtn">Show hint (${state.hintIndex}/${q.hints.length} used, −1 pt each)</button>` : "";
-  const solBtn = !state.solutionShown ? `<button class="btn-ghost" id="solBtn">Show solution</button>` : "";
-  const solHtml = state.solutionShown ? `<div class="solbox"><strong>Solution:</strong> ${esc(q.solution)}${q.subtopic ? `\n\n<span class="qlist-topic">Subtopic: ${esc(q.subtopic)}</span>` : ""}</div>` : "";
-  const assess = state.solutionShown ? `
+  const typed = usesTypedAnswer(q);
+  if(!state.ans) resetAnswerState();
+  const solBtn = !state.solutionShown && !typed ? `<button class="btn-ghost" id="solBtn">Show solution</button>` : "";
+  const answerBox = typed ? answerBoxHtml(q) : "";
+  const solHtml = state.solutionShown ? `<div class="solbox"><strong>Solution:</strong> ${solutionHtml(q.solution)}${q.subtopic ? `\n\n<span class="qlist-topic">Subtopic: ${esc(q.subtopic)}</span>` : ""}</div>` : "";
+  const assess = typed ? (state.ans.result ? `<button class="btn-primary" id="nextQBtn" style="margin-top:12px;">${state.queue.length ? "Next question" : "Finish"}</button>` : "") : state.solutionShown ? `
     <div class="assess">
       <p>How did it go?</p>
       <div class="btn-row">
@@ -2565,11 +3622,12 @@ function renderPractice(){
     </div>` : "";
   return `
     ${prevLink}
-    <div class="qmeta">${q.topic} <span class="pill">${q.marks||1} marks</span>${q.year||q.paper ? `<span class="pill">Inspired by ${[q.year,q.paper].filter(Boolean).join(" · ")}</span>` : ""}${q.link ? ` <a class="pill" href="${q.link}" target="_blank" rel="noopener">🔗 See original</a>` : ""} <span class="pill">${state.practiceOrigin==="browse" ? "Single question" : state.practiceOrigin==="decks" ? "Deck practice — "+state.queue.length+" left" : state.queue.length+" left in queue"}</span></div>
+    <div class="qmeta">${q.topic} <span class="pill">${q.marks||1} marks</span>${calcPill(q)}${q.year||q.paper ? `<span class="pill">Inspired by ${[q.year,q.paper].filter(Boolean).join(" · ")}</span>` : ""}${q.link ? ` <a class="pill" href="${q.link}" target="_blank" rel="noopener">🔗 See original</a>` : ""} <span class="pill">${state.practiceOrigin==="browse" ? "Single question" : state.practiceOrigin==="decks" ? "Deck practice — "+state.queue.length+" left" : state.queue.length+" left in queue"}</span></div>
     ${q.inspiredBy ? `<div class="sub" style="margin-top:-10px;font-style:italic;">${q.inspiredBy}</div>` : ""}
     <div class="card">
-      <div class="qprompt">${fmtPrompt(q.prompt)}</div>${diagramHtml(q)}
+      <div class="qprompt">${fmtPrompt(q.prompt)}</div>${diagramHtml(q, typed ? "input" : state.solutionShown ? "answers" : "display")}
       ${hintsHtml}
+      ${typed ? answerBox : ""}
       ${solHtml}
       <div class="btn-row">${hintBtn}${solBtn}</div>
       ${assess}
@@ -2633,6 +3691,7 @@ function renderDecks(){
         </div>
       </div>
       ${d.questionIds.length>0 ? `<button class="btn-primary" data-deck-practice="${esc(d.id)}" style="margin-top:10px;">Practice this deck</button>` : ""}
+      ${d.questionIds.length>0 && user ? `<button class="btn-ghost" data-deck-share="${esc(d.id)}" style="margin-top:8px;">Share with friends or groups</button>` : ""}
       ${inner}
     </div>`;
   }).join("");
@@ -2665,7 +3724,7 @@ function renderManage(){
   custom.forEach(t=>{
     t.questions.forEach(q=>{
       listHtml += `<div class="qlist-row">
-        <div><div class="qlist-topic">${t.topic} · ${q.marks||1} marks${q.year||q.paper ? " · "+[q.year,q.paper].filter(Boolean).join(" ") : ""}</div><div class="qlist-text">${snip(q.prompt,60)}</div></div>
+        <div><div class="qlist-topic">${t.topic} · ${q.marks||1} marks${isGcse() && typeof q.calculator==="boolean" ? (q.calculator ? " · Calculator" : " · Non-calculator") : ""}${q.year||q.paper ? " · "+[q.year,q.paper].filter(Boolean).join(" ") : ""}</div><div class="qlist-text">${snip(q.prompt,60)}</div></div>
         <div class="qlist-actions">
           <button class="icon-btn accent" data-edit-topic="${t.topic}" data-edit-id="${q.id}">Edit</button>
           <button class="icon-btn" data-del-topic="${t.topic}" data-del-id="${q.id}">Delete</button>
@@ -2709,6 +3768,20 @@ function renderManage(){
 
       <label class="field">Marks available</label>
       <input type="number" id="qMarks" min="1" max="30" value="${ef ? ef.marks : 1}">
+      ${isGcse() ? (()=>{
+        const cur = ef && typeof ef.calculator==="boolean" ? (ef.calculator ? "calc" : "noncalc") : "";
+        return `<label class="field" for="qCalc">Calculator or non-calculator?</label>
+      <select id="qCalc" required>
+        <option value="" ${cur===""?"selected":""} disabled>Choose one…</option>
+        <option value="calc" ${cur==="calc"?"selected":""}>🧮 Calculator</option>
+        <option value="noncalc" ${cur==="noncalc"?"selected":""}>✏️ Non-calculator</option>
+      </select>
+      <label class="field" for="qAnswer">Final answer (optional)</label>
+      <input type="text" id="qAnswer" placeholder="e.g. 12, 3/4 or 5√2. Leave blank for questions that can't be typed (proofs, drawings)" value="${esc(ef && Array.isArray(ef.answers) && ef.answers.length ? ef.answers[0] : (ef && ef.answer) || "")}">
+      <label class="field" for="qAnswerAlt">Other accepted answers (optional, one per line)</label>
+      <textarea id="qAnswerAlt" rows="2" placeholder="e.g. 0.75">${esc(ef && Array.isArray(ef.answers) ? ef.answers.slice(1).join("\n") : "")}</textarea>
+      <label class="chk" style="margin-bottom:6px;"><input type="checkbox" id="qExact" ${ef && ef.exact ? "checked" : ""}> <span>Must be written exactly like this (e.g. "simplest form"), so 6/8 won't count for 3/4</span></label>
+      <div class="ans-help" style="margin-top:0;">Students type this to unlock the solution. Numbers are matched sensibly: 12, 12.0, £12 and 12cm all count for 12. A fraction like 3/4 (or 1 3/4) gives students separate top and bottom boxes. Write powers as x^2 and standard form as 3.2x10^4.</div>`; })() : ""}
 
       <label class="field">Inspired by (optional) — credits the real paper's style/topic without implying this is a copy. Should point people to find a similar real question elsewhere (e.g. PMT), for your own original question.</label>
       <div style="display:flex;gap:8px;">
@@ -2716,6 +3789,10 @@ function renderManage(){
         <input type="text" id="qPaper" placeholder="Paper e.g. Edexcel Pure Paper 1" style="flex:2;" value="${ef && ef.paper ? ef.paper : ""}">
       </div>
       <input type="text" id="qLink" placeholder="Link to the original (optional), e.g. a PMT page" value="${ef && ef.link ? ef.link.replace(/"/g,'&quot;') : ""}">
+
+      <label class="field" for="qTable">Table (optional)</label>
+      <textarea id="qTable" rows="3" placeholder="x | -2 | -1 | 0 | 1 | 2&#10;y | 6 | [3] | 2 | [3] | 6">${esc(ef && ef.table ? tableToText(ef.table) : "")}</textarea>
+      <div class="ans-help" style="margin-top:0;">One row per line, cells separated by | . Put an answer in [square brackets] to make an empty cell${isGcse() ? " that students fill in (each gets its own answer box)" : ""}. Use // between alternative answers, e.g. [3/4 // 0.75].</div>
 
       <label class="field">Diagram (optional)</label>
       ${diagramFieldHtml()}
@@ -2742,11 +3819,47 @@ function renderManage(){
   `;
 }
 
+// Saves one attempt: updates topic stats, history, scheduling, the session score and coins.
+// "penalty" is points taken off: hints used, plus wrong tries on GCSE typed answers.
+function recordRating(rating, penalty, extra){
+  const q = state.current;
+  const marks = q.marks||1;
+  const hints = penalty||0;
+  const delta = ratingDelta(rating, hints, marks);
+  const tkey = topicKey(q.subject, q.topic);
+  const stat = getTopicStat(state.progress, tkey);
+  stat.seen++;
+  if(rating==="correct") stat.correct++;
+  else if(rating==="silly") stat.silly++;
+  else stat.wrong++;
+  stat.possibleMarks += marks;
+  stat.earnedPoints += delta;
+  state.progress[tkey] = stat;
+  saveProgress(state.progress);
+
+  const qStreakBefore = getQState(q.id).streak;
+  const attempt = { id:"a"+Date.now()+Math.random().toString(36).slice(2,7), topic:q.topic, subject:subjectOf(q), qid:q.id, rating, hints, marks, ts:Date.now(), qStreakBefore, ...(extra||{}) };
+  const attempts = loadAttempts();
+  attempts.push(attempt);
+  saveAttempts(attempts);
+  scheduleAfterRating(q.id, rating);
+
+  if(!state.session) state.session = { possibleMarks:0, earnedPoints:0, answered:0 };
+  state.session.possibleMarks += marks;
+  state.session.earnedPoints += delta;
+  state.session.answered++;
+  state.session.lastAttemptId = attempt.id;
+
+  state.lastAnswered = { ...q, rating, attemptId: attempt.id, hintsUsed: (extra && extra.hintsUsed!==undefined) ? extra.hintsUsed : hints, auto: !!(extra && extra.auto), wrongTries: extra && extra.wrongTries };
+  requestCoins(q, rating, hints);
+  return attempt;
+}
 function nextQuestion(){
   state.current = state.queue.shift() || null;
   state.hintIndex = 0;
   state.solutionShown = false;
   state.reportOpen = false;
+  resetAnswerState();
 }
 
 function scheduleAfterRating(qid, rating){
@@ -2835,7 +3948,7 @@ function attachHandlers(){
   const prevBtn = document.getElementById("prevBtn");
   if(prevBtn) prevBtn.onclick = ()=>{
     state.reviewEditing = false;
-    state.reviewing = { q: state.lastAnswered, returnCurrent: state.current, returnHintIndex: state.hintIndex, returnSolutionShown: state.solutionShown };
+    state.reviewing = { q: state.lastAnswered, returnCurrent: state.current, returnHintIndex: state.hintIndex, returnSolutionShown: state.solutionShown, returnAns: state.ans };
     render();
   };
   const returnPracticeBtn = document.getElementById("returnPracticeBtn");
@@ -2843,6 +3956,7 @@ function attachHandlers(){
     state.current = state.reviewing.returnCurrent;
     state.hintIndex = state.reviewing.returnHintIndex;
     state.solutionShown = state.reviewing.returnSolutionShown;
+    state.ans = state.reviewing.returnAns || null;
     state.reviewing = null;
     state.reviewEditing = false;
     render();
@@ -2904,41 +4018,12 @@ function attachHandlers(){
 
   document.querySelectorAll('[data-r]').forEach(btn=>{
     btn.onclick = ()=>{
-      const rating = btn.dataset.r;
-      const q = state.current;
-      const hints = state.hintIndex;
-      const marks = q.marks||1;
-      const delta = ratingDelta(rating, hints, marks);
-      const tkey = topicKey(q.subject, q.topic);
-      const stat = getTopicStat(state.progress, tkey);
-      stat.seen++;
-      if(rating==="correct") stat.correct++;
-      else if(rating==="silly") stat.silly++;
-      else stat.wrong++;
-      stat.possibleMarks += marks;
-      stat.earnedPoints += delta;
-      state.progress[tkey] = stat;
-      saveProgress(state.progress);
-
-      const qStreakBefore = getQState(q.id).streak;
-      const attempt = { id:"a"+Date.now()+Math.random().toString(36).slice(2,7), topic:q.topic, subject:subjectOf(q), qid:q.id, rating, hints, marks, ts:Date.now(), qStreakBefore };
-      const attempts = loadAttempts();
-      attempts.push(attempt);
-      saveAttempts(attempts);
-      scheduleAfterRating(q.id, rating);
-
-      if(!state.session) state.session = { possibleMarks:0, earnedPoints:0, answered:0 };
-      state.session.possibleMarks += marks;
-      state.session.earnedPoints += delta;
-      state.session.answered++;
-      state.session.lastAttemptId = attempt.id;
-
-      state.lastAnswered = { ...q, rating, attemptId: attempt.id, hintsUsed: hints };
-      requestCoins(q, rating, hints);
+      recordRating(btn.dataset.r, state.hintIndex);
       nextQuestion();
       render();
     };
   });
+  attachAnswerHandlers();
 
   const addHintBtn = document.getElementById("addHintBtn");
   if(addHintBtn) addHintBtn.onclick = ()=>{ syncFormHintsFromDOM(); state.formHints.push(""); render(); };
@@ -2960,6 +4045,21 @@ function attachHandlers(){
     const link = document.getElementById("qLink").value.trim();
     const hints = state.formHints.map(h=>h.trim()).filter(h=>h.length>0);
     if(!topic || !prompt || !solution){ alert("Please pick a topic, and fill in the question and solution."); return; }
+    const calcEl = document.getElementById("qCalc");
+    if(calcEl && !calcEl.value){ alert("Please choose whether this is a calculator or non-calculator question."); calcEl.focus(); return; }
+    const calcField = calcEl ? { calculator: calcEl.value==="calc" } : {};
+    const tableEl = document.getElementById("qTable");
+    if(tableEl && tableEl.value.trim()){
+      if(!parseTable(tableEl.value.trim())){ alert("The table couldn't be read. Put one row per line with cells separated by |"); tableEl.focus(); return; }
+      calcField.table = tableEl.value.trim().slice(0, 5000);
+    }
+    const ansEl = document.getElementById("qAnswer");
+    if(ansEl){
+      const main = ansEl.value.trim();
+      const alts = (document.getElementById("qAnswerAlt").value||"").split("\n").map(x=>x.trim()).filter(Boolean);
+      if(main){ calcField.answers = [main, ...alts.filter(x=>x!==main)]; if(document.getElementById("qExact").checked) calcField.exact = true; }
+      else if(alts.length){ alert("Put the main answer in \"Final answer\" first."); ansEl.focus(); return; }
+    }
     const existingTopicObj = topics.find(t=>t.topic===topic);
     const category = existingTopicObj ? existingTopicObj.category : "General";
     const ef = state.editForm;
@@ -2979,7 +4079,7 @@ function attachHandlers(){
       let newEntry = custom.find(t=>t.topic===topic && subjectOf(t)===sid);
       if(!newEntry){ newEntry = {topic, category, subject:sid, questions:[]}; custom.push(newEntry); }
       finalId = ef.id;
-      newEntry.questions.push({ id: ef.id, prompt, hints: hints.length?hints:["Think about which technique applies here."], solution, marks, year, paper, link, subtopic: ef.subtopic||"", ...(diagram ? {diagram} : {}) });
+      newEntry.questions.push({ id: ef.id, prompt, hints: hints.length?hints:["Think about which technique applies here."], solution, marks, year, paper, link, subtopic: ef.subtopic||"", ...calcField, ...(diagram ? {diagram} : {}) });
       saveCustom(custom.filter(t=>t.questions.length>0));
       state.editForm = null;
     } else {
@@ -2987,7 +4087,7 @@ function attachHandlers(){
       let entry = custom.find(t=>t.topic===topic && subjectOf(t)===sid);
       if(!entry){ entry = {topic, category, subject:sid, questions:[]}; custom.push(entry); }
       finalId = "c"+Date.now();
-      entry.questions.push({ id: finalId, prompt, hints: hints.length?hints:["Think about which technique applies here."], solution, marks, year, paper, link, ...(diagram ? {diagram} : {}) });
+      entry.questions.push({ id: finalId, prompt, hints: hints.length?hints:["Think about which technique applies here."], solution, marks, year, paper, link, ...calcField, ...(diagram ? {diagram} : {}) });
       saveCustom(custom);
     }
     const checkedDeckIds = new Set([...document.querySelectorAll('[data-deck-assign]:checked')].map(cb=>cb.dataset.deckAssign));
@@ -3033,7 +4133,7 @@ function attachHandlers(){
       const entry = custom.find(t=>t.topic===btn.dataset.editTopic && subjectOf(t)===currentSubject());
       const q = entry && entry.questions.find(q=>q.id===btn.dataset.editId);
       if(!q) return;
-      state.editForm = { topic: btn.dataset.editTopic, category: entry.category, id: q.id, prompt: q.prompt, solution: q.solution, marks: q.marks||1, year: q.year||"", paper: q.paper||"", link: q.link||"", subtopic: q.subtopic||"", diagram: q.diagram||null };
+      state.editForm = { topic: btn.dataset.editTopic, category: entry.category, id: q.id, prompt: q.prompt, solution: q.solution, marks: q.marks||1, year: q.year||"", paper: q.paper||"", link: q.link||"", subtopic: q.subtopic||"", calculator: q.calculator, table: q.table, answers: q.answers || (q.answer!==undefined ? [String(q.answer)] : undefined), exact: q.exact, diagram: q.diagram||null };
       state.formHints = q.hints && q.hints.length ? [...q.hints] : [""];
       state.formDiagramImage = null;
       state.formDiagramRemoved = false;
