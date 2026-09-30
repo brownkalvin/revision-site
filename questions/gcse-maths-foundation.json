@@ -773,7 +773,10 @@
      "solution": "$5$ and $-2$ multiply to $-10$ and add to $3$\n$(x + 5)(x - 2) = 0$ [M1 A1]\n$x = -5$ or $x = 2$ [A1]",
      "calculator": false,
      "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q26",
-     "answer": "x = -5 or x = 2"
+     "roots": [
+      "-5",
+      "2"
+     ]
     },
     {
      "id": "gcse-f-2024nov-p1-q26b",
@@ -787,7 +790,10 @@
      "solution": "$-3$ and $-4$ multiply to $12$ and add to $-7$\n$(x - 3)(x - 4) = 0$ [M1 A1]\n$x = 3$ or $x = 4$ [A1]",
      "calculator": false,
      "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q26",
-     "answer": "x = 3 or x = 4"
+     "roots": [
+      "3",
+      "4"
+     ]
     },
     {
      "id": "gcse-f-2024nov-p1-q26c",
@@ -801,7 +807,10 @@
      "solution": "$-7$ and $3$ multiply to $-21$ and add to $-4$\n$(x - 7)(x + 3) = 0$ [M1 A1]\n$x = 7$ or $x = -3$ [A1]",
      "calculator": false,
      "inspiredBy": "Edexcel GCSE Maths Foundation Paper 1 (Non-Calculator), November 2024, Q26",
-     "answer": "x = -3 or x = 7"
+     "roots": [
+      "-3",
+      "7"
+     ]
     }
    ]
   },

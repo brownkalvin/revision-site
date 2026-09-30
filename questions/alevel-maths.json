@@ -14,7 +14,7 @@
       "(a) For $(4k + 2)^2$, the middle term is $2 \\times 4k \\times 2$.",
       "(b) Every integer has the form $4k$, $4k + 1$, $4k + 2$ or $4k + 3$. Only one case is still missing, and you need a concluding statement."
      ],
-     "solution": "(a) $(4k+2)^2 = 16k^2 + 16k + 4$, not $16k^2 + 8k + 4$.\nCorrected: $16k^2 + 16k + 4 = 4(4k^2 + 4k + 1) = 4n$ where $n = 4k^2 + 4k + 1$.\n(b) Let $m = 4k + 3$. Then $m^2 = (4k+3)^2 = 16k^2 + 24k + 9 = 4(4k^2 + 6k + 2) + 1 = 4n + 1$ where $n = 4k^2 + 6k + 2$.\nEvery integer can be written as $4k$, $4k+1$, $4k+2$ or $4k+3$ for some integer $k$, and in each case $m^2$ is of the form $4n$ or $4n+1$. Hence the square of any integer can be expressed in the form $4n$ or $4n+1$.\n\nFinal answer: (a) $(4k+2)^2 = 16k^2 + 16k + 4 = 4(4k^2 + 4k + 1)$  (b) $(4k+3)^2 = 4(4k^2 + 6k + 2) + 1$, plus a statement that all four cases are covered",
+     "solution": "(a) $(4k+2)^2 = 16k^2 + 16k + 4$, not $16k^2 + 8k + 4$.\nCorrected: $16k^2 + 16k + 4 = 4(4k^2 + 4k + 1) = 4n$ where $n = 4k^2 + 4k + 1$. [B1]\n(b) Let $m = 4k + 3$. Then $m^2 = (4k+3)^2 = 16k^2 + 24k + 9 = 4(4k^2 + 6k + 2) + 1 = 4n + 1$ where $n = 4k^2 + 6k + 2$. [B1 M1 A1]\nEvery integer can be written as $4k$, $4k+1$, $4k+2$ or $4k+3$ for some integer $k$, and in each case $m^2$ is of the form $4n$ or $4n+1$. Hence the square of any integer can be expressed in the form $4n$ or $4n+1$. [A1]\n\nFinal answer: (a) $(4k+2)^2 = 16k^2 + 16k + 4 = 4(4k^2 + 4k + 1)$  (b) $(4k+3)^2 = 4(4k^2 + 6k + 2) + 1$, plus a statement that all four cases are covered",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Proof by exhaustion / algebraic proof with remainders"
@@ -28,7 +28,7 @@
       "(a) The middle term should be $2 \\times 3k \\times 1$.",
       "(b) Every integer has the form $3k$, $3k + 1$ or $3k + 2$. Find the missing case and finish with a concluding statement."
      ],
-     "solution": "(a) $(3k+1)^2 = 9k^2 + 6k + 1$, not $9k^2 + 3k + 1$.\nCorrected: $9k^2 + 6k + 1 = 3(3k^2 + 2k) + 1 = 3n + 1$ where $n = 3k^2 + 2k$.\n(b) Let $m = 3k + 2$. Then $m^2 = (3k+2)^2 = 9k^2 + 12k + 4 = 3(3k^2 + 4k + 1) + 1 = 3n + 1$ where $n = 3k^2 + 4k + 1$.\nEvery integer can be written as $3k$, $3k+1$ or $3k+2$ for some integer $k$, and in each case $m^2$ is of the form $3n$ or $3n+1$. Hence the square of any integer can be expressed in the form $3n$ or $3n+1$.\n\nFinal answer: (a) $(3k+1)^2 = 9k^2 + 6k + 1 = 3(3k^2 + 2k) + 1$  (b) $(3k+2)^2 = 3(3k^2 + 4k + 1) + 1$, plus a statement that all three cases are covered",
+     "solution": "(a) $(3k+1)^2 = 9k^2 + 6k + 1$, not $9k^2 + 3k + 1$.\nCorrected: $9k^2 + 6k + 1 = 3(3k^2 + 2k) + 1 = 3n + 1$ where $n = 3k^2 + 2k$. [B1]\n(b) Let $m = 3k + 2$. Then $m^2 = (3k+2)^2 = 9k^2 + 12k + 4 = 3(3k^2 + 4k + 1) + 1 = 3n + 1$ where $n = 3k^2 + 4k + 1$. [M1 A1]\nEvery integer can be written as $3k$, $3k+1$ or $3k+2$ for some integer $k$, and in each case $m^2$ is of the form $3n$ or $3n+1$. Hence the square of any integer can be expressed in the form $3n$ or $3n+1$. [A1]\n\nFinal answer: (a) $(3k+1)^2 = 9k^2 + 6k + 1 = 3(3k^2 + 2k) + 1$  (b) $(3k+2)^2 = 3(3k^2 + 4k + 1) + 1$, plus a statement that all three cases are covered",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Proof by exhaustion / algebraic proof with remainders"
@@ -42,7 +42,7 @@
       "(a) The $k^2$ term should be $3 \\times (3k)^2 \\times 1$.",
       "(b) The last case is $m = 3k + 2$. Expect the result to be of the form $9n - 1$. Finish with a concluding statement."
      ],
-     "solution": "(a) $(3k+1)^3 = 27k^3 + 27k^2 + 9k + 1$, not $27k^3 + 9k^2 + 9k + 1$.\nCorrected: $27k^3 + 27k^2 + 9k + 1 = 9(3k^3 + 3k^2 + k) + 1 = 9n + 1$ where $n = 3k^3 + 3k^2 + k$.\n(b) Let $m = 3k + 2$. Then $m^3 = (3k+2)^3 = 27k^3 + 54k^2 + 36k + 8 = 9(3k^3 + 6k^2 + 4k + 1) - 1 = 9n - 1$ where $n = 3k^3 + 6k^2 + 4k + 1$.\nEvery integer can be written as $3k$, $3k+1$ or $3k+2$ for some integer $k$, and in each case $m^3$ is of the form $9n$, $9n+1$ or $9n-1$. Hence the cube of any integer can be expressed in one of these forms.\n\nFinal answer: (a) $(3k+1)^3 = 27k^3 + 27k^2 + 9k + 1 = 9(3k^3 + 3k^2 + k) + 1$  (b) $(3k+2)^3 = 9(3k^3 + 6k^2 + 4k + 1) - 1$, plus a statement that all three cases are covered",
+     "solution": "(a) $(3k+1)^3 = 27k^3 + 27k^2 + 9k + 1$, not $27k^3 + 9k^2 + 9k + 1$.\nCorrected: $27k^3 + 27k^2 + 9k + 1 = 9(3k^3 + 3k^2 + k) + 1 = 9n + 1$ where $n = 3k^3 + 3k^2 + k$. [B1]\n(b) Let $m = 3k + 2$. Then $m^3 = (3k+2)^3 = 27k^3 + 54k^2 + 36k + 8 = 9(3k^3 + 6k^2 + 4k + 1) - 1 = 9n - 1$ where $n = 3k^3 + 6k^2 + 4k + 1$. [B1 M1 A1]\nEvery integer can be written as $3k$, $3k+1$ or $3k+2$ for some integer $k$, and in each case $m^3$ is of the form $9n$, $9n+1$ or $9n-1$. Hence the cube of any integer can be expressed in one of these forms. [A1]\n\nFinal answer: (a) $(3k+1)^3 = 27k^3 + 27k^2 + 9k + 1 = 9(3k^3 + 3k^2 + k) + 1$  (b) $(3k+2)^3 = 9(3k^3 + 6k^2 + 4k + 1) - 1$, plus a statement that all three cases are covered",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Proof by exhaustion / algebraic proof with remainders"
@@ -62,7 +62,7 @@
       "Divide $f(x)$ by $(x - 2)$ (long division or comparing coefficients) to find $Q(x)$.",
       "For (b), the only other roots come from $Q(x) = 0$. Check its discriminant $b^2 - 4ac$."
      ],
-     "solution": "(a) $f(x) = (x - 2)(x^2 + x + 3)$. Check: $x^3 + x^2 + 3x - 2x^2 - 2x - 6 = x^3 - x^2 + x - 6$.\n(b) $f(x) = 0$ gives $x = 2$ or $x^2 + x + 3 = 0$.\nFor $x^2 + x + 3$: $b^2 - 4ac = 1 - 12 = -11 < 0$, so there are no real roots.\nHence $x = 2$ is the only real root.\n\nFinal answer: (a) $(x - 2)(x^2 + x + 3)$  (b) Discriminant of the quadratic is $-11 < 0$, so $x = 2$ is the only real root",
+     "solution": "(a) $f(x) = (x - 2)(x^2 + x + 3)$. Check: $x^3 + x^2 + 3x - 2x^2 - 2x - 6 = x^3 - x^2 + x - 6$. [M1 A1 A1]\n(b) $f(x) = 0$ gives $x = 2$ or $x^2 + x + 3 = 0$.\nFor $x^2 + x + 3$: $b^2 - 4ac = 1 - 12 = -11 < 0$, so there are no real roots. [M1]\nHence $x = 2$ is the only real root. [A1]\n\nFinal answer: (a) $(x - 2)(x^2 + x + 3)$  (b) Discriminant of the quadratic is $-11 < 0$, so $x = 2$ is the only real root",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Factor theorem, algebraic division and discriminant"
@@ -76,7 +76,7 @@
       "The leading coefficient of $Q(x)$ must be 3 and the constant term must be 2 (so that $3 \\times 2 = 6$).",
       "For (b), calculate $b^2 - 4ac$ for $Q(x)$."
      ],
-     "solution": "(a) $f(x) = (x + 3)(3x^2 - 2x + 2)$. Check: $3x^3 - 2x^2 + 2x + 9x^2 - 6x + 6 = 3x^3 + 7x^2 - 4x + 6$.\n(b) $f(x) = 0$ gives $x = -3$ or $3x^2 - 2x + 2 = 0$.\nFor $3x^2 - 2x + 2$: $b^2 - 4ac = 4 - 24 = -20 < 0$, so there are no real roots.\nHence $x = -3$ is the only real root.\n\nFinal answer: (a) $(x + 3)(3x^2 - 2x + 2)$  (b) Discriminant of the quadratic is $-20 < 0$, so $x = -3$ is the only real root",
+     "solution": "(a) $f(x) = (x + 3)(3x^2 - 2x + 2)$. Check: $3x^3 - 2x^2 + 2x + 9x^2 - 6x + 6 = 3x^3 + 7x^2 - 4x + 6$. [M1 A1 A1]\n(b) $f(x) = 0$ gives $x = -3$ or $3x^2 - 2x + 2 = 0$.\nFor $3x^2 - 2x + 2$: $b^2 - 4ac = 4 - 24 = -20 < 0$, so there are no real roots. [M1]\nHence $x = -3$ is the only real root. [A1]\n\nFinal answer: (a) $(x + 3)(3x^2 - 2x + 2)$  (b) Discriminant of the quadratic is $-20 < 0$, so $x = -3$ is the only real root",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Factor theorem, algebraic division and discriminant"
@@ -90,7 +90,7 @@
       "Write $f(x) = (x - 1)(2x^2 + bx + c)$ and compare coefficients of $x^2$ and the constant term.",
       "For (b), show the discriminant of $Q(x)$ is negative."
      ],
-     "solution": "(a) $f(x) = (x - 1)(2x^2 + 3x + 5)$. Check: $2x^3 + 3x^2 + 5x - 2x^2 - 3x - 5 = 2x^3 + x^2 + 2x - 5$.\n(b) $f(x) = 0$ gives $x = 1$ or $2x^2 + 3x + 5 = 0$.\nFor $2x^2 + 3x + 5$: $b^2 - 4ac = 9 - 40 = -31 < 0$, so there are no real roots.\nHence $x = 1$ is the only real root.\n\nFinal answer: (a) $(x - 1)(2x^2 + 3x + 5)$  (b) Discriminant of the quadratic is $-31 < 0$, so $x = 1$ is the only real root",
+     "solution": "(a) $f(x) = (x - 1)(2x^2 + 3x + 5)$. Check: $2x^3 + 3x^2 + 5x - 2x^2 - 3x - 5 = 2x^3 + x^2 + 2x - 5$. [M1 A1 A1]\n(b) $f(x) = 0$ gives $x = 1$ or $2x^2 + 3x + 5 = 0$.\nFor $2x^2 + 3x + 5$: $b^2 - 4ac = 9 - 40 = -31 < 0$, so there are no real roots. [M1]\nHence $x = 1$ is the only real root. [A1]\n\nFinal answer: (a) $(x - 1)(2x^2 + 3x + 5)$  (b) Discriminant of the quadratic is $-31 < 0$, so $x = 1$ is the only real root",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Factor theorem, algebraic division and discriminant"
@@ -104,7 +104,7 @@
       "$4^{1.5} = 8$ and $16^{1.5} = 64$. This gives $A - 8B = 28$ and $A - 64B = 14$.",
       "For (b), the gull starts at $t = 0$. For (c), the model only works while $h \\geqslant 0$, so solve $A - Bt^{1.5} \\geqslant 0$."
      ],
-     "solution": "(a) $A - 8B = 28$ and $A - 64B = 14$. Subtracting: $56B = 14$, so $B = 0.25$.\nThen $A = 28 + 8(0.25) = 30$. So $h = 30 - 0.25t^{1.5}$.\n(b) When $t = 0$, $h = 30$, so the rock stack is 30 m above the sea.\n(c) $h \\geqslant 0$ gives $30 - 0.25t^{1.5} \\geqslant 0$, so $t^{1.5} \\leqslant 120$.\n$t \\leqslant 120^{2/3} \\approx 24.3$. So $0 < T \\leqslant 24.3$ (3 s.f.).\n\nFinal answer: (a) $h = 30 - 0.25t^{1.5}$  (b) 30 m  (c) $0 < T \\leqslant 24.3$",
+     "solution": "(a) $A - 8B = 28$ and $A - 64B = 14$. Subtracting: $56B = 14$, so $B = 0.25$. [M1 A1]\nThen $A = 28 + 8(0.25) = 30$. So $h = 30 - 0.25t^{1.5}$. [M1 A1]\n(b) When $t = 0$, $h = 30$, so the rock stack is 30 m above the sea. [B1]\n(c) $h \\geqslant 0$ gives $30 - 0.25t^{1.5} \\geqslant 0$, so $t^{1.5} \\leqslant 120$. [M1]\n$t \\leqslant 120^{2/3} \\approx 24.3$. So $0 < T \\leqslant 24.3$ (3 s.f.). [A1]\n\nFinal answer: (a) $h = 30 - 0.25t^{1.5}$  (b) 30 m  (c) $0 < T \\leqslant 24.3$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Modelling with a fractional power (simultaneous equations, indices)"
@@ -118,7 +118,7 @@
       "$1^{1.5} = 1$ and $9^{1.5} = 27$. This gives $A - B = 11.7$ and $A - 27B = 3.9$.",
       "For (c), rearrange $A - Bt^{1.5} \\geqslant 0$ for $t^{1.5}$, then raise both sides to the power $\\tfrac{2}{3}$."
      ],
-     "solution": "(a) $A - B = 11.7$ and $A - 27B = 3.9$. Subtracting: $26B = 7.8$, so $B = 0.3$.\nThen $A = 11.7 + 0.3 = 12$. So $h = 12 - 0.3t^{1.5}$.\n(b) When $t = 0$, $h = 12$, so the platform is 12 m above the ground.\n(c) $12 - 0.3t^{1.5} \\geqslant 0$ gives $t^{1.5} \\leqslant 40$.\n$t \\leqslant 40^{2/3} \\approx 11.7$. So $0 < T \\leqslant 11.7$ (3 s.f.).\n\nFinal answer: (a) $h = 12 - 0.3t^{1.5}$  (b) 12 m  (c) $0 < T \\leqslant 11.7$",
+     "solution": "(a) $A - B = 11.7$ and $A - 27B = 3.9$. Subtracting: $26B = 7.8$, so $B = 0.3$. [M1 A1]\nThen $A = 11.7 + 0.3 = 12$. So $h = 12 - 0.3t^{1.5}$. [M1 A1]\n(b) When $t = 0$, $h = 12$, so the platform is 12 m above the ground. [B1]\n(c) $12 - 0.3t^{1.5} \\geqslant 0$ gives $t^{1.5} \\leqslant 40$. [M1]\n$t \\leqslant 40^{2/3} \\approx 11.7$. So $0 < T \\leqslant 11.7$ (3 s.f.). [A1]\n\nFinal answer: (a) $h = 12 - 0.3t^{1.5}$  (b) 12 m  (c) $0 < T \\leqslant 11.7$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Modelling with a fractional power (simultaneous equations, indices)"
@@ -132,7 +132,7 @@
       "$4^{1.5} = 8$ and $16^{1.5} = 64$. This gives $A - 8B = 46$ and $A - 64B = 18$.",
       "For (c), you should find $t^{1.5} \\leqslant 100$. Remember $100^{2/3} = \\left(\\sqrt[3]{100}\\right)^2$."
      ],
-     "solution": "(a) $A - 8B = 46$ and $A - 64B = 18$. Subtracting: $56B = 28$, so $B = 0.5$.\nThen $A = 46 + 8(0.5) = 50$. So $h = 50 - 0.5t^{1.5}$.\n(b) When $t = 0$, $h = 50$, so the top station is 50 m above the valley floor.\n(c) $50 - 0.5t^{1.5} \\geqslant 0$ gives $t^{1.5} \\leqslant 100$.\n$t \\leqslant 100^{2/3} \\approx 21.5$. So $0 < T \\leqslant 21.5$ (3 s.f.).\n\nFinal answer: (a) $h = 50 - 0.5t^{1.5}$  (b) 50 m  (c) $0 < T \\leqslant 21.5$",
+     "solution": "(a) $A - 8B = 46$ and $A - 64B = 18$. Subtracting: $56B = 28$, so $B = 0.5$. [M1 A1]\nThen $A = 46 + 8(0.5) = 50$. So $h = 50 - 0.5t^{1.5}$. [M1 A1]\n(b) When $t = 0$, $h = 50$, so the top station is 50 m above the valley floor. [B1]\n(c) $50 - 0.5t^{1.5} \\geqslant 0$ gives $t^{1.5} \\leqslant 100$. [M1]\n$t \\leqslant 100^{2/3} \\approx 21.5$. So $0 < T \\leqslant 21.5$ (3 s.f.). [A1]\n\nFinal answer: (a) $h = 50 - 0.5t^{1.5}$  (b) 50 m  (c) $0 < T \\leqslant 21.5$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Modelling with a fractional power (simultaneous equations, indices)"
@@ -147,7 +147,7 @@
       "(c) You already know $x = 6$ is a root, so $(x - 6)$ is a factor of the cubic. Divide, then solve the remaining quadratic.",
       "(c) Q lies on the left-hand branch of $C$, to the left of the vertical asymptote. Use this to choose the correct root."
      ],
-     "solution": "(a) On $C$ at $x = 6$: $y = \\frac{60}{15\\times 4} = 1$. On $l$: $y = 6-5 = 1$. Same $y$, so they intersect at $x = 6$.\n(b) $\\frac{10x}{(2x + 3)(x - 2)} = x - 5$, so $10x = (x - 5)(2x + 3)(x - 2)$.\nExpanding the right-hand side and collecting terms gives $2x^3 - 11x^2 - 11x + 30 = 0$.\n(c) $(x - 6)$ is a factor, so the cubic factorises as $(x - 6)(2x^2 + x - 5) = 0$.\nSolve $2x^2 + x - 5 = 0$ using the quadratic formula: $x = \\frac{-1 \\pm \\sqrt{41}}{4}$.\nQ lies to the left of the asymptote $x = -\\frac{3}{2}$, so we need the smaller root: $x = \\frac{-1 - \\sqrt{41}}{4}$ (≈ -1.851).\n\nFinal answer: (c) $x = \\frac{-1 - \\sqrt{41}}{4}$",
+     "solution": "(a) On $C$ at $x = 6$: $y = \\frac{60}{15\\times 4} = 1$. On $l$: $y = 6-5 = 1$. Same $y$, so they intersect at $x = 6$. [M1 A1]\n(b) $\\frac{10x}{(2x + 3)(x - 2)} = x - 5$, so $10x = (x - 5)(2x + 3)(x - 2)$. [M1]\nExpanding the right-hand side and collecting terms gives $2x^3 - 11x^2 - 11x + 30 = 0$. [A1]\n(c) $(x - 6)$ is a factor, so the cubic factorises as $(x - 6)(2x^2 + x - 5) = 0$. [M1 A1]\nSolve $2x^2 + x - 5 = 0$ using the quadratic formula: $x = \\frac{-1 \\pm \\sqrt{41}}{4}$. [M1]\nQ lies to the left of the asymptote $x = -\\frac{3}{2}$, so we need the smaller root: $x = \\frac{-1 - \\sqrt{41}}{4}$ (≈ -1.851). [A1]\n\nFinal answer: (c) $x = \\frac{-1 - \\sqrt{41}}{4}$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Rational curve and line: intersections, cubic equation, factor theorem",
@@ -167,7 +167,7 @@
       "(c) You already know $x = 4$ is a root, so $(x - 4)$ is a factor of the cubic. Divide, then solve the remaining quadratic.",
       "(c) Q lies on the left-hand branch of $C$, to the left of the vertical asymptote. Use this to choose the correct root."
      ],
-     "solution": "(a) On $C$ at $x = 4$: $y = \\frac{32}{8\\times 2} = 2$. On $l$: $y = 4-2 = 2$. Same $y$, so they intersect at $x = 4$.\n(b) $\\frac{8x}{(x + 4)(x - 2)} = x - 2$, so $8x = (x - 2)(x + 4)(x - 2)$.\nExpanding the right-hand side and collecting terms gives $x^3 - 20x + 16 = 0$.\n(c) $(x - 4)$ is a factor, so the cubic factorises as $(x - 4)(x^2 + 4x - 4) = 0$.\nSolve $x^2 + 4x - 4 = 0$ using the quadratic formula: $x = \\frac{-4 \\pm \\sqrt{32}}{2} = -2 \\pm 2\\sqrt{2}$.\nQ lies to the left of the asymptote $x = -\\frac{4}{1}$, so we need the smaller root: $x = -2 - 2\\sqrt{2}$ (≈ -4.828).\n\nFinal answer: (c) $x = -2 - 2\\sqrt{2}$",
+     "solution": "(a) On $C$ at $x = 4$: $y = \\frac{32}{8\\times 2} = 2$. On $l$: $y = 4-2 = 2$. Same $y$, so they intersect at $x = 4$. [M1 A1]\n(b) $\\frac{8x}{(x + 4)(x - 2)} = x - 2$, so $8x = (x - 2)(x + 4)(x - 2)$. [M1]\nExpanding the right-hand side and collecting terms gives $x^3 - 20x + 16 = 0$. [A1]\n(c) $(x - 4)$ is a factor, so the cubic factorises as $(x - 4)(x^2 + 4x - 4) = 0$. [M1 A1]\nSolve $x^2 + 4x - 4 = 0$ using the quadratic formula: $x = \\frac{-4 \\pm \\sqrt{32}}{2} = -2 \\pm 2\\sqrt{2}$. [M1]\nQ lies to the left of the asymptote $x = -\\frac{4}{1}$, so we need the smaller root: $x = -2 - 2\\sqrt{2}$ (≈ -4.828). [A1]\n\nFinal answer: (c) $x = -2 - 2\\sqrt{2}$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Rational curve and line: intersections, cubic equation, factor theorem",
@@ -187,7 +187,7 @@
       "(c) You already know $x = 8$ is a root, so $(x - 8)$ is a factor of the cubic. Divide, then solve the remaining quadratic.",
       "(c) Q lies on the left-hand branch of $C$, to the left of the vertical asymptote. Use this to choose the correct root."
      ],
-     "solution": "(a) On $C$ at $x = 8$: $y = \\frac{72}{12\\times 3} = 2$. On $l$: $y = 8-6 = 2$. Same $y$, so they intersect at $x = 8$.\n(b) $\\frac{9x}{(x + 4)(x - 5)} = x - 6$, so $9x = (x - 6)(x + 4)(x - 5)$.\nExpanding the right-hand side and collecting terms gives $x^3 - 7x^2 - 23x + 120 = 0$.\n(c) $(x - 8)$ is a factor, so the cubic factorises as $(x - 8)(x^2 + x - 15) = 0$.\nSolve $x^2 + x - 15 = 0$ using the quadratic formula: $x = \\frac{-1 \\pm \\sqrt{61}}{2}$.\nQ lies to the left of the asymptote $x = -\\frac{4}{1}$, so we need the smaller root: $x = \\frac{-1 - \\sqrt{61}}{2}$ (≈ -4.405).\n\nFinal answer: (c) $x = \\frac{-1 - \\sqrt{61}}{2}$",
+     "solution": "(a) On $C$ at $x = 8$: $y = \\frac{72}{12\\times 3} = 2$. On $l$: $y = 8-6 = 2$. Same $y$, so they intersect at $x = 8$. [M1 A1]\n(b) $\\frac{9x}{(x + 4)(x - 5)} = x - 6$, so $9x = (x - 6)(x + 4)(x - 5)$. [M1]\nExpanding the right-hand side and collecting terms gives $x^3 - 7x^2 - 23x + 120 = 0$. [A1]\n(c) $(x - 8)$ is a factor, so the cubic factorises as $(x - 8)(x^2 + x - 15) = 0$. [M1 A1]\nSolve $x^2 + x - 15 = 0$ using the quadratic formula: $x = \\frac{-1 \\pm \\sqrt{61}}{2}$. [M1]\nQ lies to the left of the asymptote $x = -\\frac{4}{1}$, so we need the smaller root: $x = \\frac{-1 - \\sqrt{61}}{2}$ (≈ -4.405). [A1]\n\nFinal answer: (c) $x = \\frac{-1 - \\sqrt{61}}{2}$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Rational curve and line: intersections, cubic equation, factor theorem",
@@ -206,7 +206,7 @@
       "After taking out the common factor you are left with a quadratic. Factorise it.",
       "Make sure your final answer is fully factorised: the common factor stays in front."
      ],
-     "solution": "Take out the common factor: $3x^3 - 27x^2 + 42x = 3x(x^2 - 9x + 14)$.\nFactorise the quadratic: $x^2 - 9x + 14 = (x - 2)(x - 7)$.\nSo $3x^3 - 27x^2 + 42x = 3x(x - 2)(x - 7)$.\n\nFinal answer: $3x(x - 2)(x - 7)$",
+     "solution": "Take out the common factor: $3x^3 - 27x^2 + 42x = 3x(x^2 - 9x + 14)$. [B1]\nFactorise the quadratic: $x^2 - 9x + 14 = (x - 2)(x - 7)$. [M1]\nSo $3x^3 - 27x^2 + 42x = 3x(x - 2)(x - 7)$. [A1]\n\nFinal answer: $3x(x - 2)(x - 7)$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Factorising a cubic completely"
@@ -220,7 +220,7 @@
       "After taking out the common factor you are left with a quadratic. Factorise it.",
       "Make sure your final answer is fully factorised: the common factor stays in front."
      ],
-     "solution": "Take out the common factor: $2x^3 + 2x^2 - 24x = 2x(x^2 + x - 12)$.\nFactorise the quadratic: $x^2 + x - 12 = (x + 4)(x - 3)$.\nSo $2x^3 + 2x^2 - 24x = 2x(x + 4)(x - 3)$.\n\nFinal answer: $2x(x + 4)(x - 3)$",
+     "solution": "Take out the common factor: $2x^3 + 2x^2 - 24x = 2x(x^2 + x - 12)$. [B1]\nFactorise the quadratic: $x^2 + x - 12 = (x + 4)(x - 3)$. [M1]\nSo $2x^3 + 2x^2 - 24x = 2x(x + 4)(x - 3)$. [A1]\n\nFinal answer: $2x(x + 4)(x - 3)$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Factorising a cubic completely"
@@ -234,7 +234,7 @@
       "After taking out the common factor you are left with a quadratic. Factorise it.",
       "Make sure your final answer is fully factorised: the common factor stays in front."
      ],
-     "solution": "Take out the common factor: $6x^3 + 10x^2 - 4x = 2x(3x^2 + 5x - 2)$.\nFactorise the quadratic: $3x^2 + 5x - 2 = (3x - 1)(x + 2)$.\nSo $6x^3 + 10x^2 - 4x = 2x(3x - 1)(x + 2)$.\n\nFinal answer: $2x(3x - 1)(x + 2)$",
+     "solution": "Take out the common factor: $6x^3 + 10x^2 - 4x = 2x(3x^2 + 5x - 2)$. [B1]\nFactorise the quadratic: $3x^2 + 5x - 2 = (3x - 1)(x + 2)$. [M1]\nSo $6x^3 + 10x^2 - 4x = 2x(3x - 1)(x + 2)$. [A1]\n\nFinal answer: $2x(3x - 1)(x + 2)$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Factorising a cubic completely"
@@ -249,7 +249,7 @@
       "Write the remainder over $(x + 2)(x - 1)$ and split it into $\\frac{C}{x + 2} + \\frac{D}{x - 1}$.",
       "To find $C$ and $D$, put the remainder $\\equiv C(x - 1) + D(x + 2)$ and substitute $x = -2$ and $x = 1$."
      ],
-     "solution": "Denominator: $(x + 2)(x - 1) = x^2 + x - 2$.\nDividing: $2x^3 + 3x^2 - 4x - 13 = (2x + 1)(x^2 + x - 2) + (-x - 11)$, so $A = 2$ and $B = 1$.\n$\\frac{-x - 11}{(x + 2)(x - 1)} \\equiv \\frac{C}{x + 2} + \\frac{D}{x - 1}$, so $-x - 11 \\equiv C(x - 1) + D(x + 2)$.\nLet $x = -2$: $-9 = C(-3)$, so $C = 3$.\nLet $x = 1$: $-12 = D(3)$, so $D = -4$.\n\nFinal answer: $A = 2$, $B = 1$, $C = 3$, $D = -4$",
+     "solution": "Denominator: $(x + 2)(x - 1) = x^2 + x - 2$.\nDividing: $2x^3 + 3x^2 - 4x - 13 = (2x + 1)(x^2 + x - 2) + (-x - 11)$, so $A = 2$ and $B = 1$. [B1]\n$\\frac{-x - 11}{(x + 2)(x - 1)} \\equiv \\frac{C}{x + 2} + \\frac{D}{x - 1}$, so $-x - 11 \\equiv C(x - 1) + D(x + 2)$. [M1]\nLet $x = -2$: $-9 = C(-3)$, so $C = 3$. [A1]\nLet $x = 1$: $-12 = D(3)$, so $D = -4$. [A1]\n\nFinal answer: $A = 2$, $B = 1$, $C = 3$, $D = -4$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Algebraic division and partial fractions"
@@ -264,7 +264,7 @@
       "Write the remainder over $(x + 3)(x - 2)$ and split it into $\\frac{C}{x + 3} + \\frac{D}{x - 2}$.",
       "To find $C$ and $D$, put the remainder $\\equiv C(x - 2) + D(x + 3)$ and substitute $x = -3$ and $x = 2$."
      ],
-     "solution": "Denominator: $(x + 3)(x - 2) = x^2 + x - 6$.\nDividing: $x^3 - 3x^2 - 3x + 20 = (1x - 4)(x^2 + x - 6) + (7x - 4)$, so $A = 1$ and $B = -4$.\n$\\frac{7x - 4}{(x + 3)(x - 2)} \\equiv \\frac{C}{x + 3} + \\frac{D}{x - 2}$, so $7x - 4 \\equiv C(x - 2) + D(x + 3)$.\nLet $x = -3$: $-25 = C(-5)$, so $C = 5$.\nLet $x = 2$: $10 = D(5)$, so $D = 2$.\n\nFinal answer: $A = 1$, $B = -4$, $C = 5$, $D = 2$",
+     "solution": "Denominator: $(x + 3)(x - 2) = x^2 + x - 6$.\nDividing: $x^3 - 3x^2 - 3x + 20 = (1x - 4)(x^2 + x - 6) + (7x - 4)$, so $A = 1$ and $B = -4$. [B1]\n$\\frac{7x - 4}{(x + 3)(x - 2)} \\equiv \\frac{C}{x + 3} + \\frac{D}{x - 2}$, so $7x - 4 \\equiv C(x - 2) + D(x + 3)$. [M1]\nLet $x = -3$: $-25 = C(-5)$, so $C = 5$. [A1]\nLet $x = 2$: $10 = D(5)$, so $D = 2$. [A1]\n\nFinal answer: $A = 1$, $B = -4$, $C = 5$, $D = 2$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Algebraic division and partial fractions"
@@ -279,7 +279,7 @@
       "Write the remainder over $(x + 1)(x - 4)$ and split it into $\\frac{C}{x + 1} + \\frac{D}{x - 4}$.",
       "To find $C$ and $D$, put the remainder $\\equiv C(x - 4) + D(x + 1)$ and substitute $x = -1$ and $x = 4$."
      ],
-     "solution": "Denominator: $(x + 1)(x - 4) = x^2 - 3x - 4$.\nDividing: $4x^3 - 9x^2 - 21x + 2 = (4x + 3)(x^2 - 3x - 4) + (4x + 14)$, so $A = 4$ and $B = 3$.\n$\\frac{4x + 14}{(x + 1)(x - 4)} \\equiv \\frac{C}{x + 1} + \\frac{D}{x - 4}$, so $4x + 14 \\equiv C(x - 4) + D(x + 1)$.\nLet $x = -1$: $10 = C(-5)$, so $C = -2$.\nLet $x = 4$: $30 = D(5)$, so $D = 6$.\n\nFinal answer: $A = 4$, $B = 3$, $C = -2$, $D = 6$",
+     "solution": "Denominator: $(x + 1)(x - 4) = x^2 - 3x - 4$.\nDividing: $4x^3 - 9x^2 - 21x + 2 = (4x + 3)(x^2 - 3x - 4) + (4x + 14)$, so $A = 4$ and $B = 3$. [B1]\n$\\frac{4x + 14}{(x + 1)(x - 4)} \\equiv \\frac{C}{x + 1} + \\frac{D}{x - 4}$, so $4x + 14 \\equiv C(x - 4) + D(x + 1)$. [M1]\nLet $x = -1$: $10 = C(-5)$, so $C = -2$. [A1]\nLet $x = 4$: $30 = D(5)$, so $D = 6$. [A1]\n\nFinal answer: $A = 4$, $B = 3$, $C = -2$, $D = 6$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Algebraic division and partial fractions"
@@ -295,7 +295,7 @@
       "(d) The graph of $P$ is a downward-facing parabola, so the maximum is at the midpoint of the roots (or at $x = -\\frac{b}{2a}$).",
       "(e) Work out $P$ at the given price, then compare with the actual profit. Comment on the size of the difference."
      ],
-     "solution": "(a) Gradient $= \\frac{300-1800}{45-20} = -60$. So $y = -60x + c$. Using $(20, 1800)$: $c = 1800 + 60\\times20 = 3000$, giving $y = 3000 - 60x$.\n(b) Profit $= (x - 5)y - 6000$ pounds $= (x - 5)(3000 - 60x) - 6000$.\n$= -60x^2 + 3300x - 15000 - 6000 = -60x^2 + 3300x - 21000$ pounds. Dividing by 1000: $P = -0.06x^2 + 3.3x - 21$.\n(c) $P > 0$: $-0.06x^2 + 3.3x - 21 > 0$. The roots of $-0.06x^2 + 3.3x - 21 = 0$ are $x = 7.34$ and $x = 47.66$ (2 d.p.). So the selling price is between £7.34 and £47.66: $7.34 < x < 47.66$.\n(d) The maximum is at $x = \\frac{7.3444 + 47.6556}{2} = 27.5$, so the selling price should be £27.50.\n(e) At $x = 30$: $P = -0.06(30)^2 + 3.3(30) - 21 = 24.00$, i.e. £24 000 profit predicted. The actual profit was £23 500, a difference of £500 (2.1% of the actual profit). The model is suitable: the prediction is within about 2% of the actual profit.\n\nFinal answer: (a) $y = 3000 - 60x$  (c) $7.34 < x < 47.66$  (d) £27.50  (e) The model is suitable: the prediction is within about 2% of the actual profit.",
+     "solution": "(a) Gradient $= \\frac{300-1800}{45-20} = -60$. So $y = -60x + c$. Using $(20, 1800)$: $c = 1800 + 60\\times20 = 3000$, giving $y = 3000 - 60x$. [M1 M1 A1]\n(b) Profit $= (x - 5)y - 6000$ pounds $= (x - 5)(3000 - 60x) - 6000$. [M1]\n$= -60x^2 + 3300x - 15000 - 6000 = -60x^2 + 3300x - 21000$ pounds. Dividing by 1000: $P = -0.06x^2 + 3.3x - 21$. [M1 A1]\n(c) $P > 0$: $-0.06x^2 + 3.3x - 21 > 0$. The roots of $-0.06x^2 + 3.3x - 21 = 0$ are $x = 7.34$ and $x = 47.66$ (2 d.p.). So the selling price is between £7.34 and £47.66: $7.34 < x < 47.66$. [M1 A1]\n(d) The maximum is at $x = \\frac{7.3444 + 47.6556}{2} = 27.5$, so the selling price should be £27.50. [B1]\n(e) At $x = 30$: $P = -0.06(30)^2 + 3.3(30) - 21 = 24.00$, i.e. £24 000 profit predicted. The actual profit was £23 500, a difference of £500 (2.1% of the actual profit). The model is suitable: the prediction is within about 2% of the actual profit. [M1 A1]\n\nFinal answer: (a) $y = 3000 - 60x$  (c) $7.34 < x < 47.66$  (d) £27.50  (e) The model is suitable: the prediction is within about 2% of the actual profit.",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Linear model, quadratic profit function, inequalities and evaluating a model"
@@ -311,7 +311,7 @@
       "(d) The graph of $P$ is a downward-facing parabola, so the maximum is at the midpoint of the roots (or at $x = -\\frac{b}{2a}$).",
       "(e) Work out $P$ at the given price, then compare with the actual profit. Comment on the size of the difference."
      ],
-     "solution": "(a) Gradient $= \\frac{400-1400}{32-12} = -50$. So $y = -50x + c$. Using $(12, 1400)$: $c = 1400 + 50\\times12 = 2000$, giving $y = 2000 - 50x$.\n(b) Profit $= (x - 6)y - 4000$ pounds $= (x - 6)(2000 - 50x) - 4000$.\n$= -50x^2 + 2300x - 12000 - 4000 = -50x^2 + 2300x - 16000$ pounds. Dividing by 1000: $P = -0.05x^2 + 2.3x - 16$.\n(c) $P > 0$: $-0.05x^2 + 2.3x - 16 > 0$. The roots of $-0.05x^2 + 2.3x - 16 = 0$ are $x = 8.54$ and $x = 37.46$ (2 d.p.). So the selling price is between £8.54 and £37.46: $8.54 < x < 37.46$.\n(d) The maximum is at $x = \\frac{8.5432 + 37.4568}{2} = 23$, so the selling price should be £23.00.\n(e) At $x = 25$: $P = -0.05(25)^2 + 2.3(25) - 16 = 10.25$, i.e. £10 250 profit predicted. The actual profit was £12 000, a difference of £1 750 (14.6% of the actual profit). The model is less suitable: it underestimates the actual profit by about 15%, so it should be refined.\n\nFinal answer: (a) $y = 2000 - 50x$  (c) $8.54 < x < 37.46$  (d) £23.00  (e) The model is less suitable: it underestimates the actual profit by about 15%, so it should be refined.",
+     "solution": "(a) Gradient $= \\frac{400-1400}{32-12} = -50$. So $y = -50x + c$. Using $(12, 1400)$: $c = 1400 + 50\\times12 = 2000$, giving $y = 2000 - 50x$. [M1 M1 A1]\n(b) Profit $= (x - 6)y - 4000$ pounds $= (x - 6)(2000 - 50x) - 4000$. [M1]\n$= -50x^2 + 2300x - 12000 - 4000 = -50x^2 + 2300x - 16000$ pounds. Dividing by 1000: $P = -0.05x^2 + 2.3x - 16$. [M1 A1]\n(c) $P > 0$: $-0.05x^2 + 2.3x - 16 > 0$. The roots of $-0.05x^2 + 2.3x - 16 = 0$ are $x = 8.54$ and $x = 37.46$ (2 d.p.). So the selling price is between £8.54 and £37.46: $8.54 < x < 37.46$. [M1 A1]\n(d) The maximum is at $x = \\frac{8.5432 + 37.4568}{2} = 23$, so the selling price should be £23.00. [B1]\n(e) At $x = 25$: $P = -0.05(25)^2 + 2.3(25) - 16 = 10.25$, i.e. £10 250 profit predicted. The actual profit was £12 000, a difference of £1 750 (14.6% of the actual profit). The model is less suitable: it underestimates the actual profit by about 15%, so it should be refined. [M1 A1]\n\nFinal answer: (a) $y = 2000 - 50x$  (c) $8.54 < x < 37.46$  (d) £23.00  (e) The model is less suitable: it underestimates the actual profit by about 15%, so it should be refined.",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Linear model, quadratic profit function, inequalities and evaluating a model"
@@ -327,7 +327,7 @@
       "(d) The graph of $P$ is a downward-facing parabola, so the maximum is at the midpoint of the roots (or at $x = -\\frac{b}{2a}$).",
       "(e) Work out $P$ at the given price, then compare with the actual profit. Comment on the size of the difference."
      ],
-     "solution": "(a) Gradient $= \\frac{200-1000}{30-10} = -40$. So $y = -40x + c$. Using $(10, 1000)$: $c = 1000 + 40\\times10 = 1400$, giving $y = 1400 - 40x$.\n(b) Profit $= (x - 6)y - 2000$ pounds $= (x - 6)(1400 - 40x) - 2000$.\n$= -40x^2 + 1640x - 8400 - 2000 = -40x^2 + 1640x - 10400$ pounds. Dividing by 1000: $P = -0.04x^2 + 1.64x - 10.4$.\n(c) $P > 0$: $-0.04x^2 + 1.64x - 10.4 > 0$. The roots of $-0.04x^2 + 1.64x - 10.4 = 0$ are $x = 7.84$ and $x = 33.16$ (2 d.p.). So the selling price is between £7.84 and £33.16: $7.84 < x < 33.16$.\n(d) The maximum is at $x = \\frac{7.8410 + 33.1590}{2} = 20.5$, so the selling price should be £20.50.\n(e) At $x = 20$: $P = -0.04(20)^2 + 1.64(20) - 10.4 = 6.40$, i.e. £6 400 profit predicted. The actual profit was £6 700, a difference of £300 (4.5% of the actual profit). The model is suitable: the prediction is within about 5% of the actual profit.\n\nFinal answer: (a) $y = 1400 - 40x$  (c) $7.84 < x < 33.16$  (d) £20.50  (e) The model is suitable: the prediction is within about 5% of the actual profit.",
+     "solution": "(a) Gradient $= \\frac{200-1000}{30-10} = -40$. So $y = -40x + c$. Using $(10, 1000)$: $c = 1000 + 40\\times10 = 1400$, giving $y = 1400 - 40x$. [M1 M1 A1]\n(b) Profit $= (x - 6)y - 2000$ pounds $= (x - 6)(1400 - 40x) - 2000$. [M1]\n$= -40x^2 + 1640x - 8400 - 2000 = -40x^2 + 1640x - 10400$ pounds. Dividing by 1000: $P = -0.04x^2 + 1.64x - 10.4$. [M1 A1]\n(c) $P > 0$: $-0.04x^2 + 1.64x - 10.4 > 0$. The roots of $-0.04x^2 + 1.64x - 10.4 = 0$ are $x = 7.84$ and $x = 33.16$ (2 d.p.). So the selling price is between £7.84 and £33.16: $7.84 < x < 33.16$. [M1 A1]\n(d) The maximum is at $x = \\frac{7.8410 + 33.1590}{2} = 20.5$, so the selling price should be £20.50. [B1]\n(e) At $x = 20$: $P = -0.04(20)^2 + 1.64(20) - 10.4 = 6.40$, i.e. £6 400 profit predicted. The actual profit was £6 700, a difference of £300 (4.5% of the actual profit). The model is suitable: the prediction is within about 5% of the actual profit. [M1 A1]\n\nFinal answer: (a) $y = 1400 - 40x$  (c) $7.84 < x < 33.16$  (d) £20.50  (e) The model is suitable: the prediction is within about 5% of the actual profit.",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Linear model, quadratic profit function, inequalities and evaluating a model"
@@ -342,7 +342,7 @@
       "(c) The graph of $y = kx$ is a straight line through the origin. Use the sketch: which gradients give a line that never touches the V-shape?",
       "(c) Consider the line parallel to the left-hand branch (gradient $-3$), and the line through the vertex of the V-shape, $\\left(2, -4\\right)$."
      ],
-     "solution": "(a) $|a| = 1$ so $a = 1$ or $a = -1$.\n$\\text{f}(1) = 3|1 - 2| - 4 = -1$ and $\\text{f}(-1) = 3|-1 - 2| - 4 = 5$.\n(b) $\\text{gf}(x) = 5\\left(3|x - 2| - 4\\right) - 3 = 15|x - 2| - 23$.\nSince $|x - 2| \\geqslant 0$, the range is $\\text{gf}(x) \\geqslant -23$.\n(c) The left-hand branch of the graph is $y = 2 - 3x$ (gradient $-3$, positive $y$-intercept $2$). The line $y = kx$ with $k = -3$ is parallel to it and lies below it, so there is no intersection at $k = -3$.\nThe line through the origin and the vertex $\\left(2, -4\\right)$ has gradient $k = \\frac{-4}{2} = -2$. This line does meet the graph (at the vertex), so this value of $k$ is not included.\nIf $k < -3$ the line is steeper than the left-hand branch, so it crosses that branch. If $k \\geqslant -2$ the line meets the graph. For $-3 \\leqslant k < -2$ the line stays below the graph. So the range of values of $k$ is $-3 \\leqslant k < -2$.\n\nFinal answer: (a) $-1$ or $5$  (b) $\\text{gf}(x) \\geqslant -23$  (c) $-3 \\leqslant k < -2$",
+     "solution": "(a) $|a| = 1$ so $a = 1$ or $a = -1$. [M1]\n$\\text{f}(1) = 3|1 - 2| - 4 = -1$ and $\\text{f}(-1) = 3|-1 - 2| - 4 = 5$. [A1]\n(b) $\\text{gf}(x) = 5\\left(3|x - 2| - 4\\right) - 3 = 15|x - 2| - 23$. [M1]\nSince $|x - 2| \\geqslant 0$, the range is $\\text{gf}(x) \\geqslant -23$. [A1]\n(c) The left-hand branch of the graph is $y = 2 - 3x$ (gradient $-3$, positive $y$-intercept $2$). The line $y = kx$ with $k = -3$ is parallel to it and lies below it, so there is no intersection at $k = -3$. [B1]\nThe line through the origin and the vertex $\\left(2, -4\\right)$ has gradient $k = \\frac{-4}{2} = -2$. This line does meet the graph (at the vertex), so this value of $k$ is not included. [M1 A1]\nIf $k < -3$ the line is steeper than the left-hand branch, so it crosses that branch. If $k \\geqslant -2$ the line meets the graph. For $-3 \\leqslant k < -2$ the line stays below the graph. So the range of values of $k$ is $-3 \\leqslant k < -2$. [A1]\n\nFinal answer: (a) $-1$ or $5$  (b) $\\text{gf}(x) \\geqslant -23$  (c) $-3 \\leqslant k < -2$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Modulus functions, composite functions and lines through the origin",
@@ -362,7 +362,7 @@
       "(c) The graph of $y = kx$ is a straight line through the origin. Use the sketch: which gradients give a line that never touches the V-shape?",
       "(c) Consider the line parallel to the left-hand branch (gradient $-5$), and the line through the vertex of the V-shape, $\\left(2, -6\\right)$."
      ],
-     "solution": "(a) $|a| = 1$ so $a = 1$ or $a = -1$.\n$\\text{f}(1) = 5|1 - 2| - 6 = -1$ and $\\text{f}(-1) = 5|-1 - 2| - 6 = 9$.\n(b) $\\text{gf}(x) = 3\\left(5|x - 2| - 6\\right) + 8 = 15|x - 2| - 10$.\nSince $|x - 2| \\geqslant 0$, the range is $\\text{gf}(x) \\geqslant -10$.\n(c) The left-hand branch of the graph is $y = 4 - 5x$ (gradient $-5$, positive $y$-intercept $4$). The line $y = kx$ with $k = -5$ is parallel to it and lies below it, so there is no intersection at $k = -5$.\nThe line through the origin and the vertex $\\left(2, -6\\right)$ has gradient $k = \\frac{-6}{2} = -3$. This line does meet the graph (at the vertex), so this value of $k$ is not included.\nIf $k < -5$ the line is steeper than the left-hand branch, so it crosses that branch. If $k \\geqslant -3$ the line meets the graph. For $-5 \\leqslant k < -3$ the line stays below the graph. So the range of values of $k$ is $-5 \\leqslant k < -3$.\n\nFinal answer: (a) $-1$ or $9$  (b) $\\text{gf}(x) \\geqslant -10$  (c) $-5 \\leqslant k < -3$",
+     "solution": "(a) $|a| = 1$ so $a = 1$ or $a = -1$. [M1]\n$\\text{f}(1) = 5|1 - 2| - 6 = -1$ and $\\text{f}(-1) = 5|-1 - 2| - 6 = 9$. [A1]\n(b) $\\text{gf}(x) = 3\\left(5|x - 2| - 6\\right) + 8 = 15|x - 2| - 10$. [M1]\nSince $|x - 2| \\geqslant 0$, the range is $\\text{gf}(x) \\geqslant -10$. [A1]\n(c) The left-hand branch of the graph is $y = 4 - 5x$ (gradient $-5$, positive $y$-intercept $4$). The line $y = kx$ with $k = -5$ is parallel to it and lies below it, so there is no intersection at $k = -5$. [B1]\nThe line through the origin and the vertex $\\left(2, -6\\right)$ has gradient $k = \\frac{-6}{2} = -3$. This line does meet the graph (at the vertex), so this value of $k$ is not included. [M1 A1]\nIf $k < -5$ the line is steeper than the left-hand branch, so it crosses that branch. If $k \\geqslant -3$ the line meets the graph. For $-5 \\leqslant k < -3$ the line stays below the graph. So the range of values of $k$ is $-5 \\leqslant k < -3$. [A1]\n\nFinal answer: (a) $-1$ or $9$  (b) $\\text{gf}(x) \\geqslant -10$  (c) $-5 \\leqslant k < -3$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Modulus functions, composite functions and lines through the origin",
@@ -382,7 +382,7 @@
       "(c) The graph of $y = kx$ is a straight line through the origin. Use the sketch: which gradients give a line that never touches the V-shape?",
       "(c) Consider the line parallel to the left-hand branch (gradient $-2$), and the line through the vertex of the V-shape, $\\left(4, -3\\right)$."
      ],
-     "solution": "(a) $|a| = 1$ so $a = 1$ or $a = -1$.\n$\\text{f}(1) = 2|1 - 4| - 3 = 3$ and $\\text{f}(-1) = 2|-1 - 4| - 3 = 7$.\n(b) $\\text{gf}(x) = 6\\left(2|x - 4| - 3\\right) - 5 = 12|x - 4| - 23$.\nSince $|x - 4| \\geqslant 0$, the range is $\\text{gf}(x) \\geqslant -23$.\n(c) The left-hand branch of the graph is $y = 5 - 2x$ (gradient $-2$, positive $y$-intercept $5$). The line $y = kx$ with $k = -2$ is parallel to it and lies below it, so there is no intersection at $k = -2$.\nThe line through the origin and the vertex $\\left(4, -3\\right)$ has gradient $k = \\frac{-3}{4} = -\\frac{3}{4}$. This line does meet the graph (at the vertex), so this value of $k$ is not included.\nIf $k < -2$ the line is steeper than the left-hand branch, so it crosses that branch. If $k \\geqslant -\\frac{3}{4}$ the line meets the graph. For $-2 \\leqslant k < -\\frac{3}{4}$ the line stays below the graph. So the range of values of $k$ is $-2 \\leqslant k < -\\frac{3}{4}$.\n\nFinal answer: (a) $3$ or $7$  (b) $\\text{gf}(x) \\geqslant -23$  (c) $-2 \\leqslant k < -\\frac{3}{4}$",
+     "solution": "(a) $|a| = 1$ so $a = 1$ or $a = -1$. [M1]\n$\\text{f}(1) = 2|1 - 4| - 3 = 3$ and $\\text{f}(-1) = 2|-1 - 4| - 3 = 7$. [A1]\n(b) $\\text{gf}(x) = 6\\left(2|x - 4| - 3\\right) - 5 = 12|x - 4| - 23$. [M1]\nSince $|x - 4| \\geqslant 0$, the range is $\\text{gf}(x) \\geqslant -23$. [A1]\n(c) The left-hand branch of the graph is $y = 5 - 2x$ (gradient $-2$, positive $y$-intercept $5$). The line $y = kx$ with $k = -2$ is parallel to it and lies below it, so there is no intersection at $k = -2$. [B1]\nThe line through the origin and the vertex $\\left(4, -3\\right)$ has gradient $k = \\frac{-3}{4} = -\\frac{3}{4}$. This line does meet the graph (at the vertex), so this value of $k$ is not included. [M1 A1]\nIf $k < -2$ the line is steeper than the left-hand branch, so it crosses that branch. If $k \\geqslant -\\frac{3}{4}$ the line meets the graph. For $-2 \\leqslant k < -\\frac{3}{4}$ the line stays below the graph. So the range of values of $k$ is $-2 \\leqslant k < -\\frac{3}{4}$. [A1]\n\nFinal answer: (a) $3$ or $7$  (b) $\\text{gf}(x) \\geqslant -23$  (c) $-2 \\leqslant k < -\\frac{3}{4}$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Modulus functions, composite functions and lines through the origin",
@@ -407,7 +407,7 @@
       "For (b), an inverse function swaps the roles of $x$ and $y$.",
       "For (c), apply the modulus to the $y$-value first, then multiply, then subtract."
      ],
-     "solution": "(a) Translation of 3 to the right: $(2+3, -5) = (5, -5)$.\n(b) Reflection in $y = x$: $(-5, 2)$.\n(c) $x$ unchanged. $y = 3|-5| - 4 = 15 - 4 = 11$, giving $(2, 11)$.\n\nFinal answer: (a) $(5, -5)$  (b) $(-5, 2)$  (c) $(2, 11)$",
+     "solution": "(a) Translation of 3 to the right: $(2+3, -5) = (5, -5)$. [B1]\n(b) Reflection in $y = x$: $(-5, 2)$. [B1]\n(c) $x$ unchanged. $y = 3|-5| - 4 = 15 - 4 = 11$, giving $(2, 11)$. [M1 A1]\n\nFinal answer: (a) $(5, -5)$  (b) $(-5, 2)$  (c) $(2, 11)$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Transformations of a point on y = f(x)"
@@ -421,7 +421,7 @@
       "For (b), $1 - f(x)$ is a reflection in the $x$-axis followed by a translation.",
       "For (c), work out $f(x) - 7$ first, then take the modulus."
      ],
-     "solution": "(a) Stretch parallel to the $x$-axis with scale factor $\\tfrac{1}{2}$: $(-4, 3)$.\n(b) $y = 1 - 3 = -2$, giving $(-8, -2)$.\n(c) $y = 2|3 - 7| = 2 \\times 4 = 8$, giving $(-8, 8)$.\n\nFinal answer: (a) $(-4, 3)$  (b) $(-8, -2)$  (c) $(-8, 8)$",
+     "solution": "(a) Stretch parallel to the $x$-axis with scale factor $\\tfrac{1}{2}$: $(-4, 3)$. [B1]\n(b) $y = 1 - 3 = -2$, giving $(-8, -2)$. [B1]\n(c) $y = 2|3 - 7| = 2 \\times 4 = 8$, giving $(-8, 8)$. [M1 A1]\n\nFinal answer: (a) $(-4, 3)$  (b) $(-8, -2)$  (c) $(-8, 8)$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Transformations of a point on y = f(x)"
@@ -435,7 +435,7 @@
       "For (b), swap the coordinates.",
       "For (c), evaluate $2f(x) + 5$ at the $y$-value first, then take the modulus."
      ],
-     "solution": "(a) Stretch parallel to the $x$-axis with scale factor 3: $(27, -6)$.\n(b) $(-6, 9)$.\n(c) $y = |2(-6) + 5| = |-7| = 7$, giving $(9, 7)$.\n\nFinal answer: (a) $(27, -6)$  (b) $(-6, 9)$  (c) $(9, 7)$",
+     "solution": "(a) Stretch parallel to the $x$-axis with scale factor 3: $(27, -6)$. [B1]\n(b) $(-6, 9)$. [B1]\n(c) $y = |2(-6) + 5| = |-7| = 7$, giving $(9, 7)$. [M1 A1]\n\nFinal answer: (a) $(27, -6)$  (b) $(-6, 9)$  (c) $(9, 7)$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Transformations of a point on y = f(x)"
@@ -455,7 +455,7 @@
       "For the surd, look for the largest square factor of 45.",
       "For (b), compare the distance from the origin to the centre with the radius, or substitute $(0,0)$ into the left-hand side and compare with 45."
      ],
-     "solution": "(a)(i) Centre $(5, -2)$.\n(a)(ii) $r = \\sqrt{45} = \\sqrt{9 \\times 5} = 3\\sqrt{5}$.\n(b) At $(0,0)$: $(0-5)^2 + (0+2)^2 = 29$.\n$29 < 45$, so the origin lies inside the circle.\n\nFinal answer: (a)(i) $(5, -2)$  (ii) $3\\sqrt{5}$  (b) Inside, since $29 < 45$",
+     "solution": "(a)(i) Centre $(5, -2)$. [B1]\n(a)(ii) $r = \\sqrt{45} = \\sqrt{9 \\times 5} = 3\\sqrt{5}$. [M1 A1]\n(b) At $(0,0)$: $(0-5)^2 + (0+2)^2 = 29$. [M1]\n$29 < 45$, so the origin lies inside the circle. [A1]\n\nFinal answer: (a)(i) $(5, -2)$  (ii) $3\\sqrt{5}$  (b) Inside, since $29 < 45$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Circle equation: centre, radius, point position"
@@ -469,7 +469,7 @@
       "Write 32 as $16 \\times 2$.",
       "Evaluate the left-hand side at $(0,0)$ and compare with 32."
      ],
-     "solution": "(a)(i) Centre $(-6, 1)$.\n(a)(ii) $r = \\sqrt{32} = \\sqrt{16 \\times 2} = 4\\sqrt{2}$.\n(b) At $(0,0)$: $(0+6)^2 + (0-1)^2 = 37$.\n$37 > 32$, so the origin lies outside the circle.\n\nFinal answer: (a)(i) $(-6, 1)$  (ii) $4\\sqrt{2}$  (b) Outside, since $37 > 32$",
+     "solution": "(a)(i) Centre $(-6, 1)$. [B1]\n(a)(ii) $r = \\sqrt{32} = \\sqrt{16 \\times 2} = 4\\sqrt{2}$. [M1 A1]\n(b) At $(0,0)$: $(0+6)^2 + (0-1)^2 = 37$. [M1]\n$37 > 32$, so the origin lies outside the circle. [A1]\n\nFinal answer: (a)(i) $(-6, 1)$  (ii) $4\\sqrt{2}$  (b) Outside, since $37 > 32$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Circle equation: centre, radius, point position"
@@ -483,7 +483,7 @@
       "Write 50 as $25 \\times 2$.",
       "There are three possibilities for a point: inside, on, or outside. Check the value carefully."
      ],
-     "solution": "(a)(i) Centre $(5, 5)$.\n(a)(ii) $r = \\sqrt{50} = \\sqrt{25 \\times 2} = 5\\sqrt{2}$.\n(b) At $(0,0)$: $(0-5)^2 + (0-5)^2 = 50$.\nThis equals $r^2$, so the origin lies on the circle, not inside it.\n\nFinal answer: (a)(i) $(5, 5)$  (ii) $5\\sqrt{2}$  (b) Not inside; it lies on the circle since the value is exactly 50",
+     "solution": "(a)(i) Centre $(5, 5)$. [B1]\n(a)(ii) $r = \\sqrt{50} = \\sqrt{25 \\times 2} = 5\\sqrt{2}$. [M1 A1]\n(b) At $(0,0)$: $(0-5)^2 + (0-5)^2 = 50$. [M1]\nThis equals $r^2$, so the origin lies on the circle, not inside it. [A1]\n\nFinal answer: (a)(i) $(5, 5)$  (ii) $5\\sqrt{2}$  (b) Not inside; it lies on the circle since the value is exactly 50",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Circle equation: centre, radius, point position"
@@ -504,7 +504,7 @@
       "(b) Rearrange $x = \\ldots$ to make $t$ the subject, then substitute into $y$ to eliminate $t$.",
       "(c) Differentiate your Cartesian equation using the chain rule (or use $\\frac{dy}{dx} = \\frac{dy/dt}{dx/dt}$), then substitute $x$ at $P$."
      ],
-     "solution": "(a) $x = -1$: $\\frac{t + 3}{2} = -1$, so $t = -5$.\n$y = 3(t - 1)^4$ with $t = -5$ gives $y = 3888$.\n(b) Rearranging for $t$: $t = 2x - 3$. Then $y = 3(2x - 4)^4$.\n(c) $\\frac{dy}{dx} = 192 \\left(x - 2\\right)^{3}$. At $x = -1$: $\\frac{dy}{dx} = -5184$.\n(Check using parametric differentiation: $\\frac{dy}{dt} \\div \\frac{dx}{dt}$ at $t = -5$ gives the same gradient.)\n\nFinal answer: (a) $y = 3888$  (b) $y = 3(2x - 4)^4$  (c) gradient $= -5184$",
+     "solution": "(a) $x = -1$: $\\frac{t + 3}{2} = -1$, so $t = -5$. [M1]\n$y = 3(t - 1)^4$ with $t = -5$ gives $y = 3888$. [A1]\n(b) Rearranging for $t$: $t = 2x - 3$. Then $y = 3(2x - 4)^4$. [M1 A1]\n(c) $\\frac{dy}{dx} = 192 \\left(x - 2\\right)^{3}$. At $x = -1$: $\\frac{dy}{dx} = -5184$. [M1 A1 A1]\n(Check using parametric differentiation: $\\frac{dy}{dt} \\div \\frac{dx}{dt}$ at $t = -5$ gives the same gradient.)\n\nFinal answer: (a) $y = 3888$  (b) $y = 3(2x - 4)^4$  (c) gradient $= -5184$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Cartesian form, point on a curve, and gradient"
@@ -519,7 +519,7 @@
       "(b) Rearrange $x = \\ldots$ to make $t$ the subject, then substitute into $y$ to eliminate $t$.",
       "(c) Differentiate your Cartesian equation using the chain rule (or use $\\frac{dy}{dx} = \\frac{dy/dt}{dx/dt}$), then substitute $x$ at $P$."
      ],
-     "solution": "(a) $x = 1$: $\\frac{t - 2}{3} = 1$, so $t = 5$.\n$y = 4(t + 1)^3$ with $t = 5$ gives $y = 864$.\n(b) Rearranging for $t$: $t = 3x + 2$. Then $y = 4(3x + 3)^3$.\n(c) $\\frac{dy}{dx} = 324 \\left(x + 1\\right)^{2}$. At $x = 1$: $\\frac{dy}{dx} = 1296$.\n(Check using parametric differentiation: $\\frac{dy}{dt} \\div \\frac{dx}{dt}$ at $t = 5$ gives the same gradient.)\n\nFinal answer: (a) $y = 864$  (b) $y = 4(3x + 3)^3$  (c) gradient $= 1296$",
+     "solution": "(a) $x = 1$: $\\frac{t - 2}{3} = 1$, so $t = 5$. [M1]\n$y = 4(t + 1)^3$ with $t = 5$ gives $y = 864$. [A1]\n(b) Rearranging for $t$: $t = 3x + 2$. Then $y = 4(3x + 3)^3$. [M1 A1]\n(c) $\\frac{dy}{dx} = 324 \\left(x + 1\\right)^{2}$. At $x = 1$: $\\frac{dy}{dx} = 1296$. [M1 A1 A1]\n(Check using parametric differentiation: $\\frac{dy}{dt} \\div \\frac{dx}{dt}$ at $t = 5$ gives the same gradient.)\n\nFinal answer: (a) $y = 864$  (b) $y = 4(3x + 3)^3$  (c) gradient $= 1296$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Cartesian form, point on a curve, and gradient"
@@ -534,7 +534,7 @@
       "(b) Rearrange $x = \\ldots$ to make $t$ the subject, then substitute into $y$ to eliminate $t$.",
       "(c) Differentiate your Cartesian equation using the chain rule (or use $\\frac{dy}{dx} = \\frac{dy/dt}{dx/dt}$), then substitute $x$ at $P$."
      ],
-     "solution": "(a) $x = -2$: $\\frac{1 - t}{2} = -2$, so $t = 5$.\n$y = 6(t + 2)^3$ with $t = 5$ gives $y = 2058$.\n(b) Rearranging for $t$: $t = 1 - 2x$. Then $y = 6(3 - 2x)^3$.\n(c) $\\frac{dy}{dx} = - 36 \\left(2x - 3\\right)^{2}$. At $x = -2$: $\\frac{dy}{dx} = -1764$.\n(Check using parametric differentiation: $\\frac{dy}{dt} \\div \\frac{dx}{dt}$ at $t = 5$ gives the same gradient.)\n\nFinal answer: (a) $y = 2058$  (b) $y = 6(3 - 2x)^3$  (c) gradient $= -1764$",
+     "solution": "(a) $x = -2$: $\\frac{1 - t}{2} = -2$, so $t = 5$. [M1]\n$y = 6(t + 2)^3$ with $t = 5$ gives $y = 2058$. [A1]\n(b) Rearranging for $t$: $t = 1 - 2x$. Then $y = 6(3 - 2x)^3$. [M1 A1]\n(c) $\\frac{dy}{dx} = - 36 \\left(2x - 3\\right)^{2}$. At $x = -2$: $\\frac{dy}{dx} = -1764$. [M1 A1 A1]\n(Check using parametric differentiation: $\\frac{dy}{dt} \\div \\frac{dx}{dt}$ at $t = 5$ gives the same gradient.)\n\nFinal answer: (a) $y = 2058$  (b) $y = 6(3 - 2x)^3$  (c) gradient $= -1764$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Cartesian form, point on a curve, and gradient"
@@ -554,7 +554,7 @@
       "Set $14 - 2k = 5k - 14$ and solve for $k$.",
       "Once you have the first term and common difference, use $S_n = \\frac{n}{2}\\left[2a + (n-1)d\\right]$."
      ],
-     "solution": "(a) $14 - 2k = 5k - 14$, so $28 = 7k$ and $k = 4$.\n(b) The terms are $8, 14, 20$, so $a = 8$ and $d = 6$.\n$S_{40} = \\frac{40}{2}\\left[2(8) + 39(6)\\right] = 20 \\times 250 = 5000$.\n\nFinal answer: (a) $k = 4$  (b) $5000$",
+     "solution": "(a) $14 - 2k = 5k - 14$, so $28 = 7k$ and $k = 4$. [M1 A1]\n(b) The terms are $8, 14, 20$, so $a = 8$ and $d = 6$. [B1]\n$S_{40} = \\frac{40}{2}\\left[2(8) + 39(6)\\right] = 20 \\times 250 = 5000$. [M1 A1]\n\nFinal answer: (a) $k = 4$  (b) $5000$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Arithmetic sequences: common difference and sum"
@@ -568,7 +568,7 @@
       "$12 - 5k = k - 12$.",
       "The common difference will be negative, so take care with signs in the sum formula."
      ],
-     "solution": "(a) $12 - 5k = k - 12$, so $24 = 6k$ and $k = 4$.\n(b) The terms are $20, 12, 4$, so $a = 20$ and $d = -8$.\n$S_{30} = \\frac{30}{2}\\left[2(20) + 29(-8)\\right] = 15 \\times (-192) = -2880$.\n\nFinal answer: (a) $k = 4$  (b) $-2880$",
+     "solution": "(a) $12 - 5k = k - 12$, so $24 = 6k$ and $k = 4$. [M1 A1]\n(b) The terms are $20, 12, 4$, so $a = 20$ and $d = -8$. [B1]\n$S_{30} = \\frac{30}{2}\\left[2(20) + 29(-8)\\right] = 15 \\times (-192) = -2880$. [M1 A1]\n\nFinal answer: (a) $k = 4$  (b) $-2880$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Arithmetic sequences: common difference and sum"
@@ -582,7 +582,7 @@
       "$(5k - 2) - (2k + 1) = (6k + 1) - (5k - 2)$. Expand each side carefully.",
       "After finding $k$, write out the first three terms to read off $a$ and $d$."
      ],
-     "solution": "(a) $3k - 3 = k + 3$, so $2k = 6$ and $k = 3$.\n(b) The terms are $7, 13, 19$, so $a = 7$ and $d = 6$.\n$S_{25} = \\frac{25}{2}\\left[2(7) + 24(6)\\right] = \\frac{25}{2} \\times 158 = 1975$.\n\nFinal answer: (a) $k = 3$  (b) $1975$",
+     "solution": "(a) $3k - 3 = k + 3$, so $2k = 6$ and $k = 3$. [M1 A1]\n(b) The terms are $7, 13, 19$, so $a = 7$ and $d = 6$. [B1]\n$S_{25} = \\frac{25}{2}\\left[2(7) + 24(6)\\right] = \\frac{25}{2} \\times 158 = 1975$. [M1 A1]\n\nFinal answer: (a) $k = 3$  (b) $1975$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Arithmetic sequences: common difference and sum"
@@ -603,7 +603,7 @@
       "(b) Use part (a) to replace the left-hand side. Then use $\\sin 2\\theta = 2\\sin\\theta\\cos\\theta$.",
       "(b) Do not divide by a trig function: factorise instead, so you do not lose any solutions."
      ],
-     "solution": "(a) $\\sin(x+60^\\circ) = \\sin x\\cos 60^\\circ + \\cos x\\sin 60^\\circ = \\tfrac{1}{2}\\sin x + \\tfrac{\\sqrt{3}}{2}\\cos x$.\n$\\cos(x+60^\\circ) = \\cos x\\cos 60^\\circ - \\sin x\\sin 60^\\circ = \\tfrac{1}{2}\\cos x - \\tfrac{\\sqrt{3}}{2}\\sin x$, so $\\sqrt{3}\\cos(x+60^\\circ) = \\tfrac{\\sqrt{3}}{2}\\cos x - \\tfrac{3}{2}\\sin x$.\nSubtracting: $\\tfrac{1}{2}\\sin x + \\tfrac{3}{2}\\sin x + \\tfrac{\\sqrt{3}}{2}\\cos x - \\tfrac{\\sqrt{3}}{2}\\cos x = 2\\sin x$.\n(b) Using (a): $2\\sin\\theta = 3\\sin 2\\theta = 6\\sin\\theta\\cos\\theta$.\n$2\\sin\\theta(1 - 3\\cos\\theta) = 0$, so $\\sin\\theta = 0$ or $\\cos\\theta = \\tfrac{1}{3}$.\n$\\sin\\theta = 0 \\Rightarrow \\theta = 0^\\circ$ (in range). $\\cos\\theta = \\tfrac{1}{3} \\Rightarrow \\theta = 70.5^\\circ$ (1 d.p.).\n\nFinal answer: (b) $\\theta = 0^\\circ$, $70.5^\\circ$",
+     "solution": "(a) $\\sin(x+60^\\circ) = \\sin x\\cos 60^\\circ + \\cos x\\sin 60^\\circ = \\tfrac{1}{2}\\sin x + \\tfrac{\\sqrt{3}}{2}\\cos x$. [M1]\n$\\cos(x+60^\\circ) = \\cos x\\cos 60^\\circ - \\sin x\\sin 60^\\circ = \\tfrac{1}{2}\\cos x - \\tfrac{\\sqrt{3}}{2}\\sin x$, so $\\sqrt{3}\\cos(x+60^\\circ) = \\tfrac{\\sqrt{3}}{2}\\cos x - \\tfrac{3}{2}\\sin x$. [M1]\nSubtracting: $\\tfrac{1}{2}\\sin x + \\tfrac{3}{2}\\sin x + \\tfrac{\\sqrt{3}}{2}\\cos x - \\tfrac{\\sqrt{3}}{2}\\cos x = 2\\sin x$. [A1]\n(b) Using (a): $2\\sin\\theta = 3\\sin 2\\theta = 6\\sin\\theta\\cos\\theta$. [M1]\n$2\\sin\\theta(1 - 3\\cos\\theta) = 0$, so $\\sin\\theta = 0$ or $\\cos\\theta = \\tfrac{1}{3}$. [M1]\n$\\sin\\theta = 0 \\Rightarrow \\theta = 0^\\circ$ (in range). $\\cos\\theta = \\tfrac{1}{3} \\Rightarrow \\theta = 70.5^\\circ$ (1 d.p.). [A1 A1]\n\nFinal answer: (b) $\\theta = 0^\\circ$, $70.5^\\circ$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Compound-angle expansion and solving equations with double angles"
@@ -618,7 +618,7 @@
       "(b) Use part (a) to replace the left-hand side. Then use $\\sin 2\\theta = 2\\sin\\theta\\cos\\theta$.",
       "(b) Do not divide by a trig function: factorise instead, so you do not lose any solutions."
      ],
-     "solution": "(a) $\\cos(x+60^\\circ) = \\tfrac{1}{2}\\cos x - \\tfrac{\\sqrt{3}}{2}\\sin x$.\n$\\sqrt{3}\\sin(x+60^\\circ) = \\sqrt{3}\\left(\\tfrac{1}{2}\\sin x + \\tfrac{\\sqrt{3}}{2}\\cos x\\right) = \\tfrac{\\sqrt{3}}{2}\\sin x + \\tfrac{3}{2}\\cos x$.\nAdding: $\\left(\\tfrac{1}{2} + \\tfrac{3}{2}\\right)\\cos x + \\left(-\\tfrac{\\sqrt{3}}{2} + \\tfrac{\\sqrt{3}}{2}\\right)\\sin x = 2\\cos x$.\n(b) Using (a): $2\\cos\\theta = 4\\sin 2\\theta = 8\\sin\\theta\\cos\\theta$.\n$2\\cos\\theta(1 - 4\\sin\\theta) = 0$, so $\\cos\\theta = 0$ or $\\sin\\theta = \\tfrac{1}{4}$.\n$\\cos\\theta = 0 \\Rightarrow \\theta = 90^\\circ$. $\\sin\\theta = \\tfrac{1}{4} \\Rightarrow \\theta = 14.5^\\circ$ or $180^\\circ - 14.5^\\circ = 165.5^\\circ$ (1 d.p.).\n\nFinal answer: (b) $\\theta = 14.5^\\circ$, $90^\\circ$, $165.5^\\circ$",
+     "solution": "(a) $\\cos(x+60^\\circ) = \\tfrac{1}{2}\\cos x - \\tfrac{\\sqrt{3}}{2}\\sin x$. [M1]\n$\\sqrt{3}\\sin(x+60^\\circ) = \\sqrt{3}\\left(\\tfrac{1}{2}\\sin x + \\tfrac{\\sqrt{3}}{2}\\cos x\\right) = \\tfrac{\\sqrt{3}}{2}\\sin x + \\tfrac{3}{2}\\cos x$. [M1]\nAdding: $\\left(\\tfrac{1}{2} + \\tfrac{3}{2}\\right)\\cos x + \\left(-\\tfrac{\\sqrt{3}}{2} + \\tfrac{\\sqrt{3}}{2}\\right)\\sin x = 2\\cos x$. [A1]\n(b) Using (a): $2\\cos\\theta = 4\\sin 2\\theta = 8\\sin\\theta\\cos\\theta$. [M1]\n$2\\cos\\theta(1 - 4\\sin\\theta) = 0$, so $\\cos\\theta = 0$ or $\\sin\\theta = \\tfrac{1}{4}$. [M1]\n$\\cos\\theta = 0 \\Rightarrow \\theta = 90^\\circ$. $\\sin\\theta = \\tfrac{1}{4} \\Rightarrow \\theta = 14.5^\\circ$ or $180^\\circ - 14.5^\\circ = 165.5^\\circ$ (1 d.p.). [A1 A1]\n\nFinal answer: (b) $\\theta = 14.5^\\circ$, $90^\\circ$, $165.5^\\circ$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Compound-angle expansion and solving equations with double angles"
@@ -633,7 +633,7 @@
       "(b) Use part (a) to replace the left-hand side. Then use $\\sin 2\\theta = 2\\sin\\theta\\cos\\theta$.",
       "(b) Do not divide by a trig function: factorise instead, so you do not lose any solutions."
      ],
-     "solution": "(a) $\\sin(x+45^\\circ) = \\tfrac{\\sqrt{2}}{2}(\\sin x + \\cos x)$.\n$\\cos(x+45^\\circ) = \\tfrac{\\sqrt{2}}{2}(\\cos x - \\sin x)$.\nAdding: $\\tfrac{\\sqrt{2}}{2}(\\sin x + \\cos x + \\cos x - \\sin x) = \\tfrac{\\sqrt{2}}{2} \\times 2\\cos x = \\sqrt{2}\\cos x$.\n(b) Using (a): $\\sqrt{2}\\cos\\theta = \\sqrt{2}\\sin 2\\theta = 2\\sqrt{2}\\sin\\theta\\cos\\theta$.\n$\\sqrt{2}\\cos\\theta(1 - 2\\sin\\theta) = 0$, so $\\cos\\theta = 0$ or $\\sin\\theta = \\tfrac{1}{2}$.\n$\\cos\\theta = 0 \\Rightarrow \\theta = 90^\\circ$. $\\sin\\theta = \\tfrac{1}{2} \\Rightarrow \\theta = 30^\\circ$ or $150^\\circ$.\n\nFinal answer: (b) $\\theta = 30.0^\\circ$, $90.0^\\circ$, $150.0^\\circ$",
+     "solution": "(a) $\\sin(x+45^\\circ) = \\tfrac{\\sqrt{2}}{2}(\\sin x + \\cos x)$. [M1]\n$\\cos(x+45^\\circ) = \\tfrac{\\sqrt{2}}{2}(\\cos x - \\sin x)$. [M1]\nAdding: $\\tfrac{\\sqrt{2}}{2}(\\sin x + \\cos x + \\cos x - \\sin x) = \\tfrac{\\sqrt{2}}{2} \\times 2\\cos x = \\sqrt{2}\\cos x$. [A1]\n(b) Using (a): $\\sqrt{2}\\cos\\theta = \\sqrt{2}\\sin 2\\theta = 2\\sqrt{2}\\sin\\theta\\cos\\theta$. [M1]\n$\\sqrt{2}\\cos\\theta(1 - 2\\sin\\theta) = 0$, so $\\cos\\theta = 0$ or $\\sin\\theta = \\tfrac{1}{2}$. [M1]\n$\\cos\\theta = 0 \\Rightarrow \\theta = 90^\\circ$. $\\sin\\theta = \\tfrac{1}{2} \\Rightarrow \\theta = 30^\\circ$ or $150^\\circ$. [A1 A1]\n\nFinal answer: (b) $\\theta = 30.0^\\circ$, $90.0^\\circ$, $150.0^\\circ$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Compound-angle expansion and solving equations with double angles"
@@ -648,7 +648,7 @@
       "(b) Area of $R$ = area of triangle $ABD$ $-$ area of sector $ABC$.",
       "(b) Triangle: $\\tfrac{1}{2}\\times AB \\times BD \\times \\sin B$. Sector: $\\tfrac{1}{2}r^2\\theta$ with $r = BA$ and $\\theta$ in radians."
      ],
-     "solution": "(a) Angle $ABC$ = angle $ABD$ since $C$ lies on $BD$.\n$\\cos ABD = \\frac{10^2 + 15^2 - 7^2}{2 \\times 10 \\times 15} = \\frac{276}{300} = 0.92$.\nSo angle $ABC = 0.4027$ radians $= 0.403$ radians (3 s.f.).\n(b) Area of triangle $ABD = \\tfrac{1}{2} \\times 10 \\times 15 \\times \\sin 0.4027 = 29.394$ cm$^2$.\nArea of sector $ABC = \\tfrac{1}{2} \\times 10^2 \\times 0.4027 = 20.136$ cm$^2$.\nArea of $R = 29.394 - 20.136 = 9.26$ cm$^2$ (3 s.f.).\n\nFinal answer: (a) angle $ABC = 0.403$ rad  (b) $9.26\\ \\text{cm}^2$",
+     "solution": "(a) Angle $ABC$ = angle $ABD$ since $C$ lies on $BD$.\n$\\cos ABD = \\frac{10^2 + 15^2 - 7^2}{2 \\times 10 \\times 15} = \\frac{276}{300} = 0.92$. [M1]\nSo angle $ABC = 0.4027$ radians $= 0.403$ radians (3 s.f.). [A1]\n(b) Area of triangle $ABD = \\tfrac{1}{2} \\times 10 \\times 15 \\times \\sin 0.4027 = 29.394$ cm$^2$. [M1]\nArea of sector $ABC = \\tfrac{1}{2} \\times 10^2 \\times 0.4027 = 20.136$ cm$^2$. [M1]\nArea of $R = 29.394 - 20.136 = 9.26$ cm$^2$ (3 s.f.). [A1]\n\nFinal answer: (a) angle $ABC = 0.403$ rad  (b) $9.26\\ \\text{cm}^2$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Cosine rule, sector area and composite regions",
@@ -668,7 +668,7 @@
       "(b) Area of $R$ = area of triangle $ABD$ $-$ area of sector $ABC$.",
       "(b) Triangle: $\\tfrac{1}{2}\\times AB \\times BD \\times \\sin B$. Sector: $\\tfrac{1}{2}r^2\\theta$ with $r = BA$ and $\\theta$ in radians."
      ],
-     "solution": "(a) Angle $ABC$ = angle $ABD$ since $C$ lies on $BD$.\n$\\cos ABD = \\frac{6^2 + 10^2 - 5^2}{2 \\times 6 \\times 10} = \\frac{111}{120} = 0.92500$.\nSo angle $ABC = 0.3898$ radians $= 0.390$ radians (3 s.f.).\n(b) Area of triangle $ABD = \\tfrac{1}{2} \\times 6 \\times 10 \\times \\sin 0.3898 = 11.399$ cm$^2$.\nArea of sector $ABC = \\tfrac{1}{2} \\times 6^2 \\times 0.3898 = 7.016$ cm$^2$.\nArea of $R = 11.399 - 7.016 = 4.38$ cm$^2$ (3 s.f.).\n\nFinal answer: (a) angle $ABC = 0.390$ rad  (b) $4.38\\ \\text{cm}^2$",
+     "solution": "(a) Angle $ABC$ = angle $ABD$ since $C$ lies on $BD$.\n$\\cos ABD = \\frac{6^2 + 10^2 - 5^2}{2 \\times 6 \\times 10} = \\frac{111}{120} = 0.92500$. [M1]\nSo angle $ABC = 0.3898$ radians $= 0.390$ radians (3 s.f.). [A1]\n(b) Area of triangle $ABD = \\tfrac{1}{2} \\times 6 \\times 10 \\times \\sin 0.3898 = 11.399$ cm$^2$. [M1]\nArea of sector $ABC = \\tfrac{1}{2} \\times 6^2 \\times 0.3898 = 7.016$ cm$^2$. [M1]\nArea of $R = 11.399 - 7.016 = 4.38$ cm$^2$ (3 s.f.). [A1]\n\nFinal answer: (a) angle $ABC = 0.390$ rad  (b) $4.38\\ \\text{cm}^2$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Cosine rule, sector area and composite regions",
@@ -688,7 +688,7 @@
       "(b) Area of $R$ = area of triangle $ABD$ $-$ area of sector $ABC$.",
       "(b) Triangle: $\\tfrac{1}{2}\\times AB \\times BD \\times \\sin B$. Sector: $\\tfrac{1}{2}r^2\\theta$ with $r = BA$ and $\\theta$ in radians."
      ],
-     "solution": "(a) Angle $ABC$ = angle $ABD$ since $C$ lies on $BD$.\n$\\cos ABD = \\frac{12^2 + 18^2 - 9^2}{2 \\times 12 \\times 18} = \\frac{387}{432} = 0.89583$.\nSo angle $ABC = 0.4605$ radians $= 0.460$ radians (3 s.f.).\n(b) Area of triangle $ABD = \\tfrac{1}{2} \\times 12 \\times 18 \\times \\sin 0.4605 = 47.994$ cm$^2$.\nArea of sector $ABC = \\tfrac{1}{2} \\times 12^2 \\times 0.4605 = 33.156$ cm$^2$.\nArea of $R = 47.994 - 33.156 = 14.8$ cm$^2$ (3 s.f.).\n\nFinal answer: (a) angle $ABC = 0.460$ rad  (b) $14.8\\ \\text{cm}^2$",
+     "solution": "(a) Angle $ABC$ = angle $ABD$ since $C$ lies on $BD$.\n$\\cos ABD = \\frac{12^2 + 18^2 - 9^2}{2 \\times 12 \\times 18} = \\frac{387}{432} = 0.89583$. [M1]\nSo angle $ABC = 0.4605$ radians $= 0.460$ radians (3 s.f.). [A1]\n(b) Area of triangle $ABD = \\tfrac{1}{2} \\times 12 \\times 18 \\times \\sin 0.4605 = 47.994$ cm$^2$. [M1]\nArea of sector $ABC = \\tfrac{1}{2} \\times 12^2 \\times 0.4605 = 33.156$ cm$^2$. [M1]\nArea of $R = 47.994 - 33.156 = 14.8$ cm$^2$ (3 s.f.). [A1]\n\nFinal answer: (a) angle $ABC = 0.460$ rad  (b) $14.8\\ \\text{cm}^2$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Cosine rule, sector area and composite regions",
@@ -708,7 +708,7 @@
       "(b) Use $\\sin\\theta \\approx \\theta$ and $\\tan\\theta \\approx \\theta$ in the denominator, multiply, and divide the numerator from (a) by the resulting $x^2$ term.",
       "(c) Think about what happens to $bx^2$ compared with $a$ when $x$ is very small."
      ],
-     "solution": "(a) $\\cos(4x) \\approx 1 - \\frac{(4x)^2}{2} = 1 - 8x^2$.\n$\\cos^2(4x) \\approx \\left(1 - 8x^2\\right)^2 = 1 - 16x^2 + 64x^4$.\nSo $1 - \\cos^2(4x) \\approx 16x^2 - 64x^4$, as required.\n(b) $\\sin\\left(x\\right) \\approx x$ and $\\tan\\left(2x\\right) \\approx 2x$, so the denominator $\\approx 2x^2$.\n$\\frac{1 - \\cos^2(4x)}{\\sin\\left(x\\right)\\tan\\left(2x\\right)} \\approx \\frac{16x^2 - 64x^4}{2x^2} = 8 - 32x^2$, so $a = 8$ and $b = -32$.\n(c) When $x$ is very small, $x^2$ is negligible, so the term $bx^2$ is approximately 0. The expression is approximately $8$.\n\nFinal answer: (b) $a = 8$, $b = -32$  (c) approximately $8$, because $x^2$ is negligible when $x$ is very small",
+     "solution": "(a) $\\cos(4x) \\approx 1 - \\frac{(4x)^2}{2} = 1 - 8x^2$. [M1]\n$\\cos^2(4x) \\approx \\left(1 - 8x^2\\right)^2 = 1 - 16x^2 + 64x^4$.\nSo $1 - \\cos^2(4x) \\approx 16x^2 - 64x^4$, as required. [A1]\n(b) $\\sin\\left(x\\right) \\approx x$ and $\\tan\\left(2x\\right) \\approx 2x$, so the denominator $\\approx 2x^2$. [M1]\n$\\frac{1 - \\cos^2(4x)}{\\sin\\left(x\\right)\\tan\\left(2x\\right)} \\approx \\frac{16x^2 - 64x^4}{2x^2} = 8 - 32x^2$, so $a = 8$ and $b = -32$. [A1]\n(c) When $x$ is very small, $x^2$ is negligible, so the term $bx^2$ is approximately 0. The expression is approximately $8$. [B1 B1]\n\nFinal answer: (b) $a = 8$, $b = -32$  (c) approximately $8$, because $x^2$ is negligible when $x$ is very small",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Small angle approximations"
@@ -723,7 +723,7 @@
       "(b) Use $\\sin\\theta \\approx \\theta$ and $\\tan\\theta \\approx \\theta$ in the denominator, multiply, and divide the numerator from (a) by the resulting $x^2$ term.",
       "(c) Think about what happens to $bx^2$ compared with $a$ when $x$ is very small."
      ],
-     "solution": "(a) $\\cos(6x) \\approx 1 - \\frac{(6x)^2}{2} = 1 - 18x^2$.\n$\\cos^2(6x) \\approx \\left(1 - 18x^2\\right)^2 = 1 - 36x^2 + 324x^4$.\nSo $1 - \\cos^2(6x) \\approx 36x^2 - 324x^4$, as required.\n(b) $\\sin\\left(\\frac{x}{2}\\right) \\approx \\frac{x}{2}$ and $\\tan\\left(3x\\right) \\approx 3x$, so the denominator $\\approx \\frac{3}{2}x^2$.\n$\\frac{1 - \\cos^2(6x)}{\\sin\\left(\\frac{x}{2}\\right)\\tan\\left(3x\\right)} \\approx \\frac{36x^2 - 324x^4}{\\frac{3}{2}x^2} = 24 - 216x^2$, so $a = 24$ and $b = -216$.\n(c) When $x$ is very small, $x^2$ is negligible, so the term $bx^2$ is approximately 0. The expression is approximately $24$.\n\nFinal answer: (b) $a = 24$, $b = -216$  (c) approximately $24$, because $x^2$ is negligible when $x$ is very small",
+     "solution": "(a) $\\cos(6x) \\approx 1 - \\frac{(6x)^2}{2} = 1 - 18x^2$. [M1]\n$\\cos^2(6x) \\approx \\left(1 - 18x^2\\right)^2 = 1 - 36x^2 + 324x^4$.\nSo $1 - \\cos^2(6x) \\approx 36x^2 - 324x^4$, as required. [A1]\n(b) $\\sin\\left(\\frac{x}{2}\\right) \\approx \\frac{x}{2}$ and $\\tan\\left(3x\\right) \\approx 3x$, so the denominator $\\approx \\frac{3}{2}x^2$. [M1]\n$\\frac{1 - \\cos^2(6x)}{\\sin\\left(\\frac{x}{2}\\right)\\tan\\left(3x\\right)} \\approx \\frac{36x^2 - 324x^4}{\\frac{3}{2}x^2} = 24 - 216x^2$, so $a = 24$ and $b = -216$. [A1]\n(c) When $x$ is very small, $x^2$ is negligible, so the term $bx^2$ is approximately 0. The expression is approximately $24$. [B1 B1]\n\nFinal answer: (b) $a = 24$, $b = -216$  (c) approximately $24$, because $x^2$ is negligible when $x$ is very small",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Small angle approximations"
@@ -738,7 +738,7 @@
       "(b) Use $\\sin\\theta \\approx \\theta$ and $\\tan\\theta \\approx \\theta$ in the denominator, multiply, and divide the numerator from (a) by the resulting $x^2$ term.",
       "(c) Think about what happens to $bx^2$ compared with $a$ when $x$ is very small."
      ],
-     "solution": "(a) $\\cos x \\approx 1 - \\frac{x^2}{2} = 1 - \\frac{1}{2}x^2$.\n$\\cos^2 x \\approx \\left(1 - \\frac{1}{2}x^2\\right)^2 = 1 - x^2 + \\frac{1}{4}x^4$.\nSo $1 - \\cos^2 x \\approx x^2 - \\frac{1}{4}x^4$, as required.\n(b) $\\sin\\left(\\frac{x}{3}\\right) \\approx \\frac{x}{3}$ and $\\tan\\left(\\frac{x}{4}\\right) \\approx \\frac{x}{4}$, so the denominator $\\approx \\frac{1}{12}x^2$.\n$\\frac{1 - \\cos^2 x}{\\sin\\left(\\frac{x}{3}\\right)\\tan\\left(\\frac{x}{4}\\right)} \\approx \\frac{x^2 - \\frac{1}{4}x^4}{\\frac{1}{12}x^2} = 12 - 3x^2$, so $a = 12$ and $b = -3$.\n(c) When $x$ is very small, $x^2$ is negligible, so the term $bx^2$ is approximately 0. The expression is approximately $12$.\n\nFinal answer: (b) $a = 12$, $b = -3$  (c) approximately $12$, because $x^2$ is negligible when $x$ is very small",
+     "solution": "(a) $\\cos x \\approx 1 - \\frac{x^2}{2} = 1 - \\frac{1}{2}x^2$. [M1]\n$\\cos^2 x \\approx \\left(1 - \\frac{1}{2}x^2\\right)^2 = 1 - x^2 + \\frac{1}{4}x^4$.\nSo $1 - \\cos^2 x \\approx x^2 - \\frac{1}{4}x^4$, as required. [A1]\n(b) $\\sin\\left(\\frac{x}{3}\\right) \\approx \\frac{x}{3}$ and $\\tan\\left(\\frac{x}{4}\\right) \\approx \\frac{x}{4}$, so the denominator $\\approx \\frac{1}{12}x^2$. [M1]\n$\\frac{1 - \\cos^2 x}{\\sin\\left(\\frac{x}{3}\\right)\\tan\\left(\\frac{x}{4}\\right)} \\approx \\frac{x^2 - \\frac{1}{4}x^4}{\\frac{1}{12}x^2} = 12 - 3x^2$, so $a = 12$ and $b = -3$. [A1]\n(c) When $x$ is very small, $x^2$ is negligible, so the term $bx^2$ is approximately 0. The expression is approximately $12$. [B1 B1]\n\nFinal answer: (b) $a = 12$, $b = -3$  (c) approximately $12$, because $x^2$ is negligible when $x$ is very small",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Small angle approximations"
@@ -752,7 +752,7 @@
       "(ii) Note that $\\sin^2(nx) = k^2$ means $\\sin(nx) = k$ or $\\sin(nx) = -k$.",
       "(ii) Alternatively: $\\sin^2(nx)$ has period $\\frac{\\pi}{n}$. How many periods fit into the interval, and how many solutions per period?"
      ],
-     "solution": "(i) $y = \\sin(nx)$ has period $\\frac{2\\pi}{n}$, so in $0 \\leqslant x < 2\\pi$ it completes $n$ cycles. For $0 < |k| < 1$, each cycle gives 2 solutions, so there are $2n$ solutions. $2n = 10$, so $n = 5$.\n(ii) $\\sin^2(5x)$ has period $\\frac{\\pi}{5}$.\nIn $0 \\leqslant x < 3\\pi$ there are $\\frac{3\\pi}{\\pi/5} = 15$ periods.\nSince $0 < k^2 < 1$, the line $y = k^2$ cuts each period of $\\sin^2(5x)$ twice, so there are $2 \\times 15 = 30$ solutions.\n(Check: $\\sin(5x) = k$ has 15 solutions in this interval and $\\sin(5x) = -k$ has 15 more, giving 30 in total.)\n\nFinal answer: (i) $n = 5$  (ii) 30 solutions",
+     "solution": "(i) $y = \\sin(nx)$ has period $\\frac{2\\pi}{n}$, so in $0 \\leqslant x < 2\\pi$ it completes $n$ cycles. For $0 < |k| < 1$, each cycle gives 2 solutions, so there are $2n$ solutions. $2n = 10$, so $n = 5$. [B1]\n(ii) $\\sin^2(5x)$ has period $\\frac{\\pi}{5}$.\nIn $0 \\leqslant x < 3\\pi$ there are $\\frac{3\\pi}{\\pi/5} = 15$ periods. [M1]\nSince $0 < k^2 < 1$, the line $y = k^2$ cuts each period of $\\sin^2(5x)$ twice, so there are $2 \\times 15 = 30$ solutions. [A1]\n(Check: $\\sin(5x) = k$ has 15 solutions in this interval and $\\sin(5x) = -k$ has 15 more, giving 30 in total.)\n\nFinal answer: (i) $n = 5$  (ii) 30 solutions",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Counting solutions of trigonometric equations from the graph"
@@ -766,7 +766,7 @@
       "(ii) Note that $\\cos^2(nx) = k^2$ means $\\cos(nx) = k$ or $\\cos(nx) = -k$.",
       "(ii) Alternatively: $\\cos^2(nx)$ has period $\\frac{\\pi}{n}$. How many periods fit into the interval, and how many solutions per period?"
      ],
-     "solution": "(i) $y = \\cos(nx)$ has period $\\frac{2\\pi}{n}$, so in $0 \\leqslant x < 2\\pi$ it completes $n$ cycles. For $0 < |k| < 1$, each cycle gives 2 solutions, so there are $2n$ solutions. $2n = 8$, so $n = 4$.\n(ii) $\\cos^2(4x)$ has period $\\frac{\\pi}{4}$.\nIn $0 \\leqslant x < 3\\pi$ there are $\\frac{3\\pi}{\\pi/4} = 12$ periods.\nSince $0 < k^2 < 1$, the line $y = k^2$ cuts each period of $\\cos^2(4x)$ twice, so there are $2 \\times 12 = 24$ solutions.\n(Check: $\\cos(4x) = k$ has 12 solutions in this interval and $\\cos(4x) = -k$ has 12 more, giving 24 in total.)\n\nFinal answer: (i) $n = 4$  (ii) 24 solutions",
+     "solution": "(i) $y = \\cos(nx)$ has period $\\frac{2\\pi}{n}$, so in $0 \\leqslant x < 2\\pi$ it completes $n$ cycles. For $0 < |k| < 1$, each cycle gives 2 solutions, so there are $2n$ solutions. $2n = 8$, so $n = 4$. [B1]\n(ii) $\\cos^2(4x)$ has period $\\frac{\\pi}{4}$.\nIn $0 \\leqslant x < 3\\pi$ there are $\\frac{3\\pi}{\\pi/4} = 12$ periods. [M1]\nSince $0 < k^2 < 1$, the line $y = k^2$ cuts each period of $\\cos^2(4x)$ twice, so there are $2 \\times 12 = 24$ solutions. [A1]\n(Check: $\\cos(4x) = k$ has 12 solutions in this interval and $\\cos(4x) = -k$ has 12 more, giving 24 in total.)\n\nFinal answer: (i) $n = 4$  (ii) 24 solutions",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Counting solutions of trigonometric equations from the graph"
@@ -780,7 +780,7 @@
       "(ii) Note that $\\sin^2(nx) = k^2$ means $\\sin(nx) = k$ or $\\sin(nx) = -k$.",
       "(ii) Alternatively: $\\sin^2(nx)$ has period $\\frac{\\pi}{n}$. How many periods fit into the interval, and how many solutions per period?"
      ],
-     "solution": "(i) $y = \\sin(nx)$ has period $\\frac{2\\pi}{n}$, so in $0 \\leqslant x < \\pi$ it completes $\\frac{n}{2}$ cycles. For $0 < |k| < 1$, each cycle gives 2 solutions, so there are $n$ solutions. We are told there are exactly 8, so $n = 8$.\n(ii) $\\sin^2(8x)$ has period $\\frac{\\pi}{8}$.\nIn $0 \\leqslant x < \\frac{5\\pi}{2}$ there are $\\frac{5\\pi}{2} \\div \\frac{\\pi}{8} = 20$ periods.\nSince $0 < k^2 < 1$, the line $y = k^2$ cuts each period of $\\sin^2(8x)$ twice, so there are $2 \\times 20 = 40$ solutions.\n(Check: $\\sin(8x) = k$ has 20 solutions in this interval and $\\sin(8x) = -k$ has 20 more, giving 40 in total.)\n\nFinal answer: (i) $n = 8$  (ii) 40 solutions",
+     "solution": "(i) $y = \\sin(nx)$ has period $\\frac{2\\pi}{n}$, so in $0 \\leqslant x < \\pi$ it completes $\\frac{n}{2}$ cycles. For $0 < |k| < 1$, each cycle gives 2 solutions, so there are $n$ solutions. We are told there are exactly 8, so $n = 8$. [B1]\n(ii) $\\sin^2(8x)$ has period $\\frac{\\pi}{8}$.\nIn $0 \\leqslant x < \\frac{5\\pi}{2}$ there are $\\frac{5\\pi}{2} \\div \\frac{\\pi}{8} = 20$ periods. [M1]\nSince $0 < k^2 < 1$, the line $y = k^2$ cuts each period of $\\sin^2(8x)$ twice, so there are $2 \\times 20 = 40$ solutions. [A1]\n(Check: $\\sin(8x) = k$ has 20 solutions in this interval and $\\sin(8x) = -k$ has 20 more, giving 40 in total.)\n\nFinal answer: (i) $n = 8$  (ii) 40 solutions",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Counting solutions of trigonometric equations from the graph"
@@ -802,7 +802,7 @@
       "(b) You should reach $e^{0.25t}(1 + 0.25t) = 12$. Rearrange for $e^{0.25t}$ and multiply top and bottom by 4 to clear the decimal.",
       "(c) Substitute $t_1 = 6$ to find $t_2$, then use $t_2$ to find $t_3$. Keep full calculator accuracy between steps."
      ],
-     "solution": "(a) $v = 0$: $t(12 - e^{0.25t}) = 0$. Since $t > 0$, $e^{0.25t} = 12$, so $t = 4\\ln 12 = 9.9396...$, giving $T = 9.9$ (1 d.p.).\n(b) $\\frac{dv}{dt} = 12 - e^{0.25t} - 0.25te^{0.25t} = 12 - (1 + 0.25t)e^{0.25t}$.\nSet $\\frac{dv}{dt} = 0$: $e^{0.25t} = \\frac{12}{1 + 0.25t} = \\frac{48}{t + 4}$ (multiplying top and bottom by 4).\nTake natural logs: $0.25t = \\ln\\left(\\frac{48}{t + 4}\\right)$, so $t = 4\\ln\\left(\\frac{48}{t + 4}\\right)$.\n(c)(i) $t_3 = 6.166$ (3 d.p.).\n(c)(ii) Repeated iteration converges to $t = 6.197$ (3 d.p.).\n\nFinal answer: (a) $T = 9.9$  (c)(i) $t_3 = 6.166$  (ii) $6.197$ seconds",
+     "solution": "(a) $v = 0$: $t(12 - e^{0.25t}) = 0$. Since $t > 0$, $e^{0.25t} = 12$, so $t = 4\\ln 12 = 9.9396...$, giving $T = 9.9$ (1 d.p.). [M1 A1]\n(b) $\\frac{dv}{dt} = 12 - e^{0.25t} - 0.25te^{0.25t} = 12 - (1 + 0.25t)e^{0.25t}$. [M1 A1]\nSet $\\frac{dv}{dt} = 0$: $e^{0.25t} = \\frac{12}{1 + 0.25t} = \\frac{48}{t + 4}$ (multiplying top and bottom by 4). [M1]\nTake natural logs: $0.25t = \\ln\\left(\\frac{48}{t + 4}\\right)$, so $t = 4\\ln\\left(\\frac{48}{t + 4}\\right)$. [A1]\n(c)(i) $t_3 = 6.166$ (3 d.p.). [M1 A1]\n(c)(ii) Repeated iteration converges to $t = 6.197$ (3 d.p.). [A1]\n\nFinal answer: (a) $T = 9.9$  (c)(i) $t_3 = 6.166$  (ii) $6.197$ seconds",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Modelling with exponentials, stationary points and iteration",
@@ -823,7 +823,7 @@
       "(b) You should reach $e^{0.1t}(1 + 0.1t) = 20$. Rearrange for $e^{0.1t}$ and multiply top and bottom by 10 to clear the decimal.",
       "(c) Substitute $t_1 = 20$ to find $t_2$, then use $t_2$ to find $t_3$. Keep full calculator accuracy between steps."
      ],
-     "solution": "(a) $v = 0$: $t(20 - e^{0.1t}) = 0$. Since $t > 0$, $e^{0.1t} = 20$, so $t = 10\\ln 20 = 29.9573...$, giving $T = 30.0$ (1 d.p.).\n(b) $\\frac{dv}{dt} = 20 - e^{0.1t} - 0.1te^{0.1t} = 20 - (1 + 0.1t)e^{0.1t}$.\nSet $\\frac{dv}{dt} = 0$: $e^{0.1t} = \\frac{20}{1 + 0.1t} = \\frac{200}{t + 10}$ (multiplying top and bottom by 10).\nTake natural logs: $0.1t = \\ln\\left(\\frac{200}{t + 10}\\right)$, so $t = 10\\ln\\left(\\frac{200}{t + 10}\\right)$.\n(c)(i) $t_3 = 19.320$ (3 d.p.).\n(c)(ii) Repeated iteration converges to $t = 19.231$ (3 d.p.).\n\nFinal answer: (a) $T = 30.0$  (c)(i) $t_3 = 19.320$  (ii) $19.231$ seconds",
+     "solution": "(a) $v = 0$: $t(20 - e^{0.1t}) = 0$. Since $t > 0$, $e^{0.1t} = 20$, so $t = 10\\ln 20 = 29.9573...$, giving $T = 30.0$ (1 d.p.). [M1 A1]\n(b) $\\frac{dv}{dt} = 20 - e^{0.1t} - 0.1te^{0.1t} = 20 - (1 + 0.1t)e^{0.1t}$. [M1 A1]\nSet $\\frac{dv}{dt} = 0$: $e^{0.1t} = \\frac{20}{1 + 0.1t} = \\frac{200}{t + 10}$ (multiplying top and bottom by 10). [M1]\nTake natural logs: $0.1t = \\ln\\left(\\frac{200}{t + 10}\\right)$, so $t = 10\\ln\\left(\\frac{200}{t + 10}\\right)$. [A1]\n(c)(i) $t_3 = 19.320$ (3 d.p.). [M1 A1]\n(c)(ii) Repeated iteration converges to $t = 19.231$ (3 d.p.). [A1]\n\nFinal answer: (a) $T = 30.0$  (c)(i) $t_3 = 19.320$  (ii) $19.231$ seconds",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Modelling with exponentials, stationary points and iteration",
@@ -844,7 +844,7 @@
       "(b) You should reach $e^{0.5t}(1 + 0.5t) = 9$. Rearrange for $e^{0.5t}$ and multiply top and bottom by 2 to clear the decimal.",
       "(c) Substitute $t_1 = 3$ to find $t_2$, then use $t_2$ to find $t_3$. Keep full calculator accuracy between steps."
      ],
-     "solution": "(a) $v = 0$: $t(9 - e^{0.5t}) = 0$. Since $t > 0$, $e^{0.5t} = 9$, so $t = 2\\ln 9 = 4.3944...$, giving $T = 4.4$ (1 d.p.).\n(b) $\\frac{dv}{dt} = 9 - e^{0.5t} - 0.5te^{0.5t} = 9 - (1 + 0.5t)e^{0.5t}$.\nSet $\\frac{dv}{dt} = 0$: $e^{0.5t} = \\frac{9}{1 + 0.5t} = \\frac{18}{t + 2}$ (multiplying top and bottom by 2).\nTake natural logs: $0.5t = \\ln\\left(\\frac{18}{t + 2}\\right)$, so $t = 2\\ln\\left(\\frac{18}{t + 2}\\right)$.\n(c)(i) $t_3 = 2.745$ (3 d.p.).\n(c)(ii) Repeated iteration converges to $t = 2.690$ (3 d.p.).\n\nFinal answer: (a) $T = 4.4$  (c)(i) $t_3 = 2.745$  (ii) $2.690$ seconds",
+     "solution": "(a) $v = 0$: $t(9 - e^{0.5t}) = 0$. Since $t > 0$, $e^{0.5t} = 9$, so $t = 2\\ln 9 = 4.3944...$, giving $T = 4.4$ (1 d.p.). [M1 A1]\n(b) $\\frac{dv}{dt} = 9 - e^{0.5t} - 0.5te^{0.5t} = 9 - (1 + 0.5t)e^{0.5t}$. [M1 A1]\nSet $\\frac{dv}{dt} = 0$: $e^{0.5t} = \\frac{9}{1 + 0.5t} = \\frac{18}{t + 2}$ (multiplying top and bottom by 2). [M1]\nTake natural logs: $0.5t = \\ln\\left(\\frac{18}{t + 2}\\right)$, so $t = 2\\ln\\left(\\frac{18}{t + 2}\\right)$. [A1]\n(c)(i) $t_3 = 2.745$ (3 d.p.). [M1 A1]\n(c)(ii) Repeated iteration converges to $t = 2.690$ (3 d.p.). [A1]\n\nFinal answer: (a) $T = 4.4$  (c)(i) $t_3 = 2.745$  (ii) $2.690$ seconds",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Modelling with exponentials, stationary points and iteration",
@@ -864,7 +864,7 @@
       "(b) Differentiate $V$ with respect to $t$. Then notice $Ae^{-kt} = V - 800$.",
       "(c) Think about what happens to the model as $t$ becomes very large."
      ],
-     "solution": "(a) $t = 0$: $800 + A = 12000$, so $A = 11200$.\n$V = 6000$ at $t = 3$: $800 + 11200e^{-3k} = 6000$, so $e^{-3k} = \\frac{5200}{11200} = \\frac{13}{28}$.\n$-3k = \\ln\\frac{13}{28}$, so $k = \\frac{1}{3}\\ln\\frac{28}{13} = 0.256$ (3 s.f.).\nSo $V = 800 + 11200e^{-0.256t}$.\n(b) $\\frac{dV}{dt} = -k \\times 11200e^{-kt}$. Since $V - 800 = 11200e^{-kt}$, $\\frac{dV}{dt} = -k(V - 800)$.\n(c) The model predicts the value never falls below £800, which is unrealistic in the long term (for example, the van could be scrapped and worth less).\n\nFinal answer: (a) $A = 11200$, $k = 0.256$, so $V = 800 + 11200e^{-0.256t}$  (b) $\\frac{dV}{dt} = -k(V - 800)$  (c) The model predicts the value never falls below £800, which is unrealistic in the long term (for example, the van could be scrapped and worth less).",
+     "solution": "(a) $t = 0$: $800 + A = 12000$, so $A = 11200$. [B1]\n$V = 6000$ at $t = 3$: $800 + 11200e^{-3k} = 6000$, so $e^{-3k} = \\frac{5200}{11200} = \\frac{13}{28}$. [M1]\n$-3k = \\ln\\frac{13}{28}$, so $k = \\frac{1}{3}\\ln\\frac{28}{13} = 0.256$ (3 s.f.). [M1]\nSo $V = 800 + 11200e^{-0.256t}$. [A1]\n(b) $\\frac{dV}{dt} = -k \\times 11200e^{-kt}$. Since $V - 800 = 11200e^{-kt}$, $\\frac{dV}{dt} = -k(V - 800)$. [M1 M1 A1]\n(c) The model predicts the value never falls below £800, which is unrealistic in the long term (for example, the van could be scrapped and worth less). [B1]\n\nFinal answer: (a) $A = 11200$, $k = 0.256$, so $V = 800 + 11200e^{-0.256t}$  (b) $\\frac{dV}{dt} = -k(V - 800)$  (c) The model predicts the value never falls below £800, which is unrealistic in the long term (for example, the van could be scrapped and worth less).",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Exponential decay model, exact values and rate of change"
@@ -879,7 +879,7 @@
       "(b) Differentiate $V$ with respect to $t$. Then notice $Ae^{-kt} = V - 2000$.",
       "(c) Think about what happens to the model as $t$ becomes very large."
      ],
-     "solution": "(a) $t = 0$: $2000 + A = 30000$, so $A = 28000$.\n$V = 18000$ at $t = 3$: $2000 + 28000e^{-3k} = 18000$, so $e^{-3k} = \\frac{16000}{28000} = \\frac{4}{7}$.\n$-3k = \\ln\\frac{4}{7}$, so $k = \\frac{1}{3}\\ln\\frac{7}{4} = 0.187$ (3 s.f.).\nSo $V = 2000 + 28000e^{-0.187t}$.\n(b) $\\frac{dV}{dt} = -k \\times 28000e^{-kt}$. Since $V - 2000 = 28000e^{-kt}$, $\\frac{dV}{dt} = -k(V - 2000)$.\n(c) The model predicts the value never falls below £2000, which is unrealistic in the long term (for example, the bike could become worthless or be scrapped).\n\nFinal answer: (a) $A = 28000$, $k = 0.187$, so $V = 2000 + 28000e^{-0.187t}$  (b) $\\frac{dV}{dt} = -k(V - 2000)$  (c) The model predicts the value never falls below £2000, which is unrealistic in the long term (for example, the bike could become worthless or be scrapped).",
+     "solution": "(a) $t = 0$: $2000 + A = 30000$, so $A = 28000$. [B1]\n$V = 18000$ at $t = 3$: $2000 + 28000e^{-3k} = 18000$, so $e^{-3k} = \\frac{16000}{28000} = \\frac{4}{7}$. [M1]\n$-3k = \\ln\\frac{4}{7}$, so $k = \\frac{1}{3}\\ln\\frac{7}{4} = 0.187$ (3 s.f.). [M1]\nSo $V = 2000 + 28000e^{-0.187t}$. [A1]\n(b) $\\frac{dV}{dt} = -k \\times 28000e^{-kt}$. Since $V - 2000 = 28000e^{-kt}$, $\\frac{dV}{dt} = -k(V - 2000)$. [M1 M1 A1]\n(c) The model predicts the value never falls below £2000, which is unrealistic in the long term (for example, the bike could become worthless or be scrapped). [B1]\n\nFinal answer: (a) $A = 28000$, $k = 0.187$, so $V = 2000 + 28000e^{-0.187t}$  (b) $\\frac{dV}{dt} = -k(V - 2000)$  (c) The model predicts the value never falls below £2000, which is unrealistic in the long term (for example, the bike could become worthless or be scrapped).",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Exponential decay model, exact values and rate of change"
@@ -894,7 +894,7 @@
       "(b) Differentiate $V$ with respect to $t$. Then notice $Ae^{-kt} = V - 300$.",
       "(c) Think about what happens to the model as $t$ becomes very large."
      ],
-     "solution": "(a) $t = 0$: $300 + A = 1500$, so $A = 1200$.\n$V = 600$ at $t = 2$: $300 + 1200e^{-2k} = 600$, so $e^{-2k} = \\frac{300}{1200} = \\frac{1}{4}$.\n$-2k = \\ln\\frac{1}{4}$, so $k = \\frac{1}{2}\\ln\\frac{4}{1} = 0.693$ (3 s.f.).\nSo $V = 300 + 1200e^{-0.693t}$.\n(b) $\\frac{dV}{dt} = -k \\times 1200e^{-kt}$. Since $V - 300 = 1200e^{-kt}$, $\\frac{dV}{dt} = -k(V - 300)$.\n(c) The model predicts the value never falls below £300, which is unrealistic as a laptop would eventually become obsolete and worthless.\n\nFinal answer: (a) $A = 1200$, $k = 0.693$, so $V = 300 + 1200e^{-0.693t}$  (b) $\\frac{dV}{dt} = -k(V - 300)$  (c) The model predicts the value never falls below £300, which is unrealistic as a laptop would eventually become obsolete and worthless.",
+     "solution": "(a) $t = 0$: $300 + A = 1500$, so $A = 1200$. [B1]\n$V = 600$ at $t = 2$: $300 + 1200e^{-2k} = 600$, so $e^{-2k} = \\frac{300}{1200} = \\frac{1}{4}$. [M1]\n$-2k = \\ln\\frac{1}{4}$, so $k = \\frac{1}{2}\\ln\\frac{4}{1} = 0.693$ (3 s.f.). [M1]\nSo $V = 300 + 1200e^{-0.693t}$. [A1]\n(b) $\\frac{dV}{dt} = -k \\times 1200e^{-kt}$. Since $V - 300 = 1200e^{-kt}$, $\\frac{dV}{dt} = -k(V - 300)$. [M1 M1 A1]\n(c) The model predicts the value never falls below £300, which is unrealistic as a laptop would eventually become obsolete and worthless. [B1]\n\nFinal answer: (a) $A = 1200$, $k = 0.693$, so $V = 300 + 1200e^{-0.693t}$  (b) $\\frac{dV}{dt} = -k(V - 300)$  (c) The model predicts the value never falls below £300, which is unrealistic as a laptop would eventually become obsolete and worthless.",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Exponential decay model, exact values and rate of change"
@@ -908,7 +908,7 @@
       "Use $\\ln(a^n) = n\\ln a$ to get $x\\ln 5 = y\\ln 11$.",
       "Divide both sides by $y$ and by the logarithm on the left."
      ],
-     "solution": "Take natural logs of both sides: $\\ln 5^{x} = \\ln 11^{y}$.\nUse the power law: $x\\ln 5 = y\\ln 11$.\nRearrange: $\\frac{x}{y} = \\frac{\\ln 11}{\\ln 5}$.\n\nFinal answer: $\\frac{x}{y} = \\frac{\\ln 11}{\\ln 5}$",
+     "solution": "Take natural logs of both sides: $\\ln 5^{x} = \\ln 11^{y}$. [M1]\nUse the power law: $x\\ln 5 = y\\ln 11$.\nRearrange: $\\frac{x}{y} = \\frac{\\ln 11}{\\ln 5}$. [A1]\n\nFinal answer: $\\frac{x}{y} = \\frac{\\ln 11}{\\ln 5}$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Solving index equations using logarithms"
@@ -922,7 +922,7 @@
       "Use $\\ln(a^n) = n\\ln a$ to get $x\\ln 2 = y\\ln 9$.",
       "Divide both sides by $y$ and by the logarithm on the left."
      ],
-     "solution": "Take natural logs of both sides: $\\ln 2^{x} = \\ln 9^{y}$.\nUse the power law: $x\\ln 2 = y\\ln 9$.\nRearrange: $\\frac{x}{y} = \\frac{\\ln 9}{\\ln 2}$.\n\nFinal answer: $\\frac{x}{y} = \\frac{\\ln 9}{\\ln 2} = \\frac{2\\ln 3}{\\ln 2}$",
+     "solution": "Take natural logs of both sides: $\\ln 2^{x} = \\ln 9^{y}$. [M1]\nUse the power law: $x\\ln 2 = y\\ln 9$.\nRearrange: $\\frac{x}{y} = \\frac{\\ln 9}{\\ln 2}$. [A1]\n\nFinal answer: $\\frac{x}{y} = \\frac{\\ln 9}{\\ln 2} = \\frac{2\\ln 3}{\\ln 2}$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Solving index equations using logarithms"
@@ -936,7 +936,7 @@
       "Use $\\ln(a^n) = n\\ln a$ to get $x\\ln 4 = y\\ln 10$.",
       "Divide both sides by $y$ and by the logarithm on the left."
      ],
-     "solution": "Take natural logs of both sides: $\\ln 4^{x} = \\ln 10^{y}$.\nUse the power law: $x\\ln 4 = y\\ln 10$.\nRearrange: $\\frac{x}{y} = \\frac{\\ln 10}{\\ln 4}$.\n\nFinal answer: $\\frac{x}{y} = \\frac{\\ln 10}{\\ln 4} = \\frac{\\ln 10}{2\\ln 2}$",
+     "solution": "Take natural logs of both sides: $\\ln 4^{x} = \\ln 10^{y}$. [M1]\nUse the power law: $x\\ln 4 = y\\ln 10$.\nRearrange: $\\frac{x}{y} = \\frac{\\ln 10}{\\ln 4}$. [A1]\n\nFinal answer: $\\frac{x}{y} = \\frac{\\ln 10}{\\ln 4} = \\frac{\\ln 10}{2\\ln 2}$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Solving index equations using logarithms"
@@ -951,7 +951,7 @@
       "(c) The rate of increase is $\\frac{dN}{dt}$. Differentiate $e^{-0.05t}$ using $\\frac{d}{dt}e^{at} = ae^{at}$.",
       "(d) The current model has $t \\to \\infty$ giving $N \\to 8000$. Which numbers in the equation set this limit?"
      ],
-     "solution": "(a) $N = 8000 - 8000e^{-0.05 \\times 4} = 8000 - 8000e^{-0.2} = 1450.2$, so 1450 smartphones to the nearest whole number.\n(b) $5000 = 8000 - 8000e^{-0.05T}$, so $e^{-0.05T} = \\frac{3000}{8000} = \\frac{3}{8}$.\n$-0.05T = \\ln\\frac{3}{8}$, so $T = \\frac{\\ln\\frac{8}{3}}{0.05} = 19.62$ (2 d.p.).\n(c) $\\frac{dN}{dt} = 8000 \\times 0.05e^{-0.05t} = 400e^{-0.05t}$. When $t = 4$: $\\frac{dN}{dt} = 400e^{-0.2} = 327$ smartphones per month (3 s.f.).\n(d) Change the constants $8000$ to $10000$: $N = 10000 - 10000e^{-0.05t}$, so that the upper limit is $10000$ (and $N = 0$ at $t = 0$).\n\nFinal answer: (a) $1450$  (b) $T = 19.62$  (c) $327$ per month  (d) $N = 10000 - 10000e^{-0.05t}$",
+     "solution": "(a) $N = 8000 - 8000e^{-0.05 \\times 4} = 8000 - 8000e^{-0.2} = 1450.2$, so 1450 smartphones to the nearest whole number. [M1 A1]\n(b) $5000 = 8000 - 8000e^{-0.05T}$, so $e^{-0.05T} = \\frac{3000}{8000} = \\frac{3}{8}$. [M1 M1]\n$-0.05T = \\ln\\frac{3}{8}$, so $T = \\frac{\\ln\\frac{8}{3}}{0.05} = 19.62$ (2 d.p.). [A1]\n(c) $\\frac{dN}{dt} = 8000 \\times 0.05e^{-0.05t} = 400e^{-0.05t}$. When $t = 4$: $\\frac{dN}{dt} = 400e^{-0.2} = 327$ smartphones per month (3 s.f.). [M1 A1]\n(d) Change the constants $8000$ to $10000$: $N = 10000 - 10000e^{-0.05t}$, so that the upper limit is $10000$ (and $N = 0$ at $t = 0$). [B1]\n\nFinal answer: (a) $1450$  (b) $T = 19.62$  (c) $327$ per month  (d) $N = 10000 - 10000e^{-0.05t}$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Exponential growth to a limit: values, rate of change and refining a model"
@@ -966,7 +966,7 @@
       "(c) The rate of increase is $\\frac{dN}{dt}$. Differentiate $e^{-0.1t}$ using $\\frac{d}{dt}e^{at} = ae^{at}$.",
       "(d) The current model has $t \\to \\infty$ giving $N \\to 2400$. Which numbers in the equation set this limit?"
      ],
-     "solution": "(a) $N = 2400 - 2400e^{-0.1 \\times 5} = 2400 - 2400e^{-0.5} = 944.3$, so 944 e-scooters to the nearest whole number.\n(b) $1800 = 2400 - 2400e^{-0.1T}$, so $e^{-0.1T} = \\frac{600}{2400} = \\frac{1}{4}$.\n$-0.1T = \\ln\\frac{1}{4}$, so $T = \\frac{\\ln\\frac{4}{1}}{0.1} = 13.86$ (2 d.p.).\n(c) $\\frac{dN}{dt} = 2400 \\times 0.1e^{-0.1t} = 240e^{-0.1t}$. When $t = 5$: $\\frac{dN}{dt} = 240e^{-0.5} = 146$ e-scooters per month (3 s.f.).\n(d) Change the constants $2400$ to $3000$: $N = 3000 - 3000e^{-0.1t}$, so that the upper limit is $3000$ (and $N = 0$ at $t = 0$).\n\nFinal answer: (a) $944$  (b) $T = 13.86$  (c) $146$ per month  (d) $N = 3000 - 3000e^{-0.1t}$",
+     "solution": "(a) $N = 2400 - 2400e^{-0.1 \\times 5} = 2400 - 2400e^{-0.5} = 944.3$, so 944 e-scooters to the nearest whole number. [M1 A1]\n(b) $1800 = 2400 - 2400e^{-0.1T}$, so $e^{-0.1T} = \\frac{600}{2400} = \\frac{1}{4}$. [M1 M1]\n$-0.1T = \\ln\\frac{1}{4}$, so $T = \\frac{\\ln\\frac{4}{1}}{0.1} = 13.86$ (2 d.p.). [A1]\n(c) $\\frac{dN}{dt} = 2400 \\times 0.1e^{-0.1t} = 240e^{-0.1t}$. When $t = 5$: $\\frac{dN}{dt} = 240e^{-0.5} = 146$ e-scooters per month (3 s.f.). [M1 A1]\n(d) Change the constants $2400$ to $3000$: $N = 3000 - 3000e^{-0.1t}$, so that the upper limit is $3000$ (and $N = 0$ at $t = 0$). [B1]\n\nFinal answer: (a) $944$  (b) $T = 13.86$  (c) $146$ per month  (d) $N = 3000 - 3000e^{-0.1t}$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Exponential growth to a limit: values, rate of change and refining a model"
@@ -981,7 +981,7 @@
       "(c) The rate of increase is $\\frac{dN}{dt}$. Differentiate $e^{-0.2t}$ using $\\frac{d}{dt}e^{at} = ae^{at}$.",
       "(d) The current model has $t \\to \\infty$ giving $N \\to 12000$. Which numbers in the equation set this limit?"
      ],
-     "solution": "(a) $N = 12000 - 12000e^{-0.2 \\times 2} = 12000 - 12000e^{-0.4} = 3956.2$, so 3956 copies of the game to the nearest whole number.\n(b) $10000 = 12000 - 12000e^{-0.2T}$, so $e^{-0.2T} = \\frac{2000}{12000} = \\frac{1}{6}$.\n$-0.2T = \\ln\\frac{1}{6}$, so $T = \\frac{\\ln\\frac{6}{1}}{0.2} = 8.96$ (2 d.p.).\n(c) $\\frac{dN}{dt} = 12000 \\times 0.2e^{-0.2t} = 2400e^{-0.2t}$. When $t = 2$: $\\frac{dN}{dt} = 2400e^{-0.4} = 1610$ copies of the game per month (3 s.f.).\n(d) Change the constants $12000$ to $15000$: $N = 15000 - 15000e^{-0.2t}$, so that the upper limit is $15000$ (and $N = 0$ at $t = 0$).\n\nFinal answer: (a) $3956$  (b) $T = 8.96$  (c) $1610$ per month  (d) $N = 15000 - 15000e^{-0.2t}$",
+     "solution": "(a) $N = 12000 - 12000e^{-0.2 \\times 2} = 12000 - 12000e^{-0.4} = 3956.2$, so 3956 copies of the game to the nearest whole number. [M1 A1]\n(b) $10000 = 12000 - 12000e^{-0.2T}$, so $e^{-0.2T} = \\frac{2000}{12000} = \\frac{1}{6}$. [M1 M1]\n$-0.2T = \\ln\\frac{1}{6}$, so $T = \\frac{\\ln\\frac{6}{1}}{0.2} = 8.96$ (2 d.p.). [A1]\n(c) $\\frac{dN}{dt} = 12000 \\times 0.2e^{-0.2t} = 2400e^{-0.2t}$. When $t = 2$: $\\frac{dN}{dt} = 2400e^{-0.4} = 1610$ copies of the game per month (3 s.f.). [M1 A1]\n(d) Change the constants $12000$ to $15000$: $N = 15000 - 15000e^{-0.2t}$, so that the upper limit is $15000$ (and $N = 0$ at $t = 0$). [B1]\n\nFinal answer: (a) $3956$  (b) $T = 8.96$  (c) $1610$ per month  (d) $N = 15000 - 15000e^{-0.2t}$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Exponential growth to a limit: values, rate of change and refining a model"
@@ -1001,7 +1001,7 @@
       "(b) A maximum on the $x$-axis is a repeated root, so $(x + 2)^2$ and $(x - 4)^2$ are factors. Write $f(x) = a(x + 2)^2(x - 4)^2$ and use $(0, -128)$ to find $a$.",
       "(c) $y = f(x) + k$ is $C$ translated up by $k$. Four intersections with the $x$-axis means the line $y = 0$ must cut the curve four times. Compare the shifted minimum and maximum values with 0."
      ],
-     "solution": "(a) The curve is increasing for $x \\leqslant -2$ and for $1 \\leqslant x \\leqslant 4$.\nSo $\\{x : x \\leqslant -2\\} \\cup \\{x : 1 \\leqslant x \\leqslant 4\\}$.\n(b) $f(x) = a(x+2)^2(x-4)^2$. At $(0, -128)$: $a(4)(16) = -128$, so $a = -2$.\n$f(x) = -2(x+2)^2(x-4)^2$.\n(c) By symmetry the minimum is at $x = 1$: $f(1) = -2(9)(9) = -162$. The maximum value is 0.\n$C_1$ has minimum $-162 + k$ and maxima $k$. For four roots we need $-162 + k < 0 < k$, so $0 < k < 162$.\n\nFinal answer: (a) $\\{x : x \\leqslant -2\\} \\cup \\{x : 1 \\leqslant x \\leqslant 4\\}$  (b) $f(x) = -2(x+2)^2(x-4)^2$  (c) $0 < k < 162$",
+     "solution": "(a) The curve is increasing for $x \\leqslant -2$ and for $1 \\leqslant x \\leqslant 4$. [M1]\nSo $\\{x : x \\leqslant -2\\} \\cup \\{x : 1 \\leqslant x \\leqslant 4\\}$. [A1]\n(b) $f(x) = a(x+2)^2(x-4)^2$. At $(0, -128)$: $a(4)(16) = -128$, so $a = -2$. [M1 M1]\n$f(x) = -2(x+2)^2(x-4)^2$. [A1]\n(c) By symmetry the minimum is at $x = 1$: $f(1) = -2(9)(9) = -162$. The maximum value is 0. [M1]\n$C_1$ has minimum $-162 + k$ and maxima $k$. For four roots we need $-162 + k < 0 < k$, so $0 < k < 162$. [A1]\n\nFinal answer: (a) $\\{x : x \\leqslant -2\\} \\cup \\{x : 1 \\leqslant x \\leqslant 4\\}$  (b) $f(x) = -2(x+2)^2(x-4)^2$  (c) $0 < k < 162$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Curve sketching: increasing/decreasing, quartic equation from turning points, translations",
@@ -1020,7 +1020,7 @@
       "(b) Maxima on the $x$-axis are repeated roots: $f(x) = a(x + 3)^2(x - 1)^2$. Use $(0, -36)$ to find $a$.",
       "(c) Translating up by $k$ raises the whole curve. Think about where the minimum and the maxima must be relative to the $x$-axis for four intersections."
      ],
-     "solution": "(a) The curve is increasing for $x \\leqslant -3$ and for $-1 \\leqslant x \\leqslant 1$.\nSo $\\{x : x \\leqslant -3\\} \\cup \\{x : -1 \\leqslant x \\leqslant 1\\}$.\n(b) $f(x) = a(x+3)^2(x-1)^2$. At $(0, -36)$: $a(9)(1) = -36$, so $a = -4$.\n$f(x) = -4(x+3)^2(x-1)^2$.\n(c) The minimum is at $x = -1$: $f(-1) = -4(4)(4) = -64$. The maximum value is 0.\nFor four roots: $-64 + k < 0 < k$, so $0 < k < 64$.\n\nFinal answer: (a) $\\{x : x \\leqslant -3\\} \\cup \\{x : -1 \\leqslant x \\leqslant 1\\}$  (b) $f(x) = -4(x+3)^2(x-1)^2$  (c) $0 < k < 64$",
+     "solution": "(a) The curve is increasing for $x \\leqslant -3$ and for $-1 \\leqslant x \\leqslant 1$. [M1]\nSo $\\{x : x \\leqslant -3\\} \\cup \\{x : -1 \\leqslant x \\leqslant 1\\}$. [A1]\n(b) $f(x) = a(x+3)^2(x-1)^2$. At $(0, -36)$: $a(9)(1) = -36$, so $a = -4$. [M1 M1]\n$f(x) = -4(x+3)^2(x-1)^2$. [A1]\n(c) The minimum is at $x = -1$: $f(-1) = -4(4)(4) = -64$. The maximum value is 0. [M1]\nFor four roots: $-64 + k < 0 < k$, so $0 < k < 64$. [A1]\n\nFinal answer: (a) $\\{x : x \\leqslant -3\\} \\cup \\{x : -1 \\leqslant x \\leqslant 1\\}$  (b) $f(x) = -4(x+3)^2(x-1)^2$  (c) $0 < k < 64$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Curve sketching: increasing/decreasing, quartic equation from turning points, translations",
@@ -1039,7 +1039,7 @@
       "(b) Minima on the $x$-axis are repeated roots: $f(x) = a(x + 1)^2(x - 3)^2$. Use $(0, 18)$ to find $a$.",
       "(c) This time the curve sits above the $x$-axis. Translating by $k$ must push the two minima below the axis while keeping the maximum above it."
      ],
-     "solution": "(a) The curve is decreasing for $x \\leqslant -1$ and for $1 \\leqslant x \\leqslant 3$.\nSo $\\{x : x \\leqslant -1\\} \\cup \\{x : 1 \\leqslant x \\leqslant 3\\}$.\n(b) $f(x) = a(x+1)^2(x-3)^2$. At $(0, 18)$: $a(1)(9) = 18$, so $a = 2$.\n$f(x) = 2(x+1)^2(x-3)^2$.\n(c) The maximum is at $x = 1$: $f(1) = 2(4)(4) = 32$. The minimum value is 0.\n$C_1$ has minima at $k$ and maximum $32 + k$. For four roots we need $k < 0 < 32 + k$, so $-32 < k < 0$.\n\nFinal answer: (a) $\\{x : x \\leqslant -1\\} \\cup \\{x : 1 \\leqslant x \\leqslant 3\\}$  (b) $f(x) = 2(x+1)^2(x-3)^2$  (c) $-32 < k < 0$",
+     "solution": "(a) The curve is decreasing for $x \\leqslant -1$ and for $1 \\leqslant x \\leqslant 3$. [M1]\nSo $\\{x : x \\leqslant -1\\} \\cup \\{x : 1 \\leqslant x \\leqslant 3\\}$. [A1]\n(b) $f(x) = a(x+1)^2(x-3)^2$. At $(0, 18)$: $a(1)(9) = 18$, so $a = 2$. [M1 M1]\n$f(x) = 2(x+1)^2(x-3)^2$. [A1]\n(c) The maximum is at $x = 1$: $f(1) = 2(4)(4) = 32$. The minimum value is 0. [M1]\n$C_1$ has minima at $k$ and maximum $32 + k$. For four roots we need $k < 0 < 32 + k$, so $-32 < k < 0$. [A1]\n\nFinal answer: (a) $\\{x : x \\leqslant -1\\} \\cup \\{x : 1 \\leqslant x \\leqslant 3\\}$  (b) $f(x) = 2(x+1)^2(x-3)^2$  (c) $-32 < k < 0$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Curve sketching: increasing/decreasing, quartic equation from turning points, translations",
@@ -1059,7 +1059,7 @@
       "(b) Write $P = 2r + kr^{-1}$, differentiate, and set $\\frac{dP}{dr} = 0$.",
       "(c) Find $\\frac{d^2P}{dr^2}$ and show it is positive at the stationary value (since $r > 0$)."
      ],
-     "solution": "(a) Area $= \\tfrac{1}{2}r^2\\theta + r \\times \\tfrac{1}{5}r = 180$, so $\\tfrac{1}{2}r^2\\theta = 180 - \\tfrac{r^2}{5}$ and $\\theta = \\frac{360}{r^2} - \\frac{2}{5}$.\nPerimeter $P = r + r\\theta + \\tfrac{1}{5}r + r + \\tfrac{1}{5}r = 2r + r\\theta + \\tfrac{2}{5}r$.\nSubstituting $\\theta$: $P = 2r + \\frac{360}{r} - \\tfrac{2}{5}r + \\tfrac{2}{5}r = 2r + \\frac{360}{r}$.\n(b) $P = 2r + 360r^{-1}$, so $\\frac{dP}{dr} = 2 - \\frac{360}{r^2}$. Setting this to 0: $r^2 = 180$, so $r = \\sqrt{180} = 6\\sqrt{5}$.\n(c) $\\frac{d^2P}{dr^2} = \\frac{720}{r^3}$. Since $r > 0$, this is positive, so $r = \\sqrt{180}$ gives a minimum perimeter.\n\nFinal answer: (a) $P = 2r + \\frac{360}{r}$  (b) $r = 6\\sqrt{5}$ ($\\approx 13.42$)  (c) $\\frac{d^2P}{dr^2} = \\frac{720}{r^3} > 0$, so a minimum",
+     "solution": "(a) Area $= \\tfrac{1}{2}r^2\\theta + r \\times \\tfrac{1}{5}r = 180$, so $\\tfrac{1}{2}r^2\\theta = 180 - \\tfrac{r^2}{5}$ and $\\theta = \\frac{360}{r^2} - \\frac{2}{5}$. [M1 M1]\nPerimeter $P = r + r\\theta + \\tfrac{1}{5}r + r + \\tfrac{1}{5}r = 2r + r\\theta + \\tfrac{2}{5}r$. [M1]\nSubstituting $\\theta$: $P = 2r + \\frac{360}{r} - \\tfrac{2}{5}r + \\tfrac{2}{5}r = 2r + \\frac{360}{r}$. [A1]\n(b) $P = 2r + 360r^{-1}$, so $\\frac{dP}{dr} = 2 - \\frac{360}{r^2}$. Setting this to 0: $r^2 = 180$, so $r = \\sqrt{180} = 6\\sqrt{5}$. [M1 M1 A1]\n(c) $\\frac{d^2P}{dr^2} = \\frac{720}{r^3}$. Since $r > 0$, this is positive, so $r = \\sqrt{180}$ gives a minimum perimeter. [M1 A1]\n\nFinal answer: (a) $P = 2r + \\frac{360}{r}$  (b) $r = 6\\sqrt{5}$ ($\\approx 13.42$)  (c) $\\frac{d^2P}{dr^2} = \\frac{720}{r^3} > 0$, so a minimum",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Optimisation: perimeter of a composite shape (sector and rectangle)",
@@ -1079,7 +1079,7 @@
       "(b) Write $P = 2r + kr^{-1}$, differentiate, and set $\\frac{dP}{dr} = 0$.",
       "(c) Find $\\frac{d^2P}{dr^2}$ and show it is positive at the stationary value (since $r > 0$)."
      ],
-     "solution": "(a) Area $= \\tfrac{1}{2}r^2\\theta + r \\times \\tfrac{1}{8}r = 125$, so $\\tfrac{1}{2}r^2\\theta = 125 - \\tfrac{r^2}{8}$ and $\\theta = \\frac{250}{r^2} - \\frac{2}{8}$.\nPerimeter $P = r + r\\theta + \\tfrac{1}{8}r + r + \\tfrac{1}{8}r = 2r + r\\theta + \\tfrac{2}{8}r$.\nSubstituting $\\theta$: $P = 2r + \\frac{250}{r} - \\tfrac{2}{8}r + \\tfrac{2}{8}r = 2r + \\frac{250}{r}$.\n(b) $P = 2r + 250r^{-1}$, so $\\frac{dP}{dr} = 2 - \\frac{250}{r^2}$. Setting this to 0: $r^2 = 125$, so $r = \\sqrt{125} = 5\\sqrt{5}$.\n(c) $\\frac{d^2P}{dr^2} = \\frac{500}{r^3}$. Since $r > 0$, this is positive, so $r = \\sqrt{125}$ gives a minimum perimeter.\n\nFinal answer: (a) $P = 2r + \\frac{250}{r}$  (b) $r = 5\\sqrt{5}$ ($\\approx 11.18$)  (c) $\\frac{d^2P}{dr^2} = \\frac{500}{r^3} > 0$, so a minimum",
+     "solution": "(a) Area $= \\tfrac{1}{2}r^2\\theta + r \\times \\tfrac{1}{8}r = 125$, so $\\tfrac{1}{2}r^2\\theta = 125 - \\tfrac{r^2}{8}$ and $\\theta = \\frac{250}{r^2} - \\frac{2}{8}$. [M1 M1]\nPerimeter $P = r + r\\theta + \\tfrac{1}{8}r + r + \\tfrac{1}{8}r = 2r + r\\theta + \\tfrac{2}{8}r$. [M1]\nSubstituting $\\theta$: $P = 2r + \\frac{250}{r} - \\tfrac{2}{8}r + \\tfrac{2}{8}r = 2r + \\frac{250}{r}$. [A1]\n(b) $P = 2r + 250r^{-1}$, so $\\frac{dP}{dr} = 2 - \\frac{250}{r^2}$. Setting this to 0: $r^2 = 125$, so $r = \\sqrt{125} = 5\\sqrt{5}$. [M1 M1 A1]\n(c) $\\frac{d^2P}{dr^2} = \\frac{500}{r^3}$. Since $r > 0$, this is positive, so $r = \\sqrt{125}$ gives a minimum perimeter. [M1 A1]\n\nFinal answer: (a) $P = 2r + \\frac{250}{r}$  (b) $r = 5\\sqrt{5}$ ($\\approx 11.18$)  (c) $\\frac{d^2P}{dr^2} = \\frac{500}{r^3} > 0$, so a minimum",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Optimisation: perimeter of a composite shape (sector and rectangle)",
@@ -1099,7 +1099,7 @@
       "(b) Write $P = 2r + kr^{-1}$, differentiate, and set $\\frac{dP}{dr} = 0$.",
       "(c) Find $\\frac{d^2P}{dr^2}$ and show it is positive at the stationary value (since $r > 0$)."
      ],
-     "solution": "(a) Area $= \\tfrac{1}{2}r^2\\theta + r \\times \\tfrac{1}{4}r = 90$, so $\\tfrac{1}{2}r^2\\theta = 90 - \\tfrac{r^2}{4}$ and $\\theta = \\frac{180}{r^2} - \\frac{2}{4}$.\nPerimeter $P = r + r\\theta + \\tfrac{1}{4}r + r + \\tfrac{1}{4}r = 2r + r\\theta + \\tfrac{2}{4}r$.\nSubstituting $\\theta$: $P = 2r + \\frac{180}{r} - \\tfrac{2}{4}r + \\tfrac{2}{4}r = 2r + \\frac{180}{r}$.\n(b) $P = 2r + 180r^{-1}$, so $\\frac{dP}{dr} = 2 - \\frac{180}{r^2}$. Setting this to 0: $r^2 = 90$, so $r = \\sqrt{90} = 3\\sqrt{10}$.\n(c) $\\frac{d^2P}{dr^2} = \\frac{360}{r^3}$. Since $r > 0$, this is positive, so $r = \\sqrt{90}$ gives a minimum perimeter.\n\nFinal answer: (a) $P = 2r + \\frac{180}{r}$  (b) $r = 3\\sqrt{10}$ ($\\approx 9.49$)  (c) $\\frac{d^2P}{dr^2} = \\frac{360}{r^3} > 0$, so a minimum",
+     "solution": "(a) Area $= \\tfrac{1}{2}r^2\\theta + r \\times \\tfrac{1}{4}r = 90$, so $\\tfrac{1}{2}r^2\\theta = 90 - \\tfrac{r^2}{4}$ and $\\theta = \\frac{180}{r^2} - \\frac{2}{4}$. [M1 M1]\nPerimeter $P = r + r\\theta + \\tfrac{1}{4}r + r + \\tfrac{1}{4}r = 2r + r\\theta + \\tfrac{2}{4}r$. [M1]\nSubstituting $\\theta$: $P = 2r + \\frac{180}{r} - \\tfrac{2}{4}r + \\tfrac{2}{4}r = 2r + \\frac{180}{r}$. [A1]\n(b) $P = 2r + 180r^{-1}$, so $\\frac{dP}{dr} = 2 - \\frac{180}{r^2}$. Setting this to 0: $r^2 = 90$, so $r = \\sqrt{90} = 3\\sqrt{10}$. [M1 M1 A1]\n(c) $\\frac{d^2P}{dr^2} = \\frac{360}{r^3}$. Since $r > 0$, this is positive, so $r = \\sqrt{90}$ gives a minimum perimeter. [M1 A1]\n\nFinal answer: (a) $P = 2r + \\frac{180}{r}$  (b) $r = 3\\sqrt{10}$ ($\\approx 9.49$)  (c) $\\frac{d^2P}{dr^2} = \\frac{360}{r^3} > 0$, so a minimum",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Optimisation: perimeter of a composite shape (sector and rectangle)",
@@ -1119,7 +1119,7 @@
       "(c) The graph is W-shaped. Find the other two stationary points by factorising $\\text{f}'(x)$ (you already know one root).",
       "(c) A horizontal line $y = k$ cuts the curve four times when it is above the higher of the two minima and below the local maximum. Compare the two minimum values."
      ],
-     "solution": "(a) $\\text{f}'(x) = 4x^3 - x^2 - 36x + a$. At a local maximum, $\\text{f}'(\\frac{1}{4}) = 0$.\n$4\\left(\\frac{1}{64}\\right) - \\left(\\frac{1}{16}\\right) - 36\\left(\\frac{1}{4}\\right) + a = 0$, which simplifies to $-9 + a = 0$.\nSo $a = 9$ (shown).\n(b) $\\text{f}\\left(\\frac{1}{4}\\right) = \\frac{16223}{768}$.\n(c) $\\text{f}'(x) = 4x^3 - x^2 - 36x + 9 = \\left(x - 3\\right) \\left(x + 3\\right) \\left(4x - 1\\right)$, so the stationary points are at $x = -3, \\frac{1}{4}, 3$. The local maximum is at $x = \\frac{1}{4}$, so the local minima are at the other two.\nMinimum values: $\\text{f}(-3) = -79$, $\\text{f}(3) = -43$.\nFour distinct solutions requires the line $y = k$ to be above both minima and below the local maximum, so $k$ must be above the higher minimum ($-43$): $-43 < k < \\frac{16223}{768}$.\nIn set notation: $\\left\\{k : -43 < k < \\frac{16223}{768}\\right\\}$.\n\nFinal answer: (a) $a = 9$  (b) $y = \\frac{16223}{768}$  (c) $\\left\\{k : -43 < k < \\frac{16223}{768}\\right\\}$",
+     "solution": "(a) $\\text{f}'(x) = 4x^3 - x^2 - 36x + a$. At a local maximum, $\\text{f}'(\\frac{1}{4}) = 0$. [M1 A1]\n$4\\left(\\frac{1}{64}\\right) - \\left(\\frac{1}{16}\\right) - 36\\left(\\frac{1}{4}\\right) + a = 0$, which simplifies to $-9 + a = 0$. [M1]\nSo $a = 9$ (shown). [A1]\n(b) $\\text{f}\\left(\\frac{1}{4}\\right) = \\frac{16223}{768}$. [B1]\n(c) $\\text{f}'(x) = 4x^3 - x^2 - 36x + 9 = \\left(x - 3\\right) \\left(x + 3\\right) \\left(4x - 1\\right)$, so the stationary points are at $x = -3, \\frac{1}{4}, 3$. The local maximum is at $x = \\frac{1}{4}$, so the local minima are at the other two. [M1]\nMinimum values: $\\text{f}(-3) = -79$, $\\text{f}(3) = -43$. [A1]\nFour distinct solutions requires the line $y = k$ to be above both minima and below the local maximum, so $k$ must be above the higher minimum ($-43$): $-43 < k < \\frac{16223}{768}$. [M1]\nIn set notation: $\\left\\{k : -43 < k < \\frac{16223}{768}\\right\\}$. [A1]\n\nFinal answer: (a) $a = 9$  (b) $y = \\frac{16223}{768}$  (c) $\\left\\{k : -43 < k < \\frac{16223}{768}\\right\\}$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Stationary points of a quartic with an unknown constant; solving f(x) = k",
@@ -1139,7 +1139,7 @@
       "(c) The graph is W-shaped. Find the other two stationary points by factorising $\\text{f}'(x)$ (you already know one root).",
       "(c) A horizontal line $y = k$ cuts the curve four times when it is above the higher of the two minima and below the local maximum. Compare the two minimum values."
      ],
-     "solution": "(a) $\\text{f}'(x) = 4x^3 + 3x^2 - 16x + a$. At a local maximum, $\\text{f}'(-\\frac{3}{4}) = 0$.\n$4\\left(-\\frac{27}{64}\\right) + 3\\left(\\frac{9}{16}\\right) - 16\\left(-\\frac{3}{4}\\right) + a = 0$, which simplifies to $12 + a = 0$.\nSo $a = -12$ (shown).\n(b) $\\text{f}\\left(-\\frac{3}{4}\\right) = \\frac{613}{256}$.\n(c) $\\text{f}'(x) = 4x^3 + 3x^2 - 16x - 12 = \\left(x - 2\\right) \\left(x + 2\\right) \\left(4x + 3\\right)$, so the stationary points are at $x = -2, -\\frac{3}{4}, 2$. The local maximum is at $x = -\\frac{3}{4}$, so the local minima are at the other two.\nMinimum values: $\\text{f}(-2) = -2$, $\\text{f}(2) = -34$.\nFour distinct solutions requires the line $y = k$ to be above both minima and below the local maximum, so $k$ must be above the higher minimum ($-2$): $-2 < k < \\frac{613}{256}$.\nIn set notation: $\\left\\{k : -2 < k < \\frac{613}{256}\\right\\}$.\n\nFinal answer: (a) $a = -12$  (b) $y = \\frac{613}{256}$  (c) $\\left\\{k : -2 < k < \\frac{613}{256}\\right\\}$",
+     "solution": "(a) $\\text{f}'(x) = 4x^3 + 3x^2 - 16x + a$. At a local maximum, $\\text{f}'(-\\frac{3}{4}) = 0$. [M1 A1]\n$4\\left(-\\frac{27}{64}\\right) + 3\\left(\\frac{9}{16}\\right) - 16\\left(-\\frac{3}{4}\\right) + a = 0$, which simplifies to $12 + a = 0$. [M1]\nSo $a = -12$ (shown). [A1]\n(b) $\\text{f}\\left(-\\frac{3}{4}\\right) = \\frac{613}{256}$. [B1]\n(c) $\\text{f}'(x) = 4x^3 + 3x^2 - 16x - 12 = \\left(x - 2\\right) \\left(x + 2\\right) \\left(4x + 3\\right)$, so the stationary points are at $x = -2, -\\frac{3}{4}, 2$. The local maximum is at $x = -\\frac{3}{4}$, so the local minima are at the other two. [M1]\nMinimum values: $\\text{f}(-2) = -2$, $\\text{f}(2) = -34$. [A1]\nFour distinct solutions requires the line $y = k$ to be above both minima and below the local maximum, so $k$ must be above the higher minimum ($-2$): $-2 < k < \\frac{613}{256}$. [M1]\nIn set notation: $\\left\\{k : -2 < k < \\frac{613}{256}\\right\\}$. [A1]\n\nFinal answer: (a) $a = -12$  (b) $y = \\frac{613}{256}$  (c) $\\left\\{k : -2 < k < \\frac{613}{256}\\right\\}$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Stationary points of a quartic with an unknown constant; solving f(x) = k",
@@ -1159,7 +1159,7 @@
       "(c) The graph is W-shaped. Find the other two stationary points by factorising $\\text{f}'(x)$ (you already know one root).",
       "(c) A horizontal line $y = k$ cuts the curve four times when it is above the higher of the two minima and below the local maximum. Compare the two minimum values."
      ],
-     "solution": "(a) $\\text{f}'(x) = 4x^3 - x^2 - 16x + a$. At a local maximum, $\\text{f}'(\\frac{1}{4}) = 0$.\n$4\\left(\\frac{1}{64}\\right) - \\left(\\frac{1}{16}\\right) - 16\\left(\\frac{1}{4}\\right) + a = 0$, which simplifies to $-4 + a = 0$.\nSo $a = 4$ (shown).\n(b) $\\text{f}\\left(\\frac{1}{4}\\right) = \\frac{4223}{768}$.\n(c) $\\text{f}'(x) = 4x^3 - x^2 - 16x + 4 = \\left(x - 2\\right) \\left(x + 2\\right) \\left(4x - 1\\right)$, so the stationary points are at $x = -2, \\frac{1}{4}, 2$. The local maximum is at $x = \\frac{1}{4}$, so the local minima are at the other two.\nMinimum values: $\\text{f}(-2) = -\\frac{49}{3}$, $\\text{f}(2) = -\\frac{17}{3}$.\nFour distinct solutions requires the line $y = k$ to be above both minima and below the local maximum, so $k$ must be above the higher minimum ($-\\frac{17}{3}$): $-\\frac{17}{3} < k < \\frac{4223}{768}$.\nIn set notation: $\\left\\{k : -\\frac{17}{3} < k < \\frac{4223}{768}\\right\\}$.\n\nFinal answer: (a) $a = 4$  (b) $y = \\frac{4223}{768}$  (c) $\\left\\{k : -\\frac{17}{3} < k < \\frac{4223}{768}\\right\\}$",
+     "solution": "(a) $\\text{f}'(x) = 4x^3 - x^2 - 16x + a$. At a local maximum, $\\text{f}'(\\frac{1}{4}) = 0$. [M1 A1]\n$4\\left(\\frac{1}{64}\\right) - \\left(\\frac{1}{16}\\right) - 16\\left(\\frac{1}{4}\\right) + a = 0$, which simplifies to $-4 + a = 0$. [M1]\nSo $a = 4$ (shown). [A1]\n(b) $\\text{f}\\left(\\frac{1}{4}\\right) = \\frac{4223}{768}$. [B1]\n(c) $\\text{f}'(x) = 4x^3 - x^2 - 16x + 4 = \\left(x - 2\\right) \\left(x + 2\\right) \\left(4x - 1\\right)$, so the stationary points are at $x = -2, \\frac{1}{4}, 2$. The local maximum is at $x = \\frac{1}{4}$, so the local minima are at the other two. [M1]\nMinimum values: $\\text{f}(-2) = -\\frac{49}{3}$, $\\text{f}(2) = -\\frac{17}{3}$. [A1]\nFour distinct solutions requires the line $y = k$ to be above both minima and below the local maximum, so $k$ must be above the higher minimum ($-\\frac{17}{3}$): $-\\frac{17}{3} < k < \\frac{4223}{768}$. [M1]\nIn set notation: $\\left\\{k : -\\frac{17}{3} < k < \\frac{4223}{768}\\right\\}$. [A1]\n\nFinal answer: (a) $a = 4$  (b) $y = \\frac{4223}{768}$  (c) $\\left\\{k : -\\frac{17}{3} < k < \\frac{4223}{768}\\right\\}$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Stationary points of a quartic with an unknown constant; solving f(x) = k",
@@ -1180,7 +1180,7 @@
       "(b) Use $\\cos^2\\theta - \\sin^2\\theta = \\cos 2\\theta$. Convert the limits by solving $\\tan\\theta = \\pm 1$.",
       "(c) The region $R$ lies above the $x$-axis between the two $x$-intercepts, so its area is the definite integral from part (b)."
      ],
-     "solution": "(a) $\\text{f}(x) = (4 - x^2)(4 + x^2)^{-2}$. By the product rule, $\\text{f}'(x) = \\left[-2x(4 + x^2)^{-2} - 4x(4 - x^2)(4 + x^2)^{-3}\\right]$.\nTaking out the common factor $(4 + x^2)^{-3}$: $\\text{f}'(x) = \\frac{-2x(12 - x^2)}{(4 + x^2)^3}$.\n$\\text{f}'(x) = 0$ gives $x = 0$ or $x = \\pm 2 \\sqrt{3}$. $P$ is to the left of the $y$-axis, so $x = -2 \\sqrt{3}$.\n$\\text{f}\\left(-2 \\sqrt{3}\\right) = \\frac{4 - 12}{(4 + 12)^2} = - \\frac{1}{32}$.\nSo $P = \\left(-2 \\sqrt{3}, - \\frac{1}{32}\\right)$.\n(b) $x = 2\\tan\\theta$ gives $dx = 2\\sec^2\\theta\\,d\\theta$ and $4 + x^2 = 4\\sec^2\\theta$ (using $1 + \\tan^2\\theta = \\sec^2\\theta$).\n$\\text{f}(x)\\,dx = \\frac{4(1 - \\tan^2\\theta)}{16\\sec^4\\theta} \\times 2\\sec^2\\theta\\,d\\theta = \\frac{1}{2}\\frac{1 - \\tan^2\\theta}{\\sec^2\\theta}\\,d\\theta = \\frac{1}{2}(\\cos^2\\theta - \\sin^2\\theta)\\,d\\theta = \\frac{1}{2}\\cos 2\\theta\\,d\\theta$.\nLimits: $x = -2$ gives $\\tan\\theta = -1$, so $\\theta = -\\frac{\\pi}{4}$; $x = 2$ gives $\\tan\\theta = 1$, so $\\theta = \\frac{\\pi}{4}$.\nSo $\\int_{-2}^{2}\\text{f}(x)\\,dx = \\int_{-\\pi/4}^{\\pi/4} \\frac{1}{2}\\cos 2\\theta\\,d\\theta$, with $\\alpha = -\\frac{\\pi}{4}$, $\\beta = \\frac{\\pi}{4}$ and $k = \\frac{1}{2}$.\n(c) Area $= \\frac{1}{2}\\left[\\tfrac{1}{2}\\sin 2\\theta\\right]_{-\\pi/4}^{\\pi/4} = \\frac{1}{2}\\left(\\tfrac{1}{2} + \\tfrac{1}{2}\\right) = \\frac{1}{2}$.\n\nFinal answer: (a) $P = \\left(-2 \\sqrt{3}, - \\frac{1}{32}\\right)$  (b) $\\alpha = -\\frac{\\pi}{4}$, $\\beta = \\frac{\\pi}{4}$, $k = \\frac{1}{2}$  (c) area $= \\frac{1}{2}$",
+     "solution": "(a) $\\text{f}(x) = (4 - x^2)(4 + x^2)^{-2}$. By the product rule, $\\text{f}'(x) = \\left[-2x(4 + x^2)^{-2} - 4x(4 - x^2)(4 + x^2)^{-3}\\right]$. [M1]\nTaking out the common factor $(4 + x^2)^{-3}$: $\\text{f}'(x) = \\frac{-2x(12 - x^2)}{(4 + x^2)^3}$. [A1]\n$\\text{f}'(x) = 0$ gives $x = 0$ or $x = \\pm 2 \\sqrt{3}$. $P$ is to the left of the $y$-axis, so $x = -2 \\sqrt{3}$. [M1]\n$\\text{f}\\left(-2 \\sqrt{3}\\right) = \\frac{4 - 12}{(4 + 12)^2} = - \\frac{1}{32}$. [M1]\nSo $P = \\left(-2 \\sqrt{3}, - \\frac{1}{32}\\right)$. [A1]\n(b) $x = 2\\tan\\theta$ gives $dx = 2\\sec^2\\theta\\,d\\theta$ and $4 + x^2 = 4\\sec^2\\theta$ (using $1 + \\tan^2\\theta = \\sec^2\\theta$). [B1 M1]\n$\\text{f}(x)\\,dx = \\frac{4(1 - \\tan^2\\theta)}{16\\sec^4\\theta} \\times 2\\sec^2\\theta\\,d\\theta = \\frac{1}{2}\\frac{1 - \\tan^2\\theta}{\\sec^2\\theta}\\,d\\theta = \\frac{1}{2}(\\cos^2\\theta - \\sin^2\\theta)\\,d\\theta = \\frac{1}{2}\\cos 2\\theta\\,d\\theta$. [M1]\nLimits: $x = -2$ gives $\\tan\\theta = -1$, so $\\theta = -\\frac{\\pi}{4}$; $x = 2$ gives $\\tan\\theta = 1$, so $\\theta = \\frac{\\pi}{4}$. [B1]\nSo $\\int_{-2}^{2}\\text{f}(x)\\,dx = \\int_{-\\pi/4}^{\\pi/4} \\frac{1}{2}\\cos 2\\theta\\,d\\theta$, with $\\alpha = -\\frac{\\pi}{4}$, $\\beta = \\frac{\\pi}{4}$ and $k = \\frac{1}{2}$. [A1]\n(c) Area $= \\frac{1}{2}\\left[\\tfrac{1}{2}\\sin 2\\theta\\right]_{-\\pi/4}^{\\pi/4} = \\frac{1}{2}\\left(\\tfrac{1}{2} + \\tfrac{1}{2}\\right) = \\frac{1}{2}$. [M1 A1 A1]\n\nFinal answer: (a) $P = \\left(-2 \\sqrt{3}, - \\frac{1}{32}\\right)$  (b) $\\alpha = -\\frac{\\pi}{4}$, $\\beta = \\frac{\\pi}{4}$, $k = \\frac{1}{2}$  (c) area $= \\frac{1}{2}$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Stationary points, trigonometric substitution and area under a curve",
@@ -1201,7 +1201,7 @@
       "(b) Use $\\cos^2\\theta - \\sin^2\\theta = \\cos 2\\theta$. Convert the limits by solving $\\tan\\theta = \\pm 1$.",
       "(c) The region $R$ lies above the $x$-axis between the two $x$-intercepts, so its area is the definite integral from part (b)."
      ],
-     "solution": "(a) $\\text{f}(x) = (9 - x^2)(9 + x^2)^{-2}$. By the product rule, $\\text{f}'(x) = \\left[-2x(9 + x^2)^{-2} - 4x(9 - x^2)(9 + x^2)^{-3}\\right]$.\nTaking out the common factor $(9 + x^2)^{-3}$: $\\text{f}'(x) = \\frac{-2x(27 - x^2)}{(9 + x^2)^3}$.\n$\\text{f}'(x) = 0$ gives $x = 0$ or $x = \\pm 3 \\sqrt{3}$. $P$ is to the left of the $y$-axis, so $x = -3 \\sqrt{3}$.\n$\\text{f}\\left(-3 \\sqrt{3}\\right) = \\frac{9 - 27}{(9 + 27)^2} = - \\frac{1}{72}$.\nSo $P = \\left(-3 \\sqrt{3}, - \\frac{1}{72}\\right)$.\n(b) $x = 3\\tan\\theta$ gives $dx = 3\\sec^2\\theta\\,d\\theta$ and $9 + x^2 = 9\\sec^2\\theta$ (using $1 + \\tan^2\\theta = \\sec^2\\theta$).\n$\\text{f}(x)\\,dx = \\frac{9(1 - \\tan^2\\theta)}{81\\sec^4\\theta} \\times 3\\sec^2\\theta\\,d\\theta = \\frac{1}{3}\\frac{1 - \\tan^2\\theta}{\\sec^2\\theta}\\,d\\theta = \\frac{1}{3}(\\cos^2\\theta - \\sin^2\\theta)\\,d\\theta = \\frac{1}{3}\\cos 2\\theta\\,d\\theta$.\nLimits: $x = -3$ gives $\\tan\\theta = -1$, so $\\theta = -\\frac{\\pi}{4}$; $x = 3$ gives $\\tan\\theta = 1$, so $\\theta = \\frac{\\pi}{4}$.\nSo $\\int_{-3}^{3}\\text{f}(x)\\,dx = \\int_{-\\pi/4}^{\\pi/4} \\frac{1}{3}\\cos 2\\theta\\,d\\theta$, with $\\alpha = -\\frac{\\pi}{4}$, $\\beta = \\frac{\\pi}{4}$ and $k = \\frac{1}{3}$.\n(c) Area $= \\frac{1}{3}\\left[\\tfrac{1}{2}\\sin 2\\theta\\right]_{-\\pi/4}^{\\pi/4} = \\frac{1}{3}\\left(\\tfrac{1}{2} + \\tfrac{1}{2}\\right) = \\frac{1}{3}$.\n\nFinal answer: (a) $P = \\left(-3 \\sqrt{3}, - \\frac{1}{72}\\right)$  (b) $\\alpha = -\\frac{\\pi}{4}$, $\\beta = \\frac{\\pi}{4}$, $k = \\frac{1}{3}$  (c) area $= \\frac{1}{3}$",
+     "solution": "(a) $\\text{f}(x) = (9 - x^2)(9 + x^2)^{-2}$. By the product rule, $\\text{f}'(x) = \\left[-2x(9 + x^2)^{-2} - 4x(9 - x^2)(9 + x^2)^{-3}\\right]$. [M1]\nTaking out the common factor $(9 + x^2)^{-3}$: $\\text{f}'(x) = \\frac{-2x(27 - x^2)}{(9 + x^2)^3}$. [A1]\n$\\text{f}'(x) = 0$ gives $x = 0$ or $x = \\pm 3 \\sqrt{3}$. $P$ is to the left of the $y$-axis, so $x = -3 \\sqrt{3}$. [M1]\n$\\text{f}\\left(-3 \\sqrt{3}\\right) = \\frac{9 - 27}{(9 + 27)^2} = - \\frac{1}{72}$. [M1]\nSo $P = \\left(-3 \\sqrt{3}, - \\frac{1}{72}\\right)$. [A1]\n(b) $x = 3\\tan\\theta$ gives $dx = 3\\sec^2\\theta\\,d\\theta$ and $9 + x^2 = 9\\sec^2\\theta$ (using $1 + \\tan^2\\theta = \\sec^2\\theta$). [B1 M1]\n$\\text{f}(x)\\,dx = \\frac{9(1 - \\tan^2\\theta)}{81\\sec^4\\theta} \\times 3\\sec^2\\theta\\,d\\theta = \\frac{1}{3}\\frac{1 - \\tan^2\\theta}{\\sec^2\\theta}\\,d\\theta = \\frac{1}{3}(\\cos^2\\theta - \\sin^2\\theta)\\,d\\theta = \\frac{1}{3}\\cos 2\\theta\\,d\\theta$. [M1]\nLimits: $x = -3$ gives $\\tan\\theta = -1$, so $\\theta = -\\frac{\\pi}{4}$; $x = 3$ gives $\\tan\\theta = 1$, so $\\theta = \\frac{\\pi}{4}$. [B1]\nSo $\\int_{-3}^{3}\\text{f}(x)\\,dx = \\int_{-\\pi/4}^{\\pi/4} \\frac{1}{3}\\cos 2\\theta\\,d\\theta$, with $\\alpha = -\\frac{\\pi}{4}$, $\\beta = \\frac{\\pi}{4}$ and $k = \\frac{1}{3}$. [A1]\n(c) Area $= \\frac{1}{3}\\left[\\tfrac{1}{2}\\sin 2\\theta\\right]_{-\\pi/4}^{\\pi/4} = \\frac{1}{3}\\left(\\tfrac{1}{2} + \\tfrac{1}{2}\\right) = \\frac{1}{3}$. [M1 A1 A1]\n\nFinal answer: (a) $P = \\left(-3 \\sqrt{3}, - \\frac{1}{72}\\right)$  (b) $\\alpha = -\\frac{\\pi}{4}$, $\\beta = \\frac{\\pi}{4}$, $k = \\frac{1}{3}$  (c) area $= \\frac{1}{3}$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Stationary points, trigonometric substitution and area under a curve",
@@ -1222,7 +1222,7 @@
       "(b) Use $\\cos^2\\theta - \\sin^2\\theta = \\cos 2\\theta$. Convert the limits by solving $\\tan\\theta = \\pm 1$.",
       "(c) The region $R$ lies above the $x$-axis between the two $x$-intercepts, so its area is the definite integral from part (b)."
      ],
-     "solution": "(a) $\\text{f}(x) = 3(1 - x^2)(1 + x^2)^{-2}$. By the product rule, $\\text{f}'(x) = 3\\left[-2x(1 + x^2)^{-2} - 4x(1 - x^2)(1 + x^2)^{-3}\\right]$.\nTaking out the common factor $(1 + x^2)^{-3}$: $\\text{f}'(x) = \\frac{-6x(3 - x^2)}{(1 + x^2)^3}$.\n$\\text{f}'(x) = 0$ gives $x = 0$ or $x = \\pm \\sqrt{3}$. $P$ is to the left of the $y$-axis, so $x = -\\sqrt{3}$.\n$\\text{f}\\left(-\\sqrt{3}\\right) = 3\\frac{1 - 3}{(1 + 3)^2} = - \\frac{3}{8}$.\nSo $P = \\left(-\\sqrt{3}, - \\frac{3}{8}\\right)$.\n(b) $x = \\tan\\theta$ gives $dx = \\sec^2\\theta\\,d\\theta$ and $1 + x^2 = 1\\sec^2\\theta$ (using $1 + \\tan^2\\theta = \\sec^2\\theta$).\n$\\text{f}(x)\\,dx = 3\\frac{1(1 - \\tan^2\\theta)}{1\\sec^4\\theta} \\times \\sec^2\\theta\\,d\\theta = 3\\frac{1 - \\tan^2\\theta}{\\sec^2\\theta}\\,d\\theta = 3(\\cos^2\\theta - \\sin^2\\theta)\\,d\\theta = 3\\cos 2\\theta\\,d\\theta$.\nLimits: $x = -1$ gives $\\tan\\theta = -1$, so $\\theta = -\\frac{\\pi}{4}$; $x = 1$ gives $\\tan\\theta = 1$, so $\\theta = \\frac{\\pi}{4}$.\nSo $\\int_{-1}^{1}\\text{f}(x)\\,dx = \\int_{-\\pi/4}^{\\pi/4} 3\\cos 2\\theta\\,d\\theta$, with $\\alpha = -\\frac{\\pi}{4}$, $\\beta = \\frac{\\pi}{4}$ and $k = 3$.\n(c) Area $= 3\\left[\\tfrac{1}{2}\\sin 2\\theta\\right]_{-\\pi/4}^{\\pi/4} = 3\\left(\\tfrac{1}{2} + \\tfrac{1}{2}\\right) = 3$.\n\nFinal answer: (a) $P = \\left(-\\sqrt{3}, - \\frac{3}{8}\\right)$  (b) $\\alpha = -\\frac{\\pi}{4}$, $\\beta = \\frac{\\pi}{4}$, $k = 3$  (c) area $= 3$",
+     "solution": "(a) $\\text{f}(x) = 3(1 - x^2)(1 + x^2)^{-2}$. By the product rule, $\\text{f}'(x) = 3\\left[-2x(1 + x^2)^{-2} - 4x(1 - x^2)(1 + x^2)^{-3}\\right]$. [M1]\nTaking out the common factor $(1 + x^2)^{-3}$: $\\text{f}'(x) = \\frac{-6x(3 - x^2)}{(1 + x^2)^3}$. [A1]\n$\\text{f}'(x) = 0$ gives $x = 0$ or $x = \\pm \\sqrt{3}$. $P$ is to the left of the $y$-axis, so $x = -\\sqrt{3}$. [M1]\n$\\text{f}\\left(-\\sqrt{3}\\right) = 3\\frac{1 - 3}{(1 + 3)^2} = - \\frac{3}{8}$. [M1]\nSo $P = \\left(-\\sqrt{3}, - \\frac{3}{8}\\right)$. [A1]\n(b) $x = \\tan\\theta$ gives $dx = \\sec^2\\theta\\,d\\theta$ and $1 + x^2 = 1\\sec^2\\theta$ (using $1 + \\tan^2\\theta = \\sec^2\\theta$). [B1 M1]\n$\\text{f}(x)\\,dx = 3\\frac{1(1 - \\tan^2\\theta)}{1\\sec^4\\theta} \\times \\sec^2\\theta\\,d\\theta = 3\\frac{1 - \\tan^2\\theta}{\\sec^2\\theta}\\,d\\theta = 3(\\cos^2\\theta - \\sin^2\\theta)\\,d\\theta = 3\\cos 2\\theta\\,d\\theta$. [M1]\nLimits: $x = -1$ gives $\\tan\\theta = -1$, so $\\theta = -\\frac{\\pi}{4}$; $x = 1$ gives $\\tan\\theta = 1$, so $\\theta = \\frac{\\pi}{4}$. [B1]\nSo $\\int_{-1}^{1}\\text{f}(x)\\,dx = \\int_{-\\pi/4}^{\\pi/4} 3\\cos 2\\theta\\,d\\theta$, with $\\alpha = -\\frac{\\pi}{4}$, $\\beta = \\frac{\\pi}{4}$ and $k = 3$. [A1]\n(c) Area $= 3\\left[\\tfrac{1}{2}\\sin 2\\theta\\right]_{-\\pi/4}^{\\pi/4} = 3\\left(\\tfrac{1}{2} + \\tfrac{1}{2}\\right) = 3$. [M1 A1 A1]\n\nFinal answer: (a) $P = \\left(-\\sqrt{3}, - \\frac{3}{8}\\right)$  (b) $\\alpha = -\\frac{\\pi}{4}$, $\\beta = \\frac{\\pi}{4}$, $k = 3$  (c) area $= 3$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Stationary points, trigonometric substitution and area under a curve",
@@ -1247,7 +1247,7 @@
       "Rewrite $\\frac{3}{\\sqrt{x}}$ as $3x^{-1/2}$ before integrating.",
       "The limits are perfect squares of decimals: $1.21 = 1.1^2$ and $2.56 = 1.6^2$."
      ],
-     "solution": "(a) $\\displaystyle\\int_{1.21}^{2.56} \\frac{3}{\\sqrt{x}}\\,dx$\n(b) $\\displaystyle\\int 3x^{-1/2}\\,dx = 6x^{1/2}$.\n$\\left[6\\sqrt{x}\\right]_{1.21}^{2.56} = 6(1.6) - 6(1.1) = 9.6 - 6.6 = 3$.\n\nFinal answer: (a) $\\int_{1.21}^{2.56} \\frac{3}{\\sqrt{x}}\\,dx$  (b) $k = 3$",
+     "solution": "(a) $\\displaystyle\\int_{1.21}^{2.56} \\frac{3}{\\sqrt{x}}\\,dx$ [B1]\n(b) $\\displaystyle\\int 3x^{-1/2}\\,dx = 6x^{1/2}$. [M1]\n$\\left[6\\sqrt{x}\\right]_{1.21}^{2.56} = 6(1.6) - 6(1.1) = 9.6 - 6.6 = 3$. [A1]\n\nFinal answer: (a) $\\int_{1.21}^{2.56} \\frac{3}{\\sqrt{x}}\\,dx$  (b) $k = 3$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Definite integral as the limit of a sum"
@@ -1261,7 +1261,7 @@
       "$\\int 5x^{-1/2}\\,dx = 10x^{1/2}$.",
       "$0.81 = 0.9^2$ and $3.61 = 1.9^2$."
      ],
-     "solution": "(a) $\\displaystyle\\int_{0.81}^{3.61} \\frac{5}{\\sqrt{x}}\\,dx$\n(b) $\\left[10\\sqrt{x}\\right]_{0.81}^{3.61} = 10(1.9) - 10(0.9) = 19 - 9 = 10$.\n\nFinal answer: (a) $\\int_{0.81}^{3.61} \\frac{5}{\\sqrt{x}}\\,dx$  (b) $k = 10$",
+     "solution": "(a) $\\displaystyle\\int_{0.81}^{3.61} \\frac{5}{\\sqrt{x}}\\,dx$ [B1]\n(b) $\\left[10\\sqrt{x}\\right]_{0.81}^{3.61} = 10(1.9) - 10(0.9) = 19 - 9 = 10$. [M1 A1]\n\nFinal answer: (a) $\\int_{0.81}^{3.61} \\frac{5}{\\sqrt{x}}\\,dx$  (b) $k = 10$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Definite integral as the limit of a sum"
@@ -1275,7 +1275,7 @@
       "$\\int 3x^{1/2}\\,dx = 2x^{3/2}$.",
       "$x^{3/2} = (\\sqrt{x})^3$, with $\\sqrt{0.25} = 0.5$ and $\\sqrt{6.25} = 2.5$."
      ],
-     "solution": "(a) $\\displaystyle\\int_{0.25}^{6.25} 3\\sqrt{x}\\,dx$\n(b) $\\left[2x^{3/2}\\right]_{0.25}^{6.25} = 2(2.5)^3 - 2(0.5)^3 = 2(15.625) - 2(0.125) = 31.25 - 0.25 = 31$.\n\nFinal answer: (a) $\\int_{0.25}^{6.25} 3\\sqrt{x}\\,dx$  (b) $k = 31$",
+     "solution": "(a) $\\displaystyle\\int_{0.25}^{6.25} 3\\sqrt{x}\\,dx$ [B1]\n(b) $\\left[2x^{3/2}\\right]_{0.25}^{6.25} = 2(2.5)^3 - 2(0.5)^3 = 2(15.625) - 2(0.125) = 31.25 - 0.25 = 31$. [M1 A1]\n\nFinal answer: (a) $\\int_{0.25}^{6.25} 3\\sqrt{x}\\,dx$  (b) $k = 31$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Definite integral as the limit of a sum"
@@ -1290,7 +1290,7 @@
       "You should reach an integral of $u^{-2} - u^{-3}$, which is easy to integrate.",
       "Alternative: integration by parts with $u = x$ and $dv = (\\ldots)^{-3}\\,dx$."
      ],
-     "solution": "Let $u = 2x + 1$. Then $x = \\frac{u - 1}{2}$ and $dx = \\frac{du}{2}$. When $x = 0$, $u = 1$; when $x = 2$, $u = 5$.\n$\\int \\frac{x}{(2x + 1)^3}\\,dx = \\frac{1}{4}\\int_{1}^{5} \\frac{u - 1}{u^3}\\,du = \\frac{1}{4}\\int_{1}^{5} \\left(u^{-2} - u^{-3}\\right)du$.\n$= \\frac{1}{4}\\left[-u^{-1} + \\tfrac{1}{2}u^{-2}\\right]_{1}^{5}$.\n$= \\frac{1}{4}\\left[\\left(\\frac{-9}{50}\\right) - \\left(\\frac{-1}{2}\\right)\\right] = \\frac{1}{4}\\left(\\frac{8}{25}\\right) = \\frac{2}{25}$.\n\nFinal answer: $\\int_{0}^{2} \\frac{x}{(2x + 1)^3}\\,dx = \\frac{2}{25}$ (shown)",
+     "solution": "Let $u = 2x + 1$. Then $x = \\frac{u - 1}{2}$ and $dx = \\frac{du}{2}$. When $x = 0$, $u = 1$; when $x = 2$, $u = 5$. [M1 B1]\n$\\int \\frac{x}{(2x + 1)^3}\\,dx = \\frac{1}{4}\\int_{1}^{5} \\frac{u - 1}{u^3}\\,du = \\frac{1}{4}\\int_{1}^{5} \\left(u^{-2} - u^{-3}\\right)du$. [M1]\n$= \\frac{1}{4}\\left[-u^{-1} + \\tfrac{1}{2}u^{-2}\\right]_{1}^{5}$. [A1]\n$= \\frac{1}{4}\\left[\\left(\\frac{-9}{50}\\right) - \\left(\\frac{-1}{2}\\right)\\right] = \\frac{1}{4}\\left(\\frac{8}{25}\\right) = \\frac{2}{25}$. [A1]\n\nFinal answer: $\\int_{0}^{2} \\frac{x}{(2x + 1)^3}\\,dx = \\frac{2}{25}$ (shown)",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Integration by substitution / by parts with algebraic fractions"
@@ -1305,7 +1305,7 @@
       "You should reach an integral of $u^{-2} - u^{-3}$, which is easy to integrate.",
       "Alternative: integration by parts with $u = x$ and $dv = (\\ldots)^{-3}\\,dx$."
      ],
-     "solution": "Let $u = 2x + 1$. Then $x = \\frac{u - 1}{2}$ and $dx = \\frac{du}{2}$. When $x = 0$, $u = 1$; when $x = 1$, $u = 3$.\n$\\int \\frac{x}{(2x + 1)^3}\\,dx = \\frac{1}{4}\\int_{1}^{3} \\frac{u - 1}{u^3}\\,du = \\frac{1}{4}\\int_{1}^{3} \\left(u^{-2} - u^{-3}\\right)du$.\n$= \\frac{1}{4}\\left[-u^{-1} + \\tfrac{1}{2}u^{-2}\\right]_{1}^{3}$.\n$= \\frac{1}{4}\\left[\\left(\\frac{-5}{18}\\right) - \\left(\\frac{-1}{2}\\right)\\right] = \\frac{1}{4}\\left(\\frac{2}{9}\\right) = \\frac{1}{18}$.\n\nFinal answer: $\\int_{0}^{1} \\frac{x}{(2x + 1)^3}\\,dx = \\frac{1}{18}$ (shown)",
+     "solution": "Let $u = 2x + 1$. Then $x = \\frac{u - 1}{2}$ and $dx = \\frac{du}{2}$. When $x = 0$, $u = 1$; when $x = 1$, $u = 3$. [M1 B1]\n$\\int \\frac{x}{(2x + 1)^3}\\,dx = \\frac{1}{4}\\int_{1}^{3} \\frac{u - 1}{u^3}\\,du = \\frac{1}{4}\\int_{1}^{3} \\left(u^{-2} - u^{-3}\\right)du$. [M1]\n$= \\frac{1}{4}\\left[-u^{-1} + \\tfrac{1}{2}u^{-2}\\right]_{1}^{3}$. [A1]\n$= \\frac{1}{4}\\left[\\left(\\frac{-5}{18}\\right) - \\left(\\frac{-1}{2}\\right)\\right] = \\frac{1}{4}\\left(\\frac{2}{9}\\right) = \\frac{1}{18}$. [A1]\n\nFinal answer: $\\int_{0}^{1} \\frac{x}{(2x + 1)^3}\\,dx = \\frac{1}{18}$ (shown)",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Integration by substitution / by parts with algebraic fractions"
@@ -1320,7 +1320,7 @@
       "You should reach an integral of $u^{-2} - u^{-3}$, which is easy to integrate.",
       "Alternative: integration by parts with $u = x$ and $dv = (\\ldots)^{-3}\\,dx$."
      ],
-     "solution": "Let $u = 3x + 1$. Then $x = \\frac{u - 1}{3}$ and $dx = \\frac{du}{3}$. When $x = 0$, $u = 1$; when $x = 1$, $u = 4$.\n$\\int \\frac{x}{(3x + 1)^3}\\,dx = \\frac{1}{9}\\int_{1}^{4} \\frac{u - 1}{u^3}\\,du = \\frac{1}{9}\\int_{1}^{4} \\left(u^{-2} - u^{-3}\\right)du$.\n$= \\frac{1}{9}\\left[-u^{-1} + \\tfrac{1}{2}u^{-2}\\right]_{1}^{4}$.\n$= \\frac{1}{9}\\left[\\left(\\frac{-7}{32}\\right) - \\left(\\frac{-1}{2}\\right)\\right] = \\frac{1}{9}\\left(\\frac{9}{32}\\right) = \\frac{1}{32}$.\n\nFinal answer: $\\int_{0}^{1} \\frac{x}{(3x + 1)^3}\\,dx = \\frac{1}{32}$ (shown)",
+     "solution": "Let $u = 3x + 1$. Then $x = \\frac{u - 1}{3}$ and $dx = \\frac{du}{3}$. When $x = 0$, $u = 1$; when $x = 1$, $u = 4$. [M1 B1]\n$\\int \\frac{x}{(3x + 1)^3}\\,dx = \\frac{1}{9}\\int_{1}^{4} \\frac{u - 1}{u^3}\\,du = \\frac{1}{9}\\int_{1}^{4} \\left(u^{-2} - u^{-3}\\right)du$. [M1]\n$= \\frac{1}{9}\\left[-u^{-1} + \\tfrac{1}{2}u^{-2}\\right]_{1}^{4}$. [A1]\n$= \\frac{1}{9}\\left[\\left(\\frac{-7}{32}\\right) - \\left(\\frac{-1}{2}\\right)\\right] = \\frac{1}{9}\\left(\\frac{9}{32}\\right) = \\frac{1}{32}$. [A1]\n\nFinal answer: $\\int_{0}^{1} \\frac{x}{(3x + 1)^3}\\,dx = \\frac{1}{32}$ (shown)",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Integration by substitution / by parts with algebraic fractions"
@@ -1335,7 +1335,7 @@
       "You should reach an integral of $u^{-2} - u^{-3}$, which is easy to integrate.",
       "Alternative: integration by parts with $u = x$ and $dv = (\\ldots)^{-3}\\,dx$."
      ],
-     "solution": "Let $u = x + 1$. Then $x = u - 1$ and $dx = du$. When $x = 0$, $u = 1$; when $x = 3$, $u = 4$.\n$\\int \\frac{x}{(x + 1)^3}\\,dx = \\int_{1}^{4} \\frac{u - 1}{u^3}\\,du = \\int_{1}^{4} \\left(u^{-2} - u^{-3}\\right)du$.\n$= \\left[-u^{-1} + \\tfrac{1}{2}u^{-2}\\right]_{1}^{4}$.\n$= \\left[\\left(\\frac{-7}{32}\\right) - \\left(\\frac{-1}{2}\\right)\\right] = \\left(\\frac{9}{32}\\right) = \\frac{9}{32}$.\n\nFinal answer: $\\int_{0}^{3} \\frac{x}{(x + 1)^3}\\,dx = \\frac{9}{32}$ (shown)",
+     "solution": "Let $u = x + 1$. Then $x = u - 1$ and $dx = du$. When $x = 0$, $u = 1$; when $x = 3$, $u = 4$. [M1 B1]\n$\\int \\frac{x}{(x + 1)^3}\\,dx = \\int_{1}^{4} \\frac{u - 1}{u^3}\\,du = \\int_{1}^{4} \\left(u^{-2} - u^{-3}\\right)du$. [M1]\n$= \\left[-u^{-1} + \\tfrac{1}{2}u^{-2}\\right]_{1}^{4}$. [A1]\n$= \\left[\\left(\\frac{-7}{32}\\right) - \\left(\\frac{-1}{2}\\right)\\right] = \\left(\\frac{9}{32}\\right) = \\frac{9}{32}$. [A1]\n\nFinal answer: $\\int_{0}^{3} \\frac{x}{(x + 1)^3}\\,dx = \\frac{9}{32}$ (shown)",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Integration by substitution / by parts with algebraic fractions"
@@ -1350,7 +1350,7 @@
       "(b) $\\int \\text{cosec}^2 u\\,du = -\\cot u$. Use exact values of $\\cot$ at standard angles.",
       "(b) Rationalise the denominator to get the answer in simplest form."
      ],
-     "solution": "(a) $x = 2\\sin u$ gives $\\frac{dx}{du} = 2\\cos u$, so $dx = 2\\cos u\\,du$.\n$x^2 = 4\\sin^2 u$ and $\\sqrt{4 - x^2} = \\sqrt{4(1 - \\sin^2 u)} = 2\\cos u$.\n$\\displaystyle\\int \\frac{1}{x^2\\sqrt{4 - x^2}}\\,dx = \\int \\frac{2\\cos u}{4\\sin^2 u \\times 2\\cos u}\\,du = \\int \\frac{1}{4}\\,\\text{cosec}^2 u\\,du$.\nLimits: $x = \\sqrt{2}$ gives $\\sin u = \\frac{\\sqrt{2}}{2}$, so $u = \\frac{\\pi}{4}$; $x = \\sqrt{3}$ gives $\\sin u = \\frac{\\sqrt{3}}{2}$, so $u = \\frac{\\pi}{3}$.\nArea of $R = \\displaystyle\\int_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}} \\frac{1}{4}\\,\\text{cosec}^2 u\\,du$, so $p = \\frac{\\pi}{4}$, $q = \\frac{\\pi}{3}$, $k = \\frac{1}{4}$.\n(b) $\\displaystyle \\frac{1}{4}\\Big[-\\cot u\\Big]_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}} = \\frac{1}{4}\\left(\\cot\\frac{\\pi}{4} - \\cot\\frac{\\pi}{3}\\right) = \\frac{1}{4}\\left(1 - \\frac{1}{\\sqrt{3}}\\right)$.\nArea $= \\frac{3 - \\sqrt{3}}{12}$.\n\nFinal answer: (a) $p = \\frac{\\pi}{4}$, $q = \\frac{\\pi}{3}$, $k = \\frac{1}{4}$  (b) $\\frac{3 - \\sqrt{3}}{12}$",
+     "solution": "(a) $x = 2\\sin u$ gives $\\frac{dx}{du} = 2\\cos u$, so $dx = 2\\cos u\\,du$. [B1]\n$x^2 = 4\\sin^2 u$ and $\\sqrt{4 - x^2} = \\sqrt{4(1 - \\sin^2 u)} = 2\\cos u$. [M1]\n$\\displaystyle\\int \\frac{1}{x^2\\sqrt{4 - x^2}}\\,dx = \\int \\frac{2\\cos u}{4\\sin^2 u \\times 2\\cos u}\\,du = \\int \\frac{1}{4}\\,\\text{cosec}^2 u\\,du$. [M1]\nLimits: $x = \\sqrt{2}$ gives $\\sin u = \\frac{\\sqrt{2}}{2}$, so $u = \\frac{\\pi}{4}$; $x = \\sqrt{3}$ gives $\\sin u = \\frac{\\sqrt{3}}{2}$, so $u = \\frac{\\pi}{3}$.\nArea of $R = \\displaystyle\\int_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}} \\frac{1}{4}\\,\\text{cosec}^2 u\\,du$, so $p = \\frac{\\pi}{4}$, $q = \\frac{\\pi}{3}$, $k = \\frac{1}{4}$. [A1]\n(b) $\\displaystyle \\frac{1}{4}\\Big[-\\cot u\\Big]_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}} = \\frac{1}{4}\\left(\\cot\\frac{\\pi}{4} - \\cot\\frac{\\pi}{3}\\right) = \\frac{1}{4}\\left(1 - \\frac{1}{\\sqrt{3}}\\right)$. [M1 A1]\nArea $= \\frac{3 - \\sqrt{3}}{12}$. [A1]\n\nFinal answer: (a) $p = \\frac{\\pi}{4}$, $q = \\frac{\\pi}{3}$, $k = \\frac{1}{4}$  (b) $\\frac{3 - \\sqrt{3}}{12}$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Integration by substitution (trigonometric) and exact area",
@@ -1370,7 +1370,7 @@
       "(b) $\\int \\text{cosec}^2 u\\,du = -\\cot u$. Use exact values of $\\cot$ at standard angles.",
       "(b) Rationalise the denominator to get the answer in simplest form."
      ],
-     "solution": "(a) $x = 3\\sin u$ gives $\\frac{dx}{du} = 3\\cos u$, so $dx = 3\\cos u\\,du$.\n$x^2 = 9\\sin^2 u$ and $\\sqrt{9 - x^2} = \\sqrt{9(1 - \\sin^2 u)} = 3\\cos u$.\n$\\displaystyle\\int \\frac{1}{x^2\\sqrt{9 - x^2}}\\,dx = \\int \\frac{3\\cos u}{9\\sin^2 u \\times 3\\cos u}\\,du = \\int \\frac{1}{9}\\,\\text{cosec}^2 u\\,du$.\nLimits: $x = \\frac{3}{2}$ gives $\\sin u = \\frac{1}{2}$, so $u = \\frac{\\pi}{6}$; $x = \\frac{3\\sqrt{3}}{2}$ gives $\\sin u = \\frac{\\sqrt{3}}{2}$, so $u = \\frac{\\pi}{3}$.\nArea of $R = \\displaystyle\\int_{\\frac{\\pi}{6}}^{\\frac{\\pi}{3}} \\frac{1}{9}\\,\\text{cosec}^2 u\\,du$, so $p = \\frac{\\pi}{6}$, $q = \\frac{\\pi}{3}$, $k = \\frac{1}{9}$.\n(b) $\\displaystyle \\frac{1}{9}\\Big[-\\cot u\\Big]_{\\frac{\\pi}{6}}^{\\frac{\\pi}{3}} = \\frac{1}{9}\\left(\\cot\\frac{\\pi}{6} - \\cot\\frac{\\pi}{3}\\right) = \\frac{1}{9}\\left(\\sqrt{3} - \\frac{1}{\\sqrt{3}}\\right) = \\frac{1}{9} \\times \\frac{2}{\\sqrt{3}}$.\nArea $= \\frac{2\\sqrt{3}}{27}$.\n\nFinal answer: (a) $p = \\frac{\\pi}{6}$, $q = \\frac{\\pi}{3}$, $k = \\frac{1}{9}$  (b) $\\frac{2\\sqrt{3}}{27}$",
+     "solution": "(a) $x = 3\\sin u$ gives $\\frac{dx}{du} = 3\\cos u$, so $dx = 3\\cos u\\,du$. [B1]\n$x^2 = 9\\sin^2 u$ and $\\sqrt{9 - x^2} = \\sqrt{9(1 - \\sin^2 u)} = 3\\cos u$. [M1]\n$\\displaystyle\\int \\frac{1}{x^2\\sqrt{9 - x^2}}\\,dx = \\int \\frac{3\\cos u}{9\\sin^2 u \\times 3\\cos u}\\,du = \\int \\frac{1}{9}\\,\\text{cosec}^2 u\\,du$. [M1]\nLimits: $x = \\frac{3}{2}$ gives $\\sin u = \\frac{1}{2}$, so $u = \\frac{\\pi}{6}$; $x = \\frac{3\\sqrt{3}}{2}$ gives $\\sin u = \\frac{\\sqrt{3}}{2}$, so $u = \\frac{\\pi}{3}$.\nArea of $R = \\displaystyle\\int_{\\frac{\\pi}{6}}^{\\frac{\\pi}{3}} \\frac{1}{9}\\,\\text{cosec}^2 u\\,du$, so $p = \\frac{\\pi}{6}$, $q = \\frac{\\pi}{3}$, $k = \\frac{1}{9}$. [A1]\n(b) $\\displaystyle \\frac{1}{9}\\Big[-\\cot u\\Big]_{\\frac{\\pi}{6}}^{\\frac{\\pi}{3}} = \\frac{1}{9}\\left(\\cot\\frac{\\pi}{6} - \\cot\\frac{\\pi}{3}\\right) = \\frac{1}{9}\\left(\\sqrt{3} - \\frac{1}{\\sqrt{3}}\\right) = \\frac{1}{9} \\times \\frac{2}{\\sqrt{3}}$. [M1 A1]\nArea $= \\frac{2\\sqrt{3}}{27}$. [A1]\n\nFinal answer: (a) $p = \\frac{\\pi}{6}$, $q = \\frac{\\pi}{3}$, $k = \\frac{1}{9}$  (b) $\\frac{2\\sqrt{3}}{27}$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Integration by substitution (trigonometric) and exact area",
@@ -1390,7 +1390,7 @@
       "(b) $\\int \\text{cosec}^2 u\\,du = -\\cot u$. Use exact values of $\\cot$ at standard angles.",
       "(b) Rationalise the denominator to get the answer in simplest form."
      ],
-     "solution": "(a) $x = 4\\sin u$ gives $\\frac{dx}{du} = 4\\cos u$, so $dx = 4\\cos u\\,du$.\n$x^2 = 16\\sin^2 u$ and $\\sqrt{16 - x^2} = \\sqrt{16(1 - \\sin^2 u)} = 4\\cos u$.\n$\\displaystyle\\int \\frac{1}{x^2\\sqrt{16 - x^2}}\\,dx = \\int \\frac{4\\cos u}{16\\sin^2 u \\times 4\\cos u}\\,du = \\int \\frac{1}{16}\\,\\text{cosec}^2 u\\,du$.\nLimits: $x = 2$ gives $\\sin u = \\frac{1}{2}$, so $u = \\frac{\\pi}{6}$; $x = 2\\sqrt{2}$ gives $\\sin u = \\frac{\\sqrt{2}}{2}$, so $u = \\frac{\\pi}{4}$.\nArea of $R = \\displaystyle\\int_{\\frac{\\pi}{6}}^{\\frac{\\pi}{4}} \\frac{1}{16}\\,\\text{cosec}^2 u\\,du$, so $p = \\frac{\\pi}{6}$, $q = \\frac{\\pi}{4}$, $k = \\frac{1}{16}$.\n(b) $\\displaystyle \\frac{1}{16}\\Big[-\\cot u\\Big]_{\\frac{\\pi}{6}}^{\\frac{\\pi}{4}} = \\frac{1}{16}\\left(\\cot\\frac{\\pi}{6} - \\cot\\frac{\\pi}{4}\\right) = \\frac{1}{16}\\left(\\sqrt{3} - 1\\right)$.\nArea $= \\frac{\\sqrt{3} - 1}{16}$.\n\nFinal answer: (a) $p = \\frac{\\pi}{6}$, $q = \\frac{\\pi}{4}$, $k = \\frac{1}{16}$  (b) $\\frac{\\sqrt{3} - 1}{16}$",
+     "solution": "(a) $x = 4\\sin u$ gives $\\frac{dx}{du} = 4\\cos u$, so $dx = 4\\cos u\\,du$. [B1]\n$x^2 = 16\\sin^2 u$ and $\\sqrt{16 - x^2} = \\sqrt{16(1 - \\sin^2 u)} = 4\\cos u$. [M1]\n$\\displaystyle\\int \\frac{1}{x^2\\sqrt{16 - x^2}}\\,dx = \\int \\frac{4\\cos u}{16\\sin^2 u \\times 4\\cos u}\\,du = \\int \\frac{1}{16}\\,\\text{cosec}^2 u\\,du$. [M1]\nLimits: $x = 2$ gives $\\sin u = \\frac{1}{2}$, so $u = \\frac{\\pi}{6}$; $x = 2\\sqrt{2}$ gives $\\sin u = \\frac{\\sqrt{2}}{2}$, so $u = \\frac{\\pi}{4}$.\nArea of $R = \\displaystyle\\int_{\\frac{\\pi}{6}}^{\\frac{\\pi}{4}} \\frac{1}{16}\\,\\text{cosec}^2 u\\,du$, so $p = \\frac{\\pi}{6}$, $q = \\frac{\\pi}{4}$, $k = \\frac{1}{16}$. [A1]\n(b) $\\displaystyle \\frac{1}{16}\\Big[-\\cot u\\Big]_{\\frac{\\pi}{6}}^{\\frac{\\pi}{4}} = \\frac{1}{16}\\left(\\cot\\frac{\\pi}{6} - \\cot\\frac{\\pi}{4}\\right) = \\frac{1}{16}\\left(\\sqrt{3} - 1\\right)$. [M1 A1]\nArea $= \\frac{\\sqrt{3} - 1}{16}$. [A1]\n\nFinal answer: (a) $p = \\frac{\\pi}{6}$, $q = \\frac{\\pi}{4}$, $k = \\frac{1}{16}$  (b) $\\frac{\\sqrt{3} - 1}{16}$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Integration by substitution (trigonometric) and exact area",
@@ -1410,7 +1410,7 @@
       "Dividing by a fraction means multiplying by its reciprocal. Simplify the coefficient.",
       "Do not forget $+ c$."
      ],
-     "solution": "Integrate term by term: $\\frac{x^{6}}{6} - 9 \\times \\frac{x^{\\frac{3}{2}}}{\\frac{3}{2}} - 2x + c$.\nSimplify the coefficients: $\\frac{x^6}{6} - 6x^{\\frac{3}{2}} - 2x + c$.\n\nFinal answer: $\\frac{x^6}{6} - 6x^{\\frac{3}{2}} - 2x + c$",
+     "solution": "Integrate term by term: $\\frac{x^{6}}{6} - 9 \\times \\frac{x^{\\frac{3}{2}}}{\\frac{3}{2}} - 2x + c$. [M1 A1 A1]\nSimplify the coefficients: $\\frac{x^6}{6} - 6x^{\\frac{3}{2}} - 2x + c$. [A1]\n\nFinal answer: $\\frac{x^6}{6} - 6x^{\\frac{3}{2}} - 2x + c$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Integrating powers of x (including fractional powers)"
@@ -1425,7 +1425,7 @@
       "Dividing by a fraction means multiplying by its reciprocal. Simplify the coefficient.",
       "Do not forget $+ c$."
      ],
-     "solution": "Integrate term by term: $\\frac{2x^{5}}{5} + 12 \\times \\frac{x^{\\frac{3}{2}}}{\\frac{3}{2}} - 7x + c$.\nSimplify the coefficients: $\\frac{2x^5}{5} + 8x^{\\frac{3}{2}} - 7x + c$.\n\nFinal answer: $\\frac{2x^5}{5} + 8x^{\\frac{3}{2}} - 7x + c$",
+     "solution": "Integrate term by term: $\\frac{2x^{5}}{5} + 12 \\times \\frac{x^{\\frac{3}{2}}}{\\frac{3}{2}} - 7x + c$. [M1 A1 A1]\nSimplify the coefficients: $\\frac{2x^5}{5} + 8x^{\\frac{3}{2}} - 7x + c$. [A1]\n\nFinal answer: $\\frac{2x^5}{5} + 8x^{\\frac{3}{2}} - 7x + c$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Integrating powers of x (including fractional powers)"
@@ -1440,7 +1440,7 @@
       "Dividing by a fraction means multiplying by its reciprocal. Simplify the coefficient.",
       "Do not forget $+ c$."
      ],
-     "solution": "Integrate term by term: $x^{4} - 10 \\times \\frac{x^{\\frac{5}{2}}}{\\frac{5}{2}} + 6x + c$.\nSimplify the coefficients: $x^4 - 4x^{\\frac{5}{2}} + 6x + c$.\n\nFinal answer: $x^4 - 4x^{\\frac{5}{2}} + 6x + c$",
+     "solution": "Integrate term by term: $x^{4} - 10 \\times \\frac{x^{\\frac{5}{2}}}{\\frac{5}{2}} + 6x + c$. [M1 A1 A1]\nSimplify the coefficients: $x^4 - 4x^{\\frac{5}{2}} + 6x + c$. [A1]\n\nFinal answer: $x^4 - 4x^{\\frac{5}{2}} + 6x + c$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Integrating powers of x (including fractional powers)"
@@ -1462,7 +1462,7 @@
       "(b) Rearrange to make $V$ the subject, using the initial condition to find the constant. Make sure your answer has the form $P - Qe^{-kt}$ with $Q > 0$.",
       "(c) As $t \\to \\infty$, $e^{-kt} \\to 0$. What value does $V$ approach, and how does that compare with the capacity?"
      ],
-     "solution": "(a) $\\frac{dV}{dt} = 0.6 - 0.4V$. Multiplying by 5: $5\\frac{dV}{dt} = 3 - 2V$.\n(b) Separate variables: $\\int \\frac{5}{3 - 2V}\\,dV = \\int 1\\,dt$.\n$-\\frac{5}{2}\\ln|3 - 2V| = t + c$, so $\\ln|3 - 2V| = -0.4t + c'$ and $3 - 2V = Ce^{-0.4t}$.\nWhen $t = 0$, $V = 0.5$: $C = 3 - 2(0.5) = 2$.\nRearranging: $V = \\frac{3}{2} - \\frac{2}{2}e^{-0.4t} = 1.5 - e^{-0.4t}$.\nSo $P = 1.5$, $Q = 1$ and $k = 0.4$.\n(c) $V = 1.5 - e^{-0.4t}$ and $e^{-0.4t} > 0$ for all $t$, so $V < 1.5$ always, which is less than the capacity of $2\\,\\text{m}^3$. The container will never become full.\n\nFinal answer: (a) shown  (b) $V = 1.5 - e^{-0.4t}$  (c) No: $V < 1.5$ for all $t$, and this is below the capacity",
+     "solution": "(a) $\\frac{dV}{dt} = 0.6 - 0.4V$. Multiplying by 5: $5\\frac{dV}{dt} = 3 - 2V$. [M1 A1]\n(b) Separate variables: $\\int \\frac{5}{3 - 2V}\\,dV = \\int 1\\,dt$. [M1]\n$-\\frac{5}{2}\\ln|3 - 2V| = t + c$, so $\\ln|3 - 2V| = -0.4t + c'$ and $3 - 2V = Ce^{-0.4t}$. [M1 A1]\nWhen $t = 0$, $V = 0.5$: $C = 3 - 2(0.5) = 2$. [M1]\nRearranging: $V = \\frac{3}{2} - \\frac{2}{2}e^{-0.4t} = 1.5 - e^{-0.4t}$.\nSo $P = 1.5$, $Q = 1$ and $k = 0.4$. [A1]\n(c) $V = 1.5 - e^{-0.4t}$ and $e^{-0.4t} > 0$ for all $t$, so $V < 1.5$ always, which is less than the capacity of $2\\,\\text{m}^3$. The container will never become full. [M1 A1]\n\nFinal answer: (a) shown  (b) $V = 1.5 - e^{-0.4t}$  (c) No: $V < 1.5$ for all $t$, and this is below the capacity",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Modelling with dV/dt = a - bV: forming, solving and interpreting"
@@ -1478,7 +1478,7 @@
       "(b) Rearrange to make $V$ the subject, using the initial condition to find the constant. Make sure your answer has the form $P - Qe^{-kt}$ with $Q > 0$.",
       "(c) As $t \\to \\infty$, $e^{-kt} \\to 0$. What value does $V$ approach, and how does that compare with the capacity?"
      ],
-     "solution": "(a) $\\frac{dV}{dt} = 0.9 - 0.3V$. Multiplying by 10: $10\\frac{dV}{dt} = 9 - 3V$.\n(b) Separate variables: $\\int \\frac{10}{9 - 3V}\\,dV = \\int 1\\,dt$.\n$-\\frac{10}{3}\\ln|9 - 3V| = t + c$, so $\\ln|9 - 3V| = -0.3t + c'$ and $9 - 3V = Ce^{-0.3t}$.\nWhen $t = 0$, $V = 0.5$: $C = 9 - 3(0.5) = 7.5$.\nRearranging: $V = \\frac{9}{3} - \\frac{7.5}{3}e^{-0.3t} = 3 - 2.5e^{-0.3t}$.\nSo $P = 3$, $Q = 2.5$ and $k = 0.3$.\n(c) As $t \\to \\infty$, $V \\to 3$. Since $3 > 2$, and $V$ increases continuously from $0.5$, the volume will reach $2\\,\\text{m}^3$ at some time. The container will become full.\n\nFinal answer: (a) shown  (b) $V = 3 - 2.5e^{-0.3t}$  (c) Yes: $V \\to 3 > 2$, so the volume reaches the capacity",
+     "solution": "(a) $\\frac{dV}{dt} = 0.9 - 0.3V$. Multiplying by 10: $10\\frac{dV}{dt} = 9 - 3V$. [M1 A1]\n(b) Separate variables: $\\int \\frac{10}{9 - 3V}\\,dV = \\int 1\\,dt$. [M1]\n$-\\frac{10}{3}\\ln|9 - 3V| = t + c$, so $\\ln|9 - 3V| = -0.3t + c'$ and $9 - 3V = Ce^{-0.3t}$. [M1 A1]\nWhen $t = 0$, $V = 0.5$: $C = 9 - 3(0.5) = 7.5$. [M1]\nRearranging: $V = \\frac{9}{3} - \\frac{7.5}{3}e^{-0.3t} = 3 - 2.5e^{-0.3t}$.\nSo $P = 3$, $Q = 2.5$ and $k = 0.3$. [A1]\n(c) As $t \\to \\infty$, $V \\to 3$. Since $3 > 2$, and $V$ increases continuously from $0.5$, the volume will reach $2\\,\\text{m}^3$ at some time. The container will become full. [M1 A1]\n\nFinal answer: (a) shown  (b) $V = 3 - 2.5e^{-0.3t}$  (c) Yes: $V \\to 3 > 2$, so the volume reaches the capacity",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Modelling with dV/dt = a - bV: forming, solving and interpreting"
@@ -1494,7 +1494,7 @@
       "(b) Rearrange to make $V$ the subject, using the initial condition to find the constant. Make sure your answer has the form $P - Qe^{-kt}$ with $Q > 0$.",
       "(c) As $t \\to \\infty$, $e^{-kt} \\to 0$. What value does $V$ approach, and how does that compare with the capacity?"
      ],
-     "solution": "(a) $\\frac{dV}{dt} = 0.24 - 0.16V$. Multiplying by 25: $25\\frac{dV}{dt} = 6 - 4V$.\n(b) Separate variables: $\\int \\frac{25}{6 - 4V}\\,dV = \\int 1\\,dt$.\n$-\\frac{25}{4}\\ln|6 - 4V| = t + c$, so $\\ln|6 - 4V| = -0.16t + c'$ and $6 - 4V = Ce^{-0.16t}$.\nWhen $t = 0$, $V = 0.3$: $C = 6 - 4(0.3) = 4.8$.\nRearranging: $V = \\frac{6}{4} - \\frac{4.8}{4}e^{-0.16t} = 1.5 - 1.2e^{-0.16t}$.\nSo $P = 1.5$, $Q = 1.2$ and $k = 0.16$.\n(c) $V = 1.5 - 1.2e^{-0.16t}$ and $e^{-0.16t} > 0$ for all $t$, so $V < 1.5$ always (and $V \\to 1.5$ as $t \\to \\infty$). The container will never become full.\n\nFinal answer: (a) shown  (b) $V = 1.5 - 1.2e^{-0.16t}$  (c) No: $V < 1.5$ for all $t$, so $V$ never reaches the capacity",
+     "solution": "(a) $\\frac{dV}{dt} = 0.24 - 0.16V$. Multiplying by 25: $25\\frac{dV}{dt} = 6 - 4V$. [M1 A1]\n(b) Separate variables: $\\int \\frac{25}{6 - 4V}\\,dV = \\int 1\\,dt$. [M1]\n$-\\frac{25}{4}\\ln|6 - 4V| = t + c$, so $\\ln|6 - 4V| = -0.16t + c'$ and $6 - 4V = Ce^{-0.16t}$. [M1 A1]\nWhen $t = 0$, $V = 0.3$: $C = 6 - 4(0.3) = 4.8$. [M1]\nRearranging: $V = \\frac{6}{4} - \\frac{4.8}{4}e^{-0.16t} = 1.5 - 1.2e^{-0.16t}$.\nSo $P = 1.5$, $Q = 1.2$ and $k = 0.16$. [A1]\n(c) $V = 1.5 - 1.2e^{-0.16t}$ and $e^{-0.16t} > 0$ for all $t$, so $V < 1.5$ always (and $V \\to 1.5$ as $t \\to \\infty$). The container will never become full. [M1 A1]\n\nFinal answer: (a) shown  (b) $V = 1.5 - 1.2e^{-0.16t}$  (c) No: $V < 1.5$ for all $t$, so $V$ never reaches the capacity",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Modelling with dV/dt = a - bV: forming, solving and interpreting"
@@ -1514,7 +1514,7 @@
       "(b) Find the length of each side using $|a\\mathbf{i} + b\\mathbf{j} + c\\mathbf{k}| = \\sqrt{a^2 + b^2 + c^2}$ (or its square).",
       "(b) Two equal sides give an isosceles triangle. To show a right angle, check Pythagoras: is (short side)$^2$ + (short side)$^2$ = (longest side)$^2$?"
      ],
-     "solution": "(a) $\\overrightarrow{PR} = \\overrightarrow{PQ} + \\overrightarrow{QR} = 3\\mathbf{i} + 3\\mathbf{j}$.\n(b) $|PQ|^2 = 1^2 + 2^2 + 2^2 = 9$, so $|PQ| = 3$.\n$|QR|^2 = 2^2 + 1^2 + 2^2 = 9$, so $|QR| = 3$.\n$|PR|^2 = 3^2 + 3^2 + 0^2 = 18$.\n$|PQ| = |QR|$, so the triangle is isosceles.\n$|PQ|^2 + |QR|^2 = 9 + 9 = 18 = |PR|^2$, so by the converse of Pythagoras' theorem the angle at $Q$ is $90^\\circ$. Hence $PQR$ is both right-angled and isosceles.\n\nFinal answer: (a) $\\overrightarrow{PR} = 3\\mathbf{i} + 3\\mathbf{j}$  (b) $|PQ| = |QR| = 3$ and $|PQ|^2 + |QR|^2 = |PR|^2 = 18$",
+     "solution": "(a) $\\overrightarrow{PR} = \\overrightarrow{PQ} + \\overrightarrow{QR} = 3\\mathbf{i} + 3\\mathbf{j}$. [M1 A1]\n(b) $|PQ|^2 = 1^2 + 2^2 + 2^2 = 9$, so $|PQ| = 3$. [M1]\n$|QR|^2 = 2^2 + 1^2 + 2^2 = 9$, so $|QR| = 3$.\n$|PR|^2 = 3^2 + 3^2 + 0^2 = 18$. [A1]\n$|PQ| = |QR|$, so the triangle is isosceles. [B1]\n$|PQ|^2 + |QR|^2 = 9 + 9 = 18 = |PR|^2$, so by the converse of Pythagoras' theorem the angle at $Q$ is $90^\\circ$. Hence $PQR$ is both right-angled and isosceles. [A1]\n\nFinal answer: (a) $\\overrightarrow{PR} = 3\\mathbf{i} + 3\\mathbf{j}$  (b) $|PQ| = |QR| = 3$ and $|PQ|^2 + |QR|^2 = |PR|^2 = 18$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Vector addition, magnitude, and proving a triangle is right-angled and isosceles"
@@ -1528,7 +1528,7 @@
       "(b) Find the length of each side using $|a\\mathbf{i} + b\\mathbf{j} + c\\mathbf{k}| = \\sqrt{a^2 + b^2 + c^2}$ (or its square).",
       "(b) Two equal sides give an isosceles triangle. To show a right angle, check Pythagoras: is (short side)$^2$ + (short side)$^2$ = (longest side)$^2$?"
      ],
-     "solution": "(a) $\\overrightarrow{PR} = \\overrightarrow{PQ} + \\overrightarrow{QR} = 8\\mathbf{i} - 2\\mathbf{j} - 2\\mathbf{k}$.\n(b) $|PQ|^2 = 4^2 + 4^2 + 2^2 = 36$, so $|PQ| = 6$.\n$|QR|^2 = 4^2 + 2^2 + 4^2 = 36$, so $|QR| = 6$.\n$|PR|^2 = 8^2 + 2^2 + 2^2 = 72$.\n$|PQ| = |QR|$, so the triangle is isosceles.\n$|PQ|^2 + |QR|^2 = 36 + 36 = 72 = |PR|^2$, so by the converse of Pythagoras' theorem the angle at $Q$ is $90^\\circ$. Hence $PQR$ is both right-angled and isosceles.\n\nFinal answer: (a) $\\overrightarrow{PR} = 8\\mathbf{i} - 2\\mathbf{j} - 2\\mathbf{k}$  (b) $|PQ| = |QR| = 6$ and $|PQ|^2 + |QR|^2 = |PR|^2 = 72$",
+     "solution": "(a) $\\overrightarrow{PR} = \\overrightarrow{PQ} + \\overrightarrow{QR} = 8\\mathbf{i} - 2\\mathbf{j} - 2\\mathbf{k}$. [M1 A1]\n(b) $|PQ|^2 = 4^2 + 4^2 + 2^2 = 36$, so $|PQ| = 6$. [M1]\n$|QR|^2 = 4^2 + 2^2 + 4^2 = 36$, so $|QR| = 6$.\n$|PR|^2 = 8^2 + 2^2 + 2^2 = 72$. [A1]\n$|PQ| = |QR|$, so the triangle is isosceles. [B1]\n$|PQ|^2 + |QR|^2 = 36 + 36 = 72 = |PR|^2$, so by the converse of Pythagoras' theorem the angle at $Q$ is $90^\\circ$. Hence $PQR$ is both right-angled and isosceles. [A1]\n\nFinal answer: (a) $\\overrightarrow{PR} = 8\\mathbf{i} - 2\\mathbf{j} - 2\\mathbf{k}$  (b) $|PQ| = |QR| = 6$ and $|PQ|^2 + |QR|^2 = |PR|^2 = 72$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Vector addition, magnitude, and proving a triangle is right-angled and isosceles"
@@ -1542,7 +1542,7 @@
       "(b) Find the length of each side using $|a\\mathbf{i} + b\\mathbf{j} + c\\mathbf{k}| = \\sqrt{a^2 + b^2 + c^2}$ (or its square).",
       "(b) Two equal sides give an isosceles triangle. To show a right angle, check Pythagoras: is (short side)$^2$ + (short side)$^2$ = (longest side)$^2$?"
      ],
-     "solution": "(a) $\\overrightarrow{PR} = \\overrightarrow{PQ} + \\overrightarrow{QR} = 4\\mathbf{i} + 4\\mathbf{j} + 2\\mathbf{k}$.\n(b) $|PQ|^2 = 1^2 + 4^2 + 1^2 = 18$, so $|PQ| = 3\\sqrt{2}$.\n$|QR|^2 = 3^2 + 0^2 + 3^2 = 18$, so $|QR| = 3\\sqrt{2}$.\n$|PR|^2 = 4^2 + 4^2 + 2^2 = 36$.\n$|PQ| = |QR|$, so the triangle is isosceles.\n$|PQ|^2 + |QR|^2 = 18 + 18 = 36 = |PR|^2$, so by the converse of Pythagoras' theorem the angle at $Q$ is $90^\\circ$. Hence $PQR$ is both right-angled and isosceles.\n\nFinal answer: (a) $\\overrightarrow{PR} = 4\\mathbf{i} + 4\\mathbf{j} + 2\\mathbf{k}$  (b) $|PQ| = |QR| = 3\\sqrt{2}$ and $|PQ|^2 + |QR|^2 = |PR|^2 = 36$",
+     "solution": "(a) $\\overrightarrow{PR} = \\overrightarrow{PQ} + \\overrightarrow{QR} = 4\\mathbf{i} + 4\\mathbf{j} + 2\\mathbf{k}$. [M1 A1]\n(b) $|PQ|^2 = 1^2 + 4^2 + 1^2 = 18$, so $|PQ| = 3\\sqrt{2}$. [M1]\n$|QR|^2 = 3^2 + 0^2 + 3^2 = 18$, so $|QR| = 3\\sqrt{2}$.\n$|PR|^2 = 4^2 + 4^2 + 2^2 = 36$. [A1]\n$|PQ| = |QR|$, so the triangle is isosceles. [B1]\n$|PQ|^2 + |QR|^2 = 18 + 18 = 36 = |PR|^2$, so by the converse of Pythagoras' theorem the angle at $Q$ is $90^\\circ$. Hence $PQR$ is both right-angled and isosceles. [A1]\n\nFinal answer: (a) $\\overrightarrow{PR} = 4\\mathbf{i} + 4\\mathbf{j} + 2\\mathbf{k}$  (b) $|PQ| = |QR| = 3\\sqrt{2}$ and $|PQ|^2 + |QR|^2 = |PR|^2 = 36$",
      "year": "",
      "paper": "Edexcel Paper 1 2025",
      "subtopic": "Vector addition, magnitude, and proving a triangle is right-angled and isosceles"
@@ -1557,7 +1557,7 @@
       "(b) Find $\\overrightarrow{BN}$ from the ratio $BN : NC$. Then write $\\overrightarrow{BX} = \\mu\\overrightarrow{BD}$ and $\\overrightarrow{AX} = \\rho\\overrightarrow{AN}$.",
       "(b) Use $\\overrightarrow{AB} + \\overrightarrow{BX} = \\overrightarrow{AX}$ and equate coefficients of $\\mathbf{a}$ and $\\mathbf{b}$ to find $\\mu$. (Alternatively, use similar triangles $ADX$ and $NBX$.)"
      ],
-     "solution": "(a) $\\overrightarrow{BD} = -\\overrightarrow{DB} = \\mathbf{a} - k\\mathbf{b}$. So $\\overrightarrow{AD} = \\overrightarrow{AB} + \\overrightarrow{BD} = 3\\mathbf{a} + (3 - k)\\mathbf{b}$.\n$AD \\parallel BC$, so $\\overrightarrow{AD} = \\lambda\\overrightarrow{BC}$. Comparing the $\\mathbf{a}$ coefficients: $3 = 15\\lambda$, so $\\lambda = \\frac{1}{5}$.\nComparing the $\\mathbf{b}$ coefficients: $3 - k = \\frac{1}{5} \\times (-5) = -1$, so $k = 4$ (shown).\n(b) $\\overrightarrow{BN} = \\frac{2}{5}\\overrightarrow{BC} = 6\\mathbf{a} - 2\\mathbf{b}$ and $\\overrightarrow{BD} = \\mathbf{a} - 4\\mathbf{b}$.\nLet $\\overrightarrow{BX} = \\mu\\overrightarrow{BD}$ and $\\overrightarrow{AX} = \\rho\\overrightarrow{AN}$, where $\\overrightarrow{AN} = \\overrightarrow{AB} + \\overrightarrow{BN} = 8\\mathbf{a} + \\mathbf{b}$.\n$\\overrightarrow{AB} + \\overrightarrow{BX} = \\overrightarrow{AX}$ gives $(2\\mathbf{a} + 3\\mathbf{b}) + \\mu(\\mathbf{a} - 4\\mathbf{b}) = \\rho(8\\mathbf{a} + \\mathbf{b})$.\n$\\mathbf{a}$: $2 + \\mu = 8\\rho$; $\\mathbf{b}$: $3 - 4\\mu = \\rho$. Solving: $\\mu = \\frac{2}{3}$ and $\\rho = \\frac{1}{3}$.\nSo $BX = \\frac{2}{3}BD$ and $XD = \\frac{1}{3}BD$, giving $BX : XD = 2 : 1$.\n\nFinal answer: (a) $k = 4$ (shown)  (b) $BX : XD = 2 : 1$",
+     "solution": "(a) $\\overrightarrow{BD} = -\\overrightarrow{DB} = \\mathbf{a} - k\\mathbf{b}$. So $\\overrightarrow{AD} = \\overrightarrow{AB} + \\overrightarrow{BD} = 3\\mathbf{a} + (3 - k)\\mathbf{b}$. [M1]\n$AD \\parallel BC$, so $\\overrightarrow{AD} = \\lambda\\overrightarrow{BC}$. Comparing the $\\mathbf{a}$ coefficients: $3 = 15\\lambda$, so $\\lambda = \\frac{1}{5}$. [M1]\nComparing the $\\mathbf{b}$ coefficients: $3 - k = \\frac{1}{5} \\times (-5) = -1$, so $k = 4$ (shown). [A1]\n(b) $\\overrightarrow{BN} = \\frac{2}{5}\\overrightarrow{BC} = 6\\mathbf{a} - 2\\mathbf{b}$ and $\\overrightarrow{BD} = \\mathbf{a} - 4\\mathbf{b}$. [M1]\nLet $\\overrightarrow{BX} = \\mu\\overrightarrow{BD}$ and $\\overrightarrow{AX} = \\rho\\overrightarrow{AN}$, where $\\overrightarrow{AN} = \\overrightarrow{AB} + \\overrightarrow{BN} = 8\\mathbf{a} + \\mathbf{b}$. [M1]\n$\\overrightarrow{AB} + \\overrightarrow{BX} = \\overrightarrow{AX}$ gives $(2\\mathbf{a} + 3\\mathbf{b}) + \\mu(\\mathbf{a} - 4\\mathbf{b}) = \\rho(8\\mathbf{a} + \\mathbf{b})$. [M1]\n$\\mathbf{a}$: $2 + \\mu = 8\\rho$; $\\mathbf{b}$: $3 - 4\\mu = \\rho$. Solving: $\\mu = \\frac{2}{3}$ and $\\rho = \\frac{1}{3}$. [M1]\nSo $BX = \\frac{2}{3}BD$ and $XD = \\frac{1}{3}BD$, giving $BX : XD = 2 : 1$. [A1]\n\nFinal answer: (a) $k = 4$ (shown)  (b) $BX : XD = 2 : 1$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Trapezium: parallel vectors, ratios and intersection of lines",
@@ -1577,7 +1577,7 @@
       "(b) Find $\\overrightarrow{BN}$ from the ratio $BN : NC$. Then write $\\overrightarrow{BX} = \\mu\\overrightarrow{BD}$ and $\\overrightarrow{AX} = \\rho\\overrightarrow{AN}$.",
       "(b) Use $\\overrightarrow{AB} + \\overrightarrow{BX} = \\overrightarrow{AX}$ and equate coefficients of $\\mathbf{a}$ and $\\mathbf{b}$ to find $\\mu$. (Alternatively, use similar triangles $ADX$ and $NBX$.)"
      ],
-     "solution": "(a) $\\overrightarrow{BD} = -\\overrightarrow{DB} = 3\\mathbf{a} - k\\mathbf{b}$. So $\\overrightarrow{AD} = \\overrightarrow{AB} + \\overrightarrow{BD} = 6\\mathbf{a} + (2 - k)\\mathbf{b}$.\n$AD \\parallel BC$, so $\\overrightarrow{AD} = \\lambda\\overrightarrow{BC}$. Comparing the $\\mathbf{a}$ coefficients: $6 = 12\\lambda$, so $\\lambda = \\frac{1}{2}$.\nComparing the $\\mathbf{b}$ coefficients: $2 - k = \\frac{1}{2} \\times (-6) = -3$, so $k = 5$ (shown).\n(b) $\\overrightarrow{BN} = \\frac{1}{3}\\overrightarrow{BC} = 4\\mathbf{a} - 2\\mathbf{b}$ and $\\overrightarrow{BD} = 3\\mathbf{a} - 5\\mathbf{b}$.\nLet $\\overrightarrow{BX} = \\mu\\overrightarrow{BD}$ and $\\overrightarrow{AX} = \\rho\\overrightarrow{AN}$, where $\\overrightarrow{AN} = \\overrightarrow{AB} + \\overrightarrow{BN} = 7\\mathbf{a}$.\n$\\overrightarrow{AB} + \\overrightarrow{BX} = \\overrightarrow{AX}$ gives $(3\\mathbf{a} + 2\\mathbf{b}) + \\mu(3\\mathbf{a} - 5\\mathbf{b}) = \\rho(7\\mathbf{a})$.\n$\\mathbf{a}$: $3 + 3\\mu = 7\\rho$; $\\mathbf{b}$: $2 - 5\\mu = 0$. Solving: $\\mu = \\frac{2}{5}$ and $\\rho = \\frac{3}{5}$.\nSo $BX = \\frac{2}{5}BD$ and $XD = \\frac{3}{5}BD$, giving $BX : XD = 2 : 3$.\n\nFinal answer: (a) $k = 5$ (shown)  (b) $BX : XD = 2 : 3$",
+     "solution": "(a) $\\overrightarrow{BD} = -\\overrightarrow{DB} = 3\\mathbf{a} - k\\mathbf{b}$. So $\\overrightarrow{AD} = \\overrightarrow{AB} + \\overrightarrow{BD} = 6\\mathbf{a} + (2 - k)\\mathbf{b}$. [M1]\n$AD \\parallel BC$, so $\\overrightarrow{AD} = \\lambda\\overrightarrow{BC}$. Comparing the $\\mathbf{a}$ coefficients: $6 = 12\\lambda$, so $\\lambda = \\frac{1}{2}$. [M1]\nComparing the $\\mathbf{b}$ coefficients: $2 - k = \\frac{1}{2} \\times (-6) = -3$, so $k = 5$ (shown). [A1]\n(b) $\\overrightarrow{BN} = \\frac{1}{3}\\overrightarrow{BC} = 4\\mathbf{a} - 2\\mathbf{b}$ and $\\overrightarrow{BD} = 3\\mathbf{a} - 5\\mathbf{b}$. [M1]\nLet $\\overrightarrow{BX} = \\mu\\overrightarrow{BD}$ and $\\overrightarrow{AX} = \\rho\\overrightarrow{AN}$, where $\\overrightarrow{AN} = \\overrightarrow{AB} + \\overrightarrow{BN} = 7\\mathbf{a}$. [M1]\n$\\overrightarrow{AB} + \\overrightarrow{BX} = \\overrightarrow{AX}$ gives $(3\\mathbf{a} + 2\\mathbf{b}) + \\mu(3\\mathbf{a} - 5\\mathbf{b}) = \\rho(7\\mathbf{a})$. [M1]\n$\\mathbf{a}$: $3 + 3\\mu = 7\\rho$; $\\mathbf{b}$: $2 - 5\\mu = 0$. Solving: $\\mu = \\frac{2}{5}$ and $\\rho = \\frac{3}{5}$. [M1]\nSo $BX = \\frac{2}{5}BD$ and $XD = \\frac{3}{5}BD$, giving $BX : XD = 2 : 3$. [A1]\n\nFinal answer: (a) $k = 5$ (shown)  (b) $BX : XD = 2 : 3$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Trapezium: parallel vectors, ratios and intersection of lines",
@@ -1597,7 +1597,7 @@
       "(b) Find $\\overrightarrow{BN}$ from the ratio $BN : NC$. Then write $\\overrightarrow{BX} = \\mu\\overrightarrow{BD}$ and $\\overrightarrow{AX} = \\rho\\overrightarrow{AN}$.",
       "(b) Use $\\overrightarrow{AB} + \\overrightarrow{BX} = \\overrightarrow{AX}$ and equate coefficients of $\\mathbf{a}$ and $\\mathbf{b}$ to find $\\mu$. (Alternatively, use similar triangles $ADX$ and $NBX$.)"
      ],
-     "solution": "(a) $\\overrightarrow{BD} = -\\overrightarrow{DB} = 4\\mathbf{a} - k\\mathbf{b}$. So $\\overrightarrow{AD} = \\overrightarrow{AB} + \\overrightarrow{BD} = 6\\mathbf{a} + (1 - k)\\mathbf{b}$.\n$AD \\parallel BC$, so $\\overrightarrow{AD} = \\lambda\\overrightarrow{BC}$. Comparing the $\\mathbf{a}$ coefficients: $6 = 8\\lambda$, so $\\lambda = \\frac{3}{4}$.\nComparing the $\\mathbf{b}$ coefficients: $1 - k = \\frac{3}{4} \\times (-12) = -9$, so $k = 10$ (shown).\n(b) $\\overrightarrow{BN} = \\frac{1}{4}\\overrightarrow{BC} = 2\\mathbf{a} - 3\\mathbf{b}$ and $\\overrightarrow{BD} = 4\\mathbf{a} - 10\\mathbf{b}$.\nLet $\\overrightarrow{BX} = \\mu\\overrightarrow{BD}$ and $\\overrightarrow{AX} = \\rho\\overrightarrow{AN}$, where $\\overrightarrow{AN} = \\overrightarrow{AB} + \\overrightarrow{BN} = 4\\mathbf{a} - 2\\mathbf{b}$.\n$\\overrightarrow{AB} + \\overrightarrow{BX} = \\overrightarrow{AX}$ gives $(2\\mathbf{a} + \\mathbf{b}) + \\mu(4\\mathbf{a} - 10\\mathbf{b}) = \\rho(4\\mathbf{a} - 2\\mathbf{b})$.\n$\\mathbf{a}$: $2 + 4\\mu = 4\\rho$; $\\mathbf{b}$: $1 - 10\\mu = -2\\rho$. Solving: $\\mu = \\frac{1}{4}$ and $\\rho = \\frac{3}{4}$.\nSo $BX = \\frac{1}{4}BD$ and $XD = \\frac{3}{4}BD$, giving $BX : XD = 1 : 3$.\n\nFinal answer: (a) $k = 10$ (shown)  (b) $BX : XD = 1 : 3$",
+     "solution": "(a) $\\overrightarrow{BD} = -\\overrightarrow{DB} = 4\\mathbf{a} - k\\mathbf{b}$. So $\\overrightarrow{AD} = \\overrightarrow{AB} + \\overrightarrow{BD} = 6\\mathbf{a} + (1 - k)\\mathbf{b}$. [M1]\n$AD \\parallel BC$, so $\\overrightarrow{AD} = \\lambda\\overrightarrow{BC}$. Comparing the $\\mathbf{a}$ coefficients: $6 = 8\\lambda$, so $\\lambda = \\frac{3}{4}$. [M1]\nComparing the $\\mathbf{b}$ coefficients: $1 - k = \\frac{3}{4} \\times (-12) = -9$, so $k = 10$ (shown). [A1]\n(b) $\\overrightarrow{BN} = \\frac{1}{4}\\overrightarrow{BC} = 2\\mathbf{a} - 3\\mathbf{b}$ and $\\overrightarrow{BD} = 4\\mathbf{a} - 10\\mathbf{b}$. [M1]\nLet $\\overrightarrow{BX} = \\mu\\overrightarrow{BD}$ and $\\overrightarrow{AX} = \\rho\\overrightarrow{AN}$, where $\\overrightarrow{AN} = \\overrightarrow{AB} + \\overrightarrow{BN} = 4\\mathbf{a} - 2\\mathbf{b}$. [M1]\n$\\overrightarrow{AB} + \\overrightarrow{BX} = \\overrightarrow{AX}$ gives $(2\\mathbf{a} + \\mathbf{b}) + \\mu(4\\mathbf{a} - 10\\mathbf{b}) = \\rho(4\\mathbf{a} - 2\\mathbf{b})$. [M1]\n$\\mathbf{a}$: $2 + 4\\mu = 4\\rho$; $\\mathbf{b}$: $1 - 10\\mu = -2\\rho$. Solving: $\\mu = \\frac{1}{4}$ and $\\rho = \\frac{3}{4}$. [M1]\nSo $BX = \\frac{1}{4}BD$ and $XD = \\frac{3}{4}BD$, giving $BX : XD = 1 : 3$. [A1]\n\nFinal answer: (a) $k = 10$ (shown)  (b) $BX : XD = 1 : 3$",
      "year": "",
      "paper": "Edexcel Paper 2 2025",
      "subtopic": "Trapezium: parallel vectors, ratios and intersection of lines",
