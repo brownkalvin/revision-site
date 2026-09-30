@@ -1,0 +1,125 @@
+{
+ "subject": "alevel-physics",
+ "topics": [
+  {
+   "topic": "Measurements and errors",
+   "category": "Year 1",
+   "questions": []
+  },
+  {
+   "topic": "Particles and radiation",
+   "category": "Year 1",
+   "questions": []
+  },
+  {
+   "topic": "Quantum phenomena",
+   "category": "Year 1",
+   "questions": []
+  },
+  {
+   "topic": "Waves",
+   "category": "Year 1",
+   "questions": []
+  },
+  {
+   "topic": "Optics",
+   "category": "Year 1",
+   "questions": []
+  },
+  {
+   "topic": "Mechanics",
+   "category": "Year 1",
+   "questions": []
+  },
+  {
+   "topic": "Materials",
+   "category": "Year 1",
+   "questions": []
+  },
+  {
+   "topic": "Electricity",
+   "category": "Year 1",
+   "questions": []
+  },
+  {
+   "topic": "Circular motion",
+   "category": "Year 2",
+   "questions": []
+  },
+  {
+   "topic": "Simple harmonic motion",
+   "category": "Year 2",
+   "questions": []
+  },
+  {
+   "topic": "Thermal physics",
+   "category": "Year 2",
+   "questions": []
+  },
+  {
+   "topic": "Gravitational fields",
+   "category": "Year 2",
+   "questions": []
+  },
+  {
+   "topic": "Electric fields",
+   "category": "Year 2",
+   "questions": []
+  },
+  {
+   "topic": "Capacitors",
+   "category": "Year 2",
+   "questions": []
+  },
+  {
+   "topic": "Magnetic fields",
+   "category": "Year 2",
+   "questions": []
+  },
+  {
+   "topic": "Electromagnetic induction",
+   "category": "Year 2",
+   "questions": []
+  },
+  {
+   "topic": "Nuclear physics",
+   "category": "Year 2",
+   "questions": []
+  },
+  {
+   "topic": "Astrophysics",
+   "category": "Options",
+   "questions": []
+  },
+  {
+   "topic": "Medical physics",
+   "category": "Options",
+   "questions": []
+  },
+  {
+   "topic": "Engineering physics",
+   "category": "Options",
+   "questions": []
+  },
+  {
+   "topic": "Turning points in physics",
+   "category": "Options",
+   "questions": []
+  },
+  {
+   "topic": "Electronics",
+   "category": "Options",
+   "questions": []
+  },
+  {
+   "topic": "Required practicals",
+   "category": "Practical skills",
+   "questions": []
+  },
+  {
+   "topic": "Data analysis and uncertainties",
+   "category": "Practical skills",
+   "questions": []
+  }
+ ]
+}
