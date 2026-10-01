@@ -1169,7 +1169,7 @@ const SUBJECTS = [
 ];
 // Each subject's questions live in their own file: questions/<subject id>.json
 // Change QUESTIONS_VERSION whenever you edit a question file, so browsers fetch the new copy straight away.
-const QUESTIONS_VERSION = "6";
+const QUESTIONS_VERSION = "7";
 const SUBJECT_BANKS = {};
 const bankLoads = {}, bankErrors = {};
 function bankLoaded(sid){ return !!SUBJECT_BANKS[sid]; }
@@ -2258,6 +2258,7 @@ function tableHtml(q, mode){
 // Powers can be written as x^2 or x² and standard form as 3.2x10^4 or 3.2×10⁴.
 //   "roots": ["-5", "2"]    one "x =" box per solution (e.g. a quadratic), accepted in any order.
 //   "variable": "y"         changes the label from "x =" (optional)
+//   "ordered": true         a list answer must be in the given order (e.g. "write in order of size")
 //   A part can have "prefix": "x =" to label its box "x =" instead of "(a)".
 const MAX_TRIES = 5;
 const SUP = {"0":"⁰","1":"¹","2":"²","3":"³","4":"⁴","5":"⁵","6":"⁶","7":"⁷","8":"⁸","9":"⁹","-":"⁻","−":"⁻","+":"⁺","(":"⁽",")":"⁾","=":"⁼",
@@ -2289,10 +2290,10 @@ function fractionKind(p){
 function answerSpec(q){
   if(!q) return null;
   let parts = [];
-  if(Array.isArray(q.parts) && q.parts.length) parts = q.parts.map((p,i)=>({ label:p.label || String.fromCharCode(97+i), prefix:p.prefix, answers:acceptedList(p), exact:!!(p.exact ?? q.exact), tolerance:p.tolerance ?? q.tolerance, fraction:p.fraction ?? q.fraction }));
+  if(Array.isArray(q.parts) && q.parts.length) parts = q.parts.map((p,i)=>({ label:p.label || String.fromCharCode(97+i), prefix:p.prefix, answers:acceptedList(p), exact:!!(p.exact ?? q.exact), ordered:!!(p.ordered ?? q.ordered), tolerance:p.tolerance ?? q.tolerance, fraction:p.fraction ?? q.fraction }));
   else {
     const list = acceptedList(q);
-    if(list.length) parts = [{ label:"", answers:list, exact:!!q.exact, tolerance:q.tolerance, fraction:q.fraction }];
+    if(list.length) parts = [{ label:"", answers:list, exact:!!q.exact, ordered:!!q.ordered, tolerance:q.tolerance, fraction:q.fraction }];
   }
   parts.forEach(p=>{ p.kind = fractionKind(p); });
   // "roots": ["-5", "2"] -> one "x =" box per solution; they can be typed in either order.
@@ -2362,11 +2363,13 @@ function sameValue(input, expected, part){
 function listItems(s){ return normAns(s).split(",").filter(Boolean); }
 function checkPart(input, part){
   if(!String(input||"").trim()) return false;
+  if(part.ordered && !/[,;]/.test(input)) input = String(input).trim().split(/\s+/).join(", ");   // "−7 −3 0 4 6"
   return part.answers.some(acc=>{
     const n = normAns(acc);
     if(n.includes(",") && !/[()\[\]]/.test(n)){                               // a list like "2, -3": any order
       const want = listItems(acc), got = listItems(input);
       if(want.length!==got.length) return false;
+      if(part.ordered) return want.every((w,i)=>sameValue(got[i], w, part));    // "write in order" questions
       const used = new Set();
       return want.every(w=>{ const i = got.findIndex((g,j)=>!used.has(j) && sameValue(g, w, part)); if(i<0) return false; used.add(i); return true; });
     }

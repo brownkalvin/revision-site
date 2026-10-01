@@ -187,6 +187,173 @@
       "4.5 x 10^6"
      ],
      "exact": true
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q02a",
+     "marks": 2,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q2",
+     "prompt": "(a) Write $6.083 \\times 10^{5}$ as an ordinary number. (1)\n(b) Write 0.5172 in standard form. (1)",
+     "hints": [
+      "Move the digits the number of places shown by the power.",
+      "Standard form: A × 10ⁿ with 1 ≤ A < 10."
+     ],
+     "solution": "(a) 608300 [B1]\n(b) $5.172 \\times 10^{-1}$ [B1]",
+     "parts": [
+      {
+       "label": "a",
+       "answer": "608300"
+      },
+      {
+       "label": "b",
+       "answers": [
+        "5.172 × 10^-1",
+        "5.172 x 10^-1"
+       ],
+       "exact": true
+      }
+     ]
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q02b",
+     "marks": 2,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q2",
+     "prompt": "(a) Write $1.94 \\times 10^{7}$ as an ordinary number. (1)\n(b) Write 0.00473 in standard form. (1)",
+     "hints": [
+      "Move the digits the number of places shown by the power.",
+      "Standard form: A × 10ⁿ with 1 ≤ A < 10."
+     ],
+     "solution": "(a) 19400000 [B1]\n(b) $4.73 \\times 10^{-3}$ [B1]",
+     "parts": [
+      {
+       "label": "a",
+       "answer": "19400000"
+      },
+      {
+       "label": "b",
+       "answers": [
+        "4.73 × 10^-3",
+        "4.73 x 10^-3"
+       ],
+       "exact": true
+      }
+     ]
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q02c",
+     "marks": 2,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q2",
+     "prompt": "(a) Write $8.006 \\times 10^{4}$ as an ordinary number. (1)\n(b) Write 0.0391 in standard form. (1)",
+     "hints": [
+      "Move the digits the number of places shown by the power.",
+      "Standard form: A × 10ⁿ with 1 ≤ A < 10."
+     ],
+     "solution": "(a) 80060 [B1]\n(b) $3.91 \\times 10^{-2}$ [B1]",
+     "parts": [
+      {
+       "label": "a",
+       "answer": "80060"
+      },
+      {
+       "label": "b",
+       "answers": [
+        "3.91 × 10^-2",
+        "3.91 x 10^-2"
+       ],
+       "exact": true
+      }
+     ]
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q09a",
+     "marks": 3,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q9",
+     "prompt": "(a) Simplify fully  $3x^4y^2 \\times 8x^3y^6$ (2)\n(b) Simplify  $(a^3)^{-4}$ (1)",
+     "hints": [
+      "Multiply the numbers and add the powers of each letter.",
+      "Power of a power: multiply the powers."
+     ],
+     "solution": "(a) $24x^7y^8$ [M1 A1]\n\n(b) $a^{-12}$ [B1]",
+     "parts": [
+      {
+       "label": "a",
+       "answers": [
+        "24x^7y^8",
+        "24x⁷y⁸"
+       ]
+      },
+      {
+       "label": "b",
+       "answers": [
+        "a^-12",
+        "1/a^12",
+        "a⁻¹²"
+       ],
+       "fraction": false
+      }
+     ]
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q09b",
+     "marks": 3,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q9",
+     "prompt": "(a) Simplify fully  $6p^5q \\times 4p^2q^3$ (2)\n(b) Simplify  $(w^{-3})^{-2}$ (1)",
+     "hints": [
+      "Multiply the numbers and add the powers of each letter.",
+      "Power of a power: multiply the powers."
+     ],
+     "solution": "(a) $24p^7q^4$ [M1 A1]\n\n(b) $w^{6}$ [B1]",
+     "parts": [
+      {
+       "label": "a",
+       "answers": [
+        "24p^7q^4",
+        "24p⁷q⁴"
+       ]
+      },
+      {
+       "label": "b",
+       "answers": [
+        "w^6",
+        "w⁶"
+       ],
+       "fraction": false
+      }
+     ]
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q09c",
+     "marks": 3,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q9",
+     "prompt": "(a) Simplify fully  $7m^2n^5 \\times 3m^6n^2$ (2)\n(b) Simplify  $(h^4)^{-5}$ (1)",
+     "hints": [
+      "Multiply the numbers and add the powers of each letter.",
+      "Power of a power: multiply the powers."
+     ],
+     "solution": "(a) $21m^8n^7$ [M1 A1]\n\n(b) $h^{-20}$ [B1]",
+     "parts": [
+      {
+       "label": "a",
+       "answers": [
+        "21m^8n^7",
+        "21m⁸n⁷"
+       ]
+      },
+      {
+       "label": "b",
+       "answers": [
+        "h^-20",
+        "1/h^20",
+        "h⁻²⁰"
+       ],
+       "fraction": false
+      }
+     ]
     }
    ]
   },
@@ -285,7 +452,44 @@
   {
    "topic": "Recurring decimals",
    "category": "Number",
-   "questions": []
+   "questions": [
+    {
+     "id": "gcse-h-2024nov-p3-q14a",
+     "marks": 3,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q14",
+     "prompt": "Prove algebraically that  $0.1\\dot{5}\\dot{4}$  can be written as  $\\frac{17}{110}$ (3)",
+     "hints": [
+      "Let x = the decimal. Multiply by 1000 and by 10 so the recurring parts line up.",
+      "Subtract to remove the recurring part."
+     ],
+     "solution": "Model answer:\n$x = 0.15454\\ldots$, so $1000x = 154.5454\\ldots$ and $10x = 1.5454\\ldots$ [M1]\n$990x = 154 - 1 = 153$ [M1]\n$x = \\frac{153}{990} = \\frac{17}{110}$ [A1]"
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q14b",
+     "marks": 3,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q14",
+     "prompt": "Prove algebraically that  $0.3\\dot{7}\\dot{2}$  can be written as  $\\frac{41}{110}$ (3)",
+     "hints": [
+      "Let x = the decimal. Multiply by 1000 and by 10 so the recurring parts line up.",
+      "Subtract to remove the recurring part."
+     ],
+     "solution": "Model answer:\n$x = 0.37272\\ldots$, so $1000x = 372.7272\\ldots$ and $10x = 3.7272\\ldots$ [M1]\n$990x = 372 - 3 = 369$ [M1]\n$x = \\frac{369}{990} = \\frac{41}{110}$ [A1]"
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q14c",
+     "marks": 3,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q14",
+     "prompt": "Prove algebraically that  $0.2\\dot{5}\\dot{8}$  can be written as  $\\frac{128}{495}$ (3)",
+     "hints": [
+      "Let x = the decimal. Multiply by 1000 and by 10 so the recurring parts line up.",
+      "Subtract to remove the recurring part."
+     ],
+     "solution": "Model answer:\n$x = 0.25858\\ldots$, so $1000x = 258.5858\\ldots$ and $10x = 2.5858\\ldots$ [M1]\n$990x = 258 - 2 = 256$ [M1]\n$x = \\frac{256}{990} = \\frac{128}{495}$ [A1]"
+    }
+   ]
   },
   {
    "topic": "Bounds and error intervals",
@@ -332,6 +536,75 @@
      ],
      "solution": "Bounds: $612.5 \\le w < 617.5$, $8.95 \\le a < 9.05$, $4.25 \\le c < 4.35$ [B1]\nUpper bound of $T = \\frac{617.5}{8.95 - 4.35} = 134.2391\\ldots$ [M1]\nLower bound of $T = \\frac{612.5}{9.05 - 4.25} = 127.6042\\ldots$ [M1]\nBoth round to $130$ to 2 significant figures [A1]\n$T = 130$, because the upper and lower bounds agree to 2 significant figures (but not to 3). [C1]",
      "answer": "130"
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q07a",
+     "marks": 2,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q7",
+     "prompt": "Jana used her calculator to find the value of a number $t$. The answer on her calculator began 6.48\nComplete the error interval for $t$:   ____ $\\le t <$ ____ (2)",
+     "hints": [
+      "'Began' means the remaining digits were cut off (truncated)."
+     ],
+     "solution": "$6.48 \\le t < 6.49$: lower bound $6.48$ [B1], upper bound $6.49$ [B1]",
+     "parts": [
+      {
+       "label": "lower",
+       "prefix": "Lower:",
+       "answer": "6.48"
+      },
+      {
+       "label": "upper",
+       "prefix": "Upper:",
+       "answer": "6.49"
+      }
+     ]
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q07b",
+     "marks": 2,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q7",
+     "prompt": "Jana used her calculator to find the value of a number $t$. The answer on her calculator began 23.7\nComplete the error interval for $t$:   ____ $\\le t <$ ____ (2)",
+     "hints": [
+      "'Began' means the remaining digits were cut off (truncated)."
+     ],
+     "solution": "$23.7 \\le t < 23.8$: lower bound $23.7$ [B1], upper bound $23.8$ [B1]",
+     "parts": [
+      {
+       "label": "lower",
+       "prefix": "Lower:",
+       "answer": "23.7"
+      },
+      {
+       "label": "upper",
+       "prefix": "Upper:",
+       "answer": "23.8"
+      }
+     ]
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q07c",
+     "marks": 2,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q7",
+     "prompt": "Jana used her calculator to find the value of a number $t$. The answer on her calculator began 0.53\nComplete the error interval for $t$:   ____ $\\le t <$ ____ (2)",
+     "hints": [
+      "'Began' means the remaining digits were cut off (truncated)."
+     ],
+     "solution": "$0.53 \\le t < 0.54$: lower bound $0.53$ [B1], upper bound $0.54$ [B1]",
+     "parts": [
+      {
+       "label": "lower",
+       "prefix": "Lower:",
+       "answer": "0.53"
+      },
+      {
+       "label": "upper",
+       "prefix": "Upper:",
+       "answer": "0.54"
+      }
+     ]
     }
    ]
   },
@@ -651,6 +924,120 @@
        "answer": "2"
       }
      ]
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q20a",
+     "marks": 4,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q20",
+     "prompt": "Solve the simultaneous equations\n$y^2 = 2x^2 + 5$\n$y + x = 6$\nGive your solutions correct to 3 significant figures. Enter the solution with the smaller value of $x$ first. (4)",
+     "hints": [
+      "Rearrange the linear equation for y and substitute it into the other equation.",
+      "Solve the quadratic with the formula, then find each y."
+     ],
+     "solution": "Substitute $y = 6 - x$: $x^{2} + 12 x - 31 = 0$ [M1]\nUse the quadratic formula [M1]\n$x = -14.2$ or $x = 2.19$ [A1]\n$y = 20.2$ or $y = 3.81$ respectively [A1]",
+     "parts": [
+      {
+       "label": "x1",
+       "prefix": "x =",
+       "answer": "-14.2",
+       "tolerance": 0.0600000012
+      },
+      {
+       "label": "y1",
+       "prefix": "y =",
+       "answer": "20.2",
+       "tolerance": 0.0600000012
+      },
+      {
+       "label": "x2",
+       "prefix": "x =",
+       "answer": "2.19",
+       "tolerance": 0.0060000012000000005
+      },
+      {
+       "label": "y2",
+       "prefix": "y =",
+       "answer": "3.81",
+       "tolerance": 0.0060000012000000005
+      }
+     ]
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q20b",
+     "marks": 4,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q20",
+     "prompt": "Solve the simultaneous equations\n$y^2 = 4x^2 - 3$\n$y - x = 3$\nGive your solutions correct to 3 significant figures. Enter the solution with the smaller value of $x$ first. (4)",
+     "hints": [
+      "Rearrange the linear equation for y and substitute it into the other equation.",
+      "Solve the quadratic with the formula, then find each y."
+     ],
+     "solution": "Substitute $y = x + 3$: $3 x^{2} - 6 x - 12 = 0$ [M1]\nUse the quadratic formula [M1]\n$x = -1.24$ or $x = 3.24$ [A1]\n$y = 1.76$ or $y = 6.24$ respectively [A1]",
+     "parts": [
+      {
+       "label": "x1",
+       "prefix": "x =",
+       "answer": "-1.24",
+       "tolerance": 0.0060000012000000005
+      },
+      {
+       "label": "y1",
+       "prefix": "y =",
+       "answer": "1.76",
+       "tolerance": 0.0060000012000000005
+      },
+      {
+       "label": "x2",
+       "prefix": "x =",
+       "answer": "3.24",
+       "tolerance": 0.0060000012000000005
+      },
+      {
+       "label": "y2",
+       "prefix": "y =",
+       "answer": "6.24",
+       "tolerance": 0.0060000012000000005
+      }
+     ]
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q20c",
+     "marks": 4,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q20",
+     "prompt": "Solve the simultaneous equations\n$y^2 = x^2 + 8$\n$y + 3x = 5$\nGive your solutions correct to 3 significant figures. Enter the solution with the smaller value of $x$ first. (4)",
+     "hints": [
+      "Rearrange the linear equation for y and substitute it into the other equation.",
+      "Solve the quadratic with the formula, then find each y."
+     ],
+     "solution": "Substitute $y = 5 - 3 x$: $8 x^{2} - 30 x + 17 = 0$ [M1]\nUse the quadratic formula [M1]\n$x = 0.696$ or $x = 3.05$ [A1]\n$y = 2.91$ or $y = -4.16$ respectively [A1]",
+     "parts": [
+      {
+       "label": "x1",
+       "prefix": "x =",
+       "answer": "0.696",
+       "tolerance": 0.0006000012
+      },
+      {
+       "label": "y1",
+       "prefix": "y =",
+       "answer": "2.91",
+       "tolerance": 0.0060000012000000005
+      },
+      {
+       "label": "x2",
+       "prefix": "x =",
+       "answer": "3.05",
+       "tolerance": 0.0060000012000000005
+      },
+      {
+       "label": "y2",
+       "prefix": "y =",
+       "answer": "-4.16",
+       "tolerance": 0.0060000012000000005
+      }
+     ]
     }
    ]
   },
@@ -857,6 +1244,90 @@
       "3"
      ],
      "variable": "k"
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q16a",
+     "marks": 5,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q16",
+     "prompt": "$OBCD$ is a rectangle. $DCE$ is a straight line.\n$B$ has coordinates $(2, -6)$ and $E$ has coordinates $(9, -7)$\nWork out the coordinates of $D$. You must show all your working. (5)",
+     "hints": [
+      "OD is perpendicular to OB, so its gradient is the negative reciprocal of OB's.",
+      "DE is parallel to OB. Write D as (a, b) using the gradient of OD, then use the gradient of DE."
+     ],
+     "solution": "Gradient of $OB = -3$, so gradient of $OD = \\frac{1}{3}$ [M1]\nSo $D = (6k, 2k)$ for some $k$ [M1]\n$DE$ is parallel to $OB$: $\\frac{-7 - 2k}{9 - 6k} = -3$ [M1]\nSolve: $k = 1$ [M1]\n$D = (6, 2)$ [A1]",
+     "parts": [
+      {
+       "label": "x",
+       "prefix": "x =",
+       "answer": "6"
+      },
+      {
+       "label": "y",
+       "prefix": "y =",
+       "answer": "2"
+      }
+     ],
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 270\" width=\"100%\" style=\"max-width:440px\" role=\"img\"><line x1=\"40.0\" y1=\"120.0\" x2=\"400.0\" y2=\"120.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"160.0\" y1=\"20.0\" x2=\"160.0\" y2=\"250.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><polygon points=\"160.0,120.0 200.0,210.0 360.0,140.0 320.0,50.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"360.0\" y1=\"140.0\" x2=\"384.0\" y2=\"194.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"148.0\" y=\"132.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">O</text><text x=\"200.0\" y=\"226.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">B</text><text x=\"372.0\" y=\"144.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">C</text><text x=\"324.0\" y=\"38.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">D</text><text x=\"394.0\" y=\"204.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">E</text><text x=\"405.0\" y=\"120.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">x</text><text x=\"160.0\" y=\"12.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">y</text></svg>",
+      "alt": "Rectangle OBCD with O at the origin, B below and to the right, D above and to the right; line DC extends to E."
+     }
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q16b",
+     "marks": 5,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q16",
+     "prompt": "$OBCD$ is a rectangle. $DCE$ is a straight line.\n$B$ has coordinates $(3, -3)$ and $E$ has coordinates $(12, 0)$\nWork out the coordinates of $D$. You must show all your working. (5)",
+     "hints": [
+      "OD is perpendicular to OB, so its gradient is the negative reciprocal of OB's.",
+      "DE is parallel to OB. Write D as (a, b) using the gradient of OD, then use the gradient of DE."
+     ],
+     "solution": "Gradient of $OB = -1$, so gradient of $OD = 1$ [M1]\nSo $D = (3k, 3k)$ for some $k$ [M1]\n$DE$ is parallel to $OB$: $\\frac{0 - 3k}{12 - 3k} = -1$ [M1]\nSolve: $k = 2$ [M1]\n$D = (6, 6)$ [A1]",
+     "parts": [
+      {
+       "label": "x",
+       "prefix": "x =",
+       "answer": "6"
+      },
+      {
+       "label": "y",
+       "prefix": "y =",
+       "answer": "6"
+      }
+     ],
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 270\" width=\"100%\" style=\"max-width:440px\" role=\"img\"><line x1=\"40.0\" y1=\"120.0\" x2=\"400.0\" y2=\"120.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"160.0\" y1=\"20.0\" x2=\"160.0\" y2=\"250.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><polygon points=\"160.0,120.0 200.0,210.0 360.0,140.0 320.0,50.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"360.0\" y1=\"140.0\" x2=\"384.0\" y2=\"194.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"148.0\" y=\"132.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">O</text><text x=\"200.0\" y=\"226.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">B</text><text x=\"372.0\" y=\"144.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">C</text><text x=\"324.0\" y=\"38.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">D</text><text x=\"394.0\" y=\"204.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">E</text><text x=\"405.0\" y=\"120.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">x</text><text x=\"160.0\" y=\"12.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">y</text></svg>",
+      "alt": "Rectangle OBCD with O at the origin, B below and to the right, D above and to the right; line DC extends to E."
+     }
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q16c",
+     "marks": 5,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q16",
+     "prompt": "$OBCD$ is a rectangle. $DCE$ is a straight line.\n$B$ has coordinates $(4, -2)$ and $E$ has coordinates $(11, 2)$\nWork out the coordinates of $D$. You must show all your working. (5)",
+     "hints": [
+      "OD is perpendicular to OB, so its gradient is the negative reciprocal of OB's.",
+      "DE is parallel to OB. Write D as (a, b) using the gradient of OD, then use the gradient of DE."
+     ],
+     "solution": "Gradient of $OB = -\\frac{1}{2}$, so gradient of $OD = 2$ [M1]\nSo $D = (2k, 4k)$ for some $k$ [M1]\n$DE$ is parallel to $OB$: $\\frac{2 - 4k}{11 - 2k} = -\\frac{1}{2}$ [M1]\nSolve: $k = 1.5$ [M1]\n$D = (3, 6)$ [A1]",
+     "parts": [
+      {
+       "label": "x",
+       "prefix": "x =",
+       "answer": "3"
+      },
+      {
+       "label": "y",
+       "prefix": "y =",
+       "answer": "6"
+      }
+     ],
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 270\" width=\"100%\" style=\"max-width:440px\" role=\"img\"><line x1=\"40.0\" y1=\"120.0\" x2=\"400.0\" y2=\"120.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"160.0\" y1=\"20.0\" x2=\"160.0\" y2=\"250.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><polygon points=\"160.0,120.0 200.0,210.0 360.0,140.0 320.0,50.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"360.0\" y1=\"140.0\" x2=\"384.0\" y2=\"194.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"148.0\" y=\"132.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">O</text><text x=\"200.0\" y=\"226.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">B</text><text x=\"372.0\" y=\"144.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">C</text><text x=\"324.0\" y=\"38.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">D</text><text x=\"394.0\" y=\"204.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">E</text><text x=\"405.0\" y=\"120.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">x</text><text x=\"160.0\" y=\"12.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">y</text></svg>",
+      "alt": "Rectangle OBCD with O at the origin, B below and to the right, D above and to the right; line DC extends to E."
+     }
     }
    ]
   },
@@ -1013,6 +1484,60 @@
       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 320\" width=\"100%\" style=\"max-width:480px\" role=\"img\"><line x1=\"80.0\" y1=\"20\" x2=\"80.0\" y2=\"270\" stroke=\"currentColor\" stroke-opacity=\".25\"/><text x=\"80.0\" y=\"286.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">0</text><line x1=\"127.5\" y1=\"20\" x2=\"127.5\" y2=\"270\" stroke=\"currentColor\" stroke-opacity=\".25\"/><text x=\"127.5\" y=\"286.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">5</text><line x1=\"175.0\" y1=\"20\" x2=\"175.0\" y2=\"270\" stroke=\"currentColor\" stroke-opacity=\".25\"/><text x=\"175.0\" y=\"286.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">10</text><line x1=\"222.5\" y1=\"20\" x2=\"222.5\" y2=\"270\" stroke=\"currentColor\" stroke-opacity=\".25\"/><text x=\"222.5\" y=\"286.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">15</text><line x1=\"270.0\" y1=\"20\" x2=\"270.0\" y2=\"270\" stroke=\"currentColor\" stroke-opacity=\".25\"/><text x=\"270.0\" y=\"286.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">20</text><line x1=\"317.5\" y1=\"20\" x2=\"317.5\" y2=\"270\" stroke=\"currentColor\" stroke-opacity=\".25\"/><text x=\"317.5\" y=\"286.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">25</text><line x1=\"365.0\" y1=\"20\" x2=\"365.0\" y2=\"270\" stroke=\"currentColor\" stroke-opacity=\".25\"/><text x=\"365.0\" y=\"286.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">30</text><line x1=\"412.5\" y1=\"20\" x2=\"412.5\" y2=\"270\" stroke=\"currentColor\" stroke-opacity=\".25\"/><text x=\"412.5\" y=\"286.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">35</text><line x1=\"460.0\" y1=\"20\" x2=\"460.0\" y2=\"270\" stroke=\"currentColor\" stroke-opacity=\".25\"/><text x=\"460.0\" y=\"286.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">40</text><line x1=\"80\" y1=\"270.0\" x2=\"460\" y2=\"270.0\" stroke=\"currentColor\" stroke-opacity=\".25\"/><text x=\"68.0\" y=\"270.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">0</text><line x1=\"80\" y1=\"220.0\" x2=\"460\" y2=\"220.0\" stroke=\"currentColor\" stroke-opacity=\".25\"/><text x=\"68.0\" y=\"220.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">4</text><line x1=\"80\" y1=\"170.0\" x2=\"460\" y2=\"170.0\" stroke=\"currentColor\" stroke-opacity=\".25\"/><text x=\"68.0\" y=\"170.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">8</text><line x1=\"80\" y1=\"120.0\" x2=\"460\" y2=\"120.0\" stroke=\"currentColor\" stroke-opacity=\".25\"/><text x=\"68.0\" y=\"120.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">12</text><line x1=\"80\" y1=\"70.0\" x2=\"460\" y2=\"70.0\" stroke=\"currentColor\" stroke-opacity=\".25\"/><text x=\"68.0\" y=\"70.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">16</text><line x1=\"80\" y1=\"20.0\" x2=\"460\" y2=\"20.0\" stroke=\"currentColor\" stroke-opacity=\".25\"/><text x=\"68.0\" y=\"20.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">20</text><line x1=\"80.0\" y1=\"270.0\" x2=\"474.0\" y2=\"270.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"80.0\" y1=\"270.0\" x2=\"80.0\" y2=\"12.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"80.0\" y1=\"270.0\" x2=\"460.0\" y2=\"70.0\" stroke=\"currentColor\" stroke-width=\"2.2\"/><text x=\"270.0\" y=\"308.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">Energy used (E kWh)</text><text x=\"18\" y=\"145.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" transform=\"rotate(-90 18 145.0)\">Cost (C pounds)</text></svg>",
       "alt": "Straight-line graph of Cost (C pounds) against Energy used (E kWh)."
      }
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q22a",
+     "marks": 3,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q22",
+     "prompt": "Here is a velocity-time graph for an aeroplane.\nWork out an estimate for the distance the aeroplane travelled in the first 30 seconds. Use 3 strips of equal width. (3)",
+     "hints": [
+      "Distance = area under a velocity-time graph.",
+      "3 strips of width 10: read the velocity at 0, 10, 20 and 30 seconds and use trapeziums."
+     ],
+     "solution": "Velocities at 0, 10, 20, 30 s: 0, 48, 70, 84 [M1]\nArea $= \\frac{1}{2} \\times 10 \\times (0 + 48) + \\frac{1}{2} \\times 10 \\times (48 + 70) + \\frac{1}{2} \\times 10 \\times (70 + 84)$ [M1]\n$= 1600$ m [A1]",
+     "answer": "1600 m",
+     "tolerance": 30,
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 310\" width=\"100%\" style=\"max-width:500px\" role=\"img\"><line x1=\"60.0\" y1=\"15\" x2=\"60.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"72.0\" y1=\"15\" x2=\"72.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"84.0\" y1=\"15\" x2=\"84.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"96.0\" y1=\"15\" x2=\"96.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"108.0\" y1=\"15\" x2=\"108.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"120.0\" y1=\"15\" x2=\"120.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"132.0\" y1=\"15\" x2=\"132.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"144.0\" y1=\"15\" x2=\"144.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"156.0\" y1=\"15\" x2=\"156.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"168.0\" y1=\"15\" x2=\"168.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"180.0\" y1=\"15\" x2=\"180.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"192.0\" y1=\"15\" x2=\"192.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"204.0\" y1=\"15\" x2=\"204.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"216.0\" y1=\"15\" x2=\"216.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"228.0\" y1=\"15\" x2=\"228.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"240.0\" y1=\"15\" x2=\"240.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"252.0\" y1=\"15\" x2=\"252.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"264.0\" y1=\"15\" x2=\"264.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"276.0\" y1=\"15\" x2=\"276.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"288.0\" y1=\"15\" x2=\"288.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"300.0\" y1=\"15\" x2=\"300.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"312.0\" y1=\"15\" x2=\"312.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"324.0\" y1=\"15\" x2=\"324.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"336.0\" y1=\"15\" x2=\"336.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"348.0\" y1=\"15\" x2=\"348.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"360.0\" y1=\"15\" x2=\"360.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"372.0\" y1=\"15\" x2=\"372.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"384.0\" y1=\"15\" x2=\"384.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"396.0\" y1=\"15\" x2=\"396.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"408.0\" y1=\"15\" x2=\"408.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"420.0\" y1=\"15\" x2=\"420.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"432.0\" y1=\"15\" x2=\"432.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"444.0\" y1=\"15\" x2=\"444.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"456.0\" y1=\"15\" x2=\"456.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"468.0\" y1=\"15\" x2=\"468.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"480.0\" y1=\"15\" x2=\"480.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"60\" y1=\"265.0\" x2=\"480\" y2=\"265.0\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"60\" y1=\"255.0\" x2=\"480\" y2=\"255.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"245.0\" x2=\"480\" y2=\"245.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"235.0\" x2=\"480\" y2=\"235.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"225.0\" x2=\"480\" y2=\"225.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"215.0\" x2=\"480\" y2=\"215.0\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"60\" y1=\"205.0\" x2=\"480\" y2=\"205.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"195.0\" x2=\"480\" y2=\"195.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"185.0\" x2=\"480\" y2=\"185.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"175.0\" x2=\"480\" y2=\"175.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"165.0\" x2=\"480\" y2=\"165.0\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"60\" y1=\"155.0\" x2=\"480\" y2=\"155.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"145.0\" x2=\"480\" y2=\"145.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"135.0\" x2=\"480\" y2=\"135.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"125.0\" x2=\"480\" y2=\"125.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"115.0\" x2=\"480\" y2=\"115.0\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"60\" y1=\"105.0\" x2=\"480\" y2=\"105.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"95.0\" x2=\"480\" y2=\"95.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"85.0\" x2=\"480\" y2=\"85.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"75.0\" x2=\"480\" y2=\"75.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"65.0\" x2=\"480\" y2=\"65.0\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"60\" y1=\"55.0\" x2=\"480\" y2=\"55.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"45.0\" x2=\"480\" y2=\"45.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"35.0\" x2=\"480\" y2=\"35.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"25.0\" x2=\"480\" y2=\"25.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"15.0\" x2=\"480\" y2=\"15.0\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><text x=\"60.0\" y=\"279.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">0</text><text x=\"120.0\" y=\"279.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">5</text><text x=\"180.0\" y=\"279.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">10</text><text x=\"240.0\" y=\"279.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">15</text><text x=\"300.0\" y=\"279.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">20</text><text x=\"360.0\" y=\"279.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">25</text><text x=\"420.0\" y=\"279.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">30</text><text x=\"480.0\" y=\"279.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">35</text><text x=\"52.0\" y=\"265.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">0</text><text x=\"52.0\" y=\"215.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">20</text><text x=\"52.0\" y=\"165.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">40</text><text x=\"52.0\" y=\"115.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">60</text><text x=\"52.0\" y=\"65.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">80</text><text x=\"52.0\" y=\"15.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">100</text><line x1=\"60.0\" y1=\"265.0\" x2=\"490.0\" y2=\"265.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"60.0\" y1=\"265.0\" x2=\"60.0\" y2=\"10.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><path d=\"M60.0,265.0 C70.0,252.5 100.0,210.0 120.0,190.0 C140.0,170.0 160.0,157.5 180.0,145.0 C200.0,132.5 220.0,124.2 240.0,115.0 C260.0,105.8 280.0,97.5 300.0,90.0 C320.0,82.5 340.0,75.8 360.0,70.0 C380.0,64.2 400.0,59.2 420.0,55.0 C440.0,50.8 470.0,46.7 480.0,45.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"270.0\" y=\"299.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">Time (s)</text><text x=\"16\" y=\"140.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" transform=\"rotate(-90 16 140.0)\">Velocity (m/s)</text></svg>",
+      "alt": "Velocity-time graph: a curve through velocities 0, 30, 48, 60, 70, 78, 84, 88 m/s at 0, 5, 10, …, 35 seconds."
+     }
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q22b",
+     "marks": 3,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q22",
+     "prompt": "Here is a velocity-time graph for an aeroplane.\nWork out an estimate for the distance the aeroplane travelled in the first 30 seconds. Use 3 strips of equal width. (3)",
+     "hints": [
+      "Distance = area under a velocity-time graph.",
+      "3 strips of width 10: read the velocity at 0, 10, 20 and 30 seconds and use trapeziums."
+     ],
+     "solution": "Velocities at 0, 10, 20, 30 s: 10, 50, 71, 83 [M1]\nArea $= \\frac{1}{2} \\times 10 \\times (10 + 50) + \\frac{1}{2} \\times 10 \\times (50 + 71) + \\frac{1}{2} \\times 10 \\times (71 + 83)$ [M1]\n$= 1675$ m [A1]",
+     "answer": "1675 m",
+     "tolerance": 30,
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 310\" width=\"100%\" style=\"max-width:500px\" role=\"img\"><line x1=\"60.0\" y1=\"15\" x2=\"60.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"72.0\" y1=\"15\" x2=\"72.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"84.0\" y1=\"15\" x2=\"84.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"96.0\" y1=\"15\" x2=\"96.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"108.0\" y1=\"15\" x2=\"108.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"120.0\" y1=\"15\" x2=\"120.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"132.0\" y1=\"15\" x2=\"132.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"144.0\" y1=\"15\" x2=\"144.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"156.0\" y1=\"15\" x2=\"156.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"168.0\" y1=\"15\" x2=\"168.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"180.0\" y1=\"15\" x2=\"180.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"192.0\" y1=\"15\" x2=\"192.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"204.0\" y1=\"15\" x2=\"204.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"216.0\" y1=\"15\" x2=\"216.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"228.0\" y1=\"15\" x2=\"228.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"240.0\" y1=\"15\" x2=\"240.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"252.0\" y1=\"15\" x2=\"252.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"264.0\" y1=\"15\" x2=\"264.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"276.0\" y1=\"15\" x2=\"276.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"288.0\" y1=\"15\" x2=\"288.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"300.0\" y1=\"15\" x2=\"300.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"312.0\" y1=\"15\" x2=\"312.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"324.0\" y1=\"15\" x2=\"324.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"336.0\" y1=\"15\" x2=\"336.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"348.0\" y1=\"15\" x2=\"348.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"360.0\" y1=\"15\" x2=\"360.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"372.0\" y1=\"15\" x2=\"372.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"384.0\" y1=\"15\" x2=\"384.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"396.0\" y1=\"15\" x2=\"396.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"408.0\" y1=\"15\" x2=\"408.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"420.0\" y1=\"15\" x2=\"420.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"432.0\" y1=\"15\" x2=\"432.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"444.0\" y1=\"15\" x2=\"444.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"456.0\" y1=\"15\" x2=\"456.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"468.0\" y1=\"15\" x2=\"468.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"480.0\" y1=\"15\" x2=\"480.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"60\" y1=\"265.0\" x2=\"480\" y2=\"265.0\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"60\" y1=\"255.0\" x2=\"480\" y2=\"255.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"245.0\" x2=\"480\" y2=\"245.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"235.0\" x2=\"480\" y2=\"235.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"225.0\" x2=\"480\" y2=\"225.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"215.0\" x2=\"480\" y2=\"215.0\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"60\" y1=\"205.0\" x2=\"480\" y2=\"205.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"195.0\" x2=\"480\" y2=\"195.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"185.0\" x2=\"480\" y2=\"185.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"175.0\" x2=\"480\" y2=\"175.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"165.0\" x2=\"480\" y2=\"165.0\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"60\" y1=\"155.0\" x2=\"480\" y2=\"155.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"145.0\" x2=\"480\" y2=\"145.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"135.0\" x2=\"480\" y2=\"135.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"125.0\" x2=\"480\" y2=\"125.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"115.0\" x2=\"480\" y2=\"115.0\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"60\" y1=\"105.0\" x2=\"480\" y2=\"105.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"95.0\" x2=\"480\" y2=\"95.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"85.0\" x2=\"480\" y2=\"85.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"75.0\" x2=\"480\" y2=\"75.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"65.0\" x2=\"480\" y2=\"65.0\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"60\" y1=\"55.0\" x2=\"480\" y2=\"55.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"45.0\" x2=\"480\" y2=\"45.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"35.0\" x2=\"480\" y2=\"35.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"25.0\" x2=\"480\" y2=\"25.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"15.0\" x2=\"480\" y2=\"15.0\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><text x=\"60.0\" y=\"279.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">0</text><text x=\"120.0\" y=\"279.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">5</text><text x=\"180.0\" y=\"279.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">10</text><text x=\"240.0\" y=\"279.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">15</text><text x=\"300.0\" y=\"279.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">20</text><text x=\"360.0\" y=\"279.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">25</text><text x=\"420.0\" y=\"279.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">30</text><text x=\"480.0\" y=\"279.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">35</text><text x=\"52.0\" y=\"265.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">0</text><text x=\"52.0\" y=\"215.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">20</text><text x=\"52.0\" y=\"165.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">40</text><text x=\"52.0\" y=\"115.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">60</text><text x=\"52.0\" y=\"65.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">80</text><text x=\"52.0\" y=\"15.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">100</text><line x1=\"60.0\" y1=\"265.0\" x2=\"490.0\" y2=\"265.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"60.0\" y1=\"265.0\" x2=\"60.0\" y2=\"10.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><path d=\"M60.0,240.0 C70.0,230.0 100.0,196.7 120.0,180.0 C140.0,163.3 160.0,151.7 180.0,140.0 C200.0,128.3 220.0,118.8 240.0,110.0 C260.0,101.2 280.0,94.2 300.0,87.5 C320.0,80.8 340.0,75.0 360.0,70.0 C380.0,65.0 400.0,60.8 420.0,57.5 C440.0,54.2 470.0,51.2 480.0,50.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"270.0\" y=\"299.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">Time (s)</text><text x=\"16\" y=\"140.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" transform=\"rotate(-90 16 140.0)\">Velocity (m/s)</text></svg>",
+      "alt": "Velocity-time graph: a curve through velocities 10, 34, 50, 62, 71, 78, 83, 86 m/s at 0, 5, 10, …, 35 seconds."
+     }
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q22c",
+     "marks": 3,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q22",
+     "prompt": "Here is a velocity-time graph for an aeroplane.\nWork out an estimate for the distance the aeroplane travelled in the first 30 seconds. Use 3 strips of equal width. (3)",
+     "hints": [
+      "Distance = area under a velocity-time graph.",
+      "3 strips of width 10: read the velocity at 0, 10, 20 and 30 seconds and use trapeziums."
+     ],
+     "solution": "Velocities at 0, 10, 20, 30 s: 0, 42, 64, 74 [M1]\nArea $= \\frac{1}{2} \\times 10 \\times (0 + 42) + \\frac{1}{2} \\times 10 \\times (42 + 64) + \\frac{1}{2} \\times 10 \\times (64 + 74)$ [M1]\n$= 1430$ m [A1]",
+     "answer": "1430 m",
+     "tolerance": 30,
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 310\" width=\"100%\" style=\"max-width:500px\" role=\"img\"><line x1=\"60.0\" y1=\"15\" x2=\"60.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"72.0\" y1=\"15\" x2=\"72.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"84.0\" y1=\"15\" x2=\"84.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"96.0\" y1=\"15\" x2=\"96.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"108.0\" y1=\"15\" x2=\"108.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"120.0\" y1=\"15\" x2=\"120.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"132.0\" y1=\"15\" x2=\"132.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"144.0\" y1=\"15\" x2=\"144.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"156.0\" y1=\"15\" x2=\"156.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"168.0\" y1=\"15\" x2=\"168.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"180.0\" y1=\"15\" x2=\"180.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"192.0\" y1=\"15\" x2=\"192.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"204.0\" y1=\"15\" x2=\"204.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"216.0\" y1=\"15\" x2=\"216.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"228.0\" y1=\"15\" x2=\"228.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"240.0\" y1=\"15\" x2=\"240.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"252.0\" y1=\"15\" x2=\"252.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"264.0\" y1=\"15\" x2=\"264.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"276.0\" y1=\"15\" x2=\"276.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"288.0\" y1=\"15\" x2=\"288.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"300.0\" y1=\"15\" x2=\"300.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"312.0\" y1=\"15\" x2=\"312.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"324.0\" y1=\"15\" x2=\"324.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"336.0\" y1=\"15\" x2=\"336.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"348.0\" y1=\"15\" x2=\"348.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"360.0\" y1=\"15\" x2=\"360.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"372.0\" y1=\"15\" x2=\"372.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"384.0\" y1=\"15\" x2=\"384.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"396.0\" y1=\"15\" x2=\"396.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"408.0\" y1=\"15\" x2=\"408.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"420.0\" y1=\"15\" x2=\"420.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"432.0\" y1=\"15\" x2=\"432.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"444.0\" y1=\"15\" x2=\"444.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"456.0\" y1=\"15\" x2=\"456.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"468.0\" y1=\"15\" x2=\"468.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"480.0\" y1=\"15\" x2=\"480.0\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"60\" y1=\"265.0\" x2=\"480\" y2=\"265.0\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"60\" y1=\"255.0\" x2=\"480\" y2=\"255.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"245.0\" x2=\"480\" y2=\"245.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"235.0\" x2=\"480\" y2=\"235.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"225.0\" x2=\"480\" y2=\"225.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"215.0\" x2=\"480\" y2=\"215.0\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"60\" y1=\"205.0\" x2=\"480\" y2=\"205.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"195.0\" x2=\"480\" y2=\"195.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"185.0\" x2=\"480\" y2=\"185.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"175.0\" x2=\"480\" y2=\"175.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"165.0\" x2=\"480\" y2=\"165.0\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"60\" y1=\"155.0\" x2=\"480\" y2=\"155.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"145.0\" x2=\"480\" y2=\"145.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"135.0\" x2=\"480\" y2=\"135.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"125.0\" x2=\"480\" y2=\"125.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"115.0\" x2=\"480\" y2=\"115.0\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"60\" y1=\"105.0\" x2=\"480\" y2=\"105.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"95.0\" x2=\"480\" y2=\"95.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"85.0\" x2=\"480\" y2=\"85.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"75.0\" x2=\"480\" y2=\"75.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"65.0\" x2=\"480\" y2=\"65.0\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"60\" y1=\"55.0\" x2=\"480\" y2=\"55.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"45.0\" x2=\"480\" y2=\"45.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"35.0\" x2=\"480\" y2=\"35.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"25.0\" x2=\"480\" y2=\"25.0\" stroke=\"currentColor\" stroke-opacity=\"0.1\"/><line x1=\"60\" y1=\"15.0\" x2=\"480\" y2=\"15.0\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><text x=\"60.0\" y=\"279.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">0</text><text x=\"120.0\" y=\"279.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">5</text><text x=\"180.0\" y=\"279.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">10</text><text x=\"240.0\" y=\"279.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">15</text><text x=\"300.0\" y=\"279.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">20</text><text x=\"360.0\" y=\"279.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">25</text><text x=\"420.0\" y=\"279.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">30</text><text x=\"480.0\" y=\"279.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">35</text><text x=\"52.0\" y=\"265.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">0</text><text x=\"52.0\" y=\"215.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">20</text><text x=\"52.0\" y=\"165.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">40</text><text x=\"52.0\" y=\"115.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">60</text><text x=\"52.0\" y=\"65.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">80</text><text x=\"52.0\" y=\"15.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"12\" text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">100</text><line x1=\"60.0\" y1=\"265.0\" x2=\"490.0\" y2=\"265.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"60.0\" y1=\"265.0\" x2=\"60.0\" y2=\"10.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><path d=\"M60.0,265.0 C70.0,254.6 100.0,220.0 120.0,202.5 C140.0,185.0 160.0,172.5 180.0,160.0 C200.0,147.5 220.0,136.7 240.0,127.5 C260.0,118.3 280.0,111.2 300.0,105.0 C320.0,98.8 340.0,94.2 360.0,90.0 C380.0,85.8 400.0,82.5 420.0,80.0 C440.0,77.5 470.0,75.8 480.0,75.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"270.0\" y=\"299.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">Time (s)</text><text x=\"16\" y=\"140.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" transform=\"rotate(-90 16 140.0)\">Velocity (m/s)</text></svg>",
+      "alt": "Velocity-time graph: a curve through velocities 0, 25, 42, 55, 64, 70, 74, 76 m/s at 0, 5, 10, …, 35 seconds."
+     }
     }
    ]
   },
@@ -1122,6 +1647,75 @@
    ]
   },
   {
+   "topic": "Rearranging formulae",
+   "category": "Algebra",
+   "questions": [
+    {
+     "id": "gcse-h-2024nov-p3-q15a",
+     "marks": 4,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q15",
+     "prompt": "Make $p$ the subject of the formula  $t = \\frac{3(p + 2)}{4 - p}$ (4)",
+     "hints": [
+      "Multiply both sides by the denominator and expand the brackets.",
+      "Collect the p terms on one side, then factorise p out."
+     ],
+     "solution": "Multiply by the denominator and expand [M1]\nCollect the $p$ terms on one side [M1]\nFactorise: $p(\\ldots) = \\ldots$ [M1]\n$p = \\frac{4t - 6}{t + 3}$ [A1]",
+     "answers": [
+      "p = (4t - 6)/(t + 3)",
+      "p = (4t - 6)/(3 + t)",
+      "p = (6 - 4t)/(-t - 3)",
+      "(4t - 6)/(t + 3)",
+      "(4t - 6)/(3 + t)",
+      "(6 - 4t)/(-t - 3)"
+     ],
+     "fraction": false
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q15b",
+     "marks": 4,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q15",
+     "prompt": "Make $p$ the subject of the formula  $t = \\frac{2(3p - 1)}{5 + 2p}$ (4)",
+     "hints": [
+      "Multiply both sides by the denominator and expand the brackets.",
+      "Collect the p terms on one side, then factorise p out."
+     ],
+     "solution": "Multiply by the denominator and expand [M1]\nCollect the $p$ terms on one side [M1]\nFactorise: $p(\\ldots) = \\ldots$ [M1]\n$p = \\frac{5t + 2}{6 - 2t}$ [A1]",
+     "answers": [
+      "p = (5t + 2)/(6 - 2t)",
+      "p = (2 + 5t)/(6 - 2t)",
+      "p = (-5t - 2)/(2t - 6)",
+      "(5t + 2)/(6 - 2t)",
+      "(2 + 5t)/(6 - 2t)",
+      "(-5t - 2)/(2t - 6)"
+     ],
+     "fraction": false
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q15c",
+     "marks": 4,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q15",
+     "prompt": "Make $p$ the subject of the formula  $t = \\frac{4(p - 2)}{7 - 3p}$ (4)",
+     "hints": [
+      "Multiply both sides by the denominator and expand the brackets.",
+      "Collect the p terms on one side, then factorise p out."
+     ],
+     "solution": "Multiply by the denominator and expand [M1]\nCollect the $p$ terms on one side [M1]\nFactorise: $p(\\ldots) = \\ldots$ [M1]\n$p = \\frac{7t + 8}{3t + 4}$ [A1]",
+     "answers": [
+      "p = (7t + 8)/(3t + 4)",
+      "p = (7t + 8)/(4 + 3t)",
+      "p = (8 + 7t)/(3t + 4)",
+      "(7t + 8)/(3t + 4)",
+      "(7t + 8)/(4 + 3t)",
+      "(8 + 7t)/(3t + 4)"
+     ],
+     "fraction": false
+    }
+   ]
+  },
+  {
    "topic": "Ratio",
    "category": "Ratio, proportion and rates of change",
    "questions": [
@@ -1210,6 +1804,87 @@
       "Work out both percentages, then compare."
      ],
      "solution": "First class: $\\frac{9}{64} \\times 100 = 14.06\\%$ [M1]\nSecond class: $\\frac{2}{58} \\times 100 = 3.45\\%$ [M1]\n$14.06 \\div 3.45 = 4.08$ [A1]\nYes, Filip is correct: it is 4.08 times, which is more than 4. [C1]"
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q05a",
+     "marks": 5,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q5",
+     "prompt": "Robyn buys a total of 420 pens and pencils, where number of pens : number of pencils = 2 : 5\nRobyn pays 11p for each pen and sells each pen for 15p.\nRobyn pays 6p for each pencil and sells each pencil for 9p.\nRobyn sells all of the pens and pencils.\nWork out Robyn's percentage profit. Give your answer correct to 1 decimal place.\nYou must show all your working. (5)",
+     "hints": [
+      "Use the ratio to split the total.",
+      "Percentage profit = profit ÷ cost × 100"
+     ],
+     "solution": "Pens $120$, pencils $300$ [M1]\nCost $= 120 \\times 11 + 300 \\times 6 = 3120$p [M1]\nSales $= 120 \\times 15 + 300 \\times 9 = 4500$p [M1]\n$\\frac{1380}{3120} \\times 100$ [M1]\n$= 44.2\\%$ [A1]",
+     "answer": "44.2%",
+     "tolerance": 0.05
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q05b",
+     "marks": 5,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q5",
+     "prompt": "Robyn buys a total of 320 pens and pencils, where number of pens : number of pencils = 3 : 5\nRobyn pays 14p for each pen and sells each pen for 20p.\nRobyn pays 8p for each pencil and sells each pencil for 10p.\nRobyn sells all of the pens and pencils.\nWork out Robyn's percentage profit. Give your answer correct to 1 decimal place.\nYou must show all your working. (5)",
+     "hints": [
+      "Use the ratio to split the total.",
+      "Percentage profit = profit ÷ cost × 100"
+     ],
+     "solution": "Pens $120$, pencils $200$ [M1]\nCost $= 120 \\times 14 + 200 \\times 8 = 3280$p [M1]\nSales $= 120 \\times 20 + 200 \\times 10 = 4400$p [M1]\n$\\frac{1120}{3280} \\times 100$ [M1]\n$= 34.1\\%$ [A1]",
+     "answer": "34.1%",
+     "tolerance": 0.05
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q05c",
+     "marks": 5,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q5",
+     "prompt": "Robyn buys a total of 450 pens and pencils, where number of pens : number of pencils = 4 : 5\nRobyn pays 9p for each pen and sells each pen for 13p.\nRobyn pays 5p for each pencil and sells each pencil for 8p.\nRobyn sells all of the pens and pencils.\nWork out Robyn's percentage profit. Give your answer correct to 1 decimal place.\nYou must show all your working. (5)",
+     "hints": [
+      "Use the ratio to split the total.",
+      "Percentage profit = profit ÷ cost × 100"
+     ],
+     "solution": "Pens $200$, pencils $250$ [M1]\nCost $= 200 \\times 9 + 250 \\times 5 = 3050$p [M1]\nSales $= 200 \\times 13 + 250 \\times 8 = 4600$p [M1]\n$\\frac{1550}{3050} \\times 100$ [M1]\n$= 50.8\\%$ [A1]",
+     "answer": "50.8%",
+     "tolerance": 0.05
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q10a",
+     "marks": 2,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q10",
+     "prompt": "In a sale, the normal prices are reduced by 20%\nAmina buys a coat in the sale for £62.40\nWork out the normal price of the coat. (2)",
+     "hints": [
+      "The sale price is 80% of the normal price.",
+      "Divide by the multiplier rather than adding the percentage back on."
+     ],
+     "solution": "$62.40 \\div 0.8$ [M1]\n$= \\pounds 78.00$ [A1]",
+     "answer": "£78.00"
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q10b",
+     "marks": 2,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q10",
+     "prompt": "In a sale, the normal prices are reduced by 35%\nAmina buys a pair of trainers in the sale for £48.75\nWork out the normal price of the pair of trainers. (2)",
+     "hints": [
+      "The sale price is 65% of the normal price.",
+      "Divide by the multiplier rather than adding the percentage back on."
+     ],
+     "solution": "$48.75 \\div 0.65$ [M1]\n$= \\pounds 75.00$ [A1]",
+     "answer": "£75.00"
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q10c",
+     "marks": 2,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q10",
+     "prompt": "In a sale, the normal prices are reduced by 12%\nAmina buys a jacket in the sale for £70.40\nWork out the normal price of the jacket. (2)",
+     "hints": [
+      "The sale price is 88% of the normal price.",
+      "Divide by the multiplier rather than adding the percentage back on."
+     ],
+     "solution": "$70.40 \\div 0.88$ [M1]\n$= \\pounds 80.00$ [A1]",
+     "answer": "£80.00"
     }
    ]
   },
@@ -1381,7 +2056,80 @@
   {
    "topic": "Growth and decay",
    "category": "Ratio, proportion and rates of change",
-   "questions": []
+   "questions": [
+    {
+     "id": "gcse-h-2024nov-p3-q12a",
+     "marks": 6,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q12",
+     "prompt": "Rudi invests £6200 in a savings account. He gets compound interest at a rate of 3.1% for the first year and 2.2% for each extra year.\n(a) Work out the value of Rudi's investment at the end of 4 years. (3)\nBruna buys a car for £12000. The value of the car depreciates by $x$% each year. At the end of 2 years the value of the car is £8670\n(b) Work out the value of $x$. (3)",
+     "hints": [
+      "Use a different multiplier for the first year and the later years.",
+      "For (b): car × m² = final value, so m = √(final ÷ car)."
+     ],
+     "solution": "(a) $6200 \\times 1.031 = 6392.20$ [M1]\n$\\times 1.022^{3}$ [M1]\n$= \\pounds 6823.43$ [A1]\n\n(b) $12000 \\times m^2 = 8670$, so $m^2 = 0.7225$ [M1]\n$m = 0.85$ [M1]\n$x = 15$ [A1]",
+     "parts": [
+      {
+       "label": "a",
+       "answer": "£6,823.43",
+       "tolerance": 0.01
+      },
+      {
+       "label": "b",
+       "prefix": "x =",
+       "answer": "15"
+      }
+     ]
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q12b",
+     "marks": 6,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q12",
+     "prompt": "Rudi invests £3800 in a savings account. He gets compound interest at a rate of 2.8% for the first year and 1.5% for each extra year.\n(a) Work out the value of Rudi's investment at the end of 3 years. (3)\nBruna buys a car for £9600. The value of the car depreciates by $x$% each year. At the end of 2 years the value of the car is £7434.24\n(b) Work out the value of $x$. (3)",
+     "hints": [
+      "Use a different multiplier for the first year and the later years.",
+      "For (b): car × m² = final value, so m = √(final ÷ car)."
+     ],
+     "solution": "(a) $3800 \\times 1.028 = 3906.40$ [M1]\n$\\times 1.015^{2}$ [M1]\n$= \\pounds 4024.47$ [A1]\n\n(b) $9600 \\times m^2 = 7434.24$, so $m^2 = 0.7744$ [M1]\n$m = 0.88$ [M1]\n$x = 12$ [A1]",
+     "parts": [
+      {
+       "label": "a",
+       "answer": "£4,024.47",
+       "tolerance": 0.01
+      },
+      {
+       "label": "b",
+       "prefix": "x =",
+       "answer": "12"
+      }
+     ]
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q12c",
+     "marks": 6,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q12",
+     "prompt": "Rudi invests £5000 in a savings account. He gets compound interest at a rate of 4% for the first year and 2.5% for each extra year.\n(a) Work out the value of Rudi's investment at the end of 3 years. (3)\nBruna buys a car for £15000. The value of the car depreciates by $x$% each year. At the end of 2 years the value of the car is £9600\n(b) Work out the value of $x$. (3)",
+     "hints": [
+      "Use a different multiplier for the first year and the later years.",
+      "For (b): car × m² = final value, so m = √(final ÷ car)."
+     ],
+     "solution": "(a) $5000 \\times 1.04 = 5200.00$ [M1]\n$\\times 1.025^{2}$ [M1]\n$= \\pounds 5463.25$ [A1]\n\n(b) $15000 \\times m^2 = 9600$, so $m^2 = 0.64$ [M1]\n$m = 0.8$ [M1]\n$x = 20$ [A1]",
+     "parts": [
+      {
+       "label": "a",
+       "answer": "£5,463.25",
+       "tolerance": 0.01
+      },
+      {
+       "label": "b",
+       "prefix": "x =",
+       "answer": "20"
+      }
+     ]
+    }
+   ]
   },
   {
    "topic": "Angles and polygons",
@@ -1554,7 +2302,113 @@
   {
    "topic": "Area, volume and surface area",
    "category": "Geometry and measures",
-   "questions": []
+   "questions": [
+    {
+     "id": "gcse-h-2024nov-p3-q11a",
+     "marks": 3,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q11",
+     "prompt": "$OAB$ is a sector of a circle with centre $O$ and radius 5.2 m.\nThe sector has a perimeter of 36.8 m.\nFind the size of the reflex angle $AOB$. Give your answer correct to the nearest degree. (3)",
+     "hints": [
+      "The perimeter is the arc plus two radii.",
+      "Arc length = (angle ÷ 360) × 2πr"
+     ],
+     "solution": "Arc length $= 36.8 - 2 \\times 5.2 = 26.4$ m [M1]\n$\\frac{\\theta}{360} \\times 2\\pi \\times 5.2 = 26.4$ [M1]\n$\\theta = 290.89\\ldots = 291°$ [A1]",
+     "answer": "291°",
+     "tolerance": 0.5,
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\" width=\"100%\" style=\"max-width:400px\" role=\"img\"><path d=\"M200,160 L250.7,51.2 A120,120 0 1 0 315.9,191.1 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"260.7\" y=\"45.2\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">A</text><text x=\"327.9\" y=\"195.1\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">B</text><text x=\"186.0\" y=\"164.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">O</text><text x=\"207.4\" y=\"105.6\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">5.2 m</text></svg>",
+      "alt": "A major sector OAB of a circle with radius 5.2 m, with the reflex angle at O."
+     }
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q11b",
+     "marks": 3,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q11",
+     "prompt": "$OAB$ is a sector of a circle with centre $O$ and radius 3.8 m.\nThe sector has a perimeter of 27.1 m.\nFind the size of the reflex angle $AOB$. Give your answer correct to the nearest degree. (3)",
+     "hints": [
+      "The perimeter is the arc plus two radii.",
+      "Arc length = (angle ÷ 360) × 2πr"
+     ],
+     "solution": "Arc length $= 27.1 - 2 \\times 3.8 = 19.5$ m [M1]\n$\\frac{\\theta}{360} \\times 2\\pi \\times 3.8 = 19.5$ [M1]\n$\\theta = 294.02\\ldots = 294°$ [A1]",
+     "answer": "294°",
+     "tolerance": 0.5,
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\" width=\"100%\" style=\"max-width:400px\" role=\"img\"><path d=\"M200,160 L250.7,51.2 A120,120 0 1 0 315.9,191.1 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"260.7\" y=\"45.2\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">A</text><text x=\"327.9\" y=\"195.1\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">B</text><text x=\"186.0\" y=\"164.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">O</text><text x=\"207.4\" y=\"105.6\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">3.8 m</text></svg>",
+      "alt": "A major sector OAB of a circle with radius 3.8 m, with the reflex angle at O."
+     }
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q11c",
+     "marks": 3,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q11",
+     "prompt": "$OAB$ is a sector of a circle with centre $O$ and radius 6.5 m.\nThe sector has a perimeter of 45.3 m.\nFind the size of the reflex angle $AOB$. Give your answer correct to the nearest degree. (3)",
+     "hints": [
+      "The perimeter is the arc plus two radii.",
+      "Arc length = (angle ÷ 360) × 2πr"
+     ],
+     "solution": "Arc length $= 45.3 - 2 \\times 6.5 = 32.3$ m [M1]\n$\\frac{\\theta}{360} \\times 2\\pi \\times 6.5 = 32.3$ [M1]\n$\\theta = 284.72\\ldots = 285°$ [A1]",
+     "answer": "285°",
+     "tolerance": 0.5,
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\" width=\"100%\" style=\"max-width:400px\" role=\"img\"><path d=\"M200,160 L250.7,51.2 A120,120 0 1 0 315.9,191.1 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"260.7\" y=\"45.2\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">A</text><text x=\"327.9\" y=\"195.1\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">B</text><text x=\"186.0\" y=\"164.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">O</text><text x=\"207.4\" y=\"105.6\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">6.5 m</text></svg>",
+      "alt": "A major sector OAB of a circle with radius 6.5 m, with the reflex angle at O."
+     }
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q19a",
+     "marks": 4,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q19",
+     "prompt": "The diagram shows a cone. Curved surface area of a cone $= \\pi r l$\nThe radius of the base of the cone is $\\frac{5}{12}$ of the height of the cone.\nThe total surface area of the cone is $90\\pi\\text{ cm}^2$\nWork out the height of the cone. (4)",
+     "hints": [
+      "Write r and the slant height l in terms of h, using Pythagoras.",
+      "Total surface area = πr² + πrl"
+     ],
+     "solution": "$r = \\frac{5}{12}h$, so $l = \\sqrt{h^2 + r^2} = \\frac{13}{12}h$ [M1]\n$\\pi r^2 + \\pi r l = 90\\pi$ [M1]\n$\\frac{5}{8}h^2 = 90$ [M1]\n$h = 12$ cm [A1]",
+     "answer": "12 cm",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 230\" width=\"100%\" style=\"max-width:240px\" role=\"img\"><line x1=\"60.0\" y1=\"200.0\" x2=\"120.0\" y2=\"30.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"180.0\" y1=\"200.0\" x2=\"120.0\" y2=\"30.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><path d=\"M60,200 A60,18 0 0 0 180,200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><path d=\"M60,200 A60,18 0 0 1 180,200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/></svg>",
+      "alt": "A cone."
+     }
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q19b",
+     "marks": 4,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q19",
+     "prompt": "The diagram shows a cone. Curved surface area of a cone $= \\pi r l$\nThe radius of the base of the cone is $\\frac{8}{15}$ of the height of the cone.\nThe total surface area of the cone is $72\\pi\\text{ cm}^2$\nWork out the height of the cone. (4)",
+     "hints": [
+      "Write r and the slant height l in terms of h, using Pythagoras.",
+      "Total surface area = πr² + πrl"
+     ],
+     "solution": "$r = \\frac{8}{15}h$, so $l = \\sqrt{h^2 + r^2} = \\frac{17}{15}h$ [M1]\n$\\pi r^2 + \\pi r l = 72\\pi$ [M1]\n$\\frac{8}{9}h^2 = 72$ [M1]\n$h = 9$ cm [A1]",
+     "answer": "9 cm",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 230\" width=\"100%\" style=\"max-width:240px\" role=\"img\"><line x1=\"60.0\" y1=\"200.0\" x2=\"120.0\" y2=\"30.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"180.0\" y1=\"200.0\" x2=\"120.0\" y2=\"30.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><path d=\"M60,200 A60,18 0 0 0 180,200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><path d=\"M60,200 A60,18 0 0 1 180,200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/></svg>",
+      "alt": "A cone."
+     }
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q19c",
+     "marks": 4,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q19",
+     "prompt": "The diagram shows a cone. Curved surface area of a cone $= \\pi r l$\nThe radius of the base of the cone is $\\frac{4}{3}$ of the height of the cone.\nThe total surface area of the cone is $36\\pi\\text{ cm}^2$\nWork out the height of the cone. (4)",
+     "hints": [
+      "Write r and the slant height l in terms of h, using Pythagoras.",
+      "Total surface area = πr² + πrl"
+     ],
+     "solution": "$r = \\frac{4}{3}h$, so $l = \\sqrt{h^2 + r^2} = \\frac{5}{3}h$ [M1]\n$\\pi r^2 + \\pi r l = 36\\pi$ [M1]\n$4h^2 = 36$ [M1]\n$h = 3$ cm [A1]",
+     "answer": "3 cm",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 230\" width=\"100%\" style=\"max-width:240px\" role=\"img\"><line x1=\"60.0\" y1=\"200.0\" x2=\"120.0\" y2=\"30.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"180.0\" y1=\"200.0\" x2=\"120.0\" y2=\"30.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><path d=\"M60,200 A60,18 0 0 0 180,200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><path d=\"M60,200 A60,18 0 0 1 180,200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/></svg>",
+      "alt": "A cone."
+     }
+    }
+   ]
   },
   {
    "topic": "Pythagoras' theorem",
@@ -1670,6 +2524,60 @@
       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"100%\" style=\"max-width:320px\" role=\"img\"><line x1=\"70.0\" y1=\"190.0\" x2=\"230.0\" y2=\"225.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"230.0\" y1=\"225.0\" x2=\"260.0\" y2=\"90.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"180.0\" y1=\"20.0\" x2=\"70.0\" y2=\"190.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"180.0\" y1=\"20.0\" x2=\"230.0\" y2=\"225.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"180.0\" y1=\"20.0\" x2=\"260.0\" y2=\"90.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"70.0\" y1=\"190.0\" x2=\"260.0\" y2=\"90.0\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-dasharray=\"6 5\"/><line x1=\"150.0\" y1=\"207.5\" x2=\"260.0\" y2=\"90.0\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-dasharray=\"6 5\"/><line x1=\"180.0\" y1=\"20.0\" x2=\"186.7\" y2=\"168.3\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-dasharray=\"6 5\"/><text x=\"58.0\" y=\"194.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">A</text><text x=\"238.0\" y=\"239.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">B</text><text x=\"274.0\" y=\"88.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">C</text><text x=\"180.0\" y=\"8.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">V</text><text x=\"148.0\" y=\"225.5\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">M</text><text x=\"172.7\" y=\"166.3\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">F</text></svg>",
       "alt": "Triangular pyramid VABC. M is the midpoint of AB, F is on MC, and V is vertically above F."
      }
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q08a",
+     "marks": 2,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q8",
+     "prompt": "$ABC$ is a right-angled triangle with the right angle at $B$. Angle $ACB = 48°$ and $BC = 9.3$ cm.\nCalculate the length of $AB$. Give your answer correct to 1 decimal place. (2)",
+     "hints": [
+      "AB is opposite the angle at C; BC is adjacent.",
+      "tan = opposite ÷ adjacent"
+     ],
+     "solution": "$AB = 9.3 \\times \\tan 48°$ [M1]\n$= 10.3$ cm [A1]",
+     "answer": "10.3",
+     "tolerance": 0.05,
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 230\" width=\"100%\" style=\"max-width:420px\" role=\"img\"><polygon points=\"40.0,40.0 330.0,40.0 330.0,200.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"318\" y=\"40\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"currentColor\"/><path d=\"M300.2,183.6 A34,34 0 0 1 330.0,166.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"304.6\" y=\"156.9\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">48°</text><text x=\"28.0\" y=\"40.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">A</text><text x=\"342.0\" y=\"36.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">B</text><text x=\"340.0\" y=\"210.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">C</text><text x=\"340.0\" y=\"120.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">9.3 cm</text></svg>",
+      "alt": "Right-angled triangle ABC, right angle at B, angle C = 48°, BC = 9.3 cm."
+     }
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q08b",
+     "marks": 2,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q8",
+     "prompt": "$ABC$ is a right-angled triangle with the right angle at $B$. Angle $ACB = 71°$ and $BC = 3.8$ cm.\nCalculate the length of $AB$. Give your answer correct to 1 decimal place. (2)",
+     "hints": [
+      "AB is opposite the angle at C; BC is adjacent.",
+      "tan = opposite ÷ adjacent"
+     ],
+     "solution": "$AB = 3.8 \\times \\tan 71°$ [M1]\n$= 11.0$ cm [A1]",
+     "answer": "11.0",
+     "tolerance": 0.05,
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 230\" width=\"100%\" style=\"max-width:420px\" role=\"img\"><polygon points=\"40.0,40.0 330.0,40.0 330.0,200.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"318\" y=\"40\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"currentColor\"/><path d=\"M300.2,183.6 A34,34 0 0 1 330.0,166.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"304.6\" y=\"156.9\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">71°</text><text x=\"28.0\" y=\"40.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">A</text><text x=\"342.0\" y=\"36.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">B</text><text x=\"340.0\" y=\"210.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">C</text><text x=\"340.0\" y=\"120.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">3.8 cm</text></svg>",
+      "alt": "Right-angled triangle ABC, right angle at B, angle C = 71°, BC = 3.8 cm."
+     }
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q08c",
+     "marks": 2,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q8",
+     "prompt": "$ABC$ is a right-angled triangle with the right angle at $B$. Angle $ACB = 29°$ and $BC = 15.6$ cm.\nCalculate the length of $AB$. Give your answer correct to 1 decimal place. (2)",
+     "hints": [
+      "AB is opposite the angle at C; BC is adjacent.",
+      "tan = opposite ÷ adjacent"
+     ],
+     "solution": "$AB = 15.6 \\times \\tan 29°$ [M1]\n$= 8.6$ cm [A1]",
+     "answer": "8.6",
+     "tolerance": 0.05,
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 230\" width=\"100%\" style=\"max-width:420px\" role=\"img\"><polygon points=\"40.0,40.0 330.0,40.0 330.0,200.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"318\" y=\"40\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"currentColor\"/><path d=\"M300.2,183.6 A34,34 0 0 1 330.0,166.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"304.6\" y=\"156.9\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">29°</text><text x=\"28.0\" y=\"40.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">A</text><text x=\"342.0\" y=\"36.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">B</text><text x=\"340.0\" y=\"210.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">C</text><text x=\"340.0\" y=\"120.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">15.6 cm</text></svg>",
+      "alt": "Right-angled triangle ABC, right angle at B, angle C = 29°, BC = 15.6 cm."
+     }
     }
    ]
   },
@@ -1737,6 +2645,60 @@
      "diagram": {
       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 190\" width=\"100%\" style=\"max-width:480px\" role=\"img\"><polygon points=\"150.0,40.0 430.0,40.0 70.0,160.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><path d=\"M88.9,131.7 A34,34 0 0 1 102.3,149.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"111.3\" y=\"128.4\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">60°</text><path d=\"M373.1,59.0 A60,60 0 0 1 370.0,40.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"353.0\" y=\"52.5\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">30°</text><text x=\"150.0\" y=\"24.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">A</text><text x=\"444.0\" y=\"40.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">B</text><text x=\"58.0\" y=\"168.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">C</text><text x=\"76.0\" y=\"94.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"15\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">2 cm</text></svg>",
       "alt": "Triangle ABC. AC is 2 cm, the angle at C is 60° and the angle at B is 30°."
+     }
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q17a",
+     "marks": 4,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q17",
+     "prompt": "Here is triangle $ABC$ with $AB = 12.7$ cm, $BC = 15.1$ cm and $CA = 9.4$ cm.\nWork out the area of triangle $ABC$. Give your answer correct to 3 significant figures. (4)",
+     "hints": [
+      "Use the cosine rule to find an angle first.",
+      "Then Area = ½ab sin C."
+     ],
+     "solution": "$\\cos A = \\frac{12.7^2 + 9.4^2 - 15.1^2}{2 \\times 12.7 \\times 9.4}$ [M1]\n$A = 84.80°$ [A1]\nArea $= \\frac{1}{2} \\times 12.7 \\times 9.4 \\times \\sin 84.80°$ [M1]\n$= 59.4\\text{ cm}^2$ [A1]",
+     "answer": "59.4",
+     "tolerance": 0.050000001,
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" width=\"100%\" style=\"max-width:400px\" role=\"img\"><polygon points=\"120.0,120.0 330.0,30.0 170.0,230.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"108.0\" y=\"120.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">A</text><text x=\"340.0\" y=\"24.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">B</text><text x=\"170.0\" y=\"244.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">C</text><text x=\"215.0\" y=\"63.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">12.7 cm</text><text x=\"280.0\" y=\"130.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">15.1 cm</text><text x=\"113.0\" y=\"175.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">9.4 cm</text></svg>",
+      "alt": "Triangle ABC with AB = 12.7 cm, BC = 15.1 cm and CA = 9.4 cm."
+     }
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q17b",
+     "marks": 4,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q17",
+     "prompt": "Here is triangle $ABC$ with $AB = 11.5$ cm, $BC = 13.9$ cm and $CA = 6.8$ cm.\nWork out the area of triangle $ABC$. Give your answer correct to 3 significant figures. (4)",
+     "hints": [
+      "Use the cosine rule to find an angle first.",
+      "Then Area = ½ab sin C."
+     ],
+     "solution": "$\\cos A = \\frac{11.5^2 + 6.8^2 - 13.9^2}{2 \\times 11.5 \\times 6.8}$ [M1]\n$A = 95.40°$ [A1]\nArea $= \\frac{1}{2} \\times 11.5 \\times 6.8 \\times \\sin 95.40°$ [M1]\n$= 38.9\\text{ cm}^2$ [A1]",
+     "answer": "38.9",
+     "tolerance": 0.050000001,
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" width=\"100%\" style=\"max-width:400px\" role=\"img\"><polygon points=\"120.0,120.0 330.0,30.0 170.0,230.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"108.0\" y=\"120.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">A</text><text x=\"340.0\" y=\"24.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">B</text><text x=\"170.0\" y=\"244.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">C</text><text x=\"215.0\" y=\"63.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">11.5 cm</text><text x=\"280.0\" y=\"130.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">13.9 cm</text><text x=\"113.0\" y=\"175.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">6.8 cm</text></svg>",
+      "alt": "Triangle ABC with AB = 11.5 cm, BC = 13.9 cm and CA = 6.8 cm."
+     }
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q17c",
+     "marks": 4,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q17",
+     "prompt": "Here is triangle $ABC$ with $AB = 10.6$ cm, $BC = 21.3$ cm and $CA = 17.2$ cm.\nWork out the area of triangle $ABC$. Give your answer correct to 3 significant figures. (4)",
+     "hints": [
+      "Use the cosine rule to find an angle first.",
+      "Then Area = ½ab sin C."
+     ],
+     "solution": "$\\cos A = \\frac{10.6^2 + 17.2^2 - 21.3^2}{2 \\times 10.6 \\times 17.2}$ [M1]\n$A = 97.17°$ [A1]\nArea $= \\frac{1}{2} \\times 10.6 \\times 17.2 \\times \\sin 97.17°$ [M1]\n$= 90.4\\text{ cm}^2$ [A1]",
+     "answer": "90.4",
+     "tolerance": 0.050000001,
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" width=\"100%\" style=\"max-width:400px\" role=\"img\"><polygon points=\"120.0,120.0 330.0,30.0 170.0,230.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"108.0\" y=\"120.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">A</text><text x=\"340.0\" y=\"24.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">B</text><text x=\"170.0\" y=\"244.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">C</text><text x=\"215.0\" y=\"63.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">10.6 cm</text><text x=\"280.0\" y=\"130.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">21.3 cm</text><text x=\"113.0\" y=\"175.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">17.2 cm</text></svg>",
+      "alt": "Triangle ABC with AB = 10.6 cm, BC = 21.3 cm and CA = 17.2 cm."
      }
     }
    ]
@@ -1948,6 +2910,57 @@
       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 280\" width=\"100%\" style=\"max-width:440px\" role=\"img\"><circle cx=\"220\" cy=\"140\" r=\"110\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"220\" cy=\"140\" r=\"2.5\" fill=\"currentColor\"/><line x1=\"111.7\" y1=\"120.9\" x2=\"315.3\" y2=\"85.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"111.7\" y1=\"120.9\" x2=\"257.6\" y2=\"243.4\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"234.0\" y=\"140.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">O</text><text x=\"327.3\" y=\"77.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">A</text><text x=\"97.7\" y=\"120.9\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">B</text><text x=\"261.6\" y=\"261.4\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">C</text></svg>",
       "alt": "A circle with centre O and points A, B and C on it. Chords BA and BC are drawn."
      }
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q13a",
+     "marks": 3,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q13",
+     "prompt": "$ABC$ and $AED$ are straight lines. $BE$ and $CD$ are parallel, and angles $ABE$ and $ACD$ are right angles.\n$BE = 3.6$ cm, $CD = 6$ cm, $AC = 12.5$ cm\nWork out the area of trapezium $BCDE$. (3)",
+     "hints": [
+      "Triangles ABE and ACD are similar.",
+      "BC is the height of the trapezium."
+     ],
+     "solution": "Scale factor $= \\frac{3.6}{6}$, so $AB = 12.5 \\times \\frac{3.6}{6} = 7.5$ [M1]\n$BC = 12.5 - 7.5 = 5$ [M1]\nArea $= \\frac{3.6 + 6}{2} \\times 5 = 24\\text{ cm}^2$ [A1]",
+     "answer": "24 cm²",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 280\" width=\"100%\" style=\"max-width:480px\" role=\"img\"><polygon points=\"40.0,230.0 300.0,40.0 388.5,161.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"201.2\" y1=\"112.2\" x2=\"256.1\" y2=\"187.3\" stroke=\"currentColor\" stroke-width=\"1.6\"/><path d=\"M192.3,118.7 L198.8,127.6 L207.7,121.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><path d=\"M291.1,46.5 L297.6,55.4 L306.5,48.9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"30.0\" y=\"236.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">A</text><text x=\"189.2\" y=\"104.2\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">B</text><text x=\"300.0\" y=\"28.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">C</text><text x=\"400.5\" y=\"161.1\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">D</text><text x=\"260.1\" y=\"201.3\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">E</text></svg>",
+      "alt": "Triangle ACD with B on AC and E on AD; BE is parallel to CD; right angles at B and C."
+     }
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q13b",
+     "marks": 3,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q13",
+     "prompt": "$ABC$ and $AED$ are straight lines. $BE$ and $CD$ are parallel, and angles $ABE$ and $ACD$ are right angles.\n$BE = 5$ cm, $CD = 8$ cm, $AC = 14.4$ cm\nWork out the area of trapezium $BCDE$. (3)",
+     "hints": [
+      "Triangles ABE and ACD are similar.",
+      "BC is the height of the trapezium."
+     ],
+     "solution": "Scale factor $= \\frac{5}{8}$, so $AB = 14.4 \\times \\frac{5}{8} = 9$ [M1]\n$BC = 14.4 - 9 = 5.4$ [M1]\nArea $= \\frac{5 + 8}{2} \\times 5.4 = 35.1\\text{ cm}^2$ [A1]",
+     "answer": "35.1 cm²",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 280\" width=\"100%\" style=\"max-width:480px\" role=\"img\"><polygon points=\"40.0,230.0 300.0,40.0 388.5,161.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"201.2\" y1=\"112.2\" x2=\"256.1\" y2=\"187.3\" stroke=\"currentColor\" stroke-width=\"1.6\"/><path d=\"M192.3,118.7 L198.8,127.6 L207.7,121.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><path d=\"M291.1,46.5 L297.6,55.4 L306.5,48.9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"30.0\" y=\"236.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">A</text><text x=\"189.2\" y=\"104.2\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">B</text><text x=\"300.0\" y=\"28.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">C</text><text x=\"400.5\" y=\"161.1\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">D</text><text x=\"260.1\" y=\"201.3\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">E</text></svg>",
+      "alt": "Triangle ACD with B on AC and E on AD; BE is parallel to CD; right angles at B and C."
+     }
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q13c",
+     "marks": 3,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q13",
+     "prompt": "$ABC$ and $AED$ are straight lines. $BE$ and $CD$ are parallel, and angles $ABE$ and $ACD$ are right angles.\n$BE = 2.4$ cm, $CD = 4.2$ cm, $AC = 9.1$ cm\nWork out the area of trapezium $BCDE$. (3)",
+     "hints": [
+      "Triangles ABE and ACD are similar.",
+      "BC is the height of the trapezium."
+     ],
+     "solution": "Scale factor $= \\frac{2.4}{4.2}$, so $AB = 9.1 \\times \\frac{2.4}{4.2} = 5.2$ [M1]\n$BC = 9.1 - 5.2 = 3.9$ [M1]\nArea $= \\frac{2.4 + 4.2}{2} \\times 3.9 = 12.87\\text{ cm}^2$ [A1]",
+     "answer": "12.87 cm²",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 280\" width=\"100%\" style=\"max-width:480px\" role=\"img\"><polygon points=\"40.0,230.0 300.0,40.0 388.5,161.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"201.2\" y1=\"112.2\" x2=\"256.1\" y2=\"187.3\" stroke=\"currentColor\" stroke-width=\"1.6\"/><path d=\"M192.3,118.7 L198.8,127.6 L207.7,121.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><path d=\"M291.1,46.5 L297.6,55.4 L306.5,48.9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"30.0\" y=\"236.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">A</text><text x=\"189.2\" y=\"104.2\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">B</text><text x=\"300.0\" y=\"28.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">C</text><text x=\"400.5\" y=\"161.1\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">D</text><text x=\"260.1\" y=\"201.3\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"17\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">E</text></svg>",
+      "alt": "Triangle ACD with B on AC and E on AD; BE is parallel to CD; right angles at B and C."
+     }
     }
    ]
   },
@@ -2129,6 +3142,75 @@
      ],
      "solution": "If C reaches the final, A beats C: $0.3 \\times 0.6 = 0.18$ [M1]\nIf D reaches the final (probability $0.7$), A beats D: $0.7 \\times 0.4 = 0.28$ [M1]\nA wins the final: $0.18 + 0.28 = 0.46$ [M1]\nA also has to beat B: $0.5 \\times 0.46 = 0.23$ [A1]",
      "answer": "0.23"
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q04a",
+     "marks": 4,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q4",
+     "prompt": "Ella is playing cards. The probability that Ella will win a game of cards is 0.35\nElla plays two games of cards.\n(a) Complete the probability tree diagram by filling in the probabilities (a) to (e) in the table. (2)\n(b) Work out the probability that Ella does not win either game. (2)",
+     "hints": [
+      "Each pair of branches adds up to 1.",
+      "Multiply along the branches for 'and'."
+     ],
+     "solution": "(a) Does not win $= 1 - 0.35 = 0.65$ [B1]\nGame 2: wins $0.35$, does not win $0.65$ on both pairs [B1]\n\n(b) $0.65 \\times 0.65$ [M1]\n$= 0.4225$ [A1]",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 330\" width=\"100%\" style=\"max-width:540px\" role=\"img\"><line x1=\"40.0\" y1=\"170.0\" x2=\"170.0\" y2=\"85.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"40.0\" y1=\"170.0\" x2=\"170.0\" y2=\"255.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"176.0\" y=\"85.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">wins</text><text x=\"176.0\" y=\"255.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">does not win</text><line x1=\"227.0\" y1=\"85.0\" x2=\"430.0\" y2=\"35.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"436.0\" y=\"35.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">wins</text><line x1=\"227.0\" y1=\"85.0\" x2=\"430.0\" y2=\"135.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"436.0\" y=\"135.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">does not win</text><line x1=\"287.0\" y1=\"255.0\" x2=\"430.0\" y2=\"205.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"436.0\" y=\"205.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">wins</text><line x1=\"287.0\" y1=\"255.0\" x2=\"430.0\" y2=\"305.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"436.0\" y=\"305.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">does not win</text><text x=\"95.0\" y=\"115.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">0.35</text><text x=\"95.0\" y=\"228.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">(a)</text><text x=\"330.0\" y=\"48.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">(b)</text><text x=\"330.0\" y=\"125.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">(c)</text><text x=\"355.0\" y=\"218.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">(d)</text><text x=\"355.0\" y=\"295.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">(e)</text><text x=\"110.0\" y=\"15.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">Game 1</text><text x=\"460.0\" y=\"15.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">Game 2</text></svg>",
+      "alt": "Probability tree for two games; game 1 wins with probability 0.35; branches (a) to (e) to complete."
+     },
+     "table": "Branch | Probability\n(a) | [0.65]\n(b) | [0.35]\n(c) | [0.65]\n(d) | [0.35]\n(e) | [0.65]",
+     "parts": [
+      {
+       "label": "b",
+       "answer": "0.4225"
+      }
+     ]
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q04b",
+     "marks": 4,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q4",
+     "prompt": "Josh is playing cards. The probability that Josh will win a game of cards is 0.6\nJosh plays two games of cards.\n(a) Complete the probability tree diagram by filling in the probabilities (a) to (e) in the table. (2)\n(b) Work out the probability that Josh does not win either game. (2)",
+     "hints": [
+      "Each pair of branches adds up to 1.",
+      "Multiply along the branches for 'and'."
+     ],
+     "solution": "(a) Does not win $= 1 - 0.6 = 0.4$ [B1]\nGame 2: wins $0.6$, does not win $0.4$ on both pairs [B1]\n\n(b) $0.4 \\times 0.4$ [M1]\n$= 0.16$ [A1]",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 330\" width=\"100%\" style=\"max-width:540px\" role=\"img\"><line x1=\"40.0\" y1=\"170.0\" x2=\"170.0\" y2=\"85.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"40.0\" y1=\"170.0\" x2=\"170.0\" y2=\"255.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"176.0\" y=\"85.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">wins</text><text x=\"176.0\" y=\"255.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">does not win</text><line x1=\"227.0\" y1=\"85.0\" x2=\"430.0\" y2=\"35.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"436.0\" y=\"35.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">wins</text><line x1=\"227.0\" y1=\"85.0\" x2=\"430.0\" y2=\"135.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"436.0\" y=\"135.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">does not win</text><line x1=\"287.0\" y1=\"255.0\" x2=\"430.0\" y2=\"205.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"436.0\" y=\"205.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">wins</text><line x1=\"287.0\" y1=\"255.0\" x2=\"430.0\" y2=\"305.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"436.0\" y=\"305.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">does not win</text><text x=\"95.0\" y=\"115.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">0.6</text><text x=\"95.0\" y=\"228.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">(a)</text><text x=\"330.0\" y=\"48.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">(b)</text><text x=\"330.0\" y=\"125.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">(c)</text><text x=\"355.0\" y=\"218.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">(d)</text><text x=\"355.0\" y=\"295.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">(e)</text><text x=\"110.0\" y=\"15.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">Game 1</text><text x=\"460.0\" y=\"15.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">Game 2</text></svg>",
+      "alt": "Probability tree for two games; game 1 wins with probability 0.6; branches (a) to (e) to complete."
+     },
+     "table": "Branch | Probability\n(a) | [0.4]\n(b) | [0.6]\n(c) | [0.4]\n(d) | [0.6]\n(e) | [0.4]",
+     "parts": [
+      {
+       "label": "b",
+       "answer": "0.16"
+      }
+     ]
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q04c",
+     "marks": 4,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q4",
+     "prompt": "Nadia is playing cards. The probability that Nadia will win a game of cards is 0.15\nNadia plays two games of cards.\n(a) Complete the probability tree diagram by filling in the probabilities (a) to (e) in the table. (2)\n(b) Work out the probability that Nadia does not win either game. (2)",
+     "hints": [
+      "Each pair of branches adds up to 1.",
+      "Multiply along the branches for 'and'."
+     ],
+     "solution": "(a) Does not win $= 1 - 0.15 = 0.85$ [B1]\nGame 2: wins $0.15$, does not win $0.85$ on both pairs [B1]\n\n(b) $0.85 \\times 0.85$ [M1]\n$= 0.7225$ [A1]",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 330\" width=\"100%\" style=\"max-width:540px\" role=\"img\"><line x1=\"40.0\" y1=\"170.0\" x2=\"170.0\" y2=\"85.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"40.0\" y1=\"170.0\" x2=\"170.0\" y2=\"255.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"176.0\" y=\"85.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">wins</text><text x=\"176.0\" y=\"255.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">does not win</text><line x1=\"227.0\" y1=\"85.0\" x2=\"430.0\" y2=\"35.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"436.0\" y=\"35.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">wins</text><line x1=\"227.0\" y1=\"85.0\" x2=\"430.0\" y2=\"135.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"436.0\" y=\"135.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">does not win</text><line x1=\"287.0\" y1=\"255.0\" x2=\"430.0\" y2=\"205.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"436.0\" y=\"205.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">wins</text><line x1=\"287.0\" y1=\"255.0\" x2=\"430.0\" y2=\"305.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"436.0\" y=\"305.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">does not win</text><text x=\"95.0\" y=\"115.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">0.15</text><text x=\"95.0\" y=\"228.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">(a)</text><text x=\"330.0\" y=\"48.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">(b)</text><text x=\"330.0\" y=\"125.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">(c)</text><text x=\"355.0\" y=\"218.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">(d)</text><text x=\"355.0\" y=\"295.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">(e)</text><text x=\"110.0\" y=\"15.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">Game 1</text><text x=\"460.0\" y=\"15.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">Game 2</text></svg>",
+      "alt": "Probability tree for two games; game 1 wins with probability 0.15; branches (a) to (e) to complete."
+     },
+     "table": "Branch | Probability\n(a) | [0.85]\n(b) | [0.15]\n(c) | [0.85]\n(d) | [0.15]\n(e) | [0.85]",
+     "parts": [
+      {
+       "label": "b",
+       "answer": "0.7225"
+      }
+     ]
     }
    ]
   },
@@ -2234,7 +3316,47 @@
   {
    "topic": "Averages and range",
    "category": "Statistics",
-   "questions": []
+   "questions": [
+    {
+     "id": "gcse-h-2024nov-p3-q06a",
+     "marks": 4,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q6",
+     "prompt": "The stem and leaf diagram shows the test scores of 23 students from School A. Key: 2 | 8 represents 28\n23 students from School B did the same test. Their median score was 49 and the range of their scores was 40\nCompare the distribution of the test scores of the students from School A with the distribution of the test scores of the students from School B. (4)",
+     "hints": [
+      "Median of 23 values = the 12th value.",
+      "Compare an average and a measure of spread, in context."
+     ],
+     "solution": "Model answer:\nSchool A median $= 52$ [M1]\nSchool A range $= 47$ [M1]\nSchool A's median is higher (52 compared with 49), so on average School A scored higher. [C1]\nSchool A's range is bigger (47 compared with 40), so School A's scores were more spread out. [C1]",
+     "table": "Stem | Leaves\n2 | 8\n3 | 3 5 7\n4 | 1 2 4 6 7 9\n5 | 0 2 3 5 6 8\n6 | 1 3 4 6 9\n7 | 2 5"
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q06b",
+     "marks": 4,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q6",
+     "prompt": "The stem and leaf diagram shows the test scores of 23 students from School A. Key: 5 | 1 represents 51\n23 students from School B did the same test. Their median score was 75 and the range of their scores was 30\nCompare the distribution of the test scores of the students from School A with the distribution of the test scores of the students from School B. (4)",
+     "hints": [
+      "Median of 23 values = the 12th value.",
+      "Compare an average and a measure of spread, in context."
+     ],
+     "solution": "Model answer:\nSchool A median $= 71$ [M1]\nSchool A range $= 41$ [M1]\nSchool A's median is lower (71 compared with 75), so on average School A scored lower. [C1]\nSchool A's range is bigger (41 compared with 30), so School A's scores were more spread out. [C1]",
+     "table": "Stem | Leaves\n5 | 1 4 8\n6 | 0 1 3 4 6 7 8\n7 | 0 1 2 4 5 7 8\n8 | 0 1 3 6 8\n9 | 2"
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q06c",
+     "marks": 4,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q6",
+     "prompt": "The stem and leaf diagram shows the test scores of 23 students from School A. Key: 1 | 8 represents 18\n23 students from School B did the same test. Their median score was 45 and the range of their scores was 58\nCompare the distribution of the test scores of the students from School A with the distribution of the test scores of the students from School B. (4)",
+     "hints": [
+      "Median of 23 values = the 12th value.",
+      "Compare an average and a measure of spread, in context."
+     ],
+     "solution": "Model answer:\nSchool A median $= 41$ [M1]\nSchool A range $= 50$ [M1]\nSchool A's median is lower (41 compared with 45), so on average School A scored lower. [C1]\nSchool A's range is smaller (50 compared with 58), so School A's scores were less spread out. [C1]",
+     "table": "Stem | Leaves\n1 | 8\n2 | 2 5 7\n3 | 0 1 3 5 6 8 9\n4 | 1 2 4 6 7 9\n5 | 2 5 7\n6 | 0 3 8"
+    }
+   ]
   },
   {
    "topic": "Scatter graphs",
@@ -2254,7 +3376,59 @@
   {
    "topic": "Sampling",
    "category": "Statistics",
-   "questions": []
+   "questions": [
+    {
+     "id": "gcse-h-2024nov-p3-q18a",
+     "marks": 4,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q18",
+     "prompt": "Maria wants to find an estimate for the number of fish in a pond.\nOn Saturday she catches 60 of them, puts a tag on each one and releases them.\nOn Monday she catches 48 of them. 12 of these have tags.\n(a) Work out an estimate for the total number. You must show all your working. (3)\n(b) State one assumption you have made. (1)",
+     "hints": [
+      "The fraction tagged in the second sample should match the fraction tagged in the whole population."
+     ],
+     "solution": "(a) $\\frac{12}{48} = \\frac{60}{N}$ [M1]\n$N = \\frac{60 \\times 48}{12}$ [M1]\n$= 240$ [A1]\n\n(b) For example: the tagged animals mix in evenly, no tags fall off, and the population doesn't change (no births, deaths or movement) between the two days. [C1]",
+     "parts": [
+      {
+       "label": "a",
+       "answer": "240"
+      }
+     ]
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q18b",
+     "marks": 4,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q18",
+     "prompt": "Maria wants to find an estimate for the number of newts in a pond.\nOn Saturday she catches 35 of them, puts a tag on each one and releases them.\nOn Monday she catches 70 of them. 14 of these have tags.\n(a) Work out an estimate for the total number. You must show all your working. (3)\n(b) State one assumption you have made. (1)",
+     "hints": [
+      "The fraction tagged in the second sample should match the fraction tagged in the whole population."
+     ],
+     "solution": "(a) $\\frac{14}{70} = \\frac{35}{N}$ [M1]\n$N = \\frac{35 \\times 70}{14}$ [M1]\n$= 175$ [A1]\n\n(b) For example: the tagged animals mix in evenly, no tags fall off, and the population doesn't change (no births, deaths or movement) between the two days. [C1]",
+     "parts": [
+      {
+       "label": "a",
+       "answer": "175"
+      }
+     ]
+    },
+    {
+     "id": "gcse-h-2024nov-p3-q18c",
+     "marks": 4,
+     "calculator": true,
+     "inspiredBy": "Edexcel GCSE Maths Higher Paper 3 (Calculator), November 2024, Q18",
+     "prompt": "Maria wants to find an estimate for the number of rabbits in a field.\nOn Saturday she catches 50 of them, puts a tag on each one and releases them.\nOn Monday she catches 64 of them. 8 of these have tags.\n(a) Work out an estimate for the total number. You must show all your working. (3)\n(b) State one assumption you have made. (1)",
+     "hints": [
+      "The fraction tagged in the second sample should match the fraction tagged in the whole population."
+     ],
+     "solution": "(a) $\\frac{8}{64} = \\frac{50}{N}$ [M1]\n$N = \\frac{50 \\times 64}{8}$ [M1]\n$= 400$ [A1]\n\n(b) For example: the tagged animals mix in evenly, no tags fall off, and the population doesn't change (no births, deaths or movement) between the two days. [C1]",
+     "parts": [
+      {
+       "label": "a",
+       "answer": "400"
+      }
+     ]
+    }
+   ]
   }
  ]
 }
