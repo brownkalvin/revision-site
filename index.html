@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6414724621294713"
-     crossorigin="anonymous"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Revision Practice</title>
@@ -287,6 +285,11 @@ body.has-tabbar .toast{bottom:calc(78px + env(safe-area-inset-bottom,0px));}
 .ms-q .sol-line{padding:3px 0;border-bottom:1px dotted #ddd;}
 .ms-note{font:.8rem system-ui,sans-serif;color:#86470b;background:#fdf3e6;border-radius:6px;padding:6px 8px;margin-top:8px;}
 @media (max-width:420px){ .paper-doc{padding:18px 14px;} }
+.al-page{display:flex;flex-direction:column;min-height:258mm;padding:10px 0 6px;break-before:page;page-break-before:always;border-top:2px dashed var(--line);margin-top:22px;}
+.al-paper .pd-head{border-bottom:2px solid #111;}
+.al-cont{font:600 .82rem system-ui,sans-serif;color:#555;margin-bottom:6px;}
+.al-lines{flex:1;min-height:60mm;margin-top:10px;background-image:repeating-linear-gradient(to bottom,transparent 0,transparent calc(8.5mm - 1px),#9aa3ad calc(8.5mm - 1px),#9aa3ad 8.5mm);-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+.al-page .pd-total{margin-top:6px;}
 @page{ margin:14mm 13mm; }
 @media print{
   body.printing-paper{background:#fff !important;}
@@ -296,6 +299,7 @@ body.has-tabbar .toast{bottom:calc(78px + env(safe-area-inset-bottom,0px));}
   body.printing-paper::before{display:none !important;}
   body.printing-paper .paper-doc{border:none;padding:0;margin:0;border-radius:0;}
   body.printing-paper .pd-q{border-bottom:1px solid #999;}
+  body.printing-paper .al-page{border-top:none;margin-top:0;padding-top:0;}
 }
 .ad-host{max-width:640px;margin:0 auto;padding:4px 16px calc(96px + env(safe-area-inset-bottom,0px));}
 body.ads-on .wrap{padding-bottom:12px !important;}
@@ -330,6 +334,10 @@ body.ads-on .wrap{padding-bottom:12px !important;}
 </style>
 <script>window.MathJax={tex:{inlineMath:[['$','$']],displayMath:[['$$','$$']],processEscapes:true,macros:{pounds:'\\text{£}'}},svg:{fontCache:'local'},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code','svg']}};</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-svg.js"></script>
+<!-- Google AdSense. The first line must stay before the AdSense script: it makes every ad non-personalised. -->
+<script>(window.adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1;</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6414724621294713"
+     crossorigin="anonymous"></script>
 </head>
 <body>
 <div id="mjNote" style="display:none;position:sticky;top:0;z-index:6;background:var(--warn);color:#fff;padding:8px 14px;font-size:.82rem;text-align:center;">Equations need an internet connection to display properly — connect and reload the page.</div>
@@ -1171,7 +1179,7 @@ const SUBJECTS = [
 ];
 // Each subject's questions live in their own file: questions/<subject id>.json
 // Change QUESTIONS_VERSION whenever you edit a question file, so browsers fetch the new copy straight away.
-const QUESTIONS_VERSION = "7";
+const QUESTIONS_VERSION = "8";
 const SUBJECT_BANKS = {};
 const bankLoads = {}, bankErrors = {};
 function bankLoaded(sid){ return !!SUBJECT_BANKS[sid]; }
@@ -1942,7 +1950,7 @@ function updateTabBar(){
 // Change TERMS_VERSION whenever you change privacy.html or terms.html in a way people should agree to again.
 const TERMS_VERSION = "2026-09-30";
 // Your contact email for privacy requests, reports and appeals. Also put it in privacy.html and terms.html.
-const CONTACT_EMAIL = "kelvinleebrown08@gmail.com";
+const CONTACT_EMAIL = "kelvincardsupport@gmail.com";
 const REPORT_REASONS = [
   "Bullying or being unkind", "Hate or discrimination", "Sexual or inappropriate content",
   "Someone might be at risk of harm", "Sharing someone's personal information", "Threats or violence",
@@ -1956,7 +1964,7 @@ function termsAccepted(){ return !!(user && user.user_metadata && user.user_meta
 function contactHtml(){ return CONTACT_EMAIL ? `<a href="mailto:${esc(CONTACT_EMAIL)}">${esc(CONTACT_EMAIL)}</a>` : "the site owner"; }
 function footerHtml(){
   if(state.screen==="practice") return "";
-  return `<footer class="site-footer"><a href="privacy.html" target="_blank" rel="noopener">Privacy</a><span>·</span><a href="terms.html" target="_blank" rel="noopener">Rules</a>${user ? `<span>·</span><button class="link-btn" data-go-account>Account</button>` : ""}${CONTACT_EMAIL ? `<span>·</span><a href="mailto:${esc(CONTACT_EMAIL)}">Contact</a>` : ""}${safeUrl(SUPPORT_URL) ? `<span>·</span><a href="${esc(SUPPORT_URL)}" target="_blank" rel="noopener">Support the site</a>` : ""}${adsEnabled() ? `<span>·</span><button class="link-btn" data-cookie-choices>Cookie choices</button>` : ""}</footer>`;
+  return `<footer class="site-footer"><a href="privacy.html" target="_blank" rel="noopener">Privacy</a><span>·</span><a href="terms.html" target="_blank" rel="noopener">Rules</a>${user ? `<span>·</span><button class="link-btn" data-go-account>Account</button>` : ""}${CONTACT_EMAIL ? `<span>·</span><a href="mailto:${esc(CONTACT_EMAIL)}">Contact</a>` : ""}${safeUrl(SUPPORT_URL) ? `<span>·</span><a href="${esc(SUPPORT_URL)}" target="_blank" rel="noopener">Support the site</a>` : ""}${adsClientSet() ? `<span>·</span><button class="link-btn" data-cookie-choices>Cookie choices</button>` : ""}</footer>`;
 }
 
 // ---------- reporting ----------
@@ -2668,7 +2676,28 @@ function paperHeaderHtml(doc, kind){
     ${kind==="ms" ? `<div class="pd-key"><strong>Key:</strong> ${Object.entries(MARK_INFO).map(([k,v])=>`<span class="mk mk-${k}">${k}</span> ${esc(v)}`).join(" · ")}. The badge shows the mark earned on that line.</div>` : ""}
   </div>`;
 }
+// A-Level papers: each question starts on a new lined page, plus one extra lined page for every
+// 3 marks beyond the first 3 (1–3 marks: 1 page, 4–6: 2 pages, 7–9: 3 pages, ...).
+function alevelExtraPages(marks){ return Math.max(0, Math.ceil((marks||1)/3) - 1); }
+function alevelPaperHtml(doc){
+  const last = doc.questions.length - 1;
+  const pages = doc.questions.map((q,i)=>{
+    const extra = alevelExtraPages(q.marks), m = q.marks||1;
+    const total = `<div class="pd-total">(Total for Question ${i+1} is ${m} mark${m===1?"":"s"})</div>${i===last ? `<div class="pd-end">TOTAL FOR PAPER IS ${doc.total} MARKS</div>` : ""}`;
+    let html = `<section class="al-page">
+      <div class="pd-qhead"><span class="pd-num">${i+1}</span><span class="pd-qmeta">${esc(q.topic)}</span></div>
+      <div class="qprompt">${fmtPrompt(q.prompt)}</div>${diagramHtml(q, "display")}
+      <div class="al-lines"></div>${extra ? "" : total}
+    </section>`;
+    for(let k=1;k<=extra;k++) html += `<section class="al-page al-extra">
+      <div class="al-cont">Question ${i+1} continued</div><div class="al-lines"></div>${k===extra ? total : ""}
+    </section>`;
+    return html;
+  }).join("");
+  return `<article class="paper-doc al-paper" id="paperDoc">${paperHeaderHtml(doc,"paper")}${pages}</article>`;
+}
 function paperDocHtml(doc){
+  if(!isGcse(doc.subject)) return alevelPaperHtml(doc);
   const qs = doc.questions.map((q,i)=>`<section class="pd-q">
       <div class="pd-qhead"><span class="pd-num">${i+1}</span><span class="pd-qmeta">${esc(q.topic)}${typeof q.calculator==="boolean" && doc.calc==="mixed" ? (q.calculator ? " · 🧮 calculator" : " · ✏️ non-calculator") : ""}</span></div>
       <div class="qprompt">${fmtPrompt(q.prompt)}</div>${diagramHtml(q, "display")}
@@ -2768,19 +2797,21 @@ function attachPaperHandlers(){
 // Ads appear only at the bottom of the home page and subject pages (never during practice,
 // on answers or in papers), are always non-personalised, and are hidden for admin accounts.
 // Google's own consent message (AdSense > Privacy & messaging) asks visitors about cookies.
-const ADS = { client: "", slot: "" };            // e.g. { client: "ca-pub-1234567890123456", slot: "1234567890" }
+const ADS = { client: "ca-pub-6414724621294713", slot: "3962194608" };            // e.g. { client: "ca-pub-1234567890123456", slot: "1234567890" }
 // One sponsor you arrange yourself, shown as a clearly labelled card on the home page. No tracking.
 const SPONSOR = null;                             // e.g. { name: "Example Tutoring", message: "1-to-1 GCSE and A-Level maths tutoring", url: "https://example.com", logo: "" }
 // A page where parents and teachers can chip in (Ko-fi, Buy Me a Coffee...). Payments happen on their site.
-const SUPPORT_URL = "";                           // e.g. "https://ko-fi.com/yourname"
+const SUPPORT_URL = "https://ko-fi.com/kelvincard";                           // e.g. "https://ko-fi.com/yourname"
 const AD_SCREENS = ["home", "select"];
 let adsLoaded = false, adPushed = false;
 
 function adsEnabled(){ return /^ca-pub-\d{10,20}$/.test(ADS.client) && /^\d{6,20}$/.test(ADS.slot); }
 function safeUrl(u){ return /^https:\/\/[^\s"'<>]+$/.test(String(u||"")) ? u : ""; }
+function adsClientSet(){ return /^ca-pub-\d{10,20}$/.test(ADS.client); }
 function loadAdsScript(){
   if(!adsEnabled() || adsLoaded) return;
   adsLoaded = true;
+  if(document.querySelector('script[src*="adsbygoogle.js"]')) return;   // already in the page head
   (window.adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1;   // never personalised
   const s = document.createElement("script");
   s.async = true; s.crossOrigin = "anonymous";
