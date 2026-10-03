@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Revision Practice</title>
+<title>kelvincard</title>
+<meta name="description" content="kelvincard: free GCSE and A-Level Maths revision with exam-style practice questions, hints, worked solutions, mark schemes and printable practice papers.">
 <style>
 :root{
   --bg:#f7f7f5; --panel:#fff; --ink:#1b1b1f; --sub:#6b6b74; --line:#e4e4e0;
@@ -288,7 +289,7 @@ body.has-tabbar .toast{bottom:calc(78px + env(safe-area-inset-bottom,0px));}
 .al-page{display:flex;flex-direction:column;min-height:258mm;padding:10px 0 6px;break-before:page;page-break-before:always;border-top:2px dashed var(--line);margin-top:22px;}
 .al-paper .pd-head{border-bottom:2px solid #111;}
 .al-cont{font:600 .82rem system-ui,sans-serif;color:#555;margin-bottom:6px;}
-.al-lines{flex:1;min-height:60mm;margin-top:10px;background-image:repeating-linear-gradient(to bottom,transparent 0,transparent calc(8.5mm - 1px),#9aa3ad calc(8.5mm - 1px),#9aa3ad 8.5mm);-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+.al-lines{flex:1;min-height:17mm;margin-top:10px;background-image:repeating-linear-gradient(to bottom,transparent 0,transparent calc(8.5mm - 1px),#9aa3ad calc(8.5mm - 1px),#9aa3ad 8.5mm);-webkit-print-color-adjust:exact;print-color-adjust:exact;}
 .al-page .pd-total{margin-top:6px;}
 @page{ margin:14mm 13mm; }
 @media print{
@@ -1215,7 +1216,7 @@ function subjectPickerHtml(){
 }
 
 // ======================= HOME PAGE =======================
-const SITE_NAME = "Revision Practice";
+const SITE_NAME = "kelvincard";
 function subjectSummary(sid){
   let n = 0, pm = 0, ep = 0, last = 0;
   loadAttempts().forEach(a=>{
@@ -2568,7 +2569,11 @@ function attachAnswerHandlers(){
 // Mark-scheme marks come from tags at the end of solution lines, e.g. "... = £95 [A1]" or "[M1 M1 A1]".
 const MARK_TAG = /\s*\[((?:[MABPCE]\d\s*)+)\]\s*$/;
 const MARK_INFO = { M:"Method mark", A:"Accuracy mark (depends on the method mark before it)", B:"Independent mark", P:"Process mark", C:"Communication mark", E:"Explanation mark" };
-const paper = { topics:null, marks:40, doc:null, view:"paper", error:"" };
+const paper = { topics:null, marks:40, doc:null, view:"paper", error:"", extraPages:(()=>{ try{ return localStorage.getItem("paperExtraPages")!=="0"; }catch(e){ return true; } })() };
+function setExtraPages(on){ paper.extraPages = !!on; try{ localStorage.setItem("paperExtraPages", on ? "1" : "0"); }catch(e){} }
+function extraPagesToggleHtml(){
+  return `<label class="chk" style="margin-top:10px;"><input type="checkbox" data-extra-pages ${paper.extraPages?"checked":""}> <span>Extra lined pages</span></label>`;
+}
 
 function solutionLines(text){
   return String(text||"").split("\n").map(line=>{
@@ -2603,7 +2608,7 @@ function renderPaperSetup(){
       <label class="field" for="paperMarks" style="margin-top:0;">Total marks</label>
       <div class="paper-chips">${[20,40,60,80,100].map(n=>`<button type="button" class="icon-btn${paper.marks===n?" accent":""}" data-paper-marks="${n}">${n}</button>`).join("")}</div>
       <input type="number" id="paperMarks" min="5" max="200" value="${paper.marks}">
-      ${isGcse() ? `<label class="field">Paper type</label>${calcToggleHtml()}` : ""}
+      ${isGcse() ? `<label class="field">Paper type</label>${calcToggleHtml()}` : extraPagesToggleHtml()}
     </div>
     <div class="card">
       <div class="q-card-head" style="margin-bottom:6px;"><h2 style="font-size:1rem;margin:0;">Topics</h2>
@@ -2665,7 +2670,7 @@ function paperHeaderHtml(doc, kind){
   const s = subjectInfo(doc.subject);
   const calcText = doc.calc==="calc" ? "Calculator allowed" : doc.calc==="noncalc" ? "Non-calculator: you must not use a calculator" : doc.calc==="mixed" ? "Calculator allowed only for questions marked 🧮" : "";
   return `<div class="pd-head">
-    <div class="pd-site">${esc(SITE_NAME)} · kelvincard.co.uk</div>
+    <div class="pd-site">kelvincard.co.uk</div>
     <h1>${esc(s.name)}</h1>
     <div class="pd-title">${kind==="ms" ? "Mark scheme and worked solutions" : "Practice paper"}</div>
     <div class="pd-meta">Paper ${esc(doc.code)} · ${new Date(doc.created).toLocaleDateString("en-GB",{day:"numeric",month:"long",year:"numeric"})} · ${doc.questions.length} questions · <strong>Total ${doc.total} marks</strong>${kind==="ms" ? "" : ` · Suggested time ${suggestedMinutes(doc.total, doc.subject)} minutes`}</div>
@@ -2678,7 +2683,7 @@ function paperHeaderHtml(doc, kind){
 }
 // A-Level papers: each question starts on a new lined page, plus one extra lined page for every
 // 3 marks beyond the first 3 (1–3 marks: 1 page, 4–6: 2 pages, 7–9: 3 pages, ...).
-function alevelExtraPages(marks){ return Math.max(0, Math.ceil((marks||1)/3) - 1); }
+function alevelExtraPages(marks){ return paper.extraPages ? Math.max(0, Math.ceil((marks||1)/3) - 1) : 0; }
 function alevelPaperHtml(doc){
   const last = doc.questions.length - 1;
   const pages = doc.questions.map((q,i)=>{
@@ -2737,6 +2742,7 @@ function renderPaperView(){
         <button class="btn-primary" id="paperPrintBtn">Save ${paper.view==="ms" ? "mark scheme" : "paper"} as PDF</button>
         <button class="btn-ghost" id="paperNewBtn">New questions</button>
       </div>
+      ${!isGcse(doc.subject) && paper.view==="paper" ? extraPagesToggleHtml() : ""}
       <div class="btn-row"><button class="btn-ghost" id="paperDeckBtn">Save as a deck</button><button class="btn-ghost" id="paperPractiseBtn">Practise on screen</button></div>
     </div>
     <div class="paper-pages">${paper.view==="ms" ? msDocHtml(doc) : paperDocHtml(doc)}</div>`;
@@ -2787,6 +2793,7 @@ function attachPaperHandlers(){
     };
     const pp = document.getElementById("paperPractiseBtn"); if(pp) pp.onclick = ()=>practiseIds(paper.doc.questions.map(q=>q.id), "select");
   }
+  document.querySelectorAll("[data-extra-pages]").forEach(b=>{ b.onchange = ()=>{ setExtraPages(b.checked); render(); }; });
   const open = document.getElementById("openPaperBtn");
   if(open) open.onclick = ()=>{ paper.topics = null; paper.error = ""; state.screen = "paperSetup"; render(); window.scrollTo(0,0); };
 }
