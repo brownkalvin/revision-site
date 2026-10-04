@@ -2943,6 +2943,624 @@
      "inspiredBy": "Edexcel A Level Maths Paper 2 (Pure Mathematics 2), June 2024, Q7"
     }
    ]
+  },
+  {
+   "topic": "Probability",
+   "category": "Statistics",
+   "questions": [
+    {
+     "id": "al-2025jun-s-q01a",
+     "marks": 9,
+     "prompt": "Bag A contains 6 red, 3 yellow and 3 green beads. Bag B only contains red and yellow beads.\nA bead is selected at random from bag A and a second bead is selected at random from bag B.\nGiven that the probability that both beads selected are yellow is $\\frac{1}{10}$\n(a) (i) find the probability of selecting a yellow bead from bag B (2)\n(ii) Hence find the probability on each branch of a tree diagram showing these selections (bag A first, then bag B). (2)\n(b) Find the exact probability that at least one of the two beads selected is yellow. (3)\nThe event $X$ is that at least one of the beads selected is yellow. The event $W$ is that a green bead is selected.\n(c) Find the exact value of $P(W \\mid X)$ (2)",
+     "hints": [
+      "(a) P(both yellow) = P(yellow from A) × P(yellow from B).",
+      "(b) Use 1 − P(no yellow at all).",
+      "(c) $P(W \\mid X) = \\frac{P(W \\cap X)}{P(X)}$. If the green bead is chosen from A, X needs a yellow from B."
+     ],
+     "solution": "(a)(i) $P(Y_A) = \\frac{1}{4}$, so $\\frac{1}{4} \\times p = \\frac{1}{10}$ [M1]\n$p = \\frac{2}{5}$ [A1]\n(ii) Bag A: red $\\frac{1}{2}$, yellow $\\frac{1}{4}$, green $\\frac{1}{4}$ [B1]\nBag B (on every branch): red $\\frac{3}{5}$, yellow $\\frac{2}{5}$ [B1]\n\n(b) $P(\\text{no yellow}) = \\frac{3}{4} \\times \\frac{3}{5} = \\frac{9}{20}$ [M1]\n$1 - \\frac{9}{20}$ [M1]\n$= \\frac{11}{20}$ [A1]\n\n(c) $P(W \\cap X) = \\frac{1}{4} \\times \\frac{2}{5} = \\frac{1}{10}$ [M1]\n$P(W \\mid X) = \\frac{\\frac{1}{10}}{\\frac{11}{20}} = \\frac{2}{11}$ [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Tree diagrams and conditional probability",
+     "inspiredBy": "Edexcel A Level Maths Paper 31 (Statistics), June 2025, Q1"
+    },
+    {
+     "id": "al-2025jun-s-q01b",
+     "marks": 9,
+     "prompt": "Bag A contains 4 red, 5 yellow and 1 green beads. Bag B only contains red and yellow beads.\nA bead is selected at random from bag A and a second bead is selected at random from bag B.\nGiven that the probability that both beads selected are yellow is $\\frac{3}{16}$\n(a) (i) find the probability of selecting a yellow bead from bag B (2)\n(ii) Hence find the probability on each branch of a tree diagram showing these selections (bag A first, then bag B). (2)\n(b) Find the exact probability that at least one of the two beads selected is yellow. (3)\nThe event $X$ is that at least one of the beads selected is yellow. The event $W$ is that a green bead is selected.\n(c) Find the exact value of $P(W \\mid X)$ (2)",
+     "hints": [
+      "(a) P(both yellow) = P(yellow from A) × P(yellow from B).",
+      "(b) Use 1 − P(no yellow at all).",
+      "(c) $P(W \\mid X) = \\frac{P(W \\cap X)}{P(X)}$. If the green bead is chosen from A, X needs a yellow from B."
+     ],
+     "solution": "(a)(i) $P(Y_A) = \\frac{1}{2}$, so $\\frac{1}{2} \\times p = \\frac{3}{16}$ [M1]\n$p = \\frac{3}{8}$ [A1]\n(ii) Bag A: red $\\frac{2}{5}$, yellow $\\frac{1}{2}$, green $\\frac{1}{10}$ [B1]\nBag B (on every branch): red $\\frac{5}{8}$, yellow $\\frac{3}{8}$ [B1]\n\n(b) $P(\\text{no yellow}) = \\frac{1}{2} \\times \\frac{5}{8} = \\frac{5}{16}$ [M1]\n$1 - \\frac{5}{16}$ [M1]\n$= \\frac{11}{16}$ [A1]\n\n(c) $P(W \\cap X) = \\frac{1}{10} \\times \\frac{3}{8} = \\frac{3}{80}$ [M1]\n$P(W \\mid X) = \\frac{\\frac{3}{80}}{\\frac{11}{16}} = \\frac{3}{55}$ [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Tree diagrams and conditional probability",
+     "inspiredBy": "Edexcel A Level Maths Paper 31 (Statistics), June 2025, Q1"
+    },
+    {
+     "id": "al-2025jun-s-q01c",
+     "marks": 9,
+     "prompt": "Bag A contains 3 red, 6 yellow and 6 green beads. Bag B only contains red and yellow beads.\nA bead is selected at random from bag A and a second bead is selected at random from bag B.\nGiven that the probability that both beads selected are yellow is $\\frac{1}{5}$\n(a) (i) find the probability of selecting a yellow bead from bag B (2)\n(ii) Hence find the probability on each branch of a tree diagram showing these selections (bag A first, then bag B). (2)\n(b) Find the exact probability that at least one of the two beads selected is yellow. (3)\nThe event $X$ is that at least one of the beads selected is yellow. The event $W$ is that a green bead is selected.\n(c) Find the exact value of $P(W \\mid X)$ (2)",
+     "hints": [
+      "(a) P(both yellow) = P(yellow from A) × P(yellow from B).",
+      "(b) Use 1 − P(no yellow at all).",
+      "(c) $P(W \\mid X) = \\frac{P(W \\cap X)}{P(X)}$. If the green bead is chosen from A, X needs a yellow from B."
+     ],
+     "solution": "(a)(i) $P(Y_A) = \\frac{2}{5}$, so $\\frac{2}{5} \\times p = \\frac{1}{5}$ [M1]\n$p = \\frac{1}{2}$ [A1]\n(ii) Bag A: red $\\frac{1}{5}$, yellow $\\frac{2}{5}$, green $\\frac{2}{5}$ [B1]\nBag B (on every branch): red $\\frac{1}{2}$, yellow $\\frac{1}{2}$ [B1]\n\n(b) $P(\\text{no yellow}) = \\frac{3}{5} \\times \\frac{1}{2} = \\frac{3}{10}$ [M1]\n$1 - \\frac{3}{10}$ [M1]\n$= \\frac{7}{10}$ [A1]\n\n(c) $P(W \\cap X) = \\frac{2}{5} \\times \\frac{1}{2} = \\frac{1}{5}$ [M1]\n$P(W \\mid X) = \\frac{\\frac{1}{5}}{\\frac{7}{10}} = \\frac{2}{7}$ [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Tree diagrams and conditional probability",
+     "inspiredBy": "Edexcel A Level Maths Paper 31 (Statistics), June 2025, Q1"
+    }
+   ]
+  },
+  {
+   "topic": "Data presentation and interpretation",
+   "category": "Statistics",
+   "questions": [
+    {
+     "id": "al-2025jun-s-q02a",
+     "marks": 5,
+     "prompt": "Athletes in a club can train with either coach A or coach B for the 400 m.\nCoach A trains 100 athletes and records the best time, $x$ seconds, for each athlete. The results are summarised by\n$$\\sum x = 5530 \\qquad \\sum x^2 = 306250$$\n(a) Calculate the mean of the best times for the athletes trained by coach A (1)\n(b) Calculate the standard deviation of the best times for the athletes trained by coach A (2)\nThe mean and standard deviation for the best times of the athletes trained by coach B are 55.3 seconds and 3.4 seconds respectively.\nA race consists of equal numbers of the fastest athletes trained by coach A and by coach B.\n(c) State, giving a reason, which coach is more likely to have trained the winner. (2)",
+     "hints": [
+      "Mean = Σx ÷ n.",
+      "Standard deviation = √(Σx²/n − mean²).",
+      "Compare both the averages and the spreads. Lower times are better."
+     ],
+     "solution": "(a) $\\bar{x} = \\frac{5530}{100} = 55.3$ seconds [B1]\n\n(b) $\\sigma = \\sqrt{\\frac{306250}{100} - 55.3^2}$ [M1]\n$= 2.1$ seconds [A1]\n\n(c) Coach B [B1]\nbecause the means are the same, but coach B's times are more spread out (s.d. 3.4 compared with 2.1), so coach B's fastest runners are likely to be faster. [B1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Mean and standard deviation from summary statistics",
+     "inspiredBy": "Edexcel A Level Maths Paper 31 (Statistics), June 2025, Q2"
+    },
+    {
+     "id": "al-2025jun-s-q02b",
+     "marks": 5,
+     "prompt": "Athletes in a club can train with either coach A or coach B for the 100 m.\nCoach A trains 150 athletes and records the best time, $x$ seconds, for each athlete. The results are summarised by\n$$\\sum x = 1860 \\qquad \\sum x^2 = 23118$$\n(a) Calculate the mean of the best times for the athletes trained by coach A (1)\n(b) Calculate the standard deviation of the best times for the athletes trained by coach A (2)\nThe mean and standard deviation for the best times of the athletes trained by coach B are 12.6 seconds and 0.6 seconds respectively.\nA race consists of equal numbers of the fastest athletes trained by coach A and by coach B.\n(c) State, giving a reason, which coach is more likely to have trained the winner. (2)",
+     "hints": [
+      "Mean = Σx ÷ n.",
+      "Standard deviation = √(Σx²/n − mean²).",
+      "Compare both the averages and the spreads. Lower times are better."
+     ],
+     "solution": "(a) $\\bar{x} = \\frac{1860}{150} = 12.4$ seconds [B1]\n\n(b) $\\sigma = \\sqrt{\\frac{23118}{150} - 12.4^2}$ [M1]\n$= 0.6$ seconds [A1]\n\n(c) Coach A [B1]\nbecause the standard deviations are the same, but coach A's mean time is lower, so coach A's runners are faster on average. [B1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Mean and standard deviation from summary statistics",
+     "inspiredBy": "Edexcel A Level Maths Paper 31 (Statistics), June 2025, Q2"
+    },
+    {
+     "id": "al-2025jun-s-q02c",
+     "marks": 5,
+     "prompt": "Athletes in a club can train with either coach A or coach B for the 100 m freestyle swim.\nCoach A trains 60 athletes and records the best time, $x$ seconds, for each athlete. The results are summarised by\n$$\\sum x = 3870 \\qquad \\sum x^2 = 249750$$\n(a) Calculate the mean of the best times for the athletes trained by coach A (1)\n(b) Calculate the standard deviation of the best times for the athletes trained by coach A (2)\nThe mean and standard deviation for the best times of the athletes trained by coach B are 64.5 seconds and 1.1 seconds respectively.\nA race consists of equal numbers of the fastest athletes trained by coach A and by coach B.\n(c) State, giving a reason, which coach is more likely to have trained the winner. (2)",
+     "hints": [
+      "Mean = Σx ÷ n.",
+      "Standard deviation = √(Σx²/n − mean²).",
+      "Compare both the averages and the spreads. Lower times are better."
+     ],
+     "solution": "(a) $\\bar{x} = \\frac{3870}{60} = 64.5$ seconds [B1]\n\n(b) $\\sigma = \\sqrt{\\frac{249750}{60} - 64.5^2}$ [M1]\n$= 1.5$ seconds [A1]\n\n(c) Coach A [B1]\nbecause the means are the same, but coach A's times are more spread out (s.d. 1.5 compared with 1.1), so coach A's fastest runners are likely to be faster. [B1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Mean and standard deviation from summary statistics",
+     "inspiredBy": "Edexcel A Level Maths Paper 31 (Statistics), June 2025, Q2"
+    },
+    {
+     "id": "al-2025jun-s-q04a",
+     "marks": 9,
+     "prompt": "Kay is studying the variables Daily Mean Temperature ($x$ °C) and Daily Total Sunshine ($y$ hours) from the large data set for Camborne in 1987.\nKay starts with 3rd May and then selects every 7th day thereafter.\n(a) State the name of the sampling technique Kay uses. (1)\nKay wants to find the regression line of $y$ on $x$ for these data.\n(b) Using your knowledge of the large data set, explain how Kay might need to clean these data before finding the equation of the regression line. (1)\nThe equation of the regression line Kay finds is $y = -2.95 + 0.62x$\n(c) Using your knowledge of the large data set, (i) state the units of the gradient of the regression line, (ii) give an interpretation of the $y$-intercept of the regression line. (2)\nKay's teacher claimed \"the warmer the day, the more sunshine there should be\".\n(d) State, giving a reason, whether the teacher's claim is supported by Kay's data. (1)\nThe teacher used all the data for these variables from the large data set for Camborne in 1987, as a sample, and calculated the product moment correlation coefficient for $x$ and $y$ to be $0.284$. In a suitable test to determine whether there is evidence to support the teacher's claim, the $p$-value was $0.008$\n(e) Using a 5% level of significance, state the hypotheses and conclusion for this test. (2)\n(f) For the test in part (e) describe (i) the sample, (ii) a possible population. (2)",
+     "hints": [
+      "Picking every $k$th item after a starting point is a named sampling method.",
+      "The large data set has 'n/a' entries (and 'tr' for trace rainfall).",
+      "The claim is one-directional, so the test is one-tailed."
+     ],
+     "solution": "(a) (Quasi-)systematic sampling [B1]\n\n(b) Remove any days with missing (n/a) values for either variable before finding the line. [B1]\n\n(c)(i) hours per °C [B1]\n(ii) $y$-intercept: the predicted sunshine on a day when the daily mean temperature is 0 °C (which is outside the data, so not meaningful) [B1]\n\n(d) The gradient is positive, so Kay's data support the claim. [B1]\n\n(e) $H_0: \\rho = 0$, $H_1: \\rho > 0$ [B1]\n$p$-value $0.008 < 0.05$: reject $H_0$; there is sufficient evidence to support the teacher's claim. [B1]\n\n(f)(i) The sample: the days from 1st May to 31st October 1987 at Camborne (the data in the large data set) [B1]\n(ii) A possible population: all days from May to October at Camborne (in any year) [B1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Large data set, regression and correlation tests",
+     "inspiredBy": "Edexcel A Level Maths Paper 31 (Statistics), June 2025, Q4"
+    },
+    {
+     "id": "al-2025jun-s-q04b",
+     "marks": 9,
+     "prompt": "Kay is studying the variables Daily Total Sunshine ($x$ hours) and Daily Mean Temperature ($y$ °C) from the large data set for Heathrow in 2015.\nKay starts with 2nd May and then selects every 10th day thereafter.\n(a) State the name of the sampling technique Kay uses. (1)\nKay wants to find the regression line of $y$ on $x$ for these data.\n(b) Using your knowledge of the large data set, explain how Kay might need to clean these data before finding the equation of the regression line. (1)\nThe equation of the regression line Kay finds is $y = 13.2 + 0.31x$\n(c) Using your knowledge of the large data set, (i) state the units of the gradient of the regression line, (ii) give an interpretation of the $y$-intercept of the regression line. (2)\nKay's teacher claimed \"the more sunshine in a day, the warmer it should be\".\n(d) State, giving a reason, whether the teacher's claim is supported by Kay's data. (1)\nThe teacher used all the data for these variables from the large data set for Heathrow in 2015, as a sample, and calculated the product moment correlation coefficient for $x$ and $y$ to be $0.41$. In a suitable test to determine whether there is evidence to support the teacher's claim, the $p$-value was $0.0001$\n(e) Using a 5% level of significance, state the hypotheses and conclusion for this test. (2)\n(f) For the test in part (e) describe (i) the sample, (ii) a possible population. (2)",
+     "hints": [
+      "Picking every $k$th item after a starting point is a named sampling method.",
+      "The large data set has 'n/a' entries (and 'tr' for trace rainfall).",
+      "The claim is one-directional, so the test is one-tailed."
+     ],
+     "solution": "(a) (Quasi-)systematic sampling [B1]\n\n(b) Remove any days with missing (n/a) values for either variable before finding the line. [B1]\n\n(c)(i) °C per hour [B1]\n(ii) $y$-intercept: the predicted daily mean temperature on a day with no sunshine [B1]\n\n(d) The gradient is positive, so Kay's data support the claim. [B1]\n\n(e) $H_0: \\rho = 0$, $H_1: \\rho > 0$ [B1]\n$p$-value $0.0001 < 0.05$: reject $H_0$; there is sufficient evidence to support the teacher's claim. [B1]\n\n(f)(i) The sample: the days from 1st May to 31st October 2015 at Heathrow (the data in the large data set) [B1]\n(ii) A possible population: all days from May to October at Heathrow (in any year) [B1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Large data set, regression and correlation tests",
+     "inspiredBy": "Edexcel A Level Maths Paper 31 (Statistics), June 2025, Q4"
+    },
+    {
+     "id": "al-2025jun-s-q04c",
+     "marks": 9,
+     "prompt": "Kay is studying the variables Daily Mean Pressure ($x$ hPa) and Daily Total Rainfall ($y$ mm) from the large data set for Hurn in 2015.\nKay starts with 1st May and then selects every 8th day thereafter.\n(a) State the name of the sampling technique Kay uses. (1)\nKay wants to find the regression line of $y$ on $x$ for these data.\n(b) Using your knowledge of the large data set, explain how Kay might need to clean these data before finding the equation of the regression line. (1)\nThe equation of the regression line Kay finds is $y = 151.6 - 0.148x$\n(c) Using your knowledge of the large data set, (i) state the units of the gradient of the regression line, (ii) give an interpretation of the $y$-intercept of the regression line. (2)\nKay's teacher claimed \"the higher the pressure, the less rain there should be\".\n(d) State, giving a reason, whether the teacher's claim is supported by Kay's data. (1)\nThe teacher used all the data for these variables from the large data set for Hurn in 2015, as a sample, and calculated the product moment correlation coefficient for $x$ and $y$ to be $-0.087$. In a suitable test to determine whether there is evidence to support the teacher's claim, the $p$-value was $0.12$\n(e) Using a 5% level of significance, state the hypotheses and conclusion for this test. (2)\n(f) For the test in part (e) describe (i) the sample, (ii) a possible population. (2)",
+     "hints": [
+      "Picking every $k$th item after a starting point is a named sampling method.",
+      "The large data set has 'n/a' entries (and 'tr' for trace rainfall).",
+      "The claim is one-directional, so the test is one-tailed."
+     ],
+     "solution": "(a) (Quasi-)systematic sampling [B1]\n\n(b) Replace trace ('tr') rainfall values with 0 (or remove them), and remove any n/a values. [B1]\n\n(c)(i) mm per hPa [B1]\n(ii) $y$-intercept: the predicted rainfall when the pressure is 0 hPa (impossible in practice, so not meaningful) [B1]\n\n(d) The gradient is negative, so Kay's data support the claim. [B1]\n\n(e) $H_0: \\rho = 0$, $H_1: \\rho < 0$ [B1]\n$p$-value $0.12 > 0.05$: do not reject $H_0$; there is insufficient evidence to support the teacher's claim. [B1]\n\n(f)(i) The sample: the days from 1st May to 31st October 2015 at Hurn (the data in the large data set) [B1]\n(ii) A possible population: all days from May to October at Hurn (in any year) [B1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Large data set, regression and correlation tests",
+     "inspiredBy": "Edexcel A Level Maths Paper 31 (Statistics), June 2025, Q4"
+    }
+   ]
+  },
+  {
+   "topic": "Statistical distributions",
+   "category": "Statistics",
+   "questions": [
+    {
+     "id": "al-2025jun-s-q05a",
+     "marks": 10,
+     "prompt": "The heights of men in a running club are normally distributed with a mean of 178 cm and a standard deviation of 6.2 cm. A man from the club is selected at random.\n(a) Find the probability that the man's height is (i) more than 185 cm, (ii) between 170 cm and 180 cm. (2)\nThe heights of women in the club are normally distributed with a mean of $\\mu$ cm and a standard deviation of $\\sigma$ cm.\nGiven that 30% of the women are shorter than 160 cm and 10% are taller than 172 cm,\n(b) find the value of $\\mu$ and the value of $\\sigma$. Show your working clearly. (5)\nA man and a woman from the club are selected at random.\n(c) Find the probability that both have heights between 165 cm and 172 cm. (3)",
+     "hints": [
+      "(a) Use your calculator's normal distribution functions.",
+      "(b) Use the inverse normal to get two z-values, then form two simultaneous equations $\\frac{x - \\mu}{\\sigma} = z$.",
+      "(c) The two selections are independent: multiply."
+     ],
+     "solution": "(a)(i) $0.1294$ [B1]\n(ii) $0.5280$ [B1]\n\n(b) $\\frac{160 - \\mu}{\\sigma} = -0.5244$ [M1]\n$\\frac{172 - \\mu}{\\sigma} = 1.2816$ [B1 M1]\nSolving: $\\sigma = 6.645$ [A1]\n$\\mu = 163.48$ [A1]\n\n(c) Man: $0.1486$; woman: $0.3098$ [M1 M1]\nBoth: $0.1486 \\times 0.3098 = 0.0460$ [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "The normal distribution",
+     "inspiredBy": "Edexcel A Level Maths Paper 31 (Statistics), June 2025, Q5"
+    },
+    {
+     "id": "al-2025jun-s-q05b",
+     "marks": 10,
+     "prompt": "The masses of men in a rowing club are normally distributed with a mean of 92 kg and a standard deviation of 7.5 kg. A man from the club is selected at random.\n(a) Find the probability that the man's mass is (i) more than 100 kg, (ii) between 85 kg and 95 kg. (2)\nThe masses of women in the club are normally distributed with a mean of $\\mu$ kg and a standard deviation of $\\sigma$ kg.\nGiven that 25% of the women are lighter than 60 kg and 20% are heavier than 72 kg,\n(b) find the value of $\\mu$ and the value of $\\sigma$. Show your working clearly. (5)\nA man and a woman from the club are selected at random.\n(c) Find the probability that both have masses between 70 kg and 80 kg. (3)",
+     "hints": [
+      "(a) Use your calculator's normal distribution functions.",
+      "(b) Use the inverse normal to get two z-values, then form two simultaneous equations $\\frac{x - \\mu}{\\sigma} = z$.",
+      "(c) The two selections are independent: multiply."
+     ],
+     "solution": "(a)(i) $0.1431$ [B1]\n(ii) $0.4801$ [B1]\n\n(b) $\\frac{60 - \\mu}{\\sigma} = -0.6745$ [M1]\n$\\frac{72 - \\mu}{\\sigma} = 0.8416$ [B1 M1]\nSolving: $\\sigma = 7.915$ [A1]\n$\\mu = 65.34$ [A1]\n\n(c) Man: $0.0531$; woman: $0.2460$ [M1 M1]\nBoth: $0.0531 \\times 0.2460 = 0.0131$ [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "The normal distribution",
+     "inspiredBy": "Edexcel A Level Maths Paper 31 (Statistics), June 2025, Q5"
+    },
+    {
+     "id": "al-2025jun-s-q05c",
+     "marks": 10,
+     "prompt": "The heights of men in a tennis club are normally distributed with a mean of 175.5 cm and a standard deviation of 5.8 cm. A man from the club is selected at random.\n(a) Find the probability that the man's height is (i) more than 180 cm, (ii) between 170 cm and 178 cm. (2)\nThe heights of women in the club are normally distributed with a mean of $\\mu$ cm and a standard deviation of $\\sigma$ cm.\nGiven that 45% of the women are shorter than 163 cm and 5% are taller than 172 cm,\n(b) find the value of $\\mu$ and the value of $\\sigma$. Show your working clearly. (5)\nA man and a woman from the club are selected at random.\n(c) Find the probability that both have heights between 165 cm and 172 cm. (3)",
+     "hints": [
+      "(a) Use your calculator's normal distribution functions.",
+      "(b) Use the inverse normal to get two z-values, then form two simultaneous equations $\\frac{x - \\mu}{\\sigma} = z$.",
+      "(c) The two selections are independent: multiply."
+     ],
+     "solution": "(a)(i) $0.2189$ [B1]\n(ii) $0.4953$ [B1]\n\n(b) $\\frac{163 - \\mu}{\\sigma} = -0.1257$ [M1]\n$\\frac{172 - \\mu}{\\sigma} = 1.6449$ [B1 M1]\nSolving: $\\sigma = 5.083$ [A1]\n$\\mu = 163.64$ [A1]\n\n(c) Man: $0.2380$; woman: $0.3444$ [M1 M1]\nBoth: $0.2380 \\times 0.3444 = 0.0820$ [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "The normal distribution",
+     "inspiredBy": "Edexcel A Level Maths Paper 31 (Statistics), June 2025, Q5"
+    },
+    {
+     "id": "al-2025jun-s-q06a",
+     "marks": 11,
+     "prompt": "The discrete random variable $R$ takes odd integer values from 1 to $2n - 1$ inclusive. The probability distribution of $R$ is given by\n$$P(R = r) = \\frac{r}{k} \\qquad r = 1, 3, 5, \\ldots, 2n - 1$$\nwhere $k$ is a constant.\n(a) Show that $k = n^2$ (4)\nWhen $n = 10$\n(b) find the exact value of $P(5 \\leqslant R < 12)$ (2)\nWhen $n = 10$, a random value $g$ of $R$ is taken and the quadratic equation in $x$ $$x^2 + gx + 2g = 3$$ is formed.\n(c) Find the exact probability that the equation has no real roots. (5)",
+     "hints": [
+      "(a) The probabilities add up to 1, so $k$ = the sum of all the values of $r$.",
+      "(c) No real roots means $b^2 - 4ac < 0$."
+     ],
+     "solution": "(a) $\\sum P(R = r) = 1 \\Rightarrow k = $ sum of the values [M1]\nThe values form an arithmetic series with $n$ terms [M1]\nSum $= \\frac{n}{2}(\\text{first} + \\text{last})$ [M1]\n$k = n^2$ [A1]\n\n(b) $k = 100$; $P = \\frac{5 + 7 + 9 + 11}{100}$ [M1]\n$= \\frac{8}{25}$ [A1]\n\n(c) Rearrange: $x^2 + gx + (2g - 3) = 0$ [M1]\nNo real roots: $g^{2} - 8 g + 12 < 0$ [M1]\nCritical values $g = 2$ and $g = 6$, so $2 < g < 6$ [A1]\nPossible values of $g$: 3, 5 [M1]\n$P = \\frac{3 + 5}{100} = \\frac{2}{25}$ [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Discrete probability distributions",
+     "inspiredBy": "Edexcel A Level Maths Paper 31 (Statistics), June 2025, Q6"
+    },
+    {
+     "id": "al-2025jun-s-q06b",
+     "marks": 11,
+     "prompt": "The discrete random variable $R$ takes multiples of 3 from 3 to $3n$ inclusive. The probability distribution of $R$ is given by\n$$P(R = r) = \\frac{r}{k} \\qquad r = 3, 6, 9, \\ldots, 3n$$\nwhere $k$ is a constant.\n(a) Show that $k = \\frac{3n(n + 1)}{2}$ (4)\nWhen $n = 12$\n(b) find the exact value of $P(12 \\leqslant R < 24)$ (2)\nWhen $n = 12$, a random value $g$ of $R$ is taken and the quadratic equation in $x$ $$x^2 + gx + 4g = 7$$ is formed.\n(c) Find the exact probability that the equation has no real roots. (5)",
+     "hints": [
+      "(a) The probabilities add up to 1, so $k$ = the sum of all the values of $r$.",
+      "(c) No real roots means $b^2 - 4ac < 0$."
+     ],
+     "solution": "(a) $\\sum P(R = r) = 1 \\Rightarrow k = $ sum of the values [M1]\nThe values form an arithmetic series with $n$ terms [M1]\nSum $= \\frac{n}{2}(\\text{first} + \\text{last})$ [M1]\n$k = \\frac{3n(n + 1)}{2}$ [A1]\n\n(b) $k = 234$; $P = \\frac{12 + 15 + 18 + 21}{234}$ [M1]\n$= \\frac{11}{39}$ [A1]\n\n(c) Rearrange: $x^2 + gx + (4g - 7) = 0$ [M1]\nNo real roots: $g^{2} - 16 g + 28 < 0$ [M1]\nCritical values $g = 2$ and $g = 14$, so $2 < g < 14$ [A1]\nPossible values of $g$: 3, 6, 9, 12 [M1]\n$P = \\frac{3 + 6 + 9 + 12}{234} = \\frac{5}{39}$ [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Discrete probability distributions",
+     "inspiredBy": "Edexcel A Level Maths Paper 31 (Statistics), June 2025, Q6"
+    },
+    {
+     "id": "al-2025jun-s-q06c",
+     "marks": 11,
+     "prompt": "The discrete random variable $R$ takes even integer values from 2 to $2n$ inclusive. The probability distribution of $R$ is given by\n$$P(R = r) = \\frac{r}{k} \\qquad r = 2, 4, 6, \\ldots, 2n$$\nwhere $k$ is a constant.\n(a) Show that $k = n(n + 1)$ (4)\nWhen $n = 15$\n(b) find the exact value of $P(10 \\leqslant R < 20)$ (2)\nWhen $n = 15$, a random value $g$ of $R$ is taken and the quadratic equation in $x$ $$x^2 + gx + 5g = 24$$ is formed.\n(c) Find the exact probability that the equation has no real roots. (5)",
+     "hints": [
+      "(a) The probabilities add up to 1, so $k$ = the sum of all the values of $r$.",
+      "(c) No real roots means $b^2 - 4ac < 0$."
+     ],
+     "solution": "(a) $\\sum P(R = r) = 1 \\Rightarrow k = $ sum of the values [M1]\nThe values form an arithmetic series with $n$ terms [M1]\nSum $= \\frac{n}{2}(\\text{first} + \\text{last})$ [M1]\n$k = n(n + 1)$ [A1]\n\n(b) $k = 240$; $P = \\frac{10 + 12 + 14 + 16 + 18}{240}$ [M1]\n$= \\frac{7}{24}$ [A1]\n\n(c) Rearrange: $x^2 + gx + (5g - 24) = 0$ [M1]\nNo real roots: $g^{2} - 20 g + 96 < 0$ [M1]\nCritical values $g = 8$ and $g = 12$, so $8 < g < 12$ [A1]\nPossible values of $g$: 10 [M1]\n$P = \\frac{10}{240} = \\frac{1}{24}$ [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Discrete probability distributions",
+     "inspiredBy": "Edexcel A Level Maths Paper 31 (Statistics), June 2025, Q6"
+    }
+   ]
+  },
+  {
+   "topic": "Statistical hypothesis testing",
+   "category": "Statistics",
+   "questions": [
+    {
+     "id": "al-2025jun-s-q03a",
+     "marks": 6,
+     "prompt": "A manufacturer makes light bulbs. On average 2% of the light bulbs made are defective.\n(a) Using a suitable model, find the probability that in a random sample of 40 light bulbs there are (i) exactly 1 defective, (ii) more than 2 defective. (3)\nThe manufacturer tests whether the proportion of defective light bulbs has changed using hypotheses $H_0: p = 0.02$ and $H_1: p \\neq 0.02$\nA random sample of 300 light bulbs is taken and 11 are found to be defective.\n(b) Using a 5% level of significance, complete the test. (3)",
+     "hints": [
+      "(a) Use $X \\sim B(n, p)$ and your calculator's binomial functions.",
+      "(b) A two-tailed test at 5% puts 2.5% in each tail. Work out the probability of a result at least as extreme as the one observed."
+     ],
+     "solution": "(a) $X \\sim B(40, 0.02)$ [B1]\n(i) $P(X = 1) = 0.3638$ [B1]\n(ii) $P(X > 2) = 1 - P(X \\leqslant 2) = 0.0457$ [B1]\n\n(b) $Y \\sim B(300, 0.02)$, and $P(Y \\geqslant 11) = 0.0410$ [M1]\n$0.0410 > 0.025$ [A1]\nDo not reject $H_0$: there is insufficient evidence that the proportion of defective light bulbs has changed. [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Binomial distribution and two-tailed hypothesis tests",
+     "inspiredBy": "Edexcel A Level Maths Paper 31 (Statistics), June 2025, Q3"
+    },
+    {
+     "id": "al-2025jun-s-q03b",
+     "marks": 6,
+     "prompt": "A manufacturer makes phone screens. On average 4% of the phone screens made are defective.\n(a) Using a suitable model, find the probability that in a random sample of 50 phone screens there are (i) exactly 3 defective, (ii) more than 4 defective. (3)\nThe manufacturer tests whether the proportion of defective phone screens has changed using hypotheses $H_0: p = 0.04$ and $H_1: p \\neq 0.04$\nA random sample of 200 phone screens is taken and 2 are found to be defective.\n(b) Using a 5% level of significance, complete the test. (3)",
+     "hints": [
+      "(a) Use $X \\sim B(n, p)$ and your calculator's binomial functions.",
+      "(b) A two-tailed test at 5% puts 2.5% in each tail. Work out the probability of a result at least as extreme as the one observed."
+     ],
+     "solution": "(a) $X \\sim B(50, 0.04)$ [B1]\n(i) $P(X = 3) = 0.1842$ [B1]\n(ii) $P(X > 4) = 1 - P(X \\leqslant 4) = 0.0490$ [B1]\n\n(b) $Y \\sim B(200, 0.04)$, and $P(Y \\leqslant 2) = 0.0125$ [M1]\n$0.0125 < 0.025$ [A1]\nReject $H_0$: there is sufficient evidence that the proportion of defective phone screens has changed. [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Binomial distribution and two-tailed hypothesis tests",
+     "inspiredBy": "Edexcel A Level Maths Paper 31 (Statistics), June 2025, Q3"
+    },
+    {
+     "id": "al-2025jun-s-q03c",
+     "marks": 6,
+     "prompt": "A manufacturer makes bolts. On average 1% of the bolts made are defective.\n(a) Using a suitable model, find the probability that in a random sample of 60 bolts there are (i) exactly 1 defective, (ii) more than 2 defective. (3)\nThe manufacturer tests whether the proportion of defective bolts has changed using hypotheses $H_0: p = 0.01$ and $H_1: p \\neq 0.01$\nA random sample of 400 bolts is taken and 9 are found to be defective.\n(b) Using a 5% level of significance, complete the test. (3)",
+     "hints": [
+      "(a) Use $X \\sim B(n, p)$ and your calculator's binomial functions.",
+      "(b) A two-tailed test at 5% puts 2.5% in each tail. Work out the probability of a result at least as extreme as the one observed."
+     ],
+     "solution": "(a) $X \\sim B(60, 0.01)$ [B1]\n(i) $P(X = 1) = 0.3316$ [B1]\n(ii) $P(X > 2) = 1 - P(X \\leqslant 2) = 0.0224$ [B1]\n\n(b) $Y \\sim B(400, 0.01)$, and $P(Y \\geqslant 9) = 0.0208$ [M1]\n$0.0208 < 0.025$ [A1]\nReject $H_0$: there is sufficient evidence that the proportion of defective bolts has changed. [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Binomial distribution and two-tailed hypothesis tests",
+     "inspiredBy": "Edexcel A Level Maths Paper 31 (Statistics), June 2025, Q3"
+    }
+   ]
+  },
+  {
+   "topic": "Kinematics",
+   "category": "Mechanics",
+   "questions": [
+    {
+     "id": "al-2025jun-m-q03a",
+     "marks": 8,
+     "prompt": "[In this question, $\\mathbf{i}$ and $\\mathbf{j}$ are horizontal unit vectors due east and due north respectively.]\nA particle $P$ of mass 2 kg moves with constant acceleration $(-1.5\\mathbf{i} + 2\\mathbf{j})$ m s⁻² on a smooth horizontal plane under the action of a constant horizontal force $\\mathbf{F}$ N.\n(a) Find $\\mathbf{F}$ in terms of $\\mathbf{i}$ and $\\mathbf{j}$. (1)\nAt time $t = 0$, $P$ is moving with velocity $(4\\mathbf{i} - 5\\mathbf{j})$ m s⁻¹\n(b) Find the velocity of $P$ at time $t = 2$ seconds. (2)\n(c) Find the direction of motion of $P$ at time $t = 2$ seconds, giving your answer as a bearing in degrees. (3)\nAt time $t = 0$, $P$ passes through the point $O$. At time $t = 4$ seconds, $P$ passes through the point $A$.\n(d) Find $\\overrightarrow{OA}$ in terms of $\\mathbf{i}$ and $\\mathbf{j}$. (2)",
+     "hints": [
+      "(a) $\\mathbf{F} = m\\mathbf{a}$",
+      "(c) Sketch the velocity vector, find an angle with trigonometry, then convert it to a bearing (measured clockwise from north).",
+      "(d) $\\mathbf{s} = \\mathbf{u}t + \\frac{1}{2}\\mathbf{a}t^2$"
+     ],
+     "solution": "(a) $\\mathbf{F} = 2(-1.5\\mathbf{i} + 2\\mathbf{j}) = -3\\mathbf{i} + 4\\mathbf{j}$ [B1]\n\n(b) $\\mathbf{v} = (4\\mathbf{i} - 5\\mathbf{j}) + 2(-1.5\\mathbf{i} + 2\\mathbf{j})$ [M1]\n$= \\mathbf{i} - \\mathbf{j}$ m s⁻¹ [A1]\n\n(c) Angle: $\\tan^{-1}\\left(\\frac{1}{1}\\right)$ from the north–south line [M1]\nUse the signs of the components to find the quadrant [M1]\nBearing $= 135.0°$ [A1]\n\n(d) $\\overrightarrow{OA} = 4(4\\mathbf{i} - 5\\mathbf{j}) + \\frac{1}{2}(-1.5\\mathbf{i} + 2\\mathbf{j}) \\times 4^2$ [M1]\n$= 4\\mathbf{i} - 4\\mathbf{j}$ m [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Constant acceleration in vector form",
+     "inspiredBy": "Edexcel A Level Maths Paper 32 (Mechanics), June 2025, Q3"
+    },
+    {
+     "id": "al-2025jun-m-q03b",
+     "marks": 8,
+     "prompt": "[In this question, $\\mathbf{i}$ and $\\mathbf{j}$ are horizontal unit vectors due east and due north respectively.]\nA particle $P$ of mass 0.4 kg moves with constant acceleration $(3\\mathbf{i} + 1.5\\mathbf{j})$ m s⁻² on a smooth horizontal plane under the action of a constant horizontal force $\\mathbf{F}$ N.\n(a) Find $\\mathbf{F}$ in terms of $\\mathbf{i}$ and $\\mathbf{j}$. (1)\nAt time $t = 0$, $P$ is moving with velocity $(-8\\mathbf{i} - 2\\mathbf{j})$ m s⁻¹\n(b) Find the velocity of $P$ at time $t = 2$ seconds. (2)\n(c) Find the direction of motion of $P$ at time $t = 2$ seconds, giving your answer as a bearing in degrees. (3)\nAt time $t = 0$, $P$ passes through the point $O$. At time $t = 6$ seconds, $P$ passes through the point $A$.\n(d) Find $\\overrightarrow{OA}$ in terms of $\\mathbf{i}$ and $\\mathbf{j}$. (2)",
+     "hints": [
+      "(a) $\\mathbf{F} = m\\mathbf{a}$",
+      "(c) Sketch the velocity vector, find an angle with trigonometry, then convert it to a bearing (measured clockwise from north).",
+      "(d) $\\mathbf{s} = \\mathbf{u}t + \\frac{1}{2}\\mathbf{a}t^2$"
+     ],
+     "solution": "(a) $\\mathbf{F} = 0.4(3\\mathbf{i} + 1.5\\mathbf{j}) = 1.2\\mathbf{i} + 0.6\\mathbf{j}$ [B1]\n\n(b) $\\mathbf{v} = (-8\\mathbf{i} - 2\\mathbf{j}) + 2(3\\mathbf{i} + 1.5\\mathbf{j})$ [M1]\n$= -2\\mathbf{i} + \\mathbf{j}$ m s⁻¹ [A1]\n\n(c) Angle: $\\tan^{-1}\\left(\\frac{2}{1}\\right)$ from the north–south line [M1]\nUse the signs of the components to find the quadrant [M1]\nBearing $= 296.6°$ [A1]\n\n(d) $\\overrightarrow{OA} = 6(-8\\mathbf{i} - 2\\mathbf{j}) + \\frac{1}{2}(3\\mathbf{i} + 1.5\\mathbf{j}) \\times 6^2$ [M1]\n$= 6\\mathbf{i} + 15\\mathbf{j}$ m [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Constant acceleration in vector form",
+     "inspiredBy": "Edexcel A Level Maths Paper 32 (Mechanics), June 2025, Q3"
+    },
+    {
+     "id": "al-2025jun-m-q03c",
+     "marks": 8,
+     "prompt": "[In this question, $\\mathbf{i}$ and $\\mathbf{j}$ are horizontal unit vectors due east and due north respectively.]\nA particle $P$ of mass 1.5 kg moves with constant acceleration $(-2\\mathbf{i} - \\mathbf{j})$ m s⁻² on a smooth horizontal plane under the action of a constant horizontal force $\\mathbf{F}$ N.\n(a) Find $\\mathbf{F}$ in terms of $\\mathbf{i}$ and $\\mathbf{j}$. (1)\nAt time $t = 0$, $P$ is moving with velocity $(5\\mathbf{i} + 6\\mathbf{j})$ m s⁻¹\n(b) Find the velocity of $P$ at time $t = 3$ seconds. (2)\n(c) Find the direction of motion of $P$ at time $t = 3$ seconds, giving your answer as a bearing in degrees. (3)\nAt time $t = 0$, $P$ passes through the point $O$. At time $t = 4$ seconds, $P$ passes through the point $A$.\n(d) Find $\\overrightarrow{OA}$ in terms of $\\mathbf{i}$ and $\\mathbf{j}$. (2)",
+     "hints": [
+      "(a) $\\mathbf{F} = m\\mathbf{a}$",
+      "(c) Sketch the velocity vector, find an angle with trigonometry, then convert it to a bearing (measured clockwise from north).",
+      "(d) $\\mathbf{s} = \\mathbf{u}t + \\frac{1}{2}\\mathbf{a}t^2$"
+     ],
+     "solution": "(a) $\\mathbf{F} = 1.5(-2\\mathbf{i} - \\mathbf{j}) = -3\\mathbf{i} - 1.5\\mathbf{j}$ [B1]\n\n(b) $\\mathbf{v} = (5\\mathbf{i} + 6\\mathbf{j}) + 3(-2\\mathbf{i} - \\mathbf{j})$ [M1]\n$= -\\mathbf{i} + 3\\mathbf{j}$ m s⁻¹ [A1]\n\n(c) Angle: $\\tan^{-1}\\left(\\frac{1}{3}\\right)$ from the north–south line [M1]\nUse the signs of the components to find the quadrant [M1]\nBearing $= 341.6°$ [A1]\n\n(d) $\\overrightarrow{OA} = 4(5\\mathbf{i} + 6\\mathbf{j}) + \\frac{1}{2}(-2\\mathbf{i} - \\mathbf{j}) \\times 4^2$ [M1]\n$= 4\\mathbf{i} + 16\\mathbf{j}$ m [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Constant acceleration in vector form",
+     "inspiredBy": "Edexcel A Level Maths Paper 32 (Mechanics), June 2025, Q3"
+    },
+    {
+     "id": "al-2025jun-m-q04a",
+     "marks": 9,
+     "prompt": "[In this question, position vectors are given relative to a fixed origin $O$.]\nAt time $t$ seconds, where $t > 0$, the position vector of a particle $P$ is $\\mathbf{r}$ metres where\n$$\\mathbf{r} = 8 t^{\\frac{3}{2}}\\mathbf{i} - 3 t^{2}\\mathbf{j}$$\n(a) Find the position vector of $P$ at $t = 4$ (1)\n(b) Find the exact distance of $P$ from $O$ at $t = 4$ (2)\n(c) Find an expression for the velocity of $P$ at time $t$ seconds, giving your answer in terms of $t$, $\\mathbf{i}$ and $\\mathbf{j}$ (2)\nAt $t = T$, the acceleration of $P$ is in a direction that is perpendicular to the line with equation $y = \\frac{1}{2}x$\n(d) Find the value of $T$. (4)",
+     "hints": [
+      "Differentiate each component: $\\mathbf{v} = \\frac{d\\mathbf{r}}{dt}$, $\\mathbf{a} = \\frac{d\\mathbf{v}}{dt}$.",
+      "(d) A direction along the line is $\\mathbf{i} + (\\frac{1}{2})\\mathbf{j}$; perpendicular vectors have a scalar product of zero (or gradients multiplying to −1)."
+     ],
+     "solution": "(a) $\\mathbf{r} = 64\\mathbf{i} - 48\\mathbf{j}$ [B1]\n\n(b) $\\sqrt{64^2 + 48^2}$ [M1]\n$= 80$ m [A1]\n\n(c) $\\mathbf{v} = 12 \\sqrt{t}\\mathbf{i} - 6 t\\mathbf{j}$ [M1 A1]\n\n(d) $\\mathbf{a} = \\frac{6}{\\sqrt{t}}\\mathbf{i} - 6\\mathbf{j}$ [M1]\nPerpendicular to $\\mathbf{i} + \\frac{1}{2}\\mathbf{j}$: $(\\frac{6}{\\sqrt{t}}) \\times 1 + (-6) \\times \\frac{1}{2} = 0$ [M1]\nSolve for $t$ [M1]\n$T = 4$ [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Variable acceleration in vector form (calculus)",
+     "inspiredBy": "Edexcel A Level Maths Paper 32 (Mechanics), June 2025, Q4"
+    },
+    {
+     "id": "al-2025jun-m-q04b",
+     "marks": 9,
+     "prompt": "[In this question, position vectors are given relative to a fixed origin $O$.]\nAt time $t$ seconds, where $t > 0$, the position vector of a particle $P$ is $\\mathbf{r}$ metres where\n$$\\mathbf{r} = 2 t^{\\frac{5}{2}}\\mathbf{i} + t^{3}\\mathbf{j}$$\n(a) Find the position vector of $P$ at $t = 4$ (1)\n(b) Find the exact distance of $P$ from $O$ at $t = 4$ (2)\n(c) Find an expression for the velocity of $P$ at time $t$ seconds, giving your answer in terms of $t$, $\\mathbf{i}$ and $\\mathbf{j}$ (2)\nAt $t = T$, the acceleration of $P$ is in a direction that is perpendicular to the line with equation $y = -x$\n(d) Find the value of $T$. (4)",
+     "hints": [
+      "Differentiate each component: $\\mathbf{v} = \\frac{d\\mathbf{r}}{dt}$, $\\mathbf{a} = \\frac{d\\mathbf{v}}{dt}$.",
+      "(d) A direction along the line is $\\mathbf{i} + (-1)\\mathbf{j}$; perpendicular vectors have a scalar product of zero (or gradients multiplying to −1)."
+     ],
+     "solution": "(a) $\\mathbf{r} = 64\\mathbf{i} + 64\\mathbf{j}$ [B1]\n\n(b) $\\sqrt{64^2 + 64^2}$ [M1]\n$= 64 \\sqrt{2}$ m [A1]\n\n(c) $\\mathbf{v} = 5 t^{\\frac{3}{2}}\\mathbf{i} + 3 t^{2}\\mathbf{j}$ [M1 A1]\n\n(d) $\\mathbf{a} = \\frac{15 \\sqrt{t}}{2}\\mathbf{i} + 6 t\\mathbf{j}$ [M1]\nPerpendicular to $\\mathbf{i} + -1\\mathbf{j}$: $(\\frac{15 \\sqrt{t}}{2}) \\times 1 + (6 t) \\times -1 = 0$ [M1]\nSolve for $t$ [M1]\n$T = \\frac{25}{16}$ [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Variable acceleration in vector form (calculus)",
+     "inspiredBy": "Edexcel A Level Maths Paper 32 (Mechanics), June 2025, Q4"
+    },
+    {
+     "id": "al-2025jun-m-q04c",
+     "marks": 9,
+     "prompt": "[In this question, position vectors are given relative to a fixed origin $O$.]\nAt time $t$ seconds, where $t > 0$, the position vector of a particle $P$ is $\\mathbf{r}$ metres where\n$$\\mathbf{r} = 16 \\sqrt{t}\\mathbf{i} + t^{2}\\mathbf{j}$$\n(a) Find the position vector of $P$ at $t = 16$ (1)\n(b) Find the exact distance of $P$ from $O$ at $t = 16$ (2)\n(c) Find an expression for the velocity of $P$ at time $t$ seconds, giving your answer in terms of $t$, $\\mathbf{i}$ and $\\mathbf{j}$ (2)\nAt $t = T$, the acceleration of $P$ is in a direction that is perpendicular to the line with equation $y = \\frac{1}{4}x$\n(d) Find the value of $T$. (4)",
+     "hints": [
+      "Differentiate each component: $\\mathbf{v} = \\frac{d\\mathbf{r}}{dt}$, $\\mathbf{a} = \\frac{d\\mathbf{v}}{dt}$.",
+      "(d) A direction along the line is $\\mathbf{i} + (\\frac{1}{4})\\mathbf{j}$; perpendicular vectors have a scalar product of zero (or gradients multiplying to −1)."
+     ],
+     "solution": "(a) $\\mathbf{r} = 64\\mathbf{i} + 256\\mathbf{j}$ [B1]\n\n(b) $\\sqrt{64^2 + 256^2}$ [M1]\n$= 64 \\sqrt{17}$ m [A1]\n\n(c) $\\mathbf{v} = \\frac{8}{\\sqrt{t}}\\mathbf{i} + 2 t\\mathbf{j}$ [M1 A1]\n\n(d) $\\mathbf{a} = - \\frac{4}{t^{\\frac{3}{2}}}\\mathbf{i} + 2\\mathbf{j}$ [M1]\nPerpendicular to $\\mathbf{i} + \\frac{1}{4}\\mathbf{j}$: $(- \\frac{4}{t^{\\frac{3}{2}}}) \\times 1 + (2) \\times \\frac{1}{4} = 0$ [M1]\nSolve for $t$ [M1]\n$T = 4$ [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Variable acceleration in vector form (calculus)",
+     "inspiredBy": "Edexcel A Level Maths Paper 32 (Mechanics), June 2025, Q4"
+    }
+   ]
+  },
+  {
+   "topic": "Forces and Newton's laws",
+   "category": "Mechanics",
+   "questions": [
+    {
+     "id": "al-2025jun-m-q01a",
+     "marks": 4,
+     "prompt": "A car moves in a straight line along a horizontal road with constant acceleration 1.5 m s⁻². The car is moving with speed 12 m s⁻¹ in the direction of the acceleration when it passes a signpost. The car is modelled as a particle.\n(a) Use the model to find the speed of the car 6 s after passing the signpost. (2)\nThe figure shows the horizontal forces acting on the car. Given that the car has mass 1200 kg, the driving force of the engine has magnitude $D$ newtons, the resistance to motion has magnitude 600 N, and the acceleration is 1.5 m s⁻² in the direction of the driving force,\n(b) use the model to find the value of $D$. (2)",
+     "hints": [
+      "(a) $v = u + at$",
+      "(b) Resultant force = mass × acceleration."
+     ],
+     "solution": "(a) $v = 12 + 1.5 \\times 6$ [M1]\n$= 21$ m s⁻¹ [A1]\n\n(b) $D - 600 = 1200 \\times 1.5$ [M1]\n$D = 2400$ [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Constant acceleration and Newton's second law",
+     "inspiredBy": "Edexcel A Level Maths Paper 32 (Mechanics), June 2025, Q1",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 175\" width=\"100%\" style=\"max-width:460px\" role=\"img\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"currentColor\"/></marker></defs><line x1=\"40.0\" y1=\"150.0\" x2=\"420.0\" y2=\"150.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"170\" y=\"112\" width=\"110\" height=\"34\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"195\" y=\"94\" width=\"55\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><circle cx=\"192\" cy=\"150\" r=\"6\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"258\" cy=\"150\" r=\"6\" fill=\"none\" stroke=\"currentColor\"/><line x1=\"170.0\" y1=\"128.0\" x2=\"90.0\" y2=\"128.0\" stroke=\"currentColor\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><text x=\"72.0\" y=\"128.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\"  text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">600 N</text><line x1=\"280.0\" y1=\"128.0\" x2=\"360.0\" y2=\"128.0\" stroke=\"currentColor\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><text x=\"378.0\" y=\"128.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\"  text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">D N</text><text x=\"225.0\" y=\"128.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\"  text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">1200 kg</text><line x1=\"200.0\" y1=\"60.0\" x2=\"255.0\" y2=\"60.0\" stroke=\"currentColor\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><line x1=\"200.0\" y1=\"66.0\" x2=\"255.0\" y2=\"66.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"228.0\" y=\"44.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\"  text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">1.5 m s⁻²</text></svg>",
+      "alt": "A car of mass 1200 kg with a resistance of 600 N to the left, a driving force D N to the right, and acceleration 1.5 m s⁻² to the right."
+     }
+    },
+    {
+     "id": "al-2025jun-m-q01b",
+     "marks": 4,
+     "prompt": "A car moves in a straight line along a horizontal road with constant acceleration 0.8 m s⁻². The car is moving with speed 20 m s⁻¹ in the direction of the acceleration when it passes a signpost. The car is modelled as a particle.\n(a) Use the model to find the speed of the car 5 s after passing the signpost. (2)\nThe figure shows the horizontal forces acting on the car. Given that the car has mass 1500 kg, the driving force of the engine has magnitude $D$ newtons, the resistance to motion has magnitude 350 N, and the acceleration is 0.8 m s⁻² in the direction of the driving force,\n(b) use the model to find the value of $D$. (2)",
+     "hints": [
+      "(a) $v = u + at$",
+      "(b) Resultant force = mass × acceleration."
+     ],
+     "solution": "(a) $v = 20 + 0.8 \\times 5$ [M1]\n$= 24$ m s⁻¹ [A1]\n\n(b) $D - 350 = 1500 \\times 0.8$ [M1]\n$D = 1550$ [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Constant acceleration and Newton's second law",
+     "inspiredBy": "Edexcel A Level Maths Paper 32 (Mechanics), June 2025, Q1",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 175\" width=\"100%\" style=\"max-width:460px\" role=\"img\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"currentColor\"/></marker></defs><line x1=\"40.0\" y1=\"150.0\" x2=\"420.0\" y2=\"150.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"170\" y=\"112\" width=\"110\" height=\"34\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"195\" y=\"94\" width=\"55\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><circle cx=\"192\" cy=\"150\" r=\"6\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"258\" cy=\"150\" r=\"6\" fill=\"none\" stroke=\"currentColor\"/><line x1=\"170.0\" y1=\"128.0\" x2=\"90.0\" y2=\"128.0\" stroke=\"currentColor\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><text x=\"72.0\" y=\"128.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\"  text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">350 N</text><line x1=\"280.0\" y1=\"128.0\" x2=\"360.0\" y2=\"128.0\" stroke=\"currentColor\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><text x=\"378.0\" y=\"128.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\"  text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">D N</text><text x=\"225.0\" y=\"128.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\"  text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">1500 kg</text><line x1=\"200.0\" y1=\"60.0\" x2=\"255.0\" y2=\"60.0\" stroke=\"currentColor\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><line x1=\"200.0\" y1=\"66.0\" x2=\"255.0\" y2=\"66.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"228.0\" y=\"44.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\"  text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">0.8 m s⁻²</text></svg>",
+      "alt": "A car of mass 1500 kg with a resistance of 350 N to the left, a driving force D N to the right, and acceleration 0.8 m s⁻² to the right."
+     }
+    },
+    {
+     "id": "al-2025jun-m-q01c",
+     "marks": 4,
+     "prompt": "A car moves in a straight line along a horizontal road with constant acceleration 2.5 m s⁻². The car is moving with speed 8 m s⁻¹ in the direction of the acceleration when it passes a signpost. The car is modelled as a particle.\n(a) Use the model to find the speed of the car 3 s after passing the signpost. (2)\nThe figure shows the horizontal forces acting on the car. Given that the car has mass 950 kg, the driving force of the engine has magnitude $D$ newtons, the resistance to motion has magnitude 420 N, and the acceleration is 2.5 m s⁻² in the direction of the driving force,\n(b) use the model to find the value of $D$. (2)",
+     "hints": [
+      "(a) $v = u + at$",
+      "(b) Resultant force = mass × acceleration."
+     ],
+     "solution": "(a) $v = 8 + 2.5 \\times 3$ [M1]\n$= 15.5$ m s⁻¹ [A1]\n\n(b) $D - 420 = 950 \\times 2.5$ [M1]\n$D = 2795$ [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Constant acceleration and Newton's second law",
+     "inspiredBy": "Edexcel A Level Maths Paper 32 (Mechanics), June 2025, Q1",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 175\" width=\"100%\" style=\"max-width:460px\" role=\"img\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"currentColor\"/></marker></defs><line x1=\"40.0\" y1=\"150.0\" x2=\"420.0\" y2=\"150.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"170\" y=\"112\" width=\"110\" height=\"34\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"195\" y=\"94\" width=\"55\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><circle cx=\"192\" cy=\"150\" r=\"6\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"258\" cy=\"150\" r=\"6\" fill=\"none\" stroke=\"currentColor\"/><line x1=\"170.0\" y1=\"128.0\" x2=\"90.0\" y2=\"128.0\" stroke=\"currentColor\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><text x=\"72.0\" y=\"128.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\"  text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">420 N</text><line x1=\"280.0\" y1=\"128.0\" x2=\"360.0\" y2=\"128.0\" stroke=\"currentColor\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><text x=\"378.0\" y=\"128.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\"  text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">D N</text><text x=\"225.0\" y=\"128.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\"  text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">950 kg</text><line x1=\"200.0\" y1=\"60.0\" x2=\"255.0\" y2=\"60.0\" stroke=\"currentColor\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><line x1=\"200.0\" y1=\"66.0\" x2=\"255.0\" y2=\"66.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"228.0\" y=\"44.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\"  text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">2.5 m s⁻²</text></svg>",
+      "alt": "A car of mass 950 kg with a resistance of 420 N to the left, a driving force D N to the right, and acceleration 2.5 m s⁻² to the right."
+     }
+    },
+    {
+     "id": "al-2025jun-m-q02a",
+     "marks": 10,
+     "prompt": "A small box $B$ of mass 3 kg is dragged in a straight line, along a rough horizontal plane, at a constant speed by a force of magnitude 10 N. The line of action of the force makes an angle $\\alpha$ with the plane, where $\\sin\\alpha = \\frac{3}{5}$\n(a) Show that the magnitude of the normal reaction of the plane on the box is 23.4 N. (3)\nAt the instant when $B$ is at the point $O$ on the plane, the force of magnitude 10 N is removed.\n(b) Describe the motion of the box after the force is removed. (1)\n(c) Find the magnitude of the normal reaction of the plane on the box after the force is removed. (1)\nGiven that after the force is removed • the box is modelled as a particle • air resistance is negligible • the coefficient of friction between the box and the plane is 0.25 • the speed of the box as it passes through $O$ is 5 m s⁻¹ • the box comes to rest at the point $X$,\n(d) use the model to find the length $OX$. (4)\n(e) State one limitation of the model, apart from ignoring air resistance, that could affect your answer to part (d). (1)",
+     "hints": [
+      "(a) Resolve vertically: the force's vertical component helps hold the box up.",
+      "(d) Friction = μR gives the deceleration; then use $v^2 = u^2 + 2as$."
+     ],
+     "solution": "(a) Resolving vertically: $R + 10\\sin\\alpha = 3g$ [M1 A1]\n$R = 29.4 - 6 = 23.4$ N [A1]\n\n(b) It decelerates (slows down) in a straight line until it stops. [B1]\n\n(c) $R = 3g = 29.4$ N [B1]\n\n(d) Friction $= 0.25 \\times 29.4 = 7.35$ N [M1]\nDeceleration $= 7.35 \\div 3 = 2.45$ m s⁻² [M1]\n$0 = 5^2 - 2 \\times 2.45 \\times OX$ [M1]\n$OX = 5.1$ m [A1]\n\n(e) For example: the coefficient of friction may not be constant along the plane; or the box has a size, so it isn't really a particle. [B1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Friction on a rough horizontal plane",
+     "inspiredBy": "Edexcel A Level Maths Paper 32 (Mechanics), June 2025, Q2",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 470 165\" width=\"100%\" style=\"max-width:470px\" role=\"img\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"currentColor\"/></marker></defs><line x1=\"30.0\" y1=\"140.0\" x2=\"440.0\" y2=\"140.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"180\" y=\"118\" width=\"34\" height=\"22\" fill=\"currentColor\"/><line x1=\"214.0\" y1=\"129.0\" x2=\"349.9\" y2=\"65.6\" stroke=\"currentColor\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><text x=\"361.9\" y=\"57.6\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\"  text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">10 N</text><line x1=\"214.0\" y1=\"129.0\" x2=\"330.0\" y2=\"129.0\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><path d=\"M270,129 A56,56 0 0 0 264.8,105.3\" fill=\"none\" stroke=\"currentColor\"/><text x=\"282.0\" y=\"117.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">α</text><text x=\"197.0\" y=\"104.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\"  text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">B (3 kg)</text></svg>",
+      "alt": "A box B of mass 3 kg on a horizontal plane pulled by a force of 10 N at angle α above the horizontal."
+     }
+    },
+    {
+     "id": "al-2025jun-m-q02b",
+     "marks": 10,
+     "prompt": "A small box $B$ of mass 1.5 kg is dragged in a straight line, along a rough horizontal plane, at a constant speed by a force of magnitude 6 N. The line of action of the force makes an angle $\\alpha$ with the plane, where $\\sin\\alpha = \\frac{4}{5}$\n(a) Show that the magnitude of the normal reaction of the plane on the box is 9.9 N. (3)\nAt the instant when $B$ is at the point $O$ on the plane, the force of magnitude 6 N is removed.\n(b) Describe the motion of the box after the force is removed. (1)\n(c) Find the magnitude of the normal reaction of the plane on the box after the force is removed. (1)\nGiven that after the force is removed • the box is modelled as a particle • air resistance is negligible • the coefficient of friction between the box and the plane is 0.4 • the speed of the box as it passes through $O$ is 6 m s⁻¹ • the box comes to rest at the point $X$,\n(d) use the model to find the length $OX$. (4)\n(e) State one limitation of the model, apart from ignoring air resistance, that could affect your answer to part (d). (1)",
+     "hints": [
+      "(a) Resolve vertically: the force's vertical component helps hold the box up.",
+      "(d) Friction = μR gives the deceleration; then use $v^2 = u^2 + 2as$."
+     ],
+     "solution": "(a) Resolving vertically: $R + 6\\sin\\alpha = 1.5g$ [M1 A1]\n$R = 14.7 - 4.8 = 9.9$ N [A1]\n\n(b) It decelerates (slows down) in a straight line until it stops. [B1]\n\n(c) $R = 1.5g = 14.7$ N [B1]\n\n(d) Friction $= 0.4 \\times 14.7 = 5.88$ N [M1]\nDeceleration $= 5.88 \\div 1.5 = 3.92$ m s⁻² [M1]\n$0 = 6^2 - 2 \\times 3.92 \\times OX$ [M1]\n$OX = 4.59$ m [A1]\n\n(e) For example: the coefficient of friction may not be constant along the plane; or the box has a size, so it isn't really a particle. [B1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Friction on a rough horizontal plane",
+     "inspiredBy": "Edexcel A Level Maths Paper 32 (Mechanics), June 2025, Q2",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 470 165\" width=\"100%\" style=\"max-width:470px\" role=\"img\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"currentColor\"/></marker></defs><line x1=\"30.0\" y1=\"140.0\" x2=\"440.0\" y2=\"140.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"180\" y=\"118\" width=\"34\" height=\"22\" fill=\"currentColor\"/><line x1=\"214.0\" y1=\"129.0\" x2=\"349.9\" y2=\"65.6\" stroke=\"currentColor\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><text x=\"361.9\" y=\"57.6\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\"  text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">6 N</text><line x1=\"214.0\" y1=\"129.0\" x2=\"330.0\" y2=\"129.0\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><path d=\"M270,129 A56,56 0 0 0 264.8,105.3\" fill=\"none\" stroke=\"currentColor\"/><text x=\"282.0\" y=\"117.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">α</text><text x=\"197.0\" y=\"104.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\"  text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">B (1.5 kg)</text></svg>",
+      "alt": "A box B of mass 1.5 kg on a horizontal plane pulled by a force of 6 N at angle α above the horizontal."
+     }
+    },
+    {
+     "id": "al-2025jun-m-q02c",
+     "marks": 10,
+     "prompt": "A small box $B$ of mass 4 kg is dragged in a straight line, along a rough horizontal plane, at a constant speed by a force of magnitude 12 N. The line of action of the force makes an angle $\\alpha$ with the plane, where $\\sin\\alpha = \\frac{7}{25}$\n(a) Show that the magnitude of the normal reaction of the plane on the box is 35.84 N. (3)\nAt the instant when $B$ is at the point $O$ on the plane, the force of magnitude 12 N is removed.\n(b) Describe the motion of the box after the force is removed. (1)\n(c) Find the magnitude of the normal reaction of the plane on the box after the force is removed. (1)\nGiven that after the force is removed • the box is modelled as a particle • air resistance is negligible • the coefficient of friction between the box and the plane is 0.3 • the speed of the box as it passes through $O$ is 3 m s⁻¹ • the box comes to rest at the point $X$,\n(d) use the model to find the length $OX$. (4)\n(e) State one limitation of the model, apart from ignoring air resistance, that could affect your answer to part (d). (1)",
+     "hints": [
+      "(a) Resolve vertically: the force's vertical component helps hold the box up.",
+      "(d) Friction = μR gives the deceleration; then use $v^2 = u^2 + 2as$."
+     ],
+     "solution": "(a) Resolving vertically: $R + 12\\sin\\alpha = 4g$ [M1 A1]\n$R = 39.2 - 3.36 = 35.84$ N [A1]\n\n(b) It decelerates (slows down) in a straight line until it stops. [B1]\n\n(c) $R = 4g = 39.2$ N [B1]\n\n(d) Friction $= 0.3 \\times 39.2 = 11.76$ N [M1]\nDeceleration $= 11.76 \\div 4 = 2.94$ m s⁻² [M1]\n$0 = 3^2 - 2 \\times 2.94 \\times OX$ [M1]\n$OX = 1.53$ m [A1]\n\n(e) For example: the coefficient of friction may not be constant along the plane; or the box has a size, so it isn't really a particle. [B1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Friction on a rough horizontal plane",
+     "inspiredBy": "Edexcel A Level Maths Paper 32 (Mechanics), June 2025, Q2",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 470 165\" width=\"100%\" style=\"max-width:470px\" role=\"img\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"currentColor\"/></marker></defs><line x1=\"30.0\" y1=\"140.0\" x2=\"440.0\" y2=\"140.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"180\" y=\"118\" width=\"34\" height=\"22\" fill=\"currentColor\"/><line x1=\"214.0\" y1=\"129.0\" x2=\"349.9\" y2=\"65.6\" stroke=\"currentColor\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><text x=\"361.9\" y=\"57.6\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\"  text-anchor=\"start\" dominant-baseline=\"middle\" fill=\"currentColor\">12 N</text><line x1=\"214.0\" y1=\"129.0\" x2=\"330.0\" y2=\"129.0\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><path d=\"M270,129 A56,56 0 0 0 264.8,105.3\" fill=\"none\" stroke=\"currentColor\"/><text x=\"282.0\" y=\"117.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">α</text><text x=\"197.0\" y=\"104.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\"  text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">B (4 kg)</text></svg>",
+      "alt": "A box B of mass 4 kg on a horizontal plane pulled by a force of 12 N at angle α above the horizontal."
+     }
+    }
+   ]
+  },
+  {
+   "topic": "Projectiles",
+   "category": "Mechanics",
+   "questions": [
+    {
+     "id": "al-2025jun-m-q05a",
+     "marks": 8,
+     "prompt": "A small stone is projected with speed 21 m s⁻¹ from a point $O$ on the top of a cliff. The point $O$ is $H$ metres vertically above the point $N$, which is on horizontal ground.\nThe stone is projected at an angle $\\theta$ above the horizontal, where $\\tan\\theta = \\frac{3}{4}$. The stone strikes the horizontal ground at the point $A$, where $NA = 67.2$ m.\nThe stone is modelled as a particle moving freely under gravity. Using this model, find\n(a) the value of $H$ (5)\n(b) the maximum height of the stone above the horizontal ground. (3)",
+     "hints": [
+      "Find $\\sin\\theta$ and $\\cos\\theta$ from $\\tan\\theta$ using a right-angled triangle.",
+      "Use the horizontal motion to find the time of flight, then the vertical motion."
+     ],
+     "solution": "(a) $\\cos\\theta = 0.8$, $\\sin\\theta = 0.6$; horizontal speed $= 16.8$, vertical $= 12.6$ [B1]\nTime: $67.2 = 16.8t \\Rightarrow t = 4$ s [M1 A1]\nVertically: $-H = 12.6 \\times 4 - \\frac{1}{2} \\times 9.8 \\times 4^2$ [M1]\n$H = 28$ [A1]\n\n(b) Extra height above $O$: $0 = 12.6^2 - 2 \\times 9.8 \\times h$ [M1]\n$h = 8.1$ m [A1]\nMaximum height $= 28 + 8.1 = 36.1$ m [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Projectiles from a height",
+     "inspiredBy": "Edexcel A Level Maths Paper 32 (Mechanics), June 2025, Q5",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 470 280\" width=\"100%\" style=\"max-width:470px\" role=\"img\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"currentColor\"/></marker></defs><line x1=\"40.0\" y1=\"60.0\" x2=\"70.0\" y2=\"60.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"70.0\" y1=\"60.0\" x2=\"70.0\" y2=\"230.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"70.0\" y1=\"230.0\" x2=\"420.0\" y2=\"230.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"70.0\" y1=\"250.0\" x2=\"420.0\" y2=\"250.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"245.0\" y=\"264.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\"  text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">67.2 m</text><polyline points=\"70.0,60.0 78.8,57.9 87.5,56.1 96.2,54.7 105.0,53.6 113.8,52.8 122.5,52.4 131.2,52.2 140.0,52.4 148.8,52.9 157.5,53.8 166.2,54.9 175.0,56.4 183.8,58.2 192.5,60.4 201.2,62.8 210.0,65.6 218.8,68.7 227.5,72.2 236.2,75.9 245.0,80.0 253.8,84.4 262.5,89.2 271.2,94.2 280.0,99.6 288.8,105.3 297.5,111.4 306.2,117.7 315.0,124.4 323.8,131.4 332.5,138.8 341.2,146.4 350.0,154.4 358.8,162.7 367.5,171.3 376.2,180.3 385.0,189.6 393.8,199.2 402.5,209.1 411.2,219.4 420.0,230.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"70.0\" y1=\"60.0\" x2=\"130.0\" y2=\"42.0\" stroke=\"currentColor\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><text x=\"152.0\" y=\"30.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\"  text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">21 m s⁻¹</text><line x1=\"70.0\" y1=\"60.0\" x2=\"160.0\" y2=\"60.0\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"125.0\" y=\"54.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">θ</text><text x=\"58.0\" y=\"48.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">O</text><text x=\"56.0\" y=\"230.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">N</text><text x=\"432.0\" y=\"224.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">A</text><text x=\"40.0\" y=\"145.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\"  text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">H m</text></svg>",
+      "alt": "A stone projected from O on top of a cliff of height H m at 21 m/s and angle θ, landing at A, 67.2 m from the foot N."
+     }
+    },
+    {
+     "id": "al-2025jun-m-q05b",
+     "marks": 8,
+     "prompt": "A small stone is projected with speed 25 m s⁻¹ from a point $O$ on the top of a cliff. The point $O$ is $H$ metres vertically above the point $N$, which is on horizontal ground.\nThe stone is projected at an angle $\\theta$ above the horizontal, where $\\tan\\theta = \\frac{4}{3}$. The stone strikes the horizontal ground at the point $A$, where $NA = 75$ m.\nThe stone is modelled as a particle moving freely under gravity. Using this model, find\n(a) the value of $H$ (5)\n(b) the maximum height of the stone above the horizontal ground. (3)",
+     "hints": [
+      "Find $\\sin\\theta$ and $\\cos\\theta$ from $\\tan\\theta$ using a right-angled triangle.",
+      "Use the horizontal motion to find the time of flight, then the vertical motion."
+     ],
+     "solution": "(a) $\\cos\\theta = 0.6$, $\\sin\\theta = 0.8$; horizontal speed $= 15$, vertical $= 20$ [B1]\nTime: $75 = 15t \\Rightarrow t = 5$ s [M1 A1]\nVertically: $-H = 20 \\times 5 - \\frac{1}{2} \\times 9.8 \\times 5^2$ [M1]\n$H = 22.5$ [A1]\n\n(b) Extra height above $O$: $0 = 20^2 - 2 \\times 9.8 \\times h$ [M1]\n$h = 20.4$ m [A1]\nMaximum height $= 22.5 + 20.4 = 42.9$ m [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Projectiles from a height",
+     "inspiredBy": "Edexcel A Level Maths Paper 32 (Mechanics), June 2025, Q5",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 470 280\" width=\"100%\" style=\"max-width:470px\" role=\"img\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"currentColor\"/></marker></defs><line x1=\"40.0\" y1=\"60.0\" x2=\"70.0\" y2=\"60.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"70.0\" y1=\"60.0\" x2=\"70.0\" y2=\"230.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"70.0\" y1=\"230.0\" x2=\"420.0\" y2=\"230.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"70.0\" y1=\"250.0\" x2=\"420.0\" y2=\"250.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"245.0\" y=\"264.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\"  text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">75 m</text><polyline points=\"70.0,60.0 78.8,57.9 87.5,56.1 96.2,54.7 105.0,53.6 113.8,52.8 122.5,52.4 131.2,52.2 140.0,52.4 148.8,52.9 157.5,53.8 166.2,54.9 175.0,56.4 183.8,58.2 192.5,60.4 201.2,62.8 210.0,65.6 218.8,68.7 227.5,72.2 236.2,75.9 245.0,80.0 253.8,84.4 262.5,89.2 271.2,94.2 280.0,99.6 288.8,105.3 297.5,111.4 306.2,117.7 315.0,124.4 323.8,131.4 332.5,138.8 341.2,146.4 350.0,154.4 358.8,162.7 367.5,171.3 376.2,180.3 385.0,189.6 393.8,199.2 402.5,209.1 411.2,219.4 420.0,230.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"70.0\" y1=\"60.0\" x2=\"130.0\" y2=\"42.0\" stroke=\"currentColor\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><text x=\"152.0\" y=\"30.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\"  text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">25 m s⁻¹</text><line x1=\"70.0\" y1=\"60.0\" x2=\"160.0\" y2=\"60.0\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"125.0\" y=\"54.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">θ</text><text x=\"58.0\" y=\"48.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">O</text><text x=\"56.0\" y=\"230.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">N</text><text x=\"432.0\" y=\"224.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">A</text><text x=\"40.0\" y=\"145.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\"  text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">H m</text></svg>",
+      "alt": "A stone projected from O on top of a cliff of height H m at 25 m/s and angle θ, landing at A, 75 m from the foot N."
+     }
+    },
+    {
+     "id": "al-2025jun-m-q05c",
+     "marks": 8,
+     "prompt": "A small stone is projected with speed 13 m s⁻¹ from a point $O$ on the top of a cliff. The point $O$ is $H$ metres vertically above the point $N$, which is on horizontal ground.\nThe stone is projected at an angle $\\theta$ above the horizontal, where $\\tan\\theta = \\frac{5}{12}$. The stone strikes the horizontal ground at the point $A$, where $NA = 48$ m.\nThe stone is modelled as a particle moving freely under gravity. Using this model, find\n(a) the value of $H$ (5)\n(b) the maximum height of the stone above the horizontal ground. (3)",
+     "hints": [
+      "Find $\\sin\\theta$ and $\\cos\\theta$ from $\\tan\\theta$ using a right-angled triangle.",
+      "Use the horizontal motion to find the time of flight, then the vertical motion."
+     ],
+     "solution": "(a) $\\cos\\theta = 0.9231$, $\\sin\\theta = 0.3846$; horizontal speed $= 12$, vertical $= 5$ [B1]\nTime: $48 = 12t \\Rightarrow t = 4$ s [M1 A1]\nVertically: $-H = 5 \\times 4 - \\frac{1}{2} \\times 9.8 \\times 4^2$ [M1]\n$H = 58.4$ [A1]\n\n(b) Extra height above $O$: $0 = 5^2 - 2 \\times 9.8 \\times h$ [M1]\n$h = 1.28$ m [A1]\nMaximum height $= 58.4 + 1.28 = 59.7$ m [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Projectiles from a height",
+     "inspiredBy": "Edexcel A Level Maths Paper 32 (Mechanics), June 2025, Q5",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 470 280\" width=\"100%\" style=\"max-width:470px\" role=\"img\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"currentColor\"/></marker></defs><line x1=\"40.0\" y1=\"60.0\" x2=\"70.0\" y2=\"60.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"70.0\" y1=\"60.0\" x2=\"70.0\" y2=\"230.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"70.0\" y1=\"230.0\" x2=\"420.0\" y2=\"230.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"70.0\" y1=\"250.0\" x2=\"420.0\" y2=\"250.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"245.0\" y=\"264.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\"  text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">48 m</text><polyline points=\"70.0,60.0 78.8,57.9 87.5,56.1 96.2,54.7 105.0,53.6 113.8,52.8 122.5,52.4 131.2,52.2 140.0,52.4 148.8,52.9 157.5,53.8 166.2,54.9 175.0,56.4 183.8,58.2 192.5,60.4 201.2,62.8 210.0,65.6 218.8,68.7 227.5,72.2 236.2,75.9 245.0,80.0 253.8,84.4 262.5,89.2 271.2,94.2 280.0,99.6 288.8,105.3 297.5,111.4 306.2,117.7 315.0,124.4 323.8,131.4 332.5,138.8 341.2,146.4 350.0,154.4 358.8,162.7 367.5,171.3 376.2,180.3 385.0,189.6 393.8,199.2 402.5,209.1 411.2,219.4 420.0,230.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"70.0\" y1=\"60.0\" x2=\"130.0\" y2=\"42.0\" stroke=\"currentColor\" stroke-width=\"1.6\" marker-end=\"url(#ah)\"/><text x=\"152.0\" y=\"30.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\"  text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">13 m s⁻¹</text><line x1=\"70.0\" y1=\"60.0\" x2=\"160.0\" y2=\"60.0\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"125.0\" y=\"54.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">θ</text><text x=\"58.0\" y=\"48.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">O</text><text x=\"56.0\" y=\"230.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">N</text><text x=\"432.0\" y=\"224.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">A</text><text x=\"40.0\" y=\"145.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\"  text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">H m</text></svg>",
+      "alt": "A stone projected from O on top of a cliff of height H m at 13 m/s and angle θ, landing at A, 48 m from the foot N."
+     }
+    }
+   ]
+  },
+  {
+   "topic": "Moments",
+   "category": "Mechanics",
+   "questions": [
+    {
+     "id": "al-2025jun-m-q06a",
+     "marks": 11,
+     "prompt": "A uniform rod $AB$ has mass $M$ and length $2a$. A particle of mass $2M$ is attached to the rod at the point $C$, where $AC = \\frac{3}{2}a$.\nThe rod rests with end $A$ on rough horizontal ground and end $B$ against a vertical wall. The rod lies in a vertical plane perpendicular to the wall, and is in equilibrium at an angle $\\alpha$ to the wall.\nIn an initial model • the wall is modelled as being smooth • the magnitude of the normal reaction of the ground on the rod at $A$ is $R$ • the magnitude of the force exerted on the rod by the wall at $B$ is $S$.\nUsing the model,\n(a) find $R$ in terms of $M$ and $g$ (1)\n(b) show that $S = 2Mg\\tan\\alpha$ (3)\nIn a refined model the vertical wall is modelled as being rough, and the magnitude of the normal reaction of the ground on the rod at $A$ is $R_1$.\n(c) State which is greater, $R$ or $R_1$, giving a reason for your answer. (1)\nA second particle of mass $M$ is now attached to the rod at $B$. The rod again rests against the smooth wall and is now in limiting equilibrium at an angle $\\beta$ to the wall, where $\\tan\\beta = \\frac{1}{3}$. The coefficient of friction between the rod and the ground is $\\mu$.\n(d) Use the model to show that $\\mu = \\frac{1}{4}$ (6)",
+     "hints": [
+      "(a) Resolve vertically: the wall is smooth, so it only pushes horizontally.",
+      "(b) Take moments about $A$. The rod makes angle $\\alpha$ with the vertical, so horizontal distances use $\\sin\\alpha$ and the height of $B$ uses $\\cos\\alpha$.",
+      "(d) In limiting equilibrium, friction $F = \\mu R$, and resolving horizontally gives $F = S$."
+     ],
+     "solution": "(a) Resolving vertically: $R = 3Mg$ [B1]\n\n(b) Moments about $A$: $S \\times 2a\\cos\\alpha = Mg \\times a\\sin\\alpha + 2Mg \\times \\frac{3}{2}a\\sin\\alpha$ [M1 A1]\n$S = 2Mg\\tan\\alpha$ [A1]\n\n(c) $R$ is greater: with a rough wall, friction at $B$ acts upwards on the rod, so the ground needs to supply less upward force. [B1]\n\n(d) Resolving vertically: $R = 4Mg$ [B1]\nMoments about $A$: $S \\times 2a\\cos\\beta = Mg \\times a\\sin\\beta + 2Mg \\times \\frac{3}{2}a\\sin\\beta + Mg \\times 2a\\sin\\beta$ [M1 A1]\n$S = 3Mg\\tan\\beta = Mg$ [A1]\nResolving horizontally and limiting friction: $\\mu \\times 4Mg = Mg$ [M1]\n$\\mu = \\frac{1}{4}$ [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Rods in equilibrium against a wall; limiting friction",
+     "inspiredBy": "Edexcel A Level Maths Paper 32 (Mechanics), June 2025, Q6",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 250\" width=\"100%\" style=\"max-width:420px\" role=\"img\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"currentColor\"/></marker></defs><line x1=\"60.0\" y1=\"220.0\" x2=\"264.7\" y2=\"220.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"264.7\" y1=\"220.0\" x2=\"264.7\" y2=\"31.2\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"150.0\" y1=\"220.0\" x2=\"264.7\" y2=\"56.2\" stroke=\"currentColor\" stroke-width=\"2.4\"/><circle cx=\"236.0\" cy=\"97.1\" r=\"4\" fill=\"currentColor\"/><text x=\"224.0\" y=\"97.1\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\"  text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">C (2M)</text><path d=\"M264.7152872702092,94.16959114220165 A38,38 0 0 0 242.9,87.3\" fill=\"none\" stroke=\"currentColor\"/><text x=\"250.7\" y=\"108.2\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">α</text><text x=\"144.0\" y=\"234.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">A</text><text x=\"278.7\" y=\"56.2\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">B</text></svg>",
+      "alt": "A rod AB leaning with A on the ground and B against a vertical wall at angle α to the wall, with a particle of mass 2M at C."
+     }
+    },
+    {
+     "id": "al-2025jun-m-q06b",
+     "marks": 11,
+     "prompt": "A uniform rod $AB$ has mass $M$ and length $2a$. A particle of mass $4M$ is attached to the rod at the point $C$, where $AC = \\frac{1}{2}a$.\nThe rod rests with end $A$ on rough horizontal ground and end $B$ against a vertical wall. The rod lies in a vertical plane perpendicular to the wall, and is in equilibrium at an angle $\\alpha$ to the wall.\nIn an initial model • the wall is modelled as being smooth • the magnitude of the normal reaction of the ground on the rod at $A$ is $R$ • the magnitude of the force exerted on the rod by the wall at $B$ is $S$.\nUsing the model,\n(a) find $R$ in terms of $M$ and $g$ (1)\n(b) show that $S = \\frac{3}{2}Mg\\tan\\alpha$ (3)\nIn a refined model the vertical wall is modelled as being rough, and the magnitude of the normal reaction of the ground on the rod at $A$ is $R_1$.\n(c) State which is greater, $R$ or $R_1$, giving a reason for your answer. (1)\nA second particle of mass $2M$ is now attached to the rod at $B$. The rod again rests against the smooth wall and is now in limiting equilibrium at an angle $\\beta$ to the wall, where $\\tan\\beta = \\frac{2}{7}$. The coefficient of friction between the rod and the ground is $\\mu$.\n(d) Use the model to show that $\\mu = \\frac{1}{7}$ (6)",
+     "hints": [
+      "(a) Resolve vertically: the wall is smooth, so it only pushes horizontally.",
+      "(b) Take moments about $A$. The rod makes angle $\\alpha$ with the vertical, so horizontal distances use $\\sin\\alpha$ and the height of $B$ uses $\\cos\\alpha$.",
+      "(d) In limiting equilibrium, friction $F = \\mu R$, and resolving horizontally gives $F = S$."
+     ],
+     "solution": "(a) Resolving vertically: $R = 5Mg$ [B1]\n\n(b) Moments about $A$: $S \\times 2a\\cos\\alpha = Mg \\times a\\sin\\alpha + 4Mg \\times \\frac{1}{2}a\\sin\\alpha$ [M1 A1]\n$S = \\frac{3}{2}Mg\\tan\\alpha$ [A1]\n\n(c) $R$ is greater: with a rough wall, friction at $B$ acts upwards on the rod, so the ground needs to supply less upward force. [B1]\n\n(d) Resolving vertically: $R = 7Mg$ [B1]\nMoments about $A$: $S \\times 2a\\cos\\beta = Mg \\times a\\sin\\beta + 4Mg \\times \\frac{1}{2}a\\sin\\beta + 2Mg \\times 2a\\sin\\beta$ [M1 A1]\n$S = \\frac{7}{2}Mg\\tan\\beta = Mg$ [A1]\nResolving horizontally and limiting friction: $\\mu \\times 7Mg = Mg$ [M1]\n$\\mu = \\frac{1}{7}$ [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Rods in equilibrium against a wall; limiting friction",
+     "inspiredBy": "Edexcel A Level Maths Paper 32 (Mechanics), June 2025, Q6",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 250\" width=\"100%\" style=\"max-width:420px\" role=\"img\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"currentColor\"/></marker></defs><line x1=\"60.0\" y1=\"220.0\" x2=\"264.7\" y2=\"220.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"264.7\" y1=\"220.0\" x2=\"264.7\" y2=\"31.2\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"150.0\" y1=\"220.0\" x2=\"264.7\" y2=\"56.2\" stroke=\"currentColor\" stroke-width=\"2.4\"/><circle cx=\"178.7\" cy=\"179.0\" r=\"4\" fill=\"currentColor\"/><text x=\"166.7\" y=\"179.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\"  text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">C (4M)</text><path d=\"M264.7152872702092,94.16959114220165 A38,38 0 0 0 242.9,87.3\" fill=\"none\" stroke=\"currentColor\"/><text x=\"250.7\" y=\"108.2\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">α</text><text x=\"144.0\" y=\"234.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">A</text><text x=\"278.7\" y=\"56.2\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">B</text></svg>",
+      "alt": "A rod AB leaning with A on the ground and B against a vertical wall at angle α to the wall, with a particle of mass 4M at C."
+     }
+    },
+    {
+     "id": "al-2025jun-m-q06c",
+     "marks": 11,
+     "prompt": "A uniform rod $AB$ has mass $M$ and length $2a$. A particle of mass $M$ is attached to the rod at the point $C$, where $AC = \\frac{3}{2}a$.\nThe rod rests with end $A$ on rough horizontal ground and end $B$ against a vertical wall. The rod lies in a vertical plane perpendicular to the wall, and is in equilibrium at an angle $\\alpha$ to the wall.\nIn an initial model • the wall is modelled as being smooth • the magnitude of the normal reaction of the ground on the rod at $A$ is $R$ • the magnitude of the force exerted on the rod by the wall at $B$ is $S$.\nUsing the model,\n(a) find $R$ in terms of $M$ and $g$ (1)\n(b) show that $S = \\frac{5}{4}Mg\\tan\\alpha$ (3)\nIn a refined model the vertical wall is modelled as being rough, and the magnitude of the normal reaction of the ground on the rod at $A$ is $R_1$.\n(c) State which is greater, $R$ or $R_1$, giving a reason for your answer. (1)\nA second particle of mass $3M$ is now attached to the rod at $B$. The rod again rests against the smooth wall and is now in limiting equilibrium at an angle $\\beta$ to the wall, where $\\tan\\beta = \\frac{2}{5}$. The coefficient of friction between the rod and the ground is $\\mu$.\n(d) Use the model to show that $\\mu = \\frac{17}{50}$ (6)",
+     "hints": [
+      "(a) Resolve vertically: the wall is smooth, so it only pushes horizontally.",
+      "(b) Take moments about $A$. The rod makes angle $\\alpha$ with the vertical, so horizontal distances use $\\sin\\alpha$ and the height of $B$ uses $\\cos\\alpha$.",
+      "(d) In limiting equilibrium, friction $F = \\mu R$, and resolving horizontally gives $F = S$."
+     ],
+     "solution": "(a) Resolving vertically: $R = 2Mg$ [B1]\n\n(b) Moments about $A$: $S \\times 2a\\cos\\alpha = Mg \\times a\\sin\\alpha + Mg \\times \\frac{3}{2}a\\sin\\alpha$ [M1 A1]\n$S = \\frac{5}{4}Mg\\tan\\alpha$ [A1]\n\n(c) $R$ is greater: with a rough wall, friction at $B$ acts upwards on the rod, so the ground needs to supply less upward force. [B1]\n\n(d) Resolving vertically: $R = 5Mg$ [B1]\nMoments about $A$: $S \\times 2a\\cos\\beta = Mg \\times a\\sin\\beta + Mg \\times \\frac{3}{2}a\\sin\\beta + 3Mg \\times 2a\\sin\\beta$ [M1 A1]\n$S = \\frac{17}{4}Mg\\tan\\beta = \\frac{17}{10}Mg$ [A1]\nResolving horizontally and limiting friction: $\\mu \\times 5Mg = \\frac{17}{10}Mg$ [M1]\n$\\mu = \\frac{17}{50}$ [A1]",
+     "year": "",
+     "paper": "",
+     "subtopic": "Rods in equilibrium against a wall; limiting friction",
+     "inspiredBy": "Edexcel A Level Maths Paper 32 (Mechanics), June 2025, Q6",
+     "diagram": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 250\" width=\"100%\" style=\"max-width:420px\" role=\"img\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"currentColor\"/></marker></defs><line x1=\"60.0\" y1=\"220.0\" x2=\"264.7\" y2=\"220.0\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"264.7\" y1=\"220.0\" x2=\"264.7\" y2=\"31.2\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"150.0\" y1=\"220.0\" x2=\"264.7\" y2=\"56.2\" stroke=\"currentColor\" stroke-width=\"2.4\"/><circle cx=\"236.0\" cy=\"97.1\" r=\"4\" fill=\"currentColor\"/><text x=\"224.0\" y=\"97.1\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"13\"  text-anchor=\"end\" dominant-baseline=\"middle\" fill=\"currentColor\">C (1M)</text><path d=\"M264.7152872702092,94.16959114220165 A38,38 0 0 0 242.9,87.3\" fill=\"none\" stroke=\"currentColor\"/><text x=\"250.7\" y=\"108.2\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">α</text><text x=\"144.0\" y=\"234.0\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">A</text><text x=\"278.7\" y=\"56.2\" font-family=\"Times New Roman, Georgia, serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"currentColor\">B</text></svg>",
+      "alt": "A rod AB leaning with A on the ground and B against a vertical wall at angle α to the wall, with a particle of mass 1M at C."
+     }
+    }
+   ]
   }
  ]
 }

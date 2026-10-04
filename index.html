@@ -1183,7 +1183,7 @@ const SUBJECTS = [
 ];
 // Each subject's questions live in their own file: questions/<subject id>.json
 // Change QUESTIONS_VERSION whenever you edit a question file, so browsers fetch the new copy straight away.
-const QUESTIONS_VERSION = "8";
+const QUESTIONS_VERSION = "9";
 const SUBJECT_BANKS = {};
 const bankLoads = {}, bankErrors = {};
 function bankLoaded(sid){ return !!SUBJECT_BANKS[sid]; }
@@ -3231,7 +3231,7 @@ function themeSwitchHtml(){
 function isGcse(sid){ return String(sid || currentSubject()).startsWith("gcse-"); }
 function difficultyBands(sid){
   return isGcse(sid)
-    ? { easy:"Easy (1 mark)", medium:"Medium (2–4 marks)", hard:"Hard (5–6 marks)" }
+    ? { easy:"Easy (1 mark)", medium:"Medium (2–4 marks)", hard:"Hard (5+ marks)" }
     : { easy:"Easy (1–3 marks)", medium:"Medium (4–6 marks)", hard:"Hard (7+ marks)" };
 }
 function difficultyOf(marks, sid){
