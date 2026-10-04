@@ -317,6 +317,9 @@ body.ads-on .wrap{padding-bottom:12px !important;}
 .session-card{padding:12px 14px;}
 .diff-row{display:flex;flex-wrap:wrap;gap:6px 18px;margin-bottom:4px;}
 .diff-row .chk{margin:0;}
+.select-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px;}
+.select-row .btn-ghost{width:auto;padding:8px 14px;margin:0;}
+.paper-select{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--ink);font-size:1rem;margin-bottom:6px;}
 .subject-bar{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px;}
 .subject-select{width:auto;max-width:62%;margin:0;padding:8px 10px;font-weight:600;border-radius:10px;}
 .coin-pill{background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:20px;padding:7px 12px;font-weight:700;font-size:.9rem;white-space:nowrap;}
@@ -2593,13 +2596,31 @@ function solutionHtml(text){
 function hasMarkTags(q){ return solutionLines(q.solution).some(l=>l.marks.length); }
 function questionFamily(q){ return q.inspiredBy ? "i:" + q.inspiredBy : "d:" + String(q.id).replace(/[a-z]$/,""); }
 
-function paperTopics(){ return getAllTopics().filter(t=>t.questions.length>0); }
+// A-Level papers come from one area only (Pure, Statistics or Mechanics), chosen in a dropdown.
+function paperCategories(){ return [...new Set(getAllTopics().filter(t=>t.questions.length>0).map(t=>t.category||"General"))]; }
+function paperCategory(){
+  if(isGcse()) return null;
+  const cats = paperCategories();
+  if(!cats.includes(paper.category)){ let saved=null; try{ saved = localStorage.getItem("paperCategory"); }catch(e){} paper.category = cats.includes(saved) ? saved : cats[0]; }
+  return paper.category;
+}
+function paperCategoryName(cat){ return cat==="Pure Maths" ? "Pure" : cat; }
+function paperTopics(){
+  const ts = getAllTopics().filter(t=>t.questions.length>0);
+  const cat = paperCategory();
+  return cat ? ts.filter(t=>(t.category||"General")===cat) : ts;
+}
 function renderPaperSetup(){
   const topics = paperTopics(), subj = subjectInfo();
-  if(paper.topics===null) paper.topics = state.selected.length ? state.selected.filter(n=>topics.some(t=>t.topic===n)) : topics.map(t=>t.topic);
+  if(paper.topics===null){
+    const picked = state.selected.filter(n=>topics.some(t=>t.topic===n));
+    paper.topics = picked.length ? picked : topics.map(t=>t.topic);
+  }
   const folders = {};
   topics.forEach(t=>{ (folders[t.category] = folders[t.category] || []).push(t); });
-  const avail = paperPool().reduce((n,q)=>n + (q.marks||1), 0);
+  // A paper uses at most one version of each original question, so count the best mark total per original.
+  const fam = {}; paperPool().forEach(q=>{ const f = questionFamily(q); fam[f] = Math.max(fam[f]||0, q.marks||1); });
+  const avail = Object.values(fam).reduce((n,m)=>n+m, 0);
   const chk = t=>{
     const pool = t.questions.filter(q=>calcAllows(q) && !getQState(q.id).suspended);
     return `<label class="chk paper-topic"><input type="checkbox" data-paper-topic="${esc(t.topic)}" ${paper.topics.includes(t.topic)?"checked":""}> <span>${esc(t.topic)} <span class="paper-count">${pool.length} q · ${pool.reduce((n,q)=>n+(q.marks||1),0)} marks</span></span></label>`;
@@ -2608,7 +2629,9 @@ function renderPaperSetup(){
     <div class="sub">Pick the topics and how many marks you want. You'll get a numbered exam-style paper, plus a separate mark scheme with fully worked solutions, both ready to save as PDFs.</div>
     ${!topics.length ? `<div class="card">There aren't any ${esc(subj.name)} questions yet.</div>` : `
     <div class="card paper-controls">
-      <label class="field" for="paperMarks" style="margin-top:0;">Total marks</label>
+      ${!isGcse() && paperCategories().length>1 ? `<label class="field" for="paperCat" style="margin-top:0;">Paper</label>
+      <select id="paperCat" class="paper-select">${paperCategories().map(c=>`<option value="${esc(c)}" ${c===paperCategory()?"selected":""}>${esc(paperCategoryName(c))}</option>`).join("")}</select>` : ""}
+      <label class="field" for="paperMarks" ${!isGcse() && paperCategories().length>1 ? "" : 'style="margin-top:0;"'}>Total marks</label>
       <div class="paper-chips">${[20,40,60,80,100].map(n=>`<button type="button" class="icon-btn${paper.marks===n?" accent":""}" data-paper-marks="${n}">${n}</button>`).join("")}</div>
       <input type="number" id="paperMarks" min="5" max="200" value="${paper.marks}">
       ${isGcse() ? `<label class="field">Paper type</label>${calcToggleHtml()}` : extraPagesToggleHtml()}
@@ -2618,7 +2641,7 @@ function renderPaperSetup(){
         <div><button class="link-btn" id="paperAllBtn">Select all</button><button class="link-btn" id="paperNoneBtn">Clear</button></div></div>
       ${Object.entries(folders).map(([f, ts])=>`<div class="paper-folder"><div class="qlist-topic"><strong>${esc(f)}</strong></div>${ts.map(chk).join("")}</div>`).join("")}
     </div>
-    <div class="sub">${paper.topics.length} topic${paper.topics.length===1?"":"s"} selected · ${avail} marks of questions available</div>
+    <div class="sub">${paper.topics.length} topic${paper.topics.length===1?"":"s"} selected · up to ${avail} marks available for one paper</div>
     ${paper.error ? `<div class="auth-msg err">${esc(paper.error)}</div>` : ""}
     <button class="btn-primary" id="paperGoBtn">Generate paper</button>`}`;
 }
@@ -2655,7 +2678,7 @@ function buildPaper(){
   if(!chosen.length) return { error:`No questions fit in ${target} marks. Try a bigger total.` };
   chosen.sort((a,b)=>(a.marks||1)-(b.marks||1) || (Math.random()-0.5));      // shorter questions first, like an exam
   const calcSet = new Set(chosen.filter(q=>typeof q.calculator==="boolean").map(q=>q.calculator));
-  return { subject:currentSubject(), questions:chosen, total, target, created:Date.now(),
+  return { subject:currentSubject(), category:paperCategory(), questions:chosen, total, target, created:Date.now(),
            code:Math.random().toString(36).slice(2,8).toUpperCase(),
            calc: isGcse() ? (calcSet.size===1 ? ([...calcSet][0] ? "calc" : "noncalc") : "mixed") : null,
            topics:[...new Set(chosen.map(q=>q.topic))] };
@@ -2675,7 +2698,7 @@ function paperHeaderHtml(doc, kind){
   return `<div class="pd-head">
     <div class="pd-site">kelvincard.co.uk</div>
     <h1>${esc(s.name)}</h1>
-    <div class="pd-title">${kind==="ms" ? "Mark scheme and worked solutions" : "Practice paper"}</div>
+    <div class="pd-title">${doc.category ? esc(paperCategoryName(doc.category))+": " : ""}${kind==="ms" ? "Mark scheme and worked solutions" : "Practice paper"}</div>
     <div class="pd-meta">Paper ${esc(doc.code)} · ${new Date(doc.created).toLocaleDateString("en-GB",{day:"numeric",month:"long",year:"numeric"})} · ${doc.questions.length} questions · <strong>Total ${doc.total} marks</strong>${kind==="ms" ? "" : ` · Suggested time ${suggestedMinutes(doc.total, doc.subject)} minutes`}</div>
     ${kind==="ms" ? "" : `<div class="pd-cand"><span>Name ______________________________</span><span>Score ______ / ${doc.total}</span></div>
     <div class="pd-instr"><strong>Instructions</strong><ul>
@@ -2796,6 +2819,8 @@ function attachPaperHandlers(){
     };
     const pp = document.getElementById("paperPractiseBtn"); if(pp) pp.onclick = ()=>practiseIds(paper.doc.questions.map(q=>q.id), "select");
   }
+  const pc = document.getElementById("paperCat");
+  if(pc) pc.onchange = ()=>{ paper.category = pc.value; try{ localStorage.setItem("paperCategory", pc.value); }catch(e){} paper.topics = null; paper.error = ""; render(); };
   document.querySelectorAll("[data-extra-pages]").forEach(b=>{ b.onchange = ()=>{ setExtraPages(b.checked); render(); }; });
   const open = document.getElementById("openPaperBtn");
   if(open) open.onclick = ()=>{ paper.topics = null; paper.error = ""; state.screen = "paperSetup"; render(); window.scrollTo(0,0); };
@@ -3480,6 +3505,19 @@ function renderToast(){
   return `<div class="toast"><span>${state.toast.message}</span>${undo}</div>`;
 }
 
+// "Select all Pure / Stats / Mechanics" buttons, shown when a subject's topics are split into several folders.
+const CATEGORY_SHORT = { "Pure Maths":"Pure", "Statistics":"Stats", "Mechanics":"Mechanics" };
+function categoryTopicNames(cat){ return getAllTopics().filter(t=>(t.category||"General")===cat && t.questions.length>0).map(t=>t.topic); }
+function categorySelectButtons(topics){
+  if(isGcse()) return "";
+  const cats = [...new Set(topics.filter(t=>t.questions.length>0).map(t=>t.category||"General"))];
+  if(cats.length<2) return "";
+  return cats.map(cat=>{
+    const names = categoryTopicNames(cat), short = CATEGORY_SHORT[cat] || cat;
+    const all = names.length>0 && names.every(n=>state.selected.includes(n));
+    return `<button class="btn-ghost" data-select-cat="${esc(cat)}">${all ? "Clear " : "Select all "}${esc(short)}</button>`;
+  }).join("");
+}
 function renderSelect(){
   const topics = getAllTopics();
   const answeredIds = new Set(loadAttempts().map(a=>a.qid));
@@ -3528,7 +3566,7 @@ function renderSelect(){
     </div>
     <button class="btn-primary" id="startBtn">Start practice</button>
     ${noneYet ? "" : `<button class="btn-ghost" id="openPaperBtn" style="width:100%;margin-top:10px;margin-bottom:6px;">📄 Generate a practice paper (PDF)</button>`}
-    ${noneYet ? `<div class="card"><strong>Questions for ${esc(subj.name)} are on the way.</strong><div class="sub" style="margin:6px 0 0;">Here are the topics that will be covered. Each one opens up as soon as it has questions.</div></div>` : `<button class="btn-ghost" id="selectAllBtn" style="width:auto;padding:8px 14px;margin-bottom:10px;">${allSelected ? "Clear all" : "Select all topics"}</button>`}
+    ${noneYet ? `<div class="card"><strong>Questions for ${esc(subj.name)} are on the way.</strong><div class="sub" style="margin:6px 0 0;">Here are the topics that will be covered. Each one opens up as soon as it has questions.</div></div>` : `<div class="select-row"><button class="btn-ghost" id="selectAllBtn">${allSelected ? "Clear all" : "Select all topics"}</button>${categorySelectButtons(topics)}</div>`}
     ${folders}
     <div style="margin-top:10px;"><a class="reset" id="resetBtn">Reset all progress</a></div>
   `;
@@ -4062,6 +4100,13 @@ function attachHandlers(){
     state.selected = allSelected ? [] : allNames;
     render();
   };
+  document.querySelectorAll("[data-select-cat]").forEach(b=>{ b.onclick = ()=>{
+    syncOptionsFromDOM();
+    const names = categoryTopicNames(b.dataset.selectCat);
+    const all = names.every(n=>state.selected.includes(n));
+    state.selected = all ? state.selected.filter(n=>!names.includes(n)) : [...new Set([...state.selected, ...names])];
+    render();
+  }; });
   const resetBtn = document.getElementById("resetBtn");
   if(resetBtn) resetBtn.onclick = ()=>{
     if(confirm("Reset all saved progress and scheduling? Your coins and themes are kept.")){ markReset(); state.progress = {}; saveProgress(state.progress); saveQStates({}); saveAttempts([]); render(); }
