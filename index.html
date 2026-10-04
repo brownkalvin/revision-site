@@ -1180,9 +1180,9 @@ const SUBJECT_KEY = "alevel_maths_subject_v1";
 const SUBJECTS = [
   { id:"gcse-maths-foundation", name:"GCSE Maths (Foundation)", group:"GCSE", grades:"gcse-foundation", idPrefix:"gcse-f-" },
   { id:"gcse-maths-higher",     name:"GCSE Maths (Higher)",     group:"GCSE", grades:"gcse-higher",     idPrefix:"gcse-h-" },
+  { id:"gcse-maths-extended",   name:"GCSE Maths (Extended)",   group:"GCSE", grades:"gcse-higher",     idPrefix:"gcse-e-" },
   { id:"alevel-maths",          name:"A-Level Maths",           group:"A-Level", grades:"alevel",       idPrefix:"" },
-  { id:"alevel-further-maths",  name:"A-Level Further Maths",   group:"A-Level", grades:"alevel",       idPrefix:"fm-" },
-  { id:"alevel-physics",        name:"A-Level Physics",         group:"A-Level", grades:"alevel",       idPrefix:"alp-" }
+  { id:"alevel-further-maths",  name:"A-Level Further Maths",   group:"A-Level", grades:"alevel",       idPrefix:"fm-" }
 ];
 // Each subject's questions live in their own file: questions/<subject id>.json
 // Change QUESTIONS_VERSION whenever you edit a question file, so browsers fetch the new copy straight away.
@@ -1211,7 +1211,7 @@ function currentSubject(){
   let s = null; try{ s = localStorage.getItem(SUBJECT_KEY); }catch(e){}
   return SUBJECTS.some(x=>x.id===s) ? s : "alevel-maths";
 }
-function subjectInfo(id){ const sid = id || currentSubject(); return SUBJECTS.find(s=>s.id===sid) || SUBJECTS[2]; }
+function subjectInfo(id){ const sid = id || currentSubject(); return SUBJECTS.find(s=>s.id===sid) || SUBJECTS.find(s=>s.id==="alevel-maths"); }
 // A-Level Maths keeps plain topic names (so existing progress is untouched); other subjects are namespaced.
 function topicKey(subject, topic){ subject = subject || "alevel-maths"; return subject==="alevel-maths" ? topic : subject + "|" + topic; }
 function subjectPickerHtml(){

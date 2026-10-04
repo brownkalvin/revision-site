@@ -1,0 +1,255 @@
+{
+ "subject": "gcse-maths-extended",
+ "topics": [
+  {
+   "topic": "Number types and sets",
+   "category": "Number",
+   "questions": []
+  },
+  {
+   "topic": "Fractions, decimals and percentages",
+   "category": "Number",
+   "questions": []
+  },
+  {
+   "topic": "Powers, roots and standard form",
+   "category": "Number",
+   "questions": []
+  },
+  {
+   "topic": "Surds",
+   "category": "Number",
+   "questions": []
+  },
+  {
+   "topic": "Ratio and proportion",
+   "category": "Number",
+   "questions": []
+  },
+  {
+   "topic": "Rates and compound measures",
+   "category": "Number",
+   "questions": []
+  },
+  {
+   "topic": "Percentages and interest",
+   "category": "Number",
+   "questions": []
+  },
+  {
+   "topic": "Exponential growth and decay",
+   "category": "Number",
+   "questions": []
+  },
+  {
+   "topic": "Bounds and error intervals",
+   "category": "Number",
+   "questions": []
+  },
+  {
+   "topic": "Money and everyday calculations",
+   "category": "Number",
+   "questions": []
+  },
+  {
+   "topic": "Expressions and simplifying",
+   "category": "Algebra and graphs",
+   "questions": []
+  },
+  {
+   "topic": "Expanding and factorising",
+   "category": "Algebra and graphs",
+   "questions": []
+  },
+  {
+   "topic": "Algebraic fractions",
+   "category": "Algebra and graphs",
+   "questions": []
+  },
+  {
+   "topic": "Linear equations and inequalities",
+   "category": "Algebra and graphs",
+   "questions": []
+  },
+  {
+   "topic": "Simultaneous equations",
+   "category": "Algebra and graphs",
+   "questions": []
+  },
+  {
+   "topic": "Quadratic equations",
+   "category": "Algebra and graphs",
+   "questions": []
+  },
+  {
+   "topic": "Rearranging formulae",
+   "category": "Algebra and graphs",
+   "questions": []
+  },
+  {
+   "topic": "Sequences",
+   "category": "Algebra and graphs",
+   "questions": []
+  },
+  {
+   "topic": "Direct and inverse proportion",
+   "category": "Algebra and graphs",
+   "questions": []
+  },
+  {
+   "topic": "Indices",
+   "category": "Algebra and graphs",
+   "questions": []
+  },
+  {
+   "topic": "Graphs of functions",
+   "category": "Algebra and graphs",
+   "questions": []
+  },
+  {
+   "topic": "Functions (composite and inverse)",
+   "category": "Algebra and graphs",
+   "questions": []
+  },
+  {
+   "topic": "Differentiation",
+   "category": "Algebra and graphs",
+   "questions": []
+  },
+  {
+   "topic": "Straight-line graphs",
+   "category": "Coordinate geometry",
+   "questions": []
+  },
+  {
+   "topic": "Gradient, midpoint and length",
+   "category": "Coordinate geometry",
+   "questions": []
+  },
+  {
+   "topic": "Parallel and perpendicular lines",
+   "category": "Coordinate geometry",
+   "questions": []
+  },
+  {
+   "topic": "Angles and polygons",
+   "category": "Geometry",
+   "questions": []
+  },
+  {
+   "topic": "Circle theorems",
+   "category": "Geometry",
+   "questions": []
+  },
+  {
+   "topic": "Similarity and congruence",
+   "category": "Geometry",
+   "questions": []
+  },
+  {
+   "topic": "Constructions and symmetry",
+   "category": "Geometry",
+   "questions": []
+  },
+  {
+   "topic": "Perimeter and area",
+   "category": "Mensuration",
+   "questions": []
+  },
+  {
+   "topic": "Arcs and sectors",
+   "category": "Mensuration",
+   "questions": []
+  },
+  {
+   "topic": "Surface area and volume",
+   "category": "Mensuration",
+   "questions": []
+  },
+  {
+   "topic": "Pythagoras' theorem",
+   "category": "Trigonometry",
+   "questions": []
+  },
+  {
+   "topic": "Right-angled trigonometry",
+   "category": "Trigonometry",
+   "questions": []
+  },
+  {
+   "topic": "Sine and cosine rules",
+   "category": "Trigonometry",
+   "questions": []
+  },
+  {
+   "topic": "Trigonometric graphs and equations",
+   "category": "Trigonometry",
+   "questions": []
+  },
+  {
+   "topic": "Bearings",
+   "category": "Trigonometry",
+   "questions": []
+  },
+  {
+   "topic": "3D trigonometry",
+   "category": "Trigonometry",
+   "questions": []
+  },
+  {
+   "topic": "Transformations",
+   "category": "Transformations and vectors",
+   "questions": []
+  },
+  {
+   "topic": "Vectors",
+   "category": "Transformations and vectors",
+   "questions": []
+  },
+  {
+   "topic": "Basic probability",
+   "category": "Probability",
+   "questions": []
+  },
+  {
+   "topic": "Tree diagrams and combined events",
+   "category": "Probability",
+   "questions": []
+  },
+  {
+   "topic": "Conditional probability",
+   "category": "Probability",
+   "questions": []
+  },
+  {
+   "topic": "Venn diagrams and set notation",
+   "category": "Probability",
+   "questions": []
+  },
+  {
+   "topic": "Averages and range",
+   "category": "Statistics",
+   "questions": []
+  },
+  {
+   "topic": "Charts and diagrams",
+   "category": "Statistics",
+   "questions": []
+  },
+  {
+   "topic": "Cumulative frequency and box plots",
+   "category": "Statistics",
+   "questions": []
+  },
+  {
+   "topic": "Histograms",
+   "category": "Statistics",
+   "questions": []
+  },
+  {
+   "topic": "Scatter graphs",
+   "category": "Statistics",
+   "questions": []
+  }
+ ]
+}
