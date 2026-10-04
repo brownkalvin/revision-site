@@ -314,6 +314,9 @@ body.ads-on .wrap{padding-bottom:12px !important;}
 .sponsor-msg{font-size:.85rem;color:var(--sub);}
 .support-line{font-size:.85rem;color:var(--sub);text-align:center;margin:18px 0 0;}
 @media print{ .ad-host,.sponsor-card,.support-line{display:none !important;} }
+.session-card{padding:12px 14px;}
+.diff-row{display:flex;flex-wrap:wrap;gap:6px 18px;margin-bottom:4px;}
+.diff-row .chk{margin:0;}
 .subject-bar{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px;}
 .subject-select{width:auto;max-width:62%;margin:0;padding:8px 10px;font-weight:600;border-radius:10px;}
 .coin-pill{background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:20px;padding:7px 12px;font-weight:700;font-size:.9rem;white-space:nowrap;}
@@ -3479,6 +3482,7 @@ function renderToast(){
 
 function renderSelect(){
   const topics = getAllTopics();
+  const answeredIds = new Set(loadAttempts().map(a=>a.qid));
   const byCat = {};
   topics.forEach(t=>{ (byCat[t.category||"General"] = byCat[t.category||"General"]||[]).push(t); });
   const folders = Object.entries(byCat).map(([cat, ts])=>{
@@ -3495,7 +3499,7 @@ function renderSelect(){
         <div>
           <label class="chk"><input type="checkbox" data-topic="${esc(t.topic)}" ${checked}>
             <span class="topic-name">${esc(t.topic)}</span></label>
-          <div class="mastery" style="text-align:left;margin:3px 0 0 29px;">${t.questions.length} question${t.questions.length===1?"":"s"}${pctHtml} · ${topicDueInfo(t.questions)}</div>
+          <div class="mastery" style="text-align:left;margin:3px 0 0 29px;">${t.questions.length} question${t.questions.length===1?"":"s"} · ${t.questions.filter(q=>answeredIds.has(q.id)).length} answered${pctHtml}</div>
         </div>
         <button class="browse-btn" data-browse="${esc(t.topic)}">Browse ›</button>
       </div>`;
@@ -3512,19 +3516,20 @@ function renderSelect(){
       <div class="toprow-links">${themeSwitchHtml()}${isAdmin ? `<button class="nav-link" id="adminBtn">Admin${adminOpenCount ? ` (${adminOpenCount})` : ""}</button>` : ""}<button class="nav-link" id="statsBtn">Stats</button><button class="nav-link" id="manageBtn">Manage</button></div></div>
     <div class="sub">Pick topics, then work through questions. Each hint costs 1 point. Questions get spaced further apart the better you know them.</div>
     ${isGcse() ? `<div class="calc-bar"><span class="calc-bar-label">Paper type</span>${calcToggleHtml()}</div>` : ""}
-    ${noneYet ? `<div class="card"><strong>Questions for ${esc(subj.name)} are on the way.</strong><div class="sub" style="margin:6px 0 0;">Here are the topics that will be covered. Each one opens up as soon as it has questions.</div></div>` : `<button class="btn-ghost" id="selectAllBtn" style="width:auto;padding:8px 14px;margin-bottom:10px;">${allSelected ? "Clear all" : "Select all topics"}</button>`}
-    ${folders}
-    <div class="card">
-      <h2 style="font-size:1rem;">Session options</h2>
-      <label class="field">Difficulty</label>
-      <label class="chk" style="margin-bottom:6px;"><input type="checkbox" id="includeEasyCheck" ${state.includeEasy?"checked":""}> <span>${difficultyBands().easy}</span></label>
-      <label class="chk" style="margin-bottom:6px;"><input type="checkbox" id="includeMediumCheck" ${state.includeMedium?"checked":""}> <span>${difficultyBands().medium}</span></label>
-      <label class="chk" style="margin-bottom:8px;"><input type="checkbox" id="includeHardCheck" ${state.includeHard?"checked":""}> <span>${difficultyBands().hard}</span></label>
-      <label class="field">Target marks (optional)</label>
-      <input type="number" id="targetMarksInput" min="1" placeholder="e.g. 30 — pulls in questions not yet due if needed to fill it" value="${state.targetMarks||""}">
+    <div class="card session-card">
+      <label class="field" style="margin-top:0;">Difficulty</label>
+      <div class="diff-row">
+        <label class="chk"><input type="checkbox" id="includeEasyCheck" ${state.includeEasy?"checked":""}> <span>${difficultyBands().easy}</span></label>
+        <label class="chk"><input type="checkbox" id="includeMediumCheck" ${state.includeMedium?"checked":""}> <span>${difficultyBands().medium}</span></label>
+        <label class="chk"><input type="checkbox" id="includeHardCheck" ${state.includeHard?"checked":""}> <span>${difficultyBands().hard}</span></label>
+      </div>
+      <label class="field" for="targetMarksInput">Target marks (optional)</label>
+      <input type="number" id="targetMarksInput" min="1" placeholder="e.g. 30" value="${state.targetMarks||""}">
     </div>
     <button class="btn-primary" id="startBtn">Start practice</button>
-    ${noneYet ? "" : `<button class="btn-ghost" id="openPaperBtn" style="width:100%;margin-top:10px;">📄 Generate a practice paper (PDF)</button>`}
+    ${noneYet ? "" : `<button class="btn-ghost" id="openPaperBtn" style="width:100%;margin-top:10px;margin-bottom:6px;">📄 Generate a practice paper (PDF)</button>`}
+    ${noneYet ? `<div class="card"><strong>Questions for ${esc(subj.name)} are on the way.</strong><div class="sub" style="margin:6px 0 0;">Here are the topics that will be covered. Each one opens up as soon as it has questions.</div></div>` : `<button class="btn-ghost" id="selectAllBtn" style="width:auto;padding:8px 14px;margin-bottom:10px;">${allSelected ? "Clear all" : "Select all topics"}</button>`}
+    ${folders}
     <div style="margin-top:10px;"><a class="reset" id="resetBtn">Reset all progress</a></div>
   `;
 }
