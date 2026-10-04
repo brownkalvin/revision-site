@@ -439,42 +439,28 @@ function deriveProgress(attempts){
   });
   return by;
 }
-// Statistics and Mechanics used to be folders inside A-Level Maths. Their questions keep the same ids
-// (al-<year><month>-s-… and al-<year><month>-m-…), so older answers are moved to the new subjects here.
-const MOVED_TOPICS = {
-  "alevel-maths-stats": ["Probability","Data presentation and interpretation","Statistical distributions","Statistical hypothesis testing"],
-  "alevel-maths-mechanics": ["Kinematics","Forces and Newton's laws","Projectiles","Moments"]
-};
-function movedSubjectForQid(qid){
-  if(/^al-\d{4}[a-z]{3}-s-/.test(qid||"")) return "alevel-maths-stats";
-  if(/^al-\d{4}[a-z]{3}-m-/.test(qid||"")) return "alevel-maths-mechanics";
-  return null;
-}
-function movedSubjectForTopic(topic){
-  for(const sid in MOVED_TOPICS) if(MOVED_TOPICS[sid].includes(topic)) return sid;
-  return null;
-}
+// For a short time Statistics and Mechanics were separate subjects ("alevel-maths-stats" and
+// "alevel-maths-mechanics"). They are folders inside A-Level Maths again, so anything saved under
+// those subjects is moved back here (same question ids; topic progress uses plain topic names).
+const RETIRED_SUBJECTS = ["alevel-maths-stats","alevel-maths-mechanics"];
 function migrateBlob(b){
   let changed = false;
   const touched = new Set();
   (b.attempts||[]).forEach(a=>{
-    if((a.subject||"alevel-maths")!=="alevel-maths") return;
-    const sid = movedSubjectForQid(a.qid) || (String(a.qid||"").startsWith("c") ? movedSubjectForTopic(a.topic) : null);
-    if(sid){ touched.add(a.topic); a.subject = sid; changed = true; }
+    if(RETIRED_SUBJECTS.includes(a.subject)){ a.subject = "alevel-maths"; touched.add(a.topic); changed = true; }
   });
   (b.custom||[]).forEach(c=>{
-    if((c.subject||"alevel-maths")!=="alevel-maths") return;
-    const sid = movedSubjectForTopic(c.topic);
-    if(sid){ c.subject = sid; changed = true; }
+    if(RETIRED_SUBJECTS.includes(c.subject)){ c.subject = "alevel-maths"; changed = true; }
+  });
+  const prog = b.progress||{};
+  Object.keys(prog).forEach(k=>{
+    const sid = RETIRED_SUBJECTS.find(x=>k.startsWith(x+"|"));
+    if(sid){ touched.add(k.slice(sid.length+1)); delete prog[k]; changed = true; }
   });
   if(touched.size){
     const derived = deriveProgress(b.attempts||[]);
-    b.progress = {...(b.progress||{})};
-    touched.forEach(topic=>{
-      const sid = movedSubjectForTopic(topic);
-      if(sid){ const k = topicKey(sid, topic); if(derived[k]) b.progress[k] = derived[k]; }
-      if(!derived[topic]) delete b.progress[topic];       // nothing left under A-Level Maths for this topic
-    });
+    b.progress = {...prog};
+    touched.forEach(topic=>{ if(derived[topic]) b.progress[topic] = derived[topic]; });
   }
   return changed;
 }
@@ -1225,14 +1211,12 @@ const SUBJECTS = [
   { id:"gcse-maths-foundation", name:"GCSE Maths (Foundation)", group:"GCSE", grades:"gcse-foundation", idPrefix:"gcse-f-" },
   { id:"gcse-maths-higher",     name:"GCSE Maths (Higher)",     group:"GCSE", grades:"gcse-higher",     idPrefix:"gcse-h-" },
   { id:"gcse-maths-extended",   name:"GCSE Maths (Extended)",   group:"GCSE", grades:"gcse-higher",     idPrefix:"gcse-e-" },
-  { id:"alevel-maths",          name:"A-Level Maths (Pure)",       group:"A-Level", grades:"alevel",    idPrefix:"" },
-  { id:"alevel-maths-stats",    name:"A-Level Maths (Statistics)", group:"A-Level", grades:"alevel",    idPrefix:"als-" },
-  { id:"alevel-maths-mechanics",name:"A-Level Maths (Mechanics)",  group:"A-Level", grades:"alevel",    idPrefix:"alm-" },
+  { id:"alevel-maths",          name:"A-Level Maths",           group:"A-Level", grades:"alevel",       idPrefix:"" },
   { id:"alevel-further-maths",  name:"A-Level Further Maths",   group:"A-Level", grades:"alevel",       idPrefix:"fm-" }
 ];
 // Each subject's questions live in their own file: questions/<subject id>.json
 // Change QUESTIONS_VERSION whenever you edit a question file, so browsers fetch the new copy straight away.
-const QUESTIONS_VERSION = "12";
+const QUESTIONS_VERSION = "14";
 const SUBJECT_BANKS = {};
 const bankLoads = {}, bankErrors = {};
 function bankLoaded(sid){ return !!SUBJECT_BANKS[sid]; }
@@ -1248,7 +1232,7 @@ function loadSubject(sid){
       SUBJECT_BANKS[sid] = topics; delete bankErrors[sid]; delete bankLoads[sid];
       return topics;
     })
-    .catch(e=>{ bankErrors[sid] = location.protocol==="file:" ? "file" : "network"; delete bankLoads[sid]; throw e; });
+    .catch(e=>{ bankErrors[sid] = location.protocol==="file:" ? "file" : (/^HTTP 404/.test(e.message||"") ? "missing" : "network"); delete bankLoads[sid]; throw e; });
   return bankLoads[sid];
 }
 function loadAllSubjects(){ return Promise.allSettled(SUBJECTS.map(s=>loadSubject(s.id))); }
@@ -2952,6 +2936,8 @@ function bankLoadingHtml(sid){
   if(!err) return `${back}<div class="card" style="margin-top:12px;"><div class="sub" style="margin:0;">Loading ${esc(subjectInfo(sid).name)} questions…</div></div>`;
   const msg = err==="file"
     ? "The questions can't load when the page is opened straight from a file on your computer. Open the site from its web address instead."
+    : err==="missing"
+    ? `These questions aren't available right now (the file questions/${esc(sid)}.json wasn't found on the server). Please try again later.`
     : "Couldn't load the questions. Check your internet connection and try again.";
   return `${back}<div class="card" style="margin-top:12px;"><div class="auth-msg err" style="margin-top:0;">${msg}</div><button class="btn-primary" id="bankRetryBtn">Try again</button></div>`;
 }
