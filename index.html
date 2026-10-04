@@ -439,6 +439,48 @@ function deriveProgress(attempts){
   });
   return by;
 }
+// Statistics and Mechanics used to be folders inside A-Level Maths. Their questions keep the same ids
+// (al-<year><month>-s-… and al-<year><month>-m-…), so older answers are moved to the new subjects here.
+const MOVED_TOPICS = {
+  "alevel-maths-stats": ["Probability","Data presentation and interpretation","Statistical distributions","Statistical hypothesis testing"],
+  "alevel-maths-mechanics": ["Kinematics","Forces and Newton's laws","Projectiles","Moments"]
+};
+function movedSubjectForQid(qid){
+  if(/^al-\d{4}[a-z]{3}-s-/.test(qid||"")) return "alevel-maths-stats";
+  if(/^al-\d{4}[a-z]{3}-m-/.test(qid||"")) return "alevel-maths-mechanics";
+  return null;
+}
+function movedSubjectForTopic(topic){
+  for(const sid in MOVED_TOPICS) if(MOVED_TOPICS[sid].includes(topic)) return sid;
+  return null;
+}
+function migrateBlob(b){
+  let changed = false;
+  const touched = new Set();
+  (b.attempts||[]).forEach(a=>{
+    if((a.subject||"alevel-maths")!=="alevel-maths") return;
+    const sid = movedSubjectForQid(a.qid) || (String(a.qid||"").startsWith("c") ? movedSubjectForTopic(a.topic) : null);
+    if(sid){ touched.add(a.topic); a.subject = sid; changed = true; }
+  });
+  (b.custom||[]).forEach(c=>{
+    if((c.subject||"alevel-maths")!=="alevel-maths") return;
+    const sid = movedSubjectForTopic(c.topic);
+    if(sid){ c.subject = sid; changed = true; }
+  });
+  if(touched.size){
+    const derived = deriveProgress(b.attempts||[]);
+    b.progress = {...(b.progress||{})};
+    touched.forEach(topic=>{
+      const sid = movedSubjectForTopic(topic);
+      if(sid){ const k = topicKey(sid, topic); if(derived[k]) b.progress[k] = derived[k]; }
+      if(!derived[topic]) delete b.progress[topic];       // nothing left under A-Level Maths for this topic
+    });
+  }
+  return changed;
+}
+function migrateLocalData(){
+  try{ const b = localBlob(); if(migrateBlob(b)) writeLocal(b); }catch(e){}
+}
 function mergeBlobs(L, R){
   L = L || {}; R = R || {};
   const lm = metaFix(L.meta), rm = metaFix(R.meta);
@@ -510,7 +552,9 @@ function mergeBlobs(L, R){
   const shop = { active:(la.t||0)>=(ra.t||0) ? la : ra };
   if(!shop.active.id) shop.active = {id:"classic", t:0};
 
-  return { progress, qstate, attempts, custom, reports, decks, shop, meta };
+  const merged = { progress, qstate, attempts, custom, reports, decks, shop, meta };
+  migrateBlob(merged);
+  return merged;
 }
 function writeLocal(b){
   applyingRemote = true;
@@ -1181,12 +1225,14 @@ const SUBJECTS = [
   { id:"gcse-maths-foundation", name:"GCSE Maths (Foundation)", group:"GCSE", grades:"gcse-foundation", idPrefix:"gcse-f-" },
   { id:"gcse-maths-higher",     name:"GCSE Maths (Higher)",     group:"GCSE", grades:"gcse-higher",     idPrefix:"gcse-h-" },
   { id:"gcse-maths-extended",   name:"GCSE Maths (Extended)",   group:"GCSE", grades:"gcse-higher",     idPrefix:"gcse-e-" },
-  { id:"alevel-maths",          name:"A-Level Maths",           group:"A-Level", grades:"alevel",       idPrefix:"" },
+  { id:"alevel-maths",          name:"A-Level Maths (Pure)",       group:"A-Level", grades:"alevel",    idPrefix:"" },
+  { id:"alevel-maths-stats",    name:"A-Level Maths (Statistics)", group:"A-Level", grades:"alevel",    idPrefix:"als-" },
+  { id:"alevel-maths-mechanics",name:"A-Level Maths (Mechanics)",  group:"A-Level", grades:"alevel",    idPrefix:"alm-" },
   { id:"alevel-further-maths",  name:"A-Level Further Maths",   group:"A-Level", grades:"alevel",       idPrefix:"fm-" }
 ];
 // Each subject's questions live in their own file: questions/<subject id>.json
 // Change QUESTIONS_VERSION whenever you edit a question file, so browsers fetch the new copy straight away.
-const QUESTIONS_VERSION = "9";
+const QUESTIONS_VERSION = "12";
 const SUBJECT_BANKS = {};
 const bankLoads = {}, bankErrors = {};
 function bankLoaded(sid){ return !!SUBJECT_BANKS[sid]; }
@@ -2601,6 +2647,7 @@ function paperCategories(){ return [...new Set(getAllTopics().filter(t=>t.questi
 function paperCategory(){
   if(isGcse()) return null;
   const cats = paperCategories();
+  if(cats.length<2) return null;
   if(!cats.includes(paper.category)){ let saved=null; try{ saved = localStorage.getItem("paperCategory"); }catch(e){} paper.category = cats.includes(saved) ? saved : cats[0]; }
   return paper.category;
 }
@@ -4469,6 +4516,7 @@ function syncFormHintsFromDOM(){
   });
 }
 
+migrateLocalData();
 applyShopTheme();
 document.title = SITE_NAME;
 loadAdsScript();
