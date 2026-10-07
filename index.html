@@ -443,6 +443,8 @@ function deriveProgress(attempts){
 // "alevel-maths-mechanics"). They are folders inside A-Level Maths again, so anything saved under
 // those subjects is moved back here (same question ids; topic progress uses plain topic names).
 const RETIRED_SUBJECTS = ["alevel-maths-stats","alevel-maths-mechanics"];
+// The single "A-Level Further Maths" subject became one subject per exam board; its questions were Edexcel's.
+const RENAMED_SUBJECTS = { "alevel-further-maths": "alevel-further-maths-edexcel" };
 function migrateBlob(b){
   let changed = false;
   const touched = new Set();
@@ -452,7 +454,13 @@ function migrateBlob(b){
   (b.custom||[]).forEach(c=>{
     if(RETIRED_SUBJECTS.includes(c.subject)){ c.subject = "alevel-maths"; changed = true; }
   });
+  (b.attempts||[]).forEach(a=>{ if(RENAMED_SUBJECTS[a.subject]){ a.subject = RENAMED_SUBJECTS[a.subject]; changed = true; } });
+  (b.custom||[]).forEach(c=>{ if(RENAMED_SUBJECTS[c.subject]){ c.subject = RENAMED_SUBJECTS[c.subject]; changed = true; } });
   const prog = b.progress||{};
+  Object.keys(prog).forEach(k=>{
+    const old = Object.keys(RENAMED_SUBJECTS).find(x=>k.startsWith(x+"|"));
+    if(old){ const nk = RENAMED_SUBJECTS[old]+"|"+k.slice(old.length+1); if(!prog[nk]) prog[nk] = prog[k]; delete prog[k]; changed = true; }
+  });
   Object.keys(prog).forEach(k=>{
     const sid = RETIRED_SUBJECTS.find(x=>k.startsWith(x+"|"));
     if(sid){ touched.add(k.slice(sid.length+1)); delete prog[k]; changed = true; }
@@ -1212,11 +1220,14 @@ const SUBJECTS = [
   { id:"gcse-maths-higher",     name:"GCSE Maths (Higher)",     group:"GCSE", grades:"gcse-higher",     idPrefix:"gcse-h-" },
   { id:"gcse-maths-extended",   name:"GCSE Maths (Extended)",   group:"GCSE", grades:"gcse-higher",     idPrefix:"gcse-e-" },
   { id:"alevel-maths",          name:"A-Level Maths",           group:"A-Level", grades:"alevel",       idPrefix:"" },
-  { id:"alevel-further-maths",  name:"A-Level Further Maths",   group:"A-Level", grades:"alevel",       idPrefix:"fm-" }
+  { id:"alevel-further-maths-edexcel",   name:"A-Level Further Maths (Edexcel)",    group:"A-Level", grades:"alevel", idPrefix:"fm-" },
+  { id:"alevel-further-maths-aqa",       name:"A-Level Further Maths (AQA)",        group:"A-Level", grades:"alevel", idPrefix:"fma-" },
+  { id:"alevel-further-maths-ocr-a",     name:"A-Level Further Maths (OCR A)",      group:"A-Level", grades:"alevel", idPrefix:"fmo-" },
+  { id:"alevel-further-maths-ocr-b-mei", name:"A-Level Further Maths (OCR B MEI)",  group:"A-Level", grades:"alevel", idPrefix:"fmb-" }
 ];
 // Each subject's questions live in their own file: questions/<subject id>.json
 // Change QUESTIONS_VERSION whenever you edit a question file, so browsers fetch the new copy straight away.
-const QUESTIONS_VERSION = "14";
+const QUESTIONS_VERSION = "16";
 const SUBJECT_BANKS = {};
 const bankLoads = {}, bankErrors = {};
 function bankLoaded(sid){ return !!SUBJECT_BANKS[sid]; }
@@ -1239,6 +1250,7 @@ function loadAllSubjects(){ return Promise.allSettled(SUBJECTS.map(s=>loadSubjec
 function subjectOf(x){ return (x && x.subject) || "alevel-maths"; }
 function currentSubject(){
   let s = null; try{ s = localStorage.getItem(SUBJECT_KEY); }catch(e){}
+  if(typeof RENAMED_SUBJECTS!=="undefined" && RENAMED_SUBJECTS[s]) s = RENAMED_SUBJECTS[s];
   return SUBJECTS.some(x=>x.id===s) ? s : "alevel-maths";
 }
 function subjectInfo(id){ const sid = id || currentSubject(); return SUBJECTS.find(s=>s.id===sid) || SUBJECTS.find(s=>s.id==="alevel-maths"); }
