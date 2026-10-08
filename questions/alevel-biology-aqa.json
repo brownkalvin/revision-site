@@ -1,0 +1,1694 @@
+[
+ {
+  "topic": "Carbohydrates",
+  "category": "Biological molecules",
+  "questions": [
+   {
+    "id": "bio-p1-2017-02.1-a",
+    "marks": 2,
+    "prompt": "Describe the structure of a cellulose molecule. (2)",
+    "hints": [
+     "Which isomer of glucose is it made from?",
+     "Think about how neighbouring chains are held together."
+    ],
+    "solution": "Made of β-glucose (monomers) [B1]\nJoined by 1-4 glycosidic bonds (alternate monomers inverted) [B1]\nStraight / unbranched chains [B1]\nChains linked by hydrogen bonds to form microfibrils. [B1]\nAny 2 of these points — max 2 marks.\n\nModel answer:\nCellulose is a polymer of β-glucose joined by 1-4 glycosidic bonds, with alternate monomers inverted, giving long straight unbranched chains held together by hydrogen bonds into microfibrils. (Any 2 points.)",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q02.1",
+    "subtopic": "Carbohydrates: polysaccharides"
+   },
+   {
+    "id": "bio-p1-2017-02.1-b",
+    "marks": 2,
+    "prompt": "Starch is made of two polysaccharides, amylose and amylopectin. Describe the structure of starch. (2)",
+    "hints": [
+     "Both are made from the same monomer.",
+     "Which one is branched?"
+    ],
+    "solution": "Polymer of α-glucose [B1]\nAmylose: 1-4 glycosidic bonds, unbranched (helical) [B1]\nAmylopectin: 1-4 and 1-6 glycosidic bonds, so branched. [B1]\nAny 2 of these points — max 2 marks.\n\nModel answer:\nStarch is a polymer of α-glucose. Amylose has only 1-4 glycosidic bonds and coils into an unbranched helix; amylopectin has 1-4 and 1-6 bonds, so it is branched. (Any 2 points.)",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q02.1",
+    "subtopic": "Carbohydrates: polysaccharides"
+   },
+   {
+    "id": "bio-p1-2017-02.1-c",
+    "marks": 2,
+    "prompt": "Explain two ways in which the structure of glycogen makes it suitable as an energy store in animal cells. (2)",
+    "hints": [
+     "Think about how quickly glucose needs to be released.",
+     "Think about its effect on water potential."
+    ],
+    "solution": "Highly branched, so many ends for (rapid) hydrolysis / enzyme action [B1]\nInsoluble, so does not affect water potential / osmosis [B1]\nCompact, so a lot stored in a small space [B1]\nLarge molecule, so cannot leave the cell. [B1]\nAny 2 of these points — max 2 marks.\n\nModel answer:\nAny two explained features, e.g. it is highly branched so there are many ends for enzymes to hydrolyse quickly; it is insoluble so it doesn't change the cell's water potential.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q02.1",
+    "subtopic": "Carbohydrates: polysaccharides"
+   }
+  ]
+ },
+ {
+  "topic": "Lipids",
+  "category": "Biological molecules",
+  "questions": []
+ },
+ {
+  "topic": "Proteins",
+  "category": "Biological molecules",
+  "questions": [
+   {
+    "id": "bio-p1-2017-05.1-b",
+    "marks": 1,
+    "prompt": "Which equation represents the formation of a dipeptide?\n\nChoose one answer.\n\nA  dipeptide + water → amino acid + amino acid\nB  amino acid + amino acid + water → dipeptide\nC  amino acid + amino acid → dipeptide + water\nD  amino acid + amino acid → dipeptide + ATP (1)",
+    "hints": [
+     "Is a dipeptide formed by condensation or hydrolysis?",
+     "Which side of the equation is water on?"
+    ],
+    "solution": "C [B1]\n\nModel answer:\nC: amino acid + amino acid → dipeptide + water (a condensation reaction).",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q05.1",
+    "subtopic": "Condensation and hydrolysis"
+   }
+  ]
+ },
+ {
+  "topic": "Enzymes",
+  "category": "Biological molecules",
+  "questions": [
+   {
+    "id": "bio-p1-2017-04.2-a",
+    "marks": 4,
+    "prompt": "An enzyme was incubated with excess substrate at 30 °C and at 60 °C. The graph shows the mass of product formed over time.\n\nExplain the shapes of both curves. (4)",
+    "hints": [
+     "Compare the initial rates first — what does temperature do to kinetic energy?",
+     "Why does the 60 °C curve level off at a lower mass of product?"
+    ],
+    "solution": "At 60 °C, faster initial rate because more kinetic energy, so more enzyme–substrate complexes formed [B1]\nAt 60 °C, enzyme denatured (over time) — hydrogen / ionic bonds broken, changing the tertiary structure [B1]\nActive site changes shape so substrate no longer fits / is not complementary, so no more product formed (curve levels off) [B1]\nAt 30 °C, slower rate but enzyme not denatured, so product keeps increasing (reaches a higher total). [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q04.2",
+    "subtopic": "Enzymes: temperature",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"11\" fill=\"currentColor\" stroke=\"currentColor\"><line x1=\"52\" y1=\"16\" x2=\"52\" y2=\"216\" stroke-width=\"1.2\"/><line x1=\"52\" y1=\"216\" x2=\"400\" y2=\"216\" stroke-width=\"1.2\"/><line x1=\"52.0\" y1=\"216\" x2=\"52.0\" y2=\"220\"/><text x=\"52.0\" y=\"232\" text-anchor=\"middle\" stroke=\"none\">0</text><line x1=\"110.0\" y1=\"216\" x2=\"110.0\" y2=\"220\"/><text x=\"110.0\" y=\"232\" text-anchor=\"middle\" stroke=\"none\">10</text><line x1=\"168.0\" y1=\"216\" x2=\"168.0\" y2=\"220\"/><text x=\"168.0\" y=\"232\" text-anchor=\"middle\" stroke=\"none\">20</text><line x1=\"226.0\" y1=\"216\" x2=\"226.0\" y2=\"220\"/><text x=\"226.0\" y=\"232\" text-anchor=\"middle\" stroke=\"none\">30</text><line x1=\"284.0\" y1=\"216\" x2=\"284.0\" y2=\"220\"/><text x=\"284.0\" y=\"232\" text-anchor=\"middle\" stroke=\"none\">40</text><line x1=\"342.0\" y1=\"216\" x2=\"342.0\" y2=\"220\"/><text x=\"342.0\" y=\"232\" text-anchor=\"middle\" stroke=\"none\">50</text><line x1=\"400.0\" y1=\"216\" x2=\"400.0\" y2=\"220\"/><text x=\"400.0\" y=\"232\" text-anchor=\"middle\" stroke=\"none\">60</text><line x1=\"48\" y1=\"216.0\" x2=\"52\" y2=\"216.0\"/><text x=\"45\" y=\"220.0\" text-anchor=\"end\" stroke=\"none\">0</text><line x1=\"48\" y1=\"166.0\" x2=\"52\" y2=\"166.0\"/><text x=\"45\" y=\"170.0\" text-anchor=\"end\" stroke=\"none\">10</text><line x1=\"48\" y1=\"116.0\" x2=\"52\" y2=\"116.0\"/><text x=\"45\" y=\"120.0\" text-anchor=\"end\" stroke=\"none\">20</text><line x1=\"48\" y1=\"66.0\" x2=\"52\" y2=\"66.0\"/><text x=\"45\" y=\"70.0\" text-anchor=\"end\" stroke=\"none\">30</text><line x1=\"48\" y1=\"16.0\" x2=\"52\" y2=\"16.0\"/><text x=\"45\" y=\"20.0\" text-anchor=\"end\" stroke=\"none\">40</text><text x=\"226.0\" y=\"254\" text-anchor=\"middle\" stroke=\"none\">Time / minutes</text><text transform=\"translate(13,116.0) rotate(-90)\" text-anchor=\"middle\" stroke=\"none\">Mass of product / mg</text><polyline points=\"52.0,216.0 110.0,176.0 168.0,141.0 226.0,106.0 284.0,76.0 342.0,51.0 400.0,31.0\" fill=\"none\" stroke-width=\"2\"/><text x=\"396.0\" y=\"24.0\" text-anchor=\"end\" stroke=\"none\">30 °C</text><polyline points=\"52.0,216.0 81.0,156.0 110.0,131.0 139.0,121.0 168.0,116.0 284.0,116.0 400.0,116.0\" fill=\"none\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"396.0\" y=\"109.0\" text-anchor=\"end\" stroke=\"none\">60 °C</text></svg>",
+     "alt": "Line graph of mass of product against time at 30 °C and 60 °C. The 60 °C curve rises steeply then levels off at 20 mg; the 30 °C curve rises steadily to 37 mg at 60 minutes."
+    }
+   },
+   {
+    "id": "bio-p1-2017-04.2-b",
+    "marks": 4,
+    "prompt": "The graph shows the effect of pH on the rate of reaction of an enzyme.\n\nExplain why the rate of reaction is low at pH 2 and at pH 12. (4)",
+    "hints": [
+     "What do H⁺ and OH⁻ ions affect in a protein?",
+     "Link the change in structure to enzyme–substrate complexes."
+    ],
+    "solution": "Concentration of H⁺ / OH⁻ ions changes [B1]\nBreaks ionic / hydrogen bonds (in the tertiary structure) [B1]\nActive site changes shape / substrate no longer complementary [B1]\nFewer enzyme–substrate complexes formed. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q04.2",
+    "subtopic": "Enzymes: pH",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"11\" fill=\"currentColor\" stroke=\"currentColor\"><line x1=\"52\" y1=\"16\" x2=\"52\" y2=\"216\" stroke-width=\"1.2\"/><line x1=\"52\" y1=\"216\" x2=\"400\" y2=\"216\" stroke-width=\"1.2\"/><line x1=\"52.0\" y1=\"216\" x2=\"52.0\" y2=\"220\"/><text x=\"52.0\" y=\"232\" text-anchor=\"middle\" stroke=\"none\">0</text><line x1=\"101.7\" y1=\"216\" x2=\"101.7\" y2=\"220\"/><text x=\"101.7\" y=\"232\" text-anchor=\"middle\" stroke=\"none\">2</text><line x1=\"151.4\" y1=\"216\" x2=\"151.4\" y2=\"220\"/><text x=\"151.4\" y=\"232\" text-anchor=\"middle\" stroke=\"none\">4</text><line x1=\"201.1\" y1=\"216\" x2=\"201.1\" y2=\"220\"/><text x=\"201.1\" y=\"232\" text-anchor=\"middle\" stroke=\"none\">6</text><line x1=\"250.9\" y1=\"216\" x2=\"250.9\" y2=\"220\"/><text x=\"250.9\" y=\"232\" text-anchor=\"middle\" stroke=\"none\">8</text><line x1=\"300.6\" y1=\"216\" x2=\"300.6\" y2=\"220\"/><text x=\"300.6\" y=\"232\" text-anchor=\"middle\" stroke=\"none\">10</text><line x1=\"350.3\" y1=\"216\" x2=\"350.3\" y2=\"220\"/><text x=\"350.3\" y=\"232\" text-anchor=\"middle\" stroke=\"none\">12</text><line x1=\"400.0\" y1=\"216\" x2=\"400.0\" y2=\"220\"/><text x=\"400.0\" y=\"232\" text-anchor=\"middle\" stroke=\"none\">14</text><line x1=\"48\" y1=\"216.0\" x2=\"52\" y2=\"216.0\"/><text x=\"45\" y=\"220.0\" text-anchor=\"end\" stroke=\"none\">0</text><line x1=\"48\" y1=\"166.0\" x2=\"52\" y2=\"166.0\"/><text x=\"45\" y=\"170.0\" text-anchor=\"end\" stroke=\"none\">10</text><line x1=\"48\" y1=\"116.0\" x2=\"52\" y2=\"116.0\"/><text x=\"45\" y=\"120.0\" text-anchor=\"end\" stroke=\"none\">20</text><line x1=\"48\" y1=\"66.0\" x2=\"52\" y2=\"66.0\"/><text x=\"45\" y=\"70.0\" text-anchor=\"end\" stroke=\"none\">30</text><line x1=\"48\" y1=\"16.0\" x2=\"52\" y2=\"16.0\"/><text x=\"45\" y=\"20.0\" text-anchor=\"end\" stroke=\"none\">40</text><text x=\"226.0\" y=\"254\" text-anchor=\"middle\" stroke=\"none\">pH</text><text transform=\"translate(13,116.0) rotate(-90)\" text-anchor=\"middle\" stroke=\"none\">Rate of reaction / arbitrary units</text><polyline points=\"76.9,213.5 101.7,206.0 151.4,156.0 201.1,66.0 226.0,46.0 250.9,71.0 300.6,166.0 350.3,211.0 375.1,214.5\" fill=\"none\" stroke-width=\"2\"/><text x=\"371.1\" y=\"207.5\" text-anchor=\"end\" stroke=\"none\"></text></svg>",
+     "alt": "Line graph of rate of reaction against pH. Rate peaks at pH 7 and is close to zero at pH 2 and pH 12."
+    }
+   },
+   {
+    "id": "bio-p1-2017-04.2-c",
+    "marks": 4,
+    "prompt": "The graph shows the rate of an enzyme-controlled reaction at different substrate concentrations, with and without an inhibitor.\n\nExplain the results shown in the graph. (4)",
+    "hints": [
+     "At high substrate concentration the two curves almost meet — what type of inhibitor does that suggest?",
+     "Why does the curve without inhibitor level off?"
+    ],
+    "solution": "Inhibitor is competitive / similar shape to substrate, so binds to the active site [B1]\nAt low substrate concentration, inhibitor occupies active sites, so fewer enzyme–substrate complexes / lower rate [B1]\nAt high substrate concentration, substrate outcompetes inhibitor, so rate approaches the same maximum [B1]\nWithout inhibitor, rate levels off because all active sites are occupied / enzyme concentration is limiting. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q04.2",
+    "subtopic": "Enzymes: inhibition",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"11\" fill=\"currentColor\" stroke=\"currentColor\"><line x1=\"52\" y1=\"16\" x2=\"52\" y2=\"216\" stroke-width=\"1.2\"/><line x1=\"52\" y1=\"216\" x2=\"400\" y2=\"216\" stroke-width=\"1.2\"/><line x1=\"52.0\" y1=\"216\" x2=\"52.0\" y2=\"220\"/><text x=\"52.0\" y=\"232\" text-anchor=\"middle\" stroke=\"none\">0</text><line x1=\"121.6\" y1=\"216\" x2=\"121.6\" y2=\"220\"/><text x=\"121.6\" y=\"232\" text-anchor=\"middle\" stroke=\"none\">2</text><line x1=\"191.2\" y1=\"216\" x2=\"191.2\" y2=\"220\"/><text x=\"191.2\" y=\"232\" text-anchor=\"middle\" stroke=\"none\">4</text><line x1=\"260.8\" y1=\"216\" x2=\"260.8\" y2=\"220\"/><text x=\"260.8\" y=\"232\" text-anchor=\"middle\" stroke=\"none\">6</text><line x1=\"330.4\" y1=\"216\" x2=\"330.4\" y2=\"220\"/><text x=\"330.4\" y=\"232\" text-anchor=\"middle\" stroke=\"none\">8</text><line x1=\"400.0\" y1=\"216\" x2=\"400.0\" y2=\"220\"/><text x=\"400.0\" y=\"232\" text-anchor=\"middle\" stroke=\"none\">10</text><line x1=\"48\" y1=\"216.0\" x2=\"52\" y2=\"216.0\"/><text x=\"45\" y=\"220.0\" text-anchor=\"end\" stroke=\"none\">0</text><line x1=\"48\" y1=\"176.0\" x2=\"52\" y2=\"176.0\"/><text x=\"45\" y=\"180.0\" text-anchor=\"end\" stroke=\"none\">10</text><line x1=\"48\" y1=\"136.0\" x2=\"52\" y2=\"136.0\"/><text x=\"45\" y=\"140.0\" text-anchor=\"end\" stroke=\"none\">20</text><line x1=\"48\" y1=\"96.0\" x2=\"52\" y2=\"96.0\"/><text x=\"45\" y=\"100.0\" text-anchor=\"end\" stroke=\"none\">30</text><line x1=\"48\" y1=\"56.0\" x2=\"52\" y2=\"56.0\"/><text x=\"45\" y=\"60.0\" text-anchor=\"end\" stroke=\"none\">40</text><line x1=\"48\" y1=\"16.0\" x2=\"52\" y2=\"16.0\"/><text x=\"45\" y=\"20.0\" text-anchor=\"end\" stroke=\"none\">50</text><text x=\"226.0\" y=\"254\" text-anchor=\"middle\" stroke=\"none\">Substrate concentration / mmol dm⁻³</text><text transform=\"translate(13,116.0) rotate(-90)\" text-anchor=\"middle\" stroke=\"none\">Rate / arbitrary units</text><polyline points=\"52.0,216.0 86.8,136.0 121.6,96.0 191.2,64.0 260.8,52.0 330.4,48.0 400.0,46.0\" fill=\"none\" stroke-width=\"2\"/><text x=\"396.0\" y=\"39.0\" text-anchor=\"end\" stroke=\"none\">No inhibitor</text><polyline points=\"52.0,216.0 86.8,184.0 121.6,156.0 191.2,116.0 260.8,88.0 330.4,68.0 400.0,56.0\" fill=\"none\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"396.0\" y=\"90.0\" text-anchor=\"end\" stroke=\"none\">With inhibitor</text></svg>",
+     "alt": "Line graph of rate against substrate concentration with and without an inhibitor. Without inhibitor the rate levels off near 42; with inhibitor it rises more slowly, approaching 40 at the highest concentration."
+    }
+   },
+   {
+    "id": "bio-p1-2017-05.2-c",
+    "marks": 1,
+    "prompt": "A drug inhibits an enzyme in a malaria parasite but does not inhibit the human enzyme that catalyses the same reaction. Suggest why. (1)",
+    "hints": [
+     "Same reaction does not mean same protein.",
+     "Link primary structure to shape."
+    ],
+    "solution": "Different amino acid sequence / primary structure, so different tertiary structure / shape of binding site, so drug not complementary. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q05.2",
+    "subtopic": "Enzymes: specificity"
+   }
+  ]
+ },
+ {
+  "topic": "Nucleic acids",
+  "category": "Biological molecules",
+  "questions": [
+   {
+    "id": "bio-p1-2017-01.1-b",
+    "marks": 1,
+    "prompt": "An RNA nucleotide contains a phosphate group. Name the other two components of an RNA nucleotide. (1)",
+    "hints": [
+     "Compare with a DNA nucleotide: one component is different.",
+     "One component is a pentose sugar."
+    ],
+    "solution": "Ribose and a (nitrogenous / organic) base (both needed); accept a named base A, U, C or G. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q01.1",
+    "subtopic": "Nucleic acids"
+   }
+  ]
+ },
+ {
+  "topic": "ATP",
+  "category": "Biological molecules",
+  "questions": [
+   {
+    "id": "bio-p1-2017-05.1-a",
+    "marks": 1,
+    "prompt": "Which equation represents the hydrolysis of ATP?\n\nChoose one answer.\n\nA  ATP + H₂O → ADP + Pᵢ\nB  ADP + Pᵢ → ATP + H₂O\nC  ATP → ADP + Pᵢ + H₂O\nD  ATP + H₂O → AMP + Pᵢ (1)",
+    "hints": [
+     "Hydrolysis uses water as a reactant.",
+     "One phosphate is removed."
+    ],
+    "solution": "A [B1]\n\nModel answer:\nA: ATP + H₂O → ADP + Pᵢ (hydrolysis uses water and removes one phosphate).",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q05.1",
+    "subtopic": "ATP"
+   },
+   {
+    "id": "bio-p1-2017-05.1-c",
+    "marks": 1,
+    "prompt": "Which statement about ATP is correct?\n\nChoose one answer.\n\nA  ATP contains deoxyribose\nB  ATP synthase catalyses condensation of ADP and Pᵢ\nC  ATP hydrolase joins ADP and Pᵢ\nD  ATP is a long-term energy store (1)",
+    "hints": [
+     "Think about how ATP is made in the light-dependent reaction and respiration.",
+     "Which enzyme makes ATP?"
+    ],
+    "solution": "B [B1]\n\nModel answer:\nB: ATP synthase catalyses a condensation reaction between ADP and Pᵢ.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q05.1",
+    "subtopic": "ATP"
+   }
+  ]
+ },
+ {
+  "topic": "Water and inorganic ions",
+  "category": "Biological molecules",
+  "questions": []
+ },
+ {
+  "topic": "Cell structure",
+  "category": "Cells",
+  "questions": [
+   {
+    "id": "bio-p1-2017-01.1-a",
+    "marks": 1,
+    "prompt": "Other than the nucleus, name the two organelles in a plant cell that contain their own DNA. (1)",
+    "hints": [
+     "Think about which organelles are thought to have evolved from free-living prokaryotes.",
+     "One of them is the site of aerobic respiration."
+    ],
+    "solution": "Mitochondria and chloroplasts (both needed). [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q01.1",
+    "subtopic": "Eukaryotic cell structure"
+   },
+   {
+    "id": "bio-p1-2017-05.2-a",
+    "marks": 1,
+    "prompt": "Penicillin prevents bacteria forming cell walls. Suggest why penicillin does not harm human cells. (1)",
+    "hints": [
+     "What structure does a human cell lack?",
+     "What are bacterial cell walls made of?"
+    ],
+    "solution": "Human cells do not have a cell wall / murein (peptidoglycan). [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q05.2",
+    "subtopic": "Antibiotics"
+   },
+   {
+    "id": "bio-p1-2017-05.2-b",
+    "marks": 1,
+    "prompt": "An antibiotic binds to bacterial 70S ribosomes and stops translation. Suggest why it does not stop translation in the cytoplasm of human cells. (1)",
+    "hints": [
+     "Are human cytoplasmic ribosomes the same size as bacterial ones?",
+     "Binding depends on shape."
+    ],
+    "solution": "Human (cytoplasmic) ribosomes are 80S / larger / a different shape, so the antibiotic does not bind. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q05.2",
+    "subtopic": "Antibiotics"
+   },
+   {
+    "id": "bio-p1-2017-10.1-a",
+    "marks": 6,
+    "prompt": "Contrast the structure of prokaryotic cells with the structure of eukaryotic cells. (6)",
+    "hints": [
+     "Give paired differences: prokaryotes have … whereas eukaryotes have …",
+     "Think about DNA, organelles, ribosomes and the cell wall."
+    ],
+    "solution": "Prokaryotes have no nucleus — DNA free in cytoplasm; eukaryotes have a nucleus [B1]\nProkaryotic DNA circular; eukaryotic DNA linear [B1]\nProkaryotic DNA not associated with histones; eukaryotic DNA is [B1]\nProkaryotes have no membrane-bound organelles (e.g. mitochondria); eukaryotes do [B1]\nProkaryotes have smaller (70S) ribosomes; eukaryotes have larger (80S) ribosomes [B1]\nProkaryotic cell wall made of murein / peptidoglycan; plant / fungal walls made of cellulose / chitin [B1]\nProkaryotes may have plasmids / capsule / flagella of different structure [B1]\nProkaryotic cells are smaller. [B1]\nAny 6 of these points — max 6 marks.\n\nModel answer:\nAny 6 contrasting points (each must state both sides).",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q10.1",
+    "subtopic": "Prokaryotic and eukaryotic cells"
+   }
+  ]
+ },
+ {
+  "topic": "Microscopy and cell fractionation",
+  "category": "Cells",
+  "questions": [
+   {
+    "id": "bio-p1-2017-10.1-b",
+    "marks": 6,
+    "prompt": "Compare and contrast the scanning electron microscope (SEM) and the transmission electron microscope (TEM). (6)",
+    "hints": [
+     "Give similarities first, then differences.",
+     "Where does the electron beam go in each one?"
+    ],
+    "solution": "Similarity: both use a beam of electrons (focused by electromagnets) [B1]\nSimilarity: both need a vacuum, so specimens must be dead [B1]\nSimilarity: both have higher resolution than optical microscopes / produce black-and-white images [B1]\nTEM: electrons pass through the specimen; SEM: electrons are scattered / bounce off the surface [B1]\nTEM gives 2D images of internal structure; SEM gives 3D images of surfaces [B1]\nTEM has higher resolution (about 0.1 nm) than SEM [B1]\nTEM specimens must be extremely thin; SEM specimens need not be [B1]\nBoth may show artefacts from preparation. [B1]\nAny 6 of these points — max 6 marks.\n\nModel answer:\nAny 6 points; at least one similarity and one difference.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q10.1",
+    "subtopic": "Microscopy"
+   },
+   {
+    "id": "bio-p1-2017-10.1-c",
+    "marks": 6,
+    "prompt": "Describe how cell fractionation and ultracentrifugation can be used to obtain a sample of mitochondria from liver tissue. Explain the conditions used. (6)",
+    "hints": [
+     "Explain why the solution is cold, isotonic and buffered.",
+     "Which organelle forms the first pellet?"
+    ],
+    "solution": "Cold — reduces enzyme activity / stops organelles being digested [B1]\nIsotonic — prevents osmosis, so organelles do not burst or shrink [B1]\nBuffered — keeps pH constant so proteins / enzymes are not denatured [B1]\nHomogenise (blend) tissue, then filter to remove debris / whole cells [B1]\nCentrifuge at low speed; nuclei form the first pellet [B1]\nSpin supernatant at a higher speed; mitochondria form the next pellet. [B1]\n\nModel answer:\n6 points.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q10.1",
+    "subtopic": "Cell fractionation"
+   }
+  ]
+ },
+ {
+  "topic": "Cell division",
+  "category": "Cells",
+  "questions": [
+   {
+    "id": "bio-p1-2017-04.1-a",
+    "marks": 2,
+    "prompt": "Viruses are not cells and cannot divide. Describe how a virus is replicated. (2)",
+    "hints": [
+     "Viruses need a host cell.",
+     "What does the virus put into the host cell?"
+    ],
+    "solution": "Attachment proteins bind to (complementary) receptors on the host cell [B1]\nViral nucleic acid (DNA / RNA) enters the host cell [B1]\nHost cell (ribosomes / enzymes) makes viral nucleic acid and proteins, which are assembled into new viruses. [B1]\nAny 2 of these points — max 2 marks.\n\nModel answer:\nAny 2 points.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q04.1",
+    "subtopic": "Viral replication"
+   },
+   {
+    "id": "bio-p1-2017-04.1-b",
+    "marks": 2,
+    "prompt": "Give two ways in which binary fission in bacteria differs from mitosis in eukaryotic cells. (2)",
+    "hints": [
+     "Think about the form of the DNA in a bacterium.",
+     "Does a bacterium have a nucleus or spindle?"
+    ],
+    "solution": "Binary fission involves circular DNA / no chromosomes or histones [B1]\nNo spindle (fibres) formed [B1]\nNo nucleus / nuclear envelope to break down [B1]\nPlasmids are also replicated. [B1]\nAny 2 of these points — max 2 marks.\n\nModel answer:\nAny 2 differences.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q04.1",
+    "subtopic": "Cell division in prokaryotes"
+   },
+   {
+    "id": "bio-p1-2017-04.1-c",
+    "marks": 2,
+    "prompt": "Describe what happens to a bacterium's DNA and cytoplasm during binary fission. (2)",
+    "hints": [
+     "There are two types of DNA in many bacteria.",
+     "How does the cell finally split?"
+    ],
+    "solution": "Circular DNA replicates (and plasmids replicate) [B1]\nDNA loops move to opposite poles of the cell [B1]\nCytoplasm divides, producing two daughter cells (each with one copy of circular DNA and a variable number of plasmids). [B1]\nAny 2 of these points — max 2 marks.\n\nModel answer:\nAny 2 points.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q04.1",
+    "subtopic": "Cell division in prokaryotes"
+   }
+  ]
+ },
+ {
+  "topic": "Transport across membranes",
+  "category": "Cells",
+  "questions": [
+   {
+    "id": "bio-p1-2017-02.3-b",
+    "marks": 2,
+    "prompt": "Root hair cells absorb water and mineral ions from the soil. Suggest two features of root hair cells that increase the rate of uptake, and explain how each feature does so. (2)",
+    "hints": [
+     "Think about shape first.",
+     "Mineral ions are often taken up against a concentration gradient."
+    ],
+    "solution": "Long thin extension, so large surface area [B1]\nMany carrier proteins (in membrane), so more active transport of ions [B1]\nMany mitochondria, so more ATP for active transport [B1]\nMany aquaporins / channel proteins, so faster osmosis. [B1]\nAny 2 of these points — max 2 marks.\n\nModel answer:\nAny two features, each with a linked explanation (1 mark each).",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q02.3",
+    "subtopic": "Transport in plants"
+   },
+   {
+    "id": "bio-p1-2017-02.3-c",
+    "marks": 2,
+    "prompt": "Cells lining kidney tubules reabsorb large volumes of water. Suggest two features of the cell-surface membranes of these cells that would increase the rate of water reabsorption, and explain each. (2)",
+    "hints": [
+     "Water crosses membranes through special proteins.",
+     "Rate also depends on area."
+    ],
+    "solution": "Many aquaporins / water channel proteins, so more water moves by osmosis [B1]\nFolded membrane / microvilli, so large surface area [B1]\nThin / short diffusion distance (phospholipid bilayer). [B1]\nAny 2 of these points — max 2 marks.\n\nModel answer:\nAny two features, each with a linked explanation (1 mark each).",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q02.3",
+    "subtopic": "Transport across membranes"
+   },
+   {
+    "id": "bio-p1-2017-03.1-a",
+    "marks": 3,
+    "prompt": "Describe how sodium ions are involved in the absorption of glucose by epithelial cells of the ileum. (3)",
+    "hints": [
+     "Start with what happens on the blood side of the cell.",
+     "Sodium ions are pumped out of the cell into the blood…"
+    ],
+    "solution": "Na⁺ actively transported out of the epithelial cell into the blood (by Na⁺/K⁺ pump, using ATP) [B1]\nThis keeps a low Na⁺ concentration inside the cell / maintains a Na⁺ gradient [B1]\nNa⁺ diffuses into the cell from the lumen through a co-transporter protein [B1]\nCarrying glucose with it, against the glucose concentration gradient [B1]\nGlucose then moves into the blood by facilitated diffusion. [B1]\nAny 3 of these points — max 3 marks.\n\nModel answer:\nNa⁺ is actively pumped out of the cell into the blood, keeping the Na⁺ concentration in the cell low. Na⁺ then diffuses in from the lumen down its gradient through a co-transporter, carrying glucose with it against glucose's gradient. Glucose leaves into the blood by facilitated diffusion. (Any 3 points.)",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q03.1",
+    "subtopic": "Co-transport"
+   },
+   {
+    "id": "bio-p1-2017-03.1-b",
+    "marks": 3,
+    "prompt": "A carrier protein in the cell-surface membrane of stomach lining cells moves hydrogen ions out of the cell in exchange for potassium ions moving in. It uses ATP. Use your knowledge of active transport to suggest how this carrier protein moves the ions. (3)",
+    "hints": [
+     "What happens to ATP, and what effect does that have on the protein?",
+     "Ions bind on one side and are released on the other."
+    ],
+    "solution": "ATP is hydrolysed (to ADP + Pi), releasing energy / phosphorylating the carrier [B1]\nThis changes the shape (tertiary structure) of the carrier protein [B1]\nH⁺ binds inside and is released outside; K⁺ binds outside and is released inside [B1]\nIons move against their concentration gradients. [B1]\nAny 3 of these points — max 3 marks.\n\nModel answer:\nAny 3 points.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q03.1",
+    "subtopic": "Active transport"
+   },
+   {
+    "id": "bio-p1-2017-03.1-c",
+    "marks": 3,
+    "prompt": "A respiratory inhibitor is added to cells lining the ileum. The rate of amino acid absorption decreases. Explain why. (3)",
+    "hints": [
+     "What does a respiratory inhibitor reduce?",
+     "Amino acids are absorbed by co-transport with sodium ions."
+    ],
+    "solution": "Less ATP produced [B1]\nLess active transport of Na⁺ out of the cell (Na⁺/K⁺ pump) [B1]\nSo the Na⁺ concentration gradient (lumen → cell) is not maintained [B1]\nSo less co-transport of amino acids with Na⁺. [B1]\nAny 3 of these points — max 3 marks.\n\nModel answer:\nAny 3 points.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q03.1",
+    "subtopic": "Co-transport"
+   },
+   {
+    "id": "bio-p1-2017-03.2-a",
+    "marks": 4,
+    "prompt": "A drug blocks the glucose co-transporter in the ileum. Scientists gave the drug to one group of mice and a placebo to a control group. The table shows their results. The difference between the groups is significant (P < 0.05).\n\nThe scientists concluded that the drug reduces glucose absorption. Use the data and your knowledge of water potential to explain why the results support this conclusion. (4)",
+    "hints": [
+     "If glucose stays in the gut, what happens to the water potential of the gut contents?",
+     "What does P < 0.05 tell you?"
+    ],
+    "solution": "More glucose remains in the lumen (of the gut) [B1]\nLowers the water potential of the gut contents [B1]\nSo less water leaves the gut by osmosis / water moves into the gut by osmosis [B1]\nFaeces water content higher in drug group and the difference is significant (P < 0.05) / unlikely to be due to chance. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q03.2",
+    "subtopic": "Osmosis and water potential",
+    "table": "Group | Water in faeces / %\nControl (placebo) | 58\nDrug | 72"
+   },
+   {
+    "id": "bio-p1-2017-03.2-b",
+    "marks": 4,
+    "prompt": "People who are lactose intolerant produce very little lactase. Explain why drinking milk can cause them to have diarrhoea (watery faeces). (4)",
+    "hints": [
+     "Lactose is a disaccharide — can it be absorbed?",
+     "Think about the water potential of the gut contents."
+    ],
+    "solution": "Lactose is not hydrolysed (to glucose and galactose) [B1]\nLactose cannot be absorbed (only monosaccharides are absorbed) [B1]\nLactose lowers the water potential of the gut contents / lumen [B1]\nWater moves into the lumen by osmosis, so faeces contain more water. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q03.2",
+    "subtopic": "Osmosis and water potential"
+   },
+   {
+    "id": "bio-p1-2017-03.2-c",
+    "marks": 4,
+    "prompt": "Cholera toxin causes chloride ion channels in ileum epithelial cells to stay open, so chloride ions move out of the cells into the lumen. Explain how this leads to severe, watery diarrhoea. (4)",
+    "hints": [
+     "What happens to the water potential of the lumen?",
+     "Where does the water come from?"
+    ],
+    "solution": "Chloride ions move into the lumen [B1]\nWater potential of the lumen decreases / becomes lower than in the cells [B1]\nWater moves out of the epithelial cells into the lumen by osmosis [B1]\nWater then moves from blood / tissue fluid into the cells, so large volumes are lost in faeces. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q03.2",
+    "subtopic": "Osmosis and water potential"
+   }
+  ]
+ },
+ {
+  "topic": "The immune system",
+  "category": "Cells",
+  "questions": [
+   {
+    "id": "bio-p1-2017-07.1-a",
+    "marks": 3,
+    "prompt": "Describe how a phagocyte destroys a bacterium. (3)",
+    "hints": [
+     "How does the phagocyte recognise the bacterium?",
+     "Which organelle provides the enzymes?"
+    ],
+    "solution": "Phagocyte recognises foreign antigens / is attracted by chemicals [B1]\nEngulfs the bacterium, forming a phagosome / vacuole [B1]\nLysosomes fuse with the phagosome [B1]\nLysozymes / hydrolytic enzymes digest / hydrolyse the bacterium. [B1]\nAny 3 of these points — max 3 marks.\n\nModel answer:\nAny 3 points.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q07.1",
+    "subtopic": "Phagocytosis"
+   },
+   {
+    "id": "bio-p1-2017-07.1-b",
+    "marks": 3,
+    "prompt": "Describe how a body cell infected with a virus is destroyed by the immune system. (3)",
+    "hints": [
+     "How does the immune system know the cell is infected?",
+     "Which type of T cell kills infected cells?"
+    ],
+    "solution": "Infected cell presents viral antigens on its cell-surface membrane [B1]\nCytotoxic T cell with a complementary receptor binds to the antigen [B1]\nT cell releases perforin, which makes holes in the cell membrane [B1]\nCell becomes freely permeable / dies. [B1]\nAny 3 of these points — max 3 marks.\n\nModel answer:\nAny 3 points.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q07.1",
+    "subtopic": "Cell-mediated response"
+   },
+   {
+    "id": "bio-p1-2017-07.1-c",
+    "marks": 3,
+    "prompt": "Explain how vaccination leads to long-term immunity against a disease. (3)",
+    "hints": [
+     "What does a vaccine contain?",
+     "Which cells provide the long-term protection?"
+    ],
+    "solution": "Vaccine contains antigen (dead / weakened pathogen) [B1]\nTriggers a primary immune response / B cells with complementary receptors activated and undergo clonal selection [B1]\nMemory cells are produced [B1]\nOn reinfection, memory cells cause a faster, larger secondary response / more antibody before symptoms develop. [B1]\nAny 3 of these points — max 3 marks.\n\nModel answer:\nAny 3 points.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q07.1",
+    "subtopic": "Vaccination"
+   },
+   {
+    "id": "bio-p1-2017-07.2-a",
+    "marks": 3,
+    "prompt": "Describe the role of helper T cells in the immune response. (3)",
+    "hints": [
+     "What does a helper T cell bind to?",
+     "What chemical messengers do they release, and what do these stimulate?"
+    ],
+    "solution": "Receptor on helper T cell binds to complementary antigen on an antigen-presenting cell [B1]\nHelper T cell is activated and divides by mitosis (clones) [B1]\nReleases cytokines [B1]\nWhich stimulate B cells to divide / phagocytes / cytotoxic T cells. [B1]\nAny 3 of these points — max 3 marks.\n\nModel answer:\nAny 3 points.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q07.2",
+    "subtopic": "Humoral response"
+   },
+   {
+    "id": "bio-p1-2017-07.2-b",
+    "marks": 3,
+    "prompt": "Describe the secondary immune response and explain why it is faster than the primary response. (3)",
+    "hints": [
+     "Which cells remain after the first infection?",
+     "What do they quickly become?"
+    ],
+    "solution": "Memory B cells (remain in the blood from the primary response) [B1]\nRecognise / bind the complementary antigen quickly [B1]\nDivide rapidly by mitosis and differentiate into plasma cells [B1]\nProduce large amounts of antibody quickly, so pathogen destroyed before symptoms. [B1]\nAny 3 of these points — max 3 marks.\n\nModel answer:\nAny 3 points.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q07.2",
+    "subtopic": "Humoral response"
+   },
+   {
+    "id": "bio-p1-2017-07.2-c",
+    "marks": 3,
+    "prompt": "Describe the structure of an antibody and explain how antibodies lead to the destruction of bacteria. (3)",
+    "hints": [
+     "How many polypeptide chains does an antibody have?",
+     "What is agglutination?"
+    ],
+    "solution": "Four polypeptide chains (two heavy, two light) held by disulfide bridges [B1]\nVariable region forms an antigen-binding site complementary to a specific antigen [B1]\nForms antigen–antibody complexes / causes agglutination (clumping) of bacteria [B1]\nClumped bacteria are engulfed by phagocytes. [B1]\nAny 3 of these points — max 3 marks.\n\nModel answer:\nAny 3 points.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q07.2",
+    "subtopic": "Antibodies"
+   },
+   {
+    "id": "bio-p1-2017-07.3-a",
+    "marks": 2,
+    "prompt": "A virus has a surface protein with a similar shape to a protein on insulin-producing cells in the pancreas. Suggest how infection with this virus could lead to type 1 diabetes. (2)",
+    "hints": [
+     "Antibodies bind to shapes.",
+     "What happens to the pancreatic cells?"
+    ],
+    "solution": "Antibodies / T cells made against the viral protein are also complementary to / bind the pancreatic cell protein [B1]\nSo the immune system destroys insulin-producing cells (so little insulin made). [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q07.3",
+    "subtopic": "Autoimmunity"
+   },
+   {
+    "id": "bio-p1-2017-07.3-b",
+    "marks": 2,
+    "prompt": "Suggest why a vaccine against one strain of influenza may not protect a person against a different strain. (2)",
+    "hints": [
+     "What can change on the virus surface?",
+     "Will the memory cells still recognise it?"
+    ],
+    "solution": "Different strains have different (shaped) antigens / antigenic variability [B1]\nMemory cells / antibodies from the vaccine are not complementary to the new antigen. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q07.3",
+    "subtopic": "Antigenic variability"
+   },
+   {
+    "id": "bio-p1-2017-07.3-c",
+    "marks": 2,
+    "prompt": "Rheumatic fever can develop after a throat infection by streptococcal bacteria. Antibodies produced during the infection damage heart muscle. Suggest an explanation. (2)",
+    "hints": [
+     "Compare the shapes of the bacterial antigen and a heart protein.",
+     "What do antibodies do when they bind?"
+    ],
+    "solution": "Bacterial antigen has a similar shape to a protein on heart cells [B1]\nAntibodies are complementary to / bind heart cells, causing damage. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q07.3",
+    "subtopic": "Autoimmunity"
+   }
+  ]
+ },
+ {
+  "topic": "Surface area to volume ratio",
+  "category": "Organisms exchange substances with their environment",
+  "questions": []
+ },
+ {
+  "topic": "Gas exchange",
+  "category": "Organisms exchange substances with their environment",
+  "questions": [
+   {
+    "id": "bio-p1-2017-09.1-a",
+    "marks": 3,
+    "prompt": "Explain three features of the alveoli that make gas exchange efficient. (3)",
+    "hints": [
+     "Fick's law: surface area, distance, gradient.",
+     "Give a feature and link it to one of those."
+    ],
+    "solution": "Thin walls / one cell thick (squamous epithelium), so short diffusion distance [B1]\nMany alveoli, so large surface area [B1]\nSurrounded by a capillary network / ventilation, so a steep concentration gradient is maintained. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q09.1",
+    "subtopic": "Gas exchange in humans"
+   },
+   {
+    "id": "bio-p1-2017-09.1-b",
+    "marks": 3,
+    "prompt": "Explain three features of a leaf that make gas exchange efficient. (3)",
+    "hints": [
+     "How do gases get into the leaf?",
+     "What is in the spongy mesophyll?"
+    ],
+    "solution": "Many stomata, so gases can enter / leave [B1]\nAir spaces in spongy mesophyll, so gases diffuse quickly to cells [B1]\nThin leaf, so short diffusion distance [B1]\nLarge surface area of mesophyll cells for diffusion. [B1]\nAny 3 of these points — max 3 marks.\n\nModel answer:\nAny 3 features with explanation.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q09.1",
+    "subtopic": "Gas exchange in plants"
+   },
+   {
+    "id": "bio-p1-2017-09.1-c",
+    "marks": 3,
+    "prompt": "Explain how an insect limits water loss while still exchanging gases. (3)",
+    "hints": [
+     "What covers the insect's body?",
+     "How can the openings to the tracheal system be controlled?"
+    ],
+    "solution": "Spiracles can close (when less oxygen needed), reducing evaporation [B1]\nWaxy cuticle, reducing evaporation from body surface [B1]\nHairs around spiracles trap moist air, reducing the water potential gradient. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q09.1",
+    "subtopic": "Gas exchange in insects"
+   },
+   {
+    "id": "bio-p1-2017-09.2-a",
+    "marks": 2,
+    "prompt": "Explain how the counter-current mechanism makes gas exchange in fish gills efficient. (2)",
+    "hints": [
+     "Which directions do blood and water flow?",
+     "What happens to the oxygen concentration gradient along the lamella?"
+    ],
+    "solution": "Blood and water flow in opposite directions [B1]\nSo a concentration gradient (of oxygen) is maintained along the whole length of the lamella / gill filament. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q09.2",
+    "subtopic": "Gas exchange in fish"
+   },
+   {
+    "id": "bio-p1-2017-09.2-b",
+    "marks": 2,
+    "prompt": "Tuna are fast-swimming fish. They have a larger gill surface area per gram of body mass than slow-moving fish. Suggest why. (2)",
+    "hints": [
+     "What is different about the metabolism of an active fish?",
+     "What does a larger surface area do?"
+    ],
+    "solution": "More active / higher (metabolic or respiratory) rate, so more oxygen needed [B1]\nLarger surface area allows faster / more diffusion of oxygen. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q09.2",
+    "subtopic": "Gas exchange in fish"
+   },
+   {
+    "id": "bio-p1-2017-09.2-c",
+    "marks": 2,
+    "prompt": "During flight, fluid at the ends of an insect's tracheoles is drawn into the muscle cells. Explain how this increases the rate of gas exchange. (2)",
+    "hints": [
+     "Do gases diffuse faster in air or in water?",
+     "What is now in contact with more of the tracheole wall?"
+    ],
+    "solution": "Gases diffuse faster through air than through liquid [B1]\nLarger surface area of tracheole wall exposed to air / more oxygen reaches muscle cells. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q09.2",
+    "subtopic": "Gas exchange in insects"
+   }
+  ]
+ },
+ {
+  "topic": "Digestion and absorption",
+  "category": "Organisms exchange substances with their environment",
+  "questions": [
+   {
+    "id": "bio-p1-2017-02.3-a",
+    "marks": 2,
+    "prompt": "Epithelial cells lining the ileum absorb glucose rapidly. Suggest two features of these cells that increase the rate of absorption, and explain how each feature does so. (2)",
+    "hints": [
+     "One feature increases surface area.",
+     "Glucose absorption uses co-transport, which depends on ATP."
+    ],
+    "solution": "Microvilli, so a large surface area (for carrier proteins / diffusion) [B1]\nMany carrier / co-transporter proteins, so more glucose transported at once [B1]\nMany mitochondria, so more ATP for active transport (of Na⁺ out of the cell). [B1]\nAny 2 of these points — max 2 marks.\n\nModel answer:\nAny two features, each with a linked explanation (1 mark each).",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q02.3",
+    "subtopic": "Absorption in the ileum"
+   },
+   {
+    "id": "bio-p1-2017-04.3-b",
+    "marks": 2,
+    "prompt": "Amylase is secreted into the lumen of the gut, but maltase is attached to the cell-surface membranes of epithelial cells in the ileum. Suggest an advantage of maltase being membrane-bound. (2)",
+    "hints": [
+     "Where is glucose produced if the enzyme is on the membrane?",
+     "Think about what glucose has to reach to be absorbed."
+    ],
+    "solution": "Glucose is produced close to the co-transporter / carrier proteins [B1]\nSo it is absorbed quickly / maintains a concentration gradient / is not lost or used by gut bacteria. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q04.3",
+    "subtopic": "Digestion and absorption"
+   },
+   {
+    "id": "bio-p1-2017-04.4-a",
+    "marks": 2,
+    "prompt": "Describe the role of membrane-bound disaccharidases in the ileum. (2)",
+    "hints": [
+     "Name a disaccharide and its products.",
+     "Why does it matter that the products are small?"
+    ],
+    "solution": "Hydrolyse disaccharides (e.g. maltose / sucrose / lactose) into monosaccharides [B1]\nMonosaccharides can then be absorbed (by co-transport / facilitated diffusion). [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q04.4",
+    "subtopic": "Digestion and absorption"
+   },
+   {
+    "id": "bio-p1-2017-04.4-b",
+    "marks": 2,
+    "prompt": "Describe how endopeptidases and exopeptidases work together to digest proteins. (2)",
+    "hints": [
+     "The prefixes endo- and exo- tell you where on the chain they act.",
+     "How does one enzyme help the other?"
+    ],
+    "solution": "Endopeptidases hydrolyse peptide bonds within the polypeptide / between amino acids in the middle [B1]\nExopeptidases hydrolyse peptide bonds at the ends, removing single amino acids / dipeptides [B1]\nEndopeptidases create more ends for exopeptidases to act on. [B1]\nAny 2 of these points — max 2 marks.\n\nModel answer:\nAny 2 points.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q04.4",
+    "subtopic": "Digestion and absorption"
+   },
+   {
+    "id": "bio-p1-2017-04.4-c",
+    "marks": 2,
+    "prompt": "Describe the roles of bile salts and lipase in the digestion of lipids. (2)",
+    "hints": [
+     "Bile salts don't digest anything — what do they do to fat droplets?",
+     "What bonds does lipase break?"
+    ],
+    "solution": "Bile salts emulsify lipids into small droplets, increasing surface area (for lipase) [B1]\nLipase hydrolyses (ester bonds in) triglycerides into monoglycerides / glycerol and fatty acids. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q04.4",
+    "subtopic": "Digestion and absorption"
+   }
+  ]
+ },
+ {
+  "topic": "Mass transport in animals",
+  "category": "Organisms exchange substances with their environment",
+  "questions": [
+   {
+    "id": "bio-p1-2017-03.3-a",
+    "marks": 2,
+    "prompt": "A person with a protein-deficient diet has a low concentration of protein in their blood plasma. Explain why tissue fluid accumulates in their body. (2)",
+    "hints": [
+     "How does plasma protein affect water potential?",
+     "At which end of the capillary does water usually return?"
+    ],
+    "solution": "Water potential of plasma is higher / less negative [B1]\nSo less water returns to the capillary by osmosis (at the venule end). [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q03.3",
+    "subtopic": "Tissue fluid"
+   },
+   {
+    "id": "bio-p1-2017-03.3-b",
+    "marks": 2,
+    "prompt": "Explain why a person with high blood pressure may produce more tissue fluid than normal. (2)",
+    "hints": [
+     "What forces fluid out at the arteriole end of a capillary?",
+     "What happens if that force increases?"
+    ],
+    "solution": "Higher hydrostatic pressure (at the arteriole end of capillaries) [B1]\nSo more fluid / water and small molecules forced out of the capillaries. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q03.3",
+    "subtopic": "Tissue fluid"
+   },
+   {
+    "id": "bio-p1-2017-03.3-c",
+    "marks": 2,
+    "prompt": "A parasite blocks the lymph vessels in a person's leg. Explain why the leg swells. (2)",
+    "hints": [
+     "Not all tissue fluid returns to the capillaries.",
+     "Where does the excess normally go?"
+    ],
+    "solution": "Excess tissue fluid normally drains into the lymph vessels (and back to the blood) [B1]\nIf blocked, tissue fluid accumulates (in the tissues). [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q03.3",
+    "subtopic": "Tissue fluid"
+   }
+  ]
+ },
+ {
+  "topic": "Mass transport in plants",
+  "category": "Organisms exchange substances with their environment",
+  "questions": []
+ },
+ {
+  "topic": "DNA, genes and chromosomes",
+  "category": "Genetic information, variation and relationships between organisms",
+  "questions": [
+   {
+    "id": "bio-p1-2017-01.1-c",
+    "marks": 1,
+    "prompt": "Name the two types of molecule that make up a chromosome in a eukaryotic cell. (1)",
+    "hints": [
+     "Eukaryotic DNA is wound around something.",
+     "The answer includes a type of protein."
+    ],
+    "solution": "DNA and histones / (histone) proteins (both needed). [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q01.1",
+    "subtopic": "DNA, genes and chromosomes"
+   }
+  ]
+ },
+ {
+  "topic": "Protein synthesis",
+  "category": "Genetic information, variation and relationships between organisms",
+  "questions": [
+   {
+    "id": "bio-p1-2017-01.2-a",
+    "marks": 3,
+    "prompt": "Describe the role of transfer RNA (tRNA) in translation. (3)",
+    "hints": [
+     "Each tRNA has two important regions — what is attached at each end?",
+     "Start with: each tRNA carries a specific amino acid…"
+    ],
+    "solution": "tRNA carries / binds a specific amino acid [B1]\nHas an anticodon that is complementary to a codon on mRNA [B1]\nBrings the amino acid to the ribosome (in the correct sequence) [B1]\nTwo tRNAs held at the ribosome so the amino acids can be joined by a peptide bond [B1]\ntRNA is released (without its amino acid) and can collect another amino acid. [B1]\nAny 3 of these points — max 3 marks.\n\nModel answer:\ntRNA carries a specific amino acid and has an anticodon complementary to an mRNA codon. It brings its amino acid to the ribosome, where two tRNAs are held so their amino acids can be joined by a peptide bond. The tRNA is then released to collect another amino acid. (Any 3 points.)",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q01.2",
+    "subtopic": "Protein synthesis: translation"
+   },
+   {
+    "id": "bio-p1-2017-01.2-b",
+    "marks": 3,
+    "prompt": "Describe how pre-mRNA is produced from a gene in a eukaryotic cell. Do not include splicing in your answer. (3)",
+    "hints": [
+     "Think about what has to happen to the DNA double helix first.",
+     "Start with: hydrogen bonds between the two DNA strands are broken…"
+    ],
+    "solution": "Hydrogen bonds between DNA strands broken / DNA helicase separates strands [B1]\nOnly one strand acts as a template [B1]\nFree RNA nucleotides line up by complementary base pairing (uracil pairs with adenine) [B1]\nRNA polymerase joins adjacent nucleotides [B1]\nForming phosphodiester bonds. [B1]\nAny 3 of these points — max 3 marks.\n\nModel answer:\nDNA helicase breaks the hydrogen bonds so the strands separate; one strand is used as a template. Free RNA nucleotides align by complementary base pairing (U with A), and RNA polymerase joins them with phosphodiester bonds to form pre-mRNA. (Any 3 points.)",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q01.2",
+    "subtopic": "Protein synthesis: transcription"
+   },
+   {
+    "id": "bio-p1-2017-01.2-c",
+    "marks": 3,
+    "prompt": "Describe how a peptide bond is formed between two amino acids at a ribosome, and what then happens to the first tRNA molecule and the ribosome. (3)",
+    "hints": [
+     "What type of reaction joins two monomers?",
+     "Which two groups on the amino acids react?"
+    ],
+    "solution": "Two tRNAs (with amino acids) are held at the ribosome [B1]\nCondensation reaction (releasing water) [B1]\nBetween the amine group of one amino acid and the carboxyl group of the other [B1]\nUses energy from ATP (hydrolysis) [B1]\nFirst tRNA released and ribosome moves along mRNA to the next codon. [B1]\nAny 3 of these points — max 3 marks.\n\nModel answer:\nTwo tRNAs bound to adjacent codons are held in the ribosome. A condensation reaction joins the carboxyl group of one amino acid to the amine group of the other, using energy from ATP. The first tRNA is released and the ribosome moves one codon along the mRNA. (Any 3 points.)",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q01.2",
+    "subtopic": "Protein synthesis: translation"
+   },
+   {
+    "id": "bio-p1-2017-01.3-a",
+    "marks": 1,
+    "prompt": "A section of mRNA has the base sequence\n\nA U G G C A U U C G A C\n\nGive the base sequence of the DNA template strand it was transcribed from. (1)",
+    "hints": [
+     "Use complementary base pairing.",
+     "In DNA, which base pairs with U on the RNA?"
+    ],
+    "solution": "T A C C G T A A G C T G [B1]\n\nModel answer:\nPair each base: A→T, U→A, G→C, C→G.\nDNA template: TAC CGT AAG CTG",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q01.3",
+    "subtopic": "Protein synthesis: transcription"
+   },
+   {
+    "id": "bio-p1-2017-01.3-b",
+    "marks": 1,
+    "prompt": "Three mRNA codons are\n\nC C A   G U U   A C G\n\nGive the base sequences of the three tRNA anticodons that bind to these codons. (1)",
+    "hints": [
+     "Anticodons are complementary to codons.",
+     "tRNA is RNA, so it contains U, not T."
+    ],
+    "solution": "GGU  CAA  UGC [B1]\n\nModel answer:\nComplementary pairing (RNA to RNA): CCA→GGU, GUU→CAA, ACG→UGC.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q01.3",
+    "subtopic": "Protein synthesis: translation"
+   },
+   {
+    "id": "bio-p1-2017-01.3-c",
+    "marks": 1,
+    "prompt": "A DNA template strand has the base sequence\n\nT A C G G A C T T A A G\n\nGive the base sequence of the mRNA transcribed from this strand. (1)",
+    "hints": [
+     "mRNA is complementary to the template strand.",
+     "Remember A in DNA pairs with U in RNA."
+    ],
+    "solution": "A U G C C U G A A U U C [B1]\n\nModel answer:\nT→A, A→U, C→G, G→C.\nmRNA: AUG CCU GAA UUC",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q01.3",
+    "subtopic": "Protein synthesis: transcription"
+   },
+   {
+    "id": "bio-p1-2017-01.4-a",
+    "marks": 2,
+    "prompt": "Two different proteins are produced in a eukaryotic cell from the same gene. Explain how this is possible. (2)",
+    "hints": [
+     "Think about what happens to pre-mRNA before translation.",
+     "Not every exon has to be kept."
+    ],
+    "solution": "Pre-mRNA is spliced / introns removed [B1]\nDifferent exons can be kept or removed (alternative splicing), giving different mRNA and so different amino acid sequences. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q01.4",
+    "subtopic": "Gene expression: splicing"
+   },
+   {
+    "id": "bio-p1-2017-01.4-b",
+    "marks": 2,
+    "prompt": "Explain why mRNA in a bacterium can be translated immediately after it is transcribed, whereas mRNA in a eukaryotic cell cannot. (2)",
+    "hints": [
+     "What do eukaryotic genes contain that prokaryotic genes do not?",
+     "Where does translation happen relative to the DNA in each cell type?"
+    ],
+    "solution": "Prokaryotic genes do not contain introns, so no splicing is needed [B1]\nEukaryotic pre-mRNA must be spliced (introns removed) / leave the nucleus before translation. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q01.4",
+    "subtopic": "Gene expression: splicing"
+   },
+   {
+    "id": "bio-p1-2017-01.4-c",
+    "marks": 2,
+    "prompt": "A eukaryotic gene is 3600 bases long. The polypeptide it codes for contains 450 amino acids. Use this information to explain why the gene contains far more bases than are needed to code for the polypeptide. (2)",
+    "hints": [
+     "How many bases code for one amino acid?",
+     "450 × 3 = ?"
+    ],
+    "solution": "450 amino acids need only 1350 bases (+3 for the stop codon) / 3 bases per amino acid [B1]\nThe rest is non-coding DNA / introns, which are removed by splicing. [B1]\n\nModel answer:\nEach amino acid is coded for by a triplet, so 450 × 3 = 1350 bases (plus a stop codon). The remaining bases are introns / non-coding sequences, removed from pre-mRNA by splicing.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q01.4",
+    "subtopic": "Gene expression: splicing"
+   }
+  ]
+ },
+ {
+  "topic": "Meiosis and genetic variation",
+  "category": "Genetic information, variation and relationships between organisms",
+  "questions": [
+   {
+    "id": "bio-p1-2017-10.2-a",
+    "marks": 4,
+    "prompt": "Explain how meiosis produces genetically different gametes. (4)",
+    "hints": [
+     "There are two main processes.",
+     "One happens between homologous chromosomes in prophase I."
+    ],
+    "solution": "Crossing over between non-sister chromatids of homologous chromosomes [B1]\nExchanges alleles / produces new combinations of alleles [B1]\nIndependent segregation of homologous chromosomes (in meiosis I) [B1]\nRandom arrangement on the equator, so gametes get different combinations of maternal and paternal chromosomes. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q10.2",
+    "subtopic": "Meiosis and variation"
+   },
+   {
+    "id": "bio-p1-2017-10.2-b",
+    "marks": 4,
+    "prompt": "Give two differences between mitosis and meiosis. Explain why it is important that meiosis halves the chromosome number. (4)",
+    "hints": [
+     "Compare number of divisions and the type of cells produced.",
+     "What happens when two gametes fuse?"
+    ],
+    "solution": "Meiosis has two divisions; mitosis has one [B1]\nMeiosis produces haploid cells; mitosis produces diploid cells / meiosis produces genetically different cells; mitosis identical [B1]\nHalving means fertilisation restores the diploid number [B1]\nSo the chromosome number stays constant from generation to generation. [B1]\n\nModel answer:\n2 differences (1 mark each) + 2 marks for the explanation.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q10.2",
+    "subtopic": "Meiosis"
+   },
+   {
+    "id": "bio-p1-2017-10.2-c",
+    "marks": 4,
+    "prompt": "A cell has a diploid number of 8.\n\n(i) How many chromosomes are in each cell at the end of meiosis I, and how many chromatids does each chromosome have?\n(ii) How many chromosomes are in each cell at the end of meiosis II, and how many chromatids does each chromosome have?\n(iii) How many different combinations of chromosomes are possible in the gametes from independent segregation alone? (4)",
+    "hints": [
+     "Meiosis I separates homologous chromosomes; meiosis II separates chromatids.",
+     "Number of combinations = 2ⁿ, where n is the haploid number."
+    ],
+    "solution": "(i) 4 chromosomes, each with 2 chromatids [B1]\n(ii) 4 chromosomes, each with 1 chromatid [B1]\n(iii) 2⁴ [B1]\n= 16. [B1]\n\nModel answer:\n(i) Homologous pairs separate → 4 chromosomes, each still 2 chromatids.\n(ii) Chromatids separate → 4 chromosomes of 1 chromatid.\n(iii) Haploid number 4 → 2⁴ = 16 combinations.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q10.2",
+    "subtopic": "Meiosis"
+   }
+  ]
+ },
+ {
+  "topic": "Genetic diversity and natural selection",
+  "category": "Genetic information, variation and relationships between organisms",
+  "questions": [
+   {
+    "id": "bio-p1-2017-04.3-c",
+    "marks": 2,
+    "prompt": "Some bacteria secrete an enzyme called β-lactamase, which breaks down penicillin. Suggest and explain one advantage to the bacteria of secreting this enzyme into their surroundings. (2)",
+    "hints": [
+     "Where does penicillin act — inside or at the surface of the bacterium?",
+     "What happens to bacteria that are not killed?"
+    ],
+    "solution": "Penicillin is broken down before it can reach / damage the cell wall [B1]\nSo the bacteria (and nearby bacteria) survive and reproduce / are resistant. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q04.3",
+    "subtopic": "Antibiotic resistance"
+   },
+   {
+    "id": "bio-p1-2017-05.5-a",
+    "marks": 3,
+    "prompt": "Tuberculosis is treated with four different antibiotics taken together. Explain why using several antibiotics at once reduces the chance of antibiotic resistance developing. (3)",
+    "hints": [
+     "How does resistance arise in the first place?",
+     "What is the chance of one bacterium being resistant to all four?"
+    ],
+    "solution": "Resistance arises by random mutation [B1]\nA bacterium resistant to one antibiotic is (likely to be) killed by another [B1]\nVery low probability of one bacterium having mutations for resistance to all the antibiotics [B1]\nSo resistant bacteria do not survive and reproduce / resistance allele frequency does not increase. [B1]\nAny 3 of these points — max 3 marks.\n\nModel answer:\nAny 3 points.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q05.5",
+    "subtopic": "Antibiotic resistance"
+   },
+   {
+    "id": "bio-p1-2017-05.5-b",
+    "marks": 3,
+    "prompt": "Explain why patients are told to complete the full course of antibiotics even when they feel better. (3)",
+    "hints": [
+     "Which bacteria are left after a few days?",
+     "Use the language of natural selection."
+    ],
+    "solution": "The most susceptible bacteria are killed first; some (more resistant) bacteria survive [B1]\nIf treatment stops, survivors reproduce [B1]\nPassing on the resistance allele [B1]\nSo the frequency of resistance increases in the population. [B1]\nAny 3 of these points — max 3 marks.\n\nModel answer:\nAny 3 points.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q05.5",
+    "subtopic": "Antibiotic resistance"
+   },
+   {
+    "id": "bio-p1-2017-05.5-c",
+    "marks": 3,
+    "prompt": "Some farmers add antibiotics to animal feed. Explain how this could lead to human infections that are difficult to treat. (3)",
+    "hints": [
+     "The antibiotic is a selection pressure.",
+     "How can resistance pass between different species of bacteria?"
+    ],
+    "solution": "A mutation gives some bacteria resistance [B1]\nAntibiotic acts as a selection pressure — resistant bacteria survive and reproduce [B1]\nResistance allele frequency increases [B1]\nResistance (on plasmids) passed to other / pathogenic bacteria (horizontal transmission) that infect humans. [B1]\nAny 3 of these points — max 3 marks.\n\nModel answer:\nAny 3 points.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q05.5",
+    "subtopic": "Antibiotic resistance"
+   }
+  ]
+ },
+ {
+  "topic": "Species and taxonomy",
+  "category": "Genetic information, variation and relationships between organisms",
+  "questions": [
+   {
+    "id": "bio-p1-2017-08.1-a",
+    "marks": 2,
+    "prompt": "Using appearance, species P and Q were placed in the same genus and species R in a different genus. Later DNA comparisons showed that R and Q have more similar base sequences than P and Q. Suggest what this shows about the evolutionary relationships of these species. (2)",
+    "hints": [
+     "Which pair shares the most recent common ancestor?",
+     "Why might P and Q look alike if they aren't closest relatives?"
+    ],
+    "solution": "R and Q are most closely related / share the most recent common ancestor [B1]\nSimilar appearance of P and Q is due to similar environments / convergent evolution, not close relationship. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q08.1",
+    "subtopic": "Classification and phylogeny"
+   },
+   {
+    "id": "bio-p1-2017-08.1-b",
+    "marks": 2,
+    "prompt": "Explain why classification based on DNA base sequences is more reliable than classification based on observable features. (2)",
+    "hints": [
+     "What can affect observable features apart from genes?",
+     "What does DNA directly show?"
+    ],
+    "solution": "Observable features can be affected by the environment / similar features can evolve separately (convergent evolution) [B1]\nDNA base sequence directly reflects genetic relatedness / more differences can be compared. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q08.1",
+    "subtopic": "Classification and phylogeny"
+   },
+   {
+    "id": "bio-p1-2017-08.1-c",
+    "marks": 2,
+    "prompt": "Two populations of birds look very different but can interbreed to produce fertile offspring. Suggest what this tells you about their classification, and explain why they look different. (2)",
+    "hints": [
+     "What is the definition of a species?",
+     "What causes variation within a species?"
+    ],
+    "solution": "They are the same species (able to produce fertile offspring) [B1]\nDifferences due to (genetic) variation within the species / different alleles / environment. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q08.1",
+    "subtopic": "Species"
+   },
+   {
+    "id": "bio-p1-2017-08.2-a",
+    "marks": 1,
+    "prompt": "List the eight taxonomic ranks in order, starting with domain. (1)",
+    "hints": [
+     "There are eight ranks in the hierarchy.",
+     "A common mnemonic is 'Dear King Philip Came Over For Good Soup'."
+    ],
+    "solution": "Domain, kingdom, phylum, class, order, family, genus, species. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q08.2",
+    "subtopic": "Taxonomic hierarchy"
+   },
+   {
+    "id": "bio-p1-2017-08.2-b",
+    "marks": 1,
+    "prompt": "The grey wolf is classified as follows: Domain Eukarya, Kingdom Animalia, Phylum Chordata, Class Mammalia, Order ________, Family Canidae, Genus ________, Species lupus.\n\nComplete the two missing names. (1)",
+    "hints": [
+     "Wolves are meat-eating mammals.",
+     "The genus is the first word of the binomial name for the dog family."
+    ],
+    "solution": "Carnivora and Canis (both needed). [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q08.2",
+    "subtopic": "Taxonomic hierarchy"
+   },
+   {
+    "id": "bio-p1-2017-08.2-c",
+    "marks": 1,
+    "prompt": "Name the three domains used to classify living organisms. (1)",
+    "hints": [
+     "One contains all organisms with a nucleus.",
+     "Prokaryotes are split into two domains."
+    ],
+    "solution": "Bacteria, Archaea, Eukarya (all three needed). [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q08.2",
+    "subtopic": "Taxonomic hierarchy"
+   },
+   {
+    "id": "bio-p1-2017-08.3-a",
+    "marks": 1,
+    "prompt": "The domestic cat is Felis catus and the wildcat is Felis silvestris. Name the lowest taxon that both species belong to. (1)",
+    "hints": [
+     "Look at the first word of each name.",
+     "The first word of a binomial is…"
+    ],
+    "solution": "Genus. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q08.3",
+    "subtopic": "Binomial naming"
+   },
+   {
+    "id": "bio-p1-2017-08.3-b",
+    "marks": 1,
+    "prompt": "A plant was renamed from Aster novae-angliae to Symphyotrichum novae-angliae. Which taxon was changed? (1)",
+    "hints": [
+     "Which part of the name changed?",
+     "The first part of a binomial name refers to…"
+    ],
+    "solution": "Genus. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q08.3",
+    "subtopic": "Binomial naming"
+   },
+   {
+    "id": "bio-p1-2017-08.3-c",
+    "marks": 1,
+    "prompt": "What do the two parts of a binomial name represent? (1)",
+    "hints": [
+     "The first part is capitalised.",
+     "The second part is not."
+    ],
+    "solution": "Genus (first part) and species (second part). [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q08.3",
+    "subtopic": "Binomial naming"
+   }
+  ]
+ },
+ {
+  "topic": "Biodiversity and investigating diversity",
+  "category": "Genetic information, variation and relationships between organisms",
+  "questions": [
+   {
+    "id": "bio-p1-2017-08.4-a",
+    "marks": 3,
+    "prompt": "Explain why comparing DNA base sequences can give more information about relationships than comparing the amino acid sequences of proteins. (3)",
+    "hints": [
+     "Is the genetic code degenerate?",
+     "Does all DNA code for amino acids?"
+    ],
+    "solution": "Genetic code is degenerate — different triplets can code for the same amino acid [B1]\nSo some base changes / mutations do not change the amino acid sequence but are detected in DNA [B1]\nNon-coding DNA / introns can also be compared. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q08.4",
+    "subtopic": "Genetic diversity: molecular evidence"
+   },
+   {
+    "id": "bio-p1-2017-08.4-b",
+    "marks": 3,
+    "prompt": "Describe how comparing the amino acid sequence of a protein can be used to find out how closely related two species are. (3)",
+    "hints": [
+     "The same protein must be compared.",
+     "What do fewer differences suggest?"
+    ],
+    "solution": "Use the same protein from both species [B1]\nDetermine / compare the sequence of amino acids [B1]\nCount the number of differences [B1]\nFewer differences = more closely related / more recent common ancestor. [B1]\nAny 3 of these points — max 3 marks.\n\nModel answer:\nAny 3 points.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q08.4",
+    "subtopic": "Genetic diversity: molecular evidence"
+   },
+   {
+    "id": "bio-p1-2017-08.4-c",
+    "marks": 3,
+    "prompt": "Describe how immunological comparisons can be used to find out how closely related two species are. (3)",
+    "hints": [
+     "Antibodies are made against a protein from one species.",
+     "What is measured when they are mixed with another species' protein?"
+    ],
+    "solution": "Protein from species A injected into an animal (e.g. rabbit), which makes antibodies against it [B1]\nSerum / antibodies mixed with the same protein from species B [B1]\nAmount of precipitate / antibody binding measured [B1]\nMore precipitate = more similar protein = more closely related. [B1]\nAny 3 of these points — max 3 marks.\n\nModel answer:\nAny 3 points.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q08.4",
+    "subtopic": "Genetic diversity: molecular evidence"
+   }
+  ]
+ },
+ {
+  "topic": "Photosynthesis",
+  "category": "Energy transfers in and between organisms",
+  "questions": []
+ },
+ {
+  "topic": "Respiration",
+  "category": "Energy transfers in and between organisms",
+  "questions": [
+   {
+    "id": "bio-p1-2017-02.2-a",
+    "marks": 2,
+    "prompt": "A germinating seed contains a store of starch. Suggest how this starch provides energy for the growing seedling. (2)",
+    "hints": [
+     "Starch is too large to be used directly — what must happen to it?",
+     "What process releases energy from glucose?"
+    ],
+    "solution": "Starch is hydrolysed (by amylase) to maltose / glucose [B1]\nGlucose is used in respiration to produce ATP. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q02.2",
+    "subtopic": "Respiration"
+   },
+   {
+    "id": "bio-p1-2017-02.2-b",
+    "marks": 2,
+    "prompt": "Suggest how triglycerides stored in adipose tissue provide energy for muscle cells. (2)",
+    "hints": [
+     "What enzyme breaks down triglycerides?",
+     "What are the products?"
+    ],
+    "solution": "Triglycerides hydrolysed (by lipase) into glycerol and fatty acids [B1]\nThese are respired / used in respiration to produce ATP. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q02.2",
+    "subtopic": "Respiration"
+   },
+   {
+    "id": "bio-p1-2017-02.2-c",
+    "marks": 2,
+    "prompt": "Muscle cells store glycogen. Explain how this glycogen provides energy for muscle contraction during exercise. (2)",
+    "hints": [
+     "Two steps: break the store down, then make the energy currency.",
+     "What is the immediate energy source for contraction?"
+    ],
+    "solution": "Glycogen hydrolysed to glucose [B1]\nGlucose respired (aerobically or anaerobically) producing ATP, which is hydrolysed to release energy for contraction. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q02.2",
+    "subtopic": "Respiration"
+   }
+  ]
+ },
+ {
+  "topic": "Energy and ecosystems",
+  "category": "Energy transfers in and between organisms",
+  "questions": []
+ },
+ {
+  "topic": "Nutrient cycles",
+  "category": "Energy transfers in and between organisms",
+  "questions": [
+   {
+    "id": "bio-p1-2017-04.3-a",
+    "marks": 2,
+    "prompt": "Saprobiotic fungi secrete cellulase onto dead plant material. Suggest and explain one advantage to the fungus of secreting this enzyme rather than taking in whole pieces of plant material. (2)",
+    "hints": [
+     "Can cellulose cross a cell membrane?",
+     "What do the products of digestion do next?"
+    ],
+    "solution": "Cellulose is too large to be absorbed / cross the membrane [B1]\nEnzyme hydrolyses it to glucose (small, soluble), which can be absorbed and used in respiration. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q04.3",
+    "subtopic": "Saprobionts and nutrient cycles"
+   }
+  ]
+ },
+ {
+  "topic": "Stimuli and responses",
+  "category": "Organisms respond to changes in their environments",
+  "questions": []
+ },
+ {
+  "topic": "Nervous coordination",
+  "category": "Organisms respond to changes in their environments",
+  "questions": []
+ },
+ {
+  "topic": "Skeletal muscles",
+  "category": "Organisms respond to changes in their environments",
+  "questions": []
+ },
+ {
+  "topic": "Homeostasis",
+  "category": "Organisms respond to changes in their environments",
+  "questions": []
+ },
+ {
+  "topic": "Inheritance",
+  "category": "Genetics, populations, evolution and ecosystems",
+  "questions": []
+ },
+ {
+  "topic": "Populations",
+  "category": "Genetics, populations, evolution and ecosystems",
+  "questions": []
+ },
+ {
+  "topic": "Evolution",
+  "category": "Genetics, populations, evolution and ecosystems",
+  "questions": []
+ },
+ {
+  "topic": "Populations in ecosystems",
+  "category": "Genetics, populations, evolution and ecosystems",
+  "questions": []
+ },
+ {
+  "topic": "Mutation",
+  "category": "The control of gene expression",
+  "questions": []
+ },
+ {
+  "topic": "Control of gene expression",
+  "category": "The control of gene expression",
+  "questions": []
+ },
+ {
+  "topic": "Genome projects",
+  "category": "The control of gene expression",
+  "questions": []
+ },
+ {
+  "topic": "Gene technologies",
+  "category": "The control of gene expression",
+  "questions": []
+ },
+ {
+  "topic": "Biology maths",
+  "category": "Maths and practical skills",
+  "questions": [
+   {
+    "id": "bio-p1-2017-02.4-a",
+    "marks": 2,
+    "prompt": "The first division of a zygote takes 30 hours. Each division after that takes 11 hours. After 96 hours the embryo has a total volume of 4.48 × 10⁻³ mm³.\n\nCalculate the mean volume of one cell after 96 hours. Give your answer in standard form. (2)",
+    "hints": [
+     "Work out how many divisions fit into 96 hours.",
+     "96 − 30 = 66 hours for later divisions; each division doubles cell number."
+    ],
+    "solution": "Number of cells = 2⁷ = 128 [M1]\nMean volume = 3.5 × 10⁻⁵ mm³. [A1]\n\nModel answer:\nLater divisions: (96 − 30) ÷ 11 = 6, so 7 divisions in total.\nCells = 2⁷ = 128.\nMean volume = 4.48 × 10⁻³ ÷ 128 = 3.5 × 10⁻⁵ mm³.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q02.4",
+    "subtopic": "Cell division calculations"
+   },
+   {
+    "id": "bio-p1-2017-02.4-b",
+    "marks": 2,
+    "prompt": "A bacterium divides by binary fission every 20 minutes. Each bacterium has a volume of 1.5 µm³.\n\nStarting with a single bacterium, calculate the total volume of all the bacteria after 4 hours. Give your answer in standard form. (2)",
+    "hints": [
+     "How many 20-minute periods are there in 4 hours?",
+     "Number of cells = 2ⁿ."
+    ],
+    "solution": "2¹² = 4096 bacteria [M1]\nTotal volume = 6.1 × 10³ µm³ (accept 6.144 × 10³). [A1]\n\nModel answer:\n4 hours = 240 min → 240 ÷ 20 = 12 divisions.\n2¹² = 4096 cells.\n4096 × 1.5 = 6144 µm³ = 6.1 × 10³ µm³.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q02.4",
+    "subtopic": "Cell division calculations"
+   },
+   {
+    "id": "bio-p1-2017-02.4-c",
+    "marks": 2,
+    "prompt": "A culture contains 5.0 × 10³ animal cells. Every cell divides by mitosis once every 6 hours.\n\nCalculate the number of cells after 2 days. Give your answer in standard form. (2)",
+    "hints": [
+     "How many 6-hour cycles in 48 hours?",
+     "Multiply the starting number by 2 for each cycle."
+    ],
+    "solution": "8 divisions / ×256 [M1]\n1.28 × 10⁶ cells. [A1]\n\nModel answer:\n48 ÷ 6 = 8 divisions → 2⁸ = 256.\n5.0 × 10³ × 256 = 1.28 × 10⁶ cells.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q02.4",
+    "subtopic": "Cell division calculations"
+   },
+   {
+    "id": "bio-p1-2017-05.3-a",
+    "marks": 2,
+    "prompt": "A rat with a mass of 250 g is given an antibiotic at a dose of 40 mg kg⁻¹ day⁻¹ for 5 days.\n\nCalculate the total mass of antibiotic given. (2)",
+    "hints": [
+     "Convert the rat's mass into kg first.",
+     "Daily dose × number of days."
+    ],
+    "solution": "Daily dose = 0.25 × 40 = 10 mg [M1]\nTotal = 50 mg. [A1]\n\nModel answer:\n250 g = 0.25 kg.\nDaily dose = 0.25 × 40 = 10 mg.\nTotal = 10 × 5 = 50 mg.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q05.3",
+    "subtopic": "Dose calculations"
+   },
+   {
+    "id": "bio-p1-2017-05.3-b",
+    "marks": 2,
+    "prompt": "A patient with a mass of 75 kg needs a single dose of antibiotic of 10 mg kg⁻¹. The antibiotic is supplied as 250 mg tablets.\n\nCalculate how many tablets the patient should take. (2)",
+    "hints": [
+     "Find the total mass needed first.",
+     "Then divide by the mass per tablet."
+    ],
+    "solution": "Dose = 750 mg [M1]\n3 tablets. [A1]\n\nModel answer:\n75 × 10 = 750 mg; 750 ÷ 250 = 3 tablets.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q05.3",
+    "subtopic": "Dose calculations"
+   },
+   {
+    "id": "bio-p1-2017-05.3-c",
+    "marks": 2,
+    "prompt": "A mouse with a mass of 18 g is given a drug at a dose of 12 mg kg⁻¹.\n\nCalculate the mass of drug given. Give your answer in µg. (2)",
+    "hints": [
+     "Convert g to kg.",
+     "1 mg = 1000 µg."
+    ],
+    "solution": "0.018 × 12 = 0.216 mg [M1]\n216 µg. [A1]\n\nModel answer:\n18 g = 0.018 kg. 0.018 × 12 = 0.216 mg = 216 µg.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q05.3",
+    "subtopic": "Dose calculations"
+   },
+   {
+    "id": "bio-p1-2017-05.4-a",
+    "marks": 2,
+    "prompt": "The number of bacteria in two groups of mice was recorded as log₁₀ values. Group X: 6.2. Group Y: 4.8.\n\nCalculate the percentage by which the number of bacteria in group Y is lower than in group X. (2)",
+    "hints": [
+     "Convert each value: number = 10^(log value).",
+     "Percentage decrease = (X − Y) ÷ X × 100."
+    ],
+    "solution": "X = 1.58 × 10⁶ and Y = 6.31 × 10⁴ [M1]\n96.0% (accept 96%). [A1]\n\nModel answer:\nX = 10^6.2 = 1.585 × 10⁶; Y = 10^4.8 = 6.31 × 10⁴.\n(1.585 × 10⁶ − 6.31 × 10⁴) ÷ 1.585 × 10⁶ × 100 = 96.0%.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q05.4",
+    "subtopic": "Logarithms and percentage change"
+   },
+   {
+    "id": "bio-p1-2017-05.4-b",
+    "marks": 2,
+    "prompt": "In a culture, log₁₀ (number of bacteria) fell from 7.5 to 7.2 after an antibiotic was added.\n\nCalculate the percentage decrease in the number of bacteria. (2)",
+    "hints": [
+     "Convert both log values into actual numbers.",
+     "Notice the difference in log values is 0.3."
+    ],
+    "solution": "3.16 × 10⁷ and 1.58 × 10⁷ [M1]\n49.9% (accept 50%). [A1]\n\nModel answer:\n10^7.5 = 3.162 × 10⁷; 10^7.2 = 1.585 × 10⁷.\n(3.162 − 1.585) ÷ 3.162 × 100 = 49.9%.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q05.4",
+    "subtopic": "Logarithms and percentage change"
+   },
+   {
+    "id": "bio-p1-2017-05.4-c",
+    "marks": 2,
+    "prompt": "Over 24 hours, log₁₀ (number of bacteria) in a culture increased from 3.0 to 5.5.\n\nCalculate how many times larger the population was after 24 hours. Give your answer to 3 significant figures. (2)",
+    "hints": [
+     "Convert both values, then divide.",
+     "Or use 10^(difference in logs)."
+    ],
+    "solution": "1.00 × 10³ and 3.16 × 10⁵ [M1]\n316 times. [A1]\n\nModel answer:\n10^3.0 = 1000; 10^5.5 = 316 228.\n316 228 ÷ 1000 = 316 times (= 10^2.5).",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q05.4",
+    "subtopic": "Logarithms"
+   },
+   {
+    "id": "bio-p1-2017-09.3-a",
+    "marks": 3,
+    "prompt": "A student measured a rectangular leaf section. Length = 4.25 ± 0.15 cm. Width = 2.10 ± 0.08 cm.\n\nCalculate the area of the section to an appropriate number of significant figures, and its percentage uncertainty. (3)",
+    "hints": [
+     "Area = length × width; give it to the same number of s.f. as the data.",
+     "Percentage uncertainties add when you multiply."
+    ],
+    "solution": "Area = 8.93 cm² (3 s.f.) [M1]\n% uncertainties: 3.5% and 3.8% [M1]\nTotal percentage uncertainty = 7.3%. [A1]\n\nModel answer:\nArea = 4.25 × 2.10 = 8.925 → 8.93 cm² (3 s.f.).\n0.15 ÷ 4.25 × 100 = 3.53%; 0.08 ÷ 2.10 × 100 = 3.81%.\nTotal = 3.53 + 3.81 = 7.3%.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q09.3",
+    "subtopic": "Uncertainty and significant figures"
+   },
+   {
+    "id": "bio-p1-2017-09.3-b",
+    "marks": 3,
+    "prompt": "A cell seen under a microscope is approximately rectangular. Length = 48 ± 2 µm. Width = 22 ± 2 µm.\n\nCalculate the area of the cell to an appropriate number of significant figures, and its percentage uncertainty. (3)",
+    "hints": [
+     "The data are given to 2 s.f.",
+     "Add the two percentage uncertainties."
+    ],
+    "solution": "Area = 1.1 × 10³ µm² (2 s.f.) [M1]\n% uncertainties: 4.2% and 9.1% [M1]\nTotal percentage uncertainty = 13%. [A1]\n\nModel answer:\nArea = 48 × 22 = 1056 → 1.1 × 10³ µm² (2 s.f.).\n2 ÷ 48 × 100 = 4.17%; 2 ÷ 22 × 100 = 9.09%.\nTotal = 13.3% ≈ 13%.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q09.3",
+    "subtopic": "Uncertainty and significant figures"
+   },
+   {
+    "id": "bio-p1-2017-09.3-c",
+    "marks": 3,
+    "prompt": "An agar cube has sides of 1.50 ± 0.05 cm.\n\nCalculate the volume of the cube to an appropriate number of significant figures, and its percentage uncertainty. (3)",
+    "hints": [
+     "Volume = side³.",
+     "When a quantity is cubed, its percentage uncertainty is multiplied by 3."
+    ],
+    "solution": "Volume = 3.38 cm³ (3 s.f.) [M1]\n% uncertainty of side = 3.3% [M1]\nVolume percentage uncertainty = 10%. [A1]\n\nModel answer:\nV = 1.50³ = 3.375 → 3.38 cm³.\n0.05 ÷ 1.50 × 100 = 3.33%; × 3 = 10%.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q09.3",
+    "subtopic": "Uncertainty and significant figures"
+   },
+   {
+    "id": "bio-p1-2017-09.4-c",
+    "marks": 2,
+    "prompt": "A student's drawing of a cell is 50 mm long. The actual length of the cell is 25 µm.\n\nCalculate the magnification of the drawing, and state what should be added to the drawing to show its size. (2)",
+    "hints": [
+     "Convert both lengths to the same unit.",
+     "Magnification = image size ÷ actual size."
+    ],
+    "solution": "× 2000 [M1]\nScale bar / the magnification. [A1]\n\nModel answer:\n50 mm = 50 000 µm. 50 000 ÷ 25 = × 2000. Add a scale bar (or state the magnification).",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q09.4",
+    "subtopic": "Magnification"
+   }
+  ]
+ },
+ {
+  "topic": "Statistics and evaluating data",
+  "category": "Maths and practical skills",
+  "questions": [
+   {
+    "id": "bio-p1-2017-06.2-a",
+    "marks": 4,
+    "prompt": "Scientists tested herbicide X on barley (a crop) and fat hen (a weed). Leaf discs were placed in water or herbicide X, and ion leakage from the cells was measured (arbitrary units). Ion leakage shows membrane damage. A difference between two means greater than the least significant difference (LSD) is significant.\n\nEvaluate the use of herbicide X to control fat hen in a barley crop. (4)",
+    "hints": [
+     "Compare each difference with its LSD.",
+     "Then think about the limitations of the method."
+    ],
+    "solution": "Fat hen leakage increased by 47, greater than its LSD of 9, so significant membrane damage [B1]\nBarley increased by 6, less than its LSD of 8, so not significant / barley not damaged [B1]\nLimitation: leaf discs / lab conditions, not whole plants in a field [B1]\nLimitation: only one concentration / only membrane damage measured, not plant death or crop yield / only one weed species. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q06.2",
+    "subtopic": "Evaluating data",
+    "table": "Plant | Leakage in water | Leakage in X | LSD\nBarley | 12 | 18 | 8\nFat hen | 14 | 61 | 9"
+   },
+   {
+    "id": "bio-p1-2017-06.2-b",
+    "marks": 4,
+    "prompt": "A company claimed that mouthwash A kills bacteria better than mouthwash B. Paper discs soaked in each mouthwash were placed on agar plates of one species of mouth bacterium. The table shows the mean diameter of the clear zones around the discs, ± standard deviation.\n\nEvaluate the company's claim. (4)",
+    "hints": [
+     "Work out mean ± 1 SD for each — do the ranges overlap?",
+     "Is a lab test on one species the same as use in a mouth?"
+    ],
+    "solution": "A has the larger mean clear zone (18 vs 15 mm) [B1]\nBut ± SD ranges overlap (16.5–19.5 and 11–19), so difference may not be significant / a statistical test is needed [B1]\nB more variable (larger SD), so less reliable [B1]\nOnly one species tested / agar not the same as conditions in the mouth / concentration and contact time may differ. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q06.2",
+    "subtopic": "Evaluating data",
+    "table": "Mouthwash | Clear zone / mm ± SD\nA | 18 ± 1.5\nB | 15 ± 4.0"
+   },
+   {
+    "id": "bio-p1-2017-06.2-c",
+    "marks": 4,
+    "prompt": "In a trial, 40 patients with high blood pressure took a new drug and 40 took a placebo for 8 weeks. Mean systolic blood pressure fell by 12 mmHg in the drug group and by 4 mmHg in the placebo group. A statistical test gave P = 0.08.\n\nEvaluate the claim that the drug lowers blood pressure. (4)",
+    "hints": [
+     "What does P = 0.08 mean compared with 0.05?",
+     "Think about trial design — good features and limitations."
+    ],
+    "solution": "Drug group had a larger fall in blood pressure [B1]\nBut P > 0.05, so difference not significant / could be due to chance [B1]\nPlacebo group is a valid control (good design) [B1]\nSmall sample / short trial / no information on side effects, dose, or whether double-blind. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q06.2",
+    "subtopic": "Evaluating data"
+   },
+   {
+    "id": "bio-p1-2017-10.3-a",
+    "marks": 5,
+    "prompt": "Describe how you would collect and analyse data to find out whether there is a significant difference in the mean shell length of limpets on an exposed rocky shore and on a sheltered rocky shore. (5)",
+    "hints": [
+     "How do you avoid bias when choosing limpets?",
+     "Which statistical test compares two means?"
+    ],
+    "solution": "Random sampling, e.g. random coordinates from a grid / random number generator [B1]\nLarge sample (e.g. at least 30) on each shore [B1]\nMeasure shell length with callipers / ruler [B1]\nCalculate mean (and standard deviation) for each shore [B1]\nUse a Student's t-test [B1]\nNull hypothesis of no difference; compare with critical value at P = 0.05. [B1]\nAny 5 of these points — max 5 marks.\n\nModel answer:\nAny 5 points.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q10.3",
+    "subtopic": "Sampling and statistics"
+   },
+   {
+    "id": "bio-p1-2017-10.3-b",
+    "marks": 5,
+    "prompt": "Describe how you would collect and analyse data to find out whether there is a correlation between light intensity and the number of daisy plants across a field next to a woodland. (5)",
+    "hints": [
+     "Light changes from the woodland edge into the field — how would you sample along that?",
+     "Which test is used for correlation?"
+    ],
+    "solution": "Use a transect (line) from woodland into the field [B1]\nPlace quadrats at regular intervals along it [B1]\nCount daisies in each quadrat [B1]\nMeasure light intensity at each quadrat with a light meter [B1]\nUse Spearman's rank correlation coefficient [B1]\nNull hypothesis of no correlation; compare with critical value at P = 0.05. [B1]\nAny 5 of these points — max 5 marks.\n\nModel answer:\nAny 5 points.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q10.3",
+    "subtopic": "Sampling and statistics"
+   },
+   {
+    "id": "bio-p1-2017-10.3-c",
+    "marks": 5,
+    "prompt": "Describe how you would collect and analyse data to find out whether the distribution of two snail species is associated with habitat (woodland or grassland). (5)",
+    "hints": [
+     "You are counting categories, not measuring.",
+     "Which test looks for an association between categories?"
+    ],
+    "solution": "Random quadrats / sampling in each habitat [B1]\nSame number / size of quadrats in each habitat [B1]\nCount the number of each snail species in each habitat [B1]\nUse a chi-squared test (contingency table) comparing observed and expected frequencies [B1]\nNull hypothesis of no association; compare with critical value at P = 0.05 with correct degrees of freedom. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q10.3",
+    "subtopic": "Sampling and statistics"
+   }
+  ]
+ },
+ {
+  "topic": "Practical skills",
+  "category": "Maths and practical skills",
+  "questions": [
+   {
+    "id": "bio-p1-2017-06.1-a",
+    "marks": 2,
+    "prompt": "A student investigated the effect of fertiliser concentration on the growth of bean plants. Give three environmental variables the student should keep the same. (2)",
+    "hints": [
+     "Think about what a plant needs to photosynthesise.",
+     "Think about the soil and watering."
+    ],
+    "solution": "Any three from: light intensity; temperature; volume of water given; carbon dioxide concentration; type / volume of soil; humidity. [B2]\n3 correct = 2 marks; 2 correct = 1 mark.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q06.1",
+    "subtopic": "Controlling variables"
+   },
+   {
+    "id": "bio-p1-2017-06.1-b",
+    "marks": 2,
+    "prompt": "A student investigated the effect of temperature on the rate of respiration of yeast. Give three variables the student should keep the same. (2)",
+    "hints": [
+     "Think about what the yeast is respiring.",
+     "Think about the solution the yeast is in."
+    ],
+    "solution": "Any three from: concentration / volume of glucose; concentration / volume / mass of yeast; pH (buffer); time allowed to acclimatise; volume of solution. [B2]\n3 correct = 2 marks; 2 correct = 1 mark.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q06.1",
+    "subtopic": "Controlling variables"
+   },
+   {
+    "id": "bio-p1-2017-06.1-c",
+    "marks": 2,
+    "prompt": "A student investigated the effect of temperature on the permeability of beetroot cell membranes. Give three variables the student should keep the same. (2)",
+    "hints": [
+     "Think about the beetroot pieces themselves.",
+     "Think about the water they are placed in."
+    ],
+    "solution": "Any three from: size / surface area of beetroot pieces; volume of water; time in water; same beetroot / age; rinsing method. [B2]\n3 correct = 2 marks; 2 correct = 1 mark.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q06.1",
+    "subtopic": "Controlling variables"
+   },
+   {
+    "id": "bio-p1-2017-06.3-a",
+    "marks": 2,
+    "prompt": "In an investigation of beetroot membrane permeability, a student rinsed the beetroot pieces in water before the experiment and used the same volume of water in each tube. Give one reason for each of these steps. (2)",
+    "hints": [
+     "What is on the surface of a freshly cut piece of beetroot?",
+     "How does volume affect the colour you measure?"
+    ],
+    "solution": "Rinsing removes pigment released from cells damaged by cutting [B1]\nSame volume so the concentration / intensity of colour is comparable. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q06.3",
+    "subtopic": "Practical techniques"
+   },
+   {
+    "id": "bio-p1-2017-06.3-b",
+    "marks": 2,
+    "prompt": "A student placed agar cubes containing an indicator in acid to investigate diffusion. Suggest one reason for keeping the acid at a constant temperature and one reason for making sure the cubes were completely covered by the acid. (2)",
+    "hints": [
+     "How does temperature affect diffusion?",
+     "Which surfaces of the cube take part?"
+    ],
+    "solution": "Temperature affects kinetic energy / rate of diffusion [B1]\nSo all surfaces / the whole surface area is in contact with acid. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q06.3",
+    "subtopic": "Practical techniques"
+   },
+   {
+    "id": "bio-p1-2017-06.3-c",
+    "marks": 2,
+    "prompt": "A student used a respirometer containing soda lime to measure oxygen uptake by germinating seeds. Suggest why the apparatus was left in a water bath for 10 minutes before readings were taken, and why soda lime was used. (2)",
+    "hints": [
+     "Gas volume changes with temperature.",
+     "Seeds give out a gas as well as taking one in."
+    ],
+    "solution": "To let the temperature (and pressure) equilibrate / stabilise [B1]\nSoda lime absorbs carbon dioxide, so volume change is due to oxygen uptake only. [B1]",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q06.3",
+    "subtopic": "Practical techniques"
+   },
+   {
+    "id": "bio-p1-2017-09.4-a",
+    "marks": 2,
+    "prompt": "Give two features of a good scientific drawing of cells seen with an optical microscope. (2)",
+    "hints": [
+     "Think about the lines you draw.",
+     "Think about labels."
+    ],
+    "solution": "Clear, continuous lines / no sketching [B1]\nNo shading [B1]\nLabel lines drawn with a ruler, not crossing, no arrowheads [B1]\nCorrect proportions / title / magnification or scale. [B1]\nAny 2 of these points — max 2 marks.\n\nModel answer:\nAny 2.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q09.4",
+    "subtopic": "Biological drawing"
+   },
+   {
+    "id": "bio-p1-2017-09.4-b",
+    "marks": 2,
+    "prompt": "A student's drawing of onion epidermis cells has sketchy, overlapping lines, shaded nuclei, and labels with arrowheads that cross each other. Suggest two ways to improve the drawing. (2)",
+    "hints": [
+     "Pick two of the faults and say how to correct them.",
+     "What should label lines look like?"
+    ],
+    "solution": "Use single, clear continuous lines [B1]\nDo not shade (nuclei) [B1]\nUse ruled label lines with no arrowheads that do not cross. [B1]\nAny 2 of these points — max 2 marks.\n\nModel answer:\nAny 2.",
+    "year": "June 2017",
+    "paper": "AQA Paper 1 Q09.4",
+    "subtopic": "Biological drawing"
+   }
+  ]
+ }
+]

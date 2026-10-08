@@ -11,11 +11,11 @@
 <meta property="og:title" content="kelvincard">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.kelvincard.co.uk/">
-<meta property="og:description" content="Free GCSE and A Level Maths revision with practice questions based on past papers, hints, worked solutions and mark schemes.">
+<meta property="og:description" content="Free GCSE and A Level Maths and A Level Biology revision with practice questions based on past papers, hints, worked solutions and mark schemes.">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebSite","name":"kelvincard","alternateName":["kelvincard.co.uk","Kelvincard"],"url":"https://www.kelvincard.co.uk/"}
 </script>
-<meta name="description" content="kelvincard: free GCSE and A Level Maths revision with practice questions based on GCSE and A Level past paper questions, plus hints, worked solutions, mark schemes and printable practice papers.">
+<meta name="description" content="kelvincard: free GCSE and A Level Maths and A Level Biology revision with practice questions based on GCSE and A Level past paper questions, plus hints, worked solutions, mark schemes and printable practice papers.">
 <style>
 :root{
   --bg:#f7f7f5; --panel:#fff; --ink:#1b1b1f; --sub:#6b6b74; --line:#e4e4e0;
@@ -1222,7 +1222,7 @@ function attachAdminHandlers(){
 // Any question can include a "table"; blank cells become answer boxes on GCSE. See "QUESTION TABLES".
 // Rules that protect everyone's saved progress:
 //  - Every id must be unique across the WHOLE site and must never change once published.
-//    Start ids with the subject's prefix: gcse-h-, gcse-f-, alp-, fm- (A-Level Maths keeps its existing ids).
+//    Start ids with the subject's prefix: gcse-h-, gcse-f-, alp-, fm-, bio- (A-Level Maths keeps its existing ids).
 //  - Never rename a topic once people have practised it (scores are stored by topic name).
 //  - Topics with no questions show as "Coming soon", so you can fill them in gradually.
 const SUBJECT_KEY = "alevel_maths_subject_v1";
@@ -1234,11 +1234,14 @@ const SUBJECTS = [
   { id:"alevel-further-maths-edexcel",   name:"A-Level Further Maths (Edexcel)",    group:"A-Level", grades:"alevel", idPrefix:"fm-" },
   { id:"alevel-further-maths-aqa",       name:"A-Level Further Maths (AQA)",        group:"A-Level", grades:"alevel", idPrefix:"fma-" },
   { id:"alevel-further-maths-ocr-a",     name:"A-Level Further Maths (OCR A)",      group:"A-Level", grades:"alevel", idPrefix:"fmo-" },
-  { id:"alevel-further-maths-ocr-b-mei", name:"A-Level Further Maths (OCR B MEI)",  group:"A-Level", grades:"alevel", idPrefix:"fmb-" }
+  { id:"alevel-further-maths-ocr-b-mei", name:"A-Level Further Maths (OCR B MEI)",  group:"A-Level", grades:"alevel", idPrefix:"fmb-" },
+  // AQA 7402. Written answers are self-marked against the mark scheme (no typed answers).
+  // The Paper 3 essay (25 marks) is deliberately not included.
+  { id:"alevel-biology-aqa",             name:"A-Level Biology (AQA)",              group:"A-Level", grades:"alevel-biology", idPrefix:"bio-" }
 ];
 // Each subject's questions live in their own file: questions/<subject id>.json
 // Change QUESTIONS_VERSION whenever you edit a question file, so browsers fetch the new copy straight away.
-const QUESTIONS_VERSION = "22";
+const QUESTIONS_VERSION = "23";
 const SUBJECT_BANKS = {};
 const bankLoads = {}, bankErrors = {};
 function bankLoaded(sid){ return !!SUBJECT_BANKS[sid]; }
@@ -3217,6 +3220,11 @@ const GRADE_BOUNDARIES = [
 // GCSE boundaries are rough percentage equivalents of recent exam boundaries; they change every year, so adjust as needed.
 const GRADE_SCALES = {
   "alevel": GRADE_BOUNDARIES,
+  // AQA A-level Biology, June 2026 boundaries out of 260: A*199 A174 B146 C118 D90 E63
+  "alevel-biology": [
+    {grade:"A*", min:77, color:"#14b8a6"}, {grade:"A", min:67, color:"#2e7d4f"}, {grade:"B", min:56, color:"#8a9a3e"},
+    {grade:"C",  min:45, color:"#b8860b"}, {grade:"D", min:35, color:"#cf9a3e"}, {grade:"E", min:24, color:"#c96a3e"},
+    {grade:"U",  min:0,  color:"#b4432f"}],
   "gcse-higher": [
     {grade:"9", min:80, color:"#14b8a6"}, {grade:"8", min:68, color:"#2e7d4f"}, {grade:"7", min:56, color:"#5f8f3e"},
     {grade:"6", min:44, color:"#8a9a3e"}, {grade:"5", min:32, color:"#b8860b"}, {grade:"4", min:20, color:"#cf9a3e"},
@@ -3562,7 +3570,12 @@ function renderToast(){
 }
 
 // "Select all Pure / Stats / Mechanics" buttons, shown when a subject's topics are split into several folders.
-const CATEGORY_SHORT = { "Pure Maths":"Pure", "Statistics":"Stats", "Mechanics":"Mechanics" };
+const CATEGORY_SHORT = { "Pure Maths":"Pure", "Statistics":"Stats", "Mechanics":"Mechanics",
+  "Biological molecules":"Molecules", "Cells":"Cells", "Organisms exchange substances with their environment":"Exchange",
+  "Genetic information, variation and relationships between organisms":"Genetics & variation",
+  "Energy transfers in and between organisms":"Energy", "Organisms respond to changes in their environments":"Responses",
+  "Genetics, populations, evolution and ecosystems":"Populations & evolution", "The control of gene expression":"Gene expression",
+  "Maths and practical skills":"Maths & practicals" };
 function categoryTopicNames(cat){ return getAllTopics().filter(t=>(t.category||"General")===cat && t.questions.length>0).map(t=>t.topic); }
 function categorySelectButtons(topics){
   if(isGcse()) return "";
