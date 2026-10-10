@@ -1227,42 +1227,36 @@ function attachAdminHandlers(){
 //  - Topics with no questions show as "Coming soon", so you can fill them in gradually.
 const SUBJECT_KEY = "alevel_maths_subject_v1";
 const SUBJECTS = [
-  // Subject metadata drives the shared practice features below. answerMode:"typed" enables automatic
-  // answer boxes where a question supplies answer/answers/parts; self-marked subjects use the same
-  // hints -> worked solution -> Got it / silly mistake / wrong flow as the original A-Level banks.
-  { id:"gcse-maths-foundation", name:"GCSE Maths (Foundation)", group:"GCSE", family:"Maths", grades:"gcse-foundation", idPrefix:"gcse-f-", answerMode:"typed", calculatorFilter:true },
-  { id:"gcse-maths-higher",     name:"GCSE Maths (Higher)",     group:"GCSE", family:"Maths", grades:"gcse-higher",     idPrefix:"gcse-h-", answerMode:"typed", calculatorFilter:true },
-  { id:"gcse-maths-extended",   name:"GCSE Maths (Extended)",   group:"GCSE", family:"Maths", grades:"gcse-higher",     idPrefix:"gcse-e-", answerMode:"typed", calculatorFilter:true },
-
-  { id:"alevel-maths",          name:"A-Level Maths (Edexcel)", group:"A-Level", family:"Maths", grades:"alevel", idPrefix:"", answerMode:"self" },
-  { id:"alevel-maths-aqa",      name:"A-Level Maths (AQA)", group:"A-Level", family:"Maths", grades:"alevel", idPrefix:"math-aqa-", answerMode:"self" },
-  { id:"alevel-maths-ocr-a",    name:"A-Level Maths (OCR A)", group:"A-Level", family:"Maths", grades:"alevel", idPrefix:"math-ocra-", answerMode:"self" },
-  { id:"alevel-maths-ocr-b-mei",name:"A-Level Maths (OCR B MEI)", group:"A-Level", family:"Maths", grades:"alevel", idPrefix:"math-ocrb-", answerMode:"self" },
-
-  { id:"alevel-further-maths-edexcel",   name:"A-Level Further Maths (Edexcel)",   group:"A-Level", family:"Further Maths", grades:"alevel", idPrefix:"fm-", answerMode:"self" },
-  { id:"alevel-further-maths-aqa",       name:"A-Level Further Maths (AQA)",       group:"A-Level", family:"Further Maths", grades:"alevel", idPrefix:"fma-", answerMode:"self" },
-  { id:"alevel-further-maths-ocr-a",     name:"A-Level Further Maths (OCR A)",     group:"A-Level", family:"Further Maths", grades:"alevel", idPrefix:"fmo-", answerMode:"self" },
-  { id:"alevel-further-maths-ocr-b-mei", name:"A-Level Further Maths (OCR B MEI)", group:"A-Level", family:"Further Maths", grades:"alevel", idPrefix:"fmb-", answerMode:"self" },
-
-  { id:"alevel-biology-aqa",       name:"A-Level Biology (AQA)", group:"A-Level", family:"Biology", grades:"alevel-biology", idPrefix:"bio-", answerMode:"self" },
-  { id:"alevel-biology-edexcel-a", name:"A-Level Biology A (Edexcel)", group:"A-Level", family:"Biology", grades:"alevel-biology", idPrefix:"bio-edxa-", answerMode:"self" },
-  { id:"alevel-biology-edexcel-b", name:"A-Level Biology B (Edexcel)", group:"A-Level", family:"Biology", grades:"alevel-biology", idPrefix:"bio-edxb-", answerMode:"self" },
-  { id:"alevel-biology-ocr-a",     name:"A-Level Biology (OCR A)", group:"A-Level", family:"Biology", grades:"alevel-biology", idPrefix:"bio-ocra-", answerMode:"self" },
-  { id:"alevel-biology-ocr-b",     name:"A-Level Biology (OCR B Advancing Biology)", group:"A-Level", family:"Biology", grades:"alevel-biology", idPrefix:"bio-ocrb-", answerMode:"self" },
-
-  { id:"alevel-chemistry-aqa",           name:"A-Level Chemistry (AQA)", group:"A-Level", family:"Chemistry", grades:"alevel", idPrefix:"chem-aqa-", answerMode:"self" },
-  { id:"alevel-chemistry-edexcel",       name:"A-Level Chemistry (Edexcel)", group:"A-Level", family:"Chemistry", grades:"alevel", idPrefix:"chem-edx-", answerMode:"self" },
-  { id:"alevel-chemistry-ocr-a",         name:"A-Level Chemistry (OCR A)", group:"A-Level", family:"Chemistry", grades:"alevel", idPrefix:"chem-ocra-", answerMode:"self" },
-  { id:"alevel-chemistry-ocr-b-salters", name:"A-Level Chemistry (OCR B Salters)", group:"A-Level", family:"Chemistry", grades:"alevel", idPrefix:"chem-", answerMode:"self" },
-
-  { id:"alevel-physics-aqa",     name:"A-Level Physics (AQA)", group:"A-Level", family:"Physics", grades:"alevel", idPrefix:"phys-aqa-", answerMode:"self" },
-  { id:"alevel-physics-edexcel", name:"A-Level Physics (Edexcel)", group:"A-Level", family:"Physics", grades:"alevel", idPrefix:"phys-edx-", answerMode:"self" },
-  { id:"alevel-physics-ocr-a",   name:"A-Level Physics (OCR A)", group:"A-Level", family:"Physics", grades:"alevel", idPrefix:"phys-ocra-", answerMode:"self" },
-  { id:"alevel-physics-ocr-b",   name:"A-Level Physics (OCR B Advancing Physics)", group:"A-Level", family:"Physics", grades:"alevel", idPrefix:"phys-ocrb-", answerMode:"self" }
+  { id:"gcse-maths-foundation", name:"GCSE Maths (Foundation)", group:"GCSE", grades:"gcse-foundation", idPrefix:"gcse-f-" },
+  { id:"gcse-maths-higher",     name:"GCSE Maths (Higher)",     group:"GCSE", grades:"gcse-higher",     idPrefix:"gcse-h-" },
+  { id:"gcse-maths-extended",   name:"GCSE Maths (Extended)",   group:"GCSE", grades:"gcse-higher",     idPrefix:"gcse-e-" },
+  { id:"alevel-maths",          name:"A-Level Maths (Edexcel)", group:"A-Level", grades:"alevel",       idPrefix:"" },
+  { id:"alevel-maths-aqa",      name:"A-Level Maths (AQA)",     group:"A-Level", grades:"alevel",       idPrefix:"math-aqa-" },
+  { id:"alevel-maths-ocr-a",    name:"A-Level Maths (OCR A)",   group:"A-Level", grades:"alevel",       idPrefix:"math-ocra-" },
+  { id:"alevel-maths-ocr-b-mei",name:"A-Level Maths (OCR B MEI)",group:"A-Level",grades:"alevel",       idPrefix:"math-ocrb-" },
+  { id:"alevel-further-maths-edexcel",   name:"A-Level Further Maths (Edexcel)",   group:"A-Level", grades:"alevel", idPrefix:"fm-" },
+  { id:"alevel-further-maths-aqa",       name:"A-Level Further Maths (AQA)",       group:"A-Level", grades:"alevel", idPrefix:"fma-" },
+  { id:"alevel-further-maths-ocr-a",     name:"A-Level Further Maths (OCR A)",     group:"A-Level", grades:"alevel", idPrefix:"fmo-" },
+  { id:"alevel-further-maths-ocr-b-mei", name:"A-Level Further Maths (OCR B MEI)", group:"A-Level", grades:"alevel", idPrefix:"fmb-" },
+  // AQA 7402. Written answers are self-marked against the mark scheme (no typed answers).
+  // The Paper 3 essay (25 marks) is deliberately not included.
+  { id:"alevel-biology-aqa",       name:"A-Level Biology (AQA)",                   group:"A-Level", grades:"alevel-biology", idPrefix:"bio-" },
+  { id:"alevel-biology-edexcel-a", name:"A-Level Biology A (Edexcel)",             group:"A-Level", grades:"alevel", idPrefix:"bio-edxa-" },
+  { id:"alevel-biology-edexcel-b", name:"A-Level Biology B (Edexcel)",             group:"A-Level", grades:"alevel", idPrefix:"bio-edxb-" },
+  { id:"alevel-biology-ocr-a",     name:"A-Level Biology (OCR A)",                 group:"A-Level", grades:"alevel", idPrefix:"bio-ocra-" },
+  { id:"alevel-biology-ocr-b",     name:"A-Level Biology (OCR B Advancing Biology)",group:"A-Level",grades:"alevel", idPrefix:"bio-ocrb-" },
+  { id:"alevel-chemistry-aqa",           name:"A-Level Chemistry (AQA)",            group:"A-Level", grades:"alevel", idPrefix:"chem-aqa-" },
+  { id:"alevel-chemistry-edexcel",       name:"A-Level Chemistry (Edexcel)",        group:"A-Level", grades:"alevel", idPrefix:"chem-edx-" },
+  { id:"alevel-chemistry-ocr-a",         name:"A-Level Chemistry (OCR A)",          group:"A-Level", grades:"alevel", idPrefix:"chem-ocra-" },
+  { id:"alevel-chemistry-ocr-b-salters", name:"A-Level Chemistry (OCR B Salters)",  group:"A-Level", grades:"alevel", idPrefix:"chem-" },
+  { id:"alevel-physics-aqa",     name:"A-Level Physics (AQA)",                     group:"A-Level", grades:"alevel", idPrefix:"phys-aqa-" },
+  { id:"alevel-physics-edexcel", name:"A-Level Physics (Edexcel)",                 group:"A-Level", grades:"alevel", idPrefix:"phys-edx-" },
+  { id:"alevel-physics-ocr-a",   name:"A-Level Physics (OCR A)",                   group:"A-Level", grades:"alevel", idPrefix:"phys-ocra-" },
+  { id:"alevel-physics-ocr-b",   name:"A-Level Physics (OCR B Advancing Physics)", group:"A-Level", grades:"alevel", idPrefix:"phys-ocrb-" }
 ];
 // Each subject's questions live in their own file: questions/<subject id>.json
 // Change QUESTIONS_VERSION whenever you edit a question file, so browsers fetch the new copy straight away.
-const QUESTIONS_VERSION = "31";
+const QUESTIONS_VERSION = "32";
 const SUBJECT_BANKS = {};
 const bankLoads = {}, bankErrors = {};
 function bankLoaded(sid){ return !!SUBJECT_BANKS[sid]; }
@@ -1293,14 +1287,9 @@ function subjectInfo(id){ const sid = id || currentSubject(); return SUBJECTS.fi
 function topicKey(subject, topic){ subject = subject || "alevel-maths"; return subject==="alevel-maths" ? topic : subject + "|" + topic; }
 function subjectPickerHtml(){
   const cur = currentSubject();
-  const buckets = [];
-  SUBJECTS.forEach(s=>{
-    const label = s.group==="A-Level" ? `A-Level ${s.family||"Other"}` : `${s.group}${s.family ? " "+s.family : ""}`;
-    let b = buckets.find(x=>x.label===label); if(!b){ b={label,subjects:[]}; buckets.push(b); }
-    b.subjects.push(s);
-  });
-  return `<select id="subjectSelect" class="subject-select" aria-label="Subject">${buckets.map(b=>`<optgroup label="${esc(b.label)}">${
-    b.subjects.map(s=>`<option value="${s.id}" ${s.id===cur?"selected":""}>${esc(s.name)}</option>`).join("")}</optgroup>`).join("")}</select>`;
+  const groups = [...new Set(SUBJECTS.map(s=>s.group))];
+  return `<select id="subjectSelect" class="subject-select" aria-label="Subject">${groups.map(g=>`<optgroup label="${g}">${
+    SUBJECTS.filter(s=>s.group===g).map(s=>`<option value="${s.id}" ${s.id===cur?"selected":""}>${esc(s.name)}</option>`).join("")}</optgroup>`).join("")}</select>`;
 }
 
 // ======================= HOME PAGE =======================
@@ -1331,10 +1320,8 @@ function renderHome(){
       <div class="home-continue-name">Where do you want to start?</div>
       <div class="sub" style="margin:4px 0 0;">Pick a subject below. You'll earn a coin for every whole mark you score, to spend on colour themes in the shop.</div>
     </div>`;
-  const sectionKeys = [...new Set(SUBJECTS.map(s=>s.group==="A-Level" ? `A-Level ${s.family||"Other"}` : `${s.group}${s.family ? " "+s.family : ""}`))];
-  const groups = sectionKeys.map(label=>{
-    const members = SUBJECTS.filter(s=>(s.group==="A-Level" ? `A-Level ${s.family||"Other"}` : `${s.group}${s.family ? " "+s.family : ""}`)===label);
-    const cards = members.map(s=>{
+  const groups = [...new Set(SUBJECTS.map(s=>s.group))].map(g=>{
+    const cards = SUBJECTS.filter(s=>s.group===g).map(s=>{
       const sm = subjectSummary(s.id);
       const detail = sm.count ? `${sm.count} question${sm.count===1?"":"s"} answered` : "Not started yet";
       return `<button class="subject-card" data-open-subject="${s.id}">
@@ -1342,7 +1329,7 @@ function renderHome(){
         ${sm.count ? gradeBadge(sm.pct, true, s.id) : `<span class="subject-card-go" aria-hidden="true">›</span>`}
       </button>`;
     }).join("");
-    return `<h3>${esc(label)}</h3><div class="subject-grid">${cards}</div>`;
+    return `<h3>${esc(g)}</h3><div class="subject-grid">${cards}</div>`;
   }).join("");
   return `
     <div class="subject-bar"><div class="home-hello">${name ? `Hi, ${esc(name)}` : "Welcome"}</div>${coinPillHtml()}</div>
@@ -2415,7 +2402,7 @@ function acceptedList(o){
   if(o.answer!==undefined && o.answer!==null && o.answer!=="") out.push(o.answer);
   return out.map(String).filter(s=>s.trim()!=="");
 }
-function usesTypedAnswer(q){ return !!(q && subjectAnswerMode(subjectOf(q))==="typed" && answerSpec(q)); }
+function usesTypedAnswer(q){ return !!(q && isGcse(subjectOf(q)) && answerSpec(q)); }
 
 // ---- answer checking ----
 function normAns(raw){
@@ -3346,8 +3333,6 @@ function themeSwitchHtml(){
 }
 // Difficulty comes from a question's marks. GCSE and A-Level use different bands.
 function isGcse(sid){ return String(sid || currentSubject()).startsWith("gcse-"); }
-function subjectUsesCalculatorFilter(sid){ return !!subjectInfo(sid).calculatorFilter; }
-function subjectAnswerMode(sid){ return subjectInfo(sid).answerMode || (isGcse(sid) ? "typed" : "self"); }
 function difficultyBands(sid){
   return isGcse(sid)
     ? { easy:"Easy (1 mark)", medium:"Medium (2–4 marks)", hard:"Hard (5+ marks)" }
@@ -3363,18 +3348,18 @@ function difficultyOf(marks, sid){
 const CALC_KEY = "alevel_maths_calc_filter_v1";
 function calcFilter(){ let v = "all"; try{ v = localStorage.getItem(CALC_KEY) || "all"; }catch(e){} return ["all","calc","noncalc"].includes(v) ? v : "all"; }
 function calcAllows(q){
-  if(!subjectUsesCalculatorFilter(subjectOf(q))) return true;
+  if(!isGcse(subjectOf(q))) return true;
   const f = calcFilter();
   if(f==="calc") return q.calculator===true;
   if(f==="noncalc") return q.calculator===false;
   return true;
 }
 function calcPill(q){
-  if(!subjectUsesCalculatorFilter(subjectOf(q)) || typeof q.calculator!=="boolean") return "";
+  if(!isGcse(subjectOf(q)) || typeof q.calculator!=="boolean") return "";
   return q.calculator ? `<span class="pill calc-pill">🧮 Calculator</span>` : `<span class="pill calc-pill non">✏️ Non-calculator</span>`;
 }
 function calcToggleHtml(){
-  if(!subjectUsesCalculatorFilter()) return "";
+  if(!isGcse()) return "";
   const f = calcFilter();
   const b = (v, l)=>`<button type="button" data-calc="${v}" class="${f===v?"on":""}" aria-pressed="${f===v}">${l}</button>`;
   return `<div class="seg" role="group" aria-label="Calculator or non-calculator">${b("all","Both")}${b("calc","🧮 Calculator")}${b("noncalc","✏️ Non-calc")}</div>`;
@@ -3652,7 +3637,7 @@ function renderSelect(){
     <div class="toprow"><h1>${esc(subj.name)} Practice</h1>
       <div class="toprow-links">${themeSwitchHtml()}${isAdmin ? `<button class="nav-link" id="adminBtn">Admin${adminOpenCount ? ` (${adminOpenCount})` : ""}</button>` : ""}<button class="nav-link" id="statsBtn">Stats</button><button class="nav-link" id="manageBtn">Manage</button></div></div>
     <div class="sub">Pick topics, then work through questions. Each hint costs 1 point. Questions get spaced further apart the better you know them.</div>
-    ${subjectUsesCalculatorFilter() ? `<div class="calc-bar"><span class="calc-bar-label">Paper type</span>${calcToggleHtml()}</div>` : ""}
+    ${isGcse() ? `<div class="calc-bar"><span class="calc-bar-label">Paper type</span>${calcToggleHtml()}</div>` : ""}
     <div class="card session-card">
       <label class="field" style="margin-top:0;">Difficulty</label>
       <div class="diff-row">
