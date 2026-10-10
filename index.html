@@ -11,11 +11,11 @@
 <meta property="og:title" content="kelvincard">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.kelvincard.co.uk/">
-<meta property="og:description" content="Free GCSE and A Level Maths, A Level Biology, Chemistry and Physics revision with practice questions based on past papers, hints, worked solutions and mark schemes.">
+<meta property="og:description" content="Free GCSE and A Level Maths and A Level Biology revision with practice questions based on past papers, hints, worked solutions and mark schemes.">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebSite","name":"kelvincard","alternateName":["kelvincard.co.uk","Kelvincard"],"url":"https://www.kelvincard.co.uk/"}
 </script>
-<meta name="description" content="kelvincard: free GCSE and A Level Maths, A Level Biology, Chemistry and Physics revision with practice questions based on GCSE and A Level past paper questions, plus hints, worked solutions, mark schemes and printable practice papers.">
+<meta name="description" content="kelvincard: free GCSE and A Level Maths and A Level Biology revision with practice questions based on GCSE and A Level past paper questions, plus hints, worked solutions, mark schemes and printable practice papers.">
 <style>
 :root{
   --bg:#f7f7f5; --panel:#fff; --ink:#1b1b1f; --sub:#6b6b74; --line:#e4e4e0;
@@ -1227,36 +1227,34 @@ function attachAdminHandlers(){
 //  - Topics with no questions show as "Coming soon", so you can fill them in gradually.
 const SUBJECT_KEY = "alevel_maths_subject_v1";
 const SUBJECTS = [
-  { id:"gcse-maths-foundation", name:"GCSE Maths (Foundation)", group:"GCSE", grades:"gcse-foundation", idPrefix:"gcse-f-" },
-  { id:"gcse-maths-higher",     name:"GCSE Maths (Higher)",     group:"GCSE", grades:"gcse-higher",     idPrefix:"gcse-h-" },
-  { id:"gcse-maths-extended",   name:"GCSE Maths (Extended)",   group:"GCSE", grades:"gcse-higher",     idPrefix:"gcse-e-" },
-  { id:"alevel-maths",          name:"A-Level Maths (Edexcel)", group:"A-Level", grades:"alevel",       idPrefix:"" },
-  { id:"alevel-maths-aqa",      name:"A-Level Maths (AQA)",     group:"A-Level", grades:"alevel",       idPrefix:"math-aqa-" },
-  { id:"alevel-maths-ocr-a",    name:"A-Level Maths (OCR A)",   group:"A-Level", grades:"alevel",       idPrefix:"math-ocra-" },
-  { id:"alevel-maths-ocr-b-mei",name:"A-Level Maths (OCR B MEI)",group:"A-Level",grades:"alevel",       idPrefix:"math-ocrb-" },
-  { id:"alevel-further-maths-edexcel",   name:"A-Level Further Maths (Edexcel)",   group:"A-Level", grades:"alevel", idPrefix:"fm-" },
-  { id:"alevel-further-maths-aqa",       name:"A-Level Further Maths (AQA)",       group:"A-Level", grades:"alevel", idPrefix:"fma-" },
-  { id:"alevel-further-maths-ocr-a",     name:"A-Level Further Maths (OCR A)",     group:"A-Level", grades:"alevel", idPrefix:"fmo-" },
-  { id:"alevel-further-maths-ocr-b-mei", name:"A-Level Further Maths (OCR B MEI)", group:"A-Level", grades:"alevel", idPrefix:"fmb-" },
-  // AQA 7402. Written answers are self-marked against the mark scheme (no typed answers).
-  // The Paper 3 essay (25 marks) is deliberately not included.
-  { id:"alevel-biology-aqa",       name:"A-Level Biology (AQA)",                   group:"A-Level", grades:"alevel-biology", idPrefix:"bio-" },
-  { id:"alevel-biology-edexcel-a", name:"A-Level Biology A (Edexcel)",             group:"A-Level", grades:"alevel", idPrefix:"bio-edxa-" },
-  { id:"alevel-biology-edexcel-b", name:"A-Level Biology B (Edexcel)",             group:"A-Level", grades:"alevel", idPrefix:"bio-edxb-" },
-  { id:"alevel-biology-ocr-a",     name:"A-Level Biology (OCR A)",                 group:"A-Level", grades:"alevel", idPrefix:"bio-ocra-" },
-  { id:"alevel-biology-ocr-b",     name:"A-Level Biology (OCR B Advancing Biology)",group:"A-Level",grades:"alevel", idPrefix:"bio-ocrb-" },
-  { id:"alevel-chemistry-aqa",           name:"A-Level Chemistry (AQA)",            group:"A-Level", grades:"alevel", idPrefix:"chem-aqa-" },
-  { id:"alevel-chemistry-edexcel",       name:"A-Level Chemistry (Edexcel)",        group:"A-Level", grades:"alevel", idPrefix:"chem-edx-" },
-  { id:"alevel-chemistry-ocr-a",         name:"A-Level Chemistry (OCR A)",          group:"A-Level", grades:"alevel", idPrefix:"chem-ocra-" },
-  { id:"alevel-chemistry-ocr-b-salters", name:"A-Level Chemistry (OCR B Salters)",  group:"A-Level", grades:"alevel", idPrefix:"chem-" },
-  { id:"alevel-physics-aqa",     name:"A-Level Physics (AQA)",                     group:"A-Level", grades:"alevel", idPrefix:"phys-aqa-" },
-  { id:"alevel-physics-edexcel", name:"A-Level Physics (Edexcel)",                 group:"A-Level", grades:"alevel", idPrefix:"phys-edx-" },
-  { id:"alevel-physics-ocr-a",   name:"A-Level Physics (OCR A)",                   group:"A-Level", grades:"alevel", idPrefix:"phys-ocra-" },
-  { id:"alevel-physics-ocr-b",   name:"A-Level Physics (OCR B Advancing Physics)", group:"A-Level", grades:"alevel", idPrefix:"phys-ocrb-" }
+  { id:"gcse-maths-foundation", name:"GCSE Maths (Foundation)", group:"GCSE Maths", grades:"gcse-foundation", idPrefix:"gcse-f-" },
+  { id:"gcse-maths-higher", name:"GCSE Maths (Higher)", group:"GCSE Maths", grades:"gcse-higher", idPrefix:"gcse-h-" },
+  { id:"gcse-maths-extended", name:"GCSE Maths (Extended)", group:"GCSE Maths", grades:"gcse-higher", idPrefix:"gcse-e-" },
+  { id:"alevel-maths", name:"A-Level Maths (Edexcel)", group:"A-Level Maths", grades:"alevel", idPrefix:"" },
+  { id:"alevel-maths-aqa", name:"A-Level Maths (AQA)", group:"A-Level Maths", grades:"alevel", idPrefix:"math-aqa-" },
+  { id:"alevel-maths-ocr-a", name:"A-Level Maths (OCR A)", group:"A-Level Maths", grades:"alevel", idPrefix:"math-ocra-" },
+  { id:"alevel-maths-ocr-b-mei", name:"A-Level Maths (OCR B MEI)", group:"A-Level Maths", grades:"alevel", idPrefix:"math-ocrb-" },
+  { id:"alevel-further-maths-edexcel", name:"A-Level Further Maths (Edexcel)", group:"A-Level Further Maths", grades:"alevel", idPrefix:"fm-" },
+  { id:"alevel-further-maths-aqa", name:"A-Level Further Maths (AQA)", group:"A-Level Further Maths", grades:"alevel", idPrefix:"fma-" },
+  { id:"alevel-further-maths-ocr-a", name:"A-Level Further Maths (OCR A)", group:"A-Level Further Maths", grades:"alevel", idPrefix:"fmo-" },
+  { id:"alevel-further-maths-ocr-b-mei", name:"A-Level Further Maths (OCR B MEI)", group:"A-Level Further Maths", grades:"alevel", idPrefix:"fmb-" },
+  { id:"alevel-biology-aqa", name:"A-Level Biology (AQA)", group:"A-Level Biology", grades:"alevel-biology", idPrefix:"bio-" },
+  { id:"alevel-biology-edexcel-a", name:"A-Level Biology A (Edexcel)", group:"A-Level Biology", grades:"alevel-biology", idPrefix:"bio-edxa-" },
+  { id:"alevel-biology-edexcel-b", name:"A-Level Biology B (Edexcel)", group:"A-Level Biology", grades:"alevel-biology", idPrefix:"bio-edxb-" },
+  { id:"alevel-biology-ocr-a", name:"A-Level Biology (OCR A)", group:"A-Level Biology", grades:"alevel-biology", idPrefix:"bio-ocra-" },
+  { id:"alevel-biology-ocr-b", name:"A-Level Biology (OCR B Advancing Biology)", group:"A-Level Biology", grades:"alevel-biology", idPrefix:"bio-ocrb-" },
+  { id:"alevel-chemistry-aqa", name:"A-Level Chemistry (AQA)", group:"A-Level Chemistry", grades:"alevel", idPrefix:"chem-aqa-" },
+  { id:"alevel-chemistry-edexcel", name:"A-Level Chemistry (Edexcel)", group:"A-Level Chemistry", grades:"alevel", idPrefix:"chem-edx-" },
+  { id:"alevel-chemistry-ocr-a", name:"A-Level Chemistry (OCR A)", group:"A-Level Chemistry", grades:"alevel", idPrefix:"chem-ocra-" },
+  { id:"alevel-chemistry-ocr-b-salters", name:"A-Level Chemistry (OCR B Salters)", group:"A-Level Chemistry", grades:"alevel", idPrefix:"chem-" },
+  { id:"alevel-physics-aqa", name:"A-Level Physics (AQA)", group:"A-Level Physics", grades:"alevel", idPrefix:"phys-aqa-" },
+  { id:"alevel-physics-edexcel", name:"A-Level Physics (Edexcel)", group:"A-Level Physics", grades:"alevel", idPrefix:"phys-edx-" },
+  { id:"alevel-physics-ocr-a", name:"A-Level Physics (OCR A)", group:"A-Level Physics", grades:"alevel", idPrefix:"phys-ocra-" },
+  { id:"alevel-physics-ocr-b", name:"A-Level Physics (OCR B Advancing Physics)", group:"A-Level Physics", grades:"alevel", idPrefix:"phys-ocrb-" }
 ];
 // Each subject's questions live in their own file: questions/<subject id>.json
 // Change QUESTIONS_VERSION whenever you edit a question file, so browsers fetch the new copy straight away.
-const QUESTIONS_VERSION = "32";
+const QUESTIONS_VERSION = "33";
 const SUBJECT_BANKS = {};
 const bankLoads = {}, bankErrors = {};
 function bankLoaded(sid){ return !!SUBJECT_BANKS[sid]; }
