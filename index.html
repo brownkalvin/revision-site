@@ -351,7 +351,7 @@ body.ads-on .wrap{padding-bottom:12px !important;}
 @media (max-width:420px){ .toprow-links{gap:12px;margin-left:0;} .nav-link{font-size:1rem;padding:6px 1px;} }
 
 /* Fixed quick navigation: keeps the original page engine intact. */
-.quick-nav{position:fixed;top:calc(10px + env(safe-area-inset-top,0px));left:max(12px,calc(50vw - 390px));z-index:40;font-size:.9rem;}
+.quick-nav{position:fixed;top:calc(10px + env(safe-area-inset-top,0px));left:50%;transform:translateX(-50%);z-index:40;font-size:.9rem;}
 .quick-nav-btn{display:flex;align-items:center;gap:7px;background:var(--panel);color:var(--ink);border:1px solid var(--line);box-shadow:0 3px 14px rgba(0,0,0,.12);padding:9px 12px;border-radius:11px;font-weight:700;min-height:42px;}
 .quick-nav-btn .quick-nav-icon{font-size:1.05rem;line-height:1;}
 .quick-nav-panel{display:none;position:absolute;top:49px;left:0;width:min(360px,calc(100vw - 24px));max-height:min(72vh,620px);overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:14px;box-shadow:0 12px 34px rgba(0,0,0,.18);padding:10px;overscroll-behavior:contain;}
