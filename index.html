@@ -3617,12 +3617,16 @@ function attachQuickNavHandlers(){
   btn.onclick = e=>{ e.stopPropagation(); const open=!nav.classList.contains("open"); nav.classList.toggle("open",open); btn.setAttribute("aria-expanded",open?"true":"false"); if(open){ const q=document.getElementById("quickNavSearch"); if(q) setTimeout(()=>q.focus(),0); } };
   const home = document.getElementById("quickNavHome");
   if(home) home.onclick = ()=>{ state.screen="home"; state.editForm=null; document.title=SITE_NAME; render(); window.scrollTo(0,0); };
-  nav.querySelectorAll("[data-quick-subject]").forEach(b=>{ b.onclick=()=>{ switchSubject(b.dataset.quickSubject); window.scrollTo(0,0); }; });
-  nav.querySelectorAll("[data-quick-topic-key]").forEach(b=>{ b.onclick=()=>{
+  nav.querySelectorAll("[data-quick-subject]").forEach(b=>{ b.onclick=(e)=>{ e.preventDefault(); e.stopPropagation(); switchSubject(b.dataset.quickSubject); window.scrollTo(0,0); }; });
+  nav.querySelectorAll("[data-quick-topic-key]").forEach(b=>{ b.onclick=(e)=>{
+    e.preventDefault(); e.stopPropagation();
     const decoded=decodeURIComponent(b.dataset.quickTopicKey||"").split("|||");
     const sid=decoded[1], topic=decoded.slice(2).join("|||");
     switchSubject(sid);
-    state.browseTopic=topic; state.browseSearch=""; state.browseSort="default"; state.screen="browse"; render(); window.scrollTo(0,0);
+    loadSubject(sid).then(()=>{
+      state.browseTopic=topic; state.browseSearch=""; state.browseSort="default"; state.screen="browse";
+      render(); window.scrollTo(0,0);
+    }).catch(()=>{});
   }; });
   const search=document.getElementById("quickNavSearch");
   if(search) search.oninput=()=>{
