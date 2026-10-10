@@ -349,6 +349,30 @@ body.ads-on .wrap{padding-bottom:12px !important;}
 .shop-btn{width:100%;padding:9px 8px;font-size:.85rem;}
 .shop-btn[disabled]{opacity:.75;cursor:default;}
 @media (max-width:420px){ .toprow-links{gap:12px;margin-left:0;} .nav-link{font-size:1rem;padding:6px 1px;} }
+
+/* Fixed quick navigation: keeps the original page engine intact. */
+.quick-nav{position:fixed;top:calc(10px + env(safe-area-inset-top,0px));left:max(12px,calc(50vw - 390px));z-index:40;font-size:.9rem;}
+.quick-nav-btn{display:flex;align-items:center;gap:7px;background:var(--panel);color:var(--ink);border:1px solid var(--line);box-shadow:0 3px 14px rgba(0,0,0,.12);padding:9px 12px;border-radius:11px;font-weight:700;min-height:42px;}
+.quick-nav-btn .quick-nav-icon{font-size:1.05rem;line-height:1;}
+.quick-nav-panel{display:none;position:absolute;top:49px;left:0;width:min(360px,calc(100vw - 24px));max-height:min(72vh,620px);overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:14px;box-shadow:0 12px 34px rgba(0,0,0,.18);padding:10px;overscroll-behavior:contain;}
+.quick-nav.open .quick-nav-panel{display:block;}
+.quick-nav-head{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:3px 4px 8px;}
+.quick-nav-title{font-weight:800;font-size:.95rem;line-height:1.25;}
+.quick-nav-home{background:transparent;color:var(--accent);padding:5px 6px;font-size:.8rem;text-decoration:underline;}
+.quick-nav select,.quick-nav input[type=search]{width:100%;margin:0 0 8px;padding:9px 10px;border-radius:9px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:inherit;}
+.quick-nav-section{font-size:.72rem;color:var(--sub);text-transform:uppercase;letter-spacing:.04em;font-weight:800;padding:9px 6px 4px;}
+.quick-nav-topic,.quick-nav-subject{display:block;width:100%;text-align:left;background:transparent;color:var(--ink);border:none;border-radius:8px;padding:9px 8px;font-size:.88rem;line-height:1.25;}
+.quick-nav-topic:hover,.quick-nav-topic:focus-visible,.quick-nav-subject:hover,.quick-nav-subject:focus-visible{background:var(--bg);outline:none;}
+.quick-nav-topic small{display:block;color:var(--sub);font-size:.72rem;margin-top:2px;}
+.quick-nav-empty{color:var(--sub);font-size:.82rem;padding:8px 6px 10px;line-height:1.4;}
+.quick-nav-divider{height:1px;background:var(--line);margin:4px 0;}
+@media (max-width:700px){
+  .quick-nav{left:12px;}
+  .wrap{padding-top:68px;}
+  .quick-nav-panel{max-height:calc(100vh - 82px - env(safe-area-inset-bottom,0px));}
+}
+@media print{.quick-nav{display:none !important;}}
+
 </style>
 <script>window.MathJax={tex:{inlineMath:[['$','$']],displayMath:[['$$','$$']],processEscapes:true,macros:{pounds:'\\text{£}'}},svg:{fontCache:'local'},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code','svg']}};</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-svg.js"></script>
@@ -3545,6 +3569,49 @@ function masteryLabel(pct){
   return "Needs work";
 }
 
+
+// ======================= FIXED TOPIC NAVIGATION =======================
+// Uses the same SUBJECTS/getAllTopics/switchSubject/browse state as the original site.
+function quickNavHtml(){
+  const sid = currentSubject();
+  const subj = subjectInfo(sid);
+  const loaded = bankLoaded(sid);
+  const topics = loaded ? getAllTopics(sid).filter(t=>t.questions && t.questions.length>0) : [];
+  const byCat = {};
+  topics.forEach(t=>{ (byCat[t.category||"General"] = byCat[t.category||"General"] || []).push(t); });
+  const subjectOptions = SUBJECTS.map(s=>`<option value="${esc(s.id)}" ${s.id===sid?"selected":""}>${esc(s.name)}</option>`).join("");
+  const topicList = Object.entries(byCat).map(([cat,ts])=>`<div class="quick-nav-section">${esc(cat)}</div>${ts.map(t=>`<button type="button" class="quick-nav-topic" data-quick-topic="${esc(t.topic)}"><span>${esc(t.topic)}</span><small>${t.questions.length} question${t.questions.length===1?"":"s"}</small></button>`).join("")}`).join("");
+  const homeSubjects = [...new Set(SUBJECTS.map(s=>s.group))].map(g=>`<div class="quick-nav-section">${esc(g)}</div>${SUBJECTS.filter(s=>s.group===g).map(s=>`<button type="button" class="quick-nav-subject" data-quick-subject="${esc(s.id)}">${esc(s.name)}</button>`).join("")}`).join("");
+  const content = state.screen==="home"
+    ? homeSubjects
+    : `<select id="quickNavSubject" aria-label="Change subject">${subjectOptions}</select><input type="search" id="quickNavSearch" placeholder="Find a topic…" autocomplete="off" aria-label="Find a topic">${loaded ? (topicList || `<div class="quick-nav-empty">No question topics are available for this subject yet.</div>`) : `<div class="quick-nav-empty">Open this subject to load its topics.</div>`}`;
+  return `<nav class="quick-nav" id="quickNav" aria-label="Quick navigation">
+    <button type="button" class="quick-nav-btn" id="quickNavBtn" aria-expanded="false" aria-controls="quickNavPanel"><span class="quick-nav-icon" aria-hidden="true">☰</span><span>Topics</span></button>
+    <div class="quick-nav-panel" id="quickNavPanel">
+      <div class="quick-nav-head"><div class="quick-nav-title">${state.screen==="home" ? "Subjects" : esc(subj.name)}</div><button type="button" class="quick-nav-home" id="quickNavHome">Home</button></div>
+      <div class="quick-nav-divider"></div>${content}
+    </div>
+  </nav>`;
+}
+function attachQuickNavHandlers(){
+  const nav = document.getElementById("quickNav"), btn = document.getElementById("quickNavBtn");
+  if(!nav || !btn) return;
+  const close = ()=>{ nav.classList.remove("open"); btn.setAttribute("aria-expanded","false"); };
+  btn.onclick = e=>{ e.stopPropagation(); const open=!nav.classList.contains("open"); nav.classList.toggle("open",open); btn.setAttribute("aria-expanded",open?"true":"false"); if(open){ const q=document.getElementById("quickNavSearch"); if(q) setTimeout(()=>q.focus(),0); } };
+  const home = document.getElementById("quickNavHome");
+  if(home) home.onclick = ()=>{ state.screen="home"; state.editForm=null; document.title=SITE_NAME; render(); window.scrollTo(0,0); };
+  const sel = document.getElementById("quickNavSubject");
+  if(sel) sel.onchange = ()=>{ switchSubject(sel.value); window.scrollTo(0,0); };
+  nav.querySelectorAll("[data-quick-subject]").forEach(b=>{ b.onclick=()=>{ switchSubject(b.dataset.quickSubject); window.scrollTo(0,0); }; });
+  nav.querySelectorAll("[data-quick-topic]").forEach(b=>{ b.onclick=()=>{
+    state.browseTopic=b.dataset.quickTopic; state.browseSearch=""; state.browseSort="default"; state.screen="browse"; render(); window.scrollTo(0,0);
+  }; });
+  const search=document.getElementById("quickNavSearch");
+  if(search) search.oninput=()=>{ const q=search.value.trim().toLowerCase(); nav.querySelectorAll("[data-quick-topic]").forEach(b=>{ b.style.display=!q || b.textContent.toLowerCase().includes(q) ? "block" : "none"; }); nav.querySelectorAll(".quick-nav-section").forEach(h=>{ let n=h.nextElementSibling, any=false; while(n && !n.classList.contains("quick-nav-section")){ if(n.matches && n.matches("[data-quick-topic]") && n.style.display!=="none") any=true; n=n.nextElementSibling; } h.style.display=any?"block":"none"; }); };
+  document.addEventListener("click",function quickNavOutside(e){ if(!document.body.contains(nav)){ document.removeEventListener("click",quickNavOutside); return; } if(!nav.contains(e.target)) close(); });
+  document.addEventListener("keydown",function quickNavEsc(e){ if(!document.body.contains(nav)){ document.removeEventListener("keydown",quickNavEsc); return; } if(e.key==="Escape"){ close(); btn.focus(); } });
+}
+
 function render(){
   const app = document.getElementById("app");
   if(state.screen==="thread") state.screen = "inbox";
@@ -3569,9 +3636,11 @@ function render(){
   else if(state.screen === "account") html = renderAccount();
   else if(state.screen === "paperSetup") html = renderPaperSetup();
   else if(state.screen === "paperView") html = renderPaperView();
+  html = quickNavHtml() + html;
   html += footerHtml();
   html += renderToast();
   app.innerHTML = html;
+  attachQuickNavHandlers();
   attachHandlers();
   attachAdminHandlers();
   attachShopHandlers();
