@@ -1254,23 +1254,31 @@ const SUBJECTS = [
 ];
 // Each subject's questions live in their own file: questions/<subject id>.json
 // Change QUESTIONS_VERSION whenever you edit a question file, so browsers fetch the new copy straight away.
-const QUESTIONS_VERSION = "33";
+const QUESTIONS_VERSION = "34";
 const SUBJECT_BANKS = {};
 const bankLoads = {}, bankErrors = {};
 function bankLoaded(sid){ return !!SUBJECT_BANKS[sid]; }
 function loadSubject(sid){
   if(SUBJECT_BANKS[sid]) return Promise.resolve(SUBJECT_BANKS[sid]);
   if(bankLoads[sid]) return bankLoads[sid];
-  const url = `questions/${sid}.json?v=${QUESTIONS_VERSION}`;
-  bankLoads[sid] = fetch(url).catch(()=>fetch(url, {cache:"force-cache"}))
-    .then(r=>{ if(!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+  const urls = [
+    `questions/${sid}.json?v=${QUESTIONS_VERSION}`,
+    `${sid}.json?v=${QUESTIONS_VERSION}`
+  ];
+  const tryUrl = i=>fetch(urls[i], {cache:"no-store"}).then(r=>{
+    if(r.ok) return r.json();
+    if(i+1<urls.length) return tryUrl(i+1);
+    throw new Error("HTTP " + r.status + " tried " + urls.map(u=>u.split("?")[0]).join(", "));
+  });
+  bankLoads[sid] = tryUrl(0)
     .then(data=>{
       const topics = Array.isArray(data) ? data : (data.topics || []);
-      topics.forEach(t=>{ t.questions = t.questions || []; t.questions.forEach(q=>{ q.subject = sid; }); });
+      if(!Array.isArray(topics)) throw new Error("Invalid question bank format");
+      topics.forEach(t=>{ t.questions = Array.isArray(t.questions) ? t.questions : []; t.questions.forEach(q=>{ q.subject = sid; }); });
       SUBJECT_BANKS[sid] = topics; delete bankErrors[sid]; delete bankLoads[sid];
       return topics;
     })
-    .catch(e=>{ bankErrors[sid] = location.protocol==="file:" ? "file" : (/^HTTP 404/.test(e.message||"") ? "missing" : "network"); delete bankLoads[sid]; throw e; });
+    .catch(e=>{ bankErrors[sid] = location.protocol==="file:" ? "file" : (/^HTTP 404/.test(e.message||"") ? "missing" : "network"); bankErrors[sid+"_detail"] = e.message||String(e); delete bankLoads[sid]; throw e; });
   return bankLoads[sid];
 }
 function loadAllSubjects(){ return Promise.allSettled(SUBJECTS.map(s=>loadSubject(s.id))); }
@@ -2976,8 +2984,8 @@ function bankLoadingHtml(sid){
   const msg = err==="file"
     ? "The questions can't load when the page is opened straight from a file on your computer. Open the site from its web address instead."
     : err==="missing"
-    ? `These questions aren't available right now (the file questions/${esc(sid)}.json wasn't found on the server). Please try again later.`
-    : "Couldn't load the questions. Check your internet connection and try again.";
+    ? `These questions aren't available right now. I tried both <strong>questions/${esc(sid)}.json</strong> and <strong>${esc(sid)}.json</strong>. Make sure one of those exact filenames is in the published GitHub Pages branch.`
+    : `Couldn't load the questions. ${bankErrors[sid+"_detail"] ? `<br><small>${esc(bankErrors[sid+"_detail"])}</small>` : "Check your internet connection and try again."}`;
   return `${back}<div class="card" style="margin-top:12px;"><div class="auth-msg err" style="margin-top:0;">${msg}</div><button class="btn-primary" id="bankRetryBtn">Try again</button></div>`;
 }
 
