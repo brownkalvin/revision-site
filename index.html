@@ -371,6 +371,18 @@ body.ads-on .wrap{padding-bottom:12px !important;}
   .wrap{padding-top:68px;}
   .quick-nav-panel{max-height:calc(100vh - 82px - env(safe-area-inset-bottom,0px));}
 }
+
+.quick-nav-level,.quick-nav-subject-group{border:0;}
+.quick-nav-level>summary,.quick-nav-subject-group>summary{list-style:none;cursor:pointer;font-weight:800;padding:9px 8px;border-radius:8px;}
+.quick-nav-level>summary::-webkit-details-marker,.quick-nav-subject-group>summary::-webkit-details-marker{display:none;}
+.quick-nav-level>summary::before,.quick-nav-subject-group>summary::before{content:"›";display:inline-block;width:1em;transition:transform .12s;margin-right:3px;}
+.quick-nav-level[open]>summary::before,.quick-nav-subject-group[open]>summary::before{transform:rotate(90deg);}
+.quick-nav-level>summary:hover,.quick-nav-subject-group>summary:hover{background:var(--bg);}
+.quick-nav-level-body{padding:0 0 3px 8px;}
+.quick-nav-subject-body{padding:0 0 5px 12px;}
+.quick-nav-subject-jump{display:block;width:100%;text-align:left;background:transparent;color:var(--accent);border:none;border-radius:8px;padding:8px;font-size:.84rem;}
+.quick-nav-subject-jump:hover{background:var(--bg);}
+.quick-nav-panel{width:min(380px,calc(100vw - 24px));}
 @media print{.quick-nav{display:none !important;}}
 
 </style>
@@ -3573,26 +3585,31 @@ function masteryLabel(pct){
 // ======================= FIXED TOPIC NAVIGATION =======================
 // Uses the same SUBJECTS/getAllTopics/switchSubject/browse state as the original site.
 function quickNavHtml(){
-  const sid = currentSubject();
-  const subj = subjectInfo(sid);
-  const loaded = bankLoaded(sid);
-  const topics = loaded ? getAllTopics(sid).filter(t=>t.questions && t.questions.length>0) : [];
-  const byCat = {};
-  topics.forEach(t=>{ (byCat[t.category||"General"] = byCat[t.category||"General"] || []).push(t); });
-  const subjectOptions = SUBJECTS.map(s=>`<option value="${esc(s.id)}" ${s.id===sid?"selected":""}>${esc(s.name)}</option>`).join("");
-  const topicList = Object.entries(byCat).map(([cat,ts])=>`<div class="quick-nav-section">${esc(cat)}</div>${ts.map(t=>`<button type="button" class="quick-nav-topic" data-quick-topic="${esc(t.topic)}"><span>${esc(t.topic)}</span><small>${t.questions.length} question${t.questions.length===1?"":"s"}</small></button>`).join("")}`).join("");
-  const homeSubjects = [...new Set(SUBJECTS.map(s=>s.group))].map(g=>`<div class="quick-nav-section">${esc(g)}</div>${SUBJECTS.filter(s=>s.group===g).map(s=>`<button type="button" class="quick-nav-subject" data-quick-subject="${esc(s.id)}">${esc(s.name)}</button>`).join("")}`).join("");
-  const content = state.screen==="home"
-    ? homeSubjects
-    : `<select id="quickNavSubject" aria-label="Change subject">${subjectOptions}</select><input type="search" id="quickNavSearch" placeholder="Find a topic…" autocomplete="off" aria-label="Find a topic">${loaded ? (topicList || `<div class="quick-nav-empty">No question topics are available for this subject yet.</div>`) : `<div class="quick-nav-empty">Open this subject to load its topics.</div>`}`;
+  const levelGroups = ["GCSE","A-Level"];
+  const makeKey = (level, subjectId, topic) => encodeURIComponent(level + "|||" + subjectId + "|||" + topic);
+  const subjectLevel = s => s.group || (s.id.startsWith("gcse-") ? "GCSE" : "A-Level");
+  const subjectLabel = s => s.name.replace(/^GCSE\s+Maths\s+\(/,"Maths (").replace(/^A-Level\s+/,"");
+  const subjects = level => SUBJECTS.filter(s=>subjectLevel(s)===level);
+  const homeContent = levelGroups.map(level=>{
+    const subs = subjects(level).map(s=>{
+      const bank = SUBJECT_BANKS[s.id];
+      const topics = bank ? getAllTopics(s.id).filter(t=>t.questions && t.questions.length>0) : [];
+      return `<details class="quick-nav-subject-group"><summary>${esc(subjectLabel(s))}</summary><div class="quick-nav-subject-body">
+        ${topics.length ? topics.map(t=>`<button type="button" class="quick-nav-topic" data-quick-topic-key="${makeKey(level,s.id,t.topic)}"><span>${esc(t.topic)}</span></button>`).join("") : `<button type="button" class="quick-nav-subject-jump" data-quick-subject="${esc(s.id)}">Open ${esc(subjectLabel(s))}</button>`}
+      </div></details>`;
+    }).join("");
+    return `<details class="quick-nav-level"><summary>${esc(level)}</summary><div class="quick-nav-level-body">${subs}</div></details>`;
+  }).join("");
   return `<nav class="quick-nav" id="quickNav" aria-label="Quick navigation">
     <button type="button" class="quick-nav-btn" id="quickNavBtn" aria-expanded="false" aria-controls="quickNavPanel"><span class="quick-nav-icon" aria-hidden="true">☰</span><span>Topics</span></button>
     <div class="quick-nav-panel" id="quickNavPanel">
-      <div class="quick-nav-head"><div class="quick-nav-title">${state.screen==="home" ? "Subjects" : esc(subj.name)}</div><button type="button" class="quick-nav-home" id="quickNavHome">Home</button></div>
-      <div class="quick-nav-divider"></div>${content}
+      <div class="quick-nav-head"><div class="quick-nav-title">Navigate</div><button type="button" class="quick-nav-home" id="quickNavHome">Home</button></div>
+      <input type="search" id="quickNavSearch" placeholder="Find a topic…" autocomplete="off" aria-label="Find a topic">
+      <div class="quick-nav-divider"></div>${homeContent}
     </div>
   </nav>`;
 }
+
 function attachQuickNavHandlers(){
   const nav = document.getElementById("quickNav"), btn = document.getElementById("quickNavBtn");
   if(!nav || !btn) return;
@@ -3600,16 +3617,30 @@ function attachQuickNavHandlers(){
   btn.onclick = e=>{ e.stopPropagation(); const open=!nav.classList.contains("open"); nav.classList.toggle("open",open); btn.setAttribute("aria-expanded",open?"true":"false"); if(open){ const q=document.getElementById("quickNavSearch"); if(q) setTimeout(()=>q.focus(),0); } };
   const home = document.getElementById("quickNavHome");
   if(home) home.onclick = ()=>{ state.screen="home"; state.editForm=null; document.title=SITE_NAME; render(); window.scrollTo(0,0); };
-  const sel = document.getElementById("quickNavSubject");
-  if(sel) sel.onchange = ()=>{ switchSubject(sel.value); window.scrollTo(0,0); };
   nav.querySelectorAll("[data-quick-subject]").forEach(b=>{ b.onclick=()=>{ switchSubject(b.dataset.quickSubject); window.scrollTo(0,0); }; });
-  nav.querySelectorAll("[data-quick-topic]").forEach(b=>{ b.onclick=()=>{
-    state.browseTopic=b.dataset.quickTopic; state.browseSearch=""; state.browseSort="default"; state.screen="browse"; render(); window.scrollTo(0,0);
+  nav.querySelectorAll("[data-quick-topic-key]").forEach(b=>{ b.onclick=()=>{
+    const decoded=decodeURIComponent(b.dataset.quickTopicKey||"").split("|||");
+    const sid=decoded[1], topic=decoded.slice(2).join("|||");
+    switchSubject(sid);
+    state.browseTopic=topic; state.browseSearch=""; state.browseSort="default"; state.screen="browse"; render(); window.scrollTo(0,0);
   }; });
   const search=document.getElementById("quickNavSearch");
-  if(search) search.oninput=()=>{ const q=search.value.trim().toLowerCase(); nav.querySelectorAll("[data-quick-topic]").forEach(b=>{ b.style.display=!q || b.textContent.toLowerCase().includes(q) ? "block" : "none"; }); nav.querySelectorAll(".quick-nav-section").forEach(h=>{ let n=h.nextElementSibling, any=false; while(n && !n.classList.contains("quick-nav-section")){ if(n.matches && n.matches("[data-quick-topic]") && n.style.display!=="none") any=true; n=n.nextElementSibling; } h.style.display=any?"block":"none"; }); };
-  document.addEventListener("click",function quickNavOutside(e){ if(!document.body.contains(nav)){ document.removeEventListener("click",quickNavOutside); return; } if(!nav.contains(e.target)) close(); });
-  document.addEventListener("keydown",function quickNavEsc(e){ if(!document.body.contains(nav)){ document.removeEventListener("keydown",quickNavEsc); return; } if(e.key==="Escape"){ close(); btn.focus(); } });
+  if(search) search.oninput=()=>{
+    const q=search.value.trim().toLowerCase();
+    nav.querySelectorAll("[data-quick-topic-key]").forEach(b=>{ b.style.display=!q || b.textContent.toLowerCase().includes(q) ? "block" : "none"; });
+    nav.querySelectorAll(".quick-nav-subject-group").forEach(d=>{
+      const any=[...d.querySelectorAll("[data-quick-topic-key]")].some(b=>b.style.display!=="none");
+      d.style.display=any || !q ? "" : "none";
+    });
+    nav.querySelectorAll(".quick-nav-level").forEach(d=>{
+      const any=[...d.querySelectorAll(".quick-nav-subject-group")].some(x=>x.style.display!=="none");
+      d.style.display=any || !q ? "" : "none";
+    });
+  };
+  const outside=e=>{ if(!document.body.contains(nav)){ document.removeEventListener("click",outside); return; } if(!nav.contains(e.target)) close(); };
+  const escHandler=e=>{ if(!document.body.contains(nav)){ document.removeEventListener("keydown",escHandler); return; } if(e.key==="Escape"){ close(); btn.focus(); } };
+  document.addEventListener("click",outside);
+  document.addEventListener("keydown",escHandler);
 }
 
 function render(){
