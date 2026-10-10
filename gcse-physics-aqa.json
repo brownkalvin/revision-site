@@ -1,0 +1,1910 @@
+[
+  {
+    "topic": "Energy",
+    "category": "Paper 1",
+    "questions": [
+      {
+        "id": "gcse-phys-aqa-p1-t01-f01a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain the energy transfers when a moving bicycle slows to a stop using its brakes. (4)",
+        "hints": [
+          "Name energy stores before and after.",
+          "Energy is transferred, not destroyed."
+        ],
+        "solution": "The bicycle initially has energy in its kinetic store. [B1]\nFriction does mechanical work on the brakes/wheels. [B1]\nEnergy is transferred mainly to thermal stores of the brakes, tyres and surroundings. [B1]\nTotal energy is conserved even though the useful kinetic energy decreases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Energy stores and transfers",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy · family 1"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t01-f01b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain the energy transfers when a moving bicycle slows to a stop using its brakes. (4)",
+        "hints": [
+          "Name energy stores before and after.",
+          "Energy is transferred, not destroyed."
+        ],
+        "solution": "The bicycle initially has energy in its kinetic store. [B1]\nFriction does mechanical work on the brakes/wheels. [B1]\nEnergy is transferred mainly to thermal stores of the brakes, tyres and surroundings. [B1]\nTotal energy is conserved even though the useful kinetic energy decreases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Energy stores and transfers",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy · family 1"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t01-f01c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain the energy transfers when a moving bicycle slows to a stop using its brakes. (4)",
+        "hints": [
+          "Name energy stores before and after.",
+          "Energy is transferred, not destroyed."
+        ],
+        "solution": "The bicycle initially has energy in its kinetic store. [B1]\nFriction does mechanical work on the brakes/wheels. [B1]\nEnergy is transferred mainly to thermal stores of the brakes, tyres and surroundings. [B1]\nTotal energy is conserved even though the useful kinetic energy decreases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Energy stores and transfers",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy · family 1"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t01-f02a",
+        "marks": 3,
+        "prompt": "A 60 W lamp is switched on for 5 minutes. Calculate the energy transferred. (3)",
+        "hints": [
+          "Use time in seconds and power in watts.",
+          "E = Pt."
+        ],
+        "solution": "Convert 5 min to 300 s. [B1]\nUse E = P x t. [B1]\nE = 60 x 300 = 18 000 J. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Power and energy",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy · family 2"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t01-f02b",
+        "marks": 3,
+        "prompt": "A 1.5 kW heater is used for 8 minutes. Calculate the energy transferred in joules. (3)",
+        "hints": [
+          "Use time in seconds and power in watts.",
+          "E = Pt."
+        ],
+        "solution": "Convert 1.5 kW to 1500 W and 8 min to 480 s. [B1]\nUse E = P x t. [B1]\nE = 1500 x 480 = 720 000 J. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Power and energy",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy · family 2"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t01-f02c",
+        "marks": 3,
+        "prompt": "A 900 W microwave operates for 2.0 minutes. Calculate the energy transferred. (3)",
+        "hints": [
+          "Use time in seconds and power in watts.",
+          "E = Pt."
+        ],
+        "solution": "Convert 2.0 min to 120 s. [B1]\nUse E = P x t. [B1]\nE = 900 x 120 = 108 000 J. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Power and energy",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy · family 2"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t01-f03a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain two ways the rate of energy transfer from a house can be reduced. (4)",
+        "hints": [
+          "Choose two insulation methods.",
+          "Explain the physical mechanism for each."
+        ],
+        "solution": "Loft insulation traps air and reduces conduction/convection through the roof. [B1]\nCavity wall insulation reduces conduction and convection through walls. [B1]\nDouble glazing traps a layer of gas and reduces conduction/convection through windows. [B1]\nThicker insulation generally reduces the rate of energy transfer, though cost and payback should also be considered. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Heating and insulation",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy · family 3"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t01-f03b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain two ways the rate of energy transfer from a house can be reduced. (4)",
+        "hints": [
+          "Choose two insulation methods.",
+          "Explain the physical mechanism for each."
+        ],
+        "solution": "Loft insulation traps air and reduces conduction/convection through the roof. [B1]\nCavity wall insulation reduces conduction and convection through walls. [B1]\nDouble glazing traps a layer of gas and reduces conduction/convection through windows. [B1]\nThicker insulation generally reduces the rate of energy transfer, though cost and payback should also be considered. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Heating and insulation",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy · family 3"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t01-f03c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain two ways the rate of energy transfer from a house can be reduced. (4)",
+        "hints": [
+          "Choose two insulation methods.",
+          "Explain the physical mechanism for each."
+        ],
+        "solution": "Loft insulation traps air and reduces conduction/convection through the roof. [B1]\nCavity wall insulation reduces conduction and convection through walls. [B1]\nDouble glazing traps a layer of gas and reduces conduction/convection through windows. [B1]\nThicker insulation generally reduces the rate of energy transfer, though cost and payback should also be considered. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Heating and insulation",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy · family 3"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t01-f04a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. A device transfers 800 J of energy, of which 520 J is useful. Calculate its efficiency and suggest one way to improve it. (4)",
+        "hints": [
+          "Efficiency can be written as a decimal or percentage.",
+          "Think about the main wasted energy pathway."
+        ],
+        "solution": "Efficiency = useful energy output / total energy input. [B1]\nEfficiency = 520 / 800 = 0.65. [B1]\nEfficiency = 65%. [B1]\nReduce unwanted transfers, for example by lubrication, insulation or reducing electrical resistance where appropriate. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Efficiency",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy · family 4"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t01-f04b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. A device transfers 800 J of energy, of which 520 J is useful. Calculate its efficiency and suggest one way to improve it. (4)",
+        "hints": [
+          "Efficiency can be written as a decimal or percentage.",
+          "Think about the main wasted energy pathway."
+        ],
+        "solution": "Efficiency = useful energy output / total energy input. [B1]\nEfficiency = 520 / 800 = 0.65. [B1]\nEfficiency = 65%. [B1]\nReduce unwanted transfers, for example by lubrication, insulation or reducing electrical resistance where appropriate. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Efficiency",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy · family 4"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t01-f04c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. A device transfers 800 J of energy, of which 520 J is useful. Calculate its efficiency and suggest one way to improve it. (4)",
+        "hints": [
+          "Efficiency can be written as a decimal or percentage.",
+          "Think about the main wasted energy pathway."
+        ],
+        "solution": "Efficiency = useful energy output / total energy input. [B1]\nEfficiency = 520 / 800 = 0.65. [B1]\nEfficiency = 65%. [B1]\nReduce unwanted transfers, for example by lubrication, insulation or reducing electrical resistance where appropriate. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Efficiency",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy · family 4"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t01-f05a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain why renewable energy resources can still have environmental impacts. (4)",
+        "hints": [
+          "Renewable does not mean zero impact.",
+          "Give two specific examples."
+        ],
+        "solution": "Renewable means the resource is replenished, not impact-free. [B1]\nWind or hydro schemes can alter habitats and landscapes. [B1]\nBiomass can use land and produce emissions when burned. [B1]\nSolar, wind and battery technologies require materials and energy to manufacture, so life-cycle impacts remain. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Energy resources",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy · family 5"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t01-f05b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain why renewable energy resources can still have environmental impacts. (4)",
+        "hints": [
+          "Renewable does not mean zero impact.",
+          "Give two specific examples."
+        ],
+        "solution": "Renewable means the resource is replenished, not impact-free. [B1]\nWind or hydro schemes can alter habitats and landscapes. [B1]\nBiomass can use land and produce emissions when burned. [B1]\nSolar, wind and battery technologies require materials and energy to manufacture, so life-cycle impacts remain. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Energy resources",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy · family 5"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t01-f05c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain why renewable energy resources can still have environmental impacts. (4)",
+        "hints": [
+          "Renewable does not mean zero impact.",
+          "Give two specific examples."
+        ],
+        "solution": "Renewable means the resource is replenished, not impact-free. [B1]\nWind or hydro schemes can alter habitats and landscapes. [B1]\nBiomass can use land and produce emissions when burned. [B1]\nSolar, wind and battery technologies require materials and energy to manufacture, so life-cycle impacts remain. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Energy resources",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy · family 5"
+      }
+    ]
+  },
+  {
+    "topic": "Electricity",
+    "category": "Paper 1",
+    "questions": [
+      {
+        "id": "gcse-phys-aqa-p1-t02-f01a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Compare current and potential difference in a series circuit and a parallel circuit. (4)",
+        "hints": [
+          "Recall the rules for series and parallel separately.",
+          "Current splits only at junctions."
+        ],
+        "solution": "In a series circuit the current is the same through all components. [B1]\nIn series, the supply potential difference is shared between components. [B1]\nIn parallel, the potential difference across each branch is the same as the supply. [B1]\nIn parallel, the total current equals the sum of currents in the branches. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Series and parallel circuits",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity · family 1",
+        "diagram": {
+          "svg": "<svg viewBox=\"0 0 320 170\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M55 45h80m50 0h80v80H55V45\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M135 35v20m12-28v36\" stroke=\"currentColor\" stroke-width=\"3\"/><circle cx=\"160\" cy=\"125\" r=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M148 113l24 24m0-24l-24 24\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"125\" y=\"22\" font-size=\"13\">cell</text><text x=\"145\" y=\"160\" font-size=\"13\">lamp</text></svg>",
+          "alt": "Schematic diagram for Electricity."
+        }
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t02-f01b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Compare current and potential difference in a series circuit and a parallel circuit. (4)",
+        "hints": [
+          "Recall the rules for series and parallel separately.",
+          "Current splits only at junctions."
+        ],
+        "solution": "In a series circuit the current is the same through all components. [B1]\nIn series, the supply potential difference is shared between components. [B1]\nIn parallel, the potential difference across each branch is the same as the supply. [B1]\nIn parallel, the total current equals the sum of currents in the branches. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Series and parallel circuits",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity · family 1",
+        "diagram": {
+          "svg": "<svg viewBox=\"0 0 320 170\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M55 45h80m50 0h80v80H55V45\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M135 35v20m12-28v36\" stroke=\"currentColor\" stroke-width=\"3\"/><circle cx=\"160\" cy=\"125\" r=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M148 113l24 24m0-24l-24 24\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"125\" y=\"22\" font-size=\"13\">cell</text><text x=\"145\" y=\"160\" font-size=\"13\">lamp</text></svg>",
+          "alt": "Schematic diagram for Electricity."
+        }
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t02-f01c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Compare current and potential difference in a series circuit and a parallel circuit. (4)",
+        "hints": [
+          "Recall the rules for series and parallel separately.",
+          "Current splits only at junctions."
+        ],
+        "solution": "In a series circuit the current is the same through all components. [B1]\nIn series, the supply potential difference is shared between components. [B1]\nIn parallel, the potential difference across each branch is the same as the supply. [B1]\nIn parallel, the total current equals the sum of currents in the branches. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Series and parallel circuits",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity · family 1",
+        "diagram": {
+          "svg": "<svg viewBox=\"0 0 320 170\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M55 45h80m50 0h80v80H55V45\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M135 35v20m12-28v36\" stroke=\"currentColor\" stroke-width=\"3\"/><circle cx=\"160\" cy=\"125\" r=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M148 113l24 24m0-24l-24 24\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"125\" y=\"22\" font-size=\"13\">cell</text><text x=\"145\" y=\"160\" font-size=\"13\">lamp</text></svg>",
+          "alt": "Schematic diagram for Electricity."
+        }
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t02-f02a",
+        "marks": 3,
+        "prompt": "A resistor has a potential difference of 12 V and a current of 3.0 A. Calculate its resistance. (3)",
+        "hints": [
+          "Use V = IR.",
+          "Rearrange for resistance."
+        ],
+        "solution": "Use R = V / I. [B1]\nR = 12 / 3.0. [B1]\nR = 4.0 ohms. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Resistance",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity · family 2"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t02-f02b",
+        "marks": 3,
+        "prompt": "A component has a potential difference of 9.0 V and a current of 0.50 A. Calculate its resistance. (3)",
+        "hints": [
+          "Use V = IR.",
+          "Rearrange for resistance."
+        ],
+        "solution": "Use R = V / I. [B1]\nR = 9.0 / 0.50. [B1]\nR = 18 ohms. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Resistance",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity · family 2"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t02-f02c",
+        "marks": 3,
+        "prompt": "A resistor carries 0.25 A when the potential difference is 6.0 V. Calculate its resistance. (3)",
+        "hints": [
+          "Use V = IR.",
+          "Rearrange for resistance."
+        ],
+        "solution": "Use R = V / I. [B1]\nR = 6.0 / 0.25. [B1]\nR = 24 ohms. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Resistance",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity · family 2"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t02-f03a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Describe a method for investigating how current through a filament lamp changes with potential difference. (4)",
+        "hints": [
+          "Ammeter in series; voltmeter in parallel.",
+          "Take several paired readings."
+        ],
+        "solution": "Connect the lamp, ammeter and variable resistor in series, with a voltmeter across the lamp. [B1]\nChange the potential difference/current using the variable resistor or power supply. [B1]\nRecord paired current and potential difference readings, including reversed polarity if required. [B1]\nPlot current against potential difference and allow the lamp to cool or take care because its temperature changes resistance. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "I-V characteristics required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity · family 3"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t02-f03b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Describe a method for investigating how current through a filament lamp changes with potential difference. (4)",
+        "hints": [
+          "Ammeter in series; voltmeter in parallel.",
+          "Take several paired readings."
+        ],
+        "solution": "Connect the lamp, ammeter and variable resistor in series, with a voltmeter across the lamp. [B1]\nChange the potential difference/current using the variable resistor or power supply. [B1]\nRecord paired current and potential difference readings, including reversed polarity if required. [B1]\nPlot current against potential difference and allow the lamp to cool or take care because its temperature changes resistance. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "I-V characteristics required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity · family 3"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t02-f03c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Describe a method for investigating how current through a filament lamp changes with potential difference. (4)",
+        "hints": [
+          "Ammeter in series; voltmeter in parallel.",
+          "Take several paired readings."
+        ],
+        "solution": "Connect the lamp, ammeter and variable resistor in series, with a voltmeter across the lamp. [B1]\nChange the potential difference/current using the variable resistor or power supply. [B1]\nRecord paired current and potential difference readings, including reversed polarity if required. [B1]\nPlot current against potential difference and allow the lamp to cool or take care because its temperature changes resistance. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "I-V characteristics required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity · family 3"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t02-f04a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how a mains plug and its safety features reduce the risk of electric shock or fire. (4)",
+        "hints": [
+          "Include earth and fuse/circuit breaker.",
+          "Relate each feature to the fault it protects against."
+        ],
+        "solution": "The live wire carries alternating potential relative to earth and is dangerous if touched. [B1]\nThe earth wire provides a low-resistance path to ground if a metal case becomes live. [B1]\nA fuse melts or a circuit breaker opens when current becomes too large. [B1]\nDouble insulation can prevent accessible parts becoming live without needing an earth wire. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Mains electricity",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity · family 4"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t02-f04b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how a mains plug and its safety features reduce the risk of electric shock or fire. (4)",
+        "hints": [
+          "Include earth and fuse/circuit breaker.",
+          "Relate each feature to the fault it protects against."
+        ],
+        "solution": "The live wire carries alternating potential relative to earth and is dangerous if touched. [B1]\nThe earth wire provides a low-resistance path to ground if a metal case becomes live. [B1]\nA fuse melts or a circuit breaker opens when current becomes too large. [B1]\nDouble insulation can prevent accessible parts becoming live without needing an earth wire. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Mains electricity",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity · family 4"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t02-f04c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how a mains plug and its safety features reduce the risk of electric shock or fire. (4)",
+        "hints": [
+          "Include earth and fuse/circuit breaker.",
+          "Relate each feature to the fault it protects against."
+        ],
+        "solution": "The live wire carries alternating potential relative to earth and is dangerous if touched. [B1]\nThe earth wire provides a low-resistance path to ground if a metal case becomes live. [B1]\nA fuse melts or a circuit breaker opens when current becomes too large. [B1]\nDouble insulation can prevent accessible parts becoming live without needing an earth wire. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Mains electricity",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity · family 4"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t02-f05a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain why increasing the potential difference across a filament lamp causes its resistance to increase. (4)",
+        "hints": [
+          "Link temperature to collisions in the metal.",
+          "This is why the I-V graph curves."
+        ],
+        "solution": "A larger potential difference causes a larger current initially. [B1]\nThe filament temperature rises because electrical energy is transferred to the thermal store. [B1]\nThe metal ions vibrate more. [B1]\nElectrons collide more often with the ions, so resistance increases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Non-ohmic conductors",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity · family 5"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t02-f05b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain why increasing the potential difference across a filament lamp causes its resistance to increase. (4)",
+        "hints": [
+          "Link temperature to collisions in the metal.",
+          "This is why the I-V graph curves."
+        ],
+        "solution": "A larger potential difference causes a larger current initially. [B1]\nThe filament temperature rises because electrical energy is transferred to the thermal store. [B1]\nThe metal ions vibrate more. [B1]\nElectrons collide more often with the ions, so resistance increases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Non-ohmic conductors",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity · family 5"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t02-f05c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain why increasing the potential difference across a filament lamp causes its resistance to increase. (4)",
+        "hints": [
+          "Link temperature to collisions in the metal.",
+          "This is why the I-V graph curves."
+        ],
+        "solution": "A larger potential difference causes a larger current initially. [B1]\nThe filament temperature rises because electrical energy is transferred to the thermal store. [B1]\nThe metal ions vibrate more. [B1]\nElectrons collide more often with the ions, so resistance increases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Non-ohmic conductors",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity · family 5"
+      }
+    ]
+  },
+  {
+    "topic": "Particle model of matter",
+    "category": "Paper 1",
+    "questions": [
+      {
+        "id": "gcse-phys-aqa-p1-t03-f01a",
+        "marks": 3,
+        "prompt": "A metal block has mass 540 g and volume 200 cm3. Calculate its density. (3)",
+        "hints": [
+          "Use rho = m/V.",
+          "Keep units consistent."
+        ],
+        "solution": "Use density = mass / volume. [B1]\nDensity = 540 / 200. [B1]\nDensity = 2.70 g/cm3. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Density",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Particle model of matter · family 1"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t03-f01b",
+        "marks": 3,
+        "prompt": "A liquid has mass 360 g and volume 450 cm3. Calculate its density. (3)",
+        "hints": [
+          "Use rho = m/V.",
+          "Keep units consistent."
+        ],
+        "solution": "Use density = mass / volume. [B1]\nDensity = 360 / 450. [B1]\nDensity = 0.80 g/cm3. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Density",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Particle model of matter · family 1"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t03-f01c",
+        "marks": 3,
+        "prompt": "A plastic sample has mass 126 g and volume 140 cm3. Calculate its density. (3)",
+        "hints": [
+          "Use rho = m/V.",
+          "Keep units consistent."
+        ],
+        "solution": "Use density = mass / volume. [B1]\nDensity = 126 / 140. [B1]\nDensity = 0.90 g/cm3. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Density",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Particle model of matter · family 1"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t03-f02a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain what happens to particles and internal energy when a solid is heated until it melts. (4)",
+        "hints": [
+          "Separate heating within a state from the change of state.",
+          "Temperature may stay constant during melting."
+        ],
+        "solution": "Heating transfers energy to the solid. [B1]\nBefore melting, particles vibrate more and temperature rises as kinetic energy increases. [B1]\nAt the melting point, energy is used to overcome forces/bonds between particles. [B1]\nDuring the change of state the temperature stays constant while potential energy increases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Changes of state",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Particle model of matter · family 2"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t03-f02b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain what happens to particles and internal energy when a solid is heated until it melts. (4)",
+        "hints": [
+          "Separate heating within a state from the change of state.",
+          "Temperature may stay constant during melting."
+        ],
+        "solution": "Heating transfers energy to the solid. [B1]\nBefore melting, particles vibrate more and temperature rises as kinetic energy increases. [B1]\nAt the melting point, energy is used to overcome forces/bonds between particles. [B1]\nDuring the change of state the temperature stays constant while potential energy increases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Changes of state",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Particle model of matter · family 2"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t03-f02c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain what happens to particles and internal energy when a solid is heated until it melts. (4)",
+        "hints": [
+          "Separate heating within a state from the change of state.",
+          "Temperature may stay constant during melting."
+        ],
+        "solution": "Heating transfers energy to the solid. [B1]\nBefore melting, particles vibrate more and temperature rises as kinetic energy increases. [B1]\nAt the melting point, energy is used to overcome forces/bonds between particles. [B1]\nDuring the change of state the temperature stays constant while potential energy increases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Changes of state",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Particle model of matter · family 2"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t03-f03a",
+        "marks": 3,
+        "prompt": "Calculate the energy needed to raise the temperature of 2.0 kg of water by 5.0 C. Specific heat capacity = 4200 J/kg C. (3)",
+        "hints": [
+          "Use E = mcΔθ.",
+          "Use mass in kg."
+        ],
+        "solution": "Use E = mc delta theta. [B1]\nE = 2.0 x 4200 x 5.0. [B1]\nE = 42 000 J. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Specific heat capacity",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Particle model of matter · family 3"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t03-f03b",
+        "marks": 3,
+        "prompt": "Calculate the energy needed to raise 0.50 kg of aluminium by 20 C. Specific heat capacity = 900 J/kg C. (3)",
+        "hints": [
+          "Use E = mcΔθ.",
+          "Use mass in kg."
+        ],
+        "solution": "Use E = mc delta theta. [B1]\nE = 0.50 x 900 x 20. [B1]\nE = 9000 J. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Specific heat capacity",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Particle model of matter · family 3"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t03-f03c",
+        "marks": 3,
+        "prompt": "Calculate the energy needed to heat 1.2 kg of a liquid by 15 C. Specific heat capacity = 2000 J/kg C. (3)",
+        "hints": [
+          "Use E = mcΔθ.",
+          "Use mass in kg."
+        ],
+        "solution": "Use E = mc delta theta. [B1]\nE = 1.2 x 2000 x 15. [B1]\nE = 36 000 J. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Specific heat capacity",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Particle model of matter · family 3"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t03-f04a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how gas pressure arises and why increasing temperature at constant volume increases pressure. (4)",
+        "hints": [
+          "Pressure comes from particle-wall collisions.",
+          "Heating changes particle kinetic energy."
+        ],
+        "solution": "Gas particles move randomly and collide with the container walls. [B1]\nEach collision changes particle momentum and exerts a force on the wall. [B1]\nHigher temperature gives particles more kinetic energy and speed. [B1]\nCollisions are more frequent and/or involve greater momentum change, so pressure increases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Gas pressure",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Particle model of matter · family 4"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t03-f04b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how gas pressure arises and why increasing temperature at constant volume increases pressure. (4)",
+        "hints": [
+          "Pressure comes from particle-wall collisions.",
+          "Heating changes particle kinetic energy."
+        ],
+        "solution": "Gas particles move randomly and collide with the container walls. [B1]\nEach collision changes particle momentum and exerts a force on the wall. [B1]\nHigher temperature gives particles more kinetic energy and speed. [B1]\nCollisions are more frequent and/or involve greater momentum change, so pressure increases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Gas pressure",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Particle model of matter · family 4"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t03-f04c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how gas pressure arises and why increasing temperature at constant volume increases pressure. (4)",
+        "hints": [
+          "Pressure comes from particle-wall collisions.",
+          "Heating changes particle kinetic energy."
+        ],
+        "solution": "Gas particles move randomly and collide with the container walls. [B1]\nEach collision changes particle momentum and exerts a force on the wall. [B1]\nHigher temperature gives particles more kinetic energy and speed. [B1]\nCollisions are more frequent and/or involve greater momentum change, so pressure increases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Gas pressure",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Particle model of matter · family 4"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t03-f05a",
+        "marks": 3,
+        "prompt": "Calculate the energy needed to melt 0.20 kg of ice at its melting point. Specific latent heat of fusion = 334 000 J/kg. (3)",
+        "hints": [
+          "Use E = mL.",
+          "No temperature change occurs during the phase change."
+        ],
+        "solution": "Use E = mL. [B1]\nE = 0.20 x 334 000. [B1]\nE = 66 800 J. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Specific latent heat",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Particle model of matter · family 5"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t03-f05b",
+        "marks": 3,
+        "prompt": "Calculate the energy needed to vaporise 0.050 kg of water at its boiling point. Specific latent heat of vaporisation = 2.26 x 10^6 J/kg. (3)",
+        "hints": [
+          "Use E = mL.",
+          "No temperature change occurs during the phase change."
+        ],
+        "solution": "Use E = mL. [B1]\nE = 0.050 x 2.26 x 10^6. [B1]\nE = 113 000 J. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Specific latent heat",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Particle model of matter · family 5"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t03-f05c",
+        "marks": 3,
+        "prompt": "Calculate the energy released when 0.30 kg of a substance freezes. Specific latent heat of fusion = 180 000 J/kg. (3)",
+        "hints": [
+          "Use E = mL.",
+          "No temperature change occurs during the phase change."
+        ],
+        "solution": "Use E = mL. [B1]\nE = 0.30 x 180 000. [B1]\nE = 54 000 J released. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Specific latent heat",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Particle model of matter · family 5"
+      }
+    ]
+  },
+  {
+    "topic": "Atomic structure",
+    "category": "Paper 1",
+    "questions": [
+      {
+        "id": "gcse-phys-aqa-p1-t04-f01a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Compare alpha, beta and gamma radiation in terms of what they are and their penetrating power. (4)",
+        "hints": [
+          "State the nature of each radiation.",
+          "Then compare penetration."
+        ],
+        "solution": "Alpha radiation consists of helium nuclei and is the least penetrating. [B1]\nBeta radiation consists of fast electrons and has medium penetrating power. [B1]\nGamma radiation is electromagnetic radiation and is the most penetrating. [B1]\nAlpha is stopped by paper/skin, beta by thin aluminium, while gamma needs thick lead or concrete for substantial reduction. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Types of radiation",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure · family 1",
+        "diagram": {
+          "svg": "<svg viewBox=\"0 0 300 180\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"150\" cy=\"90\" r=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><ellipse cx=\"150\" cy=\"90\" rx=\"90\" ry=\"38\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><ellipse cx=\"150\" cy=\"90\" rx=\"38\" ry=\"75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"60\" cy=\"90\" r=\"5\" fill=\"currentColor\"/><circle cx=\"188\" cy=\"25\" r=\"5\" fill=\"currentColor\"/><text x=\"132\" y=\"95\" font-size=\"12\">nucleus</text></svg>",
+          "alt": "Schematic diagram for Atomic structure."
+        }
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t04-f01b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Compare alpha, beta and gamma radiation in terms of what they are and their penetrating power. (4)",
+        "hints": [
+          "State the nature of each radiation.",
+          "Then compare penetration."
+        ],
+        "solution": "Alpha radiation consists of helium nuclei and is the least penetrating. [B1]\nBeta radiation consists of fast electrons and has medium penetrating power. [B1]\nGamma radiation is electromagnetic radiation and is the most penetrating. [B1]\nAlpha is stopped by paper/skin, beta by thin aluminium, while gamma needs thick lead or concrete for substantial reduction. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Types of radiation",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure · family 1",
+        "diagram": {
+          "svg": "<svg viewBox=\"0 0 300 180\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"150\" cy=\"90\" r=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><ellipse cx=\"150\" cy=\"90\" rx=\"90\" ry=\"38\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><ellipse cx=\"150\" cy=\"90\" rx=\"38\" ry=\"75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"60\" cy=\"90\" r=\"5\" fill=\"currentColor\"/><circle cx=\"188\" cy=\"25\" r=\"5\" fill=\"currentColor\"/><text x=\"132\" y=\"95\" font-size=\"12\">nucleus</text></svg>",
+          "alt": "Schematic diagram for Atomic structure."
+        }
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t04-f01c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Compare alpha, beta and gamma radiation in terms of what they are and their penetrating power. (4)",
+        "hints": [
+          "State the nature of each radiation.",
+          "Then compare penetration."
+        ],
+        "solution": "Alpha radiation consists of helium nuclei and is the least penetrating. [B1]\nBeta radiation consists of fast electrons and has medium penetrating power. [B1]\nGamma radiation is electromagnetic radiation and is the most penetrating. [B1]\nAlpha is stopped by paper/skin, beta by thin aluminium, while gamma needs thick lead or concrete for substantial reduction. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Types of radiation",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure · family 1",
+        "diagram": {
+          "svg": "<svg viewBox=\"0 0 300 180\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"150\" cy=\"90\" r=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><ellipse cx=\"150\" cy=\"90\" rx=\"90\" ry=\"38\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><ellipse cx=\"150\" cy=\"90\" rx=\"38\" ry=\"75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"60\" cy=\"90\" r=\"5\" fill=\"currentColor\"/><circle cx=\"188\" cy=\"25\" r=\"5\" fill=\"currentColor\"/><text x=\"132\" y=\"95\" font-size=\"12\">nucleus</text></svg>",
+          "alt": "Schematic diagram for Atomic structure."
+        }
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t04-f02a",
+        "marks": 3,
+        "prompt": "A student is answering an AQA-style practice question. Explain why radioactive decay is described as random and what is meant by half-life. (3)",
+        "hints": [
+          "Random refers to individual nuclei.",
+          "Half-life can be defined using activity or undecayed nuclei."
+        ],
+        "solution": "It is impossible to predict exactly when a particular unstable nucleus will decay. [B1]\nFor a large sample the overall decay rate follows a predictable statistical pattern. [B1]\nHalf-life is the time for the number of undecayed nuclei or activity/count rate to fall to half its value. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Radioactive decay",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure · family 2"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t04-f02b",
+        "marks": 3,
+        "prompt": "A class is applying the same idea in a different context. Explain why radioactive decay is described as random and what is meant by half-life. (3)",
+        "hints": [
+          "Random refers to individual nuclei.",
+          "Half-life can be defined using activity or undecayed nuclei."
+        ],
+        "solution": "It is impossible to predict exactly when a particular unstable nucleus will decay. [B1]\nFor a large sample the overall decay rate follows a predictable statistical pattern. [B1]\nHalf-life is the time for the number of undecayed nuclei or activity/count rate to fall to half its value. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Radioactive decay",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure · family 2"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t04-f02c",
+        "marks": 3,
+        "prompt": "During revision, a learner is asked the following. Explain why radioactive decay is described as random and what is meant by half-life. (3)",
+        "hints": [
+          "Random refers to individual nuclei.",
+          "Half-life can be defined using activity or undecayed nuclei."
+        ],
+        "solution": "It is impossible to predict exactly when a particular unstable nucleus will decay. [B1]\nFor a large sample the overall decay rate follows a predictable statistical pattern. [B1]\nHalf-life is the time for the number of undecayed nuclei or activity/count rate to fall to half its value. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Radioactive decay",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure · family 2"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t04-f03a",
+        "marks": 3,
+        "prompt": "A source has a count rate of 800 counts per minute and a half-life of 6 hours. What is the count rate after 18 hours, ignoring background? (3)",
+        "hints": [
+          "Work out the number of half-lives first.",
+          "Halve the quantity once for each half-life."
+        ],
+        "solution": "18 hours is 3 half-lives. [B1]\n800 -> 400 -> 200 -> 100. [B1]\nCount rate = 100 counts per minute. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Half-life",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure · family 3"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t04-f03b",
+        "marks": 3,
+        "prompt": "A source has activity 640 Bq and a half-life of 4 days. What is its activity after 12 days? (3)",
+        "hints": [
+          "Work out the number of half-lives first.",
+          "Halve the quantity once for each half-life."
+        ],
+        "solution": "12 days is 3 half-lives. [B1]\n640 -> 320 -> 160 -> 80. [B1]\nActivity = 80 Bq. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Half-life",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure · family 3"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t04-f03c",
+        "marks": 3,
+        "prompt": "A sample contains 9600 undecayed nuclei and has a half-life of 2 minutes. How many remain after 6 minutes? (3)",
+        "hints": [
+          "Work out the number of half-lives first.",
+          "Halve the quantity once for each half-life."
+        ],
+        "solution": "6 minutes is 3 half-lives. [B1]\n9600 -> 4800 -> 2400 -> 1200. [B1]\n1200 nuclei remain. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Half-life",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure · family 3"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t04-f04a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain the difference between nuclear fission and nuclear fusion. (4)",
+        "hints": [
+          "One process splits; the other joins.",
+          "Mention conditions or chain reactions."
+        ],
+        "solution": "Fission is the splitting of a large unstable nucleus into smaller nuclei. [B1]\nFission can release neutrons that trigger further fissions in a chain reaction. [B1]\nFusion is the joining of light nuclei to form a heavier nucleus. [B1]\nBoth release energy because some mass is converted to energy, but fusion requires extremely high temperature/pressure. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Fission and fusion",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure · family 4"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t04-f04b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain the difference between nuclear fission and nuclear fusion. (4)",
+        "hints": [
+          "One process splits; the other joins.",
+          "Mention conditions or chain reactions."
+        ],
+        "solution": "Fission is the splitting of a large unstable nucleus into smaller nuclei. [B1]\nFission can release neutrons that trigger further fissions in a chain reaction. [B1]\nFusion is the joining of light nuclei to form a heavier nucleus. [B1]\nBoth release energy because some mass is converted to energy, but fusion requires extremely high temperature/pressure. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Fission and fusion",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure · family 4"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t04-f04c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain the difference between nuclear fission and nuclear fusion. (4)",
+        "hints": [
+          "One process splits; the other joins.",
+          "Mention conditions or chain reactions."
+        ],
+        "solution": "Fission is the splitting of a large unstable nucleus into smaller nuclei. [B1]\nFission can release neutrons that trigger further fissions in a chain reaction. [B1]\nFusion is the joining of light nuclei to form a heavier nucleus. [B1]\nBoth release energy because some mass is converted to energy, but fusion requires extremely high temperature/pressure. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Fission and fusion",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure · family 4"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t04-f05a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how background radiation can affect a measured count rate and how it should be corrected for. (4)",
+        "hints": [
+          "Measure background separately.",
+          "Subtract rates measured over comparable times."
+        ],
+        "solution": "Background radiation contributes counts even when the test source is absent. [B1]\nMeasure the background count over a suitable time. [B1]\nCalculate a background count rate. [B1]\nSubtract the background count rate from the measured total count rate for the source. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Background radiation",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure · family 5"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t04-f05b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how background radiation can affect a measured count rate and how it should be corrected for. (4)",
+        "hints": [
+          "Measure background separately.",
+          "Subtract rates measured over comparable times."
+        ],
+        "solution": "Background radiation contributes counts even when the test source is absent. [B1]\nMeasure the background count over a suitable time. [B1]\nCalculate a background count rate. [B1]\nSubtract the background count rate from the measured total count rate for the source. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Background radiation",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure · family 5"
+      },
+      {
+        "id": "gcse-phys-aqa-p1-t04-f05c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how background radiation can affect a measured count rate and how it should be corrected for. (4)",
+        "hints": [
+          "Measure background separately.",
+          "Subtract rates measured over comparable times."
+        ],
+        "solution": "Background radiation contributes counts even when the test source is absent. [B1]\nMeasure the background count over a suitable time. [B1]\nCalculate a background count rate. [B1]\nSubtract the background count rate from the measured total count rate for the source. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 1",
+        "subtopic": "Background radiation",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure · family 5"
+      }
+    ]
+  },
+  {
+    "topic": "Forces",
+    "category": "Paper 2",
+    "questions": [
+      {
+        "id": "gcse-phys-aqa-p2-t05-f01a",
+        "marks": 3,
+        "prompt": "A car increases speed from 6 m/s to 18 m/s in 4.0 s. Calculate its acceleration. (3)",
+        "hints": [
+          "Acceleration is change in velocity divided by time.",
+          "A negative value means deceleration."
+        ],
+        "solution": "Use a = (v-u)/t. [B1]\na = (18-6)/4.0. [B1]\na = 3.0 m/s2. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Acceleration",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces · family 1",
+        "diagram": {
+          "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"125\" y=\"70\" width=\"90\" height=\"55\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"170\" y1=\"70\" x2=\"170\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M170 20l-7 12h14z\" fill=\"currentColor\"/><line x1=\"170\" y1=\"125\" x2=\"170\" y2=\"160\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M170 160l-7-12h14z\" fill=\"currentColor\"/><text x=\"180\" y=\"28\" font-size=\"13\">normal</text><text x=\"180\" y=\"158\" font-size=\"13\">weight</text></svg>",
+          "alt": "Schematic diagram for Forces."
+        }
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t05-f01b",
+        "marks": 3,
+        "prompt": "A cyclist decreases speed from 14 m/s to 5 m/s in 3.0 s. Calculate the acceleration. (3)",
+        "hints": [
+          "Acceleration is change in velocity divided by time.",
+          "A negative value means deceleration."
+        ],
+        "solution": "Use a = (v-u)/t. [B1]\na = (5-14)/3.0. [B1]\na = -3.0 m/s2. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Acceleration",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces · family 1",
+        "diagram": {
+          "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"125\" y=\"70\" width=\"90\" height=\"55\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"170\" y1=\"70\" x2=\"170\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M170 20l-7 12h14z\" fill=\"currentColor\"/><line x1=\"170\" y1=\"125\" x2=\"170\" y2=\"160\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M170 160l-7-12h14z\" fill=\"currentColor\"/><text x=\"180\" y=\"28\" font-size=\"13\">normal</text><text x=\"180\" y=\"158\" font-size=\"13\">weight</text></svg>",
+          "alt": "Schematic diagram for Forces."
+        }
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t05-f01c",
+        "marks": 3,
+        "prompt": "A train increases speed from 10 m/s to 25 m/s in 5.0 s. Calculate its acceleration. (3)",
+        "hints": [
+          "Acceleration is change in velocity divided by time.",
+          "A negative value means deceleration."
+        ],
+        "solution": "Use a = (v-u)/t. [B1]\na = (25-10)/5.0. [B1]\na = 3.0 m/s2. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Acceleration",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces · family 1",
+        "diagram": {
+          "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"125\" y=\"70\" width=\"90\" height=\"55\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"170\" y1=\"70\" x2=\"170\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M170 20l-7 12h14z\" fill=\"currentColor\"/><line x1=\"170\" y1=\"125\" x2=\"170\" y2=\"160\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M170 160l-7-12h14z\" fill=\"currentColor\"/><text x=\"180\" y=\"28\" font-size=\"13\">normal</text><text x=\"180\" y=\"158\" font-size=\"13\">weight</text></svg>",
+          "alt": "Schematic diagram for Forces."
+        }
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t05-f02a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain why the stopping distance of a car increases when the road is wet. (4)",
+        "hints": [
+          "Separate thinking and braking distance.",
+          "Wet roads mainly affect braking."
+        ],
+        "solution": "Stopping distance = thinking distance + braking distance. [B1]\nWet roads reduce friction between tyres and road. [B1]\nThe braking force is smaller, so deceleration is smaller. [B1]\nThe car travels further while braking, increasing braking and total stopping distance. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Stopping distances",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces · family 2"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t05-f02b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain why the stopping distance of a car increases when the road is wet. (4)",
+        "hints": [
+          "Separate thinking and braking distance.",
+          "Wet roads mainly affect braking."
+        ],
+        "solution": "Stopping distance = thinking distance + braking distance. [B1]\nWet roads reduce friction between tyres and road. [B1]\nThe braking force is smaller, so deceleration is smaller. [B1]\nThe car travels further while braking, increasing braking and total stopping distance. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Stopping distances",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces · family 2"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t05-f02c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain why the stopping distance of a car increases when the road is wet. (4)",
+        "hints": [
+          "Separate thinking and braking distance.",
+          "Wet roads mainly affect braking."
+        ],
+        "solution": "Stopping distance = thinking distance + braking distance. [B1]\nWet roads reduce friction between tyres and road. [B1]\nThe braking force is smaller, so deceleration is smaller. [B1]\nThe car travels further while braking, increasing braking and total stopping distance. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Stopping distances",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces · family 2"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t05-f03a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Describe how to investigate the relationship between force and extension for a spring. (4)",
+        "hints": [
+          "Extension = stretched length - original length.",
+          "Do not overload past the elastic limit if testing Hooke's law."
+        ],
+        "solution": "Measure the original length of the spring. [B1]\nAdd known loads and calculate/record the force for each load. [B1]\nMeasure extension for each force and plot force against extension. [B1]\nStay below the elastic limit and repeat readings / use suitable eye-level measurements. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Force and extension required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces · family 3"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t05-f03b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Describe how to investigate the relationship between force and extension for a spring. (4)",
+        "hints": [
+          "Extension = stretched length - original length.",
+          "Do not overload past the elastic limit if testing Hooke's law."
+        ],
+        "solution": "Measure the original length of the spring. [B1]\nAdd known loads and calculate/record the force for each load. [B1]\nMeasure extension for each force and plot force against extension. [B1]\nStay below the elastic limit and repeat readings / use suitable eye-level measurements. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Force and extension required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces · family 3"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t05-f03c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Describe how to investigate the relationship between force and extension for a spring. (4)",
+        "hints": [
+          "Extension = stretched length - original length.",
+          "Do not overload past the elastic limit if testing Hooke's law."
+        ],
+        "solution": "Measure the original length of the spring. [B1]\nAdd known loads and calculate/record the force for each load. [B1]\nMeasure extension for each force and plot force against extension. [B1]\nStay below the elastic limit and repeat readings / use suitable eye-level measurements. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Force and extension required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces · family 3"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t05-f04a",
+        "marks": 3,
+        "prompt": "A force of 25 N acts 0.40 m from a pivot. Calculate the moment. (3)",
+        "hints": [
+          "Use moment = force × perpendicular distance.",
+          "Use distance in metres."
+        ],
+        "solution": "Moment = force x perpendicular distance. [B1]\n25 x 0.40 = 10. [B1]\nMoment = 10 N m. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Moments",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces · family 4"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t05-f04b",
+        "marks": 3,
+        "prompt": "A force of 60 N acts 0.25 m from a pivot. Calculate the moment. (3)",
+        "hints": [
+          "Use moment = force × perpendicular distance.",
+          "Use distance in metres."
+        ],
+        "solution": "Moment = force x perpendicular distance. [B1]\n60 x 0.25 = 15. [B1]\nMoment = 15 N m. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Moments",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces · family 4"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t05-f04c",
+        "marks": 3,
+        "prompt": "A force of 18 N acts 0.75 m from a pivot. Calculate the moment. (3)",
+        "hints": [
+          "Use moment = force × perpendicular distance.",
+          "Use distance in metres."
+        ],
+        "solution": "Moment = force x perpendicular distance. [B1]\n18 x 0.75 = 13.5. [B1]\nMoment = 13.5 N m. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Moments",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces · family 4"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t05-f05a",
+        "marks": 3,
+        "prompt": "A 1200 kg car travels at 15 m/s. Calculate its momentum. (3)",
+        "hints": [
+          "Momentum = mass × velocity.",
+          "Use SI units."
+        ],
+        "solution": "Use p = mv. [B1]\np = 1200 x 15. [B1]\np = 18 000 kg m/s. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Momentum",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces · family 5"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t05-f05b",
+        "marks": 3,
+        "prompt": "A 75 kg runner travels at 8.0 m/s. Calculate the runner's momentum. (3)",
+        "hints": [
+          "Momentum = mass × velocity.",
+          "Use SI units."
+        ],
+        "solution": "Use p = mv. [B1]\np = 75 x 8.0. [B1]\np = 600 kg m/s. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Momentum",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces · family 5"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t05-f05c",
+        "marks": 3,
+        "prompt": "A 0.20 kg ball moves at 30 m/s. Calculate its momentum. (3)",
+        "hints": [
+          "Momentum = mass × velocity.",
+          "Use SI units."
+        ],
+        "solution": "Use p = mv. [B1]\np = 0.20 x 30. [B1]\np = 6.0 kg m/s. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Momentum",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces · family 5"
+      }
+    ]
+  },
+  {
+    "topic": "Waves",
+    "category": "Paper 2",
+    "questions": [
+      {
+        "id": "gcse-phys-aqa-p2-t06-f01a",
+        "marks": 3,
+        "prompt": "A wave has frequency 5.0 Hz and wavelength 2.4 m. Calculate its speed. (3)",
+        "hints": [
+          "Use v = fλ.",
+          "Rearrange carefully and include units."
+        ],
+        "solution": "Use v = f lambda. [B1]\nv = 5.0 x 2.4. [B1]\nv = 12 m/s. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Wave equation",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves · family 1",
+        "diagram": {
+          "svg": "<svg viewBox=\"0 0 340 160\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20 80 C50 20 80 20 110 80 S170 140 200 80 S260 20 290 80 S320 140 340 100\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"20\" y1=\"80\" x2=\"330\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"5 5\"/><line x1=\"80\" y1=\"25\" x2=\"260\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"1\"/><path d=\"M80 25l8-4v8zM260 25l-8-4v8z\" fill=\"currentColor\"/><text x=\"148\" y=\"18\" font-size=\"13\">wavelength</text></svg>",
+          "alt": "Schematic diagram for Waves."
+        }
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t06-f01b",
+        "marks": 3,
+        "prompt": "A sound wave travels at 340 m/s and has frequency 680 Hz. Calculate its wavelength. (3)",
+        "hints": [
+          "Use v = fλ.",
+          "Rearrange carefully and include units."
+        ],
+        "solution": "Rearrange lambda = v/f. [B1]\nlambda = 340/680. [B1]\nlambda = 0.50 m. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Wave equation",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves · family 1",
+        "diagram": {
+          "svg": "<svg viewBox=\"0 0 340 160\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20 80 C50 20 80 20 110 80 S170 140 200 80 S260 20 290 80 S320 140 340 100\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"20\" y1=\"80\" x2=\"330\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"5 5\"/><line x1=\"80\" y1=\"25\" x2=\"260\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"1\"/><path d=\"M80 25l8-4v8zM260 25l-8-4v8z\" fill=\"currentColor\"/><text x=\"148\" y=\"18\" font-size=\"13\">wavelength</text></svg>",
+          "alt": "Schematic diagram for Waves."
+        }
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t06-f01c",
+        "marks": 3,
+        "prompt": "A water wave has speed 1.8 m/s and wavelength 0.30 m. Calculate its frequency. (3)",
+        "hints": [
+          "Use v = fλ.",
+          "Rearrange carefully and include units."
+        ],
+        "solution": "Rearrange f = v/lambda. [B1]\nf = 1.8/0.30. [B1]\nf = 6.0 Hz. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Wave equation",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves · family 1",
+        "diagram": {
+          "svg": "<svg viewBox=\"0 0 340 160\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20 80 C50 20 80 20 110 80 S170 140 200 80 S260 20 290 80 S320 140 340 100\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"20\" y1=\"80\" x2=\"330\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"5 5\"/><line x1=\"80\" y1=\"25\" x2=\"260\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"1\"/><path d=\"M80 25l8-4v8zM260 25l-8-4v8z\" fill=\"currentColor\"/><text x=\"148\" y=\"18\" font-size=\"13\">wavelength</text></svg>",
+          "alt": "Schematic diagram for Waves."
+        }
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t06-f02a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Compare transverse and longitudinal waves and give one example of each. (4)",
+        "hints": [
+          "Compare oscillation direction with energy transfer direction.",
+          "Give one example of each type."
+        ],
+        "solution": "In transverse waves the oscillations are perpendicular to the direction of energy transfer. [B1]\nElectromagnetic waves or waves on a string are transverse examples. [B1]\nIn longitudinal waves the oscillations are parallel to the direction of energy transfer. [B1]\nSound waves in air are longitudinal and contain compressions and rarefactions. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Wave types",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves · family 2"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t06-f02b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Compare transverse and longitudinal waves and give one example of each. (4)",
+        "hints": [
+          "Compare oscillation direction with energy transfer direction.",
+          "Give one example of each type."
+        ],
+        "solution": "In transverse waves the oscillations are perpendicular to the direction of energy transfer. [B1]\nElectromagnetic waves or waves on a string are transverse examples. [B1]\nIn longitudinal waves the oscillations are parallel to the direction of energy transfer. [B1]\nSound waves in air are longitudinal and contain compressions and rarefactions. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Wave types",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves · family 2"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t06-f02c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Compare transverse and longitudinal waves and give one example of each. (4)",
+        "hints": [
+          "Compare oscillation direction with energy transfer direction.",
+          "Give one example of each type."
+        ],
+        "solution": "In transverse waves the oscillations are perpendicular to the direction of energy transfer. [B1]\nElectromagnetic waves or waves on a string are transverse examples. [B1]\nIn longitudinal waves the oscillations are parallel to the direction of energy transfer. [B1]\nSound waves in air are longitudinal and contain compressions and rarefactions. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Wave types",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves · family 2"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t06-f03a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Describe an investigation to measure the speed of ripples on water. (4)",
+        "hints": [
+          "Measure several wavelengths to reduce percentage uncertainty.",
+          "Use the wave equation at the end."
+        ],
+        "solution": "Generate regular waves in a ripple tank. [B1]\nMeasure wavelength using the spacing of several wavefronts and divide by the number of wavelengths. [B1]\nMeasure frequency using the generator setting or count waves per unit time. [B1]\nCalculate speed using v = f lambda and repeat/average. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Waves required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves · family 3"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t06-f03b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Describe an investigation to measure the speed of ripples on water. (4)",
+        "hints": [
+          "Measure several wavelengths to reduce percentage uncertainty.",
+          "Use the wave equation at the end."
+        ],
+        "solution": "Generate regular waves in a ripple tank. [B1]\nMeasure wavelength using the spacing of several wavefronts and divide by the number of wavelengths. [B1]\nMeasure frequency using the generator setting or count waves per unit time. [B1]\nCalculate speed using v = f lambda and repeat/average. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Waves required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves · family 3"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t06-f03c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Describe an investigation to measure the speed of ripples on water. (4)",
+        "hints": [
+          "Measure several wavelengths to reduce percentage uncertainty.",
+          "Use the wave equation at the end."
+        ],
+        "solution": "Generate regular waves in a ripple tank. [B1]\nMeasure wavelength using the spacing of several wavefronts and divide by the number of wavelengths. [B1]\nMeasure frequency using the generator setting or count waves per unit time. [B1]\nCalculate speed using v = f lambda and repeat/average. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Waves required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves · family 3"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t06-f04a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how a converging lens forms a real image of a distant object. (4)",
+        "hints": [
+          "Parallel rays and focal point are key.",
+          "A real image can be captured on a screen."
+        ],
+        "solution": "A converging lens refracts incoming rays towards the principal axis. [B1]\nRays that arrive approximately parallel are brought to a focus near the focal point. [B1]\nA real image forms where the refracted rays actually meet. [B1]\nThe image can be projected onto a screen. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Lenses",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves · family 4"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t06-f04b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how a converging lens forms a real image of a distant object. (4)",
+        "hints": [
+          "Parallel rays and focal point are key.",
+          "A real image can be captured on a screen."
+        ],
+        "solution": "A converging lens refracts incoming rays towards the principal axis. [B1]\nRays that arrive approximately parallel are brought to a focus near the focal point. [B1]\nA real image forms where the refracted rays actually meet. [B1]\nThe image can be projected onto a screen. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Lenses",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves · family 4"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t06-f04c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how a converging lens forms a real image of a distant object. (4)",
+        "hints": [
+          "Parallel rays and focal point are key.",
+          "A real image can be captured on a screen."
+        ],
+        "solution": "A converging lens refracts incoming rays towards the principal axis. [B1]\nRays that arrive approximately parallel are brought to a focus near the focal point. [B1]\nA real image forms where the refracted rays actually meet. [B1]\nThe image can be projected onto a screen. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Lenses",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves · family 4"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t06-f05a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain why different parts of the electromagnetic spectrum have different uses and risks. (4)",
+        "hints": [
+          "Link frequency/wavelength to interaction with matter.",
+          "Give at least one use and one hazard."
+        ],
+        "solution": "All electromagnetic waves travel at the same speed in a vacuum but have different frequencies/wavelengths. [B1]\nHigher-frequency waves carry more energy per photon and can cause greater biological damage. [B1]\nDifferent wavelengths interact differently with matter, enabling uses such as radio communication, microwave heating, infrared imaging, X-rays or gamma treatment. [B1]\nIonising ultraviolet, X-rays and gamma can damage cells/DNA, so exposure is controlled. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Electromagnetic spectrum",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves · family 5"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t06-f05b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain why different parts of the electromagnetic spectrum have different uses and risks. (4)",
+        "hints": [
+          "Link frequency/wavelength to interaction with matter.",
+          "Give at least one use and one hazard."
+        ],
+        "solution": "All electromagnetic waves travel at the same speed in a vacuum but have different frequencies/wavelengths. [B1]\nHigher-frequency waves carry more energy per photon and can cause greater biological damage. [B1]\nDifferent wavelengths interact differently with matter, enabling uses such as radio communication, microwave heating, infrared imaging, X-rays or gamma treatment. [B1]\nIonising ultraviolet, X-rays and gamma can damage cells/DNA, so exposure is controlled. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Electromagnetic spectrum",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves · family 5"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t06-f05c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain why different parts of the electromagnetic spectrum have different uses and risks. (4)",
+        "hints": [
+          "Link frequency/wavelength to interaction with matter.",
+          "Give at least one use and one hazard."
+        ],
+        "solution": "All electromagnetic waves travel at the same speed in a vacuum but have different frequencies/wavelengths. [B1]\nHigher-frequency waves carry more energy per photon and can cause greater biological damage. [B1]\nDifferent wavelengths interact differently with matter, enabling uses such as radio communication, microwave heating, infrared imaging, X-rays or gamma treatment. [B1]\nIonising ultraviolet, X-rays and gamma can damage cells/DNA, so exposure is controlled. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Electromagnetic spectrum",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves · family 5"
+      }
+    ]
+  },
+  {
+    "topic": "Magnetism and electromagnetism",
+    "category": "Paper 2",
+    "questions": [
+      {
+        "id": "gcse-phys-aqa-p2-t07-f01a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Describe the magnetic field around a bar magnet and explain how field lines show field strength. (4)",
+        "hints": [
+          "State the direction outside the magnet.",
+          "Spacing indicates strength."
+        ],
+        "solution": "Outside the magnet, field lines go from the north pole to the south pole. [B1]\nThe field is strongest near the poles. [B1]\nCloser field-line spacing represents a stronger magnetic field. [B1]\nField lines never cross because the field has one direction at each point. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Magnetic fields",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism · family 1",
+        "diagram": {
+          "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"55\" y=\"60\" width=\"80\" height=\"50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><text x=\"70\" y=\"91\" font-size=\"18\">N</text><text x=\"110\" y=\"91\" font-size=\"18\">S</text><rect x=\"205\" y=\"60\" width=\"80\" height=\"50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><text x=\"220\" y=\"91\" font-size=\"18\">N</text><text x=\"260\" y=\"91\" font-size=\"18\">S</text><path d=\"M135 70 C165 40 175 40 205 70M135 100 C165 130 175 130 205 100\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+          "alt": "Schematic diagram for Magnetism and electromagnetism."
+        }
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t07-f01b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Describe the magnetic field around a bar magnet and explain how field lines show field strength. (4)",
+        "hints": [
+          "State the direction outside the magnet.",
+          "Spacing indicates strength."
+        ],
+        "solution": "Outside the magnet, field lines go from the north pole to the south pole. [B1]\nThe field is strongest near the poles. [B1]\nCloser field-line spacing represents a stronger magnetic field. [B1]\nField lines never cross because the field has one direction at each point. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Magnetic fields",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism · family 1",
+        "diagram": {
+          "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"55\" y=\"60\" width=\"80\" height=\"50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><text x=\"70\" y=\"91\" font-size=\"18\">N</text><text x=\"110\" y=\"91\" font-size=\"18\">S</text><rect x=\"205\" y=\"60\" width=\"80\" height=\"50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><text x=\"220\" y=\"91\" font-size=\"18\">N</text><text x=\"260\" y=\"91\" font-size=\"18\">S</text><path d=\"M135 70 C165 40 175 40 205 70M135 100 C165 130 175 130 205 100\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+          "alt": "Schematic diagram for Magnetism and electromagnetism."
+        }
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t07-f01c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Describe the magnetic field around a bar magnet and explain how field lines show field strength. (4)",
+        "hints": [
+          "State the direction outside the magnet.",
+          "Spacing indicates strength."
+        ],
+        "solution": "Outside the magnet, field lines go from the north pole to the south pole. [B1]\nThe field is strongest near the poles. [B1]\nCloser field-line spacing represents a stronger magnetic field. [B1]\nField lines never cross because the field has one direction at each point. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Magnetic fields",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism · family 1",
+        "diagram": {
+          "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"55\" y=\"60\" width=\"80\" height=\"50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><text x=\"70\" y=\"91\" font-size=\"18\">N</text><text x=\"110\" y=\"91\" font-size=\"18\">S</text><rect x=\"205\" y=\"60\" width=\"80\" height=\"50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><text x=\"220\" y=\"91\" font-size=\"18\">N</text><text x=\"260\" y=\"91\" font-size=\"18\">S</text><path d=\"M135 70 C165 40 175 40 205 70M135 100 C165 130 175 130 205 100\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+          "alt": "Schematic diagram for Magnetism and electromagnetism."
+        }
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t07-f02a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how an electromagnet can be made stronger. (4)",
+        "hints": [
+          "Think current, turns and core.",
+          "Give mechanisms or effects."
+        ],
+        "solution": "Increase the current through the coil. [B1]\nIncrease the number of turns on the coil. [B1]\nInsert a soft iron core. [B1]\nEach change increases the magnetic field produced by the current-carrying coil. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Electromagnets",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism · family 2"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t07-f02b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how an electromagnet can be made stronger. (4)",
+        "hints": [
+          "Think current, turns and core.",
+          "Give mechanisms or effects."
+        ],
+        "solution": "Increase the current through the coil. [B1]\nIncrease the number of turns on the coil. [B1]\nInsert a soft iron core. [B1]\nEach change increases the magnetic field produced by the current-carrying coil. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Electromagnets",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism · family 2"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t07-f02c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how an electromagnet can be made stronger. (4)",
+        "hints": [
+          "Think current, turns and core.",
+          "Give mechanisms or effects."
+        ],
+        "solution": "Increase the current through the coil. [B1]\nIncrease the number of turns on the coil. [B1]\nInsert a soft iron core. [B1]\nEach change increases the magnetic field produced by the current-carrying coil. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Electromagnets",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism · family 2"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t07-f03a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain the motor effect on a current-carrying wire placed in a magnetic field. (4)",
+        "hints": [
+          "Two magnetic fields interact.",
+          "Direction depends on both current and field."
+        ],
+        "solution": "The magnetic field around the current interacts with the external magnetic field. [B1]\nA force acts on the wire when current is not parallel to the field. [B1]\nThe force direction depends on current direction and magnetic field direction. [B1]\nIncreasing current or magnetic field strength increases the force. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Motor effect",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism · family 3"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t07-f03b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain the motor effect on a current-carrying wire placed in a magnetic field. (4)",
+        "hints": [
+          "Two magnetic fields interact.",
+          "Direction depends on both current and field."
+        ],
+        "solution": "The magnetic field around the current interacts with the external magnetic field. [B1]\nA force acts on the wire when current is not parallel to the field. [B1]\nThe force direction depends on current direction and magnetic field direction. [B1]\nIncreasing current or magnetic field strength increases the force. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Motor effect",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism · family 3"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t07-f03c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain the motor effect on a current-carrying wire placed in a magnetic field. (4)",
+        "hints": [
+          "Two magnetic fields interact.",
+          "Direction depends on both current and field."
+        ],
+        "solution": "The magnetic field around the current interacts with the external magnetic field. [B1]\nA force acts on the wire when current is not parallel to the field. [B1]\nThe force direction depends on current direction and magnetic field direction. [B1]\nIncreasing current or magnetic field strength increases the force. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Motor effect",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism · family 3"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t07-f04a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how a generator produces an alternating potential difference. (4)",
+        "hints": [
+          "Induction needs a changing magnetic field through a conductor.",
+          "Rotation reverses the direction every half-turn."
+        ],
+        "solution": "A coil or magnet is moved so that magnetic field lines are cut / the magnetic flux through a coil changes. [B1]\nThis induces a potential difference across the coil. [B1]\nReversing the direction of motion or field reverses the induced potential difference. [B1]\nContinuous rotation therefore produces an alternating potential difference. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Generator effect",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism · family 4"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t07-f04b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how a generator produces an alternating potential difference. (4)",
+        "hints": [
+          "Induction needs a changing magnetic field through a conductor.",
+          "Rotation reverses the direction every half-turn."
+        ],
+        "solution": "A coil or magnet is moved so that magnetic field lines are cut / the magnetic flux through a coil changes. [B1]\nThis induces a potential difference across the coil. [B1]\nReversing the direction of motion or field reverses the induced potential difference. [B1]\nContinuous rotation therefore produces an alternating potential difference. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Generator effect",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism · family 4"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t07-f04c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how a generator produces an alternating potential difference. (4)",
+        "hints": [
+          "Induction needs a changing magnetic field through a conductor.",
+          "Rotation reverses the direction every half-turn."
+        ],
+        "solution": "A coil or magnet is moved so that magnetic field lines are cut / the magnetic flux through a coil changes. [B1]\nThis induces a potential difference across the coil. [B1]\nReversing the direction of motion or field reverses the induced potential difference. [B1]\nContinuous rotation therefore produces an alternating potential difference. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Generator effect",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism · family 4"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t07-f05a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how a transformer changes an alternating potential difference. (4)",
+        "hints": [
+          "Transformers require alternating current.",
+          "Compare turns ratio with potential-difference ratio."
+        ],
+        "solution": "An alternating current in the primary coil produces a changing magnetic field in the iron core. [B1]\nThe changing magnetic field links the secondary coil and induces an alternating potential difference. [B1]\nThe ratio of secondary to primary potential difference equals the ratio of secondary to primary turns for an ideal transformer. [B1]\nMore turns on the secondary gives a step-up transformer; fewer gives a step-down transformer. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Transformers",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism · family 5"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t07-f05b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how a transformer changes an alternating potential difference. (4)",
+        "hints": [
+          "Transformers require alternating current.",
+          "Compare turns ratio with potential-difference ratio."
+        ],
+        "solution": "An alternating current in the primary coil produces a changing magnetic field in the iron core. [B1]\nThe changing magnetic field links the secondary coil and induces an alternating potential difference. [B1]\nThe ratio of secondary to primary potential difference equals the ratio of secondary to primary turns for an ideal transformer. [B1]\nMore turns on the secondary gives a step-up transformer; fewer gives a step-down transformer. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Transformers",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism · family 5"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t07-f05c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how a transformer changes an alternating potential difference. (4)",
+        "hints": [
+          "Transformers require alternating current.",
+          "Compare turns ratio with potential-difference ratio."
+        ],
+        "solution": "An alternating current in the primary coil produces a changing magnetic field in the iron core. [B1]\nThe changing magnetic field links the secondary coil and induces an alternating potential difference. [B1]\nThe ratio of secondary to primary potential difference equals the ratio of secondary to primary turns for an ideal transformer. [B1]\nMore turns on the secondary gives a step-up transformer; fewer gives a step-down transformer. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Transformers",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism · family 5"
+      }
+    ]
+  },
+  {
+    "topic": "Space physics",
+    "category": "Paper 2",
+    "questions": [
+      {
+        "id": "gcse-phys-aqa-p2-t08-f01a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Describe the life cycle of a star with a similar mass to the Sun. (4)",
+        "hints": [
+          "Start with a nebula and protostar.",
+          "For a Sun-like star, the remnant is a white dwarf."
+        ],
+        "solution": "A star forms when a nebula collapses under gravity and a protostar forms. [B1]\nHydrogen fusion begins and the star spends most of its life in the main sequence. [B1]\nWhen hydrogen becomes depleted the star expands into a red giant. [B1]\nIt sheds outer layers as a planetary nebula, leaving a white dwarf that cools over time. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Stellar evolution",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Space physics · family 1"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t08-f01b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Describe the life cycle of a star with a similar mass to the Sun. (4)",
+        "hints": [
+          "Start with a nebula and protostar.",
+          "For a Sun-like star, the remnant is a white dwarf."
+        ],
+        "solution": "A star forms when a nebula collapses under gravity and a protostar forms. [B1]\nHydrogen fusion begins and the star spends most of its life in the main sequence. [B1]\nWhen hydrogen becomes depleted the star expands into a red giant. [B1]\nIt sheds outer layers as a planetary nebula, leaving a white dwarf that cools over time. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Stellar evolution",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Space physics · family 1"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t08-f01c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Describe the life cycle of a star with a similar mass to the Sun. (4)",
+        "hints": [
+          "Start with a nebula and protostar.",
+          "For a Sun-like star, the remnant is a white dwarf."
+        ],
+        "solution": "A star forms when a nebula collapses under gravity and a protostar forms. [B1]\nHydrogen fusion begins and the star spends most of its life in the main sequence. [B1]\nWhen hydrogen becomes depleted the star expands into a red giant. [B1]\nIt sheds outer layers as a planetary nebula, leaving a white dwarf that cools over time. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Stellar evolution",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Space physics · family 1"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t08-f02a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how red-shift observations support the idea that the universe is expanding. (4)",
+        "hints": [
+          "Red-shift means longer wavelength.",
+          "Relate distance to recession speed."
+        ],
+        "solution": "Light from distant galaxies shows spectral lines shifted towards longer wavelengths. [B1]\nA red-shift indicates that the galaxy is moving away from us. [B1]\nMore distant galaxies generally show larger red-shifts and greater recession speeds. [B1]\nThis pattern is evidence that space/the universe is expanding. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Red-shift",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Space physics · family 2"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t08-f02b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how red-shift observations support the idea that the universe is expanding. (4)",
+        "hints": [
+          "Red-shift means longer wavelength.",
+          "Relate distance to recession speed."
+        ],
+        "solution": "Light from distant galaxies shows spectral lines shifted towards longer wavelengths. [B1]\nA red-shift indicates that the galaxy is moving away from us. [B1]\nMore distant galaxies generally show larger red-shifts and greater recession speeds. [B1]\nThis pattern is evidence that space/the universe is expanding. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Red-shift",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Space physics · family 2"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t08-f02c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how red-shift observations support the idea that the universe is expanding. (4)",
+        "hints": [
+          "Red-shift means longer wavelength.",
+          "Relate distance to recession speed."
+        ],
+        "solution": "Light from distant galaxies shows spectral lines shifted towards longer wavelengths. [B1]\nA red-shift indicates that the galaxy is moving away from us. [B1]\nMore distant galaxies generally show larger red-shifts and greater recession speeds. [B1]\nThis pattern is evidence that space/the universe is expanding. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Red-shift",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Space physics · family 2"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t08-f03a",
+        "marks": 3,
+        "prompt": "A planet travels 9.0 x 10^11 m around its orbit in 3.0 x 10^7 s. Calculate its mean orbital speed. (3)",
+        "hints": [
+          "Use mean speed = distance ÷ time.",
+          "Use standard form carefully."
+        ],
+        "solution": "Use speed = distance / time. [B1]\n9.0 x 10^11 / 3.0 x 10^7. [B1]\nSpeed = 3.0 x 10^4 m/s. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Orbital motion",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Space physics · family 3"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t08-f03b",
+        "marks": 3,
+        "prompt": "A moon travels 2.4 x 10^9 m in one orbit taking 1.2 x 10^6 s. Calculate its mean orbital speed. (3)",
+        "hints": [
+          "Use mean speed = distance ÷ time.",
+          "Use standard form carefully."
+        ],
+        "solution": "Use speed = distance / time. [B1]\n2.4 x 10^9 / 1.2 x 10^6. [B1]\nSpeed = 2.0 x 10^3 m/s. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Orbital motion",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Space physics · family 3"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t08-f03c",
+        "marks": 3,
+        "prompt": "A satellite travels 4.2 x 10^7 m in 7.0 x 10^3 s. Calculate its mean orbital speed. (3)",
+        "hints": [
+          "Use mean speed = distance ÷ time.",
+          "Use standard form carefully."
+        ],
+        "solution": "Use speed = distance / time. [B1]\n4.2 x 10^7 / 7.0 x 10^3. [B1]\nSpeed = 6.0 x 10^3 m/s. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Orbital motion",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Space physics · family 3"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t08-f04a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain why a satellite in circular orbit can move at constant speed while still accelerating. (4)",
+        "hints": [
+          "Speed can be constant while velocity changes.",
+          "What force points towards the centre?"
+        ],
+        "solution": "Velocity includes direction as well as speed. [B1]\nIn circular motion the direction of velocity changes continuously. [B1]\nA change in velocity means there is acceleration. [B1]\nGravity provides the centripetal force/acceleration towards the centre of the orbit. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Orbits",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Space physics · family 4"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t08-f04b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain why a satellite in circular orbit can move at constant speed while still accelerating. (4)",
+        "hints": [
+          "Speed can be constant while velocity changes.",
+          "What force points towards the centre?"
+        ],
+        "solution": "Velocity includes direction as well as speed. [B1]\nIn circular motion the direction of velocity changes continuously. [B1]\nA change in velocity means there is acceleration. [B1]\nGravity provides the centripetal force/acceleration towards the centre of the orbit. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Orbits",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Space physics · family 4"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t08-f04c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain why a satellite in circular orbit can move at constant speed while still accelerating. (4)",
+        "hints": [
+          "Speed can be constant while velocity changes.",
+          "What force points towards the centre?"
+        ],
+        "solution": "Velocity includes direction as well as speed. [B1]\nIn circular motion the direction of velocity changes continuously. [B1]\nA change in velocity means there is acceleration. [B1]\nGravity provides the centripetal force/acceleration towards the centre of the orbit. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Orbits",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Space physics · family 4"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t08-f05a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Compare the planets, dwarf planets, moons and artificial satellites in terms of what they orbit. (4)",
+        "hints": [
+          "The key distinction is what each object orbits and whether it is natural.",
+          "Include dwarf planets."
+        ],
+        "solution": "Planets orbit a star such as the Sun. [B1]\nDwarf planets also orbit the Sun but have not cleared their orbital neighbourhood. [B1]\nMoons are natural satellites that orbit planets or dwarf planets. [B1]\nArtificial satellites are human-made objects placed in orbit around Earth or other bodies. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Solar system",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Space physics · family 5"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t08-f05b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Compare the planets, dwarf planets, moons and artificial satellites in terms of what they orbit. (4)",
+        "hints": [
+          "The key distinction is what each object orbits and whether it is natural.",
+          "Include dwarf planets."
+        ],
+        "solution": "Planets orbit a star such as the Sun. [B1]\nDwarf planets also orbit the Sun but have not cleared their orbital neighbourhood. [B1]\nMoons are natural satellites that orbit planets or dwarf planets. [B1]\nArtificial satellites are human-made objects placed in orbit around Earth or other bodies. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Solar system",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Space physics · family 5"
+      },
+      {
+        "id": "gcse-phys-aqa-p2-t08-f05c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Compare the planets, dwarf planets, moons and artificial satellites in terms of what they orbit. (4)",
+        "hints": [
+          "The key distinction is what each object orbits and whether it is natural.",
+          "Include dwarf planets."
+        ],
+        "solution": "Planets orbit a star such as the Sun. [B1]\nDwarf planets also orbit the Sun but have not cleared their orbital neighbourhood. [B1]\nMoons are natural satellites that orbit planets or dwarf planets. [B1]\nArtificial satellites are human-made objects placed in orbit around Earth or other bodies. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Physics Paper 2",
+        "subtopic": "Solar system",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8463 Physics Paper 2 style · Space physics · family 5"
+      }
+    ]
+  }
+]

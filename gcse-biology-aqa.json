@@ -1,0 +1,1631 @@
+[
+  {
+    "topic": "Cell biology",
+    "category": "Paper 1",
+    "questions": [
+      {
+        "id": "gcse-bio-aqa-p1-t01-f01a",
+        "marks": 3,
+        "prompt": "A student is answering an AQA-style practice question. Explain how the structure of a eukaryotic cell allows it to carry out protein synthesis efficiently. (3)",
+        "hints": [
+          "Name the organelles involved in genetic information and protein production.",
+          "Link each organelle to its function."
+        ],
+        "solution": "The nucleus contains the genetic information / DNA coding for proteins. [B1]\nRibosomes are the site of protein synthesis. [B1]\nMitochondria release energy by aerobic respiration to support cell processes. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Cell structure",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Cell biology · family 1",
+        "diagram": {
+          "svg": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\"><ellipse cx=\"160\" cy=\"90\" rx=\"120\" ry=\"65\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><circle cx=\"115\" cy=\"85\" r=\"27\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><ellipse cx=\"215\" cy=\"80\" rx=\"28\" ry=\"13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M195 80c12-13 28-13 40 0c-12 13-28 13-40 0z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"175\" cy=\"120\" r=\"4\"/><circle cx=\"190\" cy=\"125\" r=\"4\"/><text x=\"92\" y=\"49\" font-size=\"13\">nucleus</text><text x=\"207\" y=\"52\" font-size=\"13\">mitochondrion</text><text x=\"166\" y=\"153\" font-size=\"13\">ribosomes</text></svg>",
+          "alt": "Schematic diagram for Cell biology."
+        }
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t01-f01b",
+        "marks": 3,
+        "prompt": "A class is applying the same idea in a different context. Explain how the structure of a eukaryotic cell allows it to carry out protein synthesis efficiently. (3)",
+        "hints": [
+          "Name the organelles involved in genetic information and protein production.",
+          "Link each organelle to its function."
+        ],
+        "solution": "The nucleus contains the genetic information / DNA coding for proteins. [B1]\nRibosomes are the site of protein synthesis. [B1]\nMitochondria release energy by aerobic respiration to support cell processes. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Cell structure",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Cell biology · family 1",
+        "diagram": {
+          "svg": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\"><ellipse cx=\"160\" cy=\"90\" rx=\"120\" ry=\"65\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><circle cx=\"115\" cy=\"85\" r=\"27\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><ellipse cx=\"215\" cy=\"80\" rx=\"28\" ry=\"13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M195 80c12-13 28-13 40 0c-12 13-28 13-40 0z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"175\" cy=\"120\" r=\"4\"/><circle cx=\"190\" cy=\"125\" r=\"4\"/><text x=\"92\" y=\"49\" font-size=\"13\">nucleus</text><text x=\"207\" y=\"52\" font-size=\"13\">mitochondrion</text><text x=\"166\" y=\"153\" font-size=\"13\">ribosomes</text></svg>",
+          "alt": "Schematic diagram for Cell biology."
+        }
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t01-f01c",
+        "marks": 3,
+        "prompt": "During revision, a learner is asked the following. Explain how the structure of a eukaryotic cell allows it to carry out protein synthesis efficiently. (3)",
+        "hints": [
+          "Name the organelles involved in genetic information and protein production.",
+          "Link each organelle to its function."
+        ],
+        "solution": "The nucleus contains the genetic information / DNA coding for proteins. [B1]\nRibosomes are the site of protein synthesis. [B1]\nMitochondria release energy by aerobic respiration to support cell processes. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Cell structure",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Cell biology · family 1",
+        "diagram": {
+          "svg": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\"><ellipse cx=\"160\" cy=\"90\" rx=\"120\" ry=\"65\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><circle cx=\"115\" cy=\"85\" r=\"27\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><ellipse cx=\"215\" cy=\"80\" rx=\"28\" ry=\"13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M195 80c12-13 28-13 40 0c-12 13-28 13-40 0z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"175\" cy=\"120\" r=\"4\"/><circle cx=\"190\" cy=\"125\" r=\"4\"/><text x=\"92\" y=\"49\" font-size=\"13\">nucleus</text><text x=\"207\" y=\"52\" font-size=\"13\">mitochondrion</text><text x=\"166\" y=\"153\" font-size=\"13\">ribosomes</text></svg>",
+          "alt": "Schematic diagram for Cell biology."
+        }
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t01-f02a",
+        "marks": 3,
+        "prompt": "A microscope image of a cell is 36 mm long. The actual cell is 60 micrometres long. Calculate the magnification. (3)",
+        "hints": [
+          "Make the units the same first.",
+          "Use magnification = image size ÷ actual size."
+        ],
+        "solution": "Convert 36 mm to 36 000 micrometres. [B1]\nUse magnification = image size / actual size. [B1]\nMagnification = 36 000 / 60 = 600. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Microscopy",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Cell biology · family 2"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t01-f02b",
+        "marks": 3,
+        "prompt": "A microscope image of a bacterium is 24 mm long. The actual bacterium is 4 micrometres long. Calculate the magnification. (3)",
+        "hints": [
+          "Make the units the same first.",
+          "Use magnification = image size ÷ actual size."
+        ],
+        "solution": "Convert 24 mm to 24 000 micrometres. [B1]\nUse magnification = image size / actual size. [B1]\nMagnification = 24 000 / 4 = 6000. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Microscopy",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Cell biology · family 2"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t01-f02c",
+        "marks": 3,
+        "prompt": "A microscope image of a cell nucleus is 18 mm wide. The actual nucleus is 6 micrometres wide. Calculate the magnification. (3)",
+        "hints": [
+          "Make the units the same first.",
+          "Use magnification = image size ÷ actual size."
+        ],
+        "solution": "Convert 18 mm to 18 000 micrometres. [B1]\nUse magnification = image size / actual size. [B1]\nMagnification = 18 000 / 6 = 3000. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Microscopy",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Cell biology · family 2"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t01-f03a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Describe a method to investigate osmosis in cylinders of potato tissue and explain how the results would show the concentration at which there is no net movement of water. (4)",
+        "hints": [
+          "Control the size of the cylinders and the time in solution.",
+          "Think about what zero change in mass means."
+        ],
+        "solution": "Cut equal-sized potato cylinders and record their initial mass. [B1]\nPlace them in a range of known sugar or salt concentrations for the same time. [B1]\nRemove, blot dry and measure the final mass, then calculate change or percentage change. [B1]\nThe concentration giving zero change in mass is the isotonic concentration / has the same water potential as the potato cells. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Osmosis required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Cell biology · family 3"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t01-f03b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Describe a method to investigate osmosis in cylinders of potato tissue and explain how the results would show the concentration at which there is no net movement of water. (4)",
+        "hints": [
+          "Control the size of the cylinders and the time in solution.",
+          "Think about what zero change in mass means."
+        ],
+        "solution": "Cut equal-sized potato cylinders and record their initial mass. [B1]\nPlace them in a range of known sugar or salt concentrations for the same time. [B1]\nRemove, blot dry and measure the final mass, then calculate change or percentage change. [B1]\nThe concentration giving zero change in mass is the isotonic concentration / has the same water potential as the potato cells. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Osmosis required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Cell biology · family 3"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t01-f03c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Describe a method to investigate osmosis in cylinders of potato tissue and explain how the results would show the concentration at which there is no net movement of water. (4)",
+        "hints": [
+          "Control the size of the cylinders and the time in solution.",
+          "Think about what zero change in mass means."
+        ],
+        "solution": "Cut equal-sized potato cylinders and record their initial mass. [B1]\nPlace them in a range of known sugar or salt concentrations for the same time. [B1]\nRemove, blot dry and measure the final mass, then calculate change or percentage change. [B1]\nThe concentration giving zero change in mass is the isotonic concentration / has the same water potential as the potato cells. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Osmosis required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Cell biology · family 3"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t01-f04a",
+        "marks": 3,
+        "prompt": "A student is answering an AQA-style practice question. Explain one medical use of stem cells and one risk or limitation associated with their use. (3)",
+        "hints": [
+          "What makes a stem cell different from a specialised cell?",
+          "Give one benefit and one drawback."
+        ],
+        "solution": "Stem cells can differentiate into specialised cells to replace damaged tissue. [B1]\nThey may be used to treat conditions such as paralysis or diabetes by replacing non-functioning cells. [B1]\nA risk is rejection, infection, tumour formation or ethical concern depending on the source. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Stem cells",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Cell biology · family 4"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t01-f04b",
+        "marks": 3,
+        "prompt": "A class is applying the same idea in a different context. Explain one medical use of stem cells and one risk or limitation associated with their use. (3)",
+        "hints": [
+          "What makes a stem cell different from a specialised cell?",
+          "Give one benefit and one drawback."
+        ],
+        "solution": "Stem cells can differentiate into specialised cells to replace damaged tissue. [B1]\nThey may be used to treat conditions such as paralysis or diabetes by replacing non-functioning cells. [B1]\nA risk is rejection, infection, tumour formation or ethical concern depending on the source. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Stem cells",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Cell biology · family 4"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t01-f04c",
+        "marks": 3,
+        "prompt": "During revision, a learner is asked the following. Explain one medical use of stem cells and one risk or limitation associated with their use. (3)",
+        "hints": [
+          "What makes a stem cell different from a specialised cell?",
+          "Give one benefit and one drawback."
+        ],
+        "solution": "Stem cells can differentiate into specialised cells to replace damaged tissue. [B1]\nThey may be used to treat conditions such as paralysis or diabetes by replacing non-functioning cells. [B1]\nA risk is rejection, infection, tumour formation or ethical concern depending on the source. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Stem cells",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Cell biology · family 4"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t01-f05a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Compare diffusion, osmosis and active transport. (4)",
+        "hints": [
+          "State the direction of movement for each process.",
+          "Which process needs energy?"
+        ],
+        "solution": "Diffusion is the net movement of particles from high to low concentration. [B1]\nOsmosis is the net movement of water through a partially permeable membrane from a dilute to a more concentrated solution. [B1]\nActive transport moves substances against a concentration gradient and requires energy from respiration. [B1]\nAll three move substances across cell membranes. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Transport in cells",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Cell biology · family 5"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t01-f05b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Compare diffusion, osmosis and active transport. (4)",
+        "hints": [
+          "State the direction of movement for each process.",
+          "Which process needs energy?"
+        ],
+        "solution": "Diffusion is the net movement of particles from high to low concentration. [B1]\nOsmosis is the net movement of water through a partially permeable membrane from a dilute to a more concentrated solution. [B1]\nActive transport moves substances against a concentration gradient and requires energy from respiration. [B1]\nAll three move substances across cell membranes. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Transport in cells",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Cell biology · family 5"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t01-f05c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Compare diffusion, osmosis and active transport. (4)",
+        "hints": [
+          "State the direction of movement for each process.",
+          "Which process needs energy?"
+        ],
+        "solution": "Diffusion is the net movement of particles from high to low concentration. [B1]\nOsmosis is the net movement of water through a partially permeable membrane from a dilute to a more concentrated solution. [B1]\nActive transport moves substances against a concentration gradient and requires energy from respiration. [B1]\nAll three move substances across cell membranes. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Transport in cells",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Cell biology · family 5"
+      }
+    ]
+  },
+  {
+    "topic": "Organisation",
+    "category": "Paper 1",
+    "questions": [
+      {
+        "id": "gcse-bio-aqa-p1-t02-f01a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how the structure of the small intestine is adapted for efficient absorption of digested food molecules. (4)",
+        "hints": [
+          "Think about surface area, diffusion distance and blood flow.",
+          "Some nutrients need active transport."
+        ],
+        "solution": "Villi and microvilli provide a large surface area. [B1]\nThe epithelium is one cell thick, giving a short diffusion distance. [B1]\nA good blood supply maintains a steep concentration gradient. [B1]\nCells contain many mitochondria to provide energy for active transport where needed. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Digestive system",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Organisation · family 1"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t02-f01b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how the structure of the small intestine is adapted for efficient absorption of digested food molecules. (4)",
+        "hints": [
+          "Think about surface area, diffusion distance and blood flow.",
+          "Some nutrients need active transport."
+        ],
+        "solution": "Villi and microvilli provide a large surface area. [B1]\nThe epithelium is one cell thick, giving a short diffusion distance. [B1]\nA good blood supply maintains a steep concentration gradient. [B1]\nCells contain many mitochondria to provide energy for active transport where needed. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Digestive system",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Organisation · family 1"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t02-f01c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how the structure of the small intestine is adapted for efficient absorption of digested food molecules. (4)",
+        "hints": [
+          "Think about surface area, diffusion distance and blood flow.",
+          "Some nutrients need active transport."
+        ],
+        "solution": "Villi and microvilli provide a large surface area. [B1]\nThe epithelium is one cell thick, giving a short diffusion distance. [B1]\nA good blood supply maintains a steep concentration gradient. [B1]\nCells contain many mitochondria to provide energy for active transport where needed. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Digestive system",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Organisation · family 1"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t02-f02a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how the heart and blood vessels work together to supply respiring cells with oxygen. (4)",
+        "hints": [
+          "Follow the route from heart to tissue and back.",
+          "Relate vessel structure to function."
+        ],
+        "solution": "The heart contracts to create pressure and pump blood. [B1]\nArteries carry blood away from the heart at high pressure. [B1]\nCapillaries have thin walls for diffusion of oxygen into tissues. [B1]\nVeins return blood to the heart and valves help prevent backflow. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Heart and circulation",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Organisation · family 2"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t02-f02b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how the heart and blood vessels work together to supply respiring cells with oxygen. (4)",
+        "hints": [
+          "Follow the route from heart to tissue and back.",
+          "Relate vessel structure to function."
+        ],
+        "solution": "The heart contracts to create pressure and pump blood. [B1]\nArteries carry blood away from the heart at high pressure. [B1]\nCapillaries have thin walls for diffusion of oxygen into tissues. [B1]\nVeins return blood to the heart and valves help prevent backflow. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Heart and circulation",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Organisation · family 2"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t02-f02c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how the heart and blood vessels work together to supply respiring cells with oxygen. (4)",
+        "hints": [
+          "Follow the route from heart to tissue and back.",
+          "Relate vessel structure to function."
+        ],
+        "solution": "The heart contracts to create pressure and pump blood. [B1]\nArteries carry blood away from the heart at high pressure. [B1]\nCapillaries have thin walls for diffusion of oxygen into tissues. [B1]\nVeins return blood to the heart and valves help prevent backflow. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Heart and circulation",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Organisation · family 2"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t02-f03a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Describe how you could investigate the effect of pH on the activity of amylase. (4)",
+        "hints": [
+          "Iodine tests for starch.",
+          "Only pH should change between trials."
+        ],
+        "solution": "Use amylase and starch with buffer solutions of different pH values. [B1]\nKeep temperature, enzyme concentration and substrate concentration constant. [B1]\nAt regular intervals test samples with iodine for remaining starch. [B1]\nRecord the time for starch to disappear and compare rate, for example using 1/time. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Enzymes required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Organisation · family 3"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t02-f03b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Describe how you could investigate the effect of pH on the activity of amylase. (4)",
+        "hints": [
+          "Iodine tests for starch.",
+          "Only pH should change between trials."
+        ],
+        "solution": "Use amylase and starch with buffer solutions of different pH values. [B1]\nKeep temperature, enzyme concentration and substrate concentration constant. [B1]\nAt regular intervals test samples with iodine for remaining starch. [B1]\nRecord the time for starch to disappear and compare rate, for example using 1/time. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Enzymes required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Organisation · family 3"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t02-f03c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Describe how you could investigate the effect of pH on the activity of amylase. (4)",
+        "hints": [
+          "Iodine tests for starch.",
+          "Only pH should change between trials."
+        ],
+        "solution": "Use amylase and starch with buffer solutions of different pH values. [B1]\nKeep temperature, enzyme concentration and substrate concentration constant. [B1]\nAt regular intervals test samples with iodine for remaining starch. [B1]\nRecord the time for starch to disappear and compare rate, for example using 1/time. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Enzymes required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Organisation · family 3"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t02-f04a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how coronary heart disease can develop and give one treatment that can reduce its effects. (4)",
+        "hints": [
+          "Which blood vessels feed the heart muscle?",
+          "Link narrowing to oxygen supply."
+        ],
+        "solution": "Fatty material can build up in coronary arteries. [B1]\nThe lumen narrows, reducing blood flow and oxygen delivery to heart muscle. [B1]\nThis can cause angina or a heart attack. [B1]\nA stent can keep the artery open, or statins can reduce blood cholesterol. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Cardiovascular disease",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Organisation · family 4"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t02-f04b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how coronary heart disease can develop and give one treatment that can reduce its effects. (4)",
+        "hints": [
+          "Which blood vessels feed the heart muscle?",
+          "Link narrowing to oxygen supply."
+        ],
+        "solution": "Fatty material can build up in coronary arteries. [B1]\nThe lumen narrows, reducing blood flow and oxygen delivery to heart muscle. [B1]\nThis can cause angina or a heart attack. [B1]\nA stent can keep the artery open, or statins can reduce blood cholesterol. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Cardiovascular disease",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Organisation · family 4"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t02-f04c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how coronary heart disease can develop and give one treatment that can reduce its effects. (4)",
+        "hints": [
+          "Which blood vessels feed the heart muscle?",
+          "Link narrowing to oxygen supply."
+        ],
+        "solution": "Fatty material can build up in coronary arteries. [B1]\nThe lumen narrows, reducing blood flow and oxygen delivery to heart muscle. [B1]\nThis can cause angina or a heart attack. [B1]\nA stent can keep the artery open, or statins can reduce blood cholesterol. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Cardiovascular disease",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Organisation · family 4"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t02-f05a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Compare xylem and phloem tissues in plants. (4)",
+        "hints": [
+          "One tissue mainly moves water; the other moves sugars.",
+          "Include one structural difference."
+        ],
+        "solution": "Xylem transports water and mineral ions from roots through the plant. [B1]\nXylem vessels are dead, hollow and strengthened with lignin. [B1]\nPhloem transports dissolved sugars by translocation. [B1]\nPhloem contains living cells and transport can occur to sources and sinks in different directions. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Plant tissues",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Organisation · family 5"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t02-f05b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Compare xylem and phloem tissues in plants. (4)",
+        "hints": [
+          "One tissue mainly moves water; the other moves sugars.",
+          "Include one structural difference."
+        ],
+        "solution": "Xylem transports water and mineral ions from roots through the plant. [B1]\nXylem vessels are dead, hollow and strengthened with lignin. [B1]\nPhloem transports dissolved sugars by translocation. [B1]\nPhloem contains living cells and transport can occur to sources and sinks in different directions. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Plant tissues",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Organisation · family 5"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t02-f05c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Compare xylem and phloem tissues in plants. (4)",
+        "hints": [
+          "One tissue mainly moves water; the other moves sugars.",
+          "Include one structural difference."
+        ],
+        "solution": "Xylem transports water and mineral ions from roots through the plant. [B1]\nXylem vessels are dead, hollow and strengthened with lignin. [B1]\nPhloem transports dissolved sugars by translocation. [B1]\nPhloem contains living cells and transport can occur to sources and sinks in different directions. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Plant tissues",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Organisation · family 5"
+      }
+    ]
+  },
+  {
+    "topic": "Infection and response",
+    "category": "Paper 1",
+    "questions": [
+      {
+        "id": "gcse-bio-aqa-p1-t03-f01a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how vaccination can reduce the spread of an infectious disease through a population. (4)",
+        "hints": [
+          "Use the words antigen, antibody and memory cell.",
+          "Think about both the individual and the population."
+        ],
+        "solution": "A vaccine introduces antigens from a pathogen in a safe form. [B1]\nLymphocytes produce specific antibodies and memory cells. [B1]\nOn later infection the secondary immune response is faster and produces more antibodies. [B1]\nIf many people are immune, transmission is reduced because fewer susceptible hosts are available. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Vaccination",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Infection and response · family 1"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t03-f01b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how vaccination can reduce the spread of an infectious disease through a population. (4)",
+        "hints": [
+          "Use the words antigen, antibody and memory cell.",
+          "Think about both the individual and the population."
+        ],
+        "solution": "A vaccine introduces antigens from a pathogen in a safe form. [B1]\nLymphocytes produce specific antibodies and memory cells. [B1]\nOn later infection the secondary immune response is faster and produces more antibodies. [B1]\nIf many people are immune, transmission is reduced because fewer susceptible hosts are available. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Vaccination",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Infection and response · family 1"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t03-f01c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how vaccination can reduce the spread of an infectious disease through a population. (4)",
+        "hints": [
+          "Use the words antigen, antibody and memory cell.",
+          "Think about both the individual and the population."
+        ],
+        "solution": "A vaccine introduces antigens from a pathogen in a safe form. [B1]\nLymphocytes produce specific antibodies and memory cells. [B1]\nOn later infection the secondary immune response is faster and produces more antibodies. [B1]\nIf many people are immune, transmission is reduced because fewer susceptible hosts are available. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Vaccination",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Infection and response · family 1"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t03-f02a",
+        "marks": 3,
+        "prompt": "A student is answering an AQA-style practice question. Explain why antibiotics can treat some infectious diseases but not others. (3)",
+        "hints": [
+          "What type of pathogen do antibiotics target?",
+          "Viruses use host-cell machinery."
+        ],
+        "solution": "Antibiotics kill bacteria or inhibit bacterial growth. [B1]\nViruses reproduce inside host cells and do not have the bacterial targets that antibiotics act on. [B1]\nTherefore antibiotics do not cure viral diseases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Antibiotics",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Infection and response · family 2"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t03-f02b",
+        "marks": 3,
+        "prompt": "A class is applying the same idea in a different context. Explain why antibiotics can treat some infectious diseases but not others. (3)",
+        "hints": [
+          "What type of pathogen do antibiotics target?",
+          "Viruses use host-cell machinery."
+        ],
+        "solution": "Antibiotics kill bacteria or inhibit bacterial growth. [B1]\nViruses reproduce inside host cells and do not have the bacterial targets that antibiotics act on. [B1]\nTherefore antibiotics do not cure viral diseases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Antibiotics",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Infection and response · family 2"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t03-f02c",
+        "marks": 3,
+        "prompt": "During revision, a learner is asked the following. Explain why antibiotics can treat some infectious diseases but not others. (3)",
+        "hints": [
+          "What type of pathogen do antibiotics target?",
+          "Viruses use host-cell machinery."
+        ],
+        "solution": "Antibiotics kill bacteria or inhibit bacterial growth. [B1]\nViruses reproduce inside host cells and do not have the bacterial targets that antibiotics act on. [B1]\nTherefore antibiotics do not cure viral diseases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Antibiotics",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Infection and response · family 2"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t03-f03a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Describe how the body prevents pathogens from entering and responds if they do enter. (4)",
+        "hints": [
+          "Start with barriers at body surfaces.",
+          "Then consider white blood cells."
+        ],
+        "solution": "Skin forms a physical barrier and produces antimicrobial secretions. [B1]\nMucus and cilia in the respiratory tract trap and move pathogens away. [B1]\nWhite blood cells can engulf pathogens by phagocytosis. [B1]\nLymphocytes produce antibodies and antitoxins. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Defence systems",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Infection and response · family 3"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t03-f03b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Describe how the body prevents pathogens from entering and responds if they do enter. (4)",
+        "hints": [
+          "Start with barriers at body surfaces.",
+          "Then consider white blood cells."
+        ],
+        "solution": "Skin forms a physical barrier and produces antimicrobial secretions. [B1]\nMucus and cilia in the respiratory tract trap and move pathogens away. [B1]\nWhite blood cells can engulf pathogens by phagocytosis. [B1]\nLymphocytes produce antibodies and antitoxins. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Defence systems",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Infection and response · family 3"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t03-f03c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Describe how the body prevents pathogens from entering and responds if they do enter. (4)",
+        "hints": [
+          "Start with barriers at body surfaces.",
+          "Then consider white blood cells."
+        ],
+        "solution": "Skin forms a physical barrier and produces antimicrobial secretions. [B1]\nMucus and cilia in the respiratory tract trap and move pathogens away. [B1]\nWhite blood cells can engulf pathogens by phagocytosis. [B1]\nLymphocytes produce antibodies and antitoxins. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Defence systems",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Infection and response · family 3"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t03-f04a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how monoclonal antibodies are produced and give one use. (4)",
+        "hints": [
+          "Hybridoma cells combine two useful properties.",
+          "State one application."
+        ],
+        "solution": "A mouse is exposed to an antigen so lymphocytes producing the required antibody are formed. [B1]\nThe lymphocytes are fused with tumour cells to make hybridoma cells. [B1]\nA selected hybridoma clone divides and produces large quantities of one antibody. [B1]\nMonoclonal antibodies can be used in pregnancy tests, diagnostics, measurements or targeted treatments. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Monoclonal antibodies",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Infection and response · family 4"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t03-f04b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how monoclonal antibodies are produced and give one use. (4)",
+        "hints": [
+          "Hybridoma cells combine two useful properties.",
+          "State one application."
+        ],
+        "solution": "A mouse is exposed to an antigen so lymphocytes producing the required antibody are formed. [B1]\nThe lymphocytes are fused with tumour cells to make hybridoma cells. [B1]\nA selected hybridoma clone divides and produces large quantities of one antibody. [B1]\nMonoclonal antibodies can be used in pregnancy tests, diagnostics, measurements or targeted treatments. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Monoclonal antibodies",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Infection and response · family 4"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t03-f04c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how monoclonal antibodies are produced and give one use. (4)",
+        "hints": [
+          "Hybridoma cells combine two useful properties.",
+          "State one application."
+        ],
+        "solution": "A mouse is exposed to an antigen so lymphocytes producing the required antibody are formed. [B1]\nThe lymphocytes are fused with tumour cells to make hybridoma cells. [B1]\nA selected hybridoma clone divides and produces large quantities of one antibody. [B1]\nMonoclonal antibodies can be used in pregnancy tests, diagnostics, measurements or targeted treatments. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Monoclonal antibodies",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Infection and response · family 4"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t03-f05a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Describe two ways a farmer could reduce the spread of plant disease and explain why each works. (4)",
+        "hints": [
+          "Think about reservoirs, vectors and transmission routes.",
+          "Explain the mechanism, not just the action."
+        ],
+        "solution": "Remove and destroy infected plants to reduce the reservoir of pathogens. [B1]\nUse resistant varieties so infection is less likely to establish or cause damage. [B1]\nControl vectors such as insects to reduce transmission. [B1]\nDisinfect tools to prevent transfer between plants. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Plant disease",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Infection and response · family 5"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t03-f05b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Describe two ways a farmer could reduce the spread of plant disease and explain why each works. (4)",
+        "hints": [
+          "Think about reservoirs, vectors and transmission routes.",
+          "Explain the mechanism, not just the action."
+        ],
+        "solution": "Remove and destroy infected plants to reduce the reservoir of pathogens. [B1]\nUse resistant varieties so infection is less likely to establish or cause damage. [B1]\nControl vectors such as insects to reduce transmission. [B1]\nDisinfect tools to prevent transfer between plants. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Plant disease",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Infection and response · family 5"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t03-f05c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Describe two ways a farmer could reduce the spread of plant disease and explain why each works. (4)",
+        "hints": [
+          "Think about reservoirs, vectors and transmission routes.",
+          "Explain the mechanism, not just the action."
+        ],
+        "solution": "Remove and destroy infected plants to reduce the reservoir of pathogens. [B1]\nUse resistant varieties so infection is less likely to establish or cause damage. [B1]\nControl vectors such as insects to reduce transmission. [B1]\nDisinfect tools to prevent transfer between plants. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Plant disease",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Infection and response · family 5"
+      }
+    ]
+  },
+  {
+    "topic": "Bioenergetics",
+    "category": "Paper 1",
+    "questions": [
+      {
+        "id": "gcse-bio-aqa-p1-t04-f01a",
+        "marks": 3,
+        "prompt": "A student is answering an AQA-style practice question. Explain how the rate of photosynthesis is affected by light intensity and carbon dioxide concentration. (3)",
+        "hints": [
+          "Name the reactants needed for photosynthesis.",
+          "Use the idea of a limiting factor."
+        ],
+        "solution": "Increasing light intensity can increase the rate because more light energy is available. [B1]\nIncreasing carbon dioxide concentration can increase the rate because carbon dioxide is a reactant. [B1]\nThe rate eventually levels off when another factor becomes limiting. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Photosynthesis",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Bioenergetics · family 1"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t04-f01b",
+        "marks": 3,
+        "prompt": "A class is applying the same idea in a different context. Explain how the rate of photosynthesis is affected by light intensity and carbon dioxide concentration. (3)",
+        "hints": [
+          "Name the reactants needed for photosynthesis.",
+          "Use the idea of a limiting factor."
+        ],
+        "solution": "Increasing light intensity can increase the rate because more light energy is available. [B1]\nIncreasing carbon dioxide concentration can increase the rate because carbon dioxide is a reactant. [B1]\nThe rate eventually levels off when another factor becomes limiting. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Photosynthesis",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Bioenergetics · family 1"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t04-f01c",
+        "marks": 3,
+        "prompt": "During revision, a learner is asked the following. Explain how the rate of photosynthesis is affected by light intensity and carbon dioxide concentration. (3)",
+        "hints": [
+          "Name the reactants needed for photosynthesis.",
+          "Use the idea of a limiting factor."
+        ],
+        "solution": "Increasing light intensity can increase the rate because more light energy is available. [B1]\nIncreasing carbon dioxide concentration can increase the rate because carbon dioxide is a reactant. [B1]\nThe rate eventually levels off when another factor becomes limiting. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Photosynthesis",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Bioenergetics · family 1"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t04-f02a",
+        "marks": 3,
+        "prompt": "A plant releases 48 bubbles of oxygen in 2 minutes. Calculate the mean rate in bubbles per minute. (3)",
+        "hints": [
+          "Divide the amount produced by the time taken.",
+          "Include the unit in your answer."
+        ],
+        "solution": "Use rate = amount / time. [B1]\nRate = 48 / 2. [B1]\nRate = 24 bubbles per minute. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Rate calculations",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Bioenergetics · family 2"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t04-f02b",
+        "marks": 3,
+        "prompt": "A pondweed releases 90 bubbles of oxygen in 3 minutes. Calculate the mean rate in bubbles per minute. (3)",
+        "hints": [
+          "Divide the amount produced by the time taken.",
+          "Include the unit in your answer."
+        ],
+        "solution": "Use rate = amount / time. [B1]\nRate = 90 / 3. [B1]\nRate = 30 bubbles per minute. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Rate calculations",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Bioenergetics · family 2"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t04-f02c",
+        "marks": 3,
+        "prompt": "A plant releases 126 bubbles of oxygen in 6 minutes. Calculate the mean rate in bubbles per minute. (3)",
+        "hints": [
+          "Divide the amount produced by the time taken.",
+          "Include the unit in your answer."
+        ],
+        "solution": "Use rate = amount / time. [B1]\nRate = 126 / 6. [B1]\nRate = 21 bubbles per minute. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Rate calculations",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Bioenergetics · family 2"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t04-f03a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Compare aerobic and anaerobic respiration in human muscle cells. (4)",
+        "hints": [
+          "Compare oxygen use and energy yield.",
+          "What product forms during anaerobic respiration in muscle?"
+        ],
+        "solution": "Aerobic respiration uses oxygen; anaerobic respiration does not. [B1]\nAerobic respiration releases much more energy from each glucose molecule. [B1]\nAnaerobic respiration in muscles produces lactic acid. [B1]\nAfter exercise extra oxygen is needed to remove or oxidise lactic acid / repay the oxygen debt. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Respiration",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Bioenergetics · family 3"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t04-f03b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Compare aerobic and anaerobic respiration in human muscle cells. (4)",
+        "hints": [
+          "Compare oxygen use and energy yield.",
+          "What product forms during anaerobic respiration in muscle?"
+        ],
+        "solution": "Aerobic respiration uses oxygen; anaerobic respiration does not. [B1]\nAerobic respiration releases much more energy from each glucose molecule. [B1]\nAnaerobic respiration in muscles produces lactic acid. [B1]\nAfter exercise extra oxygen is needed to remove or oxidise lactic acid / repay the oxygen debt. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Respiration",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Bioenergetics · family 3"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t04-f03c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Compare aerobic and anaerobic respiration in human muscle cells. (4)",
+        "hints": [
+          "Compare oxygen use and energy yield.",
+          "What product forms during anaerobic respiration in muscle?"
+        ],
+        "solution": "Aerobic respiration uses oxygen; anaerobic respiration does not. [B1]\nAerobic respiration releases much more energy from each glucose molecule. [B1]\nAnaerobic respiration in muscles produces lactic acid. [B1]\nAfter exercise extra oxygen is needed to remove or oxidise lactic acid / repay the oxygen debt. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Respiration",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Bioenergetics · family 3"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t04-f04a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain why photosynthesis and respiration are both essential to the cycling of carbon in ecosystems. (4)",
+        "hints": [
+          "Follow carbon into and out of living organisms.",
+          "Include decomposers."
+        ],
+        "solution": "Photosynthesis removes carbon dioxide from the atmosphere and converts carbon into biomass. [B1]\nRespiration releases carbon dioxide from living organisms. [B1]\nDecomposers respire while breaking down dead material and waste, returning carbon dioxide. [B1]\nThese processes move carbon between organisms and the environment. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Metabolism and cycles",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Bioenergetics · family 4"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t04-f04b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain why photosynthesis and respiration are both essential to the cycling of carbon in ecosystems. (4)",
+        "hints": [
+          "Follow carbon into and out of living organisms.",
+          "Include decomposers."
+        ],
+        "solution": "Photosynthesis removes carbon dioxide from the atmosphere and converts carbon into biomass. [B1]\nRespiration releases carbon dioxide from living organisms. [B1]\nDecomposers respire while breaking down dead material and waste, returning carbon dioxide. [B1]\nThese processes move carbon between organisms and the environment. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Metabolism and cycles",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Bioenergetics · family 4"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t04-f04c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain why photosynthesis and respiration are both essential to the cycling of carbon in ecosystems. (4)",
+        "hints": [
+          "Follow carbon into and out of living organisms.",
+          "Include decomposers."
+        ],
+        "solution": "Photosynthesis removes carbon dioxide from the atmosphere and converts carbon into biomass. [B1]\nRespiration releases carbon dioxide from living organisms. [B1]\nDecomposers respire while breaking down dead material and waste, returning carbon dioxide. [B1]\nThese processes move carbon between organisms and the environment. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Metabolism and cycles",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Bioenergetics · family 4"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t04-f05a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Describe how you could investigate the effect of light intensity on photosynthesis using pondweed. (4)",
+        "hints": [
+          "Measure oxygen, not just bubble count if possible.",
+          "Name two control variables."
+        ],
+        "solution": "Place pondweed in water containing a source of carbon dioxide. [B1]\nChange light intensity by changing distance from a lamp or using measured light levels. [B1]\nMeasure oxygen production, for example volume per minute, at each intensity. [B1]\nControl temperature and carbon dioxide concentration and repeat to calculate means. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Photosynthesis required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Bioenergetics · family 5"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t04-f05b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Describe how you could investigate the effect of light intensity on photosynthesis using pondweed. (4)",
+        "hints": [
+          "Measure oxygen, not just bubble count if possible.",
+          "Name two control variables."
+        ],
+        "solution": "Place pondweed in water containing a source of carbon dioxide. [B1]\nChange light intensity by changing distance from a lamp or using measured light levels. [B1]\nMeasure oxygen production, for example volume per minute, at each intensity. [B1]\nControl temperature and carbon dioxide concentration and repeat to calculate means. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Photosynthesis required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Bioenergetics · family 5"
+      },
+      {
+        "id": "gcse-bio-aqa-p1-t04-f05c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Describe how you could investigate the effect of light intensity on photosynthesis using pondweed. (4)",
+        "hints": [
+          "Measure oxygen, not just bubble count if possible.",
+          "Name two control variables."
+        ],
+        "solution": "Place pondweed in water containing a source of carbon dioxide. [B1]\nChange light intensity by changing distance from a lamp or using measured light levels. [B1]\nMeasure oxygen production, for example volume per minute, at each intensity. [B1]\nControl temperature and carbon dioxide concentration and repeat to calculate means. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 1",
+        "subtopic": "Photosynthesis required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 1 style · Bioenergetics · family 5"
+      }
+    ]
+  },
+  {
+    "topic": "Homeostasis and response",
+    "category": "Paper 2",
+    "questions": [
+      {
+        "id": "gcse-bio-aqa-p2-t05-f01a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how negative feedback helps maintain a stable internal body temperature. (4)",
+        "hints": [
+          "Negative feedback reverses the original change.",
+          "Use receptor, coordination centre and effector."
+        ],
+        "solution": "Receptors detect a change away from the normal temperature. [B1]\nThe coordination centre processes the information. [B1]\nEffectors produce responses that oppose the change. [B1]\nAs the temperature returns towards normal, the corrective response is reduced. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Homeostasis",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Homeostasis and response · family 1"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t05-f01b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how negative feedback helps maintain a stable internal body temperature. (4)",
+        "hints": [
+          "Negative feedback reverses the original change.",
+          "Use receptor, coordination centre and effector."
+        ],
+        "solution": "Receptors detect a change away from the normal temperature. [B1]\nThe coordination centre processes the information. [B1]\nEffectors produce responses that oppose the change. [B1]\nAs the temperature returns towards normal, the corrective response is reduced. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Homeostasis",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Homeostasis and response · family 1"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t05-f01c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how negative feedback helps maintain a stable internal body temperature. (4)",
+        "hints": [
+          "Negative feedback reverses the original change.",
+          "Use receptor, coordination centre and effector."
+        ],
+        "solution": "Receptors detect a change away from the normal temperature. [B1]\nThe coordination centre processes the information. [B1]\nEffectors produce responses that oppose the change. [B1]\nAs the temperature returns towards normal, the corrective response is reduced. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Homeostasis",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Homeostasis and response · family 1"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t05-f02a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Describe how the nervous system produces a rapid response to a stimulus. (4)",
+        "hints": [
+          "Give the pathway in order.",
+          "Finish with the effector."
+        ],
+        "solution": "A receptor detects the stimulus and generates an electrical impulse. [B1]\nSensory neurones carry impulses to the central nervous system. [B1]\nRelay neurones pass information within the CNS and motor neurones carry impulses to an effector. [B1]\nThe effector, such as a muscle or gland, produces the response. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Nervous system",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Homeostasis and response · family 2"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t05-f02b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Describe how the nervous system produces a rapid response to a stimulus. (4)",
+        "hints": [
+          "Give the pathway in order.",
+          "Finish with the effector."
+        ],
+        "solution": "A receptor detects the stimulus and generates an electrical impulse. [B1]\nSensory neurones carry impulses to the central nervous system. [B1]\nRelay neurones pass information within the CNS and motor neurones carry impulses to an effector. [B1]\nThe effector, such as a muscle or gland, produces the response. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Nervous system",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Homeostasis and response · family 2"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t05-f02c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Describe how the nervous system produces a rapid response to a stimulus. (4)",
+        "hints": [
+          "Give the pathway in order.",
+          "Finish with the effector."
+        ],
+        "solution": "A receptor detects the stimulus and generates an electrical impulse. [B1]\nSensory neurones carry impulses to the central nervous system. [B1]\nRelay neurones pass information within the CNS and motor neurones carry impulses to an effector. [B1]\nThe effector, such as a muscle or gland, produces the response. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Nervous system",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Homeostasis and response · family 2"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t05-f03a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how blood glucose concentration is controlled after a carbohydrate-rich meal. (4)",
+        "hints": [
+          "Which hormone acts when glucose is too high?",
+          "What happens to glucose in the liver?"
+        ],
+        "solution": "Blood glucose concentration rises. [B1]\nThe pancreas releases insulin. [B1]\nInsulin causes body cells to take up glucose and causes liver/muscle cells to convert glucose to glycogen. [B1]\nBlood glucose concentration falls towards the normal level. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Blood glucose control",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Homeostasis and response · family 3"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t05-f03b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how blood glucose concentration is controlled after a carbohydrate-rich meal. (4)",
+        "hints": [
+          "Which hormone acts when glucose is too high?",
+          "What happens to glucose in the liver?"
+        ],
+        "solution": "Blood glucose concentration rises. [B1]\nThe pancreas releases insulin. [B1]\nInsulin causes body cells to take up glucose and causes liver/muscle cells to convert glucose to glycogen. [B1]\nBlood glucose concentration falls towards the normal level. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Blood glucose control",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Homeostasis and response · family 3"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t05-f03c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how blood glucose concentration is controlled after a carbohydrate-rich meal. (4)",
+        "hints": [
+          "Which hormone acts when glucose is too high?",
+          "What happens to glucose in the liver?"
+        ],
+        "solution": "Blood glucose concentration rises. [B1]\nThe pancreas releases insulin. [B1]\nInsulin causes body cells to take up glucose and causes liver/muscle cells to convert glucose to glycogen. [B1]\nBlood glucose concentration falls towards the normal level. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Blood glucose control",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Homeostasis and response · family 3"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t05-f04a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how ADH helps the kidneys control water balance. (4)",
+        "hints": [
+          "Think about collecting ducts.",
+          "What happens to urine volume when ADH rises?"
+        ],
+        "solution": "ADH is released by the pituitary gland when the blood is too concentrated / water level is low. [B1]\nADH increases the permeability of kidney collecting ducts. [B1]\nMore water is reabsorbed into the blood. [B1]\nA smaller volume of more concentrated urine is produced. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Kidney and water balance",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Homeostasis and response · family 4"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t05-f04b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how ADH helps the kidneys control water balance. (4)",
+        "hints": [
+          "Think about collecting ducts.",
+          "What happens to urine volume when ADH rises?"
+        ],
+        "solution": "ADH is released by the pituitary gland when the blood is too concentrated / water level is low. [B1]\nADH increases the permeability of kidney collecting ducts. [B1]\nMore water is reabsorbed into the blood. [B1]\nA smaller volume of more concentrated urine is produced. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Kidney and water balance",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Homeostasis and response · family 4"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t05-f04c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how ADH helps the kidneys control water balance. (4)",
+        "hints": [
+          "Think about collecting ducts.",
+          "What happens to urine volume when ADH rises?"
+        ],
+        "solution": "ADH is released by the pituitary gland when the blood is too concentrated / water level is low. [B1]\nADH increases the permeability of kidney collecting ducts. [B1]\nMore water is reabsorbed into the blood. [B1]\nA smaller volume of more concentrated urine is produced. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Kidney and water balance",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Homeostasis and response · family 4"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t05-f05a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how hormones can be used to control fertility, giving one example for contraception and one for fertility treatment. (4)",
+        "hints": [
+          "Consider FSH and LH.",
+          "Give one contraceptive use and one fertility-treatment use."
+        ],
+        "solution": "Hormonal contraception can use oestrogen and/or progesterone to inhibit FSH, egg maturation or ovulation. [B1]\nThis reduces the chance of fertilisation. [B1]\nFertility treatment can use FSH to stimulate egg maturation. [B1]\nLH can be used to trigger ovulation, for example during IVF treatment. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Hormones in reproduction",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Homeostasis and response · family 5"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t05-f05b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how hormones can be used to control fertility, giving one example for contraception and one for fertility treatment. (4)",
+        "hints": [
+          "Consider FSH and LH.",
+          "Give one contraceptive use and one fertility-treatment use."
+        ],
+        "solution": "Hormonal contraception can use oestrogen and/or progesterone to inhibit FSH, egg maturation or ovulation. [B1]\nThis reduces the chance of fertilisation. [B1]\nFertility treatment can use FSH to stimulate egg maturation. [B1]\nLH can be used to trigger ovulation, for example during IVF treatment. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Hormones in reproduction",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Homeostasis and response · family 5"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t05-f05c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how hormones can be used to control fertility, giving one example for contraception and one for fertility treatment. (4)",
+        "hints": [
+          "Consider FSH and LH.",
+          "Give one contraceptive use and one fertility-treatment use."
+        ],
+        "solution": "Hormonal contraception can use oestrogen and/or progesterone to inhibit FSH, egg maturation or ovulation. [B1]\nThis reduces the chance of fertilisation. [B1]\nFertility treatment can use FSH to stimulate egg maturation. [B1]\nLH can be used to trigger ovulation, for example during IVF treatment. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Hormones in reproduction",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Homeostasis and response · family 5"
+      }
+    ]
+  },
+  {
+    "topic": "Inheritance, variation and evolution",
+    "category": "Paper 2",
+    "questions": [
+      {
+        "id": "gcse-bio-aqa-p2-t06-f01a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how meiosis and fertilisation produce genetic variation in offspring. (4)",
+        "hints": [
+          "Gametes are not genetically identical.",
+          "Fertilisation combines alleles from two parents."
+        ],
+        "solution": "Meiosis produces gametes with half the normal number of chromosomes. [B1]\nMeiosis produces genetically different gametes because chromosomes/alleles are assorted into different combinations. [B1]\nAt fertilisation one gamete from each parent joins. [B1]\nRandom fertilisation creates a new combination of alleles in the offspring. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Meiosis and fertilisation",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Inheritance, variation and evolution · family 1"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t06-f01b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how meiosis and fertilisation produce genetic variation in offspring. (4)",
+        "hints": [
+          "Gametes are not genetically identical.",
+          "Fertilisation combines alleles from two parents."
+        ],
+        "solution": "Meiosis produces gametes with half the normal number of chromosomes. [B1]\nMeiosis produces genetically different gametes because chromosomes/alleles are assorted into different combinations. [B1]\nAt fertilisation one gamete from each parent joins. [B1]\nRandom fertilisation creates a new combination of alleles in the offspring. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Meiosis and fertilisation",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Inheritance, variation and evolution · family 1"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t06-f01c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how meiosis and fertilisation produce genetic variation in offspring. (4)",
+        "hints": [
+          "Gametes are not genetically identical.",
+          "Fertilisation combines alleles from two parents."
+        ],
+        "solution": "Meiosis produces gametes with half the normal number of chromosomes. [B1]\nMeiosis produces genetically different gametes because chromosomes/alleles are assorted into different combinations. [B1]\nAt fertilisation one gamete from each parent joins. [B1]\nRandom fertilisation creates a new combination of alleles in the offspring. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Meiosis and fertilisation",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Inheritance, variation and evolution · family 1"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t06-f02a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Two heterozygous parents have genotype Bb for a characteristic controlled by a dominant allele B. Determine the probability that a child will have genotype bb and explain your working. (4)",
+        "hints": [
+          "List the two gamete types from each parent.",
+          "Use a 2 by 2 Punnett square."
+        ],
+        "solution": "Each parent can produce gametes carrying B or b. [B1]\nA Punnett square gives BB, Bb, Bb and bb. [B1]\nOne of four equally likely genotypes is bb. [B1]\nProbability = 1/4 or 25%. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Genetic crosses",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Inheritance, variation and evolution · family 2"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t06-f02b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Two heterozygous parents have genotype Bb for a characteristic controlled by a dominant allele B. Determine the probability that a child will have genotype bb and explain your working. (4)",
+        "hints": [
+          "List the two gamete types from each parent.",
+          "Use a 2 by 2 Punnett square."
+        ],
+        "solution": "Each parent can produce gametes carrying B or b. [B1]\nA Punnett square gives BB, Bb, Bb and bb. [B1]\nOne of four equally likely genotypes is bb. [B1]\nProbability = 1/4 or 25%. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Genetic crosses",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Inheritance, variation and evolution · family 2"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t06-f02c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Two heterozygous parents have genotype Bb for a characteristic controlled by a dominant allele B. Determine the probability that a child will have genotype bb and explain your working. (4)",
+        "hints": [
+          "List the two gamete types from each parent.",
+          "Use a 2 by 2 Punnett square."
+        ],
+        "solution": "Each parent can produce gametes carrying B or b. [B1]\nA Punnett square gives BB, Bb, Bb and bb. [B1]\nOne of four equally likely genotypes is bb. [B1]\nProbability = 1/4 or 25%. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Genetic crosses",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Inheritance, variation and evolution · family 2"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t06-f03a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how natural selection can lead to evolution in a population. (4)",
+        "hints": [
+          "Start with variation.",
+          "Finish with a change in allele frequency over generations."
+        ],
+        "solution": "Individuals in a population show genetic variation. [B1]\nA selection pressure means some variants are better adapted and survive/reproduce more successfully. [B1]\nAdvantageous alleles are passed to offspring more often. [B1]\nOver many generations the frequency of those alleles increases, changing the population. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Natural selection",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Inheritance, variation and evolution · family 3"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t06-f03b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how natural selection can lead to evolution in a population. (4)",
+        "hints": [
+          "Start with variation.",
+          "Finish with a change in allele frequency over generations."
+        ],
+        "solution": "Individuals in a population show genetic variation. [B1]\nA selection pressure means some variants are better adapted and survive/reproduce more successfully. [B1]\nAdvantageous alleles are passed to offspring more often. [B1]\nOver many generations the frequency of those alleles increases, changing the population. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Natural selection",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Inheritance, variation and evolution · family 3"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t06-f03c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how natural selection can lead to evolution in a population. (4)",
+        "hints": [
+          "Start with variation.",
+          "Finish with a change in allele frequency over generations."
+        ],
+        "solution": "Individuals in a population show genetic variation. [B1]\nA selection pressure means some variants are better adapted and survive/reproduce more successfully. [B1]\nAdvantageous alleles are passed to offspring more often. [B1]\nOver many generations the frequency of those alleles increases, changing the population. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Natural selection",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Inheritance, variation and evolution · family 3"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t06-f04a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how the sequence of bases in DNA can affect the phenotype of an organism. (4)",
+        "hints": [
+          "Link DNA to protein, then protein to phenotype.",
+          "Mention amino acids."
+        ],
+        "solution": "A gene is a sequence of DNA bases. [B1]\nThe base sequence determines the order of amino acids in a protein. [B1]\nThe amino-acid sequence determines protein folding and function. [B1]\nA change in DNA sequence can alter the protein and therefore a characteristic / phenotype. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "DNA and protein synthesis",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Inheritance, variation and evolution · family 4"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t06-f04b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how the sequence of bases in DNA can affect the phenotype of an organism. (4)",
+        "hints": [
+          "Link DNA to protein, then protein to phenotype.",
+          "Mention amino acids."
+        ],
+        "solution": "A gene is a sequence of DNA bases. [B1]\nThe base sequence determines the order of amino acids in a protein. [B1]\nThe amino-acid sequence determines protein folding and function. [B1]\nA change in DNA sequence can alter the protein and therefore a characteristic / phenotype. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "DNA and protein synthesis",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Inheritance, variation and evolution · family 4"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t06-f04c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how the sequence of bases in DNA can affect the phenotype of an organism. (4)",
+        "hints": [
+          "Link DNA to protein, then protein to phenotype.",
+          "Mention amino acids."
+        ],
+        "solution": "A gene is a sequence of DNA bases. [B1]\nThe base sequence determines the order of amino acids in a protein. [B1]\nThe amino-acid sequence determines protein folding and function. [B1]\nA change in DNA sequence can alter the protein and therefore a characteristic / phenotype. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "DNA and protein synthesis",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Inheritance, variation and evolution · family 4"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t06-f05a",
+        "marks": 3,
+        "prompt": "A student is answering an AQA-style practice question. Give one potential benefit and two possible concerns associated with genetic engineering of crops. (3)",
+        "hints": [
+          "Separate benefits from risks.",
+          "Think about gene flow into wild plants."
+        ],
+        "solution": "A benefit could be increased yield, pest resistance, herbicide resistance or improved nutrition. [B1]\nA concern is that modified genes might spread to wild populations by cross-pollination. [B1]\nAnother concern is an uncertain effect on ecosystems, biodiversity or long-term health. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Genetic engineering",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Inheritance, variation and evolution · family 5"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t06-f05b",
+        "marks": 3,
+        "prompt": "A class is applying the same idea in a different context. Give one potential benefit and two possible concerns associated with genetic engineering of crops. (3)",
+        "hints": [
+          "Separate benefits from risks.",
+          "Think about gene flow into wild plants."
+        ],
+        "solution": "A benefit could be increased yield, pest resistance, herbicide resistance or improved nutrition. [B1]\nA concern is that modified genes might spread to wild populations by cross-pollination. [B1]\nAnother concern is an uncertain effect on ecosystems, biodiversity or long-term health. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Genetic engineering",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Inheritance, variation and evolution · family 5"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t06-f05c",
+        "marks": 3,
+        "prompt": "During revision, a learner is asked the following. Give one potential benefit and two possible concerns associated with genetic engineering of crops. (3)",
+        "hints": [
+          "Separate benefits from risks.",
+          "Think about gene flow into wild plants."
+        ],
+        "solution": "A benefit could be increased yield, pest resistance, herbicide resistance or improved nutrition. [B1]\nA concern is that modified genes might spread to wild populations by cross-pollination. [B1]\nAnother concern is an uncertain effect on ecosystems, biodiversity or long-term health. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Genetic engineering",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Inheritance, variation and evolution · family 5"
+      }
+    ]
+  },
+  {
+    "topic": "Ecology",
+    "category": "Paper 2",
+    "questions": [
+      {
+        "id": "gcse-bio-aqa-p2-t07-f01a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain why only a small proportion of the biomass in one trophic level becomes biomass in the next trophic level. (4)",
+        "hints": [
+          "Consider what happens to food that is not converted into new tissue.",
+          "Respiration transfers energy away from biomass."
+        ],
+        "solution": "Not all organisms or body parts are eaten. [B1]\nSome ingested material is not absorbed and is lost in faeces. [B1]\nEnergy is transferred to the surroundings in respiration, including as heat from movement and maintaining body processes. [B1]\nTherefore less biomass is available to the next trophic level. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Trophic levels",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Ecology · family 1"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t07-f01b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain why only a small proportion of the biomass in one trophic level becomes biomass in the next trophic level. (4)",
+        "hints": [
+          "Consider what happens to food that is not converted into new tissue.",
+          "Respiration transfers energy away from biomass."
+        ],
+        "solution": "Not all organisms or body parts are eaten. [B1]\nSome ingested material is not absorbed and is lost in faeces. [B1]\nEnergy is transferred to the surroundings in respiration, including as heat from movement and maintaining body processes. [B1]\nTherefore less biomass is available to the next trophic level. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Trophic levels",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Ecology · family 1"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t07-f01c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain why only a small proportion of the biomass in one trophic level becomes biomass in the next trophic level. (4)",
+        "hints": [
+          "Consider what happens to food that is not converted into new tissue.",
+          "Respiration transfers energy away from biomass."
+        ],
+        "solution": "Not all organisms or body parts are eaten. [B1]\nSome ingested material is not absorbed and is lost in faeces. [B1]\nEnergy is transferred to the surroundings in respiration, including as heat from movement and maintaining body processes. [B1]\nTherefore less biomass is available to the next trophic level. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Trophic levels",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Ecology · family 1"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t07-f02a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Describe how carbon is cycled between organisms and the atmosphere. (4)",
+        "hints": [
+          "Include photosynthesis and respiration.",
+          "Remember combustion."
+        ],
+        "solution": "Plants remove carbon dioxide by photosynthesis. [B1]\nCarbon passes through food chains when organisms feed. [B1]\nRespiration by plants, animals and decomposers releases carbon dioxide. [B1]\nCombustion of biomass and fossil fuels also releases carbon dioxide. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Carbon cycle",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Ecology · family 2"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t07-f02b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Describe how carbon is cycled between organisms and the atmosphere. (4)",
+        "hints": [
+          "Include photosynthesis and respiration.",
+          "Remember combustion."
+        ],
+        "solution": "Plants remove carbon dioxide by photosynthesis. [B1]\nCarbon passes through food chains when organisms feed. [B1]\nRespiration by plants, animals and decomposers releases carbon dioxide. [B1]\nCombustion of biomass and fossil fuels also releases carbon dioxide. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Carbon cycle",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Ecology · family 2"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t07-f02c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Describe how carbon is cycled between organisms and the atmosphere. (4)",
+        "hints": [
+          "Include photosynthesis and respiration.",
+          "Remember combustion."
+        ],
+        "solution": "Plants remove carbon dioxide by photosynthesis. [B1]\nCarbon passes through food chains when organisms feed. [B1]\nRespiration by plants, animals and decomposers releases carbon dioxide. [B1]\nCombustion of biomass and fossil fuels also releases carbon dioxide. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Carbon cycle",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Ecology · family 2"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t07-f03a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Describe a method for estimating the abundance of a plant species in a field using quadrats. (4)",
+        "hints": [
+          "Random sampling reduces bias.",
+          "Repeat many times before scaling up."
+        ],
+        "solution": "Place quadrats at random coordinates or use random sampling positions. [B1]\nCount the target species or estimate percentage cover in each quadrat. [B1]\nUse many quadrats to obtain a representative sample. [B1]\nCalculate a mean and scale it to the total area if estimating population size. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Ecology fieldwork",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Ecology · family 3"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t07-f03b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Describe a method for estimating the abundance of a plant species in a field using quadrats. (4)",
+        "hints": [
+          "Random sampling reduces bias.",
+          "Repeat many times before scaling up."
+        ],
+        "solution": "Place quadrats at random coordinates or use random sampling positions. [B1]\nCount the target species or estimate percentage cover in each quadrat. [B1]\nUse many quadrats to obtain a representative sample. [B1]\nCalculate a mean and scale it to the total area if estimating population size. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Ecology fieldwork",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Ecology · family 3"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t07-f03c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Describe a method for estimating the abundance of a plant species in a field using quadrats. (4)",
+        "hints": [
+          "Random sampling reduces bias.",
+          "Repeat many times before scaling up."
+        ],
+        "solution": "Place quadrats at random coordinates or use random sampling positions. [B1]\nCount the target species or estimate percentage cover in each quadrat. [B1]\nUse many quadrats to obtain a representative sample. [B1]\nCalculate a mean and scale it to the total area if estimating population size. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Ecology fieldwork",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Ecology · family 3"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t07-f04a",
+        "marks": 3,
+        "prompt": "A student is answering an AQA-style practice question. Explain how changing temperature can affect the rate of decomposition in an ecosystem. (3)",
+        "hints": [
+          "Decomposition depends on microorganisms and enzymes.",
+          "Think about an optimum temperature."
+        ],
+        "solution": "At low temperature decomposer enzyme reactions are slow. [B1]\nAs temperature rises towards an optimum, enzyme activity and respiration increase so decomposition is faster. [B1]\nAt very high temperatures enzymes can denature and decomposer activity falls. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Decomposition",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Ecology · family 4"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t07-f04b",
+        "marks": 3,
+        "prompt": "A class is applying the same idea in a different context. Explain how changing temperature can affect the rate of decomposition in an ecosystem. (3)",
+        "hints": [
+          "Decomposition depends on microorganisms and enzymes.",
+          "Think about an optimum temperature."
+        ],
+        "solution": "At low temperature decomposer enzyme reactions are slow. [B1]\nAs temperature rises towards an optimum, enzyme activity and respiration increase so decomposition is faster. [B1]\nAt very high temperatures enzymes can denature and decomposer activity falls. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Decomposition",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Ecology · family 4"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t07-f04c",
+        "marks": 3,
+        "prompt": "During revision, a learner is asked the following. Explain how changing temperature can affect the rate of decomposition in an ecosystem. (3)",
+        "hints": [
+          "Decomposition depends on microorganisms and enzymes.",
+          "Think about an optimum temperature."
+        ],
+        "solution": "At low temperature decomposer enzyme reactions are slow. [B1]\nAs temperature rises towards an optimum, enzyme activity and respiration increase so decomposition is faster. [B1]\nAt very high temperatures enzymes can denature and decomposer activity falls. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Decomposition",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Ecology · family 4"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t07-f05a",
+        "marks": 3,
+        "prompt": "A student is answering an AQA-style practice question. Explain two ways human activity can reduce biodiversity and one way conservation can help protect it. (3)",
+        "hints": [
+          "Give a mechanism for each human impact.",
+          "Then give one conservation action."
+        ],
+        "solution": "Habitat destruction reduces the number and variety of organisms that can survive. [B1]\nPollution or climate change can alter conditions and eliminate sensitive species. [B1]\nConservation can protect habitats/species, restore ecosystems, use breeding programmes or reduce damaging activity. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Biodiversity",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Ecology · family 5"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t07-f05b",
+        "marks": 3,
+        "prompt": "A class is applying the same idea in a different context. Explain two ways human activity can reduce biodiversity and one way conservation can help protect it. (3)",
+        "hints": [
+          "Give a mechanism for each human impact.",
+          "Then give one conservation action."
+        ],
+        "solution": "Habitat destruction reduces the number and variety of organisms that can survive. [B1]\nPollution or climate change can alter conditions and eliminate sensitive species. [B1]\nConservation can protect habitats/species, restore ecosystems, use breeding programmes or reduce damaging activity. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Biodiversity",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Ecology · family 5"
+      },
+      {
+        "id": "gcse-bio-aqa-p2-t07-f05c",
+        "marks": 3,
+        "prompt": "During revision, a learner is asked the following. Explain two ways human activity can reduce biodiversity and one way conservation can help protect it. (3)",
+        "hints": [
+          "Give a mechanism for each human impact.",
+          "Then give one conservation action."
+        ],
+        "solution": "Habitat destruction reduces the number and variety of organisms that can survive. [B1]\nPollution or climate change can alter conditions and eliminate sensitive species. [B1]\nConservation can protect habitats/species, restore ecosystems, use breeding programmes or reduce damaging activity. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Biology Paper 2",
+        "subtopic": "Biodiversity",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8461 Biology Paper 2 style · Ecology · family 5"
+      }
+    ]
+  }
+]

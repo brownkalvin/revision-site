@@ -1230,6 +1230,15 @@ const SUBJECTS = [
   { id:"gcse-maths-foundation", name:"GCSE Maths (Foundation)", group:"GCSE Maths", grades:"gcse-foundation", idPrefix:"gcse-f-" },
   { id:"gcse-maths-higher", name:"GCSE Maths (Higher)", group:"GCSE Maths", grades:"gcse-higher", idPrefix:"gcse-h-" },
   { id:"gcse-maths-extended", name:"GCSE Maths (Extended)", group:"GCSE Maths", grades:"gcse-higher", idPrefix:"gcse-e-" },
+  { id:"gcse-combined-biology-aqa", name:"GCSE Combined Biology (AQA Trilogy)", group:"GCSE Combined Science (AQA)", grades:"gcse-higher", idPrefix:"gcse-cb-aqa-" },
+  { id:"gcse-combined-chemistry-aqa", name:"GCSE Combined Chemistry (AQA Trilogy)", group:"GCSE Combined Science (AQA)", grades:"gcse-higher", idPrefix:"gcse-cc-aqa-" },
+  { id:"gcse-combined-physics-aqa", name:"GCSE Combined Physics (AQA Trilogy)", group:"GCSE Combined Science (AQA)", grades:"gcse-higher", idPrefix:"gcse-cp-aqa-" },
+  { id:"gcse-biology-aqa", name:"GCSE Biology (AQA Triple)", group:"GCSE Triple Science (AQA)", grades:"gcse-higher", idPrefix:"gcse-bio-aqa-" },
+  { id:"gcse-chemistry-aqa", name:"GCSE Chemistry (AQA Triple)", group:"GCSE Triple Science (AQA)", grades:"gcse-higher", idPrefix:"gcse-chem-aqa-" },
+  { id:"gcse-physics-aqa", name:"GCSE Physics (AQA Triple)", group:"GCSE Triple Science (AQA)", grades:"gcse-higher", idPrefix:"gcse-phys-aqa-" },
+  { id:"gcse-computer-science-aqa", name:"GCSE Computer Science (AQA)", group:"GCSE Computer Science", grades:"gcse-higher", idPrefix:"gcse-cs-aqa-" },
+  { id:"gcse-computer-science-edexcel", name:"GCSE Computer Science (Edexcel)", group:"GCSE Computer Science", grades:"gcse-higher", idPrefix:"gcse-cs-edx-" },
+  { id:"gcse-computer-science-ocr", name:"GCSE Computer Science (OCR)", group:"GCSE Computer Science", grades:"gcse-higher", idPrefix:"gcse-cs-ocr-" },
   { id:"alevel-maths", name:"A-Level Maths (Edexcel)", group:"A-Level Maths", grades:"alevel", idPrefix:"" },
   { id:"alevel-maths-aqa", name:"A-Level Maths (AQA)", group:"A-Level Maths", grades:"alevel", idPrefix:"math-aqa-" },
   { id:"alevel-maths-ocr-a", name:"A-Level Maths (OCR A)", group:"A-Level Maths", grades:"alevel", idPrefix:"math-ocra-" },
@@ -1250,11 +1259,13 @@ const SUBJECTS = [
   { id:"alevel-physics-aqa", name:"A-Level Physics (AQA)", group:"A-Level Physics", grades:"alevel", idPrefix:"phys-aqa-" },
   { id:"alevel-physics-edexcel", name:"A-Level Physics (Edexcel)", group:"A-Level Physics", grades:"alevel", idPrefix:"phys-edx-" },
   { id:"alevel-physics-ocr-a", name:"A-Level Physics (OCR A)", group:"A-Level Physics", grades:"alevel", idPrefix:"phys-ocra-" },
-  { id:"alevel-physics-ocr-b", name:"A-Level Physics (OCR B Advancing Physics)", group:"A-Level Physics", grades:"alevel", idPrefix:"phys-ocrb-" }
+  { id:"alevel-physics-ocr-b", name:"A-Level Physics (OCR B Advancing Physics)", group:"A-Level Physics", grades:"alevel", idPrefix:"phys-ocrb-" },
+  { id:"alevel-computer-science-aqa", name:"A-Level Computer Science (AQA)", group:"A-Level Computer Science", grades:"alevel", idPrefix:"cs-aqa-" },
+  { id:"alevel-computer-science-ocr", name:"A-Level Computer Science (OCR)", group:"A-Level Computer Science", grades:"alevel", idPrefix:"cs-ocr-" }
 ];
 // Each subject's questions live in their own file: questions/<subject id>.json
 // Change QUESTIONS_VERSION whenever you edit a question file, so browsers fetch the new copy straight away.
-const QUESTIONS_VERSION = "34";
+const QUESTIONS_VERSION = "36";
 const SUBJECT_BANKS = {};
 const bankLoads = {}, bankErrors = {};
 function bankLoaded(sid){ return !!SUBJECT_BANKS[sid]; }
@@ -2408,7 +2419,7 @@ function acceptedList(o){
   if(o.answer!==undefined && o.answer!==null && o.answer!=="") out.push(o.answer);
   return out.map(String).filter(s=>s.trim()!=="");
 }
-function usesTypedAnswer(q){ return !!(q && isGcse(subjectOf(q)) && answerSpec(q)); }
+function usesTypedAnswer(q){ return !!(q && isGcseMaths(subjectOf(q)) && answerSpec(q)); }
 
 // ---- answer checking ----
 function normAns(raw){
@@ -2676,7 +2687,7 @@ function questionFamily(q){ return q.inspiredBy ? "i:" + q.inspiredBy : "d:" + S
 // A-Level papers come from one area only (Pure, Statistics or Mechanics), chosen in a dropdown.
 function paperCategories(){ return [...new Set(getAllTopics().filter(t=>t.questions.length>0).map(t=>t.category||"General"))]; }
 function paperCategory(){
-  if(isGcse()) return null;
+  if(isGcseMaths()) return null;
   const cats = paperCategories();
   if(cats.length<2) return null;
   if(!cats.includes(paper.category)){ let saved=null; try{ saved = localStorage.getItem("paperCategory"); }catch(e){} paper.category = cats.includes(saved) ? saved : cats[0]; }
@@ -2707,12 +2718,12 @@ function renderPaperSetup(){
     <div class="sub">Pick the topics and how many marks you want. You'll get a numbered exam-style paper, plus a separate mark scheme with fully worked solutions, both ready to save as PDFs.</div>
     ${!topics.length ? `<div class="card">There aren't any ${esc(subj.name)} questions yet.</div>` : `
     <div class="card paper-controls">
-      ${!isGcse() && paperCategories().length>1 ? `<label class="field" for="paperCat" style="margin-top:0;">Paper</label>
+      ${!isGcseMaths() && paperCategories().length>1 ? `<label class="field" for="paperCat" style="margin-top:0;">Paper</label>
       <select id="paperCat" class="paper-select">${paperCategories().map(c=>`<option value="${esc(c)}" ${c===paperCategory()?"selected":""}>${esc(paperCategoryName(c))}</option>`).join("")}</select>` : ""}
-      <label class="field" for="paperMarks" ${!isGcse() && paperCategories().length>1 ? "" : 'style="margin-top:0;"'}>Total marks</label>
+      <label class="field" for="paperMarks" ${!isGcseMaths() && paperCategories().length>1 ? "" : 'style="margin-top:0;"'}>Total marks</label>
       <div class="paper-chips">${[20,40,60,80,100].map(n=>`<button type="button" class="icon-btn${paper.marks===n?" accent":""}" data-paper-marks="${n}">${n}</button>`).join("")}</div>
       <input type="number" id="paperMarks" min="5" max="200" value="${paper.marks}">
-      ${isGcse() ? `<label class="field">Paper type</label>${calcToggleHtml()}` : extraPagesToggleHtml()}
+      ${isGcseMaths() ? `<label class="field">Paper type</label>${calcToggleHtml()}` : (!isGcse() ? extraPagesToggleHtml() : "")}
     </div>
     <div class="card">
       <div class="q-card-head" style="margin-bottom:6px;"><h2 style="font-size:1rem;margin:0;">Topics</h2>
@@ -2758,7 +2769,7 @@ function buildPaper(){
   const calcSet = new Set(chosen.filter(q=>typeof q.calculator==="boolean").map(q=>q.calculator));
   return { subject:currentSubject(), category:paperCategory(), questions:chosen, total, target, created:Date.now(),
            code:Math.random().toString(36).slice(2,8).toUpperCase(),
-           calc: isGcse() ? (calcSet.size===1 ? ([...calcSet][0] ? "calc" : "noncalc") : "mixed") : null,
+           calc: isGcseMaths() ? (calcSet.size===1 ? ([...calcSet][0] ? "calc" : "noncalc") : "mixed") : null,
            topics:[...new Set(chosen.map(q=>q.topic))] };
 }
 function suggestedMinutes(total, sid){ const perMark = isGcse(sid) ? 1.1 : 1.2; return Math.max(5, Math.round(total*perMark/5)*5); }
@@ -2808,7 +2819,7 @@ function alevelPaperHtml(doc){
 function paperDocHtml(doc){
   if(!isGcse(doc.subject)) return alevelPaperHtml(doc);
   const qs = doc.questions.map((q,i)=>`<section class="pd-q">
-      <div class="pd-qhead"><span class="pd-num">${i+1}</span><span class="pd-qmeta">${esc(q.topic)}${typeof q.calculator==="boolean" && doc.calc==="mixed" ? (q.calculator ? " · 🧮 calculator" : " · ✏️ non-calculator") : ""}</span></div>
+      <div class="pd-qhead"><span class="pd-num">${i+1}</span><span class="pd-qmeta">${esc(q.topic)}${isGcseMaths(doc.subject) && typeof q.calculator==="boolean" && doc.calc==="mixed" ? (q.calculator ? " · 🧮 calculator" : " · ✏️ non-calculator") : ""}</span></div>
       <div class="qprompt">${fmtPrompt(q.prompt)}</div>${diagramHtml(q, "display")}
       ${answerLinesHtml(q)}
       <div class="pd-total">(Total for Question ${i+1} is ${q.marks||1} mark${(q.marks||1)===1?"":"s"})</div>
@@ -3339,6 +3350,7 @@ function themeSwitchHtml(){
 }
 // Difficulty comes from a question's marks. GCSE and A-Level use different bands.
 function isGcse(sid){ return String(sid || currentSubject()).startsWith("gcse-"); }
+function isGcseMaths(sid){ return String(sid || currentSubject()).startsWith("gcse-maths-"); }
 function difficultyBands(sid){
   return isGcse(sid)
     ? { easy:"Easy (1 mark)", medium:"Medium (2–4 marks)", hard:"Hard (5+ marks)" }
@@ -3354,18 +3366,18 @@ function difficultyOf(marks, sid){
 const CALC_KEY = "alevel_maths_calc_filter_v1";
 function calcFilter(){ let v = "all"; try{ v = localStorage.getItem(CALC_KEY) || "all"; }catch(e){} return ["all","calc","noncalc"].includes(v) ? v : "all"; }
 function calcAllows(q){
-  if(!isGcse(subjectOf(q))) return true;
+  if(!isGcseMaths(subjectOf(q))) return true;
   const f = calcFilter();
   if(f==="calc") return q.calculator===true;
   if(f==="noncalc") return q.calculator===false;
   return true;
 }
 function calcPill(q){
-  if(!isGcse(subjectOf(q)) || typeof q.calculator!=="boolean") return "";
+  if(!isGcseMaths(subjectOf(q)) || typeof q.calculator!=="boolean") return "";
   return q.calculator ? `<span class="pill calc-pill">🧮 Calculator</span>` : `<span class="pill calc-pill non">✏️ Non-calculator</span>`;
 }
 function calcToggleHtml(){
-  if(!isGcse()) return "";
+  if(!isGcseMaths()) return "";
   const f = calcFilter();
   const b = (v, l)=>`<button type="button" data-calc="${v}" class="${f===v?"on":""}" aria-pressed="${f===v}">${l}</button>`;
   return `<div class="seg" role="group" aria-label="Calculator or non-calculator">${b("all","Both")}${b("calc","🧮 Calculator")}${b("noncalc","✏️ Non-calc")}</div>`;
@@ -3599,7 +3611,7 @@ const CATEGORY_SHORT = { "Pure Maths":"Pure", "Statistics":"Stats", "Mechanics":
   "Maths and practical skills":"Maths & practicals" };
 function categoryTopicNames(cat){ return getAllTopics().filter(t=>(t.category||"General")===cat && t.questions.length>0).map(t=>t.topic); }
 function categorySelectButtons(topics){
-  if(isGcse()) return "";
+  if(isGcseMaths()) return "";
   const cats = [...new Set(topics.filter(t=>t.questions.length>0).map(t=>t.category||"General"))];
   if(cats.length<2) return "";
   return cats.map(cat=>{
@@ -3643,7 +3655,7 @@ function renderSelect(){
     <div class="toprow"><h1>${esc(subj.name)} Practice</h1>
       <div class="toprow-links">${themeSwitchHtml()}${isAdmin ? `<button class="nav-link" id="adminBtn">Admin${adminOpenCount ? ` (${adminOpenCount})` : ""}</button>` : ""}<button class="nav-link" id="statsBtn">Stats</button><button class="nav-link" id="manageBtn">Manage</button></div></div>
     <div class="sub">Pick topics, then work through questions. Each hint costs 1 point. Questions get spaced further apart the better you know them.</div>
-    ${isGcse() ? `<div class="calc-bar"><span class="calc-bar-label">Paper type</span>${calcToggleHtml()}</div>` : ""}
+    ${isGcseMaths() ? `<div class="calc-bar"><span class="calc-bar-label">Paper type</span>${calcToggleHtml()}</div>` : ""}
     <div class="card session-card">
       <label class="field" style="margin-top:0;">Difficulty</label>
       <div class="diff-row">
@@ -3712,7 +3724,7 @@ function browseListHtml(){
     "marks-desc": (a,b)=> ((b.q.marks||1)-(a.q.marks||1)) || (a.idx-b.idx)
   };
   if(sorters[state.browseSort]) items.sort(sorters[state.browseSort]);
-  if(items.length===0) return `<div class="sub">${calcFilter()!=="all" && isGcse() ? "No questions match. Try switching the calculator filter to Both." : "No questions match your search."}</div>`;
+  if(items.length===0) return `<div class="sub">${calcFilter()!=="all" && isGcseMaths() ? "No questions match. Try switching the calculator filter to Both." : "No questions match your search."}</div>`;
   const cards = items.map(it=>{
     const q = it.q;
     const marks = q.marks||1;
@@ -3739,7 +3751,7 @@ function browseListHtml(){
       ${deckPickerHtml(q.id)}
     </div>`;
   }).join("");
-  return `<div class="sub" style="margin-bottom:8px;">Showing ${items.length} of ${t.questions.length}${isGcse() && calcFilter()!=="all" ? (calcFilter()==="calc" ? " (calculator only)" : " (non-calculator only)") : ""}</div>${cards}`;
+  return `<div class="sub" style="margin-bottom:8px;">Showing ${items.length} of ${t.questions.length}${isGcseMaths() && calcFilter()!=="all" ? (calcFilter()==="calc" ? " (calculator only)" : " (non-calculator only)") : ""}</div>${cards}`;
 }
 
 function refreshBrowseList(){
@@ -3856,7 +3868,7 @@ function renderPractice(){
   if(state.reviewing) return renderReview();
   if(!state.current){
     if(state.session && state.session.answered>0) return renderSummary();
-    return `<div class="card"><p>Nothing due for practice right now in these topics — questions you've nailed are resting for a while, like flashcards.${isGcse() && calcFilter()!=="all" ? ` You're only seeing ${calcFilter()==="calc" ? "calculator" : "non-calculator"} questions; switch the paper type to Both for more.` : ""}</p>
+    return `<div class="card"><p>Nothing due for practice right now in these topics — questions you've nailed are resting for a while, like flashcards.${isGcseMaths() && calcFilter()!=="all" ? ` You're only seeing ${calcFilter()==="calc" ? "calculator" : "non-calculator"} questions; switch the paper type to Both for more.` : ""}</p>
       <button class="btn-ghost" id="anywayBtn" style="margin-bottom:8px;">Practice anyway (ignore spacing)</button>
       <button class="btn-ghost" id="backBtn">Back to topics</button></div>`;
   }
@@ -4000,7 +4012,7 @@ function renderManage(){
   custom.forEach(t=>{
     t.questions.forEach(q=>{
       listHtml += `<div class="qlist-row">
-        <div><div class="qlist-topic">${t.topic} · ${q.marks||1} marks${isGcse() && typeof q.calculator==="boolean" ? (q.calculator ? " · Calculator" : " · Non-calculator") : ""}${q.year||q.paper ? " · "+[q.year,q.paper].filter(Boolean).join(" ") : ""}</div><div class="qlist-text">${snip(q.prompt,60)}</div></div>
+        <div><div class="qlist-topic">${t.topic} · ${q.marks||1} marks${isGcseMaths() && typeof q.calculator==="boolean" ? (q.calculator ? " · Calculator" : " · Non-calculator") : ""}${q.year||q.paper ? " · "+[q.year,q.paper].filter(Boolean).join(" ") : ""}</div><div class="qlist-text">${snip(q.prompt,60)}</div></div>
         <div class="qlist-actions">
           <button class="icon-btn accent" data-edit-topic="${t.topic}" data-edit-id="${q.id}">Edit</button>
           <button class="icon-btn" data-del-topic="${t.topic}" data-del-id="${q.id}">Delete</button>
@@ -4044,7 +4056,7 @@ function renderManage(){
 
       <label class="field">Marks available</label>
       <input type="number" id="qMarks" min="1" max="30" value="${ef ? ef.marks : 1}">
-      ${isGcse() ? (()=>{
+      ${isGcseMaths() ? (()=>{
         const cur = ef && typeof ef.calculator==="boolean" ? (ef.calculator ? "calc" : "noncalc") : "";
         return `<label class="field" for="qCalc">Calculator or non-calculator?</label>
       <select id="qCalc" required>
@@ -4069,7 +4081,7 @@ function renderManage(){
 
       <label class="field" for="qTable">Table (optional)</label>
       <textarea id="qTable" rows="3" placeholder="x | -2 | -1 | 0 | 1 | 2&#10;y | 6 | [3] | 2 | [3] | 6">${esc(ef && ef.table ? tableToText(ef.table) : "")}</textarea>
-      <div class="ans-help" style="margin-top:0;">One row per line, cells separated by | . Put an answer in [square brackets] to make an empty cell${isGcse() ? " that students fill in (each gets its own answer box)" : ""}. Use // between alternative answers, e.g. [3/4 // 0.75].</div>
+      <div class="ans-help" style="margin-top:0;">One row per line, cells separated by | . Put an answer in [square brackets] to make an empty cell${isGcseMaths() ? " that students fill in (each gets its own answer box)" : ""}. Use // between alternative answers, e.g. [3/4 // 0.75].</div>
 
       <label class="field">Diagram (optional)</label>
       ${diagramFieldHtml()}

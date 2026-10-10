@@ -1,0 +1,1384 @@
+[
+  {
+    "topic": "1.1 Systems architecture",
+    "category": "Paper 1 – Computer systems",
+    "questions": [
+      {
+        "id": "gcse-cs-ocr-1-1-systems-architecture-01a",
+        "marks": 4,
+        "prompt": "Describe the roles of the program counter (PC), memory address register (MAR) and current instruction register (CIR) during instruction fetching.",
+        "hints": [
+          "Identify the key idea from CPU and fetch-decode-execute that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "The PC stores the address of the next instruction. [B1]\nThe address is copied from the PC to the MAR. [B1]\nThe instruction at that memory address is fetched. [B1]\nThe fetched instruction is placed in the CIR ready to be decoded. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "CPU and fetch-decode-execute",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.1 Systems architecture family 01",
+        "year": "Current specification",
+        "diagram": {
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 140\" width=\"100%\" role=\"img\"><text x=\"310\" y=\"24\" text-anchor=\"middle\" font-size=\"16\" font-family=\"Arial\">Simplified fetch-decode-execute data path</text><rect x=\"20\" y=\"45\" width=\"96\" height=\"48\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"68.0\" y=\"74\" text-anchor=\"middle\" font-size=\"14\" font-family=\"Arial\">PC</text><line x1=\"120\" y1=\"69\" x2=\"137\" y2=\"69\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 137 69 l -7 -5 v 10 z\" fill=\"currentColor\"/><rect x=\"141\" y=\"45\" width=\"96\" height=\"48\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"189.0\" y=\"74\" text-anchor=\"middle\" font-size=\"14\" font-family=\"Arial\">MAR</text><line x1=\"241\" y1=\"69\" x2=\"258\" y2=\"69\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 258 69 l -7 -5 v 10 z\" fill=\"currentColor\"/><rect x=\"262\" y=\"45\" width=\"96\" height=\"48\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"310.0\" y=\"74\" text-anchor=\"middle\" font-size=\"14\" font-family=\"Arial\">Memory</text><line x1=\"362\" y1=\"69\" x2=\"379\" y2=\"69\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 379 69 l -7 -5 v 10 z\" fill=\"currentColor\"/><rect x=\"383\" y=\"45\" width=\"96\" height=\"48\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"431.0\" y=\"74\" text-anchor=\"middle\" font-size=\"14\" font-family=\"Arial\">MDR</text><line x1=\"483\" y1=\"69\" x2=\"500\" y2=\"69\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 500 69 l -7 -5 v 10 z\" fill=\"currentColor\"/><rect x=\"504\" y=\"45\" width=\"96\" height=\"48\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"552.0\" y=\"74\" text-anchor=\"middle\" font-size=\"14\" font-family=\"Arial\">CIR</text></svg>",
+          "alt": "Simplified CPU register and memory data path"
+        }
+      },
+      {
+        "id": "gcse-cs-ocr-1-1-systems-architecture-01b",
+        "marks": 4,
+        "prompt": "Explain two ways in which cache can improve CPU performance.",
+        "hints": [
+          "Identify the key idea from CPU and fetch-decode-execute that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Cache stores frequently or recently used instructions/data close to the CPU. [B1]\nCache access is faster than accessing main memory. [B1]\nThis reduces the time the CPU waits for data. [B1]\nA larger/faster effective cache can therefore increase throughput for suitable workloads. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "CPU and fetch-decode-execute",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.1 Systems architecture family 01",
+        "year": "Current specification",
+        "diagram": {
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 140\" width=\"100%\" role=\"img\"><text x=\"310\" y=\"24\" text-anchor=\"middle\" font-size=\"16\" font-family=\"Arial\">Simplified fetch-decode-execute data path</text><rect x=\"20\" y=\"45\" width=\"96\" height=\"48\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"68.0\" y=\"74\" text-anchor=\"middle\" font-size=\"14\" font-family=\"Arial\">PC</text><line x1=\"120\" y1=\"69\" x2=\"137\" y2=\"69\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 137 69 l -7 -5 v 10 z\" fill=\"currentColor\"/><rect x=\"141\" y=\"45\" width=\"96\" height=\"48\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"189.0\" y=\"74\" text-anchor=\"middle\" font-size=\"14\" font-family=\"Arial\">MAR</text><line x1=\"241\" y1=\"69\" x2=\"258\" y2=\"69\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 258 69 l -7 -5 v 10 z\" fill=\"currentColor\"/><rect x=\"262\" y=\"45\" width=\"96\" height=\"48\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"310.0\" y=\"74\" text-anchor=\"middle\" font-size=\"14\" font-family=\"Arial\">Memory</text><line x1=\"362\" y1=\"69\" x2=\"379\" y2=\"69\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 379 69 l -7 -5 v 10 z\" fill=\"currentColor\"/><rect x=\"383\" y=\"45\" width=\"96\" height=\"48\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"431.0\" y=\"74\" text-anchor=\"middle\" font-size=\"14\" font-family=\"Arial\">MDR</text><line x1=\"483\" y1=\"69\" x2=\"500\" y2=\"69\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 500 69 l -7 -5 v 10 z\" fill=\"currentColor\"/><rect x=\"504\" y=\"45\" width=\"96\" height=\"48\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"552.0\" y=\"74\" text-anchor=\"middle\" font-size=\"14\" font-family=\"Arial\">CIR</text></svg>",
+          "alt": "Simplified CPU register and memory data path"
+        }
+      },
+      {
+        "id": "gcse-cs-ocr-1-1-systems-architecture-01c",
+        "marks": 4,
+        "prompt": "Explain the purpose of the control unit and arithmetic logic unit (ALU).",
+        "hints": [
+          "Identify the key idea from CPU and fetch-decode-execute that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The control unit coordinates processor operations and issues control signals. [B1]\nIt decodes instructions and manages the fetch-decode-execute cycle. [B1]\nThe ALU performs arithmetic operations. [B1]\nThe ALU also performs logical/comparison operations. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "CPU and fetch-decode-execute",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.1 Systems architecture family 01",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "1.2 Memory and storage",
+    "category": "Paper 1 – Computer systems",
+    "questions": [
+      {
+        "id": "gcse-cs-ocr-1-2-memory-and-storage-01a",
+        "marks": 4,
+        "prompt": "Compare RAM and ROM.",
+        "hints": [
+          "Identify the key idea from Memory and storage that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "RAM is usually volatile and loses its contents when power is removed. [B1]\nRAM stores programs and data currently in use. [B1]\nROM is non-volatile. [B1]\nROM can store instructions such as firmware that must persist. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Memory and storage",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.2 Memory and storage family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-2-memory-and-storage-01b",
+        "marks": 4,
+        "prompt": "A laptop needs fast internal storage with no moving parts. Explain why an SSD is generally more suitable than a magnetic hard disk.",
+        "hints": [
+          "Identify the key idea from Memory and storage that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "An SSD has no moving mechanical parts. [B1]\nIt usually has lower access latency and faster random access. [B1]\nIt is more resistant to shock and usually quieter. [B1]\nThe trade-offs can include higher cost per GB or limited write endurance. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Memory and storage",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.2 Memory and storage family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-2-memory-and-storage-01c",
+        "marks": 4,
+        "prompt": "Explain why virtual memory may be used and give one disadvantage.",
+        "hints": [
+          "Identify the key idea from Memory and storage that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Virtual memory uses secondary storage when there is insufficient RAM. [B1]\nIt allows more/larger programs to continue running than would fit in physical RAM alone. [B1]\nSecondary storage is much slower than RAM. [B1]\nHeavy use can therefore reduce performance substantially. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Memory and storage",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.2 Memory and storage family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-2-memory-and-storage-02a",
+        "marks": 3,
+        "prompt": "Convert the unsigned binary number 10110110 to denary.",
+        "hints": [
+          "Identify the key idea from Binary and hexadecimal that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "Use place values 128, 64, 32, 16, 8, 4, 2, 1. [B1]\nAdd the place values for the 1 bits: 128 + 32 + 16 + 4 + 2. [B1]\nThe denary value is 182. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Binary and hexadecimal",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.2 Memory and storage family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-2-memory-and-storage-02b",
+        "marks": 3,
+        "prompt": "Convert denary 93 to 8-bit binary.",
+        "hints": [
+          "Identify the key idea from Binary and hexadecimal that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "93 = 64 + 16 + 8 + 4 + 1. [B1]\nSet those place-value bits to 1. [B1]\nThe 8-bit result is 01011101. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Binary and hexadecimal",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.2 Memory and storage family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-2-memory-and-storage-02c",
+        "marks": 4,
+        "prompt": "Convert hexadecimal 7D to binary and denary.",
+        "hints": [
+          "Identify the key idea from Binary and hexadecimal that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "7 in hexadecimal is 0111 in binary. [B1]\nD is 13, which is 1101 in binary. [B1]\nSo 7D = 01111101 in binary. [B1]\nIts denary value is 7×16 + 13 = 125. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Binary and hexadecimal",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.2 Memory and storage family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-2-memory-and-storage-03a",
+        "marks": 4,
+        "prompt": "Add the 8-bit binary values 01101101 and 00010111. Give the 8-bit result.",
+        "hints": [
+          "Identify the key idea from Binary arithmetic and overflow that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "01101101 is 109. [B1]\n00010111 is 23. [B1]\n109 + 23 = 132. [B1]\n132 in 8-bit binary is 10000100. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Binary arithmetic and overflow",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.2 Memory and storage family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-2-memory-and-storage-03b",
+        "marks": 4,
+        "prompt": "Explain why adding 11110000 and 00110000 in an 8-bit unsigned register causes overflow.",
+        "hints": [
+          "Identify the key idea from Binary arithmetic and overflow that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "11110000 is 240. [B1]\n00110000 is 48. [B1]\nThe sum is 288. [B1]\nThe largest 8-bit unsigned value is 255, so 288 cannot be represented in 8 bits. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Binary arithmetic and overflow",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.2 Memory and storage family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-2-memory-and-storage-03c",
+        "marks": 4,
+        "prompt": "An 8-bit unsigned register stores 11111111. What happens if 1 is added, and why?",
+        "hints": [
+          "Identify the key idea from Binary arithmetic and overflow that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "11111111 represents 255. [B1]\nAdding 1 gives 256. [B1]\n256 requires a ninth bit. [B1]\nThe 8-bit result wraps to 00000000 and an overflow/carry condition occurs. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Binary arithmetic and overflow",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.2 Memory and storage family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-2-memory-and-storage-04a",
+        "marks": 4,
+        "prompt": "A bitmap image is 800 pixels wide by 600 pixels high with a colour depth of 24 bits. Calculate its uncompressed size in bits.",
+        "hints": [
+          "Identify the key idea from Images and sound that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "Number of pixels = 800 × 600 = 480000. [B1]\nEach pixel uses 24 bits. [B1]\nSize = 480000 × 24. [B1]\nThe uncompressed size is 11520000 bits. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Images and sound",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.2 Memory and storage family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-2-memory-and-storage-04b",
+        "marks": 4,
+        "prompt": "A mono sound clip is sampled at 44,000 samples per second using a sample resolution of 16 bits for 10 seconds. Calculate the uncompressed size in bits.",
+        "hints": [
+          "Identify the key idea from Images and sound that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "There are 44000 × 10 = 440000 samples. [B1]\nEach sample uses 16 bits. [B1]\nSize = 440000 × 16. [B1]\nThe uncompressed size is 7040000 bits. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Images and sound",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.2 Memory and storage family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-2-memory-and-storage-04c",
+        "marks": 4,
+        "prompt": "Explain how increasing image colour depth affects image quality and file size.",
+        "hints": [
+          "Identify the key idea from Images and sound that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A greater colour depth allows more distinct colours to be represented. [B1]\nThis can make colour changes more accurate or smoother. [B1]\nMore bits are stored for every pixel. [B1]\nTherefore the uncompressed file size increases. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Images and sound",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.2 Memory and storage family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-2-memory-and-storage-05a",
+        "marks": 4,
+        "prompt": "Explain the difference between lossy and lossless compression and give a suitable use for each.",
+        "hints": [
+          "Identify the key idea from Compression that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Lossless compression allows the original data to be reconstructed exactly. [B1]\nIt is suitable for program files or text where every bit matters. [B1]\nLossy compression permanently removes some data. [B1]\nIt is suitable for media such as photographs or audio where a small quality loss may be acceptable. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Compression",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.2 Memory and storage family 05",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-2-memory-and-storage-05b",
+        "marks": 4,
+        "prompt": "Run-length encoding stores repeated values as value/count pairs. Encode AAAAABBCCCCCC using this idea.",
+        "hints": [
+          "Identify the key idea from Compression that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "AAAAA becomes A5. [B1]\nBB becomes B2. [B1]\nCCCCCC becomes C6. [B1]\nOne valid encoded form is A5 B2 C6. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Compression",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.2 Memory and storage family 05",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-2-memory-and-storage-05c",
+        "marks": 3,
+        "prompt": "Explain why compressing a file before network transmission can reduce transmission time.",
+        "hints": [
+          "Identify the key idea from Compression that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Compression reduces the number of bits that need to be sent. [B1]\nAt the same transmission rate, fewer bits take less time to transmit. [B1]\nThe benefit must be balanced against the processing needed to compress and decompress the data. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Compression",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.2 Memory and storage family 05",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "1.3 Computer networks, connections and protocols",
+    "category": "Paper 1 – Computer systems",
+    "questions": [
+      {
+        "id": "gcse-cs-ocr-1-3-computer-networks-connections-and-prot-01a",
+        "marks": 4,
+        "prompt": "Compare client-server and peer-to-peer network models.",
+        "hints": [
+          "Identify the key idea from Network types and models that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "In client-server, dedicated servers provide services or resources to clients. [B1]\nCentral management can make backups, accounts and security easier to control. [B1]\nIn peer-to-peer, devices can act as both clients and servers. [B1]\nPeer-to-peer can be simpler/cheaper for small networks but is harder to manage centrally. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Network types and models",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.3 Computer networks, connections and protocols family 01",
+        "year": "Current specification",
+        "diagram": {
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 220\" width=\"100%\"><circle cx=\"210\" cy=\"110\" r=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"210\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">Switch</text><line x1=\"210\" y1=\"110\" x2=\"70\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"35\" y=\"32\" width=\"70\" height=\"36\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"70\" y=\"55\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Device</text><line x1=\"210\" y1=\"110\" x2=\"350\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"315\" y=\"32\" width=\"70\" height=\"36\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"350\" y=\"55\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Device</text><line x1=\"210\" y1=\"110\" x2=\"70\" y2=\"175\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"35\" y=\"157\" width=\"70\" height=\"36\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"70\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Device</text><line x1=\"210\" y1=\"110\" x2=\"350\" y2=\"175\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"315\" y=\"157\" width=\"70\" height=\"36\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"350\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Device</text></svg>",
+          "alt": "A star network with four devices connected to a central switch"
+        }
+      },
+      {
+        "id": "gcse-cs-ocr-1-3-computer-networks-connections-and-prot-01b",
+        "marks": 4,
+        "prompt": "Explain the difference between a LAN and a WAN.",
+        "hints": [
+          "Identify the key idea from Network types and models that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "A LAN covers a relatively small/local geographic area. [B1]\nA LAN is typically owned or managed by one organisation. [B1]\nA WAN connects networks over a large geographic area. [B1]\nWAN links may rely on infrastructure owned by telecommunications providers. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Network types and models",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.3 Computer networks, connections and protocols family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-3-computer-networks-connections-and-prot-01c",
+        "marks": 3,
+        "prompt": "A company has offices in three cities. Explain why the overall company network would be classed as a WAN.",
+        "hints": [
+          "Identify the key idea from Network types and models that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The network spans a large geographic area. [B1]\nIt connects separate local networks/sites. [B1]\nCommunication between the sites uses long-distance links rather than a single local network. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Network types and models",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.3 Computer networks, connections and protocols family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-3-computer-networks-connections-and-prot-02a",
+        "marks": 4,
+        "prompt": "State the purpose of HTTP/HTTPS, TCP and IP.",
+        "hints": [
+          "Identify the key idea from Protocols and layers that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "HTTP/HTTPS defines how web requests and responses are exchanged. [B1]\nHTTPS adds encrypted/authenticated transport for web traffic. [B1]\nTCP provides reliable ordered delivery between applications. [B1]\nIP provides addressing and routing of packets across networks. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Protocols and layers",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.3 Computer networks, connections and protocols family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-3-computer-networks-connections-and-prot-02b",
+        "marks": 4,
+        "prompt": "Explain why networking is divided into layers.",
+        "hints": [
+          "Identify the key idea from Protocols and layers that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Each layer has a defined responsibility/interface. [B1]\nChanges within one layer can often be made without redesigning every other layer. [B1]\nDifferent manufacturers can implement compatible standards. [B1]\nLayering reduces complexity and supports modular design/troubleshooting. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Protocols and layers",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.3 Computer networks, connections and protocols family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-3-computer-networks-connections-and-prot-02c",
+        "marks": 3,
+        "prompt": "Match each protocol to its typical role: SMTP, IMAP and FTP.",
+        "hints": [
+          "Identify the key idea from Protocols and layers that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "SMTP is used to send/transfer email between mail systems. [B1]\nIMAP is used by a client to access/manage email stored on a server. [B1]\nFTP is used to transfer files between systems. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Protocols and layers",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.3 Computer networks, connections and protocols family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-3-computer-networks-connections-and-prot-03a",
+        "marks": 3,
+        "prompt": "A 24 megabit file is sent over a 6 megabit/s connection. Ignoring overheads, calculate the minimum transmission time.",
+        "hints": [
+          "Identify the key idea from Transmission calculations that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "Use time = data size ÷ data rate. [B1]\nTime = 24 Mb ÷ 6 Mb/s. [B1]\nThe minimum time is 4 seconds. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Transmission calculations",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.3 Computer networks, connections and protocols family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-3-computer-networks-connections-and-prot-03b",
+        "marks": 3,
+        "prompt": "A 900 megabyte file is transferred at 60 megabytes/s. Calculate the ideal transfer time.",
+        "hints": [
+          "Identify the key idea from Transmission calculations that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "Use time = size ÷ rate. [B1]\n900 ÷ 60 = 15. [B1]\nThe ideal transfer time is 15 seconds. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Transmission calculations",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.3 Computer networks, connections and protocols family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-3-computer-networks-connections-and-prot-03c",
+        "marks": 3,
+        "prompt": "A link has a latency of 40 ms and a bandwidth of 100 Mbit/s. Explain the difference between latency and bandwidth.",
+        "hints": [
+          "Identify the key idea from Transmission calculations that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Latency is the delay before/while data travels through the network. [B1]\nBandwidth is the maximum amount of data that can be transmitted per unit time. [B1]\nA connection can have high bandwidth but still noticeable latency. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Transmission calculations",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.3 Computer networks, connections and protocols family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-3-computer-networks-connections-and-prot-04a",
+        "marks": 3,
+        "prompt": "The diagram shows a star network. Give two advantages of this topology and one disadvantage.",
+        "hints": [
+          "Identify the key idea from Topology and hardware that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "Failure of one end-device cable normally affects only that device. [B1]\nDevices can be added or removed without breaking a shared loop/bus. [B1]\nThe central switch is a single point whose failure can stop the network. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Topology and hardware",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.3 Computer networks, connections and protocols family 04",
+        "year": "Current specification",
+        "diagram": {
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 220\" width=\"100%\"><circle cx=\"210\" cy=\"110\" r=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"210\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">Switch</text><line x1=\"210\" y1=\"110\" x2=\"70\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"35\" y=\"32\" width=\"70\" height=\"36\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"70\" y=\"55\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Device</text><line x1=\"210\" y1=\"110\" x2=\"350\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"315\" y=\"32\" width=\"70\" height=\"36\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"350\" y=\"55\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Device</text><line x1=\"210\" y1=\"110\" x2=\"70\" y2=\"175\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"35\" y=\"157\" width=\"70\" height=\"36\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"70\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Device</text><line x1=\"210\" y1=\"110\" x2=\"350\" y2=\"175\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"315\" y=\"157\" width=\"70\" height=\"36\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"350\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Device</text></svg>",
+          "alt": "A star network with four devices connected to a central switch"
+        }
+      },
+      {
+        "id": "gcse-cs-ocr-1-3-computer-networks-connections-and-prot-04b",
+        "marks": 4,
+        "prompt": "Explain the role of a router and a switch.",
+        "hints": [
+          "Identify the key idea from Topology and hardware that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A switch forwards frames between devices on the same local network. [B1]\nIt can use hardware/MAC addresses to direct local traffic. [B1]\nA router forwards packets between different networks. [B1]\nIt uses network/IP addresses and routing information to choose a path. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Topology and hardware",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.3 Computer networks, connections and protocols family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-3-computer-networks-connections-and-prot-04c",
+        "marks": 4,
+        "prompt": "Explain why wireless networking can be less reliable than a wired Ethernet connection.",
+        "hints": [
+          "Identify the key idea from Topology and hardware that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Wireless signals can suffer interference. [B1]\nSignal strength can decrease with distance or physical obstacles. [B1]\nShared radio channels can suffer congestion. [B1]\nWired links are generally less affected by these radio conditions. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Topology and hardware",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.3 Computer networks, connections and protocols family 04",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "1.4 Network security",
+    "category": "Paper 1 – Computer systems",
+    "questions": [
+      {
+        "id": "gcse-cs-ocr-1-4-network-security-01a",
+        "marks": 4,
+        "prompt": "A user receives an email that imitates their bank and asks them to log in through a link. Identify the attack and explain two warning signs.",
+        "hints": [
+          "Identify the key idea from Threats and social engineering that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "This is a phishing/social-engineering attack. [B1]\nThe attacker is trying to trick the user into revealing credentials. [B1]\nWarning signs can include a mismatched sender/domain or suspicious URL. [B1]\nUrgent language, unexpected attachments or requests for secrets are also warning signs. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Threats and social engineering",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.4 Network security family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-4-network-security-01b",
+        "marks": 4,
+        "prompt": "Explain the difference between malware and social engineering.",
+        "hints": [
+          "Identify the key idea from Threats and social engineering that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Malware is malicious software designed to damage, disrupt or gain unauthorised access. [B1]\nExamples include ransomware, spyware or viruses. [B1]\nSocial engineering manipulates people into carrying out unsafe actions or revealing information. [B1]\nIt exploits human trust rather than only technical vulnerabilities. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Threats and social engineering",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.4 Network security family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-4-network-security-01c",
+        "marks": 4,
+        "prompt": "Explain what a brute-force password attack does and give two ways to reduce its chance of success.",
+        "hints": [
+          "Identify the key idea from Threats and social engineering that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A brute-force attack repeatedly guesses passwords until one works. [B1]\nUse longer/strong passwords to increase the search space. [B1]\nRate limiting or account lockout slows repeated guesses. [B1]\nMulti-factor authentication can stop a guessed password being sufficient on its own. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Threats and social engineering",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.4 Network security family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-4-network-security-02a",
+        "marks": 4,
+        "prompt": "Explain how a firewall can improve network security.",
+        "hints": [
+          "Identify the key idea from Security controls that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A firewall applies rules to incoming and outgoing network traffic. [B1]\nIt can block unwanted connections, ports or addresses. [B1]\nIt reduces exposure to unauthorised network access. [B1]\nIt does not remove the need for other controls such as patching and authentication. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Security controls",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.4 Network security family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-4-network-security-02b",
+        "marks": 3,
+        "prompt": "Explain why software updates are an important security control.",
+        "hints": [
+          "Identify the key idea from Security controls that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Updates can patch known vulnerabilities. [B1]\nAttackers may exploit unpatched weaknesses. [B1]\nApplying updates reduces the window in which known flaws can be used. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Security controls",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.4 Network security family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-4-network-security-02c",
+        "marks": 3,
+        "prompt": "Explain how multi-factor authentication improves security compared with a password alone.",
+        "hints": [
+          "Identify the key idea from Security controls that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "It requires evidence from more than one factor/category. [B1]\nA stolen or guessed password alone is therefore insufficient. [B1]\nAn attacker would also need the second factor such as a token/device/biometric. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Security controls",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.4 Network security family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-4-network-security-03a",
+        "marks": 3,
+        "prompt": "Explain why encryption is useful when data is transmitted over an untrusted network.",
+        "hints": [
+          "Identify the key idea from Encryption and authentication that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Encryption converts plaintext into ciphertext using a key. [B1]\nAn interceptor who does not have the required key should not be able to read the original data easily. [B1]\nThis protects confidentiality while data is in transit. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Encryption and authentication",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.4 Network security family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-4-network-security-03b",
+        "marks": 3,
+        "prompt": "Distinguish authentication from authorisation.",
+        "hints": [
+          "Identify the key idea from Encryption and authentication that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Authentication checks who a user/entity is. [B1]\nAuthorisation determines what an authenticated user is allowed to access or do. [B1]\nA user can be authenticated successfully but still not be authorised for a particular resource. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Encryption and authentication",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.4 Network security family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-4-network-security-03c",
+        "marks": 3,
+        "prompt": "A website stores password hashes rather than plaintext passwords. Explain why this is safer.",
+        "hints": [
+          "Identify the key idea from Encryption and authentication that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A hash is a one-way digest rather than the original password. [B1]\nThe site can compare a hash of an attempted password with the stored hash. [B1]\nIf the database is stolen, the exact plaintext passwords are not directly exposed. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Encryption and authentication",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.4 Network security family 03",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "1.5 Systems software",
+    "category": "Paper 1 – Computer systems",
+    "questions": [
+      {
+        "id": "gcse-cs-ocr-1-5-systems-software-01a",
+        "marks": 4,
+        "prompt": "Give four functions of an operating system.",
+        "hints": [
+          "Identify the key idea from Systems software that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "It manages memory. [B1]\nIt schedules/process-manages running programs. [B1]\nIt manages files and secondary storage. [B1]\nIt provides interfaces and manages peripheral devices/users. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Systems software",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.5 Systems software family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-5-systems-software-01b",
+        "marks": 4,
+        "prompt": "Explain the purpose of utility software and give two examples.",
+        "hints": [
+          "Identify the key idea from Systems software that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Utility software performs maintenance, protection or management tasks. [B1]\nAnti-malware software is an example. [B1]\nBackup software is an example. [B1]\nCompression, encryption or disk tools are also valid examples. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Systems software",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.5 Systems software family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-5-systems-software-01c",
+        "marks": 3,
+        "prompt": "Explain why device drivers are needed.",
+        "hints": [
+          "Identify the key idea from Systems software that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Different hardware devices expose different interfaces or commands. [B1]\nA driver provides software that lets the operating system communicate with a particular device. [B1]\nThis hides hardware-specific details from application software. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Systems software",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.5 Systems software family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-5-systems-software-02a",
+        "marks": 4,
+        "prompt": "Compare a compiler with an interpreter.",
+        "hints": [
+          "Identify the key idea from Translators and languages that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "A compiler translates a whole program before execution. [B1]\nIt can produce executable/object code that can be run again without retranslating. [B1]\nAn interpreter translates and executes code statement by statement. [B1]\nInterpreters can make testing/debugging convenient but usually add translation overhead during execution. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Translators and languages",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.5 Systems software family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-5-systems-software-02b",
+        "marks": 3,
+        "prompt": "Explain one reason to use a high-level language instead of assembly language.",
+        "hints": [
+          "Identify the key idea from Translators and languages that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "High-level code is closer to human-readable notation. [B1]\nComplex tasks can be expressed using fewer statements. [B1]\nIt is usually more portable across processor architectures. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Translators and languages",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.5 Systems software family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-5-systems-software-02c",
+        "marks": 3,
+        "prompt": "Explain the purpose of an assembler.",
+        "hints": [
+          "Identify the key idea from Translators and languages that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Assembly language uses mnemonics and symbolic operands. [B1]\nAn assembler translates assembly instructions into machine code. [B1]\nThe resulting machine code can be executed by the processor. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Translators and languages",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.5 Systems software family 02",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "1.6 Ethical, legal, cultural and environmental impacts",
+    "category": "Paper 1 – Computer systems",
+    "questions": [
+      {
+        "id": "gcse-cs-ocr-1-6-ethical-legal-cultural-and-environment-01a",
+        "marks": 4,
+        "prompt": "A fitness app continuously records location data. Explain two privacy risks and one way the developer could reduce them.",
+        "hints": [
+          "Identify the key idea from Privacy and ethics that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Location histories can reveal sensitive routines or places visited. [B1]\nA data breach could expose this information to unauthorised people. [B1]\nCollect only data that is necessary and give users meaningful control/consent. [B1]\nEncryption/access controls can also reduce the risk of unauthorised disclosure. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Privacy and ethics",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.6 Ethical, legal, cultural and environmental impacts family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-6-ethical-legal-cultural-and-environment-01b",
+        "marks": 4,
+        "prompt": "An employer wants to use an AI system to rank job applicants. Explain two ethical concerns.",
+        "hints": [
+          "Identify the key idea from Privacy and ethics that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Training data may contain bias that produces unfair decisions. [B1]\nApplicants may not understand how an automated decision was made. [B1]\nIncorrect rankings can materially affect people. [B1]\nHuman oversight, testing for bias and transparent criteria can reduce these concerns. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Privacy and ethics",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.6 Ethical, legal, cultural and environmental impacts family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-6-ethical-legal-cultural-and-environment-01c",
+        "marks": 3,
+        "prompt": "Explain why anonymising a dataset can help protect privacy but may not remove all privacy risk.",
+        "hints": [
+          "Identify the key idea from Privacy and ethics that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Removing direct identifiers reduces the chance of linking records to named individuals. [B1]\nCombinations of remaining attributes may still allow re-identification. [B1]\nAnonymisation therefore needs careful design and may need aggregation or removal of rare attributes. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Privacy and ethics",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.6 Ethical, legal, cultural and environmental impacts family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-6-ethical-legal-cultural-and-environment-02a",
+        "marks": 3,
+        "prompt": "Explain one way copyright law affects software developers and users.",
+        "hints": [
+          "Identify the key idea from Legal and intellectual property that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Software source code and other creative works can be protected by copyright. [B1]\nUsers generally need permission/licensing to copy or distribute protected software. [B1]\nDevelopers must also respect licences for third-party code they use. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Legal and intellectual property",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.6 Ethical, legal, cultural and environmental impacts family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-6-ethical-legal-cultural-and-environment-02b",
+        "marks": 3,
+        "prompt": "Explain why an organisation must consider data-protection law when collecting personal data.",
+        "hints": [
+          "Identify the key idea from Legal and intellectual property that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Personal data should be processed for legitimate/specified purposes. [B1]\nOnly necessary data should be collected and protected appropriately. [B1]\nPeople have rights relating to their personal data and organisations have responsibilities for security and handling. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Legal and intellectual property",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.6 Ethical, legal, cultural and environmental impacts family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-6-ethical-legal-cultural-and-environment-02c",
+        "marks": 3,
+        "prompt": "A student downloads a commercial program from an unauthorised sharing site. Explain a legal and an ethical issue.",
+        "hints": [
+          "Identify the key idea from Legal and intellectual property that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The copy may infringe copyright or the software licence. [B1]\nThe creator/rightsholder may lose revenue or control of distribution. [B1]\nUnauthorised files may also create security risks for the user. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Legal and intellectual property",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.6 Ethical, legal, cultural and environmental impacts family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-6-ethical-legal-cultural-and-environment-03a",
+        "marks": 4,
+        "prompt": "Explain two environmental impacts of data centres and one way to reduce them.",
+        "hints": [
+          "Identify the key idea from Environmental impacts that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Servers and cooling systems consume significant electrical energy. [B1]\nManufacture and replacement of hardware use raw materials and create electronic waste. [B1]\nUse efficient cooling/hardware and low-carbon energy sources. [B1]\nExtending hardware life and responsible recycling can reduce material impacts. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Environmental impacts",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.6 Ethical, legal, cultural and environmental impacts family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-6-ethical-legal-cultural-and-environment-03b",
+        "marks": 3,
+        "prompt": "Explain one environmental benefit and one environmental cost of replacing office meetings with video conferencing.",
+        "hints": [
+          "Identify the key idea from Environmental impacts that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "It can reduce travel and associated fuel use/emissions. [B1]\nNetwork and data-centre infrastructure still consumes electricity. [B1]\nThe overall impact depends on factors such as travel avoided and energy source. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Environmental impacts",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.6 Ethical, legal, cultural and environmental impacts family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-1-6-ethical-legal-cultural-and-environment-03c",
+        "marks": 4,
+        "prompt": "Explain why rapidly replacing smartphones can contribute to environmental problems.",
+        "hints": [
+          "Identify the key idea from Environmental impacts that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Manufacturing requires energy and mined raw materials. [B1]\nDiscarded devices contribute to electronic waste. [B1]\nSome components contain materials that are difficult or hazardous to process. [B1]\nRepair, reuse and recycling can reduce these impacts. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Environmental impacts",
+        "inspiredBy": "OCR J277 Paper 1 – Computer systems – 1.6 Ethical, legal, cultural and environmental impacts family 03",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "2.1 Algorithms",
+    "category": "Paper 2 – Computational thinking, algorithms and programming",
+    "questions": [
+      {
+        "id": "gcse-cs-ocr-2-1-algorithms-01a",
+        "marks": 3,
+        "prompt": "Trace this algorithm for the list [4, 7, 2, 9].\ntotal = 0\nFOR each x in the list\n  IF x MOD 2 = 1 THEN total = total + x\nOUTPUT total",
+        "hints": [
+          "Work through the loop one value at a time."
+        ],
+        "solution": "The values tested are 4, 7, 2 and 9. [B1]\nOnly 7 and 9 satisfy the condition. [B1]\nThe output is 16. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Tracing algorithms",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.1 Algorithms family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-1-algorithms-01b",
+        "marks": 3,
+        "prompt": "Trace this algorithm for the list [3, 6, 8, 5].\ncount = 0\nFOR each x in the list\n  IF x > 5 THEN count = count + 1\nOUTPUT count",
+        "hints": [
+          "Keep a running value of count."
+        ],
+        "solution": "The values greater than 5 are identified. [B1]\n6 and 8 satisfy the condition. [B1]\nThe output is 2. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Tracing algorithms",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.1 Algorithms family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-1-algorithms-01c",
+        "marks": 3,
+        "prompt": "Trace this algorithm.\nx = 3\ny = 1\nWHILE x < 10\n  y = y * 2\n  x = x + 3\nOUTPUT y",
+        "hints": [
+          "Make a small trace table for x and y."
+        ],
+        "solution": "The loop runs while x is 3, 6 and 9. [B1]\ny changes 1 → 2 → 4 → 8. [B1]\nThe output is 8. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Tracing algorithms",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.1 Algorithms family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-1-algorithms-02a",
+        "marks": 4,
+        "prompt": "A sorted list contains 128 items. Explain why binary search usually needs fewer comparisons than linear search to find an item near the end of the list.",
+        "hints": [
+          "State the key requirement for binary search."
+        ],
+        "solution": "Binary search checks the middle item. [B1]\nIt discards half of the remaining search area after each comparison. [B1]\nLinear search may inspect items one by one from the start. [B1]\nTherefore binary search grows much more slowly in comparisons for a sorted list. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Searching algorithms",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.1 Algorithms family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-1-algorithms-02b",
+        "marks": 4,
+        "prompt": "A music app stores 500 song IDs in sorted order. Describe how binary search would look for ID 372.",
+        "hints": [
+          "Think: middle, discard half, repeat."
+        ],
+        "solution": "Compare 372 with the middle ID. [B1]\nIf 372 is smaller, continue with the lower half; if larger, use the upper half. [B1]\nRepeat by checking the middle of the remaining half. [B1]\nStop when 372 is found or no items remain. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Searching algorithms",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.1 Algorithms family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-1-algorithms-02c",
+        "marks": 3,
+        "prompt": "Explain one situation in which linear search is more suitable than binary search.",
+        "hints": [
+          "What condition does binary search require?"
+        ],
+        "solution": "Linear search does not require the data to be sorted. [B1]\nIt can therefore be used directly on an unsorted collection. [B1]\nSorting first could add unnecessary work for a small or one-off search. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Searching algorithms",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.1 Algorithms family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-1-algorithms-03a",
+        "marks": 4,
+        "prompt": "One pass of bubble sort is applied to [7, 3, 5, 2]. Give the list after this complete left-to-right pass.",
+        "hints": [
+          "Identify the key idea from Sorting algorithms that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "Compare 7 and 3 and swap → [3,7,5,2]. [B1]\nCompare 7 and 5 and swap → [3,5,7,2]. [B1]\nCompare 7 and 2 and swap → [3,5,2,7]. [B1]\nThe list after one pass is [3,5,2,7]. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Sorting algorithms",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.1 Algorithms family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-1-algorithms-03b",
+        "marks": 4,
+        "prompt": "Insertion sort is used on [2, 6, 9, 4, 8]. Show the list immediately after the value 4 has been inserted into the sorted part.",
+        "hints": [
+          "Identify the key idea from Sorting algorithms that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "The sorted part before inserting 4 is [2,6,9]. [B1]\nMove 9 one position right. [B1]\nMove 6 one position right. [B1]\nInsert 4 after 2, giving [2,4,6,9,8]. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Sorting algorithms",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.1 Algorithms family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-1-algorithms-03c",
+        "marks": 4,
+        "prompt": "Explain why merge sort is described as a divide-and-conquer algorithm.",
+        "hints": [
+          "Identify the key idea from Sorting algorithms that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The original list is divided into smaller sublists. [B1]\nThe sublists are repeatedly divided until very small. [B1]\nSmall sorted lists are merged together in order. [B1]\nThe solution is built by combining the results of the smaller problems. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Sorting algorithms",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.1 Algorithms family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-1-algorithms-04a",
+        "marks": 4,
+        "prompt": "A school is designing an online booking system for clubs. Explain how decomposition and abstraction could help when developing the solution.",
+        "hints": [
+          "Identify the key idea from Decomposition and abstraction that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Decomposition splits the system into smaller parts such as login, club search and booking. [B1]\nEach smaller part can be designed or tested separately. [B1]\nAbstraction removes details that are not relevant to the current problem. [B1]\nThis reduces complexity and helps developers focus on essential data and behaviour. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Decomposition and abstraction",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.1 Algorithms family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-1-algorithms-04b",
+        "marks": 4,
+        "prompt": "A navigation app must calculate routes. Give two examples of decomposition and two examples of abstraction that could be used.",
+        "hints": [
+          "Identify the key idea from Decomposition and abstraction that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "Decomposition could separate map loading from route calculation. [B1]\nDecomposition could separate route calculation from displaying directions. [B1]\nAbstraction could model a junction as a node rather than every physical detail. [B1]\nAbstraction could keep only route-relevant properties such as distance or travel time. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Decomposition and abstraction",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.1 Algorithms family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-1-algorithms-04c",
+        "marks": 4,
+        "prompt": "Explain the difference between decomposition and abstraction using a game as an example.",
+        "hints": [
+          "Identify the key idea from Decomposition and abstraction that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Decomposition breaks the game into smaller tasks or modules. [B1]\nFor example, input, scoring and collision detection can be separate modules. [B1]\nAbstraction represents only important features and hides unnecessary detail. [B1]\nFor example, a player can be represented by position, health and score rather than every real-world property. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Decomposition and abstraction",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.1 Algorithms family 04",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "2.2 Programming fundamentals",
+    "category": "Paper 2 – Computational thinking, algorithms and programming",
+    "questions": [
+      {
+        "id": "gcse-cs-ocr-2-2-programming-fundamentals-01a",
+        "marks": 4,
+        "prompt": "Write an algorithm that inputs an integer n and outputs \"valid\" only when n is between 10 and 20 inclusive.",
+        "hints": [
+          "Identify the key idea from Selection and iteration that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "Input n. [B1]\nUse a condition equivalent to n >= 10 AND n <= 20. [B1]\nOutput \"valid\" when the condition is true. [B1]\nUse an ELSE branch or no output when false. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Selection and iteration",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.2 Programming fundamentals family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-2-programming-fundamentals-01b",
+        "marks": 4,
+        "prompt": "Write an algorithm that repeatedly inputs a password until the value \"ORBIT7\" is entered.",
+        "hints": [
+          "Identify the key idea from Selection and iteration that the question is testing.",
+          "Break the task into input, processing/condition, and output before writing the final statement or algorithm."
+        ],
+        "solution": "Create a variable to store the input. [B1]\nUse a loop that continues while the password is not ORBIT7. [B1]\nInput a new password inside the loop. [B1]\nThe loop stops once the correct value is entered. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Selection and iteration",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.2 Programming fundamentals family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-2-programming-fundamentals-01c",
+        "marks": 3,
+        "prompt": "Write an algorithm that outputs the squares of the integers 1 to 5.",
+        "hints": [
+          "Identify the key idea from Selection and iteration that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "Use a count-controlled loop from 1 to 5. [B1]\nCalculate i × i inside the loop. [B1]\nOutput the result for each iteration. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Selection and iteration",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.2 Programming fundamentals family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-2-programming-fundamentals-02a",
+        "marks": 4,
+        "prompt": "The array scores contains [12, 17, 9, 21, 14]. Write an algorithm to output the largest value without using a built-in maximum function.",
+        "hints": [
+          "Identify the key idea from Arrays and lists that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "Set largest to the first array element. [B1]\nLoop through the remaining elements. [B1]\nReplace largest whenever the current value is greater. [B1]\nOutput largest after the loop. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Arrays and lists",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.2 Programming fundamentals family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-2-programming-fundamentals-02b",
+        "marks": 4,
+        "prompt": "An array names contains 30 usernames. Describe an algorithm to count how many names start with the letter A.",
+        "hints": [
+          "Identify the key idea from Arrays and lists that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "Initialise a counter to zero. [B1]\nLoop through every array element. [B1]\nTest whether the first character is A. [B1]\nIncrement the counter when the test is true. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Arrays and lists",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.2 Programming fundamentals family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-2-programming-fundamentals-02c",
+        "marks": 4,
+        "prompt": "A two-dimensional array stores temperatures for 7 days and 4 readings per day. Explain how nested iteration can process every reading.",
+        "hints": [
+          "Identify the key idea from Arrays and lists that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Use one loop to visit each day. [B1]\nUse a second loop inside it to visit each reading for that day. [B1]\nAccess the element using both indexes. [B1]\nThis visits all 7 × 4 = 28 readings. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Arrays and lists",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.2 Programming fundamentals family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-2-programming-fundamentals-03a",
+        "marks": 4,
+        "prompt": "Explain two benefits of placing repeated validation code in a subroutine.",
+        "hints": [
+          "Identify the key idea from Subroutines that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The validation code is written once rather than duplicated. [B1]\nCalls to the subroutine make the main program easier to read. [B1]\nA correction can be made in one place and reused everywhere. [B1]\nThe subroutine can be tested independently. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Subroutines",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.2 Programming fundamentals family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-2-programming-fundamentals-03b",
+        "marks": 4,
+        "prompt": "A function areaRectangle(length, width) returns the area. State what is passed into the function and what value is returned when called with 8 and 3.",
+        "hints": [
+          "Identify the key idea from Subroutines that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "8 and 3 are passed as arguments. [B1]\nThey are received by the parameters length and width. [B1]\nThe calculation is 8 × 3. [B1]\nThe returned value is 24. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Subroutines",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.2 Programming fundamentals family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-2-programming-fundamentals-03c",
+        "marks": 3,
+        "prompt": "Explain the difference between a parameter and a return value.",
+        "hints": [
+          "Identify the key idea from Subroutines that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "A parameter supplies input data to a subroutine. [B1]\nIt is available for the subroutine to use in its processing. [B1]\nA return value is data sent back to the calling part of the program. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Subroutines",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.2 Programming fundamentals family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-2-programming-fundamentals-04a",
+        "marks": 4,
+        "prompt": "A program accepts ages from 11 to 18 inclusive. Give one normal, one boundary and one invalid test value, with the expected result for each.",
+        "hints": [
+          "Identify the key idea from Testing and debugging that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "A normal value could be 15 and should be accepted. [B1]\nA boundary value could be 11 or 18 and should be accepted. [B1]\nAn invalid value could be 10 or 19 and should be rejected. [B1]\nExpected results should be recorded so actual output can be compared with them. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Testing and debugging",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.2 Programming fundamentals family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-2-programming-fundamentals-04b",
+        "marks": 3,
+        "prompt": "A program crashes when it tries to divide a total by count when count is zero. Identify the type of error and describe one fix.",
+        "hints": [
+          "Identify the key idea from Testing and debugging that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "The failure happens while the program is running, so it is a runtime error. [B1]\nCheck whether count is zero before division. [B1]\nHandle the zero case separately or prevent invalid input. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Testing and debugging",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.2 Programming fundamentals family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-2-programming-fundamentals-04c",
+        "marks": 3,
+        "prompt": "A program runs but calculates VAT as price * 1.2 when it should calculate only the VAT amount. Identify the type of error and correct the expression.",
+        "hints": [
+          "Identify the key idea from Testing and debugging that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "The program runs but gives an incorrect result, so this is a logic error. [B1]\nThe VAT amount alone should be price × 0.2. [B1]\nTesting with a known price would reveal the incorrect output. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Testing and debugging",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.2 Programming fundamentals family 04",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "2.3 Producing robust programs",
+    "category": "Paper 2 – Computational thinking, algorithms and programming",
+    "questions": [
+      {
+        "id": "gcse-cs-ocr-2-3-producing-robust-programs-01a",
+        "marks": 3,
+        "prompt": "A username must be 6 to 12 characters long. Describe a validation check and explain why validation does not prove the username is correct.",
+        "hints": [
+          "Identify the key idea from Validation and defensive design that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Check that the string length is at least 6 and at most 12. [B1]\nReject or ask again if the range check fails. [B1]\nValidation checks whether data is reasonable/acceptable, not whether it represents the intended real-world value. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Validation and defensive design",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.3 Producing robust programs family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-3-producing-robust-programs-01b",
+        "marks": 3,
+        "prompt": "A menu only accepts choices 1, 2, 3 or 4. Write a condition that rejects every other integer.",
+        "hints": [
+          "Identify the key idea from Validation and defensive design that the question is testing.",
+          "Break the task into input, processing/condition, and output before writing the final statement or algorithm."
+        ],
+        "solution": "Test whether choice < 1 OR choice > 4. [B1]\nIf the condition is true, reject the value. [B1]\nRepeat input until a valid option is supplied. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Validation and defensive design",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.3 Producing robust programs family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-3-producing-robust-programs-01c",
+        "marks": 3,
+        "prompt": "Explain why sanitising user input can improve program security.",
+        "hints": [
+          "Identify the key idea from Validation and defensive design that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "User input may contain unexpected or malicious characters/data. [B1]\nSanitising removes/escapes or restricts unsafe content before it is processed. [B1]\nThis can reduce attacks such as injection when combined with proper query parameterisation and other controls. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Validation and defensive design",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.3 Producing robust programs family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-3-producing-robust-programs-02a",
+        "marks": 3,
+        "prompt": "A field accepts whole numbers from 1 to 100 inclusive. Give two boundary test values and two invalid test values.",
+        "hints": [
+          "Identify the key idea from Test data that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "1 and 100 are boundary values that should be accepted. [B1]\n0 is outside the lower boundary and should be rejected. [B1]\n101 is outside the upper boundary and should be rejected. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Test data",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.3 Producing robust programs family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-3-producing-robust-programs-02b",
+        "marks": 3,
+        "prompt": "Explain why expected results should be recorded before running a test.",
+        "hints": [
+          "Identify the key idea from Test data that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The expected result gives a known outcome to compare with the actual result. [B1]\nA difference indicates that the program may contain an error. [B1]\nPredefining it reduces the temptation to accept an incorrect result after seeing the output. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Test data",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.3 Producing robust programs family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-3-producing-robust-programs-02c",
+        "marks": 3,
+        "prompt": "Distinguish normal, boundary and erroneous/invalid test data.",
+        "hints": [
+          "Identify the key idea from Test data that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Normal data is typical valid input inside the accepted range. [B1]\nBoundary data is at or very close to the edge of the accepted range. [B1]\nInvalid/erroneous data does not satisfy the input rules. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Test data",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.3 Producing robust programs family 02",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "2.4 Boolean logic",
+    "category": "Paper 2 – Computational thinking, algorithms and programming",
+    "questions": [
+      {
+        "id": "gcse-cs-ocr-2-4-boolean-logic-01a",
+        "marks": 3,
+        "prompt": "For Q = NOT(A AND B), complete the output column for inputs 00, 01, 10, 11.",
+        "hints": [
+          "Identify the key idea from Boolean logic that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "A AND B gives 0, 0, 0, 1. [B1]\nNOT inverts each result. [B1]\nQ is therefore 1, 1, 1, 0. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Boolean logic",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.4 Boolean logic family 01",
+        "year": "Current specification",
+        "diagram": {
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 170\" width=\"100%\"><text x=\"25\" y=\"50\" font-family=\"Arial\" font-size=\"16\">A</text><text x=\"25\" y=\"120\" font-family=\"Arial\" font-size=\"16\">B</text><line x1=\"45\" y1=\"45\" x2=\"120\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"45\" y1=\"115\" x2=\"120\" y2=\"115\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"120\" y=\"25\" width=\"85\" height=\"110\" rx=\"10\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"162\" y=\"85\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">AND</text><line x1=\"205\" y1=\"80\" x2=\"265\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"282\" cy=\"80\" r=\"17\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"282\" y=\"85\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">NOT</text><line x1=\"299\" y1=\"80\" x2=\"380\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"390\" y=\"85\" font-family=\"Arial\" font-size=\"16\">Q</text></svg>",
+          "alt": "Two inputs feed an AND gate whose output is inverted by a NOT gate"
+        }
+      },
+      {
+        "id": "gcse-cs-ocr-2-4-boolean-logic-01b",
+        "marks": 3,
+        "prompt": "Simplify the meaning of the condition (age >= 18) AND (hasID = TRUE) in words.",
+        "hints": [
+          "Identify the key idea from Boolean logic that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "Both parts of an AND condition must be true. [B1]\nThe person must be at least 18. [B1]\nThe person must also have ID. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Boolean logic",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.4 Boolean logic family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-4-boolean-logic-01c",
+        "marks": 3,
+        "prompt": "A security alarm is triggered when doorOpen OR windowOpen is true. Complete the output for inputs 00, 01, 10, 11.",
+        "hints": [
+          "Identify the key idea from Boolean logic that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "OR is false only when both inputs are false. [B1]\nThe outputs are 0, 1, 1, 1. [B1]\nEither open sensor is sufficient to trigger the alarm. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Boolean logic",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.4 Boolean logic family 01",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "2.5 Programming languages and IDEs",
+    "category": "Paper 2 – Computational thinking, algorithms and programming",
+    "questions": [
+      {
+        "id": "gcse-cs-ocr-2-5-programming-languages-and-ides-01a",
+        "marks": 4,
+        "prompt": "Compare a compiler with an interpreter.",
+        "hints": [
+          "Identify the key idea from Translators and languages that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "A compiler translates a whole program before execution. [B1]\nIt can produce executable/object code that can be run again without retranslating. [B1]\nAn interpreter translates and executes code statement by statement. [B1]\nInterpreters can make testing/debugging convenient but usually add translation overhead during execution. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Translators and languages",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.5 Programming languages and IDEs family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-5-programming-languages-and-ides-01b",
+        "marks": 3,
+        "prompt": "Explain one reason to use a high-level language instead of assembly language.",
+        "hints": [
+          "Identify the key idea from Translators and languages that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "High-level code is closer to human-readable notation. [B1]\nComplex tasks can be expressed using fewer statements. [B1]\nIt is usually more portable across processor architectures. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Translators and languages",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.5 Programming languages and IDEs family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-5-programming-languages-and-ides-01c",
+        "marks": 3,
+        "prompt": "Explain the purpose of an assembler.",
+        "hints": [
+          "Identify the key idea from Translators and languages that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Assembly language uses mnemonics and symbolic operands. [B1]\nAn assembler translates assembly instructions into machine code. [B1]\nThe resulting machine code can be executed by the processor. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "Translators and languages",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.5 Programming languages and IDEs family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-5-programming-languages-and-ides-02a",
+        "marks": 4,
+        "prompt": "Give four features of an IDE that support program development.",
+        "hints": [
+          "Identify the key idea from IDE tools that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "A code editor provides syntax-aware editing. [B1]\nA debugger supports breakpoints/step execution. [B1]\nError diagnostics report syntax/type/build problems. [B1]\nTools may provide autocomplete, refactoring, testing or version-control integration. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "IDE tools",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.5 Programming languages and IDEs family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-5-programming-languages-and-ides-02b",
+        "marks": 4,
+        "prompt": "Explain how a debugger helps locate a logic error.",
+        "hints": [
+          "Identify the key idea from IDE tools that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A breakpoint can pause execution at a chosen line. [B1]\nStep execution lets the developer run one statement at a time. [B1]\nVariable/watch views show state as the program executes. [B1]\nThe developer can identify where actual state first differs from expected state. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "IDE tools",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.5 Programming languages and IDEs family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "gcse-cs-ocr-2-5-programming-languages-and-ides-02c",
+        "marks": 3,
+        "prompt": "Explain the purpose of syntax highlighting and code completion.",
+        "hints": [
+          "Identify the key idea from IDE tools that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Syntax highlighting visually distinguishes language elements and can make structure/errors easier to notice. [B1]\nCode completion suggests identifiers/constructs and reduces typing. [B1]\nBoth improve development speed/readability but do not replace testing. [B1]",
+        "paper": "Paper 2 – Computational thinking, algorithms and programming",
+        "subtopic": "IDE tools",
+        "inspiredBy": "OCR J277 Paper 2 – Computational thinking, algorithms and programming – 2.5 Programming languages and IDEs family 02",
+        "year": "Current specification"
+      }
+    ]
+  }
+]
