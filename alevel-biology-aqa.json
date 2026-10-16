@@ -2080,7 +2080,7 @@
    {
     "id": "bio-p1-spec-01.4-a",
     "marks": 4,
-    "prompt": "Between 10 and 30 minutes, the amount of product at 50 °C stopped increasing, while at 30 °C it continued to increase slowly. Explain these results. (4)",
+    "prompt": "An enzyme-controlled reaction was carried out at 30 °C and at 50 °C. Between 10 and 30 minutes, the amount of product at 50 °C stopped increasing, while at 30 °C it continued to increase slowly. Explain these results. (4)",
     "hints": [
      "What has happened to the enzyme at 50 °C?",
      "Why is the 30 °C curve slowing?"
@@ -2167,19 +2167,6 @@
     "year": "June 2017",
     "paper": "AQA Paper 3 Q05.2",
     "subtopic": "Inhibition"
-   },
-   {
-    "id": "bio-p3-2017-05.2-c",
-    "marks": 2,
-    "prompt": "Explain why an enzyme only catalyses one type of reaction. (2)",
-    "hints": [
-     "Active site shape.",
-     "Complementary."
-    ],
-    "solution": "Active site has a specific shape due to its tertiary structure [B1]\nOnly complementary to one substrate. [B1]",
-    "year": "June 2017",
-    "paper": "AQA Paper 3 Q05.2",
-    "subtopic": "Enzyme specificity"
    },
    {
     "id": "bio-p3-2018-01.2-b",
@@ -3543,19 +3530,6 @@
     "year": "June 2023",
     "paper": "AQA Paper 3 Q04.1",
     "subtopic": "Lysosomes"
-   },
-   {
-    "id": "bio-p3-2023-04.1-b",
-    "marks": 2,
-    "prompt": "Describe how a phagocyte destroys a bacterium. (2)",
-    "hints": [
-     "Engulf.",
-     "Phagolysosome."
-    ],
-    "solution": "Engulfs the bacterium by phagocytosis into a phagosome [B1]\nLysosome fuses and releases lysozymes that hydrolyse the bacterium. [B1]",
-    "year": "June 2023",
-    "paper": "AQA Paper 3 Q04.1",
-    "subtopic": "Phagocytosis"
    },
    {
     "id": "bio-p3-2023-04.1-c",
@@ -5340,19 +5314,6 @@
     "subtopic": "Membrane transport"
    },
    {
-    "id": "bio-p1-2022-03.3-a",
-    "marks": 2,
-    "prompt": "Explain why ions cannot diffuse directly through the phospholipid bilayer. (2)",
-    "hints": [
-     "Ions are charged.",
-     "What is the middle of the bilayer like?"
-    ],
-    "solution": "Ions are charged / water-soluble [B1]\nSo cannot pass through the hydrophobic fatty acid tails / need channel proteins. [B1]",
-    "year": "June 2022",
-    "paper": "AQA Paper 1 Q03.3",
-    "subtopic": "Membrane permeability"
-   },
-   {
     "id": "bio-p1-2022-03.3-b",
     "marks": 2,
     "prompt": "Explain why glucose needs carrier or channel proteins to cross a cell-surface membrane. (2)",
@@ -5858,19 +5819,6 @@
     "year": "June 2023",
     "paper": "AQA Paper 2 Q10.4",
     "subtopic": "Transport proteins"
-   },
-   {
-    "id": "bio-p2-2025-02.2-b",
-    "marks": 2,
-    "prompt": "Explain why red blood cells burst when placed in distilled water but plant cells don't. (2)",
-    "hints": [
-     "Which way does water move?",
-     "What resists expansion in plant cells?"
-    ],
-    "solution": "Water enters both by osmosis because the cells have a lower water potential [B1]\nPlant cell wall resists expansion / cell becomes turgid; red blood cells have no cell wall so they burst. [B1]",
-    "year": "June 2025",
-    "paper": "AQA Paper 2 Q02.2",
-    "subtopic": "Osmosis"
    },
    {
     "id": "bio-p3-2017-06.4-a",
@@ -7000,19 +6948,6 @@
     "subtopic": "Humoral response"
    },
    {
-    "id": "bio-p3-2020-03.4-b",
-    "marks": 3,
-    "prompt": "Describe the role of T helper cells in the immune response. (3)",
-    "hints": [
-     "What do they bind to?",
-     "Which cells do they activate?"
-    ],
-    "solution": "T helper cell receptor binds to antigen presented on an antigen-presenting cell [B1]\nReleases chemicals (cytokines) that stimulate B cells to divide / phagocytes [B1]\nAnd activate cytotoxic T cells. [B1]",
-    "year": "June 2020",
-    "paper": "AQA Paper 3 Q03.4",
-    "subtopic": "Cellular response"
-   },
-   {
     "id": "bio-p3-2020-03.4-c",
     "marks": 3,
     "prompt": "Explain why the secondary immune response is faster and larger than the primary response. (3)",
@@ -7024,32 +6959,6 @@
     "year": "June 2020",
     "paper": "AQA Paper 3 Q03.4",
     "subtopic": "Immune response"
-   },
-   {
-    "id": "bio-p3-2021-02.1-a",
-    "marks": 4,
-    "prompt": "Describe how HIV replicates inside helper T cells. (4)",
-    "hints": [
-     "What binds first?",
-     "What enzyme makes DNA?"
-    ],
-    "solution": "Attachment proteins bind to receptors (CD4) on the helper T cell [B1]\nHIV RNA enters the cell [B1]\nReverse transcriptase converts RNA to DNA [B1]\nViral DNA inserted into the host DNA, transcribed and translated; viral proteins and RNA assembled into new viruses which bud out. [B1]",
-    "year": "June 2021",
-    "paper": "AQA Paper 3 Q02.1",
-    "subtopic": "HIV"
-   },
-   {
-    "id": "bio-p3-2021-02.1-b",
-    "marks": 4,
-    "prompt": "Explain how HIV infection leads to the symptoms of AIDS. (4)",
-    "hints": [
-     "Which cells are destroyed?",
-     "What do they normally do?"
-    ],
-    "solution": "HIV destroys helper T cells [B1]\nFewer helper T cells to stimulate B cells / cytotoxic T cells / phagocytes [B1]\nImmune system can't respond effectively to pathogens [B1]\nOpportunistic infections / cancers cause illness and death. [B1]",
-    "year": "June 2021",
-    "paper": "AQA Paper 3 Q02.1",
-    "subtopic": "HIV"
    },
    {
     "id": "bio-p3-2021-02.1-c",
@@ -13629,20 +13538,6 @@
     "table": "Species | Number\nA | 5\nB | 12\nC | 8\nD | 3\nE | 2"
    },
    {
-    "id": "bio-p3-2017-04.1-b",
-    "marks": 2,
-    "prompt": "Use d = N(N − 1) ÷ Σn(n − 1) to calculate the index of diversity for the counts in the table. (2)",
-    "hints": [
-     "N = 30.",
-     "Sum n(n − 1)."
-    ],
-    "solution": "Σn(n − 1) = 90 + 90 + 30 + 12 = 222 [M1]\nd = 870 ÷ 222 = 3.92. [A1]",
-    "year": "June 2017",
-    "paper": "AQA Paper 3 Q04.1",
-    "subtopic": "Index of diversity",
-    "table": "Species | Number\nA | 10\nB | 10\nC | 6\nD | 4"
-   },
-   {
     "id": "bio-p3-2017-04.1-c",
     "marks": 2,
     "prompt": "Use d = N(N − 1) ÷ Σn(n − 1) to calculate the index of diversity for the counts in the table. (2)",
@@ -14109,7 +14004,7 @@
    {
     "id": "bio-p2-2017-04.3-c",
     "marks": 2,
-    "prompt": "Explain what DCPIP replaces in the light-dependent reaction when used in this investigation. (2)",
+    "prompt": "In an investigation, DCPIP is added to isolated chloroplasts in the light. Explain what DCPIP replaces in the light-dependent reaction. (2)",
     "hints": [
      "What normally accepts electrons at the end of the chain?",
      "What happens to DCPIP when it accepts electrons?"
@@ -20245,19 +20140,6 @@
     "subtopic": "Diabetes"
    },
    {
-    "id": "bio-p2-2024-09.1-c",
-    "marks": 2,
-    "prompt": "Explain how insulin lowers blood glucose concentration. (2)",
-    "hints": [
-     "Where does insulin bind?",
-     "What happens to glucose inside the cell?"
-    ],
-    "solution": "Insulin binds to receptors, more glucose channel proteins inserted so more glucose enters cells [B1]\nActivates enzymes converting glucose to glycogen (glycogenesis) / increases respiration. [B1]",
-    "year": "June 2024",
-    "paper": "AQA Paper 2 Q09.1",
-    "subtopic": "Insulin"
-   },
-   {
     "id": "bio-p2-2025-02.1-a",
     "marks": 1,
     "prompt": "Give the term for keeping the internal environment of the body within restricted limits. (1)",
@@ -22151,19 +22033,6 @@
     "table": "Offspring | Number\nGrey, normal wings | 415\nBlack, vestigial wings | 405\nGrey, vestigial wings | 92\nBlack, normal wings | 88"
    },
    {
-    "id": "bio-p2-2025-05.3-c",
-    "marks": 3,
-    "prompt": "Explain why two linked genes that are far apart on a chromosome show more recombinant offspring than two genes close together. (3)",
-    "hints": [
-     "Where does crossing over occur?",
-     "Is it more likely between distant loci?"
-    ],
-    "solution": "Crossing over occurs at chiasmata at random points along chromatids [B1]\nMore likely to occur between loci far apart [B1]\nSo more recombinant gametes / offspring. [B1]",
-    "year": "June 2025",
-    "paper": "AQA Paper 2 Q05.3",
-    "subtopic": "Autosomal linkage"
-   },
-   {
     "id": "bio-p2-spec-03.1-a",
     "marks": 1,
     "prompt": "Two genes in fruit flies, for body colour and wing length, are linked. Explain what this means. (1)",
@@ -22453,19 +22322,6 @@
      "60 × 50 = 3000."
     ],
     "solution": "Use (60 × 50) ÷ 12 [M1]\n3000 ÷ 12 [M1]\n250 beetles. [A1]",
-    "year": "June 2017",
-    "paper": "AQA Paper 2 Q02.2",
-    "subtopic": "Mark–release–recapture"
-   },
-   {
-    "id": "bio-p2-2017-02.2-c",
-    "marks": 3,
-    "prompt": "Give three assumptions made when using mark–release–recapture. (3)",
-    "hints": [
-     "Think about movement in and out of the area.",
-     "Think about the marks."
-    ],
-    "solution": "No immigration or emigration [B1]\nNo (or few) births and deaths between samples [B1]\nMarking does not affect survival / chance of being caught [B1]\nMarked individuals mix randomly with the population; marks are not lost. [B1]\nAny 3 of these points — max 3 marks.",
     "year": "June 2017",
     "paper": "AQA Paper 2 Q02.2",
     "subtopic": "Mark–release–recapture"
@@ -24892,7 +24748,7 @@
    {
     "id": "bio-p3-spec-01.5-a",
     "marks": 2,
-    "prompt": "Population estimates rose each day after the first. Over 5 days, the number of marked insects caught fell from 78 to under 10. Suggest how the method could explain this. (2)",
+    "prompt": "Mark–release–recapture was repeated on an insect population each day for 5 days. Population estimates rose each day after the first. Over 5 days, the number of marked insects caught fell from 78 to under 10. Suggest how the method could explain this. (2)",
     "hints": [
      "Do marks last?",
      "Learning."
@@ -25912,19 +25768,6 @@
     "subtopic": "Epigenetics"
    },
    {
-    "id": "bio-p2-2018-02.2-a",
-    "marks": 3,
-    "prompt": "Explain how increased methylation of a tumour suppressor gene can lead to the development of a tumour. (3)",
-    "hints": [
-     "What does methylation do to transcription?",
-     "What does the tumour suppressor protein normally do?"
-    ],
-    "solution": "Methyl groups added to the DNA (e.g. cytosine) of the gene / promoter [B1]\nPrevents transcription factors binding, so the gene is not transcribed [B1]\nNo tumour suppressor protein, so cell division is not slowed / uncontrolled division. [B1]",
-    "year": "June 2018",
-    "paper": "AQA Paper 2 Q02.2",
-    "subtopic": "Epigenetics and cancer"
-   },
-   {
     "id": "bio-p2-2018-02.2-b",
     "marks": 3,
     "prompt": "Explain how decreased methylation (hypomethylation) of an oncogene can lead to a tumour. (3)",
@@ -26587,32 +26430,6 @@
     "year": "Specimen",
     "paper": "AQA Paper 2 Q09.1",
     "subtopic": "Epigenetics and cancer"
-   },
-   {
-    "id": "bio-p2-spec-09.1-b",
-    "marks": 3,
-    "prompt": "Explain how decreased methylation (hypomethylation) of an oncogene can lead to cancer. (3)",
-    "hints": [
-     "Effect on transcription?",
-     "What does the oncogene do?"
-    ],
-    "solution": "Less methylation means the gene is transcribed more / switched on [B1]\nMore protein that stimulates cell division [B1]\nUncontrolled / rapid cell division — tumour. [B1]",
-    "year": "Specimen",
-    "paper": "AQA Paper 2 Q09.1",
-    "subtopic": "Epigenetics and cancer"
-   },
-   {
-    "id": "bio-p2-spec-09.1-c",
-    "marks": 3,
-    "prompt": "Explain how high oestrogen concentration can increase the risk of some breast cancers. (3)",
-    "hints": [
-     "What does oestrogen bind to?",
-     "Effect on genes?"
-    ],
-    "solution": "Oestrogen binds to receptors / transcription factor, activating it [B1]\nTranscription factor binds to promoter of genes that cause cell division [B1]\nIncreased / uncontrolled cell division, forming a tumour. [B1]",
-    "year": "Specimen",
-    "paper": "AQA Paper 2 Q09.1",
-    "subtopic": "Oestrogen and cancer"
    },
    {
     "id": "bio-p3-2017-05.4-a",
@@ -28032,19 +27849,6 @@
     "subtopic": "Producing DNA fragments"
    },
    {
-    "id": "bio-p2-2020-09.1-b",
-    "marks": 2,
-    "prompt": "Describe how restriction enzymes and DNA ligase are used to insert a gene into a plasmid. (2)",
-    "hints": [
-     "Same enzyme for both?",
-     "What does ligase join?"
-    ],
-    "solution": "The same restriction enzyme cuts the plasmid and the gene, producing complementary sticky ends [B1]\nDNA ligase joins them by forming phosphodiester bonds. [B1]",
-    "year": "June 2020",
-    "paper": "AQA Paper 2 Q09.1",
-    "subtopic": "Recombinant DNA"
-   },
-   {
     "id": "bio-p2-2020-09.1-c",
     "marks": 2,
     "prompt": "Explain why promoter and terminator regions are added to a gene before it is inserted into a host. (2)",
@@ -28552,19 +28356,6 @@
     "subtopic": "Marker genes"
    },
    {
-    "id": "bio-p2-2024-07.4-c",
-    "marks": 2,
-    "prompt": "Explain why a promoter and terminator region are added to a gene inserted into a plasmid. (2)",
-    "hints": [
-     "What binds to the promoter?",
-     "Where does transcription stop?"
-    ],
-    "solution": "Promoter allows RNA polymerase (transcription factors) to bind so the gene is transcribed [B1]\nTerminator stops transcription at the end of the gene. [B1]",
-    "year": "June 2024",
-    "paper": "AQA Paper 2 Q07.4",
-    "subtopic": "Recombinant DNA"
-   },
-   {
     "id": "bio-p2-2025-04.2-b",
     "marks": 5,
     "prompt": "Explain how a functional gene can be delivered to cells using a harmless virus in gene therapy, and suggest why the treatment may not be permanent. (5)",
@@ -28576,19 +28367,6 @@
     "year": "June 2025",
     "paper": "AQA Paper 2 Q04.2",
     "subtopic": "Gene therapy"
-   },
-   {
-    "id": "bio-p2-2025-09.2-a",
-    "marks": 2,
-    "prompt": "What is a DNA probe? (2)",
-    "hints": [
-     "Is it single or double stranded?",
-     "How is it detected?"
-    ],
-    "solution": "Short, single-stranded DNA complementary to a specific base sequence (allele) [B1]\nLabelled with a radioactive or fluorescent marker. [B1]",
-    "year": "June 2025",
-    "paper": "AQA Paper 2 Q09.2",
-    "subtopic": "DNA probes"
    },
    {
     "id": "bio-p2-2025-09.2-b",
