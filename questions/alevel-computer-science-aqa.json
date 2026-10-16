@@ -1,0 +1,2534 @@
+[
+  {
+    "topic": "Fundamentals of programming",
+    "category": "Paper 1 – Programming and theory",
+    "questions": [
+      {
+        "id": "cs-aqa-fundamentals-of-programming-01a",
+        "marks": 4,
+        "prompt": "Explain the difference between local and global scope, and give one reason to minimise the use of global variables.",
+        "hints": [
+          "Identify the key idea from Programming paradigms and constructs that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "A local identifier is accessible only within its defining block/subroutine scope. [B1]\nA global identifier can be accessed from a much wider part of the program. [B1]\nExcessive global state creates hidden dependencies between modules. [B1]\nReducing global variables therefore improves modularity, testability or maintainability. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Programming paradigms and constructs",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of programming family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-programming-01b",
+        "marks": 4,
+        "prompt": "Explain pass-by-value and pass-by-reference semantics.",
+        "hints": [
+          "Identify the key idea from Programming paradigms and constructs that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Pass-by-value gives the subroutine a copy/value of the argument. [B1]\nChanging the parameter does not directly change the caller variable. [B1]\nPass-by-reference gives access to the original object/location. [B1]\nChanges made through the reference can therefore be visible to the caller. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Programming paradigms and constructs",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of programming family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-programming-01c",
+        "marks": 4,
+        "prompt": "A recursive function calculates factorial(n). Explain the role of the base case and the recursive case.",
+        "hints": [
+          "Identify the key idea from Programming paradigms and constructs that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "The base case returns a result without making another recursive call. [B1]\nIt prevents recursion continuing indefinitely. [B1]\nThe recursive case reduces the problem, for example n × factorial(n-1). [B1]\nRepeated reduction eventually reaches the base case. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Programming paradigms and constructs",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of programming family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-programming-02a",
+        "marks": 4,
+        "prompt": "A class BankAccount has private balance and methods deposit and withdraw. Explain encapsulation and why balance should not be changed directly by arbitrary code.",
+        "hints": [
+          "Identify the key idea from Object-oriented programming that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Encapsulation groups state and behaviour inside an object/class. [B1]\nPrivate state hides implementation details from external code. [B1]\nMethods can enforce rules such as preventing invalid withdrawals. [B1]\nThis protects invariants and reduces unintended coupling. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Object-oriented programming",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of programming family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-programming-02b",
+        "marks": 4,
+        "prompt": "Explain inheritance and polymorphism using a superclass Vehicle and subclasses Car and Bicycle.",
+        "hints": [
+          "Identify the key idea from Object-oriented programming that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Inheritance allows subclasses to reuse/extend attributes and methods of Vehicle. [B1]\nCar and Bicycle can provide specialised behaviour. [B1]\nPolymorphism allows code to use a common Vehicle interface while different subclass implementations respond differently. [B1]\nThis supports extensibility and reduces repeated conditional code. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Object-oriented programming",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of programming family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-programming-02c",
+        "marks": 3,
+        "prompt": "Distinguish a class from an object.",
+        "hints": [
+          "Identify the key idea from Object-oriented programming that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "A class is a blueprint/type defining attributes and methods. [B1]\nAn object is a particular runtime instance of that class. [B1]\nDifferent objects of the same class can hold different state values. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Object-oriented programming",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of programming family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-programming-03a",
+        "marks": 4,
+        "prompt": "Explain why unit tests and integration tests are both useful in a large program.",
+        "hints": [
+          "Identify the key idea from Testing and defensive programming that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Unit tests check individual functions/classes in isolation. [B1]\nThey help locate defects in small components quickly. [B1]\nIntegration tests check whether components interact correctly. [B1]\nThey can reveal interface/data-flow problems not visible in isolated units. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Testing and defensive programming",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of programming family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-programming-03b",
+        "marks": 4,
+        "prompt": "A function accepts a positive integer and returns its square root. Identify suitable normal, boundary and invalid tests.",
+        "hints": [
+          "Identify the key idea from Testing and defensive programming that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "A normal test could use 25 with expected result 5. [B1]\nA boundary test could use the smallest allowed positive value such as 1. [B1]\nAn invalid test could use 0 or a negative value if these are outside the specification. [B1]\nExpected outputs/errors should be specified for each test. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Testing and defensive programming",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of programming family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-programming-03c",
+        "marks": 3,
+        "prompt": "Explain why assertions can help during software development.",
+        "hints": [
+          "Identify the key idea from Testing and defensive programming that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "An assertion checks that a condition believed to be true actually holds. [B1]\nA failed assertion exposes an unexpected program state close to its cause. [B1]\nAssertions can document assumptions/invariants and support debugging/testing. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Testing and defensive programming",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of programming family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-programming-04a",
+        "marks": 4,
+        "prompt": "A program performs a linear scan through n records inside another linear scan through n records. State the time complexity and explain it.",
+        "hints": [
+          "Identify the key idea from Complexity-aware programming that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The outer loop runs approximately n times. [B1]\nFor each outer iteration, the inner loop also runs approximately n times. [B1]\nThe total number of operations is proportional to n². [B1]\nThe time complexity is O(n²). [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Complexity-aware programming",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of programming family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-programming-04b",
+        "marks": 3,
+        "prompt": "Explain why replacing repeated linear searches with a hash table can improve average performance.",
+        "hints": [
+          "Identify the key idea from Complexity-aware programming that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A linear search takes O(n) comparisons in the general case. [B1]\nA well-designed hash table can provide approximately O(1) average lookup. [B1]\nRepeated lookups therefore scale much better as the dataset grows, assuming a suitable hash function/load factor. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Complexity-aware programming",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of programming family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-programming-04c",
+        "marks": 3,
+        "prompt": "Distinguish time complexity from space complexity.",
+        "hints": [
+          "Identify the key idea from Complexity-aware programming that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Time complexity describes how running work/time grows with input size. [B1]\nSpace complexity describes how additional memory use grows with input size. [B1]\nAn algorithm may trade extra memory for faster execution or vice versa. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Complexity-aware programming",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of programming family 04",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "Fundamentals of data structures",
+    "category": "Paper 1 – Programming and theory",
+    "questions": [
+      {
+        "id": "cs-aqa-fundamentals-of-data-structures-01a",
+        "marks": 4,
+        "prompt": "A stack initially contains [A, B, C] with C on top. PUSH D, POP, PUSH E are performed. State the final stack and the value returned by POP.",
+        "hints": [
+          "Identify the key idea from Stacks and queues that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "PUSH D gives [A,B,C,D]. [B1]\nPOP returns D and leaves [A,B,C]. [B1]\nPUSH E gives [A,B,C,E]. [B1]\nFinal stack: [A,B,C,E]; popped value: D. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Stacks and queues",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of data structures family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-structures-01b",
+        "marks": 3,
+        "prompt": "Explain why a queue is suitable for a print spooler.",
+        "hints": [
+          "Identify the key idea from Stacks and queues that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A queue follows first-in-first-out order. [B1]\nThe first job submitted can be processed before later jobs. [B1]\nEnqueue adds a job at the rear and dequeue removes from the front. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Stacks and queues",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of data structures family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-structures-01c",
+        "marks": 3,
+        "prompt": "Give one application of a stack and explain why LIFO behaviour is appropriate.",
+        "hints": [
+          "Identify the key idea from Stacks and queues that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A call stack/undo/history/depth-first search is a suitable example. [B1]\nThe most recently added item must be handled first. [B1]\nThis matches last-in-first-out behaviour. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Stacks and queues",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of data structures family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-structures-02a",
+        "marks": 4,
+        "prompt": "The diagram is a binary search tree. Give the nodes visited when searching for P.",
+        "hints": [
+          "Identify the key idea from Trees and graphs that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "Start at M. [B1]\nP is greater than M, so move to T. [B1]\nP is less than T, so move to P. [B1]\nThe search path is M, T, P. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Trees and graphs",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of data structures family 02",
+        "year": "Current specification",
+        "diagram": {
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 230\" width=\"100%\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"210\" y1=\"45\" x2=\"120\" y2=\"105\"/><line x1=\"210\" y1=\"45\" x2=\"300\" y2=\"105\"/><line x1=\"120\" y1=\"105\" x2=\"75\" y2=\"175\"/><line x1=\"120\" y1=\"105\" x2=\"165\" y2=\"175\"/><line x1=\"300\" y1=\"105\" x2=\"255\" y2=\"175\"/><line x1=\"300\" y1=\"105\" x2=\"345\" y2=\"175\"/></g><g font-family=\"Arial\" font-size=\"14\" text-anchor=\"middle\"><circle cx=\"210\" cy=\"40\" r=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"210\" y=\"45\">M</text><circle cx=\"120\" cy=\"105\" r=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"120\" y=\"110\">G</text><circle cx=\"300\" cy=\"105\" r=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"300\" y=\"110\">T</text><circle cx=\"75\" cy=\"180\" r=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"75\" y=\"185\">D</text><circle cx=\"165\" cy=\"180\" r=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"165\" y=\"185\">J</text><circle cx=\"255\" cy=\"180\" r=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"255\" y=\"185\">P</text><circle cx=\"345\" cy=\"180\" r=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"345\" y=\"185\">W</text></g></svg>",
+          "alt": "A binary search tree with root M and two levels of child nodes"
+        }
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-structures-02b",
+        "marks": 4,
+        "prompt": "Distinguish breadth-first search from depth-first search of a graph.",
+        "hints": [
+          "Identify the key idea from Trees and graphs that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Breadth-first search explores vertices level by level from the start. [B1]\nIt commonly uses a queue. [B1]\nDepth-first search follows a path as far as possible before backtracking. [B1]\nIt commonly uses a stack or recursion. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Trees and graphs",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of data structures family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-structures-02c",
+        "marks": 3,
+        "prompt": "Explain the difference between a tree and a general graph.",
+        "hints": [
+          "Identify the key idea from Trees and graphs that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "A tree is connected and has no cycles. [B1]\nA tree with n vertices has n-1 edges. [B1]\nA general graph may contain cycles, multiple paths or disconnected components depending on the definition/context. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Trees and graphs",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of data structures family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-structures-03a",
+        "marks": 4,
+        "prompt": "Explain how a hash table stores and retrieves a key-value pair.",
+        "hints": [
+          "Identify the key idea from Hash tables that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A hash function converts the key into an index/bucket. [B1]\nThe pair is stored in the corresponding location/bucket. [B1]\nTo retrieve it, the same hash function is applied to the key. [B1]\nCollisions require a strategy such as chaining or open addressing. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Hash tables",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of data structures family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-structures-03b",
+        "marks": 3,
+        "prompt": "Two keys produce the same hash-table index. State what this is called and describe one way to handle it.",
+        "hints": [
+          "Identify the key idea from Hash tables that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "This is a collision. [B1]\nChaining can store multiple entries in a collection at the same bucket. [B1]\nAlternatively open addressing probes other table locations according to a rule. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Hash tables",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of data structures family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-structures-03c",
+        "marks": 4,
+        "prompt": "Explain why a poor hash function can reduce performance.",
+        "hints": [
+          "Identify the key idea from Hash tables that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A poor function may map many keys to the same few buckets. [B1]\nThis creates many collisions. [B1]\nCollision handling then requires extra comparisons/probes. [B1]\nLookup can move away from approximately constant average time. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Hash tables",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of data structures family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-structures-04a",
+        "marks": 4,
+        "prompt": "Explain one advantage of a linked list over a fixed-size array and one disadvantage.",
+        "hints": [
+          "Identify the key idea from Linked structures that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A linked list can grow dynamically without needing contiguous storage. [B1]\nInsertion/removal can be efficient when a node position/reference is already known. [B1]\nRandom indexed access is slow because nodes must be traversed in sequence. [B1]\nEach node also needs extra pointer/reference storage. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Linked structures",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of data structures family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-structures-04b",
+        "marks": 3,
+        "prompt": "A singly linked list stores A → B → C. Describe the pointer changes needed to insert X between A and B.",
+        "hints": [
+          "Identify the key idea from Linked structures that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "Set X.next to refer to B. [B1]\nChange A.next to refer to X. [B1]\nKeep B and C links otherwise unchanged. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Linked structures",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of data structures family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-structures-04c",
+        "marks": 3,
+        "prompt": "Explain why deleting a node from a linked list requires changing links as well as releasing/removing the node.",
+        "hints": [
+          "Identify the key idea from Linked structures that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The predecessor must be made to refer to the deleted node’s successor. [B1]\nOtherwise the remaining list would not be connected correctly. [B1]\nThe removed node can then be discarded/reclaimed. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Linked structures",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of data structures family 04",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "Fundamentals of algorithms",
+    "category": "Paper 1 – Programming and theory",
+    "questions": [
+      {
+        "id": "cs-aqa-fundamentals-of-algorithms-01a",
+        "marks": 4,
+        "prompt": "Rank O(1), O(log n), O(n), O(n log n), O(n²) from best to worst growth for large n.",
+        "hints": [
+          "Identify the key idea from Algorithm complexity that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "O(1) grows least. [B1]\nThen O(log n). [B1]\nThen O(n), followed by O(n log n). [B1]\nO(n²) grows fastest of the listed classes. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Algorithm complexity",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of algorithms family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-algorithms-01b",
+        "marks": 3,
+        "prompt": "Binary search runs in O(log n) time on a sorted array. Explain why.",
+        "hints": [
+          "Identify the key idea from Algorithm complexity that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Each comparison chooses one half of the remaining search interval. [B1]\nThe problem size is repeatedly divided by 2. [B1]\nThe number of divisions needed to reach size 1 grows logarithmically with n. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Algorithm complexity",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of algorithms family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-algorithms-01c",
+        "marks": 3,
+        "prompt": "Explain why big-O notation usually ignores constant factors.",
+        "hints": [
+          "Identify the key idea from Algorithm complexity that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Big-O describes asymptotic growth as input size becomes large. [B1]\nMultiplying work by a fixed constant does not change the growth class. [B1]\nIt is therefore useful for comparing scalability independently of machine-specific constants. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Algorithm complexity",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of algorithms family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-algorithms-02a",
+        "marks": 4,
+        "prompt": "Describe the purpose of Dijkstra’s algorithm and state a condition on edge weights for the standard algorithm.",
+        "hints": [
+          "Identify the key idea from Graph algorithms that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "It finds shortest path distances from a start vertex in a weighted graph. [B1]\nIt repeatedly selects the unvisited vertex with the smallest tentative distance. [B1]\nIt relaxes/update distances to neighbouring vertices. [B1]\nThe standard algorithm assumes non-negative edge weights. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Graph algorithms",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of algorithms family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-algorithms-02b",
+        "marks": 3,
+        "prompt": "Explain how breadth-first search can find a shortest path in an unweighted graph.",
+        "hints": [
+          "Identify the key idea from Graph algorithms that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "BFS visits vertices in increasing number of edges from the start. [B1]\nA queue maintains this level order. [B1]\nThe first time a vertex is reached gives a path with the fewest edges from the start. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Graph algorithms",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of algorithms family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-algorithms-02c",
+        "marks": 4,
+        "prompt": "Compare depth-first and breadth-first traversal for memory and exploration order.",
+        "hints": [
+          "Identify the key idea from Graph algorithms that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "DFS follows one branch deeply before backtracking. [B1]\nBFS explores all neighbours/levels before going deeper. [B1]\nBFS may need to store a large frontier. [B1]\nDFS can use less memory on some wide graphs but does not guarantee fewest-edge paths. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Graph algorithms",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of algorithms family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-algorithms-03a",
+        "marks": 3,
+        "prompt": "Explain why merge sort has O(n log n) time complexity.",
+        "hints": [
+          "Identify the key idea from Sorting algorithms that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The list is divided into halves for about log n levels. [B1]\nAcross each level, merging processes about n elements in total. [B1]\nn work per level across log n levels gives O(n log n). [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Sorting algorithms",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of algorithms family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-algorithms-03b",
+        "marks": 3,
+        "prompt": "Compare insertion sort and merge sort for a small nearly sorted list.",
+        "hints": [
+          "Identify the key idea from Sorting algorithms that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Insertion sort has low overhead and can perform well when few elements are out of place. [B1]\nMerge sort guarantees O(n log n) growth but needs additional merge work/storage. [B1]\nFor a small nearly sorted list, insertion sort can therefore be a practical choice. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Sorting algorithms",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of algorithms family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-algorithms-03c",
+        "marks": 2,
+        "prompt": "Explain what makes a sorting algorithm stable.",
+        "hints": [
+          "Identify the key idea from Sorting algorithms that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A stable sort preserves the original relative order of records whose sort keys compare equal. [B1]\nThis matters when a previous ordering on another field should be retained for equal keys. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Sorting algorithms",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of algorithms family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-algorithms-04a",
+        "marks": 4,
+        "prompt": "Explain how recursive binary search reduces the problem on each call.",
+        "hints": [
+          "Identify the key idea from Recursive algorithms that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Compare the target with the middle element. [B1]\nIf equal, return the result. [B1]\nOtherwise recurse only into the lower or upper half as appropriate. [B1]\nThe search interval therefore becomes about half as large each call. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Recursive algorithms",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of algorithms family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-algorithms-04b",
+        "marks": 4,
+        "prompt": "A recursive traversal of a binary tree visits left subtree, node, right subtree. Name this traversal and explain its result on a binary search tree.",
+        "hints": [
+          "Identify the key idea from Recursive algorithms that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "This is an in-order traversal. [B1]\nIt recursively visits the left subtree first. [B1]\nThen it visits the current node and then the right subtree. [B1]\nFor a binary search tree it outputs keys in sorted order. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Recursive algorithms",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of algorithms family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-algorithms-04c",
+        "marks": 3,
+        "prompt": "Explain the risk of missing a base case in a recursive algorithm.",
+        "hints": [
+          "Identify the key idea from Recursive algorithms that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The recursive calls may never terminate normally. [B1]\nEach call consumes stack space. [B1]\nEventually the program may fail with a stack overflow or recursion-depth error. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Recursive algorithms",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Fundamentals of algorithms family 04",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "Theory of computation",
+    "category": "Paper 1 – Programming and theory",
+    "questions": [
+      {
+        "id": "cs-aqa-theory-of-computation-01a",
+        "marks": 4,
+        "prompt": "The finite state machine moves S0 --1→ S1 --0→ S2, where S2 is accepting. Explain whether the string 10 is accepted using the transitions shown.",
+        "hints": [
+          "Identify the key idea from Finite state machines that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Start in S0. [B1]\nReading 1 moves to S1. [B1]\nReading 0 moves to S2. [B1]\nS2 is an accepting state, so 10 is accepted. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Finite state machines",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Theory of computation family 01",
+        "year": "Current specification",
+        "diagram": {
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 190\" width=\"100%\"><defs><marker id=\"a\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L0,6 L6,3 z\" fill=\"currentColor\"/></marker></defs><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"100\" cy=\"95\" r=\"32\"/><circle cx=\"260\" cy=\"95\" r=\"32\"/><circle cx=\"420\" cy=\"95\" r=\"36\"/><circle cx=\"420\" cy=\"95\" r=\"30\"/><line x1=\"132\" y1=\"95\" x2=\"225\" y2=\"95\" marker-end=\"url(#a)\"/><line x1=\"292\" y1=\"95\" x2=\"380\" y2=\"95\" marker-end=\"url(#a)\"/></g><g font-family=\"Arial\" font-size=\"14\" text-anchor=\"middle\"><text x=\"100\" y=\"100\">S0</text><text x=\"260\" y=\"100\">S1</text><text x=\"420\" y=\"100\">S2</text><text x=\"178\" y=\"82\">1</text><text x=\"336\" y=\"82\">0</text></g></svg>",
+          "alt": "Finite state machine with transitions from S0 to S1 on 1 and S1 to accepting state S2 on 0"
+        }
+      },
+      {
+        "id": "cs-aqa-theory-of-computation-01b",
+        "marks": 3,
+        "prompt": "Explain what makes a deterministic finite state machine deterministic.",
+        "hints": [
+          "Identify the key idea from Finite state machines that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "For each state and input symbol there is at most one defined next state. [B1]\nThe current state plus current input therefore determines the next state uniquely. [B1]\nThere is no choice between multiple transitions for the same state/input pair. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Finite state machines",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Theory of computation family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-theory-of-computation-01c",
+        "marks": 3,
+        "prompt": "Give one use of a finite state machine in software or hardware.",
+        "hints": [
+          "Identify the key idea from Finite state machines that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "A protocol parser, lexical analyser, vending machine controller or simple game state controller is valid. [B1]\nThe system has a finite set of states. [B1]\nInputs/events trigger defined transitions between those states. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Finite state machines",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Theory of computation family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-theory-of-computation-02a",
+        "marks": 3,
+        "prompt": "Describe the set of strings matched by the regular expression 1(0|1)*0.",
+        "hints": [
+          "Identify the key idea from Regular expressions and grammars that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "The first symbol must be 1. [B1]\nThe last symbol must be 0. [B1]\nBetween them there can be zero or more 0 or 1 symbols. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Regular expressions and grammars",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Theory of computation family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-theory-of-computation-02b",
+        "marks": 3,
+        "prompt": "Explain the purpose of Backus–Naur Form (BNF).",
+        "hints": [
+          "Identify the key idea from Regular expressions and grammars that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "BNF provides a formal notation for describing the syntax of a language. [B1]\nRules define how non-terminal symbols can be replaced/expanded. [B1]\nIt can be used to specify valid structures for programming-language or data grammars. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Regular expressions and grammars",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Theory of computation family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-theory-of-computation-02c",
+        "marks": 3,
+        "prompt": "Given <digit> ::= 0|1 and <pair> ::= <digit><digit>, list all strings generated by <pair>.",
+        "hints": [
+          "Identify the key idea from Regular expressions and grammars that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "The first digit can be 0 or 1. [B1]\nThe second digit can independently be 0 or 1. [B1]\nThe generated strings are 00, 01, 10 and 11. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Regular expressions and grammars",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Theory of computation family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-theory-of-computation-03a",
+        "marks": 4,
+        "prompt": "State the main components of a Turing machine model.",
+        "hints": [
+          "Identify the key idea from Turing machines and computability that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "An unbounded tape divided into cells stores symbols. [B1]\nA read/write head reads and writes one tape cell and moves left or right. [B1]\nA finite set of states includes a current state. [B1]\nA transition function/rules determine actions from the state and read symbol. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Turing machines and computability",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Theory of computation family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-theory-of-computation-03b",
+        "marks": 2,
+        "prompt": "Explain what is meant by an undecidable problem.",
+        "hints": [
+          "Identify the key idea from Turing machines and computability that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "An undecidable problem has no algorithm that can correctly produce a yes/no answer for every possible valid input. [B1]\nThis is a limitation of computation, not merely a lack of a fast algorithm. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Turing machines and computability",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Theory of computation family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-theory-of-computation-03c",
+        "marks": 3,
+        "prompt": "Explain the significance of the halting problem.",
+        "hints": [
+          "Identify the key idea from Turing machines and computability that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The halting problem asks whether an arbitrary program will eventually stop for a given input. [B1]\nThere is no general algorithm that can correctly decide this for every program/input pair. [B1]\nIt is a classic example proving that some problems are undecidable. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Turing machines and computability",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Theory of computation family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-theory-of-computation-04a",
+        "marks": 3,
+        "prompt": "Explain why abstraction is important when reasoning about computational systems.",
+        "hints": [
+          "Identify the key idea from Abstraction and models of computation that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Abstraction hides details that are not relevant to the current problem. [B1]\nIt allows attention to focus on essential state, operations or relationships. [B1]\nThis makes complex systems easier to model, reason about and communicate. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Abstraction and models of computation",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Theory of computation family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-theory-of-computation-04b",
+        "marks": 3,
+        "prompt": "Distinguish an algorithm from a program.",
+        "hints": [
+          "Identify the key idea from Abstraction and models of computation that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "An algorithm is a language-independent sequence/description of steps for solving a problem. [B1]\nA program is an implementation of an algorithm in a programming language/executable form. [B1]\nDifferent programs can implement the same underlying algorithm. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Abstraction and models of computation",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Theory of computation family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-theory-of-computation-04c",
+        "marks": 3,
+        "prompt": "Explain why a model of computation is useful in computer science theory.",
+        "hints": [
+          "Identify the key idea from Abstraction and models of computation that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "It defines a precise set of allowed operations and state. [B1]\nThis lets researchers reason formally about what can be computed and the resources required. [B1]\nDifferent real machines can be compared against the abstract model. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Abstraction and models of computation",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Theory of computation family 04",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "Fundamentals of data representation",
+    "category": "Paper 2 – Computing concepts",
+    "questions": [
+      {
+        "id": "cs-aqa-fundamentals-of-data-representation-01a",
+        "marks": 3,
+        "prompt": "Convert the unsigned binary number 10110110 to denary.",
+        "hints": [
+          "Identify the key idea from Binary and hexadecimal that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "Use place values 128, 64, 32, 16, 8, 4, 2, 1. [B1]\nAdd the place values for the 1 bits: 128 + 32 + 16 + 4 + 2. [B1]\nThe denary value is 182. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Binary and hexadecimal",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of data representation family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-representation-01b",
+        "marks": 3,
+        "prompt": "Convert denary 93 to 8-bit binary.",
+        "hints": [
+          "Identify the key idea from Binary and hexadecimal that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "93 = 64 + 16 + 8 + 4 + 1. [B1]\nSet those place-value bits to 1. [B1]\nThe 8-bit result is 01011101. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Binary and hexadecimal",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of data representation family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-representation-01c",
+        "marks": 4,
+        "prompt": "Convert hexadecimal 7D to binary and denary.",
+        "hints": [
+          "Identify the key idea from Binary and hexadecimal that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "7 in hexadecimal is 0111 in binary. [B1]\nD is 13, which is 1101 in binary. [B1]\nSo 7D = 01111101 in binary. [B1]\nIts denary value is 7×16 + 13 = 125. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Binary and hexadecimal",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of data representation family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-representation-02a",
+        "marks": 4,
+        "prompt": "Add the 8-bit binary values 01101101 and 00010111. Give the 8-bit result.",
+        "hints": [
+          "Identify the key idea from Binary arithmetic and overflow that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "01101101 is 109. [B1]\n00010111 is 23. [B1]\n109 + 23 = 132. [B1]\n132 in 8-bit binary is 10000100. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Binary arithmetic and overflow",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of data representation family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-representation-02b",
+        "marks": 4,
+        "prompt": "Explain why adding 11110000 and 00110000 in an 8-bit unsigned register causes overflow.",
+        "hints": [
+          "Identify the key idea from Binary arithmetic and overflow that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "11110000 is 240. [B1]\n00110000 is 48. [B1]\nThe sum is 288. [B1]\nThe largest 8-bit unsigned value is 255, so 288 cannot be represented in 8 bits. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Binary arithmetic and overflow",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of data representation family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-representation-02c",
+        "marks": 4,
+        "prompt": "An 8-bit unsigned register stores 11111111. What happens if 1 is added, and why?",
+        "hints": [
+          "Identify the key idea from Binary arithmetic and overflow that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "11111111 represents 255. [B1]\nAdding 1 gives 256. [B1]\n256 requires a ninth bit. [B1]\nThe 8-bit result wraps to 00000000 and an overflow/carry condition occurs. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Binary arithmetic and overflow",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of data representation family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-representation-03a",
+        "marks": 4,
+        "prompt": "A bitmap image is 800 pixels wide by 600 pixels high with a colour depth of 24 bits. Calculate its uncompressed size in bits.",
+        "hints": [
+          "Identify the key idea from Images and sound that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "Number of pixels = 800 × 600 = 480000. [B1]\nEach pixel uses 24 bits. [B1]\nSize = 480000 × 24. [B1]\nThe uncompressed size is 11520000 bits. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Images and sound",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of data representation family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-representation-03b",
+        "marks": 4,
+        "prompt": "A mono sound clip is sampled at 44,000 samples per second using a sample resolution of 16 bits for 10 seconds. Calculate the uncompressed size in bits.",
+        "hints": [
+          "Identify the key idea from Images and sound that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "There are 44000 × 10 = 440000 samples. [B1]\nEach sample uses 16 bits. [B1]\nSize = 440000 × 16. [B1]\nThe uncompressed size is 7040000 bits. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Images and sound",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of data representation family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-representation-03c",
+        "marks": 4,
+        "prompt": "Explain how increasing image colour depth affects image quality and file size.",
+        "hints": [
+          "Identify the key idea from Images and sound that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A greater colour depth allows more distinct colours to be represented. [B1]\nThis can make colour changes more accurate or smoother. [B1]\nMore bits are stored for every pixel. [B1]\nTherefore the uncompressed file size increases. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Images and sound",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of data representation family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-representation-04a",
+        "marks": 4,
+        "prompt": "Explain the difference between lossy and lossless compression and give a suitable use for each.",
+        "hints": [
+          "Identify the key idea from Compression that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Lossless compression allows the original data to be reconstructed exactly. [B1]\nIt is suitable for program files or text where every bit matters. [B1]\nLossy compression permanently removes some data. [B1]\nIt is suitable for media such as photographs or audio where a small quality loss may be acceptable. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Compression",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of data representation family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-representation-04b",
+        "marks": 4,
+        "prompt": "Run-length encoding stores repeated values as value/count pairs. Encode AAAAABBCCCCCC using this idea.",
+        "hints": [
+          "Identify the key idea from Compression that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "AAAAA becomes A5. [B1]\nBB becomes B2. [B1]\nCCCCCC becomes C6. [B1]\nOne valid encoded form is A5 B2 C6. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Compression",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of data representation family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-representation-04c",
+        "marks": 3,
+        "prompt": "Explain why compressing a file before network transmission can reduce transmission time.",
+        "hints": [
+          "Identify the key idea from Compression that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Compression reduces the number of bits that need to be sent. [B1]\nAt the same transmission rate, fewer bits take less time to transmit. [B1]\nThe benefit must be balanced against the processing needed to compress and decompress the data. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Compression",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of data representation family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-representation-05a",
+        "marks": 4,
+        "prompt": "Using 8-bit two’s complement, represent -18.",
+        "hints": [
+          "Identify the key idea from Signed and floating-point representation that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "+18 is 00010010. [B1]\nInvert the bits to get 11101101. [B1]\nAdd 1 to get 11101110. [B1]\nSo -18 is 11101110 in 8-bit two’s complement. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Signed and floating-point representation",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of data representation family 05",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-representation-05b",
+        "marks": 3,
+        "prompt": "Explain one source of rounding error in floating-point representation.",
+        "hints": [
+          "Identify the key idea from Signed and floating-point representation that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A finite number of bits is available for the significand/mantissa. [B1]\nSome real values cannot be represented exactly in binary with that precision. [B1]\nThe stored value is rounded to the nearest representable approximation. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Signed and floating-point representation",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of data representation family 05",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-representation-05c",
+        "marks": 3,
+        "prompt": "Explain the trade-off between exponent bits and significand bits in a fixed-size floating-point format.",
+        "hints": [
+          "Identify the key idea from Signed and floating-point representation that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "More exponent bits allow a wider range of magnitudes. [B1]\nMore significand bits allow greater precision. [B1]\nWith a fixed total width, allocating more bits to one leaves fewer for the other. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Signed and floating-point representation",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of data representation family 05",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-representation-06a",
+        "marks": 3,
+        "prompt": "Explain why Unicode is useful compared with a small single-byte character set.",
+        "hints": [
+          "Identify the key idea from Character encoding that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Unicode defines code points for characters from many writing systems and symbol sets. [B1]\nIt supports international text within one standard. [B1]\nEncodings such as UTF-8 provide a way to store those code points efficiently. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Character encoding",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of data representation family 06",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-representation-06b",
+        "marks": 2,
+        "prompt": "Distinguish a character set from a character encoding.",
+        "hints": [
+          "Identify the key idea from Character encoding that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "A character set defines the repertoire/mapping of abstract characters to code points. [B1]\nAn encoding defines how those values are represented as bytes/bits for storage or transmission. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Character encoding",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of data representation family 06",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-data-representation-06c",
+        "marks": 3,
+        "prompt": "Explain why text can display incorrectly if bytes are decoded using the wrong character encoding.",
+        "hints": [
+          "Identify the key idea from Character encoding that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The same byte sequence can map to different characters under different encodings. [B1]\nUsing the wrong decoder interprets the numeric values incorrectly. [B1]\nThis can produce replacement symbols or mojibake. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Character encoding",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of data representation family 06",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "Fundamentals of computer systems",
+    "category": "Paper 2 – Computing concepts",
+    "questions": [
+      {
+        "id": "cs-aqa-fundamentals-of-computer-systems-01a",
+        "marks": 4,
+        "prompt": "Describe the roles of the program counter (PC), memory address register (MAR) and current instruction register (CIR) during instruction fetching.",
+        "hints": [
+          "Identify the key idea from CPU and fetch-decode-execute that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "The PC stores the address of the next instruction. [B1]\nThe address is copied from the PC to the MAR. [B1]\nThe instruction at that memory address is fetched. [B1]\nThe fetched instruction is placed in the CIR ready to be decoded. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "CPU and fetch-decode-execute",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of computer systems family 01",
+        "year": "Current specification",
+        "diagram": {
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 140\" width=\"100%\" role=\"img\"><text x=\"310\" y=\"24\" text-anchor=\"middle\" font-size=\"16\" font-family=\"Arial\">Simplified fetch-decode-execute data path</text><rect x=\"20\" y=\"45\" width=\"96\" height=\"48\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"68.0\" y=\"74\" text-anchor=\"middle\" font-size=\"14\" font-family=\"Arial\">PC</text><line x1=\"120\" y1=\"69\" x2=\"137\" y2=\"69\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 137 69 l -7 -5 v 10 z\" fill=\"currentColor\"/><rect x=\"141\" y=\"45\" width=\"96\" height=\"48\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"189.0\" y=\"74\" text-anchor=\"middle\" font-size=\"14\" font-family=\"Arial\">MAR</text><line x1=\"241\" y1=\"69\" x2=\"258\" y2=\"69\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 258 69 l -7 -5 v 10 z\" fill=\"currentColor\"/><rect x=\"262\" y=\"45\" width=\"96\" height=\"48\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"310.0\" y=\"74\" text-anchor=\"middle\" font-size=\"14\" font-family=\"Arial\">Memory</text><line x1=\"362\" y1=\"69\" x2=\"379\" y2=\"69\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 379 69 l -7 -5 v 10 z\" fill=\"currentColor\"/><rect x=\"383\" y=\"45\" width=\"96\" height=\"48\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"431.0\" y=\"74\" text-anchor=\"middle\" font-size=\"14\" font-family=\"Arial\">MDR</text><line x1=\"483\" y1=\"69\" x2=\"500\" y2=\"69\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 500 69 l -7 -5 v 10 z\" fill=\"currentColor\"/><rect x=\"504\" y=\"45\" width=\"96\" height=\"48\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"552.0\" y=\"74\" text-anchor=\"middle\" font-size=\"14\" font-family=\"Arial\">CIR</text></svg>",
+          "alt": "Simplified CPU register and memory data path"
+        }
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-computer-systems-01b",
+        "marks": 4,
+        "prompt": "Explain two ways in which cache can improve CPU performance.",
+        "hints": [
+          "Identify the key idea from CPU and fetch-decode-execute that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Cache stores frequently or recently used instructions/data close to the CPU. [B1]\nCache access is faster than accessing main memory. [B1]\nThis reduces the time the CPU waits for data. [B1]\nA larger/faster effective cache can therefore increase throughput for suitable workloads. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "CPU and fetch-decode-execute",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of computer systems family 01",
+        "year": "Current specification",
+        "diagram": {
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 140\" width=\"100%\" role=\"img\"><text x=\"310\" y=\"24\" text-anchor=\"middle\" font-size=\"16\" font-family=\"Arial\">Simplified fetch-decode-execute data path</text><rect x=\"20\" y=\"45\" width=\"96\" height=\"48\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"68.0\" y=\"74\" text-anchor=\"middle\" font-size=\"14\" font-family=\"Arial\">PC</text><line x1=\"120\" y1=\"69\" x2=\"137\" y2=\"69\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 137 69 l -7 -5 v 10 z\" fill=\"currentColor\"/><rect x=\"141\" y=\"45\" width=\"96\" height=\"48\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"189.0\" y=\"74\" text-anchor=\"middle\" font-size=\"14\" font-family=\"Arial\">MAR</text><line x1=\"241\" y1=\"69\" x2=\"258\" y2=\"69\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 258 69 l -7 -5 v 10 z\" fill=\"currentColor\"/><rect x=\"262\" y=\"45\" width=\"96\" height=\"48\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"310.0\" y=\"74\" text-anchor=\"middle\" font-size=\"14\" font-family=\"Arial\">Memory</text><line x1=\"362\" y1=\"69\" x2=\"379\" y2=\"69\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 379 69 l -7 -5 v 10 z\" fill=\"currentColor\"/><rect x=\"383\" y=\"45\" width=\"96\" height=\"48\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"431.0\" y=\"74\" text-anchor=\"middle\" font-size=\"14\" font-family=\"Arial\">MDR</text><line x1=\"483\" y1=\"69\" x2=\"500\" y2=\"69\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 500 69 l -7 -5 v 10 z\" fill=\"currentColor\"/><rect x=\"504\" y=\"45\" width=\"96\" height=\"48\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"552.0\" y=\"74\" text-anchor=\"middle\" font-size=\"14\" font-family=\"Arial\">CIR</text></svg>",
+          "alt": "Simplified CPU register and memory data path"
+        }
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-computer-systems-01c",
+        "marks": 4,
+        "prompt": "Explain the purpose of the control unit and arithmetic logic unit (ALU).",
+        "hints": [
+          "Identify the key idea from CPU and fetch-decode-execute that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The control unit coordinates processor operations and issues control signals. [B1]\nIt decodes instructions and manages the fetch-decode-execute cycle. [B1]\nThe ALU performs arithmetic operations. [B1]\nThe ALU also performs logical/comparison operations. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "CPU and fetch-decode-execute",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of computer systems family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-computer-systems-02a",
+        "marks": 4,
+        "prompt": "Compare RAM and ROM.",
+        "hints": [
+          "Identify the key idea from Memory and storage that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "RAM is usually volatile and loses its contents when power is removed. [B1]\nRAM stores programs and data currently in use. [B1]\nROM is non-volatile. [B1]\nROM can store instructions such as firmware that must persist. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Memory and storage",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of computer systems family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-computer-systems-02b",
+        "marks": 4,
+        "prompt": "A laptop needs fast internal storage with no moving parts. Explain why an SSD is generally more suitable than a magnetic hard disk.",
+        "hints": [
+          "Identify the key idea from Memory and storage that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "An SSD has no moving mechanical parts. [B1]\nIt usually has lower access latency and faster random access. [B1]\nIt is more resistant to shock and usually quieter. [B1]\nThe trade-offs can include higher cost per GB or limited write endurance. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Memory and storage",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of computer systems family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-computer-systems-02c",
+        "marks": 4,
+        "prompt": "Explain why virtual memory may be used and give one disadvantage.",
+        "hints": [
+          "Identify the key idea from Memory and storage that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Virtual memory uses secondary storage when there is insufficient RAM. [B1]\nIt allows more/larger programs to continue running than would fit in physical RAM alone. [B1]\nSecondary storage is much slower than RAM. [B1]\nHeavy use can therefore reduce performance substantially. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Memory and storage",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of computer systems family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-computer-systems-03a",
+        "marks": 4,
+        "prompt": "Give four functions of an operating system.",
+        "hints": [
+          "Identify the key idea from Systems software that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "It manages memory. [B1]\nIt schedules/process-manages running programs. [B1]\nIt manages files and secondary storage. [B1]\nIt provides interfaces and manages peripheral devices/users. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Systems software",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of computer systems family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-computer-systems-03b",
+        "marks": 4,
+        "prompt": "Explain the purpose of utility software and give two examples.",
+        "hints": [
+          "Identify the key idea from Systems software that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Utility software performs maintenance, protection or management tasks. [B1]\nAnti-malware software is an example. [B1]\nBackup software is an example. [B1]\nCompression, encryption or disk tools are also valid examples. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Systems software",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of computer systems family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-computer-systems-03c",
+        "marks": 3,
+        "prompt": "Explain why device drivers are needed.",
+        "hints": [
+          "Identify the key idea from Systems software that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Different hardware devices expose different interfaces or commands. [B1]\nA driver provides software that lets the operating system communicate with a particular device. [B1]\nThis hides hardware-specific details from application software. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Systems software",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of computer systems family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-computer-systems-04a",
+        "marks": 4,
+        "prompt": "Compare a compiler with an interpreter.",
+        "hints": [
+          "Identify the key idea from Translators and languages that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "A compiler translates a whole program before execution. [B1]\nIt can produce executable/object code that can be run again without retranslating. [B1]\nAn interpreter translates and executes code statement by statement. [B1]\nInterpreters can make testing/debugging convenient but usually add translation overhead during execution. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Translators and languages",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of computer systems family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-computer-systems-04b",
+        "marks": 3,
+        "prompt": "Explain one reason to use a high-level language instead of assembly language.",
+        "hints": [
+          "Identify the key idea from Translators and languages that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "High-level code is closer to human-readable notation. [B1]\nComplex tasks can be expressed using fewer statements. [B1]\nIt is usually more portable across processor architectures. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Translators and languages",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of computer systems family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-computer-systems-04c",
+        "marks": 3,
+        "prompt": "Explain the purpose of an assembler.",
+        "hints": [
+          "Identify the key idea from Translators and languages that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Assembly language uses mnemonics and symbolic operands. [B1]\nAn assembler translates assembly instructions into machine code. [B1]\nThe resulting machine code can be executed by the processor. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Translators and languages",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of computer systems family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-computer-systems-05a",
+        "marks": 3,
+        "prompt": "Explain one use of a virtual machine and one cost of virtualisation.",
+        "hints": [
+          "Identify the key idea from Virtual machines that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A virtual machine can run a guest operating system in an isolated virtual hardware environment. [B1]\nIt can consolidate servers or provide safe/test environments. [B1]\nVirtualisation introduces resource/management overhead compared with running directly on hardware. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Virtual machines",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of computer systems family 05",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-computer-systems-05b",
+        "marks": 3,
+        "prompt": "Distinguish a system virtual machine from a language virtual machine.",
+        "hints": [
+          "Identify the key idea from Virtual machines that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "A system VM emulates/virtualises a complete machine environment for an operating system. [B1]\nA language VM executes an intermediate representation/bytecode for a programming platform. [B1]\nExamples include a hypervisor-managed guest versus the JVM-style model. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Virtual machines",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of computer systems family 05",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-computer-systems-05c",
+        "marks": 3,
+        "prompt": "Explain why snapshots are useful in virtualised test environments.",
+        "hints": [
+          "Identify the key idea from Virtual machines that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A snapshot records/restores a VM state at a known point. [B1]\nTests can be repeated from the same clean starting state. [B1]\nA failed or unsafe experiment can be rolled back quickly. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Virtual machines",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of computer systems family 05",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "Computer organisation and architecture",
+    "category": "Paper 2 – Computing concepts",
+    "questions": [
+      {
+        "id": "cs-aqa-computer-organisation-and-architecture-01a",
+        "marks": 4,
+        "prompt": "Compare RISC and CISC design philosophies.",
+        "hints": [
+          "Identify the key idea from Processor architecture that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "RISC tends to use a smaller set of relatively simple instructions. [B1]\nRISC designs often favour regular instruction formats and efficient pipelining. [B1]\nCISC provides a larger set of more complex instructions. [B1]\nActual modern processors can combine ideas from both approaches. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Processor architecture",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Computer organisation and architecture family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-computer-organisation-and-architecture-01b",
+        "marks": 3,
+        "prompt": "Explain how pipelining can increase processor throughput.",
+        "hints": [
+          "Identify the key idea from Processor architecture that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Different stages of several instructions can be processed at the same time. [B1]\nOnce the pipeline is full, the processor can complete instructions more frequently. [B1]\nDependencies/branches can cause stalls or flushes that reduce the ideal gain. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Processor architecture",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Computer organisation and architecture family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-computer-organisation-and-architecture-01c",
+        "marks": 3,
+        "prompt": "Explain one benefit and one limitation of multicore processors.",
+        "hints": [
+          "Identify the key idea from Processor architecture that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Multiple cores can execute independent tasks/threads in parallel. [B1]\nThis can improve performance for parallelisable workloads. [B1]\nSoftware must expose enough parallel work, and coordination/communication overhead can limit speed-up. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Processor architecture",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Computer organisation and architecture family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-computer-organisation-and-architecture-02a",
+        "marks": 3,
+        "prompt": "State the roles of the address bus, data bus and control bus.",
+        "hints": [
+          "Identify the key idea from Buses and registers that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "The address bus carries the address of the memory or I/O location involved. [B1]\nThe data bus carries actual data/instructions between components. [B1]\nThe control bus carries control/timing signals such as read and write. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Buses and registers",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Computer organisation and architecture family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-computer-organisation-and-architecture-02b",
+        "marks": 3,
+        "prompt": "Explain how bus width can affect a computer system.",
+        "hints": [
+          "Identify the key idea from Buses and registers that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A wider data bus can transfer more bits in one operation. [B1]\nA wider address bus can represent more distinct addresses and therefore address a larger space. [B1]\nActual performance also depends on clocking, memory and other architecture factors. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Buses and registers",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Computer organisation and architecture family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-computer-organisation-and-architecture-02c",
+        "marks": 3,
+        "prompt": "Explain why registers are much faster but much smaller than main memory.",
+        "hints": [
+          "Identify the key idea from Buses and registers that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Registers are implemented inside/very close to the processor datapath. [B1]\nThey are designed for extremely fast access by current instructions. [B1]\nProviding large amounts of such storage would consume significant chip area/cost/power, so capacity is limited. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Buses and registers",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Computer organisation and architecture family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-computer-organisation-and-architecture-03a",
+        "marks": 3,
+        "prompt": "Explain why a sensor is an input device and an actuator is an output device in an embedded control system.",
+        "hints": [
+          "Identify the key idea from Input, output and storage that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "A sensor measures a physical quantity and supplies data to the computer. [B1]\nAn actuator receives a control signal from the computer. [B1]\nThe actuator changes the physical environment, for example by moving a motor or opening a valve. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Input, output and storage",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Computer organisation and architecture family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-computer-organisation-and-architecture-03b",
+        "marks": 4,
+        "prompt": "Compare magnetic, optical and solid-state storage for one application of your choice.",
+        "hints": [
+          "Identify the key idea from Input, output and storage that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Magnetic storage can offer high capacity at low cost per GB. [B1]\nOptical media can be useful for distribution/archive but has lower capacity/speed. [B1]\nSolid-state storage offers fast access and no moving parts. [B1]\nThe best choice depends on capacity, speed, durability, portability and cost requirements. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Input, output and storage",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Computer organisation and architecture family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-computer-organisation-and-architecture-03c",
+        "marks": 3,
+        "prompt": "Explain why an embedded system may use non-volatile flash memory for program storage.",
+        "hints": [
+          "Identify the key idea from Input, output and storage that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The program must remain available when power is removed. [B1]\nFlash is non-volatile. [B1]\nIt can also be updated electrically when firmware needs to be replaced. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Input, output and storage",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Computer organisation and architecture family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-computer-organisation-and-architecture-04a",
+        "marks": 3,
+        "prompt": "Distinguish task parallelism from data parallelism.",
+        "hints": [
+          "Identify the key idea from Parallel processing that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Task parallelism runs different operations/tasks concurrently. [B1]\nData parallelism applies the same/similar operation to different partitions of a dataset concurrently. [B1]\nBoth aim to exploit multiple processing resources but divide work in different ways. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Parallel processing",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Computer organisation and architecture family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-computer-organisation-and-architecture-04b",
+        "marks": 3,
+        "prompt": "Explain Amdahl’s law qualitatively.",
+        "hints": [
+          "Identify the key idea from Parallel processing that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The maximum speed-up from parallelisation is limited by the part of the program that remains serial. [B1]\nEven with many processors, the serial fraction still has to run sequentially. [B1]\nTherefore adding more processors gives diminishing returns once parallel sections become fast. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Parallel processing",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Computer organisation and architecture family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-computer-organisation-and-architecture-04c",
+        "marks": 4,
+        "prompt": "Give two reasons why doubling processor cores may not double program speed.",
+        "hints": [
+          "Identify the key idea from Parallel processing that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "Some code is inherently sequential. [B1]\nThreads may contend for memory or shared resources. [B1]\nCommunication/synchronisation adds overhead. [B1]\nThe program may not create enough parallel work. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Parallel processing",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Computer organisation and architecture family 04",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "Consequences of uses of computing",
+    "category": "Paper 2 – Computing concepts",
+    "questions": [
+      {
+        "id": "cs-aqa-consequences-of-uses-of-computing-01a",
+        "marks": 4,
+        "prompt": "A fitness app continuously records location data. Explain two privacy risks and one way the developer could reduce them.",
+        "hints": [
+          "Identify the key idea from Privacy and ethics that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Location histories can reveal sensitive routines or places visited. [B1]\nA data breach could expose this information to unauthorised people. [B1]\nCollect only data that is necessary and give users meaningful control/consent. [B1]\nEncryption/access controls can also reduce the risk of unauthorised disclosure. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Privacy and ethics",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Consequences of uses of computing family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-consequences-of-uses-of-computing-01b",
+        "marks": 4,
+        "prompt": "An employer wants to use an AI system to rank job applicants. Explain two ethical concerns.",
+        "hints": [
+          "Identify the key idea from Privacy and ethics that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Training data may contain bias that produces unfair decisions. [B1]\nApplicants may not understand how an automated decision was made. [B1]\nIncorrect rankings can materially affect people. [B1]\nHuman oversight, testing for bias and transparent criteria can reduce these concerns. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Privacy and ethics",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Consequences of uses of computing family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-consequences-of-uses-of-computing-01c",
+        "marks": 3,
+        "prompt": "Explain why anonymising a dataset can help protect privacy but may not remove all privacy risk.",
+        "hints": [
+          "Identify the key idea from Privacy and ethics that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Removing direct identifiers reduces the chance of linking records to named individuals. [B1]\nCombinations of remaining attributes may still allow re-identification. [B1]\nAnonymisation therefore needs careful design and may need aggregation or removal of rare attributes. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Privacy and ethics",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Consequences of uses of computing family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-consequences-of-uses-of-computing-02a",
+        "marks": 3,
+        "prompt": "Explain one way copyright law affects software developers and users.",
+        "hints": [
+          "Identify the key idea from Legal and intellectual property that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Software source code and other creative works can be protected by copyright. [B1]\nUsers generally need permission/licensing to copy or distribute protected software. [B1]\nDevelopers must also respect licences for third-party code they use. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Legal and intellectual property",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Consequences of uses of computing family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-consequences-of-uses-of-computing-02b",
+        "marks": 3,
+        "prompt": "Explain why an organisation must consider data-protection law when collecting personal data.",
+        "hints": [
+          "Identify the key idea from Legal and intellectual property that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Personal data should be processed for legitimate/specified purposes. [B1]\nOnly necessary data should be collected and protected appropriately. [B1]\nPeople have rights relating to their personal data and organisations have responsibilities for security and handling. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Legal and intellectual property",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Consequences of uses of computing family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-consequences-of-uses-of-computing-02c",
+        "marks": 3,
+        "prompt": "A student downloads a commercial program from an unauthorised sharing site. Explain a legal and an ethical issue.",
+        "hints": [
+          "Identify the key idea from Legal and intellectual property that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The copy may infringe copyright or the software licence. [B1]\nThe creator/rightsholder may lose revenue or control of distribution. [B1]\nUnauthorised files may also create security risks for the user. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Legal and intellectual property",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Consequences of uses of computing family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-consequences-of-uses-of-computing-03a",
+        "marks": 4,
+        "prompt": "Explain two environmental impacts of data centres and one way to reduce them.",
+        "hints": [
+          "Identify the key idea from Environmental impacts that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Servers and cooling systems consume significant electrical energy. [B1]\nManufacture and replacement of hardware use raw materials and create electronic waste. [B1]\nUse efficient cooling/hardware and low-carbon energy sources. [B1]\nExtending hardware life and responsible recycling can reduce material impacts. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Environmental impacts",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Consequences of uses of computing family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-consequences-of-uses-of-computing-03b",
+        "marks": 3,
+        "prompt": "Explain one environmental benefit and one environmental cost of replacing office meetings with video conferencing.",
+        "hints": [
+          "Identify the key idea from Environmental impacts that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "It can reduce travel and associated fuel use/emissions. [B1]\nNetwork and data-centre infrastructure still consumes electricity. [B1]\nThe overall impact depends on factors such as travel avoided and energy source. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Environmental impacts",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Consequences of uses of computing family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-consequences-of-uses-of-computing-03c",
+        "marks": 4,
+        "prompt": "Explain why rapidly replacing smartphones can contribute to environmental problems.",
+        "hints": [
+          "Identify the key idea from Environmental impacts that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Manufacturing requires energy and mined raw materials. [B1]\nDiscarded devices contribute to electronic waste. [B1]\nSome components contain materials that are difficult or hazardous to process. [B1]\nRepair, reuse and recycling can reduce these impacts. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Environmental impacts",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Consequences of uses of computing family 03",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "Communication and networking",
+    "category": "Paper 2 – Computing concepts",
+    "questions": [
+      {
+        "id": "cs-aqa-communication-and-networking-01a",
+        "marks": 4,
+        "prompt": "Compare client-server and peer-to-peer network models.",
+        "hints": [
+          "Identify the key idea from Network types and models that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "In client-server, dedicated servers provide services or resources to clients. [B1]\nCentral management can make backups, accounts and security easier to control. [B1]\nIn peer-to-peer, devices can act as both clients and servers. [B1]\nPeer-to-peer can be simpler/cheaper for small networks but is harder to manage centrally. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Network types and models",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Communication and networking family 01",
+        "year": "Current specification",
+        "diagram": {
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 220\" width=\"100%\"><circle cx=\"210\" cy=\"110\" r=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"210\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">Switch</text><line x1=\"210\" y1=\"110\" x2=\"70\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"35\" y=\"32\" width=\"70\" height=\"36\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"70\" y=\"55\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Device</text><line x1=\"210\" y1=\"110\" x2=\"350\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"315\" y=\"32\" width=\"70\" height=\"36\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"350\" y=\"55\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Device</text><line x1=\"210\" y1=\"110\" x2=\"70\" y2=\"175\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"35\" y=\"157\" width=\"70\" height=\"36\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"70\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Device</text><line x1=\"210\" y1=\"110\" x2=\"350\" y2=\"175\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"315\" y=\"157\" width=\"70\" height=\"36\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"350\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Device</text></svg>",
+          "alt": "A star network with four devices connected to a central switch"
+        }
+      },
+      {
+        "id": "cs-aqa-communication-and-networking-01b",
+        "marks": 4,
+        "prompt": "Explain the difference between a LAN and a WAN.",
+        "hints": [
+          "Identify the key idea from Network types and models that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "A LAN covers a relatively small/local geographic area. [B1]\nA LAN is typically owned or managed by one organisation. [B1]\nA WAN connects networks over a large geographic area. [B1]\nWAN links may rely on infrastructure owned by telecommunications providers. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Network types and models",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Communication and networking family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-communication-and-networking-01c",
+        "marks": 3,
+        "prompt": "A company has offices in three cities. Explain why the overall company network would be classed as a WAN.",
+        "hints": [
+          "Identify the key idea from Network types and models that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The network spans a large geographic area. [B1]\nIt connects separate local networks/sites. [B1]\nCommunication between the sites uses long-distance links rather than a single local network. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Network types and models",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Communication and networking family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-communication-and-networking-02a",
+        "marks": 4,
+        "prompt": "State the purpose of HTTP/HTTPS, TCP and IP.",
+        "hints": [
+          "Identify the key idea from Protocols and layers that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "HTTP/HTTPS defines how web requests and responses are exchanged. [B1]\nHTTPS adds encrypted/authenticated transport for web traffic. [B1]\nTCP provides reliable ordered delivery between applications. [B1]\nIP provides addressing and routing of packets across networks. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Protocols and layers",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Communication and networking family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-communication-and-networking-02b",
+        "marks": 4,
+        "prompt": "Explain why networking is divided into layers.",
+        "hints": [
+          "Identify the key idea from Protocols and layers that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Each layer has a defined responsibility/interface. [B1]\nChanges within one layer can often be made without redesigning every other layer. [B1]\nDifferent manufacturers can implement compatible standards. [B1]\nLayering reduces complexity and supports modular design/troubleshooting. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Protocols and layers",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Communication and networking family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-communication-and-networking-02c",
+        "marks": 3,
+        "prompt": "Match each protocol to its typical role: SMTP, IMAP and FTP.",
+        "hints": [
+          "Identify the key idea from Protocols and layers that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "SMTP is used to send/transfer email between mail systems. [B1]\nIMAP is used by a client to access/manage email stored on a server. [B1]\nFTP is used to transfer files between systems. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Protocols and layers",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Communication and networking family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-communication-and-networking-03a",
+        "marks": 3,
+        "prompt": "A 24 megabit file is sent over a 6 megabit/s connection. Ignoring overheads, calculate the minimum transmission time.",
+        "hints": [
+          "Identify the key idea from Transmission calculations that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "Use time = data size ÷ data rate. [B1]\nTime = 24 Mb ÷ 6 Mb/s. [B1]\nThe minimum time is 4 seconds. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Transmission calculations",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Communication and networking family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-communication-and-networking-03b",
+        "marks": 3,
+        "prompt": "A 900 megabyte file is transferred at 60 megabytes/s. Calculate the ideal transfer time.",
+        "hints": [
+          "Identify the key idea from Transmission calculations that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "Use time = size ÷ rate. [B1]\n900 ÷ 60 = 15. [B1]\nThe ideal transfer time is 15 seconds. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Transmission calculations",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Communication and networking family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-communication-and-networking-03c",
+        "marks": 3,
+        "prompt": "A link has a latency of 40 ms and a bandwidth of 100 Mbit/s. Explain the difference between latency and bandwidth.",
+        "hints": [
+          "Identify the key idea from Transmission calculations that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Latency is the delay before/while data travels through the network. [B1]\nBandwidth is the maximum amount of data that can be transmitted per unit time. [B1]\nA connection can have high bandwidth but still noticeable latency. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Transmission calculations",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Communication and networking family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-communication-and-networking-04a",
+        "marks": 3,
+        "prompt": "The diagram shows a star network. Give two advantages of this topology and one disadvantage.",
+        "hints": [
+          "Identify the key idea from Topology and hardware that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "Failure of one end-device cable normally affects only that device. [B1]\nDevices can be added or removed without breaking a shared loop/bus. [B1]\nThe central switch is a single point whose failure can stop the network. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Topology and hardware",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Communication and networking family 04",
+        "year": "Current specification",
+        "diagram": {
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 220\" width=\"100%\"><circle cx=\"210\" cy=\"110\" r=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"210\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">Switch</text><line x1=\"210\" y1=\"110\" x2=\"70\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"35\" y=\"32\" width=\"70\" height=\"36\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"70\" y=\"55\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Device</text><line x1=\"210\" y1=\"110\" x2=\"350\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"315\" y=\"32\" width=\"70\" height=\"36\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"350\" y=\"55\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Device</text><line x1=\"210\" y1=\"110\" x2=\"70\" y2=\"175\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"35\" y=\"157\" width=\"70\" height=\"36\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"70\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Device</text><line x1=\"210\" y1=\"110\" x2=\"350\" y2=\"175\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"315\" y=\"157\" width=\"70\" height=\"36\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"350\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Device</text></svg>",
+          "alt": "A star network with four devices connected to a central switch"
+        }
+      },
+      {
+        "id": "cs-aqa-communication-and-networking-04b",
+        "marks": 4,
+        "prompt": "Explain the role of a router and a switch.",
+        "hints": [
+          "Identify the key idea from Topology and hardware that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A switch forwards frames between devices on the same local network. [B1]\nIt can use hardware/MAC addresses to direct local traffic. [B1]\nA router forwards packets between different networks. [B1]\nIt uses network/IP addresses and routing information to choose a path. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Topology and hardware",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Communication and networking family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-communication-and-networking-04c",
+        "marks": 4,
+        "prompt": "Explain why wireless networking can be less reliable than a wired Ethernet connection.",
+        "hints": [
+          "Identify the key idea from Topology and hardware that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Wireless signals can suffer interference. [B1]\nSignal strength can decrease with distance or physical obstacles. [B1]\nShared radio channels can suffer congestion. [B1]\nWired links are generally less affected by these radio conditions. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Topology and hardware",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Communication and networking family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-communication-and-networking-05a",
+        "marks": 3,
+        "prompt": "Explain the roles of an IP address, a MAC address and DNS.",
+        "hints": [
+          "Identify the key idea from Routing, addressing and DNS that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "An IP address identifies a network interface logically for routing across IP networks. [B1]\nA MAC address identifies a network interface at the local/link layer. [B1]\nDNS maps human-readable domain names to IP addresses/other records. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Routing, addressing and DNS",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Communication and networking family 05",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-communication-and-networking-05b",
+        "marks": 4,
+        "prompt": "Explain how packet switching allows different packets from one message to take different routes.",
+        "hints": [
+          "Identify the key idea from Routing, addressing and DNS that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A message is divided into packets with addressing/control information. [B1]\nRouters make forwarding decisions for packets independently. [B1]\nNetwork conditions or routing tables can send packets along different paths. [B1]\nThe receiving system can reassemble data in the correct order at higher layers/protocols. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Routing, addressing and DNS",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Communication and networking family 05",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-communication-and-networking-05c",
+        "marks": 2,
+        "prompt": "Explain the purpose of a subnet mask/prefix length.",
+        "hints": [
+          "Identify the key idea from Routing, addressing and DNS that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "It identifies which bits of an IP address represent the network prefix. [B1]\nDevices use it to decide whether a destination is on the same local subnet or must be sent via a router. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Routing, addressing and DNS",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Communication and networking family 05",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-communication-and-networking-06a",
+        "marks": 4,
+        "prompt": "Compare symmetric and asymmetric encryption.",
+        "hints": [
+          "Identify the key idea from Encryption and secure communication that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Symmetric encryption uses the same shared secret key for encryption and decryption. [B1]\nIt is efficient for bulk data but requires secure key sharing. [B1]\nAsymmetric encryption uses a public/private key pair. [B1]\nIt can help with key exchange and digital signatures but is computationally more expensive. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Encryption and secure communication",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Communication and networking family 06",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-communication-and-networking-06b",
+        "marks": 3,
+        "prompt": "Explain how a digital signature can provide authenticity and integrity.",
+        "hints": [
+          "Identify the key idea from Encryption and secure communication that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The signer creates a signature using their private key over a message digest/data. [B1]\nA verifier uses the corresponding public key to verify it. [B1]\nA valid signature indicates the data has not been altered since signing and links the signature to control of the private key. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Encryption and secure communication",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Communication and networking family 06",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-communication-and-networking-06c",
+        "marks": 3,
+        "prompt": "Explain why HTTPS uses both asymmetric and symmetric cryptography in typical sessions.",
+        "hints": [
+          "Identify the key idea from Encryption and secure communication that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Asymmetric techniques support authentication and secure agreement/exchange of session secrets. [B1]\nSymmetric encryption is then used for bulk traffic because it is much more efficient. [B1]\nThe combination provides practical confidentiality and server authentication. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Encryption and secure communication",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Communication and networking family 06",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "Fundamentals of databases",
+    "category": "Paper 2 – Computing concepts",
+    "questions": [
+      {
+        "id": "cs-aqa-fundamentals-of-databases-01a",
+        "marks": 4,
+        "prompt": "A STUDENT table has StudentID, Name and TutorGroup. An ENTRY table has EntryID, StudentID and Event. Identify a primary key for each table and the foreign key.",
+        "hints": [
+          "Identify the key idea from Relational database keys that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "STUDENT.StudentID is a suitable primary key for STUDENT. [B1]\nENTRY.EntryID is a suitable primary key for ENTRY. [B1]\nENTRY.StudentID is a foreign key referencing STUDENT.StudentID. [B1]\nThe relationship allows each entry to be linked to a student. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Relational database keys",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of databases family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-databases-01b",
+        "marks": 3,
+        "prompt": "Explain why a primary key must uniquely identify each record.",
+        "hints": [
+          "Identify the key idea from Relational database keys that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A primary key is used to distinguish one row from every other row. [B1]\nDuplicate key values would make a row ambiguous. [B1]\nUnique values allow reliable relationships and updates to target the intended record. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Relational database keys",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of databases family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-databases-01c",
+        "marks": 3,
+        "prompt": "Explain the purpose of a foreign key in a relational database.",
+        "hints": [
+          "Identify the key idea from Relational database keys that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A foreign key stores a value that refers to a primary key in another table. [B1]\nIt links related records across tables. [B1]\nIt can help enforce referential integrity between the tables. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Relational database keys",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of databases family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-databases-02a",
+        "marks": 4,
+        "prompt": "A table BOOK(BookID, Title, Genre, Price) is used. Write an SQL query to display Title and Price for books where Genre is \"Science\".",
+        "hints": [
+          "Identify the key idea from SQL SELECT queries that the question is testing.",
+          "Break the task into input, processing/condition, and output before writing the final statement or algorithm."
+        ],
+        "solution": "Use SELECT Title, Price. [B1]\nUse FROM BOOK. [B1]\nUse a WHERE condition on Genre. [B1]\nOne valid query is: SELECT Title, Price FROM BOOK WHERE Genre = 'Science'; [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "SQL SELECT queries",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of databases family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-databases-02b",
+        "marks": 4,
+        "prompt": "A table RESULT(Name, Mark) is used. Write an SQL query to display Name for rows with Mark >= 70, ordered by Name ascending.",
+        "hints": [
+          "Identify the key idea from SQL SELECT queries that the question is testing.",
+          "Break the task into input, processing/condition, and output before writing the final statement or algorithm."
+        ],
+        "solution": "Select the Name field. [B1]\nUse a WHERE condition Mark >= 70. [B1]\nUse ORDER BY Name ASC. [B1]\nOne valid query is: SELECT Name FROM RESULT WHERE Mark >= 70 ORDER BY Name ASC; [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "SQL SELECT queries",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of databases family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-databases-02c",
+        "marks": 3,
+        "prompt": "Explain the purpose of SELECT, FROM and WHERE in an SQL query.",
+        "hints": [
+          "Identify the key idea from SQL SELECT queries that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "SELECT specifies the fields/columns to return. [B1]\nFROM specifies the table or tables being queried. [B1]\nWHERE filters rows according to a condition. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "SQL SELECT queries",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of databases family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-databases-03a",
+        "marks": 3,
+        "prompt": "Explain the purpose of database normalisation.",
+        "hints": [
+          "Identify the key idea from Normalisation that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Normalisation restructures relations to reduce unnecessary data duplication. [B1]\nIt helps avoid update, insertion and deletion anomalies. [B1]\nRelationships are represented using keys between tables. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Normalisation",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of databases family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-databases-03b",
+        "marks": 4,
+        "prompt": "A table stores StudentID, StudentName, CourseID, CourseName for many enrolments. Explain why separating STUDENT, COURSE and ENROLMENT tables can improve the design.",
+        "hints": [
+          "Identify the key idea from Normalisation that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Student details would otherwise be repeated for every enrolment. [B1]\nCourse details would also be repeated. [B1]\nSeparate entity tables reduce redundancy. [B1]\nAn ENROLMENT relation can link StudentID and CourseID using keys. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Normalisation",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of databases family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-databases-03c",
+        "marks": 3,
+        "prompt": "Explain a functional dependency in the context of relational design.",
+        "hints": [
+          "Identify the key idea from Normalisation that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A functional dependency means one attribute/set of attributes determines another attribute. [B1]\nFor example StudentID → StudentName if each student ID identifies one student name. [B1]\nDependencies are used when reasoning about keys and normal forms. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Normalisation",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of databases family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-databases-04a",
+        "marks": 3,
+        "prompt": "Explain why atomicity is important in a bank transfer transaction.",
+        "hints": [
+          "Identify the key idea from Transactions and concurrency that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A transfer contains multiple related updates such as debit and credit. [B1]\nAtomicity means either all required changes complete or none are committed. [B1]\nThis prevents a failure leaving money removed from one account without being added to the other. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Transactions and concurrency",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of databases family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-databases-04b",
+        "marks": 3,
+        "prompt": "Explain one problem concurrent database transactions can cause and one way a DBMS can control it.",
+        "hints": [
+          "Identify the key idea from Transactions and concurrency that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Concurrent updates can cause lost updates/inconsistent reads or other anomalies. [B1]\nLocking, isolation levels or serialisable transaction control can coordinate access. [B1]\nThe DBMS aims to preserve consistency while allowing useful concurrency. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Transactions and concurrency",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of databases family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-databases-04c",
+        "marks": 2,
+        "prompt": "State the meaning of durability in a completed database transaction.",
+        "hints": [
+          "Identify the key idea from Transactions and concurrency that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "Once a transaction is committed, its changes should survive subsequent failures such as a crash. [B1]\nThe DBMS uses persistent storage/logging/recovery mechanisms to preserve committed results. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Transactions and concurrency",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of databases family 04",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "Big Data",
+    "category": "Paper 2 – Computing concepts",
+    "questions": [
+      {
+        "id": "cs-aqa-big-data-01a",
+        "marks": 3,
+        "prompt": "Explain the “volume, velocity and variety” characteristics of big data.",
+        "hints": [
+          "Identify the key idea from Characteristics of big data that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Volume refers to very large quantities of data. [B1]\nVelocity refers to the speed at which data is generated, arrives or must be processed. [B1]\nVariety refers to multiple formats/structures and sources. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Characteristics of big data",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Big Data family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-big-data-01b",
+        "marks": 3,
+        "prompt": "A transport company receives millions of GPS events per minute from vehicles. Identify two big-data characteristics present.",
+        "hints": [
+          "Identify the key idea from Characteristics of big data that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "The large number of records demonstrates high volume. [B1]\nContinuous rapid arrival demonstrates high velocity. [B1]\nDifferent sensor/event formats could additionally demonstrate variety. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Characteristics of big data",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Big Data family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-big-data-01c",
+        "marks": 3,
+        "prompt": "Explain why data quality matters when analysing a very large dataset.",
+        "hints": [
+          "Identify the key idea from Characteristics of big data that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Large scale does not guarantee accuracy or representativeness. [B1]\nMissing, biased, duplicated or incorrect data can lead to misleading conclusions. [B1]\nCleaning/validation and understanding provenance are therefore essential. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Characteristics of big data",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Big Data family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-big-data-02a",
+        "marks": 4,
+        "prompt": "Explain why big-data systems often distribute storage and processing across many machines.",
+        "hints": [
+          "Identify the key idea from Distributed processing that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "One machine may not have enough storage or processing capacity. [B1]\nData can be partitioned across nodes. [B1]\nIndependent parts of a computation can run in parallel. [B1]\nReplication/distribution can also improve resilience when individual nodes fail. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Distributed processing",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Big Data family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-big-data-02b",
+        "marks": 4,
+        "prompt": "Explain the general map-and-reduce idea without naming a particular software framework.",
+        "hints": [
+          "Identify the key idea from Distributed processing that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A map stage processes partitions/items and emits intermediate key/value results. [B1]\nIntermediate values with the same key are grouped. [B1]\nA reduce stage combines/aggregates the grouped values. [B1]\nThe model allows work to be distributed across many nodes. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Distributed processing",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Big Data family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-big-data-02c",
+        "marks": 4,
+        "prompt": "Give one challenge introduced by distributed data processing.",
+        "hints": [
+          "Identify the key idea from Distributed processing that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "Nodes or network links can fail independently. [B1]\nData must be partitioned and moved efficiently. [B1]\nSynchronisation/consistency can be difficult. [B1]\nCommunication overhead can limit the benefit of adding nodes. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Distributed processing",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Big Data family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-big-data-03a",
+        "marks": 3,
+        "prompt": "Explain one benefit and one privacy risk of analysing large collections of customer behaviour data.",
+        "hints": [
+          "Identify the key idea from Analytics and privacy that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Analysis can reveal patterns that improve products, forecasting or fraud detection. [B1]\nDetailed combined datasets can expose sensitive behaviour or enable profiling. [B1]\nAccess control, minimisation and anonymisation/pseudonymisation can reduce but not always eliminate the risk. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Analytics and privacy",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Big Data family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-big-data-03b",
+        "marks": 3,
+        "prompt": "Explain why correlation found in a large dataset does not by itself prove causation.",
+        "hints": [
+          "Identify the key idea from Analytics and privacy that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Two variables can vary together because of coincidence or a third/confounding factor. [B1]\nThe data may also contain selection bias. [B1]\nA causal claim needs stronger evidence/design than correlation alone. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Analytics and privacy",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Big Data family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-big-data-03c",
+        "marks": 3,
+        "prompt": "Explain how sampling bias can affect a machine-learning or statistical model trained on big data.",
+        "hints": [
+          "Identify the key idea from Analytics and privacy that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "If the dataset underrepresents some groups/situations, the learned patterns may not generalise. [B1]\nPredictions can systematically be less accurate or unfair for those cases. [B1]\nMore data of the same biased kind does not automatically fix the problem. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Analytics and privacy",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Big Data family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-big-data-04a",
+        "marks": 3,
+        "prompt": "Explain what data mining aims to do.",
+        "hints": [
+          "Identify the key idea from Data mining that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Data mining searches large datasets for useful patterns, relationships or anomalies. [B1]\nTechniques can support classification, clustering, association or prediction. [B1]\nThe results still require interpretation and validation. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Data mining",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Big Data family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-big-data-04b",
+        "marks": 3,
+        "prompt": "A retailer finds that two products are frequently bought together. Give one way this pattern could be used and one caution.",
+        "hints": [
+          "Identify the key idea from Data mining that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "It could inform recommendations, store layout or promotions. [B1]\nThe association does not prove that buying one product causes buying the other. [B1]\nPromotions should also consider privacy and fairness where personal data is involved. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Data mining",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Big Data family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-big-data-04c",
+        "marks": 3,
+        "prompt": "Explain why preprocessing is often required before mining data from several sources.",
+        "hints": [
+          "Identify the key idea from Data mining that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Different sources may use inconsistent formats, units or identifiers. [B1]\nRecords may be missing, duplicated or erroneous. [B1]\nCleaning and standardising the data makes later analysis more reliable. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Data mining",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Big Data family 04",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "Fundamentals of functional programming",
+    "category": "Paper 2 – Computing concepts",
+    "questions": [
+      {
+        "id": "cs-aqa-fundamentals-of-functional-programming-01a",
+        "marks": 3,
+        "prompt": "Explain what makes a function pure.",
+        "hints": [
+          "Identify the key idea from Pure functions and immutability that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Its result depends only on its explicit inputs. [B1]\nIt does not modify external state or produce observable side effects. [B1]\nThe same inputs therefore produce the same output. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Pure functions and immutability",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of functional programming family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-functional-programming-01b",
+        "marks": 3,
+        "prompt": "Explain one advantage of immutable data in functional programming.",
+        "hints": [
+          "Identify the key idea from Pure functions and immutability that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Values are not changed after creation. [B1]\nThis reduces hidden state changes and makes reasoning about code easier. [B1]\nIt can also make concurrent execution safer because shared values are not mutated. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Pure functions and immutability",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of functional programming family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-functional-programming-01c",
+        "marks": 3,
+        "prompt": "A function increments a global counter every time it is called. Explain why this function is not pure.",
+        "hints": [
+          "Identify the key idea from Pure functions and immutability that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "It modifies state outside the function. [B1]\nCalling it has a side effect. [B1]\nIts behaviour cannot be understood solely as a mapping from explicit inputs to output. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Pure functions and immutability",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of functional programming family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-functional-programming-02a",
+        "marks": 2,
+        "prompt": "Explain what is meant by a higher-order function.",
+        "hints": [
+          "Identify the key idea from Higher-order functions that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A higher-order function takes one or more functions as arguments and/or returns a function. [B1]\nThis allows behaviour to be passed and composed as data-like values. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Higher-order functions",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of functional programming family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-functional-programming-02b",
+        "marks": 3,
+        "prompt": "Explain the roles of map and filter in functional programming.",
+        "hints": [
+          "Identify the key idea from Higher-order functions that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "map applies a function to each element and produces transformed results. [B1]\nfilter keeps only elements that satisfy a predicate. [B1]\nBoth express common collection-processing patterns without explicit mutation. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Higher-order functions",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of functional programming family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-functional-programming-02c",
+        "marks": 3,
+        "prompt": "A list [1,2,3,4] is mapped with f(x)=x² and then filtered to keep values > 5. Give the final list.",
+        "hints": [
+          "Identify the key idea from Higher-order functions that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "Mapping produces [1,4,9,16]. [B1]\nFiltering keeps values greater than 5. [B1]\nThe final list is [9,16]. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Higher-order functions",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of functional programming family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-functional-programming-03a",
+        "marks": 3,
+        "prompt": "Write the mathematical recursive structure for sum([head]+tail).",
+        "hints": [
+          "Identify the key idea from Recursion in functional programming that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "The base case for an empty list returns 0. [B1]\nFor a non-empty list, return head + sum(tail). [B1]\nEach recursive call processes a smaller list. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Recursion in functional programming",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of functional programming family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-functional-programming-03b",
+        "marks": 3,
+        "prompt": "Explain why tail recursion can be advantageous in some language implementations.",
+        "hints": [
+          "Identify the key idea from Recursion in functional programming that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The recursive call is the final operation of the function. [B1]\nAn implementation can reuse a stack frame through tail-call optimisation. [B1]\nThis can avoid stack growth for long recursion chains. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Recursion in functional programming",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of functional programming family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-functional-programming-03c",
+        "marks": 4,
+        "prompt": "Explain how recursion can replace an explicit loop in functional code.",
+        "hints": [
+          "Identify the key idea from Recursion in functional programming that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A function performs work for the current element/state. [B1]\nIt calls itself with a smaller/rest-of-data argument. [B1]\nA base case stops the process. [B1]\nThe repeated recursive calls perform the same role as loop iterations. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Recursion in functional programming",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of functional programming family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-functional-programming-04a",
+        "marks": 3,
+        "prompt": "If f(x)=x+2 and g(x)=3x, calculate (g ∘ f)(4).",
+        "hints": [
+          "Identify the key idea from Function composition that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "First evaluate f(4)=6. [B1]\nThen evaluate g(6)=18. [B1]\nTherefore (g ∘ f)(4)=18. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Function composition",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of functional programming family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-functional-programming-04b",
+        "marks": 3,
+        "prompt": "Explain function composition in words.",
+        "hints": [
+          "Identify the key idea from Function composition that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The output of one function becomes the input to another. [B1]\nComposition creates a new transformation from smaller functions. [B1]\nThis supports modular and declarative program construction. [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Function composition",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of functional programming family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-fundamentals-of-functional-programming-04c",
+        "marks": 3,
+        "prompt": "If clean(text) removes spaces and upper(text) converts to uppercase, describe upper(clean(\"a b\")).",
+        "hints": [
+          "Identify the key idea from Function composition that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "clean(\"a b\") produces \"ab\". [B1]\nupper then converts that result to uppercase. [B1]\nThe final result is \"AB\". [B1]",
+        "paper": "Paper 2 – Computing concepts",
+        "subtopic": "Function composition",
+        "inspiredBy": "AQA 7517 Paper 2 – Computing concepts – Fundamentals of functional programming family 04",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "Systematic approach to problem solving",
+    "category": "Paper 1 – Programming and theory",
+    "questions": [
+      {
+        "id": "cs-aqa-systematic-approach-to-problem-solving-01a",
+        "marks": 3,
+        "prompt": "Trace this algorithm for the list [4, 7, 2, 9].\ntotal = 0\nFOR each x in the list\n  IF x MOD 2 = 1 THEN total = total + x\nOUTPUT total",
+        "hints": [
+          "Work through the loop one value at a time."
+        ],
+        "solution": "The values tested are 4, 7, 2 and 9. [B1]\nOnly 7 and 9 satisfy the condition. [B1]\nThe output is 16. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Tracing algorithms",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Systematic approach to problem solving family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-systematic-approach-to-problem-solving-01b",
+        "marks": 3,
+        "prompt": "Trace this algorithm for the list [3, 6, 8, 5].\ncount = 0\nFOR each x in the list\n  IF x > 5 THEN count = count + 1\nOUTPUT count",
+        "hints": [
+          "Keep a running value of count."
+        ],
+        "solution": "The values greater than 5 are identified. [B1]\n6 and 8 satisfy the condition. [B1]\nThe output is 2. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Tracing algorithms",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Systematic approach to problem solving family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-systematic-approach-to-problem-solving-01c",
+        "marks": 3,
+        "prompt": "Trace this algorithm.\nx = 3\ny = 1\nWHILE x < 10\n  y = y * 2\n  x = x + 3\nOUTPUT y",
+        "hints": [
+          "Make a small trace table for x and y."
+        ],
+        "solution": "The loop runs while x is 3, 6 and 9. [B1]\ny changes 1 → 2 → 4 → 8. [B1]\nThe output is 8. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Tracing algorithms",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Systematic approach to problem solving family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-systematic-approach-to-problem-solving-02a",
+        "marks": 4,
+        "prompt": "A sorted list contains 128 items. Explain why binary search usually needs fewer comparisons than linear search to find an item near the end of the list.",
+        "hints": [
+          "State the key requirement for binary search."
+        ],
+        "solution": "Binary search checks the middle item. [B1]\nIt discards half of the remaining search area after each comparison. [B1]\nLinear search may inspect items one by one from the start. [B1]\nTherefore binary search grows much more slowly in comparisons for a sorted list. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Searching algorithms",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Systematic approach to problem solving family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-systematic-approach-to-problem-solving-02b",
+        "marks": 4,
+        "prompt": "A music app stores 500 song IDs in sorted order. Describe how binary search would look for ID 372.",
+        "hints": [
+          "Think: middle, discard half, repeat."
+        ],
+        "solution": "Compare 372 with the middle ID. [B1]\nIf 372 is smaller, continue with the lower half; if larger, use the upper half. [B1]\nRepeat by checking the middle of the remaining half. [B1]\nStop when 372 is found or no items remain. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Searching algorithms",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Systematic approach to problem solving family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-systematic-approach-to-problem-solving-02c",
+        "marks": 3,
+        "prompt": "Explain one situation in which linear search is more suitable than binary search.",
+        "hints": [
+          "What condition does binary search require?"
+        ],
+        "solution": "Linear search does not require the data to be sorted. [B1]\nIt can therefore be used directly on an unsorted collection. [B1]\nSorting first could add unnecessary work for a small or one-off search. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Searching algorithms",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Systematic approach to problem solving family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-systematic-approach-to-problem-solving-03a",
+        "marks": 4,
+        "prompt": "One pass of bubble sort is applied to [7, 3, 5, 2]. Give the list after this complete left-to-right pass.",
+        "hints": [
+          "Identify the key idea from Sorting algorithms that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "Compare 7 and 3 and swap → [3,7,5,2]. [B1]\nCompare 7 and 5 and swap → [3,5,7,2]. [B1]\nCompare 7 and 2 and swap → [3,5,2,7]. [B1]\nThe list after one pass is [3,5,2,7]. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Sorting algorithms",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Systematic approach to problem solving family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-systematic-approach-to-problem-solving-03b",
+        "marks": 4,
+        "prompt": "Insertion sort is used on [2, 6, 9, 4, 8]. Show the list immediately after the value 4 has been inserted into the sorted part.",
+        "hints": [
+          "Identify the key idea from Sorting algorithms that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "The sorted part before inserting 4 is [2,6,9]. [B1]\nMove 9 one position right. [B1]\nMove 6 one position right. [B1]\nInsert 4 after 2, giving [2,4,6,9,8]. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Sorting algorithms",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Systematic approach to problem solving family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-systematic-approach-to-problem-solving-03c",
+        "marks": 4,
+        "prompt": "Explain why merge sort is described as a divide-and-conquer algorithm.",
+        "hints": [
+          "Identify the key idea from Sorting algorithms that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The original list is divided into smaller sublists. [B1]\nThe sublists are repeatedly divided until very small. [B1]\nSmall sorted lists are merged together in order. [B1]\nThe solution is built by combining the results of the smaller problems. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Sorting algorithms",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Systematic approach to problem solving family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-systematic-approach-to-problem-solving-04a",
+        "marks": 4,
+        "prompt": "A school is designing an online booking system for clubs. Explain how decomposition and abstraction could help when developing the solution.",
+        "hints": [
+          "Identify the key idea from Decomposition and abstraction that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Decomposition splits the system into smaller parts such as login, club search and booking. [B1]\nEach smaller part can be designed or tested separately. [B1]\nAbstraction removes details that are not relevant to the current problem. [B1]\nThis reduces complexity and helps developers focus on essential data and behaviour. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Decomposition and abstraction",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Systematic approach to problem solving family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-systematic-approach-to-problem-solving-04b",
+        "marks": 4,
+        "prompt": "A navigation app must calculate routes. Give two examples of decomposition and two examples of abstraction that could be used.",
+        "hints": [
+          "Identify the key idea from Decomposition and abstraction that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "Decomposition could separate map loading from route calculation. [B1]\nDecomposition could separate route calculation from displaying directions. [B1]\nAbstraction could model a junction as a node rather than every physical detail. [B1]\nAbstraction could keep only route-relevant properties such as distance or travel time. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Decomposition and abstraction",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Systematic approach to problem solving family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-systematic-approach-to-problem-solving-04c",
+        "marks": 4,
+        "prompt": "Explain the difference between decomposition and abstraction using a game as an example.",
+        "hints": [
+          "Identify the key idea from Decomposition and abstraction that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Decomposition breaks the game into smaller tasks or modules. [B1]\nFor example, input, scoring and collision detection can be separate modules. [B1]\nAbstraction represents only important features and hides unnecessary detail. [B1]\nFor example, a player can be represented by position, health and score rather than every real-world property. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Decomposition and abstraction",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Systematic approach to problem solving family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-systematic-approach-to-problem-solving-05a",
+        "marks": 3,
+        "prompt": "A username must be 6 to 12 characters long. Describe a validation check and explain why validation does not prove the username is correct.",
+        "hints": [
+          "Identify the key idea from Validation and defensive design that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Check that the string length is at least 6 and at most 12. [B1]\nReject or ask again if the range check fails. [B1]\nValidation checks whether data is reasonable/acceptable, not whether it represents the intended real-world value. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Validation and defensive design",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Systematic approach to problem solving family 05",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-systematic-approach-to-problem-solving-05b",
+        "marks": 3,
+        "prompt": "A menu only accepts choices 1, 2, 3 or 4. Write a condition that rejects every other integer.",
+        "hints": [
+          "Identify the key idea from Validation and defensive design that the question is testing.",
+          "Break the task into input, processing/condition, and output before writing the final statement or algorithm."
+        ],
+        "solution": "Test whether choice < 1 OR choice > 4. [B1]\nIf the condition is true, reject the value. [B1]\nRepeat input until a valid option is supplied. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Validation and defensive design",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Systematic approach to problem solving family 05",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-systematic-approach-to-problem-solving-05c",
+        "marks": 3,
+        "prompt": "Explain why sanitising user input can improve program security.",
+        "hints": [
+          "Identify the key idea from Validation and defensive design that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "User input may contain unexpected or malicious characters/data. [B1]\nSanitising removes/escapes or restricts unsafe content before it is processed. [B1]\nThis can reduce attacks such as injection when combined with proper query parameterisation and other controls. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Validation and defensive design",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Systematic approach to problem solving family 05",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-systematic-approach-to-problem-solving-06a",
+        "marks": 3,
+        "prompt": "A field accepts whole numbers from 1 to 100 inclusive. Give two boundary test values and two invalid test values.",
+        "hints": [
+          "Identify the key idea from Test data that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "1 and 100 are boundary values that should be accepted. [B1]\n0 is outside the lower boundary and should be rejected. [B1]\n101 is outside the upper boundary and should be rejected. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Test data",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Systematic approach to problem solving family 06",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-systematic-approach-to-problem-solving-06b",
+        "marks": 3,
+        "prompt": "Explain why expected results should be recorded before running a test.",
+        "hints": [
+          "Identify the key idea from Test data that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The expected result gives a known outcome to compare with the actual result. [B1]\nA difference indicates that the program may contain an error. [B1]\nPredefining it reduces the temptation to accept an incorrect result after seeing the output. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Test data",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Systematic approach to problem solving family 06",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-aqa-systematic-approach-to-problem-solving-06c",
+        "marks": 3,
+        "prompt": "Distinguish normal, boundary and erroneous/invalid test data.",
+        "hints": [
+          "Identify the key idea from Test data that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Normal data is typical valid input inside the accepted range. [B1]\nBoundary data is at or very close to the edge of the accepted range. [B1]\nInvalid/erroneous data does not satisfy the input rules. [B1]",
+        "paper": "Paper 1 – Programming and theory",
+        "subtopic": "Test data",
+        "inspiredBy": "AQA 7517 Paper 1 – Programming and theory – Systematic approach to problem solving family 06",
+        "year": "Current specification"
+      }
+    ]
+  }
+]

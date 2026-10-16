@@ -1,0 +1,1816 @@
+[
+  {
+    "topic": "1.1 Processors, input, output and storage",
+    "category": "Paper 1 – Computer systems",
+    "questions": [
+      {
+        "id": "cs-ocr-1-1-processors-input-output-and-storage-01a",
+        "marks": 4,
+        "prompt": "Compare RISC and CISC design philosophies.",
+        "hints": [
+          "Identify the key idea from Processor architecture that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "RISC tends to use a smaller set of relatively simple instructions. [B1]\nRISC designs often favour regular instruction formats and efficient pipelining. [B1]\nCISC provides a larger set of more complex instructions. [B1]\nActual modern processors can combine ideas from both approaches. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Processor architecture",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.1 Processors, input, output and storage family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-1-processors-input-output-and-storage-01b",
+        "marks": 3,
+        "prompt": "Explain how pipelining can increase processor throughput.",
+        "hints": [
+          "Identify the key idea from Processor architecture that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Different stages of several instructions can be processed at the same time. [B1]\nOnce the pipeline is full, the processor can complete instructions more frequently. [B1]\nDependencies/branches can cause stalls or flushes that reduce the ideal gain. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Processor architecture",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.1 Processors, input, output and storage family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-1-processors-input-output-and-storage-01c",
+        "marks": 3,
+        "prompt": "Explain one benefit and one limitation of multicore processors.",
+        "hints": [
+          "Identify the key idea from Processor architecture that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Multiple cores can execute independent tasks/threads in parallel. [B1]\nThis can improve performance for parallelisable workloads. [B1]\nSoftware must expose enough parallel work, and coordination/communication overhead can limit speed-up. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Processor architecture",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.1 Processors, input, output and storage family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-1-processors-input-output-and-storage-02a",
+        "marks": 3,
+        "prompt": "State the roles of the address bus, data bus and control bus.",
+        "hints": [
+          "Identify the key idea from Buses and registers that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "The address bus carries the address of the memory or I/O location involved. [B1]\nThe data bus carries actual data/instructions between components. [B1]\nThe control bus carries control/timing signals such as read and write. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Buses and registers",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.1 Processors, input, output and storage family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-1-processors-input-output-and-storage-02b",
+        "marks": 3,
+        "prompt": "Explain how bus width can affect a computer system.",
+        "hints": [
+          "Identify the key idea from Buses and registers that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A wider data bus can transfer more bits in one operation. [B1]\nA wider address bus can represent more distinct addresses and therefore address a larger space. [B1]\nActual performance also depends on clocking, memory and other architecture factors. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Buses and registers",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.1 Processors, input, output and storage family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-1-processors-input-output-and-storage-02c",
+        "marks": 3,
+        "prompt": "Explain why registers are much faster but much smaller than main memory.",
+        "hints": [
+          "Identify the key idea from Buses and registers that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Registers are implemented inside/very close to the processor datapath. [B1]\nThey are designed for extremely fast access by current instructions. [B1]\nProviding large amounts of such storage would consume significant chip area/cost/power, so capacity is limited. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Buses and registers",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.1 Processors, input, output and storage family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-1-processors-input-output-and-storage-03a",
+        "marks": 3,
+        "prompt": "Explain why a sensor is an input device and an actuator is an output device in an embedded control system.",
+        "hints": [
+          "Identify the key idea from Input, output and storage that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "A sensor measures a physical quantity and supplies data to the computer. [B1]\nAn actuator receives a control signal from the computer. [B1]\nThe actuator changes the physical environment, for example by moving a motor or opening a valve. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Input, output and storage",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.1 Processors, input, output and storage family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-1-processors-input-output-and-storage-03b",
+        "marks": 4,
+        "prompt": "Compare magnetic, optical and solid-state storage for one application of your choice.",
+        "hints": [
+          "Identify the key idea from Input, output and storage that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Magnetic storage can offer high capacity at low cost per GB. [B1]\nOptical media can be useful for distribution/archive but has lower capacity/speed. [B1]\nSolid-state storage offers fast access and no moving parts. [B1]\nThe best choice depends on capacity, speed, durability, portability and cost requirements. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Input, output and storage",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.1 Processors, input, output and storage family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-1-processors-input-output-and-storage-03c",
+        "marks": 3,
+        "prompt": "Explain why an embedded system may use non-volatile flash memory for program storage.",
+        "hints": [
+          "Identify the key idea from Input, output and storage that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The program must remain available when power is removed. [B1]\nFlash is non-volatile. [B1]\nIt can also be updated electrically when firmware needs to be replaced. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Input, output and storage",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.1 Processors, input, output and storage family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-1-processors-input-output-and-storage-04a",
+        "marks": 3,
+        "prompt": "Distinguish task parallelism from data parallelism.",
+        "hints": [
+          "Identify the key idea from Parallel processing that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Task parallelism runs different operations/tasks concurrently. [B1]\nData parallelism applies the same/similar operation to different partitions of a dataset concurrently. [B1]\nBoth aim to exploit multiple processing resources but divide work in different ways. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Parallel processing",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.1 Processors, input, output and storage family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-1-processors-input-output-and-storage-04b",
+        "marks": 3,
+        "prompt": "Explain Amdahl’s law qualitatively.",
+        "hints": [
+          "Identify the key idea from Parallel processing that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The maximum speed-up from parallelisation is limited by the part of the program that remains serial. [B1]\nEven with many processors, the serial fraction still has to run sequentially. [B1]\nTherefore adding more processors gives diminishing returns once parallel sections become fast. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Parallel processing",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.1 Processors, input, output and storage family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-1-processors-input-output-and-storage-04c",
+        "marks": 4,
+        "prompt": "Give two reasons why doubling processor cores may not double program speed.",
+        "hints": [
+          "Identify the key idea from Parallel processing that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "Some code is inherently sequential. [B1]\nThreads may contend for memory or shared resources. [B1]\nCommunication/synchronisation adds overhead. [B1]\nThe program may not create enough parallel work. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Parallel processing",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.1 Processors, input, output and storage family 04",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "1.2 Software and software development",
+    "category": "Paper 1 – Computer systems",
+    "questions": [
+      {
+        "id": "cs-ocr-1-2-software-and-software-development-01a",
+        "marks": 4,
+        "prompt": "Compare waterfall and agile development approaches.",
+        "hints": [
+          "Identify the key idea from Software development methodologies that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Waterfall proceeds through planned sequential stages with relatively fixed requirements. [B1]\nAgile develops in shorter iterations with frequent feedback and reprioritisation. [B1]\nWaterfall can suit stable well-understood requirements. [B1]\nAgile can adapt more readily when requirements change. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Software development methodologies",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.2 Software and software development family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-2-software-and-software-development-01b",
+        "marks": 3,
+        "prompt": "Explain why prototyping can be useful when requirements are unclear.",
+        "hints": [
+          "Identify the key idea from Software development methodologies that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A prototype gives users something concrete to evaluate. [B1]\nFeedback can expose misunderstood or missing requirements early. [B1]\nThe design can be refined before the full system is built. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Software development methodologies",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.2 Software and software development family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-2-software-and-software-development-01c",
+        "marks": 4,
+        "prompt": "Explain the purpose of version control in a software team.",
+        "hints": [
+          "Identify the key idea from Software development methodologies that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "It records changes to source files over time. [B1]\nDevelopers can work on branches and merge changes. [B1]\nPrevious versions can be restored and authorship/history can be inspected. [B1]\nIt supports coordinated collaborative development. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Software development methodologies",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.2 Software and software development family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-2-software-and-software-development-02a",
+        "marks": 3,
+        "prompt": "Distinguish black-box from white-box testing.",
+        "hints": [
+          "Identify the key idea from Software testing that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Black-box testing chooses tests from the specification without relying on internal code structure. [B1]\nWhite-box testing uses knowledge of internal control flow/logic. [B1]\nWhite-box tests may target branches, paths or statements. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Software testing",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.2 Software and software development family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-2-software-and-software-development-02b",
+        "marks": 3,
+        "prompt": "Explain regression testing.",
+        "hints": [
+          "Identify the key idea from Software testing that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Regression testing reruns tests after changes. [B1]\nIts purpose is to detect whether previously working behaviour has been broken. [B1]\nAutomated suites make repeated regression testing efficient. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Software testing",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.2 Software and software development family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-2-software-and-software-development-02c",
+        "marks": 3,
+        "prompt": "Explain why independent testing can be valuable.",
+        "hints": [
+          "Identify the key idea from Software testing that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Developers may unconsciously test according to assumptions used when writing the code. [B1]\nIndependent testers can bring different perspectives and test cases. [B1]\nThis can expose defects or usability issues the original developer overlooked. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Software testing",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.2 Software and software development family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-2-software-and-software-development-03a",
+        "marks": 4,
+        "prompt": "Compare a compiler with an interpreter.",
+        "hints": [
+          "Identify the key idea from Compilers and interpreters that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "A compiler translates a whole program before execution. [B1]\nIt can produce executable/object code that can be run again without retranslating. [B1]\nAn interpreter translates and executes code statement by statement. [B1]\nInterpreters can make testing/debugging convenient but usually add translation overhead during execution. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Compilers and interpreters",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.2 Software and software development family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-2-software-and-software-development-03b",
+        "marks": 3,
+        "prompt": "Explain one reason to use a high-level language instead of assembly language.",
+        "hints": [
+          "Identify the key idea from Compilers and interpreters that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "High-level code is closer to human-readable notation. [B1]\nComplex tasks can be expressed using fewer statements. [B1]\nIt is usually more portable across processor architectures. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Compilers and interpreters",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.2 Software and software development family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-2-software-and-software-development-03c",
+        "marks": 3,
+        "prompt": "Explain the purpose of an assembler.",
+        "hints": [
+          "Identify the key idea from Compilers and interpreters that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Assembly language uses mnemonics and symbolic operands. [B1]\nAn assembler translates assembly instructions into machine code. [B1]\nThe resulting machine code can be executed by the processor. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Compilers and interpreters",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.2 Software and software development family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-2-software-and-software-development-04a",
+        "marks": 4,
+        "prompt": "Give four features of an IDE that support program development.",
+        "hints": [
+          "Identify the key idea from IDE tools that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "A code editor provides syntax-aware editing. [B1]\nA debugger supports breakpoints/step execution. [B1]\nError diagnostics report syntax/type/build problems. [B1]\nTools may provide autocomplete, refactoring, testing or version-control integration. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "IDE tools",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.2 Software and software development family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-2-software-and-software-development-04b",
+        "marks": 4,
+        "prompt": "Explain how a debugger helps locate a logic error.",
+        "hints": [
+          "Identify the key idea from IDE tools that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A breakpoint can pause execution at a chosen line. [B1]\nStep execution lets the developer run one statement at a time. [B1]\nVariable/watch views show state as the program executes. [B1]\nThe developer can identify where actual state first differs from expected state. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "IDE tools",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.2 Software and software development family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-2-software-and-software-development-04c",
+        "marks": 3,
+        "prompt": "Explain the purpose of syntax highlighting and code completion.",
+        "hints": [
+          "Identify the key idea from IDE tools that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Syntax highlighting visually distinguishes language elements and can make structure/errors easier to notice. [B1]\nCode completion suggests identifiers/constructs and reduces typing. [B1]\nBoth improve development speed/readability but do not replace testing. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "IDE tools",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.2 Software and software development family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-2-software-and-software-development-05a",
+        "marks": 3,
+        "prompt": "Distinguish technical documentation from user documentation.",
+        "hints": [
+          "Identify the key idea from Documentation and maintainability that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Technical documentation describes design, code, interfaces or maintenance information for developers/support staff. [B1]\nUser documentation explains how an end user operates the system. [B1]\nThe audiences and required level of implementation detail differ. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Documentation and maintainability",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.2 Software and software development family 05",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-2-software-and-software-development-05b",
+        "marks": 3,
+        "prompt": "Explain why meaningful identifiers improve maintainability.",
+        "hints": [
+          "Identify the key idea from Documentation and maintainability that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "They communicate the purpose of variables, functions and data. [B1]\nFuture developers need less time to infer intent. [B1]\nThis reduces mistakes when code is modified. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Documentation and maintainability",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.2 Software and software development family 05",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-2-software-and-software-development-05c",
+        "marks": 3,
+        "prompt": "Explain why comments should describe intent rather than restate obvious code.",
+        "hints": [
+          "Identify the key idea from Documentation and maintainability that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Comments are most useful for rationale, constraints or non-obvious decisions. [B1]\nRestating simple code creates noise. [B1]\nComments that duplicate code can also become misleading if the code changes but the comment does not. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Documentation and maintainability",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.2 Software and software development family 05",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "1.3 Exchanging data",
+    "category": "Paper 1 – Computer systems",
+    "questions": [
+      {
+        "id": "cs-ocr-1-3-exchanging-data-01a",
+        "marks": 4,
+        "prompt": "Compare JSON and XML as text formats for structured data.",
+        "hints": [
+          "Identify the key idea from Data formats and serialisation that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Both can represent structured hierarchical data and are widely supported. [B1]\nJSON is often more compact and maps naturally to common language objects/arrays. [B1]\nXML provides explicit tags and supports schemas/namespaces. [B1]\nThe better choice depends on interoperability and validation requirements. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Data formats and serialisation",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.3 Exchanging data family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-3-exchanging-data-01b",
+        "marks": 3,
+        "prompt": "Explain why a standard interchange format helps systems written in different languages communicate.",
+        "hints": [
+          "Identify the key idea from Data formats and serialisation that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The systems agree on a common external representation. [B1]\nEach system only needs to parse/produce that standard format. [B1]\nInternal language-specific objects do not need to be shared directly. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Data formats and serialisation",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.3 Exchanging data family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-3-exchanging-data-01c",
+        "marks": 2,
+        "prompt": "Explain what serialisation means.",
+        "hints": [
+          "Identify the key idea from Data formats and serialisation that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Serialisation converts an in-memory data structure/object into a representation suitable for storage or transmission. [B1]\nDeserialisation reconstructs data from that representation. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Data formats and serialisation",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.3 Exchanging data family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-3-exchanging-data-02a",
+        "marks": 3,
+        "prompt": "Explain the roles of HTML, CSS and JavaScript in a web application.",
+        "hints": [
+          "Identify the key idea from Web technologies that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "HTML describes the document/content structure. [B1]\nCSS controls presentation and layout. [B1]\nJavaScript can implement client-side behaviour and dynamic interaction. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Web technologies",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.3 Exchanging data family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-3-exchanging-data-02b",
+        "marks": 3,
+        "prompt": "Explain the difference between HTTP GET and POST in typical web usage.",
+        "hints": [
+          "Identify the key idea from Web technologies that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "GET requests a resource and commonly places parameters in the URL/query string. [B1]\nPOST sends data in the request body and is commonly used to submit/change data. [B1]\nSecurity depends on HTTPS and server controls; POST alone is not encrypted. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Web technologies",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.3 Exchanging data family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-3-exchanging-data-02c",
+        "marks": 4,
+        "prompt": "Explain why cookies can be useful and why they create privacy considerations.",
+        "hints": [
+          "Identify the key idea from Web technologies that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Cookies let a site store small identifiers/state in the browser. [B1]\nThey can support sessions and preferences. [B1]\nTracking cookies can also link browsing behaviour over time/sites. [B1]\nConsent, minimisation and appropriate retention matter for privacy. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Web technologies",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.3 Exchanging data family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-3-exchanging-data-03a",
+        "marks": 4,
+        "prompt": "Explain how a parity bit can detect some transmission errors.",
+        "hints": [
+          "Identify the key idea from Error detection that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A parity rule makes the total number of 1 bits even or odd. [B1]\nThe receiver recalculates/checks parity. [B1]\nA changed single bit causes the parity check to fail. [B1]\nParity cannot detect every possible multi-bit error. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Error detection",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.3 Exchanging data family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-3-exchanging-data-03b",
+        "marks": 3,
+        "prompt": "Explain how a checksum is used for error detection.",
+        "hints": [
+          "Identify the key idea from Error detection that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The sender computes a value from a block of data using an agreed algorithm. [B1]\nThe receiver computes the value again. [B1]\nA mismatch indicates that the data has probably been corrupted. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Error detection",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.3 Exchanging data family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-3-exchanging-data-03c",
+        "marks": 2,
+        "prompt": "Why is error detection not the same as error correction?",
+        "hints": [
+          "Identify the key idea from Error detection that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "Error detection indicates that received data may be wrong. [B1]\nError correction additionally provides enough information/redundancy to reconstruct the intended data without retransmission. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Error detection",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.3 Exchanging data family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-3-exchanging-data-04a",
+        "marks": 4,
+        "prompt": "Explain the difference between lossy and lossless compression and give a suitable use for each.",
+        "hints": [
+          "Identify the key idea from Compression and encryption that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Lossless compression allows the original data to be reconstructed exactly. [B1]\nIt is suitable for program files or text where every bit matters. [B1]\nLossy compression permanently removes some data. [B1]\nIt is suitable for media such as photographs or audio where a small quality loss may be acceptable. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Compression and encryption",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.3 Exchanging data family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-3-exchanging-data-04b",
+        "marks": 4,
+        "prompt": "Run-length encoding stores repeated values as value/count pairs. Encode AAAAABBCCCCCC using this idea.",
+        "hints": [
+          "Identify the key idea from Compression and encryption that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "AAAAA becomes A5. [B1]\nBB becomes B2. [B1]\nCCCCCC becomes C6. [B1]\nOne valid encoded form is A5 B2 C6. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Compression and encryption",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.3 Exchanging data family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-3-exchanging-data-04c",
+        "marks": 3,
+        "prompt": "Explain why compressing a file before network transmission can reduce transmission time.",
+        "hints": [
+          "Identify the key idea from Compression and encryption that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Compression reduces the number of bits that need to be sent. [B1]\nAt the same transmission rate, fewer bits take less time to transmit. [B1]\nThe benefit must be balanced against the processing needed to compress and decompress the data. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Compression and encryption",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.3 Exchanging data family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-3-exchanging-data-05a",
+        "marks": 4,
+        "prompt": "State the purpose of HTTP/HTTPS, TCP and IP.",
+        "hints": [
+          "Identify the key idea from Networks and protocols that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "HTTP/HTTPS defines how web requests and responses are exchanged. [B1]\nHTTPS adds encrypted/authenticated transport for web traffic. [B1]\nTCP provides reliable ordered delivery between applications. [B1]\nIP provides addressing and routing of packets across networks. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Networks and protocols",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.3 Exchanging data family 05",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-3-exchanging-data-05b",
+        "marks": 4,
+        "prompt": "Explain why networking is divided into layers.",
+        "hints": [
+          "Identify the key idea from Networks and protocols that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Each layer has a defined responsibility/interface. [B1]\nChanges within one layer can often be made without redesigning every other layer. [B1]\nDifferent manufacturers can implement compatible standards. [B1]\nLayering reduces complexity and supports modular design/troubleshooting. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Networks and protocols",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.3 Exchanging data family 05",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-3-exchanging-data-05c",
+        "marks": 3,
+        "prompt": "Match each protocol to its typical role: SMTP, IMAP and FTP.",
+        "hints": [
+          "Identify the key idea from Networks and protocols that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "SMTP is used to send/transfer email between mail systems. [B1]\nIMAP is used by a client to access/manage email stored on a server. [B1]\nFTP is used to transfer files between systems. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Networks and protocols",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.3 Exchanging data family 05",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "1.4 Data types, data structures and algorithms",
+    "category": "Paper 1 – Computer systems",
+    "questions": [
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-01a",
+        "marks": 3,
+        "prompt": "Convert the unsigned binary number 10110110 to denary.",
+        "hints": [
+          "Identify the key idea from Binary and hexadecimal that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "Use place values 128, 64, 32, 16, 8, 4, 2, 1. [B1]\nAdd the place values for the 1 bits: 128 + 32 + 16 + 4 + 2. [B1]\nThe denary value is 182. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Binary and hexadecimal",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-01b",
+        "marks": 3,
+        "prompt": "Convert denary 93 to 8-bit binary.",
+        "hints": [
+          "Identify the key idea from Binary and hexadecimal that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "93 = 64 + 16 + 8 + 4 + 1. [B1]\nSet those place-value bits to 1. [B1]\nThe 8-bit result is 01011101. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Binary and hexadecimal",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-01c",
+        "marks": 4,
+        "prompt": "Convert hexadecimal 7D to binary and denary.",
+        "hints": [
+          "Identify the key idea from Binary and hexadecimal that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "7 in hexadecimal is 0111 in binary. [B1]\nD is 13, which is 1101 in binary. [B1]\nSo 7D = 01111101 in binary. [B1]\nIts denary value is 7×16 + 13 = 125. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Binary and hexadecimal",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-02a",
+        "marks": 4,
+        "prompt": "Add the 8-bit binary values 01101101 and 00010111. Give the 8-bit result.",
+        "hints": [
+          "Identify the key idea from Binary arithmetic and overflow that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "01101101 is 109. [B1]\n00010111 is 23. [B1]\n109 + 23 = 132. [B1]\n132 in 8-bit binary is 10000100. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Binary arithmetic and overflow",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-02b",
+        "marks": 4,
+        "prompt": "Explain why adding 11110000 and 00110000 in an 8-bit unsigned register causes overflow.",
+        "hints": [
+          "Identify the key idea from Binary arithmetic and overflow that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "11110000 is 240. [B1]\n00110000 is 48. [B1]\nThe sum is 288. [B1]\nThe largest 8-bit unsigned value is 255, so 288 cannot be represented in 8 bits. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Binary arithmetic and overflow",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-02c",
+        "marks": 4,
+        "prompt": "An 8-bit unsigned register stores 11111111. What happens if 1 is added, and why?",
+        "hints": [
+          "Identify the key idea from Binary arithmetic and overflow that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "11111111 represents 255. [B1]\nAdding 1 gives 256. [B1]\n256 requires a ninth bit. [B1]\nThe 8-bit result wraps to 00000000 and an overflow/carry condition occurs. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Binary arithmetic and overflow",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-03a",
+        "marks": 4,
+        "prompt": "A bitmap image is 800 pixels wide by 600 pixels high with a colour depth of 24 bits. Calculate its uncompressed size in bits.",
+        "hints": [
+          "Identify the key idea from Images and sound that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "Number of pixels = 800 × 600 = 480000. [B1]\nEach pixel uses 24 bits. [B1]\nSize = 480000 × 24. [B1]\nThe uncompressed size is 11520000 bits. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Images and sound",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-03b",
+        "marks": 4,
+        "prompt": "A mono sound clip is sampled at 44,000 samples per second using a sample resolution of 16 bits for 10 seconds. Calculate the uncompressed size in bits.",
+        "hints": [
+          "Identify the key idea from Images and sound that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "There are 44000 × 10 = 440000 samples. [B1]\nEach sample uses 16 bits. [B1]\nSize = 440000 × 16. [B1]\nThe uncompressed size is 7040000 bits. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Images and sound",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-03c",
+        "marks": 4,
+        "prompt": "Explain how increasing image colour depth affects image quality and file size.",
+        "hints": [
+          "Identify the key idea from Images and sound that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A greater colour depth allows more distinct colours to be represented. [B1]\nThis can make colour changes more accurate or smoother. [B1]\nMore bits are stored for every pixel. [B1]\nTherefore the uncompressed file size increases. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Images and sound",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-04a",
+        "marks": 4,
+        "prompt": "Explain the difference between lossy and lossless compression and give a suitable use for each.",
+        "hints": [
+          "Identify the key idea from Compression that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Lossless compression allows the original data to be reconstructed exactly. [B1]\nIt is suitable for program files or text where every bit matters. [B1]\nLossy compression permanently removes some data. [B1]\nIt is suitable for media such as photographs or audio where a small quality loss may be acceptable. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Compression",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-04b",
+        "marks": 4,
+        "prompt": "Run-length encoding stores repeated values as value/count pairs. Encode AAAAABBCCCCCC using this idea.",
+        "hints": [
+          "Identify the key idea from Compression that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "AAAAA becomes A5. [B1]\nBB becomes B2. [B1]\nCCCCCC becomes C6. [B1]\nOne valid encoded form is A5 B2 C6. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Compression",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-04c",
+        "marks": 3,
+        "prompt": "Explain why compressing a file before network transmission can reduce transmission time.",
+        "hints": [
+          "Identify the key idea from Compression that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Compression reduces the number of bits that need to be sent. [B1]\nAt the same transmission rate, fewer bits take less time to transmit. [B1]\nThe benefit must be balanced against the processing needed to compress and decompress the data. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Compression",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-05a",
+        "marks": 4,
+        "prompt": "Using 8-bit two’s complement, represent -18.",
+        "hints": [
+          "Identify the key idea from Signed and floating-point representation that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "+18 is 00010010. [B1]\nInvert the bits to get 11101101. [B1]\nAdd 1 to get 11101110. [B1]\nSo -18 is 11101110 in 8-bit two’s complement. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Signed and floating-point representation",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 05",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-05b",
+        "marks": 3,
+        "prompt": "Explain one source of rounding error in floating-point representation.",
+        "hints": [
+          "Identify the key idea from Signed and floating-point representation that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A finite number of bits is available for the significand/mantissa. [B1]\nSome real values cannot be represented exactly in binary with that precision. [B1]\nThe stored value is rounded to the nearest representable approximation. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Signed and floating-point representation",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 05",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-05c",
+        "marks": 3,
+        "prompt": "Explain the trade-off between exponent bits and significand bits in a fixed-size floating-point format.",
+        "hints": [
+          "Identify the key idea from Signed and floating-point representation that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "More exponent bits allow a wider range of magnitudes. [B1]\nMore significand bits allow greater precision. [B1]\nWith a fixed total width, allocating more bits to one leaves fewer for the other. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Signed and floating-point representation",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 05",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-06a",
+        "marks": 3,
+        "prompt": "Explain why Unicode is useful compared with a small single-byte character set.",
+        "hints": [
+          "Identify the key idea from Character encoding that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Unicode defines code points for characters from many writing systems and symbol sets. [B1]\nIt supports international text within one standard. [B1]\nEncodings such as UTF-8 provide a way to store those code points efficiently. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Character encoding",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 06",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-06b",
+        "marks": 2,
+        "prompt": "Distinguish a character set from a character encoding.",
+        "hints": [
+          "Identify the key idea from Character encoding that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "A character set defines the repertoire/mapping of abstract characters to code points. [B1]\nAn encoding defines how those values are represented as bytes/bits for storage or transmission. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Character encoding",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 06",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-06c",
+        "marks": 3,
+        "prompt": "Explain why text can display incorrectly if bytes are decoded using the wrong character encoding.",
+        "hints": [
+          "Identify the key idea from Character encoding that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The same byte sequence can map to different characters under different encodings. [B1]\nUsing the wrong decoder interprets the numeric values incorrectly. [B1]\nThis can produce replacement symbols or mojibake. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Character encoding",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 06",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-07a",
+        "marks": 4,
+        "prompt": "A stack initially contains [A, B, C] with C on top. PUSH D, POP, PUSH E are performed. State the final stack and the value returned by POP.",
+        "hints": [
+          "Identify the key idea from Stacks and queues that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "PUSH D gives [A,B,C,D]. [B1]\nPOP returns D and leaves [A,B,C]. [B1]\nPUSH E gives [A,B,C,E]. [B1]\nFinal stack: [A,B,C,E]; popped value: D. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Stacks and queues",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 07",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-07b",
+        "marks": 3,
+        "prompt": "Explain why a queue is suitable for a print spooler.",
+        "hints": [
+          "Identify the key idea from Stacks and queues that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A queue follows first-in-first-out order. [B1]\nThe first job submitted can be processed before later jobs. [B1]\nEnqueue adds a job at the rear and dequeue removes from the front. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Stacks and queues",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 07",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-07c",
+        "marks": 3,
+        "prompt": "Give one application of a stack and explain why LIFO behaviour is appropriate.",
+        "hints": [
+          "Identify the key idea from Stacks and queues that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A call stack/undo/history/depth-first search is a suitable example. [B1]\nThe most recently added item must be handled first. [B1]\nThis matches last-in-first-out behaviour. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Stacks and queues",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 07",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-08a",
+        "marks": 4,
+        "prompt": "The diagram is a binary search tree. Give the nodes visited when searching for P.",
+        "hints": [
+          "Identify the key idea from Trees and graphs that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "Start at M. [B1]\nP is greater than M, so move to T. [B1]\nP is less than T, so move to P. [B1]\nThe search path is M, T, P. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Trees and graphs",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 08",
+        "year": "Current specification",
+        "diagram": {
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 230\" width=\"100%\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"210\" y1=\"45\" x2=\"120\" y2=\"105\"/><line x1=\"210\" y1=\"45\" x2=\"300\" y2=\"105\"/><line x1=\"120\" y1=\"105\" x2=\"75\" y2=\"175\"/><line x1=\"120\" y1=\"105\" x2=\"165\" y2=\"175\"/><line x1=\"300\" y1=\"105\" x2=\"255\" y2=\"175\"/><line x1=\"300\" y1=\"105\" x2=\"345\" y2=\"175\"/></g><g font-family=\"Arial\" font-size=\"14\" text-anchor=\"middle\"><circle cx=\"210\" cy=\"40\" r=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"210\" y=\"45\">M</text><circle cx=\"120\" cy=\"105\" r=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"120\" y=\"110\">G</text><circle cx=\"300\" cy=\"105\" r=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"300\" y=\"110\">T</text><circle cx=\"75\" cy=\"180\" r=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"75\" y=\"185\">D</text><circle cx=\"165\" cy=\"180\" r=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"165\" y=\"185\">J</text><circle cx=\"255\" cy=\"180\" r=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"255\" y=\"185\">P</text><circle cx=\"345\" cy=\"180\" r=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"345\" y=\"185\">W</text></g></svg>",
+          "alt": "A binary search tree with root M and two levels of child nodes"
+        }
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-08b",
+        "marks": 4,
+        "prompt": "Distinguish breadth-first search from depth-first search of a graph.",
+        "hints": [
+          "Identify the key idea from Trees and graphs that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Breadth-first search explores vertices level by level from the start. [B1]\nIt commonly uses a queue. [B1]\nDepth-first search follows a path as far as possible before backtracking. [B1]\nIt commonly uses a stack or recursion. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Trees and graphs",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 08",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-08c",
+        "marks": 3,
+        "prompt": "Explain the difference between a tree and a general graph.",
+        "hints": [
+          "Identify the key idea from Trees and graphs that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "A tree is connected and has no cycles. [B1]\nA tree with n vertices has n-1 edges. [B1]\nA general graph may contain cycles, multiple paths or disconnected components depending on the definition/context. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Trees and graphs",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 08",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-09a",
+        "marks": 4,
+        "prompt": "Explain how a hash table stores and retrieves a key-value pair.",
+        "hints": [
+          "Identify the key idea from Hash tables that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A hash function converts the key into an index/bucket. [B1]\nThe pair is stored in the corresponding location/bucket. [B1]\nTo retrieve it, the same hash function is applied to the key. [B1]\nCollisions require a strategy such as chaining or open addressing. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Hash tables",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 09",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-09b",
+        "marks": 3,
+        "prompt": "Two keys produce the same hash-table index. State what this is called and describe one way to handle it.",
+        "hints": [
+          "Identify the key idea from Hash tables that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "This is a collision. [B1]\nChaining can store multiple entries in a collection at the same bucket. [B1]\nAlternatively open addressing probes other table locations according to a rule. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Hash tables",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 09",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-09c",
+        "marks": 4,
+        "prompt": "Explain why a poor hash function can reduce performance.",
+        "hints": [
+          "Identify the key idea from Hash tables that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A poor function may map many keys to the same few buckets. [B1]\nThis creates many collisions. [B1]\nCollision handling then requires extra comparisons/probes. [B1]\nLookup can move away from approximately constant average time. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Hash tables",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 09",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-10a",
+        "marks": 4,
+        "prompt": "Explain one advantage of a linked list over a fixed-size array and one disadvantage.",
+        "hints": [
+          "Identify the key idea from Linked structures that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A linked list can grow dynamically without needing contiguous storage. [B1]\nInsertion/removal can be efficient when a node position/reference is already known. [B1]\nRandom indexed access is slow because nodes must be traversed in sequence. [B1]\nEach node also needs extra pointer/reference storage. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Linked structures",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 10",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-10b",
+        "marks": 3,
+        "prompt": "A singly linked list stores A → B → C. Describe the pointer changes needed to insert X between A and B.",
+        "hints": [
+          "Identify the key idea from Linked structures that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "Set X.next to refer to B. [B1]\nChange A.next to refer to X. [B1]\nKeep B and C links otherwise unchanged. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Linked structures",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 10",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-4-data-types-data-structures-and-algorit-10c",
+        "marks": 3,
+        "prompt": "Explain why deleting a node from a linked list requires changing links as well as releasing/removing the node.",
+        "hints": [
+          "Identify the key idea from Linked structures that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The predecessor must be made to refer to the deleted node’s successor. [B1]\nOtherwise the remaining list would not be connected correctly. [B1]\nThe removed node can then be discarded/reclaimed. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Linked structures",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.4 Data types, data structures and algorithms family 10",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "1.5 Legal, moral, cultural and ethical issues",
+    "category": "Paper 1 – Computer systems",
+    "questions": [
+      {
+        "id": "cs-ocr-1-5-legal-moral-cultural-and-ethical-issue-01a",
+        "marks": 4,
+        "prompt": "A fitness app continuously records location data. Explain two privacy risks and one way the developer could reduce them.",
+        "hints": [
+          "Identify the key idea from Privacy and ethics that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Location histories can reveal sensitive routines or places visited. [B1]\nA data breach could expose this information to unauthorised people. [B1]\nCollect only data that is necessary and give users meaningful control/consent. [B1]\nEncryption/access controls can also reduce the risk of unauthorised disclosure. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Privacy and ethics",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.5 Legal, moral, cultural and ethical issues family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-5-legal-moral-cultural-and-ethical-issue-01b",
+        "marks": 4,
+        "prompt": "An employer wants to use an AI system to rank job applicants. Explain two ethical concerns.",
+        "hints": [
+          "Identify the key idea from Privacy and ethics that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Training data may contain bias that produces unfair decisions. [B1]\nApplicants may not understand how an automated decision was made. [B1]\nIncorrect rankings can materially affect people. [B1]\nHuman oversight, testing for bias and transparent criteria can reduce these concerns. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Privacy and ethics",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.5 Legal, moral, cultural and ethical issues family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-5-legal-moral-cultural-and-ethical-issue-01c",
+        "marks": 3,
+        "prompt": "Explain why anonymising a dataset can help protect privacy but may not remove all privacy risk.",
+        "hints": [
+          "Identify the key idea from Privacy and ethics that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Removing direct identifiers reduces the chance of linking records to named individuals. [B1]\nCombinations of remaining attributes may still allow re-identification. [B1]\nAnonymisation therefore needs careful design and may need aggregation or removal of rare attributes. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Privacy and ethics",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.5 Legal, moral, cultural and ethical issues family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-5-legal-moral-cultural-and-ethical-issue-02a",
+        "marks": 3,
+        "prompt": "Explain one way copyright law affects software developers and users.",
+        "hints": [
+          "Identify the key idea from Legal and intellectual property that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Software source code and other creative works can be protected by copyright. [B1]\nUsers generally need permission/licensing to copy or distribute protected software. [B1]\nDevelopers must also respect licences for third-party code they use. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Legal and intellectual property",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.5 Legal, moral, cultural and ethical issues family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-5-legal-moral-cultural-and-ethical-issue-02b",
+        "marks": 3,
+        "prompt": "Explain why an organisation must consider data-protection law when collecting personal data.",
+        "hints": [
+          "Identify the key idea from Legal and intellectual property that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Personal data should be processed for legitimate/specified purposes. [B1]\nOnly necessary data should be collected and protected appropriately. [B1]\nPeople have rights relating to their personal data and organisations have responsibilities for security and handling. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Legal and intellectual property",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.5 Legal, moral, cultural and ethical issues family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-5-legal-moral-cultural-and-ethical-issue-02c",
+        "marks": 3,
+        "prompt": "A student downloads a commercial program from an unauthorised sharing site. Explain a legal and an ethical issue.",
+        "hints": [
+          "Identify the key idea from Legal and intellectual property that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The copy may infringe copyright or the software licence. [B1]\nThe creator/rightsholder may lose revenue or control of distribution. [B1]\nUnauthorised files may also create security risks for the user. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Legal and intellectual property",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.5 Legal, moral, cultural and ethical issues family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-5-legal-moral-cultural-and-ethical-issue-03a",
+        "marks": 4,
+        "prompt": "Explain two environmental impacts of data centres and one way to reduce them.",
+        "hints": [
+          "Identify the key idea from Environmental impacts that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Servers and cooling systems consume significant electrical energy. [B1]\nManufacture and replacement of hardware use raw materials and create electronic waste. [B1]\nUse efficient cooling/hardware and low-carbon energy sources. [B1]\nExtending hardware life and responsible recycling can reduce material impacts. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Environmental impacts",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.5 Legal, moral, cultural and ethical issues family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-5-legal-moral-cultural-and-ethical-issue-03b",
+        "marks": 3,
+        "prompt": "Explain one environmental benefit and one environmental cost of replacing office meetings with video conferencing.",
+        "hints": [
+          "Identify the key idea from Environmental impacts that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "It can reduce travel and associated fuel use/emissions. [B1]\nNetwork and data-centre infrastructure still consumes electricity. [B1]\nThe overall impact depends on factors such as travel avoided and energy source. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Environmental impacts",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.5 Legal, moral, cultural and ethical issues family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-1-5-legal-moral-cultural-and-ethical-issue-03c",
+        "marks": 4,
+        "prompt": "Explain why rapidly replacing smartphones can contribute to environmental problems.",
+        "hints": [
+          "Identify the key idea from Environmental impacts that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Manufacturing requires energy and mined raw materials. [B1]\nDiscarded devices contribute to electronic waste. [B1]\nSome components contain materials that are difficult or hazardous to process. [B1]\nRepair, reuse and recycling can reduce these impacts. [B1]",
+        "paper": "Paper 1 – Computer systems",
+        "subtopic": "Environmental impacts",
+        "inspiredBy": "OCR H446 Paper 1 – Computer systems – 1.5 Legal, moral, cultural and ethical issues family 03",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "2.1 Elements of computational thinking",
+    "category": "Paper 2 – Algorithms and programming",
+    "questions": [
+      {
+        "id": "cs-ocr-2-1-elements-of-computational-thinking-01a",
+        "marks": 3,
+        "prompt": "Trace this algorithm for the list [4, 7, 2, 9].\ntotal = 0\nFOR each x in the list\n  IF x MOD 2 = 1 THEN total = total + x\nOUTPUT total",
+        "hints": [
+          "Work through the loop one value at a time."
+        ],
+        "solution": "The values tested are 4, 7, 2 and 9. [B1]\nOnly 7 and 9 satisfy the condition. [B1]\nThe output is 16. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Tracing algorithms",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.1 Elements of computational thinking family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-1-elements-of-computational-thinking-01b",
+        "marks": 3,
+        "prompt": "Trace this algorithm for the list [3, 6, 8, 5].\ncount = 0\nFOR each x in the list\n  IF x > 5 THEN count = count + 1\nOUTPUT count",
+        "hints": [
+          "Keep a running value of count."
+        ],
+        "solution": "The values greater than 5 are identified. [B1]\n6 and 8 satisfy the condition. [B1]\nThe output is 2. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Tracing algorithms",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.1 Elements of computational thinking family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-1-elements-of-computational-thinking-01c",
+        "marks": 3,
+        "prompt": "Trace this algorithm.\nx = 3\ny = 1\nWHILE x < 10\n  y = y * 2\n  x = x + 3\nOUTPUT y",
+        "hints": [
+          "Make a small trace table for x and y."
+        ],
+        "solution": "The loop runs while x is 3, 6 and 9. [B1]\ny changes 1 → 2 → 4 → 8. [B1]\nThe output is 8. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Tracing algorithms",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.1 Elements of computational thinking family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-1-elements-of-computational-thinking-02a",
+        "marks": 4,
+        "prompt": "A sorted list contains 128 items. Explain why binary search usually needs fewer comparisons than linear search to find an item near the end of the list.",
+        "hints": [
+          "State the key requirement for binary search."
+        ],
+        "solution": "Binary search checks the middle item. [B1]\nIt discards half of the remaining search area after each comparison. [B1]\nLinear search may inspect items one by one from the start. [B1]\nTherefore binary search grows much more slowly in comparisons for a sorted list. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Searching algorithms",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.1 Elements of computational thinking family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-1-elements-of-computational-thinking-02b",
+        "marks": 4,
+        "prompt": "A music app stores 500 song IDs in sorted order. Describe how binary search would look for ID 372.",
+        "hints": [
+          "Think: middle, discard half, repeat."
+        ],
+        "solution": "Compare 372 with the middle ID. [B1]\nIf 372 is smaller, continue with the lower half; if larger, use the upper half. [B1]\nRepeat by checking the middle of the remaining half. [B1]\nStop when 372 is found or no items remain. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Searching algorithms",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.1 Elements of computational thinking family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-1-elements-of-computational-thinking-02c",
+        "marks": 3,
+        "prompt": "Explain one situation in which linear search is more suitable than binary search.",
+        "hints": [
+          "What condition does binary search require?"
+        ],
+        "solution": "Linear search does not require the data to be sorted. [B1]\nIt can therefore be used directly on an unsorted collection. [B1]\nSorting first could add unnecessary work for a small or one-off search. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Searching algorithms",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.1 Elements of computational thinking family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-1-elements-of-computational-thinking-03a",
+        "marks": 4,
+        "prompt": "One pass of bubble sort is applied to [7, 3, 5, 2]. Give the list after this complete left-to-right pass.",
+        "hints": [
+          "Identify the key idea from Sorting algorithms that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "Compare 7 and 3 and swap → [3,7,5,2]. [B1]\nCompare 7 and 5 and swap → [3,5,7,2]. [B1]\nCompare 7 and 2 and swap → [3,5,2,7]. [B1]\nThe list after one pass is [3,5,2,7]. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Sorting algorithms",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.1 Elements of computational thinking family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-1-elements-of-computational-thinking-03b",
+        "marks": 4,
+        "prompt": "Insertion sort is used on [2, 6, 9, 4, 8]. Show the list immediately after the value 4 has been inserted into the sorted part.",
+        "hints": [
+          "Identify the key idea from Sorting algorithms that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "The sorted part before inserting 4 is [2,6,9]. [B1]\nMove 9 one position right. [B1]\nMove 6 one position right. [B1]\nInsert 4 after 2, giving [2,4,6,9,8]. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Sorting algorithms",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.1 Elements of computational thinking family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-1-elements-of-computational-thinking-03c",
+        "marks": 4,
+        "prompt": "Explain why merge sort is described as a divide-and-conquer algorithm.",
+        "hints": [
+          "Identify the key idea from Sorting algorithms that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The original list is divided into smaller sublists. [B1]\nThe sublists are repeatedly divided until very small. [B1]\nSmall sorted lists are merged together in order. [B1]\nThe solution is built by combining the results of the smaller problems. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Sorting algorithms",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.1 Elements of computational thinking family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-1-elements-of-computational-thinking-04a",
+        "marks": 4,
+        "prompt": "A school is designing an online booking system for clubs. Explain how decomposition and abstraction could help when developing the solution.",
+        "hints": [
+          "Identify the key idea from Decomposition and abstraction that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Decomposition splits the system into smaller parts such as login, club search and booking. [B1]\nEach smaller part can be designed or tested separately. [B1]\nAbstraction removes details that are not relevant to the current problem. [B1]\nThis reduces complexity and helps developers focus on essential data and behaviour. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Decomposition and abstraction",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.1 Elements of computational thinking family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-1-elements-of-computational-thinking-04b",
+        "marks": 4,
+        "prompt": "A navigation app must calculate routes. Give two examples of decomposition and two examples of abstraction that could be used.",
+        "hints": [
+          "Identify the key idea from Decomposition and abstraction that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "Decomposition could separate map loading from route calculation. [B1]\nDecomposition could separate route calculation from displaying directions. [B1]\nAbstraction could model a junction as a node rather than every physical detail. [B1]\nAbstraction could keep only route-relevant properties such as distance or travel time. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Decomposition and abstraction",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.1 Elements of computational thinking family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-1-elements-of-computational-thinking-04c",
+        "marks": 4,
+        "prompt": "Explain the difference between decomposition and abstraction using a game as an example.",
+        "hints": [
+          "Identify the key idea from Decomposition and abstraction that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Decomposition breaks the game into smaller tasks or modules. [B1]\nFor example, input, scoring and collision detection can be separate modules. [B1]\nAbstraction represents only important features and hides unnecessary detail. [B1]\nFor example, a player can be represented by position, health and score rather than every real-world property. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Decomposition and abstraction",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.1 Elements of computational thinking family 04",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "2.2 Problem solving and programming",
+    "category": "Paper 2 – Algorithms and programming",
+    "questions": [
+      {
+        "id": "cs-ocr-2-2-problem-solving-and-programming-01a",
+        "marks": 4,
+        "prompt": "Explain the difference between local and global scope, and give one reason to minimise the use of global variables.",
+        "hints": [
+          "Identify the key idea from Programming paradigms and constructs that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "A local identifier is accessible only within its defining block/subroutine scope. [B1]\nA global identifier can be accessed from a much wider part of the program. [B1]\nExcessive global state creates hidden dependencies between modules. [B1]\nReducing global variables therefore improves modularity, testability or maintainability. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Programming paradigms and constructs",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.2 Problem solving and programming family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-2-problem-solving-and-programming-01b",
+        "marks": 4,
+        "prompt": "Explain pass-by-value and pass-by-reference semantics.",
+        "hints": [
+          "Identify the key idea from Programming paradigms and constructs that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Pass-by-value gives the subroutine a copy/value of the argument. [B1]\nChanging the parameter does not directly change the caller variable. [B1]\nPass-by-reference gives access to the original object/location. [B1]\nChanges made through the reference can therefore be visible to the caller. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Programming paradigms and constructs",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.2 Problem solving and programming family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-2-problem-solving-and-programming-01c",
+        "marks": 4,
+        "prompt": "A recursive function calculates factorial(n). Explain the role of the base case and the recursive case.",
+        "hints": [
+          "Identify the key idea from Programming paradigms and constructs that the question is testing.",
+          "Work through the values in order and keep each intermediate step so you can check the final result."
+        ],
+        "solution": "The base case returns a result without making another recursive call. [B1]\nIt prevents recursion continuing indefinitely. [B1]\nThe recursive case reduces the problem, for example n × factorial(n-1). [B1]\nRepeated reduction eventually reaches the base case. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Programming paradigms and constructs",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.2 Problem solving and programming family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-2-problem-solving-and-programming-02a",
+        "marks": 4,
+        "prompt": "A class BankAccount has private balance and methods deposit and withdraw. Explain encapsulation and why balance should not be changed directly by arbitrary code.",
+        "hints": [
+          "Identify the key idea from Object-oriented programming that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Encapsulation groups state and behaviour inside an object/class. [B1]\nPrivate state hides implementation details from external code. [B1]\nMethods can enforce rules such as preventing invalid withdrawals. [B1]\nThis protects invariants and reduces unintended coupling. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Object-oriented programming",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.2 Problem solving and programming family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-2-problem-solving-and-programming-02b",
+        "marks": 4,
+        "prompt": "Explain inheritance and polymorphism using a superclass Vehicle and subclasses Car and Bicycle.",
+        "hints": [
+          "Identify the key idea from Object-oriented programming that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Inheritance allows subclasses to reuse/extend attributes and methods of Vehicle. [B1]\nCar and Bicycle can provide specialised behaviour. [B1]\nPolymorphism allows code to use a common Vehicle interface while different subclass implementations respond differently. [B1]\nThis supports extensibility and reduces repeated conditional code. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Object-oriented programming",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.2 Problem solving and programming family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-2-problem-solving-and-programming-02c",
+        "marks": 3,
+        "prompt": "Distinguish a class from an object.",
+        "hints": [
+          "Identify the key idea from Object-oriented programming that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "A class is a blueprint/type defining attributes and methods. [B1]\nAn object is a particular runtime instance of that class. [B1]\nDifferent objects of the same class can hold different state values. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Object-oriented programming",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.2 Problem solving and programming family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-2-problem-solving-and-programming-03a",
+        "marks": 4,
+        "prompt": "Explain why unit tests and integration tests are both useful in a large program.",
+        "hints": [
+          "Identify the key idea from Testing and defensive programming that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Unit tests check individual functions/classes in isolation. [B1]\nThey help locate defects in small components quickly. [B1]\nIntegration tests check whether components interact correctly. [B1]\nThey can reveal interface/data-flow problems not visible in isolated units. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Testing and defensive programming",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.2 Problem solving and programming family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-2-problem-solving-and-programming-03b",
+        "marks": 4,
+        "prompt": "A function accepts a positive integer and returns its square root. Identify suitable normal, boundary and invalid tests.",
+        "hints": [
+          "Identify the key idea from Testing and defensive programming that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "A normal test could use 25 with expected result 5. [B1]\nA boundary test could use the smallest allowed positive value such as 1. [B1]\nAn invalid test could use 0 or a negative value if these are outside the specification. [B1]\nExpected outputs/errors should be specified for each test. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Testing and defensive programming",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.2 Problem solving and programming family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-2-problem-solving-and-programming-03c",
+        "marks": 3,
+        "prompt": "Explain why assertions can help during software development.",
+        "hints": [
+          "Identify the key idea from Testing and defensive programming that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "An assertion checks that a condition believed to be true actually holds. [B1]\nA failed assertion exposes an unexpected program state close to its cause. [B1]\nAssertions can document assumptions/invariants and support debugging/testing. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Testing and defensive programming",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.2 Problem solving and programming family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-2-problem-solving-and-programming-04a",
+        "marks": 4,
+        "prompt": "A program performs a linear scan through n records inside another linear scan through n records. State the time complexity and explain it.",
+        "hints": [
+          "Identify the key idea from Complexity-aware programming that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The outer loop runs approximately n times. [B1]\nFor each outer iteration, the inner loop also runs approximately n times. [B1]\nThe total number of operations is proportional to n². [B1]\nThe time complexity is O(n²). [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Complexity-aware programming",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.2 Problem solving and programming family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-2-problem-solving-and-programming-04b",
+        "marks": 3,
+        "prompt": "Explain why replacing repeated linear searches with a hash table can improve average performance.",
+        "hints": [
+          "Identify the key idea from Complexity-aware programming that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A linear search takes O(n) comparisons in the general case. [B1]\nA well-designed hash table can provide approximately O(1) average lookup. [B1]\nRepeated lookups therefore scale much better as the dataset grows, assuming a suitable hash function/load factor. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Complexity-aware programming",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.2 Problem solving and programming family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-2-problem-solving-and-programming-04c",
+        "marks": 3,
+        "prompt": "Distinguish time complexity from space complexity.",
+        "hints": [
+          "Identify the key idea from Complexity-aware programming that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Time complexity describes how running work/time grows with input size. [B1]\nSpace complexity describes how additional memory use grows with input size. [B1]\nAn algorithm may trade extra memory for faster execution or vice versa. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Complexity-aware programming",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.2 Problem solving and programming family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-2-problem-solving-and-programming-05a",
+        "marks": 3,
+        "prompt": "A username must be 6 to 12 characters long. Describe a validation check and explain why validation does not prove the username is correct.",
+        "hints": [
+          "Identify the key idea from Validation and defensive design that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Check that the string length is at least 6 and at most 12. [B1]\nReject or ask again if the range check fails. [B1]\nValidation checks whether data is reasonable/acceptable, not whether it represents the intended real-world value. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Validation and defensive design",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.2 Problem solving and programming family 05",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-2-problem-solving-and-programming-05b",
+        "marks": 3,
+        "prompt": "A menu only accepts choices 1, 2, 3 or 4. Write a condition that rejects every other integer.",
+        "hints": [
+          "Identify the key idea from Validation and defensive design that the question is testing.",
+          "Break the task into input, processing/condition, and output before writing the final statement or algorithm."
+        ],
+        "solution": "Test whether choice < 1 OR choice > 4. [B1]\nIf the condition is true, reject the value. [B1]\nRepeat input until a valid option is supplied. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Validation and defensive design",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.2 Problem solving and programming family 05",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-2-problem-solving-and-programming-05c",
+        "marks": 3,
+        "prompt": "Explain why sanitising user input can improve program security.",
+        "hints": [
+          "Identify the key idea from Validation and defensive design that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "User input may contain unexpected or malicious characters/data. [B1]\nSanitising removes/escapes or restricts unsafe content before it is processed. [B1]\nThis can reduce attacks such as injection when combined with proper query parameterisation and other controls. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Validation and defensive design",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.2 Problem solving and programming family 05",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-2-problem-solving-and-programming-06a",
+        "marks": 3,
+        "prompt": "A field accepts whole numbers from 1 to 100 inclusive. Give two boundary test values and two invalid test values.",
+        "hints": [
+          "Identify the key idea from Test data that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "1 and 100 are boundary values that should be accepted. [B1]\n0 is outside the lower boundary and should be rejected. [B1]\n101 is outside the upper boundary and should be rejected. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Test data",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.2 Problem solving and programming family 06",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-2-problem-solving-and-programming-06b",
+        "marks": 3,
+        "prompt": "Explain why expected results should be recorded before running a test.",
+        "hints": [
+          "Identify the key idea from Test data that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The expected result gives a known outcome to compare with the actual result. [B1]\nA difference indicates that the program may contain an error. [B1]\nPredefining it reduces the temptation to accept an incorrect result after seeing the output. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Test data",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.2 Problem solving and programming family 06",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-2-problem-solving-and-programming-06c",
+        "marks": 3,
+        "prompt": "Distinguish normal, boundary and erroneous/invalid test data.",
+        "hints": [
+          "Identify the key idea from Test data that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Normal data is typical valid input inside the accepted range. [B1]\nBoundary data is at or very close to the edge of the accepted range. [B1]\nInvalid/erroneous data does not satisfy the input rules. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Test data",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.2 Problem solving and programming family 06",
+        "year": "Current specification"
+      }
+    ]
+  },
+  {
+    "topic": "2.3 Algorithms",
+    "category": "Paper 2 – Algorithms and programming",
+    "questions": [
+      {
+        "id": "cs-ocr-2-3-algorithms-01a",
+        "marks": 4,
+        "prompt": "Rank O(1), O(log n), O(n), O(n log n), O(n²) from best to worst growth for large n.",
+        "hints": [
+          "Identify the key idea from Algorithm complexity that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "O(1) grows least. [B1]\nThen O(log n). [B1]\nThen O(n), followed by O(n log n). [B1]\nO(n²) grows fastest of the listed classes. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Algorithm complexity",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.3 Algorithms family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-3-algorithms-01b",
+        "marks": 3,
+        "prompt": "Binary search runs in O(log n) time on a sorted array. Explain why.",
+        "hints": [
+          "Identify the key idea from Algorithm complexity that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Each comparison chooses one half of the remaining search interval. [B1]\nThe problem size is repeatedly divided by 2. [B1]\nThe number of divisions needed to reach size 1 grows logarithmically with n. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Algorithm complexity",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.3 Algorithms family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-3-algorithms-01c",
+        "marks": 3,
+        "prompt": "Explain why big-O notation usually ignores constant factors.",
+        "hints": [
+          "Identify the key idea from Algorithm complexity that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Big-O describes asymptotic growth as input size becomes large. [B1]\nMultiplying work by a fixed constant does not change the growth class. [B1]\nIt is therefore useful for comparing scalability independently of machine-specific constants. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Algorithm complexity",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.3 Algorithms family 01",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-3-algorithms-02a",
+        "marks": 4,
+        "prompt": "Describe the purpose of Dijkstra’s algorithm and state a condition on edge weights for the standard algorithm.",
+        "hints": [
+          "Identify the key idea from Graph algorithms that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "It finds shortest path distances from a start vertex in a weighted graph. [B1]\nIt repeatedly selects the unvisited vertex with the smallest tentative distance. [B1]\nIt relaxes/update distances to neighbouring vertices. [B1]\nThe standard algorithm assumes non-negative edge weights. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Graph algorithms",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.3 Algorithms family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-3-algorithms-02b",
+        "marks": 3,
+        "prompt": "Explain how breadth-first search can find a shortest path in an unweighted graph.",
+        "hints": [
+          "Identify the key idea from Graph algorithms that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "BFS visits vertices in increasing number of edges from the start. [B1]\nA queue maintains this level order. [B1]\nThe first time a vertex is reached gives a path with the fewest edges from the start. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Graph algorithms",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.3 Algorithms family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-3-algorithms-02c",
+        "marks": 4,
+        "prompt": "Compare depth-first and breadth-first traversal for memory and exploration order.",
+        "hints": [
+          "Identify the key idea from Graph algorithms that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "DFS follows one branch deeply before backtracking. [B1]\nBFS explores all neighbours/levels before going deeper. [B1]\nBFS may need to store a large frontier. [B1]\nDFS can use less memory on some wide graphs but does not guarantee fewest-edge paths. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Graph algorithms",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.3 Algorithms family 02",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-3-algorithms-03a",
+        "marks": 3,
+        "prompt": "Explain why merge sort has O(n log n) time complexity.",
+        "hints": [
+          "Identify the key idea from Sorting algorithms that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The list is divided into halves for about log n levels. [B1]\nAcross each level, merging processes about n elements in total. [B1]\nn work per level across log n levels gives O(n log n). [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Sorting algorithms",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.3 Algorithms family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-3-algorithms-03b",
+        "marks": 3,
+        "prompt": "Compare insertion sort and merge sort for a small nearly sorted list.",
+        "hints": [
+          "Identify the key idea from Sorting algorithms that the question is testing.",
+          "Make a paired comparison: state what each term does, then give a clear difference between them."
+        ],
+        "solution": "Insertion sort has low overhead and can perform well when few elements are out of place. [B1]\nMerge sort guarantees O(n log n) growth but needs additional merge work/storage. [B1]\nFor a small nearly sorted list, insertion sort can therefore be a practical choice. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Sorting algorithms",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.3 Algorithms family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-3-algorithms-03c",
+        "marks": 2,
+        "prompt": "Explain what makes a sorting algorithm stable.",
+        "hints": [
+          "Identify the key idea from Sorting algorithms that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "A stable sort preserves the original relative order of records whose sort keys compare equal. [B1]\nThis matters when a previous ordering on another field should be retained for equal keys. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Sorting algorithms",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.3 Algorithms family 03",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-3-algorithms-04a",
+        "marks": 4,
+        "prompt": "Explain how recursive binary search reduces the problem on each call.",
+        "hints": [
+          "Identify the key idea from Recursive algorithms that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Compare the target with the middle element. [B1]\nIf equal, return the result. [B1]\nOtherwise recurse only into the lower or upper half as appropriate. [B1]\nThe search interval therefore becomes about half as large each call. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Recursive algorithms",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.3 Algorithms family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-3-algorithms-04b",
+        "marks": 4,
+        "prompt": "A recursive traversal of a binary tree visits left subtree, node, right subtree. Name this traversal and explain its result on a binary search tree.",
+        "hints": [
+          "Identify the key idea from Recursive algorithms that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "This is an in-order traversal. [B1]\nIt recursively visits the left subtree first. [B1]\nThen it visits the current node and then the right subtree. [B1]\nFor a binary search tree it outputs keys in sorted order. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Recursive algorithms",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.3 Algorithms family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-3-algorithms-04c",
+        "marks": 3,
+        "prompt": "Explain the risk of missing a base case in a recursive algorithm.",
+        "hints": [
+          "Identify the key idea from Recursive algorithms that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "The recursive calls may never terminate normally. [B1]\nEach call consumes stack space. [B1]\nEventually the program may fail with a stack overflow or recursion-depth error. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Recursive algorithms",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.3 Algorithms family 04",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-3-algorithms-05a",
+        "marks": 4,
+        "prompt": "The finite state machine moves S0 --1→ S1 --0→ S2, where S2 is accepting. Explain whether the string 10 is accepted using the transitions shown.",
+        "hints": [
+          "Identify the key idea from Finite state machines that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "Start in S0. [B1]\nReading 1 moves to S1. [B1]\nReading 0 moves to S2. [B1]\nS2 is an accepting state, so 10 is accepted. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Finite state machines",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.3 Algorithms family 05",
+        "year": "Current specification",
+        "diagram": {
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 190\" width=\"100%\"><defs><marker id=\"a\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L0,6 L6,3 z\" fill=\"currentColor\"/></marker></defs><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"100\" cy=\"95\" r=\"32\"/><circle cx=\"260\" cy=\"95\" r=\"32\"/><circle cx=\"420\" cy=\"95\" r=\"36\"/><circle cx=\"420\" cy=\"95\" r=\"30\"/><line x1=\"132\" y1=\"95\" x2=\"225\" y2=\"95\" marker-end=\"url(#a)\"/><line x1=\"292\" y1=\"95\" x2=\"380\" y2=\"95\" marker-end=\"url(#a)\"/></g><g font-family=\"Arial\" font-size=\"14\" text-anchor=\"middle\"><text x=\"100\" y=\"100\">S0</text><text x=\"260\" y=\"100\">S1</text><text x=\"420\" y=\"100\">S2</text><text x=\"178\" y=\"82\">1</text><text x=\"336\" y=\"82\">0</text></g></svg>",
+          "alt": "Finite state machine with transitions from S0 to S1 on 1 and S1 to accepting state S2 on 0"
+        }
+      },
+      {
+        "id": "cs-ocr-2-3-algorithms-05b",
+        "marks": 3,
+        "prompt": "Explain what makes a deterministic finite state machine deterministic.",
+        "hints": [
+          "Identify the key idea from Finite state machines that the question is testing.",
+          "Link each point to why it matters or what effect it has, rather than only naming the term."
+        ],
+        "solution": "For each state and input symbol there is at most one defined next state. [B1]\nThe current state plus current input therefore determines the next state uniquely. [B1]\nThere is no choice between multiple transitions for the same state/input pair. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Finite state machines",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.3 Algorithms family 05",
+        "year": "Current specification"
+      },
+      {
+        "id": "cs-ocr-2-3-algorithms-05c",
+        "marks": 3,
+        "prompt": "Give one use of a finite state machine in software or hardware.",
+        "hints": [
+          "Identify the key idea from Finite state machines that the question is testing.",
+          "Use the wording of the question to decide which facts are relevant, then answer one mark point at a time."
+        ],
+        "solution": "A protocol parser, lexical analyser, vending machine controller or simple game state controller is valid. [B1]\nThe system has a finite set of states. [B1]\nInputs/events trigger defined transitions between those states. [B1]",
+        "paper": "Paper 2 – Algorithms and programming",
+        "subtopic": "Finite state machines",
+        "inspiredBy": "OCR H446 Paper 2 – Algorithms and programming – 2.3 Algorithms family 05",
+        "year": "Current specification"
+      }
+    ]
+  }
+]

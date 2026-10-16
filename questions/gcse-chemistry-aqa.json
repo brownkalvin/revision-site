@@ -1,0 +1,2312 @@
+[
+  {
+    "topic": "Atomic structure and the periodic table",
+    "category": "Paper 1",
+    "questions": [
+      {
+        "id": "gcse-chem-aqa-p1-t01-f01a",
+        "marks": 3,
+        "prompt": "A student is answering an AQA-style practice question. Explain why atoms of the same element can have different mass numbers. (3)",
+        "hints": [
+          "Mass number counts protons and neutrons.",
+          "Define isotope."
+        ],
+        "solution": "Atoms of the same element have the same number of protons. [B1]\nThey can have different numbers of neutrons. [B1]\nAtoms with the same proton number but different neutron numbers are isotopes, so their mass numbers differ. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Isotopes",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Atomic structure and the periodic table · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t01-f01b",
+        "marks": 3,
+        "prompt": "A class is applying the same idea in a different context. Explain why atoms of the same element can have different mass numbers. (3)",
+        "hints": [
+          "Mass number counts protons and neutrons.",
+          "Define isotope."
+        ],
+        "solution": "Atoms of the same element have the same number of protons. [B1]\nThey can have different numbers of neutrons. [B1]\nAtoms with the same proton number but different neutron numbers are isotopes, so their mass numbers differ. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Isotopes",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Atomic structure and the periodic table · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t01-f01c",
+        "marks": 3,
+        "prompt": "During revision, a learner is asked the following. Explain why atoms of the same element can have different mass numbers. (3)",
+        "hints": [
+          "Mass number counts protons and neutrons.",
+          "Define isotope."
+        ],
+        "solution": "Atoms of the same element have the same number of protons. [B1]\nThey can have different numbers of neutrons. [B1]\nAtoms with the same proton number but different neutron numbers are isotopes, so their mass numbers differ. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Isotopes",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Atomic structure and the periodic table · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t01-f02a",
+        "marks": 3,
+        "prompt": "A student is answering an AQA-style practice question. An atom has atomic number 17 and mass number 35. State the numbers of protons, neutrons and electrons in a neutral atom. (3)",
+        "hints": [
+          "Atomic number gives protons.",
+          "For a neutral atom, electrons equal protons."
+        ],
+        "solution": "Protons = 17 because atomic number is the proton number. [B1]\nElectrons = 17 because the atom is neutral. [B1]\nNeutrons = 35 - 17 = 18. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Atomic structure",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Atomic structure and the periodic table · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t01-f02b",
+        "marks": 3,
+        "prompt": "A class is applying the same idea in a different context. An atom has atomic number 17 and mass number 35. State the numbers of protons, neutrons and electrons in a neutral atom. (3)",
+        "hints": [
+          "Atomic number gives protons.",
+          "For a neutral atom, electrons equal protons."
+        ],
+        "solution": "Protons = 17 because atomic number is the proton number. [B1]\nElectrons = 17 because the atom is neutral. [B1]\nNeutrons = 35 - 17 = 18. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Atomic structure",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Atomic structure and the periodic table · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t01-f02c",
+        "marks": 3,
+        "prompt": "During revision, a learner is asked the following. An atom has atomic number 17 and mass number 35. State the numbers of protons, neutrons and electrons in a neutral atom. (3)",
+        "hints": [
+          "Atomic number gives protons.",
+          "For a neutral atom, electrons equal protons."
+        ],
+        "solution": "Protons = 17 because atomic number is the proton number. [B1]\nElectrons = 17 because the atom is neutral. [B1]\nNeutrons = 35 - 17 = 18. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Atomic structure",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Atomic structure and the periodic table · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t01-f03a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain the trend in reactivity down Group 1 of the periodic table. (4)",
+        "hints": [
+          "Think about distance and shielding.",
+          "Group 1 metals lose an electron."
+        ],
+        "solution": "Group 1 atoms react by losing one outer electron. [B1]\nDown the group the outer electron is further from the nucleus and more shielded. [B1]\nThe attraction between the nucleus and outer electron is weaker. [B1]\nThe electron is lost more easily, so reactivity increases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Periodic trends",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Atomic structure and the periodic table · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t01-f03b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain the trend in reactivity down Group 1 of the periodic table. (4)",
+        "hints": [
+          "Think about distance and shielding.",
+          "Group 1 metals lose an electron."
+        ],
+        "solution": "Group 1 atoms react by losing one outer electron. [B1]\nDown the group the outer electron is further from the nucleus and more shielded. [B1]\nThe attraction between the nucleus and outer electron is weaker. [B1]\nThe electron is lost more easily, so reactivity increases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Periodic trends",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Atomic structure and the periodic table · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t01-f03c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain the trend in reactivity down Group 1 of the periodic table. (4)",
+        "hints": [
+          "Think about distance and shielding.",
+          "Group 1 metals lose an electron."
+        ],
+        "solution": "Group 1 atoms react by losing one outer electron. [B1]\nDown the group the outer electron is further from the nucleus and more shielded. [B1]\nThe attraction between the nucleus and outer electron is weaker. [B1]\nThe electron is lost more easily, so reactivity increases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Periodic trends",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Atomic structure and the periodic table · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t01-f04a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Compare the typical properties of transition metals with Group 1 metals. (4)",
+        "hints": [
+          "Give more than one physical and chemical comparison.",
+          "Remember coloured compounds and catalysts."
+        ],
+        "solution": "Transition metals are generally harder and stronger. [B1]\nTransition metals generally have higher melting points and densities. [B1]\nTransition metals are less reactive than Group 1 metals. [B1]\nTransition metals often form coloured compounds and can act as catalysts. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Transition metals",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Atomic structure and the periodic table · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t01-f04b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Compare the typical properties of transition metals with Group 1 metals. (4)",
+        "hints": [
+          "Give more than one physical and chemical comparison.",
+          "Remember coloured compounds and catalysts."
+        ],
+        "solution": "Transition metals are generally harder and stronger. [B1]\nTransition metals generally have higher melting points and densities. [B1]\nTransition metals are less reactive than Group 1 metals. [B1]\nTransition metals often form coloured compounds and can act as catalysts. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Transition metals",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Atomic structure and the periodic table · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t01-f04c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Compare the typical properties of transition metals with Group 1 metals. (4)",
+        "hints": [
+          "Give more than one physical and chemical comparison.",
+          "Remember coloured compounds and catalysts."
+        ],
+        "solution": "Transition metals are generally harder and stronger. [B1]\nTransition metals generally have higher melting points and densities. [B1]\nTransition metals are less reactive than Group 1 metals. [B1]\nTransition metals often form coloured compounds and can act as catalysts. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Transition metals",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Atomic structure and the periodic table · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t01-f05a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how the periodic table developed from early arrangements to the modern table. (4)",
+        "hints": [
+          "Mendeleev did not force every element into strict mass order.",
+          "What later discovery fixed the ordering?"
+        ],
+        "solution": "Early tables arranged elements using properties and/or atomic mass. [B1]\nMendeleev left gaps for undiscovered elements and changed the order when properties suggested it. [B1]\nPredicted properties of missing elements were later confirmed. [B1]\nThe discovery of protons/atomic number led to the modern order by atomic number. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Development of the periodic table",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Atomic structure and the periodic table · family 5"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t01-f05b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how the periodic table developed from early arrangements to the modern table. (4)",
+        "hints": [
+          "Mendeleev did not force every element into strict mass order.",
+          "What later discovery fixed the ordering?"
+        ],
+        "solution": "Early tables arranged elements using properties and/or atomic mass. [B1]\nMendeleev left gaps for undiscovered elements and changed the order when properties suggested it. [B1]\nPredicted properties of missing elements were later confirmed. [B1]\nThe discovery of protons/atomic number led to the modern order by atomic number. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Development of the periodic table",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Atomic structure and the periodic table · family 5"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t01-f05c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how the periodic table developed from early arrangements to the modern table. (4)",
+        "hints": [
+          "Mendeleev did not force every element into strict mass order.",
+          "What later discovery fixed the ordering?"
+        ],
+        "solution": "Early tables arranged elements using properties and/or atomic mass. [B1]\nMendeleev left gaps for undiscovered elements and changed the order when properties suggested it. [B1]\nPredicted properties of missing elements were later confirmed. [B1]\nThe discovery of protons/atomic number led to the modern order by atomic number. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Development of the periodic table",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Atomic structure and the periodic table · family 5"
+      }
+    ]
+  },
+  {
+    "topic": "Bonding, structure, and the properties of matter",
+    "category": "Paper 1",
+    "questions": [
+      {
+        "id": "gcse-chem-aqa-p1-t02-f01a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain why ionic compounds conduct electricity when molten but not when solid. (4)",
+        "hints": [
+          "Conductivity needs moving charged particles.",
+          "Compare ion mobility in solid and liquid states."
+        ],
+        "solution": "Ionic compounds contain charged ions. [B1]\nIn a solid lattice the ions are fixed in position and cannot move. [B1]\nWhen molten the ions are free to move. [B1]\nMoving ions carry electric charge through the liquid. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Ionic bonding",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Bonding, structure, and the properties of matter · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t02-f01b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain why ionic compounds conduct electricity when molten but not when solid. (4)",
+        "hints": [
+          "Conductivity needs moving charged particles.",
+          "Compare ion mobility in solid and liquid states."
+        ],
+        "solution": "Ionic compounds contain charged ions. [B1]\nIn a solid lattice the ions are fixed in position and cannot move. [B1]\nWhen molten the ions are free to move. [B1]\nMoving ions carry electric charge through the liquid. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Ionic bonding",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Bonding, structure, and the properties of matter · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t02-f01c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain why ionic compounds conduct electricity when molten but not when solid. (4)",
+        "hints": [
+          "Conductivity needs moving charged particles.",
+          "Compare ion mobility in solid and liquid states."
+        ],
+        "solution": "Ionic compounds contain charged ions. [B1]\nIn a solid lattice the ions are fixed in position and cannot move. [B1]\nWhen molten the ions are free to move. [B1]\nMoving ions carry electric charge through the liquid. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Ionic bonding",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Bonding, structure, and the properties of matter · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t02-f02a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain why graphite conducts electricity but diamond does not. (4)",
+        "hints": [
+          "How many bonds does each carbon make?",
+          "Which structure has delocalised electrons?"
+        ],
+        "solution": "Both are giant covalent forms of carbon. [B1]\nIn graphite each carbon forms three covalent bonds, leaving one delocalised electron per carbon. [B1]\nThe delocalised electrons can move and carry charge. [B1]\nIn diamond each carbon forms four covalent bonds so there are no free electrons or ions to carry charge. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Giant covalent structures",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Bonding, structure, and the properties of matter · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t02-f02b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain why graphite conducts electricity but diamond does not. (4)",
+        "hints": [
+          "How many bonds does each carbon make?",
+          "Which structure has delocalised electrons?"
+        ],
+        "solution": "Both are giant covalent forms of carbon. [B1]\nIn graphite each carbon forms three covalent bonds, leaving one delocalised electron per carbon. [B1]\nThe delocalised electrons can move and carry charge. [B1]\nIn diamond each carbon forms four covalent bonds so there are no free electrons or ions to carry charge. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Giant covalent structures",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Bonding, structure, and the properties of matter · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t02-f02c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain why graphite conducts electricity but diamond does not. (4)",
+        "hints": [
+          "How many bonds does each carbon make?",
+          "Which structure has delocalised electrons?"
+        ],
+        "solution": "Both are giant covalent forms of carbon. [B1]\nIn graphite each carbon forms three covalent bonds, leaving one delocalised electron per carbon. [B1]\nThe delocalised electrons can move and carry charge. [B1]\nIn diamond each carbon forms four covalent bonds so there are no free electrons or ions to carry charge. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Giant covalent structures",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Bonding, structure, and the properties of matter · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t02-f03a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain why metals are malleable and conduct electricity. (4)",
+        "hints": [
+          "Use the metallic bonding model.",
+          "Different features explain malleability and conductivity."
+        ],
+        "solution": "Metals consist of positive ions in a lattice surrounded by delocalised electrons. [B1]\nLayers of metal ions can slide past one another while metallic bonding is maintained, so the metal is malleable. [B1]\nDelocalised electrons are free to move through the structure. [B1]\nThe moving electrons carry electrical charge. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Metallic bonding",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Bonding, structure, and the properties of matter · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t02-f03b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain why metals are malleable and conduct electricity. (4)",
+        "hints": [
+          "Use the metallic bonding model.",
+          "Different features explain malleability and conductivity."
+        ],
+        "solution": "Metals consist of positive ions in a lattice surrounded by delocalised electrons. [B1]\nLayers of metal ions can slide past one another while metallic bonding is maintained, so the metal is malleable. [B1]\nDelocalised electrons are free to move through the structure. [B1]\nThe moving electrons carry electrical charge. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Metallic bonding",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Bonding, structure, and the properties of matter · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t02-f03c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain why metals are malleable and conduct electricity. (4)",
+        "hints": [
+          "Use the metallic bonding model.",
+          "Different features explain malleability and conductivity."
+        ],
+        "solution": "Metals consist of positive ions in a lattice surrounded by delocalised electrons. [B1]\nLayers of metal ions can slide past one another while metallic bonding is maintained, so the metal is malleable. [B1]\nDelocalised electrons are free to move through the structure. [B1]\nThe moving electrons carry electrical charge. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Metallic bonding",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Bonding, structure, and the properties of matter · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t02-f04a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain why nanoparticles can have properties different from larger particles of the same material. (4)",
+        "hints": [
+          "Focus on surface-area-to-volume ratio.",
+          "Relate small size to both benefits and risks."
+        ],
+        "solution": "Nanoparticles have a very large surface-area-to-volume ratio. [B1]\nA larger proportion of their atoms are at the surface. [B1]\nThis can make them more reactive or change physical properties. [B1]\nTheir small size can allow them to pass through membranes, which can also create health or environmental risks. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Nanoparticles",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Bonding, structure, and the properties of matter · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t02-f04b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain why nanoparticles can have properties different from larger particles of the same material. (4)",
+        "hints": [
+          "Focus on surface-area-to-volume ratio.",
+          "Relate small size to both benefits and risks."
+        ],
+        "solution": "Nanoparticles have a very large surface-area-to-volume ratio. [B1]\nA larger proportion of their atoms are at the surface. [B1]\nThis can make them more reactive or change physical properties. [B1]\nTheir small size can allow them to pass through membranes, which can also create health or environmental risks. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Nanoparticles",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Bonding, structure, and the properties of matter · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t02-f04c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain why nanoparticles can have properties different from larger particles of the same material. (4)",
+        "hints": [
+          "Focus on surface-area-to-volume ratio.",
+          "Relate small size to both benefits and risks."
+        ],
+        "solution": "Nanoparticles have a very large surface-area-to-volume ratio. [B1]\nA larger proportion of their atoms are at the surface. [B1]\nThis can make them more reactive or change physical properties. [B1]\nTheir small size can allow them to pass through membranes, which can also create health or environmental risks. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Nanoparticles",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Bonding, structure, and the properties of matter · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t02-f05a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Compare simple molecular substances with giant covalent structures in terms of melting point. (4)",
+        "hints": [
+          "Do not say covalent bonds are weak in simple molecules.",
+          "What is actually overcome during melting?"
+        ],
+        "solution": "Simple molecules have strong covalent bonds within molecules. [B1]\nOnly weak intermolecular forces need to be overcome when simple molecular substances melt, so melting points are low. [B1]\nGiant covalent structures contain many strong covalent bonds throughout the lattice. [B1]\nA lot of energy is needed to break enough strong bonds, so melting points are very high. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Structure and melting point",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Bonding, structure, and the properties of matter · family 5"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t02-f05b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Compare simple molecular substances with giant covalent structures in terms of melting point. (4)",
+        "hints": [
+          "Do not say covalent bonds are weak in simple molecules.",
+          "What is actually overcome during melting?"
+        ],
+        "solution": "Simple molecules have strong covalent bonds within molecules. [B1]\nOnly weak intermolecular forces need to be overcome when simple molecular substances melt, so melting points are low. [B1]\nGiant covalent structures contain many strong covalent bonds throughout the lattice. [B1]\nA lot of energy is needed to break enough strong bonds, so melting points are very high. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Structure and melting point",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Bonding, structure, and the properties of matter · family 5"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t02-f05c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Compare simple molecular substances with giant covalent structures in terms of melting point. (4)",
+        "hints": [
+          "Do not say covalent bonds are weak in simple molecules.",
+          "What is actually overcome during melting?"
+        ],
+        "solution": "Simple molecules have strong covalent bonds within molecules. [B1]\nOnly weak intermolecular forces need to be overcome when simple molecular substances melt, so melting points are low. [B1]\nGiant covalent structures contain many strong covalent bonds throughout the lattice. [B1]\nA lot of energy is needed to break enough strong bonds, so melting points are very high. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Structure and melting point",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Bonding, structure, and the properties of matter · family 5"
+      }
+    ]
+  },
+  {
+    "topic": "Quantitative chemistry",
+    "category": "Paper 1",
+    "questions": [
+      {
+        "id": "gcse-chem-aqa-p1-t03-f01a",
+        "marks": 3,
+        "prompt": "Calculate the relative formula mass, Mr, of calcium carbonate, CaCO3. Use Ar: Ca = 40, C = 12, O = 16. (3)",
+        "hints": [
+          "Multiply each Ar by the number of that atom in the formula.",
+          "Add all contributions."
+        ],
+        "solution": "Mr = 40 + 12 + (3 x 16). [B1]\nMr = 40 + 12 + 48. [B1]\nMr = 100. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Relative formula mass",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Quantitative chemistry · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t03-f01b",
+        "marks": 3,
+        "prompt": "Calculate the relative formula mass, Mr, of magnesium nitrate, Mg(NO3)2. Use Ar: Mg = 24, N = 14, O = 16. (3)",
+        "hints": [
+          "Multiply each Ar by the number of that atom in the formula.",
+          "Add all contributions."
+        ],
+        "solution": "Mr = 24 + 2(14 + 3 x 16). [B1]\nMr = 24 + 2(62). [B1]\nMr = 148. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Relative formula mass",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Quantitative chemistry · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t03-f01c",
+        "marks": 3,
+        "prompt": "Calculate the relative formula mass, Mr, of sodium sulfate, Na2SO4. Use Ar: Na = 23, S = 32, O = 16. (3)",
+        "hints": [
+          "Multiply each Ar by the number of that atom in the formula.",
+          "Add all contributions."
+        ],
+        "solution": "Mr = (2 x 23) + 32 + (4 x 16). [B1]\nMr = 46 + 32 + 64. [B1]\nMr = 142. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Relative formula mass",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Quantitative chemistry · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t03-f02a",
+        "marks": 3,
+        "prompt": "A solution contains 12 g of solute in 0.40 dm3. Calculate the concentration in g/dm3. (3)",
+        "hints": [
+          "Use volume in dm3.",
+          "Concentration = mass ÷ volume."
+        ],
+        "solution": "Use concentration = mass / volume. [B1]\nConcentration = 12 / 0.40. [B1]\nConcentration = 30 g/dm3. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Concentration",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Quantitative chemistry · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t03-f02b",
+        "marks": 3,
+        "prompt": "A solution contains 7.5 g of solute in 0.25 dm3. Calculate the concentration in g/dm3. (3)",
+        "hints": [
+          "Use volume in dm3.",
+          "Concentration = mass ÷ volume."
+        ],
+        "solution": "Use concentration = mass / volume. [B1]\nConcentration = 7.5 / 0.25. [B1]\nConcentration = 30 g/dm3. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Concentration",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Quantitative chemistry · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t03-f02c",
+        "marks": 3,
+        "prompt": "A solution contains 18 g of solute in 0.60 dm3. Calculate the concentration in g/dm3. (3)",
+        "hints": [
+          "Use volume in dm3.",
+          "Concentration = mass ÷ volume."
+        ],
+        "solution": "Use concentration = mass / volume. [B1]\nConcentration = 18 / 0.60. [B1]\nConcentration = 30 g/dm3. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Concentration",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Quantitative chemistry · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t03-f03a",
+        "marks": 3,
+        "prompt": "A student is answering an AQA-style practice question. A reaction in an open flask produces a gas. Explain why the measured mass of the flask and contents can decrease even though mass is conserved. (3)",
+        "hints": [
+          "Mass is conserved for the whole system.",
+          "What can leave an open container?"
+        ],
+        "solution": "Atoms are not created or destroyed in the chemical reaction. [B1]\nA gaseous product can leave the open flask. [B1]\nThe balance then measures only the material remaining in the flask, so the recorded mass decreases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Conservation of mass",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Quantitative chemistry · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t03-f03b",
+        "marks": 3,
+        "prompt": "A class is applying the same idea in a different context. A reaction in an open flask produces a gas. Explain why the measured mass of the flask and contents can decrease even though mass is conserved. (3)",
+        "hints": [
+          "Mass is conserved for the whole system.",
+          "What can leave an open container?"
+        ],
+        "solution": "Atoms are not created or destroyed in the chemical reaction. [B1]\nA gaseous product can leave the open flask. [B1]\nThe balance then measures only the material remaining in the flask, so the recorded mass decreases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Conservation of mass",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Quantitative chemistry · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t03-f03c",
+        "marks": 3,
+        "prompt": "During revision, a learner is asked the following. A reaction in an open flask produces a gas. Explain why the measured mass of the flask and contents can decrease even though mass is conserved. (3)",
+        "hints": [
+          "Mass is conserved for the whole system.",
+          "What can leave an open container?"
+        ],
+        "solution": "Atoms are not created or destroyed in the chemical reaction. [B1]\nA gaseous product can leave the open flask. [B1]\nThe balance then measures only the material remaining in the flask, so the recorded mass decreases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Conservation of mass",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Quantitative chemistry · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t03-f04a",
+        "marks": 3,
+        "prompt": "A student is answering an AQA-style practice question. Explain why the measured percentage yield of a chemical reaction is often less than 100%. (3)",
+        "hints": [
+          "Think about reaction chemistry and practical losses.",
+          "Give distinct reasons."
+        ],
+        "solution": "The reaction may be reversible or may not go to completion. [B1]\nSome reactants may form unwanted products in side reactions. [B1]\nSome product can be lost during separation, purification or transfer. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Yield",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Quantitative chemistry · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t03-f04b",
+        "marks": 3,
+        "prompt": "A class is applying the same idea in a different context. Explain why the measured percentage yield of a chemical reaction is often less than 100%. (3)",
+        "hints": [
+          "Think about reaction chemistry and practical losses.",
+          "Give distinct reasons."
+        ],
+        "solution": "The reaction may be reversible or may not go to completion. [B1]\nSome reactants may form unwanted products in side reactions. [B1]\nSome product can be lost during separation, purification or transfer. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Yield",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Quantitative chemistry · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t03-f04c",
+        "marks": 3,
+        "prompt": "During revision, a learner is asked the following. Explain why the measured percentage yield of a chemical reaction is often less than 100%. (3)",
+        "hints": [
+          "Think about reaction chemistry and practical losses.",
+          "Give distinct reasons."
+        ],
+        "solution": "The reaction may be reversible or may not go to completion. [B1]\nSome reactants may form unwanted products in side reactions. [B1]\nSome product can be lost during separation, purification or transfer. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Yield",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Quantitative chemistry · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t03-f05a",
+        "marks": 3,
+        "prompt": "Calculate the amount in moles in 9.0 g of water, H2O. Mr = 18. (3)",
+        "hints": [
+          "Use n = m/Mr.",
+          "Give the unit mol."
+        ],
+        "solution": "Use moles = mass / Mr. [B1]\nMoles = 9.0 / 18. [B1]\nMoles = 0.50 mol. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Moles",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Quantitative chemistry · family 5"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t03-f05b",
+        "marks": 3,
+        "prompt": "Calculate the amount in moles in 11.0 g of carbon dioxide, CO2. Mr = 44. (3)",
+        "hints": [
+          "Use n = m/Mr.",
+          "Give the unit mol."
+        ],
+        "solution": "Use moles = mass / Mr. [B1]\nMoles = 11.0 / 44. [B1]\nMoles = 0.25 mol. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Moles",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Quantitative chemistry · family 5"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t03-f05c",
+        "marks": 3,
+        "prompt": "Calculate the amount in moles in 5.85 g of sodium chloride, NaCl. Mr = 58.5. (3)",
+        "hints": [
+          "Use n = m/Mr.",
+          "Give the unit mol."
+        ],
+        "solution": "Use moles = mass / Mr. [B1]\nMoles = 5.85 / 58.5. [B1]\nMoles = 0.100 mol. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Moles",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Quantitative chemistry · family 5"
+      }
+    ]
+  },
+  {
+    "topic": "Chemical changes",
+    "category": "Paper 1",
+    "questions": [
+      {
+        "id": "gcse-chem-aqa-p1-t04-f01a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain why magnesium reacts with dilute hydrochloric acid but copper does not. (4)",
+        "hints": [
+          "Use the position relative to hydrogen in the reactivity series.",
+          "Relate reactivity to electron loss."
+        ],
+        "solution": "Magnesium is above hydrogen in the reactivity series. [B1]\nMagnesium atoms lose electrons readily and can displace hydrogen from the acid. [B1]\nCopper is below hydrogen in the reactivity series. [B1]\nCopper therefore does not displace hydrogen from dilute hydrochloric acid. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Reactivity series",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Chemical changes · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t04-f01b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain why magnesium reacts with dilute hydrochloric acid but copper does not. (4)",
+        "hints": [
+          "Use the position relative to hydrogen in the reactivity series.",
+          "Relate reactivity to electron loss."
+        ],
+        "solution": "Magnesium is above hydrogen in the reactivity series. [B1]\nMagnesium atoms lose electrons readily and can displace hydrogen from the acid. [B1]\nCopper is below hydrogen in the reactivity series. [B1]\nCopper therefore does not displace hydrogen from dilute hydrochloric acid. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Reactivity series",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Chemical changes · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t04-f01c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain why magnesium reacts with dilute hydrochloric acid but copper does not. (4)",
+        "hints": [
+          "Use the position relative to hydrogen in the reactivity series.",
+          "Relate reactivity to electron loss."
+        ],
+        "solution": "Magnesium is above hydrogen in the reactivity series. [B1]\nMagnesium atoms lose electrons readily and can displace hydrogen from the acid. [B1]\nCopper is below hydrogen in the reactivity series. [B1]\nCopper therefore does not displace hydrogen from dilute hydrochloric acid. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Reactivity series",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Chemical changes · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t04-f02a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Describe what happens at the electrodes during electrolysis of molten lead bromide. (4)",
+        "hints": [
+          "Cations go to the cathode.",
+          "Reduction is gain of electrons."
+        ],
+        "solution": "Lead ions are positive and move to the negative electrode / cathode. [B1]\nLead ions gain electrons and form lead atoms. [B1]\nBromide ions are negative and move to the positive electrode / anode. [B1]\nBromide ions lose electrons and form bromine molecules. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Electrolysis",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Chemical changes · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t04-f02b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Describe what happens at the electrodes during electrolysis of molten lead bromide. (4)",
+        "hints": [
+          "Cations go to the cathode.",
+          "Reduction is gain of electrons."
+        ],
+        "solution": "Lead ions are positive and move to the negative electrode / cathode. [B1]\nLead ions gain electrons and form lead atoms. [B1]\nBromide ions are negative and move to the positive electrode / anode. [B1]\nBromide ions lose electrons and form bromine molecules. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Electrolysis",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Chemical changes · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t04-f02c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Describe what happens at the electrodes during electrolysis of molten lead bromide. (4)",
+        "hints": [
+          "Cations go to the cathode.",
+          "Reduction is gain of electrons."
+        ],
+        "solution": "Lead ions are positive and move to the negative electrode / cathode. [B1]\nLead ions gain electrons and form lead atoms. [B1]\nBromide ions are negative and move to the positive electrode / anode. [B1]\nBromide ions lose electrons and form bromine molecules. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Electrolysis",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Chemical changes · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t04-f03a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Describe how to make pure, dry copper sulfate crystals from dilute sulfuric acid and insoluble copper oxide. (4)",
+        "hints": [
+          "Use an excess of the insoluble base.",
+          "How do you remove the excess solid?"
+        ],
+        "solution": "Warm the dilute sulfuric acid. [B1]\nAdd copper oxide until some remains unreacted, showing the acid has been neutralised. [B1]\nFilter to remove excess solid copper oxide. [B1]\nEvaporate some water, allow the solution to cool and crystallise, then dry the crystals. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Making salts required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Chemical changes · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t04-f03b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Describe how to make pure, dry copper sulfate crystals from dilute sulfuric acid and insoluble copper oxide. (4)",
+        "hints": [
+          "Use an excess of the insoluble base.",
+          "How do you remove the excess solid?"
+        ],
+        "solution": "Warm the dilute sulfuric acid. [B1]\nAdd copper oxide until some remains unreacted, showing the acid has been neutralised. [B1]\nFilter to remove excess solid copper oxide. [B1]\nEvaporate some water, allow the solution to cool and crystallise, then dry the crystals. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Making salts required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Chemical changes · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t04-f03c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Describe how to make pure, dry copper sulfate crystals from dilute sulfuric acid and insoluble copper oxide. (4)",
+        "hints": [
+          "Use an excess of the insoluble base.",
+          "How do you remove the excess solid?"
+        ],
+        "solution": "Warm the dilute sulfuric acid. [B1]\nAdd copper oxide until some remains unreacted, showing the acid has been neutralised. [B1]\nFilter to remove excess solid copper oxide. [B1]\nEvaporate some water, allow the solution to cool and crystallise, then dry the crystals. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Making salts required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Chemical changes · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t04-f04a",
+        "marks": 3,
+        "prompt": "A student is answering an AQA-style practice question. Write and explain the half-equation for reduction of copper ions, Cu2+, at a cathode. (3)",
+        "hints": [
+          "Balance both charge and atoms.",
+          "Reduction means gain of electrons."
+        ],
+        "solution": "The ion is Cu2+ and must gain two electrons to become a neutral copper atom. [B1]\nThe half-equation is Cu2+ + 2e- -> Cu. [B1]\nGain of electrons is reduction. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Half equations",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Chemical changes · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t04-f04b",
+        "marks": 3,
+        "prompt": "A class is applying the same idea in a different context. Write and explain the half-equation for reduction of copper ions, Cu2+, at a cathode. (3)",
+        "hints": [
+          "Balance both charge and atoms.",
+          "Reduction means gain of electrons."
+        ],
+        "solution": "The ion is Cu2+ and must gain two electrons to become a neutral copper atom. [B1]\nThe half-equation is Cu2+ + 2e- -> Cu. [B1]\nGain of electrons is reduction. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Half equations",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Chemical changes · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t04-f04c",
+        "marks": 3,
+        "prompt": "During revision, a learner is asked the following. Write and explain the half-equation for reduction of copper ions, Cu2+, at a cathode. (3)",
+        "hints": [
+          "Balance both charge and atoms.",
+          "Reduction means gain of electrons."
+        ],
+        "solution": "The ion is Cu2+ and must gain two electrons to become a neutral copper atom. [B1]\nThe half-equation is Cu2+ + 2e- -> Cu. [B1]\nGain of electrons is reduction. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Half equations",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Chemical changes · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t04-f05a",
+        "marks": 3,
+        "prompt": "A student is answering an AQA-style practice question. Explain why aluminium is extracted by electrolysis rather than by reduction with carbon. (3)",
+        "hints": [
+          "Compare aluminium with carbon in the reactivity series.",
+          "Why cannot carbon remove the oxygen?"
+        ],
+        "solution": "Aluminium is more reactive than carbon. [B1]\nIts oxide is therefore too stable to be reduced by carbon. [B1]\nElectrolysis supplies electrical energy to decompose molten aluminium oxide. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Extraction of metals",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Chemical changes · family 5"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t04-f05b",
+        "marks": 3,
+        "prompt": "A class is applying the same idea in a different context. Explain why aluminium is extracted by electrolysis rather than by reduction with carbon. (3)",
+        "hints": [
+          "Compare aluminium with carbon in the reactivity series.",
+          "Why cannot carbon remove the oxygen?"
+        ],
+        "solution": "Aluminium is more reactive than carbon. [B1]\nIts oxide is therefore too stable to be reduced by carbon. [B1]\nElectrolysis supplies electrical energy to decompose molten aluminium oxide. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Extraction of metals",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Chemical changes · family 5"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t04-f05c",
+        "marks": 3,
+        "prompt": "During revision, a learner is asked the following. Explain why aluminium is extracted by electrolysis rather than by reduction with carbon. (3)",
+        "hints": [
+          "Compare aluminium with carbon in the reactivity series.",
+          "Why cannot carbon remove the oxygen?"
+        ],
+        "solution": "Aluminium is more reactive than carbon. [B1]\nIts oxide is therefore too stable to be reduced by carbon. [B1]\nElectrolysis supplies electrical energy to decompose molten aluminium oxide. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Extraction of metals",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Chemical changes · family 5"
+      }
+    ]
+  },
+  {
+    "topic": "Energy changes",
+    "category": "Paper 1",
+    "questions": [
+      {
+        "id": "gcse-chem-aqa-p1-t05-f01a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain the difference between an exothermic and an endothermic reaction using energy transfer to the surroundings. (4)",
+        "hints": [
+          "State the direction of energy transfer.",
+          "Link this to temperature change."
+        ],
+        "solution": "An exothermic reaction transfers energy from the reacting system to the surroundings. [B1]\nThe surroundings warm up and the measured temperature usually increases. [B1]\nAn endothermic reaction takes in energy from the surroundings. [B1]\nThe surroundings cool and the measured temperature usually decreases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Exothermic and endothermic reactions",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Energy changes · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t05-f01b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain the difference between an exothermic and an endothermic reaction using energy transfer to the surroundings. (4)",
+        "hints": [
+          "State the direction of energy transfer.",
+          "Link this to temperature change."
+        ],
+        "solution": "An exothermic reaction transfers energy from the reacting system to the surroundings. [B1]\nThe surroundings warm up and the measured temperature usually increases. [B1]\nAn endothermic reaction takes in energy from the surroundings. [B1]\nThe surroundings cool and the measured temperature usually decreases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Exothermic and endothermic reactions",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Energy changes · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t05-f01c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain the difference between an exothermic and an endothermic reaction using energy transfer to the surroundings. (4)",
+        "hints": [
+          "State the direction of energy transfer.",
+          "Link this to temperature change."
+        ],
+        "solution": "An exothermic reaction transfers energy from the reacting system to the surroundings. [B1]\nThe surroundings warm up and the measured temperature usually increases. [B1]\nAn endothermic reaction takes in energy from the surroundings. [B1]\nThe surroundings cool and the measured temperature usually decreases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Exothermic and endothermic reactions",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Energy changes · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t05-f02a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Describe how to investigate the temperature change when an acid reacts with an alkali. (4)",
+        "hints": [
+          "Reduce heat loss to the surroundings.",
+          "Measure initial and final/maximum temperature."
+        ],
+        "solution": "Measure known volumes of acid and alkali and record the initial temperature. [B1]\nMix them in an insulated container such as a polystyrene cup. [B1]\nStir and record the maximum or minimum temperature reached. [B1]\nRepeat reliably and vary one chosen factor while controlling volumes/concentrations as appropriate. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Energy changes required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Energy changes · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t05-f02b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Describe how to investigate the temperature change when an acid reacts with an alkali. (4)",
+        "hints": [
+          "Reduce heat loss to the surroundings.",
+          "Measure initial and final/maximum temperature."
+        ],
+        "solution": "Measure known volumes of acid and alkali and record the initial temperature. [B1]\nMix them in an insulated container such as a polystyrene cup. [B1]\nStir and record the maximum or minimum temperature reached. [B1]\nRepeat reliably and vary one chosen factor while controlling volumes/concentrations as appropriate. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Energy changes required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Energy changes · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t05-f02c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Describe how to investigate the temperature change when an acid reacts with an alkali. (4)",
+        "hints": [
+          "Reduce heat loss to the surroundings.",
+          "Measure initial and final/maximum temperature."
+        ],
+        "solution": "Measure known volumes of acid and alkali and record the initial temperature. [B1]\nMix them in an insulated container such as a polystyrene cup. [B1]\nStir and record the maximum or minimum temperature reached. [B1]\nRepeat reliably and vary one chosen factor while controlling volumes/concentrations as appropriate. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Energy changes required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Energy changes · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t05-f03a",
+        "marks": 3,
+        "prompt": "A student is answering an AQA-style practice question. On a reaction profile, the products are at a lower energy than the reactants. Explain what this shows about the reaction and activation energy. (3)",
+        "hints": [
+          "Compare reactant and product energy levels.",
+          "Activation energy is not the overall energy change."
+        ],
+        "solution": "Products lower than reactants means energy has been released overall. [B1]\nThe reaction is exothermic. [B1]\nActivation energy is the energy difference from reactants to the top of the energy barrier / minimum energy needed for successful collisions. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Reaction profiles",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Energy changes · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t05-f03b",
+        "marks": 3,
+        "prompt": "A class is applying the same idea in a different context. On a reaction profile, the products are at a lower energy than the reactants. Explain what this shows about the reaction and activation energy. (3)",
+        "hints": [
+          "Compare reactant and product energy levels.",
+          "Activation energy is not the overall energy change."
+        ],
+        "solution": "Products lower than reactants means energy has been released overall. [B1]\nThe reaction is exothermic. [B1]\nActivation energy is the energy difference from reactants to the top of the energy barrier / minimum energy needed for successful collisions. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Reaction profiles",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Energy changes · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t05-f03c",
+        "marks": 3,
+        "prompt": "During revision, a learner is asked the following. On a reaction profile, the products are at a lower energy than the reactants. Explain what this shows about the reaction and activation energy. (3)",
+        "hints": [
+          "Compare reactant and product energy levels.",
+          "Activation energy is not the overall energy change."
+        ],
+        "solution": "Products lower than reactants means energy has been released overall. [B1]\nThe reaction is exothermic. [B1]\nActivation energy is the energy difference from reactants to the top of the energy barrier / minimum energy needed for successful collisions. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Reaction profiles",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Energy changes · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t05-f04a",
+        "marks": 3,
+        "prompt": "Breaking bonds requires 620 kJ/mol and making new bonds releases 770 kJ/mol. Calculate the overall energy change. (3)",
+        "hints": [
+          "Subtract bond-making energy from bond-breaking energy.",
+          "Check the sign to classify the reaction."
+        ],
+        "solution": "Use energy change = energy to break bonds - energy released making bonds. [B1]\n620 - 770 = -150 kJ/mol. [B1]\nThe negative value means the reaction is exothermic. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Bond energies",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Energy changes · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t05-f04b",
+        "marks": 3,
+        "prompt": "Breaking bonds requires 840 kJ/mol and making new bonds releases 910 kJ/mol. Calculate the overall energy change. (3)",
+        "hints": [
+          "Subtract bond-making energy from bond-breaking energy.",
+          "Check the sign to classify the reaction."
+        ],
+        "solution": "840 - 910 = -70 kJ/mol. [B1]\nA negative energy change means energy is transferred to the surroundings. [B1]\nThe reaction is exothermic. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Bond energies",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Energy changes · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t05-f04c",
+        "marks": 3,
+        "prompt": "Breaking bonds requires 960 kJ/mol and making new bonds releases 880 kJ/mol. Calculate the overall energy change. (3)",
+        "hints": [
+          "Subtract bond-making energy from bond-breaking energy.",
+          "Check the sign to classify the reaction."
+        ],
+        "solution": "960 - 880 = +80 kJ/mol. [B1]\nA positive energy change means energy is taken in from the surroundings. [B1]\nThe reaction is endothermic. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Bond energies",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Energy changes · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t05-f05a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how a hydrogen fuel cell generates an electric current and give one advantage over burning a fossil fuel. (4)",
+        "hints": [
+          "Think of oxidation and reduction at separate electrodes.",
+          "What is the overall product?"
+        ],
+        "solution": "Hydrogen is oxidised at one electrode and oxygen is reduced at the other. [B1]\nThe redox reactions transfer electrons through an external circuit, producing current. [B1]\nThe overall product is water. [B1]\nAn advantage is no carbon dioxide is produced at the point of use. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Fuel cells",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Energy changes · family 5"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t05-f05b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how a hydrogen fuel cell generates an electric current and give one advantage over burning a fossil fuel. (4)",
+        "hints": [
+          "Think of oxidation and reduction at separate electrodes.",
+          "What is the overall product?"
+        ],
+        "solution": "Hydrogen is oxidised at one electrode and oxygen is reduced at the other. [B1]\nThe redox reactions transfer electrons through an external circuit, producing current. [B1]\nThe overall product is water. [B1]\nAn advantage is no carbon dioxide is produced at the point of use. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Fuel cells",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Energy changes · family 5"
+      },
+      {
+        "id": "gcse-chem-aqa-p1-t05-f05c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how a hydrogen fuel cell generates an electric current and give one advantage over burning a fossil fuel. (4)",
+        "hints": [
+          "Think of oxidation and reduction at separate electrodes.",
+          "What is the overall product?"
+        ],
+        "solution": "Hydrogen is oxidised at one electrode and oxygen is reduced at the other. [B1]\nThe redox reactions transfer electrons through an external circuit, producing current. [B1]\nThe overall product is water. [B1]\nAn advantage is no carbon dioxide is produced at the point of use. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 1",
+        "subtopic": "Fuel cells",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 1 style · Energy changes · family 5"
+      }
+    ]
+  },
+  {
+    "topic": "The rate and extent of chemical change",
+    "category": "Paper 2",
+    "questions": [
+      {
+        "id": "gcse-chem-aqa-p2-t06-f01a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain why increasing temperature usually increases the rate of a chemical reaction. (4)",
+        "hints": [
+          "Use collision theory.",
+          "Frequency alone is not the whole explanation."
+        ],
+        "solution": "Particles move faster and have more kinetic energy. [B1]\nCollisions occur more frequently. [B1]\nA larger proportion of collisions have energy equal to or greater than the activation energy. [B1]\nTherefore there are more successful collisions per second. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Collision theory",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · The rate and extent of chemical change · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t06-f01b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain why increasing temperature usually increases the rate of a chemical reaction. (4)",
+        "hints": [
+          "Use collision theory.",
+          "Frequency alone is not the whole explanation."
+        ],
+        "solution": "Particles move faster and have more kinetic energy. [B1]\nCollisions occur more frequently. [B1]\nA larger proportion of collisions have energy equal to or greater than the activation energy. [B1]\nTherefore there are more successful collisions per second. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Collision theory",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · The rate and extent of chemical change · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t06-f01c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain why increasing temperature usually increases the rate of a chemical reaction. (4)",
+        "hints": [
+          "Use collision theory.",
+          "Frequency alone is not the whole explanation."
+        ],
+        "solution": "Particles move faster and have more kinetic energy. [B1]\nCollisions occur more frequently. [B1]\nA larger proportion of collisions have energy equal to or greater than the activation energy. [B1]\nTherefore there are more successful collisions per second. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Collision theory",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · The rate and extent of chemical change · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t06-f02a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Describe how to investigate the effect of concentration on the rate of reaction between sodium thiosulfate and hydrochloric acid. (4)",
+        "hints": [
+          "The sulfur precipitate makes the mixture cloudy.",
+          "Only concentration should change."
+        ],
+        "solution": "Use measured volumes/concentrations of sodium thiosulfate and hydrochloric acid. [B1]\nPlace the flask over a marked cross and start timing when the reactants are mixed. [B1]\nStop timing when sulfur makes the mixture cloudy enough that the cross disappears. [B1]\nRepeat with different thiosulfate concentrations while controlling total volume, temperature and acid concentration. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Rates required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · The rate and extent of chemical change · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t06-f02b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Describe how to investigate the effect of concentration on the rate of reaction between sodium thiosulfate and hydrochloric acid. (4)",
+        "hints": [
+          "The sulfur precipitate makes the mixture cloudy.",
+          "Only concentration should change."
+        ],
+        "solution": "Use measured volumes/concentrations of sodium thiosulfate and hydrochloric acid. [B1]\nPlace the flask over a marked cross and start timing when the reactants are mixed. [B1]\nStop timing when sulfur makes the mixture cloudy enough that the cross disappears. [B1]\nRepeat with different thiosulfate concentrations while controlling total volume, temperature and acid concentration. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Rates required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · The rate and extent of chemical change · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t06-f02c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Describe how to investigate the effect of concentration on the rate of reaction between sodium thiosulfate and hydrochloric acid. (4)",
+        "hints": [
+          "The sulfur precipitate makes the mixture cloudy.",
+          "Only concentration should change."
+        ],
+        "solution": "Use measured volumes/concentrations of sodium thiosulfate and hydrochloric acid. [B1]\nPlace the flask over a marked cross and start timing when the reactants are mixed. [B1]\nStop timing when sulfur makes the mixture cloudy enough that the cross disappears. [B1]\nRepeat with different thiosulfate concentrations while controlling total volume, temperature and acid concentration. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Rates required practical",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · The rate and extent of chemical change · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t06-f03a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain what happens to a reversible reaction when dynamic equilibrium is reached in a closed system. (4)",
+        "hints": [
+          "Equilibrium is dynamic, not stopped.",
+          "Compare rates, not concentrations."
+        ],
+        "solution": "The forward reaction continues. [B1]\nThe reverse reaction continues. [B1]\nThe forward and reverse reaction rates are equal. [B1]\nThe concentrations of reactants and products remain constant, though not necessarily equal. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Equilibrium",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · The rate and extent of chemical change · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t06-f03b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain what happens to a reversible reaction when dynamic equilibrium is reached in a closed system. (4)",
+        "hints": [
+          "Equilibrium is dynamic, not stopped.",
+          "Compare rates, not concentrations."
+        ],
+        "solution": "The forward reaction continues. [B1]\nThe reverse reaction continues. [B1]\nThe forward and reverse reaction rates are equal. [B1]\nThe concentrations of reactants and products remain constant, though not necessarily equal. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Equilibrium",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · The rate and extent of chemical change · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t06-f03c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain what happens to a reversible reaction when dynamic equilibrium is reached in a closed system. (4)",
+        "hints": [
+          "Equilibrium is dynamic, not stopped.",
+          "Compare rates, not concentrations."
+        ],
+        "solution": "The forward reaction continues. [B1]\nThe reverse reaction continues. [B1]\nThe forward and reverse reaction rates are equal. [B1]\nThe concentrations of reactants and products remain constant, though not necessarily equal. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Equilibrium",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · The rate and extent of chemical change · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t06-f04a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. For an exothermic forward reaction at equilibrium, explain the effect of increasing temperature on the equilibrium yield of products. (4)",
+        "hints": [
+          "Use Le Chatelier's principle.",
+          "Which direction absorbs heat?"
+        ],
+        "solution": "Increasing temperature favours the endothermic direction. [B1]\nThe reverse reaction is endothermic. [B1]\nThe equilibrium shifts towards reactants. [B1]\nThe equilibrium yield of products decreases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Le Chatelier",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · The rate and extent of chemical change · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t06-f04b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. For an exothermic forward reaction at equilibrium, explain the effect of increasing temperature on the equilibrium yield of products. (4)",
+        "hints": [
+          "Use Le Chatelier's principle.",
+          "Which direction absorbs heat?"
+        ],
+        "solution": "Increasing temperature favours the endothermic direction. [B1]\nThe reverse reaction is endothermic. [B1]\nThe equilibrium shifts towards reactants. [B1]\nThe equilibrium yield of products decreases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Le Chatelier",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · The rate and extent of chemical change · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t06-f04c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. For an exothermic forward reaction at equilibrium, explain the effect of increasing temperature on the equilibrium yield of products. (4)",
+        "hints": [
+          "Use Le Chatelier's principle.",
+          "Which direction absorbs heat?"
+        ],
+        "solution": "Increasing temperature favours the endothermic direction. [B1]\nThe reverse reaction is endothermic. [B1]\nThe equilibrium shifts towards reactants. [B1]\nThe equilibrium yield of products decreases. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Le Chatelier",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · The rate and extent of chemical change · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t06-f05a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain why a catalyst increases reaction rate but does not change the equilibrium position. (4)",
+        "hints": [
+          "A catalyst affects both directions.",
+          "It changes rate, not equilibrium yield."
+        ],
+        "solution": "A catalyst provides an alternative reaction pathway with lower activation energy. [B1]\nThis increases the rate of the forward reaction. [B1]\nIt also increases the rate of the reverse reaction. [B1]\nEquilibrium is reached faster but the equilibrium composition is unchanged. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Catalysts and equilibrium",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · The rate and extent of chemical change · family 5"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t06-f05b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain why a catalyst increases reaction rate but does not change the equilibrium position. (4)",
+        "hints": [
+          "A catalyst affects both directions.",
+          "It changes rate, not equilibrium yield."
+        ],
+        "solution": "A catalyst provides an alternative reaction pathway with lower activation energy. [B1]\nThis increases the rate of the forward reaction. [B1]\nIt also increases the rate of the reverse reaction. [B1]\nEquilibrium is reached faster but the equilibrium composition is unchanged. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Catalysts and equilibrium",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · The rate and extent of chemical change · family 5"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t06-f05c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain why a catalyst increases reaction rate but does not change the equilibrium position. (4)",
+        "hints": [
+          "A catalyst affects both directions.",
+          "It changes rate, not equilibrium yield."
+        ],
+        "solution": "A catalyst provides an alternative reaction pathway with lower activation energy. [B1]\nThis increases the rate of the forward reaction. [B1]\nIt also increases the rate of the reverse reaction. [B1]\nEquilibrium is reached faster but the equilibrium composition is unchanged. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Catalysts and equilibrium",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · The rate and extent of chemical change · family 5"
+      }
+    ]
+  },
+  {
+    "topic": "Organic chemistry",
+    "category": "Paper 2",
+    "questions": [
+      {
+        "id": "gcse-chem-aqa-p2-t07-f01a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain why crude oil can be separated into fractions by fractional distillation. (4)",
+        "hints": [
+          "Separation depends on a physical property.",
+          "Describe the temperature gradient."
+        ],
+        "solution": "Crude oil is a mixture of hydrocarbons. [B1]\nThe hydrocarbons have different boiling points. [B1]\nThe column has a temperature gradient, hot at the bottom and cooler at the top. [B1]\nHydrocarbons condense at different levels according to their boiling points. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Fractional distillation",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Organic chemistry · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t07-f01b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain why crude oil can be separated into fractions by fractional distillation. (4)",
+        "hints": [
+          "Separation depends on a physical property.",
+          "Describe the temperature gradient."
+        ],
+        "solution": "Crude oil is a mixture of hydrocarbons. [B1]\nThe hydrocarbons have different boiling points. [B1]\nThe column has a temperature gradient, hot at the bottom and cooler at the top. [B1]\nHydrocarbons condense at different levels according to their boiling points. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Fractional distillation",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Organic chemistry · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t07-f01c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain why crude oil can be separated into fractions by fractional distillation. (4)",
+        "hints": [
+          "Separation depends on a physical property.",
+          "Describe the temperature gradient."
+        ],
+        "solution": "Crude oil is a mixture of hydrocarbons. [B1]\nThe hydrocarbons have different boiling points. [B1]\nThe column has a temperature gradient, hot at the bottom and cooler at the top. [B1]\nHydrocarbons condense at different levels according to their boiling points. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Fractional distillation",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Organic chemistry · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t07-f02a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain why cracking is useful in the petrochemical industry. (4)",
+        "hints": [
+          "Name both types of useful product.",
+          "Link products to demand/use."
+        ],
+        "solution": "Long-chain hydrocarbons are less useful / may be in lower demand. [B1]\nCracking breaks long-chain hydrocarbons into shorter alkanes and alkenes. [B1]\nShorter hydrocarbons are useful as fuels. [B1]\nAlkenes are useful for making polymers and other chemicals. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Cracking",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Organic chemistry · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t07-f02b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain why cracking is useful in the petrochemical industry. (4)",
+        "hints": [
+          "Name both types of useful product.",
+          "Link products to demand/use."
+        ],
+        "solution": "Long-chain hydrocarbons are less useful / may be in lower demand. [B1]\nCracking breaks long-chain hydrocarbons into shorter alkanes and alkenes. [B1]\nShorter hydrocarbons are useful as fuels. [B1]\nAlkenes are useful for making polymers and other chemicals. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Cracking",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Organic chemistry · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t07-f02c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain why cracking is useful in the petrochemical industry. (4)",
+        "hints": [
+          "Name both types of useful product.",
+          "Link products to demand/use."
+        ],
+        "solution": "Long-chain hydrocarbons are less useful / may be in lower demand. [B1]\nCracking breaks long-chain hydrocarbons into shorter alkanes and alkenes. [B1]\nShorter hydrocarbons are useful as fuels. [B1]\nAlkenes are useful for making polymers and other chemicals. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Cracking",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Organic chemistry · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t07-f03a",
+        "marks": 3,
+        "prompt": "A student is answering an AQA-style practice question. Describe a chemical test that distinguishes an alkane from an alkene. (3)",
+        "hints": [
+          "Which reagent tests for a carbon-carbon double bond?",
+          "State both observations."
+        ],
+        "solution": "Add bromine water to the sample and shake. [B1]\nAn alkene decolourises bromine water from orange to colourless. [B1]\nAn alkane causes no colour change under these conditions. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Alkenes",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Organic chemistry · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t07-f03b",
+        "marks": 3,
+        "prompt": "A class is applying the same idea in a different context. Describe a chemical test that distinguishes an alkane from an alkene. (3)",
+        "hints": [
+          "Which reagent tests for a carbon-carbon double bond?",
+          "State both observations."
+        ],
+        "solution": "Add bromine water to the sample and shake. [B1]\nAn alkene decolourises bromine water from orange to colourless. [B1]\nAn alkane causes no colour change under these conditions. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Alkenes",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Organic chemistry · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t07-f03c",
+        "marks": 3,
+        "prompt": "During revision, a learner is asked the following. Describe a chemical test that distinguishes an alkane from an alkene. (3)",
+        "hints": [
+          "Which reagent tests for a carbon-carbon double bond?",
+          "State both observations."
+        ],
+        "solution": "Add bromine water to the sample and shake. [B1]\nAn alkene decolourises bromine water from orange to colourless. [B1]\nAn alkane causes no colour change under these conditions. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Alkenes",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Organic chemistry · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t07-f04a",
+        "marks": 3,
+        "prompt": "A student is answering an AQA-style practice question. Compare the reactions of ethanol with oxygen and with an oxidising agent. (3)",
+        "hints": [
+          "One reaction is combustion; the other forms a carboxylic acid.",
+          "Name the products."
+        ],
+        "solution": "Complete combustion of ethanol in oxygen produces carbon dioxide and water. [B1]\nOxidation of ethanol can produce ethanoic acid under suitable conditions. [B1]\nBoth reactions involve oxidation but give different products and conditions. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Alcohols",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Organic chemistry · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t07-f04b",
+        "marks": 3,
+        "prompt": "A class is applying the same idea in a different context. Compare the reactions of ethanol with oxygen and with an oxidising agent. (3)",
+        "hints": [
+          "One reaction is combustion; the other forms a carboxylic acid.",
+          "Name the products."
+        ],
+        "solution": "Complete combustion of ethanol in oxygen produces carbon dioxide and water. [B1]\nOxidation of ethanol can produce ethanoic acid under suitable conditions. [B1]\nBoth reactions involve oxidation but give different products and conditions. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Alcohols",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Organic chemistry · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t07-f04c",
+        "marks": 3,
+        "prompt": "During revision, a learner is asked the following. Compare the reactions of ethanol with oxygen and with an oxidising agent. (3)",
+        "hints": [
+          "One reaction is combustion; the other forms a carboxylic acid.",
+          "Name the products."
+        ],
+        "solution": "Complete combustion of ethanol in oxygen produces carbon dioxide and water. [B1]\nOxidation of ethanol can produce ethanoic acid under suitable conditions. [B1]\nBoth reactions involve oxidation but give different products and conditions. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Alcohols",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Organic chemistry · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t07-f05a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how addition polymerisation forms a polymer from alkene monomers. (4)",
+        "hints": [
+          "Start with the C=C bond.",
+          "What changes when many monomers join?"
+        ],
+        "solution": "Alkene monomers contain a carbon-carbon double bond. [B1]\nThe double bond opens during polymerisation. [B1]\nMany monomer molecules join to form a long-chain molecule. [B1]\nThe repeating unit retains the atoms of the monomer but has single bonds along the backbone. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Polymers",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Organic chemistry · family 5"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t07-f05b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how addition polymerisation forms a polymer from alkene monomers. (4)",
+        "hints": [
+          "Start with the C=C bond.",
+          "What changes when many monomers join?"
+        ],
+        "solution": "Alkene monomers contain a carbon-carbon double bond. [B1]\nThe double bond opens during polymerisation. [B1]\nMany monomer molecules join to form a long-chain molecule. [B1]\nThe repeating unit retains the atoms of the monomer but has single bonds along the backbone. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Polymers",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Organic chemistry · family 5"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t07-f05c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how addition polymerisation forms a polymer from alkene monomers. (4)",
+        "hints": [
+          "Start with the C=C bond.",
+          "What changes when many monomers join?"
+        ],
+        "solution": "Alkene monomers contain a carbon-carbon double bond. [B1]\nThe double bond opens during polymerisation. [B1]\nMany monomer molecules join to form a long-chain molecule. [B1]\nThe repeating unit retains the atoms of the monomer but has single bonds along the backbone. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Polymers",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Organic chemistry · family 5"
+      }
+    ]
+  },
+  {
+    "topic": "Chemical analysis",
+    "category": "Paper 2",
+    "questions": [
+      {
+        "id": "gcse-chem-aqa-p2-t08-f01a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how paper chromatography can be used to identify substances in a mixture. (4)",
+        "hints": [
+          "The baseline must be above the solvent.",
+          "Identification requires comparison with known substances."
+        ],
+        "solution": "Place small spots of samples on a pencil baseline. [B1]\nPut the paper in solvent with the spots above the solvent level and allow the solvent to rise. [B1]\nDifferent substances move different distances and separate into spots. [B1]\nCompare spot positions or Rf values with known substances under the same conditions. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Chromatography",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemical analysis · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t08-f01b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how paper chromatography can be used to identify substances in a mixture. (4)",
+        "hints": [
+          "The baseline must be above the solvent.",
+          "Identification requires comparison with known substances."
+        ],
+        "solution": "Place small spots of samples on a pencil baseline. [B1]\nPut the paper in solvent with the spots above the solvent level and allow the solvent to rise. [B1]\nDifferent substances move different distances and separate into spots. [B1]\nCompare spot positions or Rf values with known substances under the same conditions. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Chromatography",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemical analysis · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t08-f01c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how paper chromatography can be used to identify substances in a mixture. (4)",
+        "hints": [
+          "The baseline must be above the solvent.",
+          "Identification requires comparison with known substances."
+        ],
+        "solution": "Place small spots of samples on a pencil baseline. [B1]\nPut the paper in solvent with the spots above the solvent level and allow the solvent to rise. [B1]\nDifferent substances move different distances and separate into spots. [B1]\nCompare spot positions or Rf values with known substances under the same conditions. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Chromatography",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemical analysis · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t08-f02a",
+        "marks": 3,
+        "prompt": "A student is answering an AQA-style practice question. A substance moves 4.2 cm while the solvent front moves 7.0 cm. Calculate the Rf value. (3)",
+        "hints": [
+          "Rf is a ratio.",
+          "It has no unit."
+        ],
+        "solution": "Use Rf = distance moved by substance / distance moved by solvent. [B1]\nRf = 4.2 / 7.0. [B1]\nRf = 0.60. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Rf calculations",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemical analysis · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t08-f02b",
+        "marks": 3,
+        "prompt": "A class is applying the same idea in a different context. A substance moves 4.2 cm while the solvent front moves 7.0 cm. Calculate the Rf value. (3)",
+        "hints": [
+          "Rf is a ratio.",
+          "It has no unit."
+        ],
+        "solution": "Use Rf = distance moved by substance / distance moved by solvent. [B1]\nRf = 4.2 / 7.0. [B1]\nRf = 0.60. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Rf calculations",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemical analysis · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t08-f02c",
+        "marks": 3,
+        "prompt": "During revision, a learner is asked the following. A substance moves 4.2 cm while the solvent front moves 7.0 cm. Calculate the Rf value. (3)",
+        "hints": [
+          "Rf is a ratio.",
+          "It has no unit."
+        ],
+        "solution": "Use Rf = distance moved by substance / distance moved by solvent. [B1]\nRf = 4.2 / 7.0. [B1]\nRf = 0.60. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Rf calculations",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemical analysis · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t08-f03a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. State the test and positive result for carbon dioxide and for hydrogen. (4)",
+        "hints": [
+          "One test uses limewater.",
+          "One test uses a lit splint."
+        ],
+        "solution": "Bubble the gas through limewater for carbon dioxide. [B1]\nLimewater turns milky/cloudy if carbon dioxide is present. [B1]\nBring a lit splint to hydrogen. [B1]\nHydrogen burns with a squeaky pop. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Gas tests",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemical analysis · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t08-f03b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. State the test and positive result for carbon dioxide and for hydrogen. (4)",
+        "hints": [
+          "One test uses limewater.",
+          "One test uses a lit splint."
+        ],
+        "solution": "Bubble the gas through limewater for carbon dioxide. [B1]\nLimewater turns milky/cloudy if carbon dioxide is present. [B1]\nBring a lit splint to hydrogen. [B1]\nHydrogen burns with a squeaky pop. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Gas tests",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemical analysis · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t08-f03c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. State the test and positive result for carbon dioxide and for hydrogen. (4)",
+        "hints": [
+          "One test uses limewater.",
+          "One test uses a lit splint."
+        ],
+        "solution": "Bubble the gas through limewater for carbon dioxide. [B1]\nLimewater turns milky/cloudy if carbon dioxide is present. [B1]\nBring a lit splint to hydrogen. [B1]\nHydrogen burns with a squeaky pop. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Gas tests",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemical analysis · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t08-f04a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Describe how flame tests can help identify metal ions and give two example flame colours. (4)",
+        "hints": [
+          "Contamination can affect the colour, so clean the loop.",
+          "Give two correct ion-colour pairs."
+        ],
+        "solution": "Clean a wire loop, dip it into the sample and place it in a non-luminous flame. [B1]\nThe metal ion produces a characteristic flame colour. [B1]\nFor example lithium gives crimson, sodium yellow, potassium lilac, calcium orange-red or copper green. [B1]\nCompare the observed colour with known results. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Flame tests",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemical analysis · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t08-f04b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Describe how flame tests can help identify metal ions and give two example flame colours. (4)",
+        "hints": [
+          "Contamination can affect the colour, so clean the loop.",
+          "Give two correct ion-colour pairs."
+        ],
+        "solution": "Clean a wire loop, dip it into the sample and place it in a non-luminous flame. [B1]\nThe metal ion produces a characteristic flame colour. [B1]\nFor example lithium gives crimson, sodium yellow, potassium lilac, calcium orange-red or copper green. [B1]\nCompare the observed colour with known results. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Flame tests",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemical analysis · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t08-f04c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Describe how flame tests can help identify metal ions and give two example flame colours. (4)",
+        "hints": [
+          "Contamination can affect the colour, so clean the loop.",
+          "Give two correct ion-colour pairs."
+        ],
+        "solution": "Clean a wire loop, dip it into the sample and place it in a non-luminous flame. [B1]\nThe metal ion produces a characteristic flame colour. [B1]\nFor example lithium gives crimson, sodium yellow, potassium lilac, calcium orange-red or copper green. [B1]\nCompare the observed colour with known results. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Flame tests",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemical analysis · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t08-f05a",
+        "marks": 2,
+        "prompt": "A student is answering an AQA-style practice question. Give one advantage of instrumental methods of chemical analysis compared with simple chemical tests. (2)",
+        "hints": [
+          "Think about sensitivity and precision.",
+          "Only one well-explained advantage is needed."
+        ],
+        "solution": "Instrumental methods can be very sensitive and detect small amounts. [B1]\nThey can be rapid and/or accurate. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Instrumental methods",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemical analysis · family 5"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t08-f05b",
+        "marks": 2,
+        "prompt": "A class is applying the same idea in a different context. Give one advantage of instrumental methods of chemical analysis compared with simple chemical tests. (2)",
+        "hints": [
+          "Think about sensitivity and precision.",
+          "Only one well-explained advantage is needed."
+        ],
+        "solution": "Instrumental methods can be very sensitive and detect small amounts. [B1]\nThey can be rapid and/or accurate. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Instrumental methods",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemical analysis · family 5"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t08-f05c",
+        "marks": 2,
+        "prompt": "During revision, a learner is asked the following. Give one advantage of instrumental methods of chemical analysis compared with simple chemical tests. (2)",
+        "hints": [
+          "Think about sensitivity and precision.",
+          "Only one well-explained advantage is needed."
+        ],
+        "solution": "Instrumental methods can be very sensitive and detect small amounts. [B1]\nThey can be rapid and/or accurate. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Instrumental methods",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemical analysis · family 5"
+      }
+    ]
+  },
+  {
+    "topic": "Chemistry of the atmosphere",
+    "category": "Paper 2",
+    "questions": [
+      {
+        "id": "gcse-chem-aqa-p2-t09-f01a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Describe how the composition of Earth's atmosphere is thought to have changed since the early Earth. (4)",
+        "hints": [
+          "Start with volcanic gases.",
+          "Explain both the fall in carbon dioxide and rise in oxygen."
+        ],
+        "solution": "Early volcanic activity released gases including much carbon dioxide and water vapour. [B1]\nAs Earth cooled, water vapour condensed to form oceans. [B1]\nCarbon dioxide decreased as it dissolved in oceans and became locked in sedimentary rocks/fossil fuels. [B1]\nPhotosynthetic organisms released oxygen, causing oxygen concentration to rise. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Evolution of the atmosphere",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemistry of the atmosphere · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t09-f01b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Describe how the composition of Earth's atmosphere is thought to have changed since the early Earth. (4)",
+        "hints": [
+          "Start with volcanic gases.",
+          "Explain both the fall in carbon dioxide and rise in oxygen."
+        ],
+        "solution": "Early volcanic activity released gases including much carbon dioxide and water vapour. [B1]\nAs Earth cooled, water vapour condensed to form oceans. [B1]\nCarbon dioxide decreased as it dissolved in oceans and became locked in sedimentary rocks/fossil fuels. [B1]\nPhotosynthetic organisms released oxygen, causing oxygen concentration to rise. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Evolution of the atmosphere",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemistry of the atmosphere · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t09-f01c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Describe how the composition of Earth's atmosphere is thought to have changed since the early Earth. (4)",
+        "hints": [
+          "Start with volcanic gases.",
+          "Explain both the fall in carbon dioxide and rise in oxygen."
+        ],
+        "solution": "Early volcanic activity released gases including much carbon dioxide and water vapour. [B1]\nAs Earth cooled, water vapour condensed to form oceans. [B1]\nCarbon dioxide decreased as it dissolved in oceans and became locked in sedimentary rocks/fossil fuels. [B1]\nPhotosynthetic organisms released oxygen, causing oxygen concentration to rise. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Evolution of the atmosphere",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemistry of the atmosphere · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t09-f02a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how increasing concentrations of greenhouse gases can lead to climate change. (4)",
+        "hints": [
+          "The radiation involved is infrared.",
+          "Explain the energy balance before the effects."
+        ],
+        "solution": "Greenhouse gases absorb outgoing infrared radiation from Earth. [B1]\nThey re-emit infrared radiation in all directions, including back towards the surface. [B1]\nMore energy is retained in the atmosphere, raising average global temperature. [B1]\nWarming can change climate patterns, sea level and ecosystems. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Greenhouse effect",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemistry of the atmosphere · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t09-f02b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how increasing concentrations of greenhouse gases can lead to climate change. (4)",
+        "hints": [
+          "The radiation involved is infrared.",
+          "Explain the energy balance before the effects."
+        ],
+        "solution": "Greenhouse gases absorb outgoing infrared radiation from Earth. [B1]\nThey re-emit infrared radiation in all directions, including back towards the surface. [B1]\nMore energy is retained in the atmosphere, raising average global temperature. [B1]\nWarming can change climate patterns, sea level and ecosystems. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Greenhouse effect",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemistry of the atmosphere · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t09-f02c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how increasing concentrations of greenhouse gases can lead to climate change. (4)",
+        "hints": [
+          "The radiation involved is infrared.",
+          "Explain the energy balance before the effects."
+        ],
+        "solution": "Greenhouse gases absorb outgoing infrared radiation from Earth. [B1]\nThey re-emit infrared radiation in all directions, including back towards the surface. [B1]\nMore energy is retained in the atmosphere, raising average global temperature. [B1]\nWarming can change climate patterns, sea level and ecosystems. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Greenhouse effect",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemistry of the atmosphere · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t09-f03a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain how burning fuels can produce air pollutants and describe one effect of each of two pollutants. (4)",
+        "hints": [
+          "Choose two pollutants and link source to effect.",
+          "Do not confuse carbon monoxide with carbon dioxide."
+        ],
+        "solution": "Incomplete combustion can produce carbon monoxide, a toxic gas that reduces the blood's ability to carry oxygen. [B1]\nSulfur impurities can form sulfur dioxide, which contributes to acid rain. [B1]\nHigh-temperature engines can form nitrogen oxides, which contribute to acid rain and respiratory problems. [B1]\nParticulates can damage lungs and contribute to global dimming. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Atmospheric pollutants",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemistry of the atmosphere · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t09-f03b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain how burning fuels can produce air pollutants and describe one effect of each of two pollutants. (4)",
+        "hints": [
+          "Choose two pollutants and link source to effect.",
+          "Do not confuse carbon monoxide with carbon dioxide."
+        ],
+        "solution": "Incomplete combustion can produce carbon monoxide, a toxic gas that reduces the blood's ability to carry oxygen. [B1]\nSulfur impurities can form sulfur dioxide, which contributes to acid rain. [B1]\nHigh-temperature engines can form nitrogen oxides, which contribute to acid rain and respiratory problems. [B1]\nParticulates can damage lungs and contribute to global dimming. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Atmospheric pollutants",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemistry of the atmosphere · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t09-f03c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain how burning fuels can produce air pollutants and describe one effect of each of two pollutants. (4)",
+        "hints": [
+          "Choose two pollutants and link source to effect.",
+          "Do not confuse carbon monoxide with carbon dioxide."
+        ],
+        "solution": "Incomplete combustion can produce carbon monoxide, a toxic gas that reduces the blood's ability to carry oxygen. [B1]\nSulfur impurities can form sulfur dioxide, which contributes to acid rain. [B1]\nHigh-temperature engines can form nitrogen oxides, which contribute to acid rain and respiratory problems. [B1]\nParticulates can damage lungs and contribute to global dimming. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Atmospheric pollutants",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemistry of the atmosphere · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t09-f04a",
+        "marks": 3,
+        "prompt": "A student is answering an AQA-style practice question. Explain why evaluating the environmental effect of a greenhouse gas should consider more than just the amount emitted. (3)",
+        "hints": [
+          "Compare greenhouse gases, not just emissions.",
+          "Think about lifetime and infrared absorption."
+        ],
+        "solution": "Different gases absorb different amounts of infrared radiation. [B1]\nThey remain in the atmosphere for different lengths of time. [B1]\nTheir overall warming effect depends on both effectiveness and atmospheric lifetime as well as concentration. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Greenhouse gases",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemistry of the atmosphere · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t09-f04b",
+        "marks": 3,
+        "prompt": "A class is applying the same idea in a different context. Explain why evaluating the environmental effect of a greenhouse gas should consider more than just the amount emitted. (3)",
+        "hints": [
+          "Compare greenhouse gases, not just emissions.",
+          "Think about lifetime and infrared absorption."
+        ],
+        "solution": "Different gases absorb different amounts of infrared radiation. [B1]\nThey remain in the atmosphere for different lengths of time. [B1]\nTheir overall warming effect depends on both effectiveness and atmospheric lifetime as well as concentration. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Greenhouse gases",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemistry of the atmosphere · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t09-f04c",
+        "marks": 3,
+        "prompt": "During revision, a learner is asked the following. Explain why evaluating the environmental effect of a greenhouse gas should consider more than just the amount emitted. (3)",
+        "hints": [
+          "Compare greenhouse gases, not just emissions.",
+          "Think about lifetime and infrared absorption."
+        ],
+        "solution": "Different gases absorb different amounts of infrared radiation. [B1]\nThey remain in the atmosphere for different lengths of time. [B1]\nTheir overall warming effect depends on both effectiveness and atmospheric lifetime as well as concentration. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Greenhouse gases",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemistry of the atmosphere · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t09-f05a",
+        "marks": 2,
+        "prompt": "A student is answering an AQA-style practice question. Describe two ways the carbon footprint of a product could be reduced. (2)",
+        "hints": [
+          "Consider manufacture, materials and transport.",
+          "Give two distinct methods."
+        ],
+        "solution": "Use renewable or lower-carbon energy during manufacture and transport. [B1]\nImprove energy efficiency or reduce the amount of material used. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Carbon footprints",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemistry of the atmosphere · family 5"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t09-f05b",
+        "marks": 2,
+        "prompt": "A class is applying the same idea in a different context. Describe two ways the carbon footprint of a product could be reduced. (2)",
+        "hints": [
+          "Consider manufacture, materials and transport.",
+          "Give two distinct methods."
+        ],
+        "solution": "Use renewable or lower-carbon energy during manufacture and transport. [B1]\nImprove energy efficiency or reduce the amount of material used. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Carbon footprints",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemistry of the atmosphere · family 5"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t09-f05c",
+        "marks": 2,
+        "prompt": "During revision, a learner is asked the following. Describe two ways the carbon footprint of a product could be reduced. (2)",
+        "hints": [
+          "Consider manufacture, materials and transport.",
+          "Give two distinct methods."
+        ],
+        "solution": "Use renewable or lower-carbon energy during manufacture and transport. [B1]\nImprove energy efficiency or reduce the amount of material used. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Carbon footprints",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Chemistry of the atmosphere · family 5"
+      }
+    ]
+  },
+  {
+    "topic": "Using resources",
+    "category": "Paper 2",
+    "questions": [
+      {
+        "id": "gcse-chem-aqa-p2-t10-f01a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Describe the main stages used to produce potable water from fresh water supplies. (4)",
+        "hints": [
+          "Think filtration then sterilisation.",
+          "Potable means safe to drink."
+        ],
+        "solution": "Choose a suitable fresh water source. [B1]\nFilter the water to remove insoluble solids. [B1]\nSterilise the water, for example using chlorine, ozone or ultraviolet light. [B1]\nThe treated water must be safe to drink, although potable does not mean chemically pure. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Potable water",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Using resources · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t10-f01b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Describe the main stages used to produce potable water from fresh water supplies. (4)",
+        "hints": [
+          "Think filtration then sterilisation.",
+          "Potable means safe to drink."
+        ],
+        "solution": "Choose a suitable fresh water source. [B1]\nFilter the water to remove insoluble solids. [B1]\nSterilise the water, for example using chlorine, ozone or ultraviolet light. [B1]\nThe treated water must be safe to drink, although potable does not mean chemically pure. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Potable water",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Using resources · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t10-f01c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Describe the main stages used to produce potable water from fresh water supplies. (4)",
+        "hints": [
+          "Think filtration then sterilisation.",
+          "Potable means safe to drink."
+        ],
+        "solution": "Choose a suitable fresh water source. [B1]\nFilter the water to remove insoluble solids. [B1]\nSterilise the water, for example using chlorine, ozone or ultraviolet light. [B1]\nThe treated water must be safe to drink, although potable does not mean chemically pure. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Potable water",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Using resources · family 1"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t10-f02a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain why recycling metals can reduce environmental impacts compared with extracting new metal from ores. (4)",
+        "hints": [
+          "Compare raw materials and energy use.",
+          "Give environmental consequences."
+        ],
+        "solution": "Recycling reduces the need for mining and associated habitat damage. [B1]\nIt usually uses less energy than extraction and processing of ores. [B1]\nIt conserves finite raw materials. [B1]\nLower energy use can reduce greenhouse gas emissions. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Recycling",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Using resources · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t10-f02b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain why recycling metals can reduce environmental impacts compared with extracting new metal from ores. (4)",
+        "hints": [
+          "Compare raw materials and energy use.",
+          "Give environmental consequences."
+        ],
+        "solution": "Recycling reduces the need for mining and associated habitat damage. [B1]\nIt usually uses less energy than extraction and processing of ores. [B1]\nIt conserves finite raw materials. [B1]\nLower energy use can reduce greenhouse gas emissions. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Recycling",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Using resources · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t10-f02c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain why recycling metals can reduce environmental impacts compared with extracting new metal from ores. (4)",
+        "hints": [
+          "Compare raw materials and energy use.",
+          "Give environmental consequences."
+        ],
+        "solution": "Recycling reduces the need for mining and associated habitat damage. [B1]\nIt usually uses less energy than extraction and processing of ores. [B1]\nIt conserves finite raw materials. [B1]\nLower energy use can reduce greenhouse gas emissions. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Recycling",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Using resources · family 2"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t10-f03a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain the purpose of a life-cycle assessment and why different assessments may reach different conclusions. (4)",
+        "hints": [
+          "Consider the whole lifetime of a product.",
+          "Some judgments are subjective."
+        ],
+        "solution": "A life-cycle assessment considers environmental impacts from raw materials, manufacture, use and disposal. [B1]\nIt can include energy use, resource use, emissions and waste. [B1]\nSome impacts are difficult to quantify objectively. [B1]\nDifferent weightings, assumptions or data can therefore produce different conclusions. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Life-cycle assessment",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Using resources · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t10-f03b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain the purpose of a life-cycle assessment and why different assessments may reach different conclusions. (4)",
+        "hints": [
+          "Consider the whole lifetime of a product.",
+          "Some judgments are subjective."
+        ],
+        "solution": "A life-cycle assessment considers environmental impacts from raw materials, manufacture, use and disposal. [B1]\nIt can include energy use, resource use, emissions and waste. [B1]\nSome impacts are difficult to quantify objectively. [B1]\nDifferent weightings, assumptions or data can therefore produce different conclusions. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Life-cycle assessment",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Using resources · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t10-f03c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain the purpose of a life-cycle assessment and why different assessments may reach different conclusions. (4)",
+        "hints": [
+          "Consider the whole lifetime of a product.",
+          "Some judgments are subjective."
+        ],
+        "solution": "A life-cycle assessment considers environmental impacts from raw materials, manufacture, use and disposal. [B1]\nIt can include energy use, resource use, emissions and waste. [B1]\nSome impacts are difficult to quantify objectively. [B1]\nDifferent weightings, assumptions or data can therefore produce different conclusions. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Life-cycle assessment",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Using resources · family 3"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t10-f04a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain why the Haber process uses a compromise temperature and pressure. (4)",
+        "hints": [
+          "Consider both equilibrium yield and reaction rate/cost.",
+          "Temperature and pressure have different practical compromises."
+        ],
+        "solution": "The forward reaction is exothermic, so lower temperature gives a higher equilibrium yield of ammonia. [B1]\nA lower temperature would make the reaction too slow, so a moderate temperature is used as a compromise. [B1]\nHigher pressure increases ammonia yield because there are fewer gas molecules on the product side. [B1]\nVery high pressure is expensive and requires strong equipment, so a compromise pressure is used. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Haber process",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Using resources · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t10-f04b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain why the Haber process uses a compromise temperature and pressure. (4)",
+        "hints": [
+          "Consider both equilibrium yield and reaction rate/cost.",
+          "Temperature and pressure have different practical compromises."
+        ],
+        "solution": "The forward reaction is exothermic, so lower temperature gives a higher equilibrium yield of ammonia. [B1]\nA lower temperature would make the reaction too slow, so a moderate temperature is used as a compromise. [B1]\nHigher pressure increases ammonia yield because there are fewer gas molecules on the product side. [B1]\nVery high pressure is expensive and requires strong equipment, so a compromise pressure is used. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Haber process",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Using resources · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t10-f04c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain why the Haber process uses a compromise temperature and pressure. (4)",
+        "hints": [
+          "Consider both equilibrium yield and reaction rate/cost.",
+          "Temperature and pressure have different practical compromises."
+        ],
+        "solution": "The forward reaction is exothermic, so lower temperature gives a higher equilibrium yield of ammonia. [B1]\nA lower temperature would make the reaction too slow, so a moderate temperature is used as a compromise. [B1]\nHigher pressure increases ammonia yield because there are fewer gas molecules on the product side. [B1]\nVery high pressure is expensive and requires strong equipment, so a compromise pressure is used. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Haber process",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Using resources · family 4"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t10-f05a",
+        "marks": 4,
+        "prompt": "A student is answering an AQA-style practice question. Explain why NPK fertilisers are useful for crop growth. (4)",
+        "hints": [
+          "NPK names three mineral nutrients.",
+          "Give a role for at least two."
+        ],
+        "solution": "They supply compounds containing nitrogen, phosphorus and potassium. [B1]\nNitrogen is needed for proteins and growth. [B1]\nPhosphorus supports root growth / DNA and other cell chemicals. [B1]\nPotassium is needed for healthy flowers/fruit and enzyme function, so supplying limiting minerals can increase yield. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Fertilisers",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Using resources · family 5"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t10-f05b",
+        "marks": 4,
+        "prompt": "A class is applying the same idea in a different context. Explain why NPK fertilisers are useful for crop growth. (4)",
+        "hints": [
+          "NPK names three mineral nutrients.",
+          "Give a role for at least two."
+        ],
+        "solution": "They supply compounds containing nitrogen, phosphorus and potassium. [B1]\nNitrogen is needed for proteins and growth. [B1]\nPhosphorus supports root growth / DNA and other cell chemicals. [B1]\nPotassium is needed for healthy flowers/fruit and enzyme function, so supplying limiting minerals can increase yield. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Fertilisers",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Using resources · family 5"
+      },
+      {
+        "id": "gcse-chem-aqa-p2-t10-f05c",
+        "marks": 4,
+        "prompt": "During revision, a learner is asked the following. Explain why NPK fertilisers are useful for crop growth. (4)",
+        "hints": [
+          "NPK names three mineral nutrients.",
+          "Give a role for at least two."
+        ],
+        "solution": "They supply compounds containing nitrogen, phosphorus and potassium. [B1]\nNitrogen is needed for proteins and growth. [B1]\nPhosphorus supports root growth / DNA and other cell chemicals. [B1]\nPotassium is needed for healthy flowers/fruit and enzyme function, so supplying limiting minerals can increase yield. [B1]",
+        "year": "Specification-aligned practice",
+        "paper": "AQA Chemistry Paper 2",
+        "subtopic": "Fertilisers",
+        "tier": "Foundation/Higher",
+        "inspiredBy": "AQA 8462 Chemistry Paper 2 style · Using resources · family 5"
+      }
+    ]
+  }
+]

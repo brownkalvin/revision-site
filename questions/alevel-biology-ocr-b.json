@@ -1,0 +1,3743 @@
+{
+ "subject": "alevel-biology-ocr-b",
+ "topics": [
+  {
+   "topic": "Development of practical skills in biology",
+   "category": "Module 1",
+   "questions": [
+    {
+     "id": "bio-ocrb-2019-p1-25-a",
+     "marks": 1,
+     "prompt": "Head circumference HC = 1.62 × (BPD + OFD). BPD = 76 ± 4.2 mm and OFD = 98 ± 6.5 mm. Calculate the percentage uncertainty in HC. (1)",
+     "hints": [
+      "Add absolute uncertainties when adding values.",
+      "10.7 ÷ 174."
+     ],
+     "solution": "(4.2 + 6.5) ÷ (76 + 98) × 100 = 6.1 % [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q25",
+     "subtopic": "Combining uncertainties"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-25-b",
+     "marks": 1,
+     "prompt": "A length is 12.5 ± 0.5 mm. Calculate the percentage uncertainty. (1)",
+     "hints": [
+      "0.5 ÷ 12.5.",
+      "× 100."
+     ],
+     "solution": "4 % [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q25",
+     "subtopic": "Uncertainties"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-25-c",
+     "marks": 1,
+     "prompt": "When two measurements are multiplied, how are their uncertainties combined? (1)",
+     "hints": [
+      "Percentages.",
+      "Add."
+     ],
+     "solution": "Add the percentage uncertainties [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q25",
+     "subtopic": "Uncertainties"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-33a-a",
+     "marks": 9,
+     "prompt": "Potato slices in 0.6 mol dm⁻³ sucrose had percentage mass changes of −8, −10, −12 and −10.\n\n(i) Calculate the standard deviation using s = √[Σ(x − x̄)² ÷ (n − 1)]. (2)\n(ii) Describe how to plot the mean with an error bar. (2)\n(iii) Explain how sucrose concentration determines the change in mass. (3)\n(iv) Suggest two factors in the method that could cause variation. (2)",
+     "hints": [
+      "Mean = −10.",
+      "Water potential."
+     ],
+     "solution": "(i) Deviations 2, 0, −2, 0; Σ = 8; 8 ÷ 3 = 2.67 [M1]\ns = 1.63 [A1]\n(ii) Plot the mean (−10) at 0.6 mol dm⁻³ [B1]\nError bar from −11.6 to −8.4 (± 1 SD) [B1]\n(iii) Below the isotonic point, the solution has a higher water potential than the potato, so water enters — mass increases [B1]\nAbove it, water leaves by osmosis — mass decreases [B1]\nThe bigger the difference in water potential, the bigger the change [B1]\n(iv) Slices not identical in size / not blotted consistently [B1]\nDifferent times in solution / temperature variation / different potatoes [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q33(a)",
+     "subtopic": "Osmosis and standard deviation"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-33a-b",
+     "marks": 9,
+     "prompt": "Describe how to find the water potential of potato tissue. (9)",
+     "hints": [
+      "Range of solutions.",
+      "Graph intercept."
+     ],
+     "solution": "Prepare sucrose solutions 0.0–1.0 mol dm⁻³ by dilution [B1]\nCut potato cylinders of equal size with a cork borer [B1]\nBlot and weigh each [B1]\nPlace in solutions for a set time at constant temperature [B1]\nRemove, blot, reweigh [B1]\nCalculate percentage change in mass [B1]\nRepeat at each concentration and calculate means [B1]\nPlot percentage change against concentration [B1]\nFind concentration with zero change; convert to water potential [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q33(a)",
+     "subtopic": "Osmosis practical"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-33a-c",
+     "marks": 9,
+     "prompt": "Explain how error bars and standard deviations help interpret data from an osmosis experiment. (9)",
+     "hints": [
+      "Spread.",
+      "Overlap."
+     ],
+     "solution": "SD shows how spread out repeat values are around the mean [B1]\nSmall SD — data are precise / repeatable [B1]\nError bars plotted as mean ± 1 SD [B1]\nAbout 68 % of values lie within ± 1 SD [B1]\nIf error bars of two means overlap, the difference may not be significant [B1]\nIf they don't overlap, the difference is likely to be significant [B1]\nLarge error bars suggest errors in method [B1]\nStatistical test (t-test) gives a more reliable conclusion [B1]\nAnomalies can be identified as values far from the mean [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q33(a)",
+     "subtopic": "Error bars"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-02b-a",
+     "marks": 4,
+     "prompt": "A peptide was heated with hydrochloric acid, then the products were separated by paper chromatography.\n\n(i) Explain why the peptide was heated with acid, and why the paper should not be touched with fingers. (2)\n(ii) A spot moved 4.6 cm and the solvent front moved 8.0 cm. Calculate the Rf value. (2)",
+     "hints": [
+      "Hydrolysis.",
+      "Skin contains amino acids."
+     ],
+     "solution": "(i) Acid hydrolyses peptide bonds, releasing individual amino acids [B1]\nFingers would deposit amino acids / oils that would show up as extra spots [B1]\n(ii) 4.6 ÷ 8.0 [M1]\n= 0.58 [A1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q2(b)",
+     "subtopic": "Chromatography of amino acids"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-02b-b",
+     "marks": 4,
+     "prompt": "Describe how to carry out paper chromatography of amino acids. (4)",
+     "hints": [
+      "Pencil line.",
+      "Ninhydrin."
+     ],
+     "solution": "Draw a pencil origin line and spot the sample on it, drying between applications [B1]\nPlace in a solvent below the origin line in a sealed container [B1]\nRemove before the solvent reaches the top; mark the solvent front [B1]\nSpray with ninhydrin to show amino acids, then calculate Rf values [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q2(b)",
+     "subtopic": "Chromatography"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-02b-c",
+     "marks": 4,
+     "prompt": "Explain why two-way chromatography may be needed to separate amino acids. (4)",
+     "hints": [
+      "Similar Rf values.",
+      "Second solvent."
+     ],
+     "solution": "Some amino acids have similar Rf values in one solvent [B1]\nSo their spots overlap [B1]\nThe chromatogram is turned 90° and run in a second solvent [B1]\nAmino acids with different solubilities in the second solvent separate [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q2(b)",
+     "subtopic": "Chromatography"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-33aiv-a",
+     "marks": 5,
+     "prompt": "(i) Give suitable axis labels for a line graph of cumulative percentage germination against time for each light colour. (2)\n(ii) Evaluate a suggestion to weigh the dishes daily and calculate seed mass instead of counting germinated seeds. (3)",
+     "hints": [
+      "Time on x.",
+      "Water uptake affects mass."
+     ],
+     "solution": "(i) x-axis: time / hours [B1]\ny-axis: cumulative germination / % [B1]\n(ii) Mass gives quantitative data on growth [B1]\nBut mass changes with water uptake / evaporation, not just growth [B1]\nHard to separate seeds from damp paper; germination (radicle emergence) is what is being studied [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q33(a)(iv)-(v)",
+     "subtopic": "Graphs and methods"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-33aiv-b",
+     "marks": 5,
+     "prompt": "Compare fresh mass and dry mass as measures of plant growth. (5)",
+     "hints": [
+      "Water content.",
+      "Destructive sampling."
+     ],
+     "solution": "Fresh mass is quick and doesn't kill the plant [B1]\nBut varies with water content, so unreliable [B1]\nDry mass: dry samples in an oven (e.g. 80 °C) until constant mass [B1]\nMore accurate measure of biomass [B1]\nBut plants are killed, so different plants must be used at each time [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q33(a)(iv)-(v)",
+     "subtopic": "Measuring growth"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-33aiv-c",
+     "marks": 5,
+     "prompt": "Explain how random errors and systematic errors affect results, and how each is reduced. (5)",
+     "hints": [
+      "Precision vs accuracy.",
+      "Repeats vs calibration."
+     ],
+     "solution": "Random errors cause readings to vary unpredictably [B1]\nReduce precision; reduced by repeats and means [B1]\nSystematic errors shift all readings in the same direction [B1]\nReduce accuracy; reduced by calibration / zeroing equipment [B1]\nRepeats do not reduce systematic errors [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q33(a)(iv)-(v)",
+     "subtopic": "Random and systematic error"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-03a-a",
+     "marks": 5,
+     "prompt": "A student investigated the effect of temperature on catalase using filter-paper discs soaked in enzyme dropped into hydrogen peroxide, timing how long each disc took to rise.\n\n(i) Name the independent and dependent variables. (2)\n(ii) Give two control variables. (2)\n(iii) Explain how rate is calculated from the time. (1)",
+     "hints": [
+      "Rate = 1/time.",
+      "Concentration, volume."
+     ],
+     "solution": "(i) Independent: temperature [B1]\nDependent: time for disc to rise [B1]\n(ii) Concentration / volume of hydrogen peroxide [B1]\nSize of disc / enzyme concentration / pH [B1]\n(iii) Rate = 1 ÷ time [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q3(a)",
+     "subtopic": "Enzyme practical"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-03a-b",
+     "marks": 5,
+     "prompt": "Describe how you would measure the initial rate of an enzyme reaction from a graph of product formed against time. (5)",
+     "hints": [
+      "Tangent at t = 0.",
+      "Gradient."
+     ],
+     "solution": "Plot product against time [B1]\nDraw a tangent to the curve at time zero [B1]\nChoose two points far apart on the tangent [B1]\nGradient = Δy ÷ Δx [B1]\nUnits, e.g. cm³ s⁻¹ [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q3(a)",
+     "subtopic": "Enzyme practical"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-03a-c",
+     "marks": 5,
+     "prompt": "Explain how to control temperature in an enzyme experiment and why pre-incubation matters. (5)",
+     "hints": [
+      "Water bath.",
+      "Equilibrate."
+     ],
+     "solution": "Use a thermostatically controlled water bath [B1]\nCheck the temperature with a thermometer [B1]\nPlace enzyme and substrate in the bath separately first [B1]\nSo both reach the set temperature before mixing [B1]\nOtherwise reaction starts at the wrong temperature [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q3(a)",
+     "subtopic": "Temperature control"
+    }
+   ]
+  },
+  {
+   "topic": "Cells and microscopy",
+   "category": "Module 2",
+   "questions": [
+    {
+     "id": "bio-ocrb-2019-p1-22-a",
+     "marks": 1,
+     "prompt": "Name the structures that generate movement in a sperm tail. (1)",
+     "hints": [
+      "9 + 2.",
+      "Tubulin."
+     ],
+     "solution": "Microtubules [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q22-23",
+     "subtopic": "Cytoskeleton"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-22-b",
+     "marks": 1,
+     "prompt": "In which direction does DNA polymerase add nucleotides? (1)",
+     "hints": [
+      "5′ and 3′.",
+      "To the 3′ end."
+     ],
+     "solution": "5′ to 3′ (adds to the 3′ end of the new strand) [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q22-23",
+     "subtopic": "DNA replication"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-22-c",
+     "marks": 1,
+     "prompt": "Explain why one strand is synthesised discontinuously during DNA replication. (1)",
+     "hints": [
+      "Antiparallel.",
+      "Okazaki fragments."
+     ],
+     "solution": "DNA polymerase only works 5′→3′, so on the antiparallel lagging strand DNA is made in short (Okazaki) fragments joined by ligase [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q22-23",
+     "subtopic": "DNA replication"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-33b-a",
+     "marks": 2,
+     "prompt": "At ×600, the diameter of the field of view is 280 µm. Calculate its area to the nearest whole µm². (2)",
+     "hints": [
+      "r = 140 µm.",
+      "πr²."
+     ],
+     "solution": "3.14 × 140² [M1]\n= 61 544 µm² (61 575 with π) [A1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q33(b)",
+     "subtopic": "Field of view"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-33b-b",
+     "marks": 2,
+     "prompt": "Explain how to use a stage micrometer to calibrate an eyepiece graticule. (2)",
+     "hints": [
+      "Line up scales.",
+      "Divide."
+     ],
+     "solution": "Line up the stage micrometer scale with the eyepiece graticule [B1]\nCount divisions and calculate the length of one eyepiece unit (micrometer length ÷ eyepiece divisions); repeat for each objective [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q33(b)",
+     "subtopic": "Calibration"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-33b-c",
+     "marks": 2,
+     "prompt": "14 stomata were counted in a field of view of area 0.08 mm². Calculate the stomatal density per mm². (2)",
+     "hints": [
+      "Divide.",
+      "Units."
+     ],
+     "solution": "14 ÷ 0.08 [M1]\n= 175 per mm² [A1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q33(b)",
+     "subtopic": "Cell counts"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-35a-a",
+     "marks": 6,
+     "prompt": "(i) A leucocyte has a nucleus with three lobes and granular cytoplasm. Name it. (1)\n(ii) Give two rules for an annotated biological drawing. (2)\n(iii) Name the apparatus used to calibrate an eyepiece graticule. (1)\n(iv) If 1 eyepiece unit = 2.5 µm and the cell measures 5 eyepiece units, calculate its diameter. (2)",
+     "hints": [
+      "Neutrophil.",
+      "Stage micrometer."
+     ],
+     "solution": "(i) Neutrophil [B1]\n(ii) Clear, continuous lines; no shading [B1]\nLabel lines ruled, not crossing; drawing large, in proportion [B1]\n(iii) Stage micrometer [B1]\n(iv) 5 × 2.5 [M1]\n= 12.5 µm (13 µm to 2 s.f.) [A1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q35(a)",
+     "subtopic": "Blood cells and microscopy"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-35a-b",
+     "marks": 6,
+     "prompt": "Describe the structure and function of neutrophils, lymphocytes and monocytes. (6)",
+     "hints": [
+      "Nucleus shape.",
+      "Roles."
+     ],
+     "solution": "Neutrophils: lobed nucleus, granular cytoplasm [B1]\nPhagocytose pathogens [B1]\nLymphocytes: large round nucleus, little cytoplasm [B1]\nB and T cells — specific immunity [B1]\nMonocytes: large, kidney-shaped nucleus [B1]\nDevelop into macrophages; present antigens [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q35(a)",
+     "subtopic": "Blood cells"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-35a-c",
+     "marks": 6,
+     "prompt": "Explain why stains are used in light microscopy and give two examples. (6)",
+     "hints": [
+      "Contrast.",
+      "Methylene blue, iodine."
+     ],
+     "solution": "Many cell structures are transparent [B1]\nStains increase contrast [B1]\nDifferent stains bind to different structures [B1]\ne.g. methylene blue stains nuclei / animal cells [B1]\ne.g. iodine stains starch in plant cells [B1]\nDifferential staining (e.g. Gram stain) distinguishes cell types [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q35(a)",
+     "subtopic": "Staining"
+    }
+   ]
+  },
+  {
+   "topic": "Chemicals for life",
+   "category": "Module 2",
+   "questions": [
+    {
+     "id": "bio-ocrb-2019-p1-01-a",
+     "marks": 1,
+     "prompt": "Describe the phosphate group of a phospholipid as hydrophilic or hydrophobic, and explain why. (1)",
+     "hints": [
+      "Charged.",
+      "Attracted to water."
+     ],
+     "solution": "Hydrophilic — it is charged / polar, so attracted to water [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q1-2",
+     "subtopic": "Lipids"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-01-b",
+     "marks": 1,
+     "prompt": "Name the type of reaction that breaks down a phospholipid into its components. (1)",
+     "hints": [
+      "Water added.",
+      "H..."
+     ],
+     "solution": "Hydrolysis [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q1-2",
+     "subtopic": "Lipids"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-01-c",
+     "marks": 1,
+     "prompt": "Name the enzyme that hydrolyses triglycerides. (1)",
+     "hints": [
+      "Lipid + ase.",
+      "Pancreas."
+     ],
+     "solution": "Lipase [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q1-2",
+     "subtopic": "Lipids"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-05-a",
+     "marks": 1,
+     "prompt": "Name the bond that joins nucleotides in a polynucleotide chain. (1)",
+     "hints": [
+      "Sugar–phosphate.",
+      "Phospho..."
+     ],
+     "solution": "Phosphodiester bond [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q5",
+     "subtopic": "Nucleotides"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-05-b",
+     "marks": 1,
+     "prompt": "Name the two pyrimidine bases found in DNA. (1)",
+     "hints": [
+      "Single ring.",
+      "C and T."
+     ],
+     "solution": "Cytosine and thymine [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q5",
+     "subtopic": "Nucleotides"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-05-c",
+     "marks": 1,
+     "prompt": "Explain why purines always pair with pyrimidines in DNA. (1)",
+     "hints": [
+      "Width of the helix.",
+      "Hydrogen bonds."
+     ],
+     "solution": "Keeps the distance between strands constant (one double-ring + one single-ring base) and allows correct hydrogen bonding [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q5",
+     "subtopic": "Nucleotides"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-02a-a",
+     "marks": 2,
+     "prompt": "(i) Name the bond that joins amino acids in a peptide. (1)\n(ii) Name the reaction that forms it. (1)",
+     "hints": [
+      "Peptide bond.",
+      "Water released."
+     ],
+     "solution": "(i) Peptide bond [B1]\n(ii) Condensation [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q2(a)",
+     "subtopic": "Peptides"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-02a-b",
+     "marks": 2,
+     "prompt": "Describe the general structure of an amino acid. (2)",
+     "hints": [
+      "Central carbon.",
+      "Four groups."
+     ],
+     "solution": "Central carbon bonded to an amine group (NH₂) and a carboxyl group (COOH) [B1]\nAnd a hydrogen atom and a variable R group [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q2(a)",
+     "subtopic": "Amino acids"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-02a-c",
+     "marks": 2,
+     "prompt": "Explain why there are 20 different amino acids in proteins. (2)",
+     "hints": [
+      "R groups.",
+      "Properties."
+     ],
+     "solution": "Each has a different R group [B1]\nR groups differ in size, charge, polarity — allowing proteins to have many shapes and functions [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q2(a)",
+     "subtopic": "Amino acids"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-03a-a",
+     "marks": 3,
+     "prompt": "Matrix metalloproteinases (MMPs) are enzymes with a zinc ion in the active site, a β-pleated sheet and three α-helices, and three histidine residues in the active site.\n\nMatch each feature to: primary structure, secondary structure, tertiary structure or cofactor. (3)",
+     "hints": [
+      "Zinc ion is non-protein.",
+      "Helices and sheets."
+     ],
+     "solution": "Zn²⁺ in the active site — cofactor [B1]\nβ-pleated sheet and α-helices — secondary structure [B1]\nHistidines in three places brought together in the active site — tertiary structure (positions in the sequence = primary) [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q3(a)",
+     "subtopic": "Protein structure and enzymes"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-03a-b",
+     "marks": 3,
+     "prompt": "Explain how a metal ion cofactor helps an enzyme work. (3)",
+     "hints": [
+      "Part of active site.",
+      "Binding substrate."
+     ],
+     "solution": "Ion binds to the enzyme, completing the active site shape [B1]\nHelps substrate bind / forms enzyme–substrate complex [B1]\nMay take part in the reaction (e.g. stabilising charges) [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q3(a)",
+     "subtopic": "Cofactors"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-03a-c",
+     "marks": 3,
+     "prompt": "Explain how the tertiary structure of an enzyme determines its specificity. (3)",
+     "hints": [
+      "Active site shape.",
+      "Complementary."
+     ],
+     "solution": "Folding produces a specifically shaped active site [B1]\nOnly substrates with a complementary shape can bind [B1]\nInduced fit — active site moulds around the substrate [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q3(a)",
+     "subtopic": "Enzyme structure"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-03c-a",
+     "marks": 2,
+     "prompt": "Suggest how the drug marimastat could inhibit MMPs. (2)",
+     "hints": [
+      "Shape like the substrate.",
+      "Binds zinc."
+     ],
+     "solution": "Has a similar shape to the substrate / binds to the active site (competitive inhibitor) [B1]\nBinds the zinc ion, so fewer enzyme–substrate complexes form / less ECM protein hydrolysed [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q3(c)",
+     "subtopic": "Enzyme inhibition"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-03c-b",
+     "marks": 2,
+     "prompt": "Compare reversible and irreversible inhibitors. (2)",
+     "hints": [
+      "Bond type.",
+      "Permanent?"
+     ],
+     "solution": "Reversible inhibitors bind with weak bonds and can detach [B1]\nIrreversible inhibitors bind with covalent bonds, permanently inactivating the enzyme [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q3(c)",
+     "subtopic": "Enzyme inhibition"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-03c-c",
+     "marks": 2,
+     "prompt": "Explain end-product inhibition. (2)",
+     "hints": [
+      "Negative feedback.",
+      "Pathway."
+     ],
+     "solution": "The final product of a metabolic pathway inhibits an enzyme earlier in the pathway [B1]\nSo production slows when there is enough product (negative feedback) [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q3(c)",
+     "subtopic": "End-product inhibition"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-03b-a",
+     "marks": 4,
+     "prompt": "Explain the effect of increasing temperature on enzyme activity from 10 °C to 70 °C. (4)",
+     "hints": [
+      "Kinetic energy.",
+      "Denaturation."
+     ],
+     "solution": "Up to optimum, more kinetic energy [B1]\nMore collisions and enzyme–substrate complexes [B1]\nAbove optimum, bonds in tertiary structure break [B1]\nActive site changes shape — enzyme denatured, rate falls [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q3(b)",
+     "subtopic": "Enzymes and temperature"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-03b-b",
+     "marks": 4,
+     "prompt": "The rate of a reaction is 12 units at 20 °C and 21 units at 30 °C.\n\n(i) Calculate Q10. (2)\n(ii) Explain why Q10 is about 2 below the optimum. (2)",
+     "hints": [
+      "R30 ÷ R20.",
+      "Kinetic energy."
+     ],
+     "solution": "(i) 21 ÷ 12 [M1]\n= 1.75 [A1]\n(ii) A 10 °C rise roughly doubles the number of successful collisions [B1]\nAs molecules have more kinetic energy [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q3(b)",
+     "subtopic": "Q10"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-03b-c",
+     "marks": 4,
+     "prompt": "Compare competitive and non-competitive inhibitors. (4)",
+     "hints": [
+      "Binding site.",
+      "Substrate concentration."
+     ],
+     "solution": "Competitive inhibitors are similar in shape to the substrate and bind the active site [B1]\nTheir effect is reduced by increasing substrate concentration [B1]\nNon-competitive inhibitors bind elsewhere (allosteric site), changing the active site [B1]\nIncreasing substrate does not reverse it [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q3(b)",
+     "subtopic": "Enzyme inhibition"
+    }
+   ]
+  },
+  {
+   "topic": "Transport and gas exchange",
+   "category": "Module 2",
+   "questions": [
+    {
+     "id": "bio-ocrb-2019-p1-12-a",
+     "marks": 1,
+     "prompt": "Give one example of facilitated diffusion in a living organism. (1)",
+     "hints": [
+      "Channel proteins.",
+      "Down a gradient."
+     ],
+     "solution": "Sodium ions entering a neurone through voltage-gated channels / glucose entering red blood cells via carriers [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q12",
+     "subtopic": "Membrane transport"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-12-b",
+     "marks": 1,
+     "prompt": "Give one example of active transport in a living organism. (1)",
+     "hints": [
+      "Against gradient.",
+      "ATP."
+     ],
+     "solution": "Na⁺/K⁺ pump / mineral ion uptake by root hairs / sucrose loading into phloem [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q12",
+     "subtopic": "Membrane transport"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-12-c",
+     "marks": 1,
+     "prompt": "Give one example of co-transport. (1)",
+     "hints": [
+      "Two substances together.",
+      "Sodium and glucose."
+     ],
+     "solution": "Sodium–glucose co-transport in the ileum / proton–sucrose co-transport in companion cells [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q12",
+     "subtopic": "Membrane transport"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-19-a",
+     "marks": 1,
+     "prompt": "Name the vessels where blood becomes oxygenated. (1)",
+     "hints": [
+      "In the lungs.",
+      "Smallest vessels."
+     ],
+     "solution": "Pulmonary capillaries (around the alveoli) [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q19-21",
+     "subtopic": "Circulation"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-19-b",
+     "marks": 1,
+     "prompt": "Explain why regular exercise increases stroke volume. (1)",
+     "hints": [
+      "Muscle growth.",
+      "Ventricles."
+     ],
+     "solution": "Ventricular hypertrophy — larger, stronger ventricles pump more blood per beat [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q19-21",
+     "subtopic": "Exercise and the heart"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-19-c",
+     "marks": 1,
+     "prompt": "Give one change that stimulates the accelerator (sympathetic) nerve to the heart. (1)",
+     "hints": [
+      "Chemoreceptors.",
+      "pH."
+     ],
+     "solution": "Decrease in blood pH (increase in CO₂) [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q19-21",
+     "subtopic": "Heart rate"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-32a-a",
+     "marks": 6,
+     "prompt": "(i) Describe the apoplast pathway by which substances move from root hair cells to the xylem. (2)\n(ii) Describe and explain three adaptations of phloem sieve tubes for transporting sugars. (3)\n(iii) Name the tissue in a vascular bundle that carries sucrose. (1)",
+     "hints": [
+      "Cell walls.",
+      "Sieve plates, companion cells."
+     ],
+     "solution": "(i) Through cell walls and spaces between cells, without crossing membranes [B1]\nBlocked at the endodermis by the Casparian strip, so must enter the symplast [B1]\n(ii) Sieve plates with pores allow flow between elements [B1]\nFew organelles, so little resistance to flow [B1]\nCompanion cells with many mitochondria supply ATP for loading [B1]\n(iii) Phloem [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q32(a)",
+     "subtopic": "Plant transport"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-32a-b",
+     "marks": 6,
+     "prompt": "Compare the structure and function of xylem and phloem. (6)",
+     "hints": [
+      "Dead vs living.",
+      "Direction and contents."
+     ],
+     "solution": "Xylem transports water and minerals; phloem transports sucrose and amino acids [B1]\nXylem vessels are dead; phloem sieve tubes are living [B1]\nXylem walls lignified; phloem walls cellulose [B1]\nXylem: no end walls; phloem: sieve plates [B1]\nXylem flow is one way (up); phloem flow is in both directions [B1]\nPhloem has companion cells; xylem has pits [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q32(a)",
+     "subtopic": "Plant transport"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-32a-c",
+     "marks": 6,
+     "prompt": "Describe evidence for the mass flow hypothesis and one piece of evidence against it. (6)",
+     "hints": [
+      "Aphid stylets, ringing.",
+      "Different directions."
+     ],
+     "solution": "Aphid stylets inserted in phloem show sap is under pressure [B1]\nRemoving a ring of bark causes swelling above, as sugars accumulate [B1]\nRadioactive ¹⁴CO₂ given to leaves appears in phloem and moves to sinks [B1]\nMetabolic inhibitors stop translocation, showing active loading [B1]\nAgainst: sugars move in different directions in the same tube / different rates for different solutes [B1]\nAgainst: sieve plates would be expected to resist flow strongly [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q32(a)",
+     "subtopic": "Translocation"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-34a-a",
+     "marks": 2,
+     "prompt": "(i) Describe what VO₂ max means. (1)\n(ii) Give one advantage of estimating VO₂ max from heart rates rather than measuring it directly. (1)",
+     "hints": [
+      "Maximum oxygen.",
+      "Equipment and safety."
+     ],
+     "solution": "(i) The maximum rate at which the body can take in and use oxygen during intense exercise [B1]\n(ii) Quick / cheap / no specialist equipment / no need for exhausting exercise [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q34(a)",
+     "subtopic": "VO2 max"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-34a-b",
+     "marks": 2,
+     "prompt": "A student has a maximum heart rate of 200 bpm and a resting heart rate of 60 bpm. Calculate estimated VO₂ max using VO₂ max = 15 × (HRmax ÷ HRrest). (2)",
+     "hints": [
+      "200 ÷ 60.",
+      "× 15."
+     ],
+     "solution": "15 × (200 ÷ 60) [M1]\n= 50 cm³ kg⁻¹ min⁻¹ [A1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q34(a)",
+     "subtopic": "VO2 max"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-34a-c",
+     "marks": 2,
+     "prompt": "Give two factors that affect a person's VO₂ max. (2)",
+     "hints": [
+      "Fitness and genetics.",
+      "Age, sex."
+     ],
+     "solution": "Fitness / training level / genetics [B1]\nAge / sex / altitude / body mass [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q34(a)",
+     "subtopic": "VO2 max"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-34c-a",
+     "marks": 3,
+     "prompt": "(i) Explain why VO₂ max decreases immediately at high altitude, even though air still contains 21 % oxygen. (2)\n(ii) Suggest why air temperature at altitude could affect VO₂ max. (1)",
+     "hints": [
+      "Partial pressure.",
+      "Cold air."
+     ],
+     "solution": "(i) Lower atmospheric pressure means lower partial pressure of oxygen [B1]\nSmaller diffusion gradient into the blood / haemoglobin less saturated [B1]\n(ii) Cold air may cause bronchoconstriction / more energy used for heat / affects enzymes [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q34(c)",
+     "subtopic": "Altitude"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-34c-b",
+     "marks": 3,
+     "prompt": "Describe how the body acclimatises to high altitude over several weeks. (3)",
+     "hints": [
+      "Red blood cells.",
+      "Breathing."
+     ],
+     "solution": "More EPO, so more red blood cells / haemoglobin [B1]\nIncreased ventilation rate [B1]\nMore capillaries / myoglobin / mitochondria [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q34(c)",
+     "subtopic": "Altitude acclimatisation"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-34c-c",
+     "marks": 3,
+     "prompt": "Explain why people living at high altitude may have haemoglobin with a higher affinity for oxygen. (3)",
+     "hints": [
+      "Low pO₂.",
+      "Loading in lungs."
+     ],
+     "solution": "Partial pressure of oxygen in the alveoli is low [B1]\nHigher affinity allows haemoglobin to become saturated in the lungs [B1]\nCurve shifted to the left [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q34(c)",
+     "subtopic": "Oxygen dissociation"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-34e-a",
+     "marks": 4,
+     "prompt": "(i) Give two features of a relaxed sarcomere seen in an electron micrograph. (2)\n(ii) Put these events in order: A: myosin heads bind to actin; B: Ca²⁺ released from sarcoplasmic reticulum; C: action potential reaches the muscle; D: tropomyosin moves; E: power stroke. (2)",
+     "hints": [
+      "Wide I band.",
+      "Calcium first."
+     ],
+     "solution": "(i) Long sarcomere / wide I band / visible H zone [B1]\nLittle overlap of actin and myosin [B1]\n(ii) C, B, D, A, E [B2]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q34(e)-(f)",
+     "subtopic": "Sliding filaments"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-34e-b",
+     "marks": 4,
+     "prompt": "Describe the structure of a sarcomere. (4)",
+     "hints": [
+      "Z lines, bands.",
+      "Thick and thin filaments."
+     ],
+     "solution": "Section of myofibril between two Z lines [B1]\nThin actin filaments attached to Z lines [B1]\nThick myosin filaments in the middle (A band) [B1]\nI band (actin only), H zone (myosin only), M line in the centre [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q34(e)-(f)",
+     "subtopic": "Muscle structure"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-34e-c",
+     "marks": 4,
+     "prompt": "Explain the roles of calcium ions and ATP in muscle contraction. (4)",
+     "hints": [
+      "Troponin.",
+      "Detachment and re-cocking."
+     ],
+     "solution": "Ca²⁺ binds to troponin, moving tropomyosin away from binding sites on actin [B1]\nMyosin heads can bind, forming cross-bridges [B1]\nATP binding causes myosin heads to detach [B1]\nATP hydrolysis re-cocks the heads; ATP also pumps Ca²⁺ back into the SR [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q34(e)-(f)",
+     "subtopic": "Muscle contraction"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-34a-a",
+     "marks": 4,
+     "prompt": "(i) Name the vessels that supply heart muscle with oxygen. (1)\n(ii) Name the structures in the aortic arch and carotid arteries that detect pH. (1)\n(iii) Name the vessel that carries blood from the right ventricle. (1)\n(iv) Name the brain region containing the cardiovascular centre. (1)",
+     "hints": [
+      "Coronary.",
+      "Chemoreceptors."
+     ],
+     "solution": "(i) Coronary arteries [B1]\n(ii) Chemoreceptors (aortic and carotid bodies) [B1]\n(iii) Pulmonary artery [B1]\n(iv) Medulla oblongata [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q34(a)",
+     "subtopic": "Heart structure"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-34a-b",
+     "marks": 4,
+     "prompt": "Describe the route of blood through the heart from the vena cava to the aorta. (4)",
+     "hints": [
+      "Right side first.",
+      "Lungs."
+     ],
+     "solution": "Vena cava → right atrium → tricuspid valve → right ventricle [B1]\nPulmonary valve → pulmonary artery → lungs [B1]\nPulmonary vein → left atrium → bicuspid valve → left ventricle [B1]\nAortic valve → aorta [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q34(a)",
+     "subtopic": "Heart structure"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-34a-c",
+     "marks": 4,
+     "prompt": "Explain why the heart is described as a double pump. (4)",
+     "hints": [
+      "Two circulations.",
+      "Pressure."
+     ],
+     "solution": "Right side pumps blood to the lungs (pulmonary circulation) [B1]\nLeft side pumps blood to the body (systemic circulation) [B1]\nBlood passes through the heart twice per circuit [B1]\nAllows high pressure to the body after low pressure in the lungs [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q34(a)",
+     "subtopic": "Heart structure"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-06a-a",
+     "marks": 5,
+     "prompt": "A potometer showed a bubble moving 24 mm in 5 minutes. The capillary radius is 0.5 mm.\n\n(i) Calculate the rate of water uptake in mm³ min⁻¹. (3)\n(ii) Explain why water uptake is not exactly equal to transpiration. (2)",
+     "hints": [
+      "πr²l.",
+      "Water used in cells."
+     ],
+     "solution": "(i) Volume = π × 0.5² × 24 [M1]\n= 18.85 mm³ [M1]\n÷ 5 = 3.8 mm³ min⁻¹ [A1]\n(ii) Some water is used in photosynthesis [B1]\nSome kept for turgor / cell growth [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q6(a)",
+     "subtopic": "Transpiration"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-06a-b",
+     "marks": 5,
+     "prompt": "Explain how wind speed and humidity affect transpiration rate. (5)",
+     "hints": [
+      "Water potential gradient.",
+      "Diffusion shell."
+     ],
+     "solution": "Water vapour diffuses out through stomata [B1]\nWind removes humid air near the leaf [B1]\nSteeper water potential gradient, so faster transpiration [B1]\nHigh humidity reduces the gradient [B1]\nSo transpiration slows [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q6(a)",
+     "subtopic": "Transpiration"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-06a-c",
+     "marks": 5,
+     "prompt": "Describe how to set up a potometer to give valid results. (5)",
+     "hints": [
+      "Underwater.",
+      "Airtight."
+     ],
+     "solution": "Cut the shoot underwater [B1]\nTo prevent air entering xylem [B1]\nAssemble apparatus underwater [B1]\nSeal joints with petroleum jelly — airtight [B1]\nDry leaves; let shoot acclimatise before measuring [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q6(a)",
+     "subtopic": "Potometer method"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-06b-a",
+     "marks": 4,
+     "prompt": "Explain how water moves up the xylem. (4)",
+     "hints": [
+      "Cohesion-tension.",
+      "Hydrogen bonds."
+     ],
+     "solution": "Water evaporates from leaves, lowering water potential [B1]\nCreates tension pulling water up [B1]\nWater molecules cohere by hydrogen bonds — continuous column [B1]\nAdhesion to xylem walls; lignin prevents collapse [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q6(b)",
+     "subtopic": "Xylem transport"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-06b-b",
+     "marks": 4,
+     "prompt": "Describe four adaptations of xerophytes to reduce water loss. (4)",
+     "hints": [
+      "Stomata.",
+      "Cuticle."
+     ],
+     "solution": "Thick waxy cuticle [B1]\nSunken stomata / hairs trap humid air [B1]\nRolled leaves [B1]\nReduced leaf area / spines [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q6(b)",
+     "subtopic": "Xerophytes"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-06b-c",
+     "marks": 4,
+     "prompt": "Compare the structure of xylem vessels and phloem sieve tubes. (4)",
+     "hints": [
+      "Dead vs living.",
+      "Companion cells."
+     ],
+     "solution": "Xylem: dead cells, no end walls [B1]\nLignified walls [B1]\nPhloem: living sieve tube elements with sieve plates [B1]\nCompanion cells supply ATP; no lignin [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q6(b)",
+     "subtopic": "Xylem and phloem"
+    }
+   ]
+  },
+  {
+   "topic": "Cell division and development",
+   "category": "Module 3",
+   "questions": [
+    {
+     "id": "bio-ocrb-2019-p1-08-a",
+     "marks": 1,
+     "prompt": "Name the part of a cereal grain that stores starch. (1)",
+     "hints": [
+      "Not the embryo.",
+      "Endo..."
+     ],
+     "solution": "Endosperm [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q8",
+     "subtopic": "Seeds"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-08-b",
+     "marks": 1,
+     "prompt": "Name the layer of a barley grain that produces amylase when stimulated by gibberellin. (1)",
+     "hints": [
+      "Outer layer of endosperm.",
+      "A..."
+     ],
+     "solution": "Aleurone layer [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q8",
+     "subtopic": "Germination"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-08-c",
+     "marks": 1,
+     "prompt": "Give two conditions needed for seed germination. (1)",
+     "hints": [
+      "Water and...",
+      "Enzymes."
+     ],
+     "solution": "Water, oxygen and a suitable temperature (any two) [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q8",
+     "subtopic": "Germination"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-13-a",
+     "marks": 1,
+     "prompt": "Of 115 cells observed, 20 were in prophase, metaphase, anaphase or telophase. Calculate the percentage in nuclear division. (1)",
+     "hints": [
+      "20 ÷ 115.",
+      "× 100."
+     ],
+     "solution": "17 % [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q13-14",
+     "subtopic": "Cell cycle"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-13-b",
+     "marks": 1,
+     "prompt": "Name a tumour suppressor protein whose inactivation can lead to cancer. (1)",
+     "hints": [
+      "\"Guardian of the genome\".",
+      "p..."
+     ],
+     "solution": "p53 [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q13-14",
+     "subtopic": "Cancer"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-13-c",
+     "marks": 1,
+     "prompt": "Give one feature of cells undergoing apoptosis. (1)",
+     "hints": [
+      "Shrinking.",
+      "Blebs."
+     ],
+     "solution": "Cell shrinks / membrane blebbing / DNA fragmented / phosphatidylserine on outer membrane [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q13-14",
+     "subtopic": "Apoptosis"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-06a-a",
+     "marks": 4,
+     "prompt": "(i) Explain why meiosis is called a reduction division. (1)\n(ii) Name an event in meiosis that can cause a chromosome mutation. (1)\n(iii) Name a syndrome caused by a chromosome mutation. (1)\n(iv) Suggest why cancers developing late in life are unlikely to be caused by errors in meiosis. (1)",
+     "hints": [
+      "Halving.",
+      "Non-disjunction."
+     ],
+     "solution": "(i) Chromosome number is halved, from diploid to haploid [B1]\n(ii) Non-disjunction (or unequal crossing over / translocation) [B1]\n(iii) Down's syndrome / Turner's / Klinefelter's [B1]\n(iv) Meiotic errors would be in every cell from birth; late cancers arise from mutations in body cells during mitosis [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q6(a)",
+     "subtopic": "Meiosis and chromosome mutations"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-06a-b",
+     "marks": 4,
+     "prompt": "Explain how non-disjunction causes Down's syndrome. (4)",
+     "hints": [
+      "Chromosome 21.",
+      "Fails to separate."
+     ],
+     "solution": "In meiosis, homologous chromosomes or chromatids of chromosome 21 fail to separate [B1]\nOne gamete gets two copies of chromosome 21 [B1]\nFertilisation with a normal gamete gives three copies (trisomy 21) [B1]\nRisk increases with maternal age [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q6(a)",
+     "subtopic": "Non-disjunction"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-06a-c",
+     "marks": 4,
+     "prompt": "Describe the main events of meiosis I. (4)",
+     "hints": [
+      "Pairing, crossing over.",
+      "Separation of homologues."
+     ],
+     "solution": "Prophase I: homologous chromosomes pair up (bivalents) [B1]\nCrossing over at chiasmata [B1]\nMetaphase I: pairs line up randomly on the equator (independent assortment) [B1]\nAnaphase I: homologous chromosomes separate to opposite poles, halving the chromosome number [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q6(a)",
+     "subtopic": "Meiosis"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-32d-a",
+     "marks": 3,
+     "prompt": "Compare chemotherapy, immunotherapy and radiotherapy as cancer treatments. (3)",
+     "hints": [
+      "Drugs, immune system, radiation.",
+      "Effects on healthy cells."
+     ],
+     "solution": "Chemotherapy: drugs kill dividing cells — affects healthy dividing cells too (hair loss, nausea) [B1]\nImmunotherapy: e.g. monoclonal antibodies target cancer cells specifically / stimulate the immune system [B1]\nRadiotherapy: ionising radiation damages DNA in tumour cells; some damage to nearby healthy tissue [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q32(d)",
+     "subtopic": "Cancer treatments"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-32d-b",
+     "marks": 3,
+     "prompt": "Explain how monoclonal antibodies can be used to target cancer cells. (3)",
+     "hints": [
+      "Specific antigens.",
+      "Drug attached."
+     ],
+     "solution": "Monoclonal antibodies are complementary to antigens found only on cancer cells [B1]\nA drug / radioactive substance can be attached [B1]\nSo it is delivered directly to cancer cells, reducing harm to healthy cells [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q32(d)",
+     "subtopic": "Cancer treatments"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-32d-c",
+     "marks": 3,
+     "prompt": "Explain why chemotherapy causes hair loss and lowers resistance to infection. (3)",
+     "hints": [
+      "Rapidly dividing cells.",
+      "Bone marrow."
+     ],
+     "solution": "Chemotherapy drugs target rapidly dividing cells [B1]\nHair follicle cells divide rapidly, so are also damaged [B1]\nBone marrow cells are damaged, so fewer white blood cells [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q32(d)",
+     "subtopic": "Chemotherapy"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-33a-a",
+     "marks": 6,
+     "prompt": "50 seeds were germinated under each of five light colours over 120 hours. In blue light, 24 % had germinated at 48 h and 70 % at 96 h. Germination was fastest in red light and slowest in far-red light.\n\n(i) State two conclusions. (2)\n(ii) Describe how to reduce random error. (2)\n(iii) Calculate the percentage-point increase in blue light between 48 and 96 hours. (2)",
+     "hints": [
+      "Light colour affects germination.",
+      "Repeats."
+     ],
+     "solution": "(i) Germination is fastest / highest in red light [B1]\nFar-red light inhibits germination / germination increases with time in all colours [B1]\n(ii) Use more seeds / repeat with several dishes per colour [B1]\nCalculate a mean / control temperature and water [B1]\n(iii) 70 − 24 [M1]\n= 46 percentage points [A1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q33(a)(i)-(iii)",
+     "subtopic": "Germination investigation"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-33a-b",
+     "marks": 6,
+     "prompt": "Explain why red light promotes germination and far-red light inhibits it in light-sensitive seeds. (6)",
+     "hints": [
+      "Pr and Pfr.",
+      "Gibberellin."
+     ],
+     "solution": "Phytochrome exists as Pr and Pfr [B1]\nRed light converts Pr to Pfr [B1]\nPfr is the active form, triggering germination [B1]\nPfr switches on genes for gibberellin synthesis [B1]\nFar-red light converts Pfr back to Pr, inhibiting germination [B1]\nPrevents germination under a leaf canopy, where light is rich in far-red [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q33(a)(i)-(iii)",
+     "subtopic": "Phytochrome and germination"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-33a-c",
+     "marks": 6,
+     "prompt": "Describe what happens in a barley seed during germination. (6)",
+     "hints": [
+      "Water uptake.",
+      "Gibberellin, amylase."
+     ],
+     "solution": "Seed absorbs water (imbibition) [B1]\nEmbryo produces gibberellin [B1]\nGibberellin moves to the aleurone layer [B1]\nSwitches on genes for amylase [B1]\nAmylase hydrolyses starch in the endosperm to maltose / glucose [B1]\nGlucose used for respiration and growth of the embryo [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q33(a)(i)-(iii)",
+     "subtopic": "Germination"
+    }
+   ]
+  },
+  {
+   "topic": "Disease control and immunity",
+   "category": "Module 3",
+   "questions": [
+    {
+     "id": "bio-ocrb-2019-p1-16-a",
+     "marks": 1,
+     "prompt": "Describe the process of sensitisation to an allergen. (1)",
+     "hints": [
+      "IgE.",
+      "Mast cells."
+     ],
+     "solution": "B cells produce IgE antibodies that bind to receptors on mast cells [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q16",
+     "subtopic": "Allergy"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-16-b",
+     "marks": 1,
+     "prompt": "Explain what happens when a sensitised person meets the allergen again. (1)",
+     "hints": [
+      "Cross-linking of IgE.",
+      "Histamine."
+     ],
+     "solution": "Allergen binds IgE on mast cells, causing release of histamine, which causes inflammation [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q16",
+     "subtopic": "Allergy"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-16-c",
+     "marks": 1,
+     "prompt": "Explain how antihistamines relieve allergy symptoms. (1)",
+     "hints": [
+      "Receptors.",
+      "Block."
+     ],
+     "solution": "They block histamine receptors, so histamine can't cause its effects [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q16",
+     "subtopic": "Allergy"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-31a-a",
+     "marks": 6,
+     "prompt": "In a country of 260 million people, about 50 000 people died of AIDS in 1993. Deaths fell sharply after combination antiretroviral therapy (HAART) was introduced in 1996, to about 17 000 per year by 1998.\n\n(i) Calculate the mortality rate per 100 000 in 1993. (2)\n(ii) Discuss the effectiveness of HAART. (4)",
+     "hints": [
+      "50 000 ÷ 2600.",
+      "Correlation and other factors."
+     ],
+     "solution": "(i) 50 000 ÷ 260 000 000 × 100 000 [M1]\n= 19 per 100 000 [A1]\n(ii) Deaths fell by about two-thirds after HAART was introduced — suggests it is effective [B1]\nHAART reduces viral replication, so T helper cells are preserved [B1]\nBut deaths may also have fallen due to education / safer sex / earlier diagnosis [B1]\nHAART does not cure HIV — deaths levelled off rather than reaching zero; drug resistance / side effects [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q31(a)",
+     "subtopic": "HIV/AIDS data"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-31a-b",
+     "marks": 6,
+     "prompt": "Explain how HIV leads to AIDS and how antiretroviral drugs slow this. (6)",
+     "hints": [
+      "T helper cells.",
+      "Drug targets."
+     ],
+     "solution": "HIV infects T helper (CD4) cells [B1]\nReverse transcriptase makes DNA from viral RNA, which integrates into host DNA [B1]\nNew viruses made and T helper cells destroyed [B1]\nFalling T helper count weakens the immune system — opportunistic infections (AIDS) [B1]\nAntiretrovirals inhibit reverse transcriptase / protease / integrase [B1]\nCombination therapy reduces viral load and the chance of resistance [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q31(a)",
+     "subtopic": "HIV"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-31a-c",
+     "marks": 6,
+     "prompt": "Explain the difference between incidence and prevalence of a disease, and why prevalence of HIV can rise even when incidence falls. (6)",
+     "hints": [
+      "New vs total cases.",
+      "People living longer."
+     ],
+     "solution": "Incidence is the number of new cases in a period [B1]\nPrevalence is the total number of people with the disease at a time [B1]\nExpressed per 100 000 population [B1]\nWith effective treatment, people with HIV live much longer [B1]\nSo fewer people leave the infected population through death [B1]\nPrevalence rises even if fewer new infections occur [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q31(a)",
+     "subtopic": "Epidemiology"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-31b-a",
+     "marks": 2,
+     "prompt": "Give two ethical or social concerns for a person receiving a positive HIV test result. (2)",
+     "hints": [
+      "Stigma.",
+      "Insurance, relationships."
+     ],
+     "solution": "Social stigma / discrimination at work [B1]\nDifficulty getting insurance / mortgages; psychological stress; duty to inform partners [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q31(b)",
+     "subtopic": "Ethics of testing"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-31b-b",
+     "marks": 2,
+     "prompt": "Give two arguments for and against screening the population for a genetic disease with no cure. (2)",
+     "hints": [
+      "Planning vs anxiety.",
+      "Discrimination."
+     ],
+     "solution": "For: allows people to plan / make reproductive decisions [B1]\nAgainst: anxiety with no treatment available / risk of discrimination [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q31(b)",
+     "subtopic": "Ethics of screening"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-31b-c",
+     "marks": 2,
+     "prompt": "Explain why patient confidentiality is important in testing for infectious diseases. (2)",
+     "hints": [
+      "Trust.",
+      "Encourages testing."
+     ],
+     "solution": "People are more likely to be tested and treated if results stay private [B1]\nProtects people from discrimination / stigma [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q31(b)",
+     "subtopic": "Confidentiality"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-31c-a",
+     "marks": 3,
+     "prompt": "Explain why it has been difficult to develop an effective vaccine against HIV. (3)",
+     "hints": [
+      "Mutation rate.",
+      "Hides in cells."
+     ],
+     "solution": "HIV mutates rapidly, changing its surface antigens (antigenic variability) [B1]\nIt infects and destroys T helper cells, which are needed for the immune response [B1]\nIt becomes latent / integrates into host DNA, hiding from the immune system [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q31(c)",
+     "subtopic": "Vaccines"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-31c-b",
+     "marks": 3,
+     "prompt": "Explain how vaccination provides long-term immunity. (3)",
+     "hints": [
+      "Antigens.",
+      "Memory cells."
+     ],
+     "solution": "Vaccine contains antigens from a dead / weakened pathogen or purified antigen [B1]\nStimulates a primary immune response; B and T cells activated [B1]\nMemory cells formed, giving a rapid secondary response on infection [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q31(c)",
+     "subtopic": "Vaccines"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-31c-c",
+     "marks": 3,
+     "prompt": "Compare prophylactic and therapeutic vaccines. (3)",
+     "hints": [
+      "Prevention vs treatment.",
+      "Who receives it."
+     ],
+     "solution": "Prophylactic vaccines are given before infection to prevent disease [B1]\nTherapeutic vaccines are given to people already infected to boost the immune response [B1]\ne.g. HPV vaccine (prophylactic); experimental HIV / cancer vaccines (therapeutic) [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q31(c)",
+     "subtopic": "Vaccines"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-31d-a",
+     "marks": 3,
+     "prompt": "(i) Give one advantage of a vaccine made from a purified protein rather than a live attenuated virus. (1)\n(ii) In a trial, CD4 counts were compared over 48 weeks in two dose groups of a protein vaccine. Give two reasons why the vaccine's effectiveness can't be judged from these data. (2)",
+     "hints": [
+      "Safety.",
+      "No control."
+     ],
+     "solution": "(i) Cannot cause the disease / cannot revert to a virulent form [B1]\n(ii) No placebo / control group [B1]\nSmall sample / large variation / only one outcome measured / short time [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q31(d)",
+     "subtopic": "Vaccine trials"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-31d-b",
+     "marks": 3,
+     "prompt": "Describe three types of vaccine. (3)",
+     "hints": [
+      "Live, killed, subunit.",
+      "mRNA."
+     ],
+     "solution": "Live attenuated — weakened pathogen (e.g. MMR) [B1]\nInactivated / killed pathogen (e.g. flu injection) [B1]\nSubunit / toxoid / mRNA vaccines containing only antigen or instructions for it [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q31(d)",
+     "subtopic": "Vaccine types"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-31d-c",
+     "marks": 3,
+     "prompt": "Explain why a high percentage of a population must be vaccinated to control measles. (3)",
+     "hints": [
+      "Highly infectious.",
+      "Herd immunity threshold."
+     ],
+     "solution": "Measles is highly infectious — each case infects many others [B1]\nAbout 95 % must be immune to break chains of transmission [B1]\nProtecting those who can't be vaccinated (herd immunity) [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q31(d)",
+     "subtopic": "Herd immunity"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-31e-a",
+     "marks": 6,
+     "prompt": "(i) Give two consequences of a disease such as TB being notifiable. (2)\n(ii) Name the type of antibiotic that kills bacteria by stopping cell wall synthesis. (1)\n(iii) Outline how a population of Mycobacterium tuberculosis can become antibiotic resistant. (3)",
+     "hints": [
+      "Tracing contacts.",
+      "Bactericidal."
+     ],
+     "solution": "(i) Cases are reported to public health authorities [B1]\nContacts traced and tested / outbreaks monitored / data on incidence collected [B1]\n(ii) Bactericidal [B1]\n(iii) Random mutation produces an allele for resistance [B1]\nAntibiotic kills susceptible bacteria; resistant ones survive (especially if treatment is not completed) [B1]\nResistant bacteria reproduce, so the resistant allele becomes more common [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q31(e)",
+     "subtopic": "Tuberculosis and antibiotics"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-31e-b",
+     "marks": 6,
+     "prompt": "Explain how different antibiotics work, and why antibiotics don't affect human cells. (6)",
+     "hints": [
+      "Targets unique to bacteria.",
+      "Cell wall, ribosomes."
+     ],
+     "solution": "Penicillin inhibits enzymes that make peptidoglycan cross-links [B1]\nBacterial cell wall weakens and the cell bursts by osmosis (bactericidal) [B1]\nOthers (e.g. tetracycline) bind bacterial 70S ribosomes, stopping protein synthesis [B1]\nBacteriostatic — stop growth / reproduction [B1]\nHuman cells have no cell wall [B1]\nHuman cytoplasmic ribosomes are 80S, so are not affected [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q31(e)",
+     "subtopic": "Antibiotics"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-31e-c",
+     "marks": 6,
+     "prompt": "Explain why tuberculosis is treated with a combination of antibiotics over several months, and what DOTS involves. (6)",
+     "hints": [
+      "Resistance.",
+      "Observed treatment."
+     ],
+     "solution": "TB bacteria grow slowly and can hide inside macrophages [B1]\nLong treatment needed to kill all bacteria [B1]\nSeveral antibiotics reduce the chance that a bacterium is resistant to all of them [B1]\nPatients may stop early when they feel better, encouraging resistance [B1]\nDOTS — directly observed treatment, short course [B1]\nHealth workers watch patients take their medication to ensure the course is completed [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q31(e)",
+     "subtopic": "TB treatment"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-02c-a",
+     "marks": 6,
+     "prompt": "Explain how antimicrobial peptides (defensins) contribute to non-specific defence. (6)",
+     "hints": [
+      "Destroy pathogens directly.",
+      "Recruit other defences."
+     ],
+     "solution": "Defensins are produced by epithelial cells / neutrophils [B1]\nThey insert into and damage pathogen membranes, killing them [B1]\nThey aggregate pathogens, making them easier to engulf [B1]\nThey stimulate mast cells to release histamine, causing inflammation [B1]\nThey attract (chemotaxis) and activate phagocytes [B1]\nAct against many pathogens — not specific, rapid [B1]\nLevel-marked (5–6 marks).",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q2(c)",
+     "subtopic": "Antimicrobial peptides"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-02c-b",
+     "marks": 6,
+     "prompt": "Describe the inflammatory response and explain how it helps fight infection. (6)",
+     "hints": [
+      "Histamine.",
+      "Vasodilation, permeability."
+     ],
+     "solution": "Damaged cells and mast cells release histamine [B1]\nArterioles dilate — more blood to the area (redness, heat) [B1]\nCapillaries become more permeable — plasma and proteins leave (swelling) [B1]\nWhite blood cells move into the tissue [B1]\nPhagocytes engulf pathogens [B1]\nHigher temperature reduces pathogen reproduction [B1]\nLevel-marked (5–6 marks).",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q2(c)",
+     "subtopic": "Inflammation"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-02c-c",
+     "marks": 6,
+     "prompt": "Compare non-specific and specific immune responses. (6)",
+     "hints": [
+      "Speed, memory.",
+      "Cells involved."
+     ],
+     "solution": "Non-specific responds in the same way to all pathogens [B1]\nFast-acting — e.g. barriers, inflammation, phagocytosis [B1]\nSpecific response targets particular antigens [B1]\nInvolves lymphocytes (B and T cells) [B1]\nSlower the first time [B1]\nProduces memory cells, giving long-term immunity [B1]\nLevel-marked (5–6 marks).",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q2(c)",
+     "subtopic": "Non-specific defences"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-31c-a",
+     "marks": 4,
+     "prompt": "Daptomycin is an antibiotic with a hydrophilic core and a lipid tail that inserts into the cell membrane of Gram-positive bacteria.\n\n(i) Suggest the type of molecule in the hydrophilic core. (1)\n(ii) Explain how daptomycin could cause cytosol to leak from bacteria. (2)\n(iii) Suggest why it may not work against Gram-negative bacteria. (1)",
+     "hints": [
+      "Peptide.",
+      "Outer membrane."
+     ],
+     "solution": "(i) Peptide / amino acids [B1]\n(ii) Lipid tail inserts into the phospholipid bilayer [B1]\nForms pores / disrupts the membrane, so ions and cytosol leak out [B1]\n(iii) Outer membrane of Gram-negative bacteria prevents it reaching the cell membrane [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q31(c)",
+     "subtopic": "Antibiotics"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-31c-b",
+     "marks": 4,
+     "prompt": "Compare bactericidal and bacteriostatic antibiotics, with an example of each. (4)",
+     "hints": [
+      "Kill vs stop.",
+      "Penicillin, tetracycline."
+     ],
+     "solution": "Bactericidal antibiotics kill bacteria [B1]\ne.g. penicillin — weakens cell walls so bacteria lyse [B1]\nBacteriostatic antibiotics stop bacteria reproducing; immune system then removes them [B1]\ne.g. tetracycline — inhibits protein synthesis at ribosomes [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q31(c)",
+     "subtopic": "Antibiotics"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-31c-c",
+     "marks": 4,
+     "prompt": "Explain why new antibiotics are needed and why few have been developed recently. (4)",
+     "hints": [
+      "Resistance.",
+      "Cost and profit."
+     ],
+     "solution": "Bacteria have evolved resistance to many existing antibiotics [B1]\nMultidrug-resistant infections are increasingly hard to treat [B1]\nDeveloping antibiotics is expensive and takes many years [B1]\nLow profits — short courses / new antibiotics held in reserve [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q31(c)",
+     "subtopic": "New antibiotics"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-31d-a",
+     "marks": 2,
+     "prompt": "Bacteria are killed most effectively when the peak blood concentration (Cmax) of an antibiotic is at least 10 times the minimum inhibitory concentration (MIC). A patient's Cmax is 24 µg cm⁻³ and the MIC is 4 µg cm⁻³.\n\nComment on whether the dose is sufficient. (2)",
+     "hints": [
+      "24 ÷ 4.",
+      "Compare with 10."
+     ],
+     "solution": "Cmax is only 6 times the MIC [B1]\nBelow the optimal ratio of 10, so the dose may not be sufficient / risk of resistance [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q31(d)",
+     "subtopic": "Drug dosing"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-31d-b",
+     "marks": 2,
+     "prompt": "Explain what is meant by the minimum inhibitory concentration (MIC) of an antibiotic. (2)",
+     "hints": [
+      "Lowest concentration.",
+      "No visible growth."
+     ],
+     "solution": "The lowest concentration of the antibiotic [B1]\nThat prevents visible growth of the bacteria [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q31(d)",
+     "subtopic": "Drug dosing"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-31d-c",
+     "marks": 2,
+     "prompt": "Explain why low doses of antibiotics increase the risk of resistance developing. (2)",
+     "hints": [
+      "Partly resistant survive.",
+      "Selection."
+     ],
+     "solution": "Low doses kill the most susceptible bacteria but not partly resistant ones [B1]\nPartly resistant bacteria survive and reproduce, selecting for resistance [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q31(d)",
+     "subtopic": "Drug dosing"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-05a-a",
+     "marks": 5,
+     "prompt": "Explain how vaccination provides long-term protection against a virus. (5)",
+     "hints": [
+      "Memory cells.",
+      "Secondary response."
+     ],
+     "solution": "Vaccine contains antigens from the virus [B1]\nSpecific B cells / T cells are activated and clone [B1]\nPlasma cells make antibodies [B1]\nMemory cells remain [B1]\nOn infection, rapid secondary response destroys virus before symptoms [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q5(a)",
+     "subtopic": "Vaccination"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-05a-b",
+     "marks": 5,
+     "prompt": "Explain herd immunity and why a high vaccination rate is needed. (5)",
+     "hints": [
+      "Transmission.",
+      "Vulnerable people."
+     ],
+     "solution": "Enough people immune that the pathogen can't spread easily [B1]\nInfected people are unlikely to meet susceptible people [B1]\nProtects those who can't be vaccinated (infants, immunocompromised) [B1]\nRequired percentage depends on how infectious the disease is [B1]\ne.g. about 95 % for measles [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q5(a)",
+     "subtopic": "Herd immunity"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-05a-c",
+     "marks": 5,
+     "prompt": "Explain why a new influenza vaccine is needed each year. (5)",
+     "hints": [
+      "Mutation.",
+      "Antigen shape."
+     ],
+     "solution": "Influenza virus mutates frequently [B1]\nChanging the shape of its surface antigens (antigenic drift) [B1]\nMemory cells / antibodies are no longer complementary [B1]\nSo no secondary response [B1]\nVaccine updated to match predicted strains [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q5(a)",
+     "subtopic": "Antigenic variation"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-05b-a",
+     "marks": 4,
+     "prompt": "Describe the structure of an antibody and relate it to its function. (4)",
+     "hints": [
+      "Variable region.",
+      "Hinge."
+     ],
+     "solution": "Four polypeptide chains — two heavy, two light, held by disulfide bonds [B1]\nVariable regions form antigen-binding sites complementary to one antigen [B1]\nConstant region binds phagocyte receptors [B1]\nHinge region gives flexibility to bind two antigens — agglutination [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q5(b)",
+     "subtopic": "Antibodies"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-05b-b",
+     "marks": 4,
+     "prompt": "Compare active and passive immunity, with an example of each. (4)",
+     "hints": [
+      "Own antibodies.",
+      "Duration."
+     ],
+     "solution": "Active: own immune system makes antibodies; memory cells formed [B1]\ne.g. vaccination / infection [B1]\nPassive: antibodies given; no memory cells, short-lived but immediate [B1]\ne.g. antibodies across placenta / in breast milk / antivenom [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q5(b)",
+     "subtopic": "Active and passive immunity"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-05b-c",
+     "marks": 4,
+     "prompt": "Describe the roles of helper T cells and cytotoxic T cells. (4)",
+     "hints": [
+      "Cytokines.",
+      "Infected cells."
+     ],
+     "solution": "Helper T cells bind antigen presented by APCs [B1]\nRelease cytokines activating B cells and cytotoxic T cells [B1]\nCytotoxic T cells bind infected cells presenting antigen [B1]\nRelease perforin, killing the infected cell [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q5(b)",
+     "subtopic": "T cells"
+    }
+   ]
+  },
+  {
+   "topic": "Energy and respiration",
+   "category": "Module 4",
+   "questions": [
+    {
+     "id": "bio-ocrb-2019-p1-03-a",
+     "marks": 1,
+     "prompt": "State the net gain of ATP from glycolysis of one glucose molecule. (1)",
+     "hints": [
+      "4 made, 2 used.",
+      "Net."
+     ],
+     "solution": "2 [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q3-4",
+     "subtopic": "Glycolysis"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-03-b",
+     "marks": 1,
+     "prompt": "How many triose phosphate molecules are needed to make two glucose molecules? (1)",
+     "hints": [
+      "Triose = 3 C.",
+      "12 carbons."
+     ],
+     "solution": "4 [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q3-4",
+     "subtopic": "Calvin cycle"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-03-c",
+     "marks": 1,
+     "prompt": "Name the product of glycolysis that enters the link reaction. (1)",
+     "hints": [
+      "3-carbon.",
+      "P..."
+     ],
+     "solution": "Pyruvate [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q3-4",
+     "subtopic": "Glycolysis"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-06-a",
+     "marks": 1,
+     "prompt": "Where is ATP synthase found in a chloroplast? (1)",
+     "hints": [
+      "Membranes.",
+      "Facing the stroma."
+     ],
+     "solution": "Thylakoid membranes [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q6-7",
+     "subtopic": "Chloroplasts"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-06-b",
+     "marks": 1,
+     "prompt": "A pigment moved 7.0 cm and the solvent front moved 7.5 cm. Calculate the Rf value. (1)",
+     "hints": [
+      "Pigment ÷ solvent.",
+      "Less than 1."
+     ],
+     "solution": "0.93 [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q6-7",
+     "subtopic": "Chromatography"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-06-c",
+     "marks": 1,
+     "prompt": "Explain what a high Rf value tells you about a pigment. (1)",
+     "hints": [
+      "Solubility.",
+      "Moves far."
+     ],
+     "solution": "It is very soluble in the solvent / less attracted to the paper, so travels further [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q6-7",
+     "subtopic": "Chromatography"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-34d-a",
+     "marks": 2,
+     "prompt": "Give two reasons, other than regenerating ATP and glycogen, why extra oxygen is needed after exercise. (2)",
+     "hints": [
+      "Lactate.",
+      "Myoglobin."
+     ],
+     "solution": "To oxidise lactate back to pyruvate / glucose in the liver [B1]\nTo re-oxygenate myoglobin and haemoglobin / support raised metabolic rate and body temperature [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q34(d)",
+     "subtopic": "Excess post-exercise oxygen consumption"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-34d-b",
+     "marks": 2,
+     "prompt": "Explain why lactate is produced during intense exercise. (2)",
+     "hints": [
+      "Not enough oxygen.",
+      "NAD regeneration."
+     ],
+     "solution": "Oxygen demand exceeds supply, so oxidative phosphorylation can't keep up [B1]\nPyruvate is reduced to lactate, regenerating NAD so glycolysis can continue [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q34(d)",
+     "subtopic": "Anaerobic respiration"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-34d-c",
+     "marks": 2,
+     "prompt": "Explain why breathing rate stays high after exercise has stopped. (2)",
+     "hints": [
+      "Oxygen debt.",
+      "CO₂."
+     ],
+     "solution": "To repay the oxygen debt — extra oxygen used to break down lactate [B1]\nCO₂ levels are still high, stimulating chemoreceptors [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q34(d)",
+     "subtopic": "Oxygen debt"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-04a-a",
+     "marks": 3,
+     "prompt": "In Calvin's experiment with algae and radioactive CO₂, give a reason for each step: (i) illuminating the algae for 30 minutes first; (ii) placing heat-absorbing glass between lamps and flask; (iii) running samples into hot alcohol. (3)",
+     "hints": [
+      "Steady rate.",
+      "Temperature control; stopping reactions."
+     ],
+     "solution": "(i) So photosynthesis reaches a steady rate before CO₂ is added [B1]\n(ii) Prevents heating, so temperature stays constant [B1]\n(iii) Kills cells / denatures enzymes, stopping reactions instantly [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q4(a)",
+     "subtopic": "Calvin's experiment"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-04a-b",
+     "marks": 3,
+     "prompt": "Explain how radioactive tracers can be used to study metabolic pathways. (3)",
+     "hints": [
+      "Labelled atoms.",
+      "Follow over time."
+     ],
+     "solution": "A substrate is labelled with a radioactive isotope (e.g. ¹⁴C) [B1]\nSamples taken at intervals and compounds separated (chromatography) [B1]\nOrder in which compounds become radioactive shows the sequence of reactions [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q4(a)",
+     "subtopic": "Radioactive tracers"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-04a-c",
+     "marks": 3,
+     "prompt": "Explain why Calvin used a thin, flat vessel (\"lollipop\") for algae. (3)",
+     "hints": [
+      "Light.",
+      "Even exposure."
+     ],
+     "solution": "Large surface area to volume ratio [B1]\nAll algae receive similar light [B1]\nQuick sampling through a tap at the bottom [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q4(a)",
+     "subtopic": "Lollipop apparatus"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-04b-a",
+     "marks": 4,
+     "prompt": "(i) Name the enzyme that first fixes CO₂ into an organic molecule. (1)\n(ii) After 2 s most radioactivity was in GP; after 10 s in triose phosphate; after 30 s in hexose sugars. Explain the order. (3)",
+     "hints": [
+      "RuBisCO.",
+      "GP → TP → hexose."
+     ],
+     "solution": "(i) RuBisCO [B1]\n(ii) CO₂ combines with RuBP to form GP first [B1]\nGP is reduced to TP using ATP and reduced NADP [B1]\nTP then combines to form hexoses / regenerates RuBP [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q4(b)",
+     "subtopic": "Calvin cycle"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-04b-b",
+     "marks": 4,
+     "prompt": "Describe the three stages of the Calvin cycle. (4)",
+     "hints": [
+      "Fixation, reduction, regeneration.",
+      "Molecules."
+     ],
+     "solution": "Carbon fixation: CO₂ + RuBP → 2 GP, catalysed by RuBisCO [B1]\nReduction: GP reduced to TP using reduced NADP and ATP [B1]\nRegeneration: most TP converted back to RuBP using ATP [B1]\nRemaining TP used to make glucose, amino acids, lipids [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q4(b)",
+     "subtopic": "Calvin cycle"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-04b-c",
+     "marks": 4,
+     "prompt": "Explain why RuBisCO is described as inefficient, and how this affects photosynthesis at high temperatures. (4)",
+     "hints": [
+      "Oxygen binding.",
+      "Photorespiration."
+     ],
+     "solution": "RuBisCO works slowly [B1]\nIt can also bind oxygen instead of CO₂ [B1]\nPhotorespiration wastes energy and releases CO₂ [B1]\nIncreases at high temperature / low CO₂, reducing net photosynthesis [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q4(b)",
+     "subtopic": "RuBisCO"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-04c-a",
+     "marks": 2,
+     "prompt": "Calvin initially thought a 2-carbon compound was the first product of CO₂ fixation. Explain why this was wrong. (2)",
+     "hints": [
+      "GP has 3 carbons.",
+      "5C + 1C."
+     ],
+     "solution": "The first product was GP, a 3-carbon compound [B1]\nCO₂ combines with 5-carbon RuBP, forming an unstable 6C compound that splits into two 3C GP molecules [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q4(c)",
+     "subtopic": "Scientific method"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-04c-b",
+     "marks": 2,
+     "prompt": "Explain how scientific theories change over time. (2)",
+     "hints": [
+      "New evidence.",
+      "Peer review."
+     ],
+     "solution": "New evidence from better techniques / experiments may not fit an existing theory [B1]\nTheory is modified or replaced after peer review and repeated experiments [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q4(c)",
+     "subtopic": "Scientific method"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-04c-c",
+     "marks": 2,
+     "prompt": "Predict what happens to the concentration of RuBP if the CO₂ supply to an illuminated plant is suddenly cut off. (2)",
+     "hints": [
+      "Not used.",
+      "Still regenerated."
+     ],
+     "solution": "RuBP rises [B1]\nNot used to fix CO₂, but still regenerated from TP [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q4(c)",
+     "subtopic": "Calvin cycle"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-04d-a",
+     "marks": 3,
+     "prompt": "(i) A leaf of area 0.97 m² had a maximum CO₂ uptake of 25 µmol m⁻² s⁻¹. Calculate the maximum CO₂ uptake in 1 minute. (2)\n(ii) Explain the significance of the point where net photosynthesis is zero. (1)",
+     "hints": [
+      "× area × 60.",
+      "Compensation point."
+     ],
+     "solution": "(i) 25 × 0.97 × 60 [M1]\n= 1455 µmol [A1]\n(ii) Compensation point — rate of photosynthesis equals rate of respiration [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q4(d)",
+     "subtopic": "Net photosynthesis"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-04d-b",
+     "marks": 3,
+     "prompt": "Explain why net photosynthesis is negative in the dark. (3)",
+     "hints": [
+      "Respiration only.",
+      "CO₂ release."
+     ],
+     "solution": "No light, so no photosynthesis [B1]\nRespiration continues [B1]\nSo CO₂ is released (net uptake negative) [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q4(d)",
+     "subtopic": "Net photosynthesis"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-04d-c",
+     "marks": 3,
+     "prompt": "A plant's net CO₂ uptake is 18 units in light, and its CO₂ release in the dark is 4 units. Calculate gross photosynthesis and explain. (3)",
+     "hints": [
+      "Gross = net + respiration.",
+      "Assume constant respiration."
+     ],
+     "solution": "Gross = 18 + 4 [M1]\n= 22 units [A1]\nAssumes respiration rate is the same in light and dark [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q4(d)",
+     "subtopic": "Gross and net photosynthesis"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-33b-a",
+     "marks": 4,
+     "prompt": "(i) Explain why oxygen is needed for germination. (2)\n(ii) Suggest how germinating seeds take up oxygen from the soil. (1)\n(iii) Suggest why seedlings take in less oxygen from the soil once leaves appear. (1)",
+     "hints": [
+      "Aerobic respiration.",
+      "Photosynthesis."
+     ],
+     "solution": "(i) For aerobic respiration [B1]\nTo produce ATP for growth / cell division / enzyme synthesis [B1]\n(ii) Diffusion through the seed coat / root surface from air spaces in the soil [B1]\n(iii) Leaves photosynthesise, producing oxygen [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q33(b)",
+     "subtopic": "Germination and respiration"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-33b-b",
+     "marks": 4,
+     "prompt": "Explain why germinating seeds release heat and lose dry mass at first. (4)",
+     "hints": [
+      "Respiration.",
+      "No photosynthesis yet."
+     ],
+     "solution": "Stored food (starch / lipids) is respired [B1]\nSome energy released as heat [B1]\nCO₂ is lost, so dry mass decreases [B1]\nNo photosynthesis until leaves form, so no new organic matter [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q33(b)",
+     "subtopic": "Respiration in seeds"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-33b-c",
+     "marks": 4,
+     "prompt": "Seeds rich in oil have an RQ of about 0.7 when germinating; starchy seeds have an RQ of about 1.0. Explain. (4)",
+     "hints": [
+      "RQ = CO₂ ÷ O₂.",
+      "More oxygen needed for lipids."
+     ],
+     "solution": "RQ = CO₂ produced ÷ O₂ used [B1]\nOily seeds respire lipids [B1]\nLipids have less oxygen per carbon, so need more O₂ — RQ about 0.7 [B1]\nStarchy seeds respire carbohydrate — equal CO₂ and O₂, RQ = 1.0 [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q33(b)",
+     "subtopic": "Respiratory substrates"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-01a-a",
+     "marks": 4,
+     "prompt": "During intense exercise, muscle pH falls.\n\n(i) Explain why lactate builds up in muscle during intense exercise. (2)\n(ii) Explain how a fall in pH reduces enzyme activity in muscle. (2)",
+     "hints": [
+      "Oxygen supply.",
+      "H⁺ ions and bonds."
+     ],
+     "solution": "(i) Oxygen supply is insufficient for aerobic respiration [B1]\nPyruvate is reduced to lactate to regenerate NAD so glycolysis continues [B1]\n(ii) H⁺ ions interact with charged R groups, breaking ionic / hydrogen bonds [B1]\nActive site changes shape, so fewer enzyme–substrate complexes form [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q1(a)",
+     "subtopic": "Anaerobic respiration"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-01a-b",
+     "marks": 4,
+     "prompt": "Compare aerobic and anaerobic respiration in muscle cells. (4)",
+     "hints": [
+      "ATP yield.",
+      "Products."
+     ],
+     "solution": "Aerobic uses oxygen; anaerobic does not [B1]\nAerobic produces about 30–32 ATP per glucose; anaerobic only 2 [B1]\nAerobic products are CO₂ and water; anaerobic product is lactate [B1]\nAnaerobic occurs only in the cytoplasm; aerobic also in mitochondria [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q1(a)",
+     "subtopic": "Anaerobic respiration"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-01a-c",
+     "marks": 4,
+     "prompt": "Explain why breathing rate stays high after intense exercise has stopped. (4)",
+     "hints": [
+      "Lactate removal.",
+      "Liver."
+     ],
+     "solution": "Extra oxygen is needed to repay the oxygen debt [B1]\nLactate is converted back to pyruvate [B1]\nPyruvate is oxidised aerobically or converted to glucose in the liver [B1]\nOxygen also needed to restore myoglobin oxygen and ATP / creatine phosphate stores [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q1(a)",
+     "subtopic": "Oxygen debt"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-01b-a",
+     "marks": 4,
+     "prompt": "Athletes took sodium bicarbonate before a 400 m race. Mean race time fell from 52.4 s to 51.9 s.\n\n(i) Calculate the percentage decrease in race time. (2)\n(ii) Suggest how sodium bicarbonate could improve performance. (2)",
+     "hints": [
+      "Change ÷ original × 100.",
+      "Buffer."
+     ],
+     "solution": "(i) 0.5 ÷ 52.4 × 100 [M1]\n= 0.95 % [A1]\n(ii) Bicarbonate acts as a buffer, removing H⁺ ions [B1]\nSo pH falls less and enzymes / muscle contraction continue for longer [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q1(b)",
+     "subtopic": "Sodium bicarbonate and performance"
+    }
+   ]
+  },
+  {
+   "topic": "Reproduction",
+   "category": "Module 4",
+   "questions": [
+    {
+     "id": "bio-ocrb-2019-p1-24-a",
+     "marks": 1,
+     "prompt": "Explain how the combined contraceptive pill prevents pregnancy. (1)",
+     "hints": [
+      "Negative feedback.",
+      "FSH and LH."
+     ],
+     "solution": "Oestrogen and progesterone inhibit FSH and LH secretion, so no follicles mature / no ovulation [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q24",
+     "subtopic": "Contraception"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-24-b",
+     "marks": 1,
+     "prompt": "Name the hormone that triggers ovulation. (1)",
+     "hints": [
+      "Surge mid-cycle.",
+      "L..."
+     ],
+     "solution": "Luteinising hormone (LH) [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q24",
+     "subtopic": "Menstrual cycle"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-24-c",
+     "marks": 1,
+     "prompt": "Name the structure that secretes progesterone after ovulation. (1)",
+     "hints": [
+      "Remains of the follicle.",
+      "Yellow body."
+     ],
+     "solution": "Corpus luteum [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q24",
+     "subtopic": "Menstrual cycle"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-02d-a",
+     "marks": 5,
+     "prompt": "A mutation in a gene for a sperm-coating protein reduces sperm's ability to penetrate cervical mucus. In one population, 22 % of men are homozygous for the mutation.\n\n(i) Suggest why the mutation may reduce the chance of fertilisation. (2)\n(ii) Calculate the frequency of the mutant allele to 2 significant figures. (2)\n(iii) Suggest why the allele remains common. (1)",
+     "hints": [
+      "Sperm can't reach the egg.",
+      "q² = 0.22."
+     ],
+     "solution": "(i) Fewer sperm pass through cervical mucus [B1]\nSo fewer reach the oviduct / egg; sperm may be destroyed by the immune system [B1]\n(ii) q = √0.22 [M1]\n= 0.47 [A1]\n(iii) Homozygous men still father children (fertility reduced, not zero) / heterozygotes unaffected / possible heterozygote advantage [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q2(d)",
+     "subtopic": "Fertility and genetics"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-02d-b",
+     "marks": 5,
+     "prompt": "Describe IVF and ICSI as treatments for infertility. (5)",
+     "hints": [
+      "Fertilisation outside the body.",
+      "Injecting sperm."
+     ],
+     "solution": "IVF: hormones stimulate several eggs to mature [B1]\nEggs collected and mixed with sperm in a dish [B1]\nEmbryos develop for a few days, then 1–2 are transferred to the uterus [B1]\nICSI: a single sperm is injected directly into an egg [B1]\nUsed when sperm can't penetrate the egg / low sperm count [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q2(d)",
+     "subtopic": "Infertility treatment"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-02d-c",
+     "marks": 5,
+     "prompt": "Describe spermatogenesis. (5)",
+     "hints": [
+      "Seminiferous tubules.",
+      "Mitosis then meiosis."
+     ],
+     "solution": "Takes place in the seminiferous tubules of the testes [B1]\nSpermatogonia (diploid) divide by mitosis [B1]\nSome grow into primary spermatocytes, which undergo meiosis I to form secondary spermatocytes [B1]\nMeiosis II produces haploid spermatids [B1]\nSpermatids differentiate into spermatozoa, nourished by Sertoli cells [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q2(d)",
+     "subtopic": "Spermatogenesis"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-06b-a",
+     "marks": 6,
+     "prompt": "Studies show that drinking alcohol during pregnancy is linked to lower birth mass and learning difficulties, though some studies found no clear effect of light drinking. Health advice is to avoid alcohol completely when pregnant or trying to conceive.\n\nEvaluate this advice. (6)",
+     "hints": [
+      "Alcohol crosses the placenta.",
+      "Uncertainty about safe levels."
+     ],
+     "solution": "Alcohol crosses the placenta into fetal blood [B1]\nFetal liver can't break it down well [B1]\nCan cause fetal alcohol spectrum disorder — damage to brain development, low birth mass [B1]\nEarly weeks are critical for organ development, often before a woman knows she is pregnant [B1]\nSome studies show no clear effect of low intake, but no safe level has been proven [B1]\nAdvice is precautionary and simple to follow — justified [B1]\nLevel-marked (5–6 marks).",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q6(b)",
+     "subtopic": "Alcohol and pregnancy"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-06b-b",
+     "marks": 6,
+     "prompt": "Explain how the placenta is adapted for exchange between mother and fetus, and why some harmful substances can cross it. (6)",
+     "hints": [
+      "Villi.",
+      "Small molecules."
+     ],
+     "solution": "Chorionic villi give a large surface area [B1]\nThin barrier between maternal and fetal blood — short diffusion distance [B1]\nCountercurrent-like flow / maternal blood in spaces maintains concentration gradients [B1]\nOxygen, glucose, amino acids, antibodies cross to the fetus; CO₂ and urea cross back [B1]\nSmall or lipid-soluble substances (alcohol, nicotine, drugs) diffuse across [B1]\nSome viruses (e.g. rubella) can cross [B1]\nLevel-marked (5–6 marks).",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q6(b)",
+     "subtopic": "Placenta"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-06b-c",
+     "marks": 6,
+     "prompt": "Explain how smoking during pregnancy can affect the fetus. (6)",
+     "hints": [
+      "Carbon monoxide.",
+      "Nicotine."
+     ],
+     "solution": "Carbon monoxide binds to haemoglobin, reducing oxygen carried [B1]\nLess oxygen reaches the fetus [B1]\nNicotine constricts blood vessels, reducing placental blood flow [B1]\nLess glucose and nutrients reach the fetus [B1]\nLow birth mass / premature birth [B1]\nIncreased risk of miscarriage / stillbirth [B1]\nLevel-marked (5–6 marks).",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q6(b)",
+     "subtopic": "Smoking and pregnancy"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-07a-a",
+     "marks": 4,
+     "prompt": "(i) Give one adaptation of maize flowers for wind pollination. (1)\n(ii) Describe the events after a pollen grain lands on the stigma that lead to formation of the embryo and endosperm. (3)",
+     "hints": [
+      "Feathery stigmas.",
+      "Double fertilisation."
+     ],
+     "solution": "(i) Large feathery stigmas / anthers hang outside / lots of light pollen [B1]\n(ii) Pollen tube grows down the style, controlled by the tube nucleus [B1]\nEnters the ovule through the micropyle [B1]\nOne male nucleus fuses with the egg (zygote → embryo); the other fuses with the polar nuclei (triploid endosperm) [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q7(a)-(b)",
+     "subtopic": "Plant reproduction"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-07a-b",
+     "marks": 4,
+     "prompt": "Compare the features of wind-pollinated and insect-pollinated flowers. (4)",
+     "hints": [
+      "Petals and scent.",
+      "Pollen."
+     ],
+     "solution": "Insect-pollinated: large, brightly coloured petals, scent, nectar [B1]\nInsect-pollinated: sticky / spiky pollen, stigmas inside the flower [B1]\nWind-pollinated: small / no petals, no scent or nectar [B1]\nWind-pollinated: lots of light, smooth pollen; feathery stigmas and anthers outside the flower [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q7(a)-(b)",
+     "subtopic": "Pollination"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-07a-c",
+     "marks": 4,
+     "prompt": "Describe what happens to the ovule and ovary after fertilisation in flowering plants. (4)",
+     "hints": [
+      "Seed and fruit.",
+      "Integuments."
+     ],
+     "solution": "Zygote develops into the embryo [B1]\nEndosperm forms the food store [B1]\nInteguments become the seed coat (testa); ovule becomes the seed [B1]\nOvary becomes the fruit [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q7(a)-(b)",
+     "subtopic": "Seed formation"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-32a-a",
+     "marks": 3,
+     "prompt": "(i) Name one hormone that increases and one that decreases in concentration at the menopause. (2)\n(ii) Give one factor, other than ageing, that can cause menopause. (1)",
+     "hints": [
+      "FSH rises.",
+      "Surgery."
+     ],
+     "solution": "(i) Increases: FSH / LH [B1]\nDecreases: oestrogen / progesterone [B1]\n(ii) Removal of ovaries / chemotherapy / radiotherapy [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q32(a)",
+     "subtopic": "Menopause"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-32a-b",
+     "marks": 3,
+     "prompt": "Explain why FSH levels rise at the menopause. (3)",
+     "hints": [
+      "Negative feedback.",
+      "Follicles run out."
+     ],
+     "solution": "Ovaries run out of follicles [B1]\nLess oestrogen and inhibin produced [B1]\nLess negative feedback on the pituitary, so more FSH is released [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q32(a)",
+     "subtopic": "Menopause"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-32a-c",
+     "marks": 3,
+     "prompt": "Give three effects of the menopause on the body. (3)",
+     "hints": [
+      "Bones, heart, temperature.",
+      "Low oestrogen."
+     ],
+     "solution": "Hot flushes / night sweats [B1]\nReduced bone density — osteoporosis [B1]\nIncreased risk of cardiovascular disease / mood changes [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q32(a)",
+     "subtopic": "Menopause"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-32c-a",
+     "marks": 5,
+     "prompt": "(i) Explain how benign prostatic hyperplasia (BPH) prevents the bladder emptying completely. (2)\n(ii) Give one other change to the male reproductive system with ageing. (1)\n(iii) Suggest why there is no national screening programme for prostate cancer in the UK. (2)",
+     "hints": [
+      "Prostate surrounds urethra.",
+      "PSA test reliability."
+     ],
+     "solution": "(i) Prostate enlarges and presses on the urethra [B1]\nNarrowing it, so urine flow is reduced [B1]\n(ii) Lower testosterone / lower sperm count / erectile dysfunction [B1]\n(iii) The PSA test is unreliable — false positives and false negatives [B1]\nMay lead to unnecessary treatment of slow-growing cancers with side effects [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q32(c)",
+     "subtopic": "Ageing male reproductive system"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-32c-b",
+     "marks": 5,
+     "prompt": "Give the criteria a disease should meet before a national screening programme is introduced. (5)",
+     "hints": [
+      "Important condition.",
+      "Reliable test, effective treatment."
+     ],
+     "solution": "The condition is an important health problem [B1]\nThere is a detectable early stage [B1]\nA reliable, safe and acceptable test exists [B1]\nEffective treatment is available for early cases [B1]\nBenefits outweigh harms and costs [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q32(c)",
+     "subtopic": "Screening programmes"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-32c-c",
+     "marks": 5,
+     "prompt": "Describe the roles of testosterone in males. (5)",
+     "hints": [
+      "Puberty.",
+      "Sperm production."
+     ],
+     "solution": "Development of male sex organs before birth [B1]\nSecondary sexual characteristics at puberty [B1]\ne.g. deepening voice, facial hair, muscle growth [B1]\nStimulates sperm production [B1]\nMade by interstitial (Leydig) cells under LH control [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q32(c)",
+     "subtopic": "Testosterone"
+    }
+   ]
+  },
+  {
+   "topic": "Populations and ecosystems",
+   "category": "Module 4",
+   "questions": [
+    {
+     "id": "bio-ocrb-2019-p1-10-a",
+     "marks": 1,
+     "prompt": "A forest has a GPP of 18 000 kcal m⁻² yr⁻¹ and plant respiration of 6 500 kcal m⁻² yr⁻¹. Calculate NPP. (1)",
+     "hints": [
+      "NPP = GPP − R.",
+      "Subtract."
+     ],
+     "solution": "11 500 kcal m⁻² yr⁻¹ [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q10-11",
+     "subtopic": "Productivity"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-10-b",
+     "marks": 1,
+     "prompt": "Define net primary productivity. (1)",
+     "hints": [
+      "Energy stored.",
+      "After respiration."
+     ],
+     "solution": "The rate at which energy is stored as biomass in producers after respiratory losses (GPP − R) [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q10-11",
+     "subtopic": "Productivity"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-10-c",
+     "marks": 1,
+     "prompt": "What range of values can Σ(n/N)² take in Simpson's index? (1)",
+     "hints": [
+      "Between 0 and 1.",
+      "1 = one species."
+     ],
+     "solution": "Between 0 and 1 (D = 1 − Σ(n/N)² also ranges 0–1) [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q10-11",
+     "subtopic": "Biodiversity"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-31a-a",
+     "marks": 6,
+     "prompt": "The demographic transition model shows how birth and death rates change as a country develops (Stages 1–5).\n\n(i) Describe how population size changes through the stages. (2)\n(ii) Suggest why birth rates fall between Stages 2 and 3. (3)\n(iii) Suggest why birth rate may fall below death rate in Stage 5. (1)",
+     "hints": [
+      "Gap between birth and death rate.",
+      "Contraception, education."
+     ],
+     "solution": "(i) Stable and low in Stage 1; increases rapidly in Stages 2–3 as death rate falls [B1]\nLevels off in Stage 4; may decline slightly in Stage 5 [B1]\n(ii) Access to contraception / family planning [B1]\nWomen's education and employment; lower infant mortality so fewer children needed [B1]\nUrbanisation — children cost more and contribute less to family income [B1]\n(iii) Ageing population / people having children later or not at all / high cost of raising children [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q31(a)",
+     "subtopic": "Demographic transition"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-31a-b",
+     "marks": 6,
+     "prompt": "Explain why the death rate falls in Stage 2 of the demographic transition, and the consequences for population structure. (6)",
+     "hints": [
+      "Medicine, sanitation, food.",
+      "Population pyramid."
+     ],
+     "solution": "Improved sanitation and clean water reduce infectious disease [B1]\nBetter food supply / nutrition [B1]\nVaccines and medicines reduce deaths, especially of children [B1]\nBirth rate remains high, so population grows rapidly [B1]\nPopulation pyramid has a wide base — many young people [B1]\nLater, ageing population gives a narrower base and wider top [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q31(a)",
+     "subtopic": "Human population growth"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-31a-c",
+     "marks": 6,
+     "prompt": "A country has a birth rate of 32 per 1000 and a death rate of 12 per 1000 per year, and a population of 15 million.\n\n(i) Calculate the natural increase per year. (2)\n(ii) Estimate the population after 1 year. (2)\n(iii) Give two factors, other than birth and death rates, that affect population size. (2)",
+     "hints": [
+      "Difference × population.",
+      "Migration."
+     ],
+     "solution": "(i) 20 per 1000 = 2 % [M1]\n0.02 × 15 million = 300 000 per year [A1]\n(ii) 15 000 000 + 300 000 [M1]\n= 15.3 million [A1]\n(iii) Immigration [B1]\nEmigration [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q31(a)",
+     "subtopic": "Population calculations"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-31b-a",
+     "marks": 6,
+     "prompt": "In 2019, 19.3 % of people in low- and middle-income countries were food insecure. A target is to reduce this to 9.2 % by 2029.\n\nDiscuss the challenges of reducing food insecurity as the population rises, including environmental impacts and how success could be measured. (6)",
+     "hints": [
+      "Producing more without damaging the environment.",
+      "Measuring."
+     ],
+     "solution": "More food is needed for a growing population [B1]\nIntensive farming increases yields but uses fertilisers and pesticides — eutrophication, loss of biodiversity [B1]\nClearing land (deforestation) increases CO₂ and habitat loss [B1]\nClimate change, water shortage, pests and disease reduce yields; poverty and distribution / waste also matter [B1]\nSolutions: GM / drought-resistant crops, better storage, reducing waste, sustainable practices [B1]\nMeasure success by surveys of household food access / nutrition (e.g. stunting, malnutrition rates) over time [B1]\nLevel-marked (5–6 marks).",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q31(b)",
+     "subtopic": "Food security"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-31b-b",
+     "marks": 6,
+     "prompt": "Evaluate the use of fertilisers and pesticides to increase crop yields. (6)",
+     "hints": [
+      "Yields vs environment.",
+      "Resistance."
+     ],
+     "solution": "Fertilisers supply nitrates / phosphates, increasing growth and yield [B1]\nPesticides reduce crop losses to pests [B1]\nFertiliser run-off causes eutrophication [B1]\nPesticides may kill non-target species / bioaccumulate in food chains [B1]\nPests evolve resistance [B1]\nCost to farmers; integrated pest management / precision farming reduce harm [B1]\nLevel-marked (5–6 marks).",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q31(b)",
+     "subtopic": "Increasing food production"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-31b-c",
+     "marks": 6,
+     "prompt": "Discuss the advantages and disadvantages of growing genetically modified crops to improve food security. (6)",
+     "hints": [
+      "Yield, resistance, nutrition.",
+      "Concerns."
+     ],
+     "solution": "Higher yields — pest resistance / herbicide tolerance [B1]\nDrought / salt tolerance allows farming on poor land [B1]\nImproved nutrition, e.g. Golden Rice with vitamin A [B1]\nConcerns: transfer of genes to wild plants (superweeds) [B1]\nReduced biodiversity / effects on non-target insects [B1]\nCost of seeds and patents for poor farmers; public concerns [B1]\nLevel-marked (5–6 marks).",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q31(b)",
+     "subtopic": "Sustainable agriculture"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-36a-a",
+     "marks": 5,
+     "prompt": "Divers placed a tape-measure grid over a 100 m² area of coral reef and randomly selected five 1 m² areas to survey.\n\n(i) Comment on the suitability of this random sampling method. (3)\n(ii) 12 colonies of one coral species were found in the five quadrats. Estimate its population density. (2)",
+     "hints": [
+      "Bias, sample size.",
+      "Per m²."
+     ],
+     "solution": "(i) Random selection avoids bias [B1]\nOnly five samples (5 % of the area) — may not be representative [B1]\nSpecies may be clumped; more quadrats needed / check with a running mean [B1]\n(ii) 12 ÷ 5 m² [M1]\n= 2.4 colonies per m² (240 in 100 m²) [A1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q36(a)",
+     "subtopic": "Sampling"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-36a-b",
+     "marks": 5,
+     "prompt": "Describe how you would estimate the population of a mobile animal species in a woodland. (5)",
+     "hints": [
+      "Mark-release-recapture.",
+      "Assumptions."
+     ],
+     "solution": "Capture a sample using traps, mark them harmlessly and release [B1]\nLeave time for marked animals to mix with the population [B1]\nCapture a second sample and count marked animals [B1]\nPopulation = (first sample × second sample) ÷ number marked in second [B1]\nAssumes no migration, births or deaths; marks don't affect survival [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q36(a)",
+     "subtopic": "Sampling"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-36a-c",
+     "marks": 5,
+     "prompt": "40 woodlice were caught and marked. Later, 50 were caught, of which 8 were marked.\n\n(i) Estimate the population size. (2)\n(ii) Give three assumptions of this method. (3)",
+     "hints": [
+      "40 × 50 ÷ 8.",
+      "Mixing, no migration."
+     ],
+     "solution": "(i) 40 × 50 ÷ 8 [M1]\n= 250 [A1]\n(ii) Marked animals mix randomly with the population [B1]\nMarks don't affect survival / aren't lost [B1]\nNo births, deaths or migration between samples [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q36(a)",
+     "subtopic": "Mark-release-recapture"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-36b-a",
+     "marks": 4,
+     "prompt": "Percentage cover of seven species on a reef: 30, 25, 15, 10, 10, 5, 5.\n\n(i) Calculate Simpson's index of diversity, D = 1 − Σ(n/N)². (2)\n(ii) Freshwater run-off from a river reduces the salinity of the water over a nearby reef. Suggest the likely effect on diversity, and why. (2)",
+     "hints": [
+      "N = 100.",
+      "Coral stress."
+     ],
+     "solution": "(i) Σ(n/N)² = 0.09 + 0.0625 + 0.0225 + 0.01 + 0.01 + 0.0025 + 0.0025 = 0.20 [M1]\nD = 0.80 [A1]\n(ii) Diversity would fall [B1]\nCorals can't tolerate low salinity / sediment blocks light, so sensitive species die [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q36(b)",
+     "subtopic": "Simpson's index"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-36b-b",
+     "marks": 4,
+     "prompt": "Explain how rising sea temperatures and ocean acidification threaten coral reef biodiversity. (4)",
+     "hints": [
+      "Bleaching.",
+      "Calcium carbonate."
+     ],
+     "solution": "Higher temperatures cause corals to expel symbiotic algae (bleaching) [B1]\nCorals lose their food source and may die [B1]\nCO₂ dissolves in seawater, lowering pH [B1]\nCalcium carbonate skeletons dissolve / grow more slowly, so reef habitats are lost [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q36(b)",
+     "subtopic": "Coral reefs"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-36b-c",
+     "marks": 4,
+     "prompt": "Explain why coral reefs have very high biodiversity. (4)",
+     "hints": [
+      "Habitats.",
+      "Productivity."
+     ],
+     "solution": "Complex 3D structure provides many habitats / niches [B1]\nWarm, sunny, shallow water — high productivity [B1]\nSymbiotic algae provide energy at the base of the food web [B1]\nMany food sources support many species [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q36(b)",
+     "subtopic": "Biodiversity"
+    }
+   ]
+  },
+  {
+   "topic": "Genetics and gene technologies",
+   "category": "Module 5",
+   "questions": [
+    {
+     "id": "bio-ocrb-2019-p1-17-a",
+     "marks": 1,
+     "prompt": "Explain why a karyotype is prepared from cells in metaphase. (1)",
+     "hints": [
+      "Condensed chromosomes.",
+      "Visible."
+     ],
+     "solution": "Chromosomes are fully condensed and visible, so can be counted and arranged [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q17-18",
+     "subtopic": "Karyotypes"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-17-b",
+     "marks": 1,
+     "prompt": "What would a karyotype show for a person with Turner's syndrome? (1)",
+     "hints": [
+      "Sex chromosomes.",
+      "XO."
+     ],
+     "solution": "45 chromosomes, with only one X chromosome (XO) [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q17-18",
+     "subtopic": "Karyotypes"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-17-c",
+     "marks": 1,
+     "prompt": "Two heterozygous parents for cystic fibrosis have a child. What is the probability the child has cystic fibrosis? (1)",
+     "hints": [
+      "Ff × Ff.",
+      "ff."
+     ],
+     "solution": "0.25 [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q17-18",
+     "subtopic": "Inheritance"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-35a-a",
+     "marks": 3,
+     "prompt": "(i) Explain what is meant by a palindromic DNA sequence. (1)\n(ii) Name a type of bacterial endonuclease other than Cas9. (1)\n(iii) Give one similarity between Cas9 and that enzyme. (1)",
+     "hints": [
+      "Reads the same both ways.",
+      "Restriction enzyme."
+     ],
+     "solution": "(i) The base sequence reads the same on both strands in the 5′ to 3′ direction (e.g. GAATTC) [B1]\n(ii) Restriction enzyme / restriction endonuclease [B1]\n(iii) Both cut both strands of DNA at a specific sequence / both are bacterial defences against viruses [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q35(a)-(b)",
+     "subtopic": "Restriction enzymes"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-35a-b",
+     "marks": 3,
+     "prompt": "Explain the difference between sticky ends and blunt ends, and why sticky ends are useful. (3)",
+     "hints": [
+      "Staggered cut.",
+      "Base pairing."
+     ],
+     "solution": "Sticky ends are produced by a staggered cut, leaving short single-stranded overhangs [B1]\nBlunt ends are produced by a straight cut [B1]\nSticky ends can pair with complementary ends from other DNA cut with the same enzyme, making joining easier [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q35(a)-(b)",
+     "subtopic": "Restriction enzymes"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-35a-c",
+     "marks": 3,
+     "prompt": "Compare Cas9 with restriction enzymes. (3)",
+     "hints": [
+      "Guide RNA.",
+      "Recognition sequence."
+     ],
+     "solution": "Both are bacterial nucleases that cut DNA [B1]\nRestriction enzymes recognise a fixed short sequence [B1]\nCas9 is guided by a programmable guide RNA, so can cut almost any sequence [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q35(a)-(b)",
+     "subtopic": "CRISPR-Cas9"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-35c-a",
+     "marks": 4,
+     "prompt": "Discuss the advantages and disadvantages of CRISPR and RNA interference (RNAi) for studying gene function. (4)",
+     "hints": [
+      "Permanent vs temporary.",
+      "Off-target effects."
+     ],
+     "solution": "CRISPR permanently knocks out a gene by editing DNA [B1]\nRNAi temporarily silences a gene by destroying its mRNA — reversible / partial knockdown [B1]\nCRISPR may have off-target cuts; knocking out essential genes may be lethal [B1]\nRNAi may not completely silence the gene / off-target effects [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q35(c)",
+     "subtopic": "Gene function studies"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-35c-b",
+     "marks": 4,
+     "prompt": "Explain how RNA interference silences a gene. (4)",
+     "hints": [
+      "siRNA.",
+      "Complementary mRNA."
+     ],
+     "solution": "Double-stranded RNA is cut into short siRNA [B1]\nsiRNA joins a protein complex (RISC) [B1]\nSingle strand pairs with complementary mRNA [B1]\nmRNA is cut / blocked, so not translated [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q35(c)",
+     "subtopic": "RNA interference"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-35c-c",
+     "marks": 4,
+     "prompt": "Discuss the ethical issues of using CRISPR to edit human embryos. (4)",
+     "hints": [
+      "Germ line.",
+      "Designer babies."
+     ],
+     "solution": "Could prevent serious inherited diseases [B1]\nChanges are inherited by future generations — long-term effects unknown [B1]\nOff-target mutations could cause harm [B1]\nConcerns about designer babies / consent of future people [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q35(c)",
+     "subtopic": "Gene editing ethics"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-35d-a",
+     "marks": 3,
+     "prompt": "Name the coding and non-coding regions of a pre-mRNA molecule, and the process that produces mature mRNA. (3)",
+     "hints": [
+      "Ex... and In...",
+      "Removal."
+     ],
+     "solution": "Coding regions: exons [B1]\nNon-coding regions: introns [B1]\nSplicing removes introns and joins exons [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q35(d)",
+     "subtopic": "Splicing"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-35d-b",
+     "marks": 3,
+     "prompt": "Explain how one gene can code for several different proteins. (3)",
+     "hints": [
+      "Exons in different combinations.",
+      "Alternative splicing."
+     ],
+     "solution": "Pre-mRNA contains several exons [B1]\nExons can be spliced together in different combinations [B1]\nProducing different mRNAs and therefore different polypeptides [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q35(d)",
+     "subtopic": "Alternative splicing"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-35d-c",
+     "marks": 3,
+     "prompt": "Describe how DNA methylation and histone acetylation control gene expression. (3)",
+     "hints": [
+      "Methyl on cytosine.",
+      "Acetyl on histones."
+     ],
+     "solution": "Methylation of cytosine prevents transcription factor binding, silencing genes [B1]\nHistone acetylation loosens chromatin, allowing transcription [B1]\nDeacetylation condenses chromatin, preventing transcription [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q35(d)",
+     "subtopic": "Epigenetics"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-01a-a",
+     "marks": 4,
+     "prompt": "(i) Define the terms gene and allele. (2)\n(ii) Iceland was settled by a small number of people, and its population later fell sharply because of plagues and a volcanic eruption. Name the effect of each event on allele frequencies. (2)",
+     "hints": [
+      "Founder and bottleneck.",
+      "Sequence of bases."
+     ],
+     "solution": "(i) Gene: a sequence of DNA bases coding for a polypeptide / functional RNA [B1]\nAllele: an alternative form of a gene [B1]\n(ii) Small number of settlers: founder effect [B1]\nPopulation crash: genetic bottleneck [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q1(a)(i)-(ii)",
+     "subtopic": "Genes and population genetics"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-01a-b",
+     "marks": 4,
+     "prompt": "Define genotype, phenotype, homozygous and heterozygous. (4)",
+     "hints": [
+      "Alleles vs characteristics.",
+      "Same vs different alleles."
+     ],
+     "solution": "Genotype: the alleles an organism has [B1]\nPhenotype: observable characteristics, from genotype and environment [B1]\nHomozygous: two identical alleles of a gene [B1]\nHeterozygous: two different alleles of a gene [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q1(a)(i)-(ii)",
+     "subtopic": "Genetic terms"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-01a-c",
+     "marks": 4,
+     "prompt": "Explain how genetic drift can change allele frequencies in a small population. (4)",
+     "hints": [
+      "Chance.",
+      "Fixation or loss."
+     ],
+     "solution": "Genetic drift is a random change in allele frequency [B1]\nIn small populations, chance determines which individuals reproduce [B1]\nAlleles may be lost or become fixed regardless of advantage [B1]\nReduces genetic diversity [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q1(a)(i)-(ii)",
+     "subtopic": "Genetic drift"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-01aiii-a",
+     "marks": 2,
+     "prompt": "Explain how a founder effect and a population bottleneck lead to low genetic diversity. (2)",
+     "hints": [
+      "Few individuals carry few alleles.",
+      "Loss of alleles."
+     ],
+     "solution": "Only a small number of individuals reproduce, carrying a small proportion of the alleles of the original population [B1]\nMany alleles are lost by chance; population regrows from few individuals, so diversity stays low [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q1(a)(iii)",
+     "subtopic": "Genetic diversity"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-01aiii-b",
+     "marks": 2,
+     "prompt": "Explain why a genetically homogeneous population is useful for genetic research into disease. (2)",
+     "hints": [
+      "Fewer variables.",
+      "Easier to link alleles to disease."
+     ],
+     "solution": "Less genetic variation, so fewer confounding genetic factors [B1]\nEasier to identify alleles linked to a disease; good genealogical records help [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q1(a)(iii)",
+     "subtopic": "Genetic homogeneity"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-01aiii-c",
+     "marks": 2,
+     "prompt": "Explain why genetic disorders are more common in isolated populations. (2)",
+     "hints": [
+      "Shared ancestors.",
+      "Homozygous recessive."
+     ],
+     "solution": "People are more likely to share recessive alleles from common ancestors [B1]\nSo more children inherit two copies and show the disorder [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q1(a)(iii)",
+     "subtopic": "Inbreeding"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-01b-a",
+     "marks": 4,
+     "prompt": "Explain how flow cytometry could be used to study blood cells in people at risk of a blood cancer. (4)",
+     "hints": [
+      "Fluorescent antibodies.",
+      "Laser."
+     ],
+     "solution": "Blood cells are labelled with fluorescent antibodies specific to surface proteins [B1]\nCells pass one at a time through a laser beam [B1]\nDetectors measure fluorescence and light scattering of each cell [B1]\nNumbers of each cell type counted rapidly / abnormal cells detected [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q1(b)",
+     "subtopic": "Flow cytometry"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-01b-b",
+     "marks": 4,
+     "prompt": "Describe how genome-wide association studies identify alleles linked to disease. (4)",
+     "hints": [
+      "Compare patients and controls.",
+      "SNPs."
+     ],
+     "solution": "DNA from many people with and without the disease is analysed [B1]\nMany SNPs (single nucleotide polymorphisms) across the genome are compared [B1]\nSNPs more common in patients are associated with the disease [B1]\nLarge samples needed; association doesn't prove causation [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q1(b)",
+     "subtopic": "Genome-wide association studies"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-01b-c",
+     "marks": 4,
+     "prompt": "Explain how advances in DNA sequencing have improved understanding of disease. (4)",
+     "hints": [
+      "Speed and cost.",
+      "Comparisons."
+     ],
+     "solution": "High-throughput sequencing makes sequencing whole genomes fast and cheap [B1]\nGenomes of many people can be compared to find disease-linked mutations [B1]\nPathogen genomes sequenced to track outbreaks / develop vaccines [B1]\nAllows personalised medicine [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q1(b)",
+     "subtopic": "DNA sequencing"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-01c-a",
+     "marks": 3,
+     "prompt": "Explain how a single gene mutation causes sickle cell anaemia. (3)",
+     "hints": [
+      "Substitution.",
+      "Haemoglobin shape."
+     ],
+     "solution": "A substitution in the β-globin gene changes one codon, replacing glutamic acid with valine [B1]\nHaemoglobin molecules stick together at low oxygen, forming fibres [B1]\nRed blood cells become sickle-shaped, carry less oxygen and block capillaries [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q1(c)",
+     "subtopic": "Sickle cell anaemia"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-01c-b",
+     "marks": 3,
+     "prompt": "Explain why the sickle cell allele is common in areas where malaria is widespread. (3)",
+     "hints": [
+      "Heterozygote advantage.",
+      "Selection."
+     ],
+     "solution": "Heterozygous people (sickle cell trait) are more resistant to malaria [B1]\nSo they survive and reproduce more than homozygous normal people [B1]\nPassing on the allele — balanced polymorphism [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q1(c)",
+     "subtopic": "Sickle cell and malaria"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-01c-c",
+     "marks": 3,
+     "prompt": "Explain why sickle cell anaemia shows codominance. (3)",
+     "hints": [
+      "Heterozygote phenotype.",
+      "Both alleles expressed."
+     ],
+     "solution": "Heterozygotes produce both normal and sickle haemoglobin [B1]\nBoth alleles are expressed [B1]\nHeterozygotes have mild symptoms (sickle cell trait) — intermediate phenotype [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q1(c)",
+     "subtopic": "Codominance"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-01e-a",
+     "marks": 4,
+     "prompt": "For each feature, state whether it occurs in transcription only, translation only, both or neither: (i) C pairs with G; (ii) A pairs with T; (iii) phosphodiester bonds form; (iv) peptide bonds form. (4)",
+     "hints": [
+      "Translation pairs RNA with RNA.",
+      "T only in DNA."
+     ],
+     "solution": "(i) Both [B1]\n(ii) Neither (in transcription A pairs with U; in translation A pairs with U) [B1]\n(iii) Transcription only [B1]\n(iv) Translation only [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q1(e)",
+     "subtopic": "Transcription and translation"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-01e-b",
+     "marks": 4,
+     "prompt": "Compare transcription and translation. (4)",
+     "hints": [
+      "Where, what, enzyme.",
+      "Products."
+     ],
+     "solution": "Transcription occurs in the nucleus; translation on ribosomes in the cytoplasm [B1]\nTranscription uses DNA as a template; translation uses mRNA [B1]\nTranscription uses RNA polymerase; translation uses ribosomes and tRNA [B1]\nTranscription makes mRNA; translation makes a polypeptide [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q1(e)",
+     "subtopic": "Protein synthesis"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-01e-c",
+     "marks": 4,
+     "prompt": "Describe the structure and role of tRNA. (4)",
+     "hints": [
+      "Clover leaf.",
+      "Anticodon."
+     ],
+     "solution": "Single strand folded into a clover-leaf shape by hydrogen bonds [B1]\nHas an anticodon complementary to an mRNA codon [B1]\nBinds a specific amino acid at the 3′ end [B1]\nBrings amino acids to the ribosome in the correct order [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q1(e)",
+     "subtopic": "tRNA"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-05c-a",
+     "marks": 2,
+     "prompt": "Suggest why red–green colour blindness mostly affects males. (2)",
+     "hints": [
+      "X chromosome.",
+      "One copy."
+     ],
+     "solution": "The allele is recessive and on the X chromosome [B1]\nMales have only one X, so one recessive allele causes the condition; females need two [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q5(c)",
+     "subtopic": "Sex linkage"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-05c-b",
+     "marks": 2,
+     "prompt": "A carrier woman has children with a man who has normal colour vision. What is the probability that a son will be colour blind? (2)",
+     "hints": [
+      "XᴮXᵇ × XᴮY.",
+      "Sons get X from mother."
+     ],
+     "solution": "Sons receive Xᴮ or Xᵇ from mother, Y from father [M1]\nProbability = 0.5 [A1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q5(c)",
+     "subtopic": "Sex linkage"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-05c-c",
+     "marks": 2,
+     "prompt": "Explain why a colour-blind father cannot pass the condition to his sons. (2)",
+     "hints": [
+      "What does he give sons?",
+      "Y chromosome."
+     ],
+     "solution": "Fathers pass their Y chromosome to sons [B1]\nThe allele is on the X chromosome, which goes only to daughters [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q5(c)",
+     "subtopic": "Sex linkage"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-07c-a",
+     "marks": 4,
+     "prompt": "In maize, smooth (A) is dominant to wrinkled (a) and yellow (B) is dominant to colourless (b). F1 smooth yellow plants (AaBb) were test-crossed with wrinkled colourless plants.\n\n(i) Give the genotypes and gametes of the parents. (2)\n(ii) Predict the phenotypic ratio. (2)",
+     "hints": [
+      "aabb makes only ab.",
+      "1:1:1:1."
+     ],
+     "solution": "(i) AaBb × aabb [B1]\nGametes AB, Ab, aB, ab and ab [B1]\n(ii) AaBb, Aabb, aaBb, aabb [M1]\n1 smooth yellow : 1 smooth colourless : 1 wrinkled yellow : 1 wrinkled colourless [A1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q7(c)(i)-(ii)",
+     "subtopic": "Dihybrid test cross"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-07c-b",
+     "marks": 4,
+     "prompt": "Explain what is meant by epistasis, using an example. (4)",
+     "hints": [
+      "One gene masks another.",
+      "Coat colour."
+     ],
+     "solution": "Epistasis is when one gene affects / masks the expression of another gene [B1]\ne.g. in mice, one gene determines whether pigment is made at all [B1]\nIf homozygous recessive (cc), no pigment — albino, whatever the other gene [B1]\nGives modified ratios such as 9 : 3 : 4 [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q7(c)(i)-(ii)",
+     "subtopic": "Epistasis"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-07c-c",
+     "marks": 4,
+     "prompt": "Two AaBb plants are crossed. Calculate the expected numbers of each phenotype from 320 offspring. (4)",
+     "hints": [
+      "9 : 3 : 3 : 1.",
+      "320 ÷ 16 = 20."
+     ],
+     "solution": "Ratio 9 : 3 : 3 : 1 [M1]\n320 ÷ 16 = 20 [M1]\n180 : 60 : 60 [A1]\n: 20 [A1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q7(c)(i)-(ii)",
+     "subtopic": "Dihybrid cross"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-07ciii-a",
+     "marks": 6,
+     "prompt": "A test cross gave 152 smooth yellow, 148 wrinkled colourless, 48 smooth colourless and 52 wrinkled yellow (400 total). Expected numbers were 100 each.\n\n(i) Calculate χ². (3)\n(ii) The critical value at p = 0.05 with 3 degrees of freedom is 7.82. State the conclusion. (1)\n(iii) Suggest an explanation. (2)",
+     "hints": [
+      "(O − E)² ÷ E for each.",
+      "Linked genes."
+     ],
+     "solution": "(i) (52² + 48² + 52² + 48²) ÷ 100 [M1]\n= (2704 + 2304 + 2704 + 2304) ÷ 100 [M1]\nχ² = 100.2 [A1]\n(ii) Much greater than 7.82, so reject the null hypothesis — significant difference from 1 : 1 : 1 : 1 [B1]\n(iii) The genes are linked (on the same chromosome) [B1]\nParental combinations most common; recombinants only from crossing over [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q7(c)(iii)-(v)",
+     "subtopic": "Chi-squared and linkage"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-07ciii-b",
+     "marks": 6,
+     "prompt": "From the previous cross (152 SY, 148 wc, 48 Sc, 52 wY), calculate the recombination frequency and explain what it shows. (6)",
+     "hints": [
+      "Recombinants ÷ total.",
+      "Map distance."
+     ],
+     "solution": "Recombinants = 48 + 52 = 100 [M1]\n100 ÷ 400 × 100 [M1]\n= 25 % [A1]\nShows the genes are linked but crossing over occurs between them [B1]\nHigher frequency means genes are further apart on the chromosome [B1]\nAbout 25 map units apart [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q7(c)(iii)-(v)",
+     "subtopic": "Recombination frequency"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-07ciii-c",
+     "marks": 6,
+     "prompt": "Describe the steps in using a χ² test to compare observed and expected results of a genetic cross. (6)",
+     "hints": [
+      "Null hypothesis.",
+      "Degrees of freedom."
+     ],
+     "solution": "State a null hypothesis (no difference between observed and expected) [B1]\nCalculate expected numbers from the predicted ratio [B1]\nCalculate χ² = Σ(O − E)² ÷ E [B1]\nDegrees of freedom = number of categories − 1 [B1]\nCompare with the critical value at p = 0.05 [B1]\nIf χ² is greater, reject the null hypothesis; if less, accept it [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q7(c)(iii)-(v)",
+     "subtopic": "Chi-squared test"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-02a-a",
+     "marks": 5,
+     "prompt": "Albinism is caused by a recessive allele a.\n\n(i) Two carriers have a child. Give the probability the child has albinism. (1)\n(ii) Draw a genetic diagram to explain your answer. (3)\n(iii) Explain why the actual ratio in a family may differ. (1)",
+     "hints": [
+      "Aa × Aa.",
+      "Chance."
+     ],
+     "solution": "(i) 0.25 / 25 % [B1]\n(ii) Parents Aa × Aa; gametes A, a and A, a [B1]\nOffspring AA, Aa, Aa, aa [B1]\n3 normal : 1 albino [B1]\n(iii) Fertilisation is random; small numbers of offspring [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q2(a)",
+     "subtopic": "Inheritance"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-02a-b",
+     "marks": 5,
+     "prompt": "A cross was expected to give a 3 : 1 ratio. 160 offspring were 128 dominant and 32 recessive.\n\n(i) Calculate χ². (3)\n(ii) The critical value at p = 0.05 is 3.84. Interpret your answer. (2)",
+     "hints": [
+      "Expected 120 and 40.",
+      "Σ(O−E)²/E."
+     ],
+     "solution": "(i) Expected = 120 and 40 [M1]\n(8²/120) + (8²/40) = 0.533 + 1.6 [M1]\n= 2.13 [A1]\n(ii) 2.13 < 3.84 [B1]\nSo no significant difference — results fit a 3 : 1 ratio [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q2(a)",
+     "subtopic": "Chi-squared"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-02a-c",
+     "marks": 5,
+     "prompt": "Red–green colour blindness is caused by a recessive allele on the X chromosome. A carrier woman and an unaffected man have children.\n\n(i) Give the parents' genotypes. (2)\n(ii) Give the probability a son is colour blind. (1)\n(iii) Explain why daughters cannot be colour blind from this cross. (2)",
+     "hints": [
+      "XᴮXᵇ.",
+      "Father's X."
+     ],
+     "solution": "(i) Mother XᴮXᵇ [B1]\nFather XᴮY [B1]\n(ii) 0.5 [B1]\n(iii) Daughters receive the father's Xᴮ [B1]\nSo have at least one dominant allele [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q2(a)",
+     "subtopic": "Sex linkage"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-02b-a",
+     "marks": 4,
+     "prompt": "Explain how a single base substitution may or may not affect a protein. (4)",
+     "hints": [
+      "Degenerate code.",
+      "Tertiary structure."
+     ],
+     "solution": "May code for the same amino acid — code is degenerate (silent) [B1]\nMay code for a different amino acid (missense) [B1]\nChanges R group, bonding and tertiary structure — protein may not function [B1]\nMay produce a stop codon, giving a shortened protein (nonsense) [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q2(b)",
+     "subtopic": "Gene mutation"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-02b-b",
+     "marks": 4,
+     "prompt": "Explain why a deletion of one base usually has a greater effect than a substitution. (4)",
+     "hints": [
+      "Reading frame.",
+      "Every codon downstream."
+     ],
+     "solution": "Deletion causes a frameshift [B1]\nEvery codon after the mutation changes [B1]\nMany amino acids differ / early stop codon [B1]\nSubstitution changes at most one codon [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q2(b)",
+     "subtopic": "Frameshift"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-02b-c",
+     "marks": 4,
+     "prompt": "Albinism results from a non-functional tyrosinase enzyme. Explain how a mutation in the tyrosinase gene can prevent melanin production. (4)",
+     "hints": [
+      "Pathway.",
+      "Active site."
+     ],
+     "solution": "Mutation changes base sequence and so amino acid sequence [B1]\nTertiary structure / active site shape changes [B1]\nTyrosine can't bind, so no enzyme–substrate complexes [B1]\nMelanin pathway is blocked [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q2(b)",
+     "subtopic": "Enzyme deficiency"
+    }
+   ]
+  },
+  {
+   "topic": "Control and homeostasis",
+   "category": "Module 5",
+   "questions": [
+    {
+     "id": "bio-ocrb-2019-p1-26-a",
+     "marks": 1,
+     "prompt": "Trisodium citrate prevents donated blood from clotting. Which ion does it react with? (1)",
+     "hints": [
+      "Needed in the clotting cascade.",
+      "Ca..."
+     ],
+     "solution": "Calcium ions (Ca²⁺) [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q26",
+     "subtopic": "Blood clotting"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-26-b",
+     "marks": 1,
+     "prompt": "Name the insoluble protein that forms the mesh of a blood clot. (1)",
+     "hints": [
+      "Made from fibrinogen.",
+      "F..."
+     ],
+     "solution": "Fibrin [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q26",
+     "subtopic": "Blood clotting"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-26-c",
+     "marks": 1,
+     "prompt": "Name the drug often used to reduce the risk of blood clots, which inhibits platelet aggregation. (1)",
+     "hints": [
+      "Common painkiller.",
+      "A..."
+     ],
+     "solution": "Aspirin (low dose) [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q26",
+     "subtopic": "Blood clotting"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-32b-a",
+     "marks": 2,
+     "prompt": "Explain how abscisic acid causes stomata to close. (2)",
+     "hints": [
+      "Ions leave guard cells.",
+      "Osmosis."
+     ],
+     "solution": "ABA binds receptors on guard cells, causing K⁺ (and other ions) to leave [B1]\nWater potential rises, so water leaves by osmosis; guard cells become flaccid and close the pore [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q32(b)",
+     "subtopic": "Stomatal closure"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-32b-b",
+     "marks": 2,
+     "prompt": "Explain how guard cells open in the light. (2)",
+     "hints": [
+      "K⁺ in.",
+      "Turgid."
+     ],
+     "solution": "H⁺ pumped out; K⁺ enters guard cells, lowering water potential [B1]\nWater enters by osmosis, guard cells become turgid and the thicker inner walls bend apart [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q32(b)",
+     "subtopic": "Stomatal opening"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-32b-c",
+     "marks": 2,
+     "prompt": "Explain the trade-off plants face in controlling stomata. (2)",
+     "hints": [
+      "CO₂ in vs water out.",
+      "Photosynthesis."
+     ],
+     "solution": "Open stomata allow CO₂ in for photosynthesis [B1]\nBut also allow water to be lost by transpiration [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q32(b)",
+     "subtopic": "Stomata"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-36a-a",
+     "marks": 7,
+     "prompt": "(i) Name the endocrine structures in the pancreas that secrete insulin and glucagon. (1)\n(ii) Discuss the mechanisms that keep blood glucose at 80–90 mg per 100 cm³, naming the cells and biochemical pathways involved. (6)",
+     "hints": [
+      "Islets of Langerhans.",
+      "α and β cells; glycogenesis etc."
+     ],
+     "solution": "(i) Islets of Langerhans [B1]\n(ii) β cells detect high glucose and secrete insulin [B1]\nInsulin increases glucose uptake into liver / muscle cells (more GLUT channels) [B1]\nInsulin stimulates glycogenesis (glucose → glycogen) [B1]\nα cells detect low glucose and secrete glucagon [B1]\nGlucagon stimulates glycogenolysis and gluconeogenesis in the liver via cAMP [B1]\nNegative feedback returns glucose to the normal level; adrenaline also raises it [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q36(a)",
+     "subtopic": "Blood glucose control"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-36a-b",
+     "marks": 7,
+     "prompt": "Describe how glucagon raises blood glucose using a second messenger. (7)",
+     "hints": [
+      "Receptor, adenylyl cyclase.",
+      "Protein kinase."
+     ],
+     "solution": "Glucagon binds to receptors on liver cell membranes [B1]\nActivates a G protein [B1]\nActivates adenylyl cyclase [B1]\nConverts ATP to cyclic AMP (second messenger) [B1]\ncAMP activates protein kinase A [B1]\nEnzyme cascade activates glycogen phosphorylase — glycogen broken down to glucose [B1]\nGlucose diffuses out of the liver into the blood [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q36(a)",
+     "subtopic": "Blood glucose control"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-36a-c",
+     "marks": 7,
+     "prompt": "Explain why blood glucose concentration must be kept within narrow limits. (7)",
+     "hints": [
+      "Too high or too low.",
+      "Water potential and respiration."
+     ],
+     "solution": "Glucose is the main respiratory substrate [B1]\nBrain cells rely almost entirely on glucose [B1]\nToo low (hypoglycaemia): cells can't respire enough — confusion, coma [B1]\nToo high (hyperglycaemia): lowers blood water potential [B1]\nWater leaves cells by osmosis, causing dehydration [B1]\nGlucose lost in urine; long-term damage to blood vessels, nerves, eyes [B1]\nSo negative feedback by insulin and glucagon keeps it stable [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q36(a)",
+     "subtopic": "Homeostasis"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-36b-a",
+     "marks": 3,
+     "prompt": "Mice given a high dose of a drug that destroys β cells, on a normal diet, became diabetic. Others given a low dose plus a high-fat diet also became diabetic.\n\n(i) Suggest the type of diabetes in each group and explain. (2)\n(ii) Name one test to confirm the mice are diabetic. (1)",
+     "hints": [
+      "β cells destroyed vs insulin resistance.",
+      "Glucose tolerance."
+     ],
+     "solution": "(i) High dose: type 1 — β cells destroyed, so little insulin made [B1]\nLow dose + high fat: type 2 — insulin resistance with some β cell damage [B1]\n(ii) Glucose tolerance test / fasting blood glucose / urine glucose [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q36(b)",
+     "subtopic": "Diabetes models"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-36b-b",
+     "marks": 3,
+     "prompt": "Describe a glucose tolerance test and how results differ in a person with diabetes. (3)",
+     "hints": [
+      "Fast, drink glucose.",
+      "Measure over 2 hours."
+     ],
+     "solution": "Person fasts, then drinks a glucose solution [B1]\nBlood glucose measured at intervals for 2 hours [B1]\nIn diabetes, glucose rises higher and takes much longer to return to normal [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q36(b)",
+     "subtopic": "Glucose tolerance test"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-36b-c",
+     "marks": 3,
+     "prompt": "Explain why type 2 diabetes is often treated with diet and exercise first, rather than insulin. (3)",
+     "hints": [
+      "Insulin is still made.",
+      "Sensitivity."
+     ],
+     "solution": "In type 2, the pancreas still produces insulin [B1]\nWeight loss and exercise increase insulin sensitivity of cells [B1]\nReducing sugar intake prevents large rises in blood glucose [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q36(b)",
+     "subtopic": "Diabetes treatment"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-04e-a",
+     "marks": 5,
+     "prompt": "(i) Explain why winter wheat seeds given a cold treatment can flower when sown in spring. (2)\n(ii) Chrysanthemums flower when nights are at least 12 hours long, but a short flash of light during the night prevents flowering. Explain. (3)",
+     "hints": [
+      "Vernalisation.",
+      "Phytochrome."
+     ],
+     "solution": "(i) Cold treatment (vernalisation) replaces the winter cold needed to switch on flowering genes [B1]\nSo flowering genes are activated even without a winter [B1]\n(ii) Long nights allow Pfr to convert to Pr, so Pfr levels are low at dawn [B1]\nLow Pfr triggers flowering in short-day plants [B1]\nA flash of red light converts Pr to Pfr, so Pfr is high and flowering is inhibited [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q4(e)-(f)",
+     "subtopic": "Vernalisation and photoperiodism"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-04e-b",
+     "marks": 5,
+     "prompt": "Describe the phytochrome system and explain how it controls flowering. (5)",
+     "hints": [
+      "Pr and Pfr.",
+      "Day length."
+     ],
+     "solution": "Phytochrome exists as Pr and Pfr [B1]\nPr absorbs red light (660 nm) and becomes Pfr [B1]\nPfr absorbs far-red light and slowly converts back to Pr in the dark [B1]\nRatio of Pfr to Pr indicates night length [B1]\nLong-day plants flower when Pfr is high; short-day plants when Pfr is low [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q4(e)-(f)",
+     "subtopic": "Phytochrome"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-04e-c",
+     "marks": 5,
+     "prompt": "Explain how growers can make chrysanthemums flower at any time of year. (5)",
+     "hints": [
+      "Control night length.",
+      "Black-out and lights."
+     ],
+     "solution": "Chrysanthemums are short-day (long-night) plants [B1]\nCovering plants with black-out sheets lengthens the night [B1]\nLow Pfr induces flowering [B1]\nNight-break lighting prevents flowering until required [B1]\nSo flowering can be timed for the market [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q4(e)-(f)",
+     "subtopic": "Commercial control of flowering"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-05a-a",
+     "marks": 6,
+     "prompt": "(i) Describe the effects of cataracts and glaucoma on vision. (4)\n(ii) A drug inhibits the growth of new blood vessels. Suggest how it treats wet age-related macular degeneration. (2)",
+     "hints": [
+      "Lens and optic nerve.",
+      "Leaky blood vessels."
+     ],
+     "solution": "(i) Cataract: lens becomes cloudy [B1]\nBlurred / cloudy vision, faded colours [B1]\nGlaucoma: raised pressure damages the optic nerve [B1]\nLoss of peripheral vision first [B1]\n(ii) In wet AMD, new leaky blood vessels grow under the macula, damaging photoreceptors [B1]\nDrug stops new vessel growth, so less leakage and less damage to central vision [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q5(a)",
+     "subtopic": "Eye disease"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-05a-b",
+     "marks": 6,
+     "prompt": "Describe the functions of the cornea, lens, iris, retina, fovea and optic nerve. (6)",
+     "hints": [
+      "Focus, light, receptors.",
+      "Signal to brain."
+     ],
+     "solution": "Cornea — refracts light [B1]\nLens — fine focusing [B1]\nIris — controls pupil size / amount of light entering [B1]\nRetina — contains photoreceptors [B1]\nFovea — high density of cones, sharp colour vision [B1]\nOptic nerve — carries impulses to the brain [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q5(a)",
+     "subtopic": "Eye structure"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-05a-c",
+     "marks": 6,
+     "prompt": "Explain why age-related macular degeneration affects central vision and the ability to read. (6)",
+     "hints": [
+      "Macula contains the fovea.",
+      "Cones."
+     ],
+     "solution": "The macula is the central part of the retina [B1]\nIt contains the fovea, densely packed with cones [B1]\nCones give high acuity and colour vision [B1]\nIn AMD, photoreceptors in the macula die / are damaged [B1]\nCentral vision is lost or blurred [B1]\nPeripheral vision (rods) remains, but detail for reading is lost [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q5(a)",
+     "subtopic": "Age-related macular degeneration"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-05b-a",
+     "marks": 3,
+     "prompt": "(i) Explain why photoreceptors are described as transducers. (1)\n(ii) Describe what happens in a rod cell at rest (dark) and in light. (2)",
+     "hints": [
+      "Energy conversion.",
+      "Na⁺ channels."
+     ],
+     "solution": "(i) They convert light energy into electrical energy (nerve impulses) [B1]\n(ii) Dark: Na⁺ channels open, rod depolarised, releases glutamate (inhibiting bipolar cells) [B1]\nLight: rhodopsin bleached, Na⁺ channels close, rod hyperpolarised, glutamate release stops — bipolar cell depolarises [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q5(b)",
+     "subtopic": "Rod cells"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-05b-b",
+     "marks": 3,
+     "prompt": "Describe the role of rhodopsin in the response of a rod cell to light. (3)",
+     "hints": [
+      "Retinal and opsin.",
+      "Bleaching."
+     ],
+     "solution": "Light changes retinal from cis to trans form [B1]\nRhodopsin splits into retinal and opsin (bleaching) [B1]\nOpsin triggers a cascade that closes Na⁺ channels [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q5(b)",
+     "subtopic": "Rhodopsin"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-05b-c",
+     "marks": 3,
+     "prompt": "Give three examples of sensory receptors and the energy each converts. (3)",
+     "hints": [
+      "Light, pressure, temperature.",
+      "Chemicals."
+     ],
+     "solution": "Rods / cones — light [B1]\nPacinian corpuscles — pressure / mechanical [B1]\nThermoreceptors — heat / chemoreceptors — chemical [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q5(b)",
+     "subtopic": "Receptors"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-34b-a",
+     "marks": 6,
+     "prompt": "Compare the actions of the vagus nerve, the sympathetic (accelerator) nerve and adrenaline in controlling heart rate. (6)",
+     "hints": [
+      "Neurotransmitters.",
+      "Speed and duration."
+     ],
+     "solution": "Vagus (parasympathetic) nerve releases acetylcholine at the SAN [B1]\nDecreases heart rate [B1]\nSympathetic nerve releases noradrenaline at the SAN [B1]\nIncreases heart rate and force of contraction [B1]\nAdrenaline is a hormone carried in the blood, increasing heart rate and stroke volume [B1]\nNerves act quickly and briefly; adrenaline is slower but longer lasting and widespread [B1]\nLevel-marked (5–6 marks).",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q34(b)",
+     "subtopic": "Control of heart rate"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-34b-b",
+     "marks": 6,
+     "prompt": "Explain how heart rate is adjusted during exercise. (6)",
+     "hints": [
+      "Receptors, medulla, effectors.",
+      "Stretch receptors."
+     ],
+     "solution": "Muscles respire faster, producing more CO₂, lowering blood pH [B1]\nChemoreceptors detect the fall in pH [B1]\nStretch receptors in muscles detect movement [B1]\nImpulses to the cardiovascular centre in the medulla [B1]\nMore impulses along the sympathetic nerve to the SAN [B1]\nHeart rate increases; adrenaline also released [B1]\nLevel-marked (5–6 marks).",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q34(b)",
+     "subtopic": "Control of heart rate"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-34b-c",
+     "marks": 6,
+     "prompt": "Describe the structure and functions of the autonomic nervous system. (6)",
+     "hints": [
+      "Sympathetic and parasympathetic.",
+      "Ganglia."
+     ],
+     "solution": "Part of the peripheral nervous system controlling involuntary activities [B1]\nTwo divisions — sympathetic and parasympathetic [B1]\nSympathetic: prepares for activity (fight or flight), noradrenaline [B1]\nParasympathetic: rest and digest, acetylcholine [B1]\nOften antagonistic — e.g. heart rate, pupil size [B1]\nMotor pathways have two neurones with a ganglion between [B1]\nLevel-marked (5–6 marks).",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q34(b)",
+     "subtopic": "Autonomic nervous system"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-35b-a",
+     "marks": 4,
+     "prompt": "Describe the clotting cascade, naming the enzyme released by platelets, the soluble protein converted to an insoluble one, and the ion required. (4)",
+     "hints": [
+      "Thromboplastin.",
+      "Fibrinogen."
+     ],
+     "solution": "Damaged tissue and activated platelets release thromboplastin [B1]\nThromboplastin converts prothrombin to thrombin, with calcium ions [B1]\nThrombin converts soluble fibrinogen to insoluble fibrin [B1]\nFibrin mesh traps red blood cells and platelets, forming a clot [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q35(b)",
+     "subtopic": "Blood clotting"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-35b-b",
+     "marks": 4,
+     "prompt": "Explain how anticoagulants such as warfarin and heparin reduce the risk of thrombosis. (4)",
+     "hints": [
+      "Vitamin K.",
+      "Thrombin."
+     ],
+     "solution": "Warfarin blocks the action of vitamin K needed to make clotting factors [B1]\nSo fewer clotting factors are made [B1]\nHeparin inhibits thrombin / activates antithrombin [B1]\nSo fibrin is not formed, reducing clot formation [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q35(b)",
+     "subtopic": "Blood clotting"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-35b-c",
+     "marks": 4,
+     "prompt": "Explain why people with haemophilia bleed for longer, and why it is more common in males. (4)",
+     "hints": [
+      "Clotting factor.",
+      "X-linked."
+     ],
+     "solution": "Faulty allele means a clotting factor (VIII) isn't made [B1]\nCascade can't proceed, so less fibrin forms [B1]\nThe allele is recessive and on the X chromosome [B1]\nMales have one X, so one faulty allele causes the condition [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q35(b)",
+     "subtopic": "Haemophilia"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-35c-a",
+     "marks": 3,
+     "prompt": "(i) Give one advantage and one disadvantage of using plasma to replace blood lost during childbirth. (2)\n(ii) Give one other use of donated plasma. (1)",
+     "hints": [
+      "No blood groups.",
+      "No red cells."
+     ],
+     "solution": "(i) Advantage: no need for blood group matching / contains clotting factors / restores volume [B1]\nDisadvantage: contains no red blood cells, so doesn't restore oxygen-carrying capacity [B1]\n(ii) Extraction of clotting factors / antibodies / albumin for burns patients [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q35(c)",
+     "subtopic": "Blood products"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-35c-b",
+     "marks": 3,
+     "prompt": "Explain why a person with blood group A cannot receive blood from a group B donor. (3)",
+     "hints": [
+      "Antigens and antibodies.",
+      "Agglutination."
+     ],
+     "solution": "Group B red cells carry B antigens [B1]\nGroup A plasma contains anti-B antibodies [B1]\nAntibodies bind the antigens, causing agglutination / clotting [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q35(c)",
+     "subtopic": "Blood groups"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-35c-c",
+     "marks": 3,
+     "prompt": "Explain why donated blood is stored with citrate and kept cool. (3)",
+     "hints": [
+      "Calcium.",
+      "Respiration and bacteria."
+     ],
+     "solution": "Citrate binds calcium ions, preventing clotting [B1]\nCool temperature slows cell metabolism / respiration [B1]\nAnd slows bacterial growth [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q35(c)",
+     "subtopic": "Blood donation"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-04a-a",
+     "marks": 5,
+     "prompt": "Explain how blood glucose concentration is lowered after a meal. (5)",
+     "hints": [
+      "Beta cells.",
+      "GLUT4."
+     ],
+     "solution": "Rise detected by β cells in the islets of Langerhans [B1]\nInsulin secreted into the blood [B1]\nBinds receptors on liver / muscle cells [B1]\nMore glucose channels (GLUT4) in membranes, so more uptake [B1]\nGlucose converted to glycogen (glycogenesis) and respired [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q4(a)",
+     "subtopic": "Blood glucose"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-04a-b",
+     "marks": 5,
+     "prompt": "Explain how blood glucose is raised during fasting. (5)",
+     "hints": [
+      "Alpha cells.",
+      "Second messenger."
+     ],
+     "solution": "Fall detected by α cells [B1]\nGlucagon secreted [B1]\nBinds liver cell receptors; activates adenylyl cyclase → cAMP [B1]\nActivates enzymes for glycogenolysis [B1]\nAnd gluconeogenesis from amino acids / glycerol [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q4(a)",
+     "subtopic": "Blood glucose"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-04a-c",
+     "marks": 5,
+     "prompt": "Compare type 1 and type 2 diabetes in cause and treatment. (5)",
+     "hints": [
+      "Insulin production vs response.",
+      "Diet."
+     ],
+     "solution": "Type 1: β cells destroyed (autoimmune), no insulin [B1]\nTreated with insulin injections [B1]\nType 2: cells less responsive to insulin / less insulin produced [B1]\nLinked to obesity, age, inactivity [B1]\nTreated with diet, exercise, then drugs (e.g. metformin) / insulin [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q4(a)",
+     "subtopic": "Diabetes"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-04b-a",
+     "marks": 3,
+     "prompt": "Explain why control of blood glucose is an example of negative feedback. (3)",
+     "hints": [
+      "Return to set point.",
+      "Change reversed."
+     ],
+     "solution": "A change from the set point is detected [B1]\nResponse reverses the change [B1]\nReturns glucose towards normal, then response stops [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q4(b)",
+     "subtopic": "Negative feedback"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-04b-b",
+     "marks": 3,
+     "prompt": "Give one example of positive feedback in the body and explain why it is not homeostatic. (3)",
+     "hints": [
+      "Childbirth.",
+      "Amplifies."
+     ],
+     "solution": "e.g. oxytocin in childbirth / depolarisation of neurones [B1]\nChange causes further change in the same direction [B1]\nMoves away from, not back to, a set point [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q4(b)",
+     "subtopic": "Positive feedback"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-04b-c",
+     "marks": 3,
+     "prompt": "Explain how a blood glucose biosensor works. (3)",
+     "hints": [
+      "Glucose oxidase.",
+      "Electric current."
+     ],
+     "solution": "Contains immobilised glucose oxidase [B1]\nEnzyme oxidises glucose [B1]\nProduces a current proportional to glucose concentration [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q4(b)",
+     "subtopic": "Glucose testing"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-07a-a",
+     "marks": 6,
+     "prompt": "Describe how the nephron produces urine. (6)",
+     "hints": [
+      "Ultrafiltration.",
+      "Reabsorption."
+     ],
+     "solution": "High pressure in glomerulus forces small molecules into Bowman's capsule [B1]\nBasement membrane acts as filter; proteins and cells stay in blood [B1]\nGlucose reabsorbed in the PCT by co-transport with Na⁺ [B1]\nLoop of Henle creates low water potential in the medulla [B1]\nWater reabsorbed from collecting duct by osmosis [B1]\nControlled by ADH [B1]\nLevel-marked (5–6 marks).",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q7(a)",
+     "subtopic": "Kidney function"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-07a-b",
+     "marks": 6,
+     "prompt": "Explain how the body responds to dehydration. (6)",
+     "hints": [
+      "Osmoreceptors.",
+      "Aquaporins."
+     ],
+     "solution": "Blood water potential falls [B1]\nDetected by osmoreceptors in the hypothalamus [B1]\nMore ADH released from posterior pituitary [B1]\nADH binds collecting duct cells [B1]\nMore aquaporins inserted into membranes [B1]\nMore water reabsorbed — small volume of concentrated urine [B1]\nLevel-marked (5–6 marks).",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q7(a)",
+     "subtopic": "Osmoregulation"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-07a-c",
+     "marks": 6,
+     "prompt": "Explain how cells of the proximal convoluted tubule are adapted for reabsorption. (6)",
+     "hints": [
+      "Microvilli.",
+      "Mitochondria."
+     ],
+     "solution": "Microvilli give a large surface area [B1]\nMany mitochondria provide ATP [B1]\nFor active transport of Na⁺ out into the blood [B1]\nCreating a gradient for co-transport of glucose / amino acids [B1]\nClose to capillaries — short diffusion distance [B1]\nWater follows by osmosis [B1]\nLevel-marked (5–6 marks).",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q7(a)",
+     "subtopic": "Proximal convoluted tubule"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-07b-a",
+     "marks": 4,
+     "prompt": "Explain how haemodialysis removes urea but keeps glucose in the blood. (4)",
+     "hints": [
+      "Partially permeable.",
+      "Countercurrent."
+     ],
+     "solution": "Blood flows past a partially permeable membrane against dialysis fluid [B1]\nDialysis fluid has no urea, so urea diffuses out [B1]\nFluid contains glucose at normal blood concentration [B1]\nSo no net glucose diffusion; countercurrent keeps gradients [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q7(b)",
+     "subtopic": "Dialysis"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-07b-b",
+     "marks": 4,
+     "prompt": "Compare dialysis and kidney transplant as treatments for kidney failure. (4)",
+     "hints": [
+      "Lifestyle.",
+      "Rejection."
+     ],
+     "solution": "Dialysis: frequent sessions, diet restrictions [B1]\nAvailable without waiting for a donor [B1]\nTransplant: normal life and diet, cheaper long term [B1]\nBut shortage of donors, surgery risk and lifelong immunosuppressants [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q7(b)",
+     "subtopic": "Kidney transplant"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-07b-c",
+     "marks": 4,
+     "prompt": "Give causes of kidney failure and explain the effects on the body. (4)",
+     "hints": [
+      "Diabetes, hypertension.",
+      "Urea, fluid."
+     ],
+     "solution": "Causes: diabetes / high blood pressure / infection [B1]\nUrea and waste build up in blood [B1]\nFluid builds up — oedema, high blood pressure [B1]\nIon imbalance (e.g. K⁺) affects heart rhythm [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q7(b)",
+     "subtopic": "Kidney failure"
+    }
+   ]
+  },
+  {
+   "topic": "Scientific literacy and data analysis",
+   "category": "Scientific literacy",
+   "questions": [
+    {
+     "id": "bio-ocrb-2019-p1-28-a",
+     "marks": 1,
+     "prompt": "Brain volume and β-amyloid levels were measured in 50 patients. Name the test for a correlation between them. (1)",
+     "hints": [
+      "Paired data, correlation.",
+      "Ranks."
+     ],
+     "solution": "Spearman's rank correlation coefficient [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q28",
+     "subtopic": "Statistical tests"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-28-b",
+     "marks": 1,
+     "prompt": "Name the test used to compare the means of two measurements taken from the same individuals before and after treatment. (1)",
+     "hints": [
+      "Same individuals.",
+      "t-test."
+     ],
+     "solution": "Paired t-test [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q28",
+     "subtopic": "Statistical tests"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-28-c",
+     "marks": 1,
+     "prompt": "Give one pathological change seen in the brain of a person with Alzheimer's disease. (1)",
+     "hints": [
+      "Plaques.",
+      "Tangles."
+     ],
+     "solution": "β-amyloid plaques between neurones / neurofibrillary tangles of tau inside neurones / loss of neurones [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q28",
+     "subtopic": "Alzheimer's disease"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-32c-a",
+     "marks": 3,
+     "prompt": "As soil water content fell over 6 days, ABA in leaves rose and stomatal opening fell. Discuss whether these data show that dry soil promotes ABA synthesis, causing stomata to close. (3)",
+     "hints": [
+      "Correlation.",
+      "Other variables."
+     ],
+     "solution": "Data show a correlation between drying soil, more ABA and stomatal closure [B1]\nBut correlation doesn't prove causation / where ABA was made isn't shown [B1]\nOther factors may change (e.g. leaf water potential); need experiments adding ABA / sample size [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q32(c)",
+     "subtopic": "Evaluating claims"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-32c-b",
+     "marks": 3,
+     "prompt": "Describe an experiment to test whether ABA causes stomatal closure. (3)",
+     "hints": [
+      "Apply ABA directly.",
+      "Control."
+     ],
+     "solution": "Apply ABA solution to leaves of well-watered plants; apply water to controls [B1]\nMeasure stomatal aperture (nail varnish peels) or water loss after a set time [B1]\nControl other variables; repeat with several plants and compare statistically [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q32(c)",
+     "subtopic": "Experimental design"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-32c-c",
+     "marks": 3,
+     "prompt": "Explain the difference between a correlation and a causal relationship. (3)",
+     "hints": [
+      "Pattern vs mechanism.",
+      "Controlled experiments."
+     ],
+     "solution": "A correlation is a relationship where two variables change together [B1]\nA causal relationship means a change in one directly causes the change in the other [B1]\nCausation needs a controlled experiment / known mechanism; a third factor may cause both [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q32(c)",
+     "subtopic": "Correlation"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-34b-a",
+     "marks": 6,
+     "prompt": "Outline a method to investigate the effect of a fitness training programme on the estimated VO₂ max of school students. (6)",
+     "hints": [
+      "Before and after.",
+      "Control group."
+     ],
+     "solution": "Measure resting and maximum heart rate (e.g. after a bleep test) before the programme [B1]\nCalculate estimated VO₂ max [B1]\nOne group follows the training programme for several weeks; a control group does not [B1]\nGroups matched for age, sex, initial fitness; large sample [B1]\nRepeat measurements at the end under the same conditions [B1]\nCompare change using a paired / unpaired t-test; ethical considerations (consent, health) [B1]\nLevel-marked (5–6 marks).",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q34(b)",
+     "subtopic": "Planning investigations"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-34b-b",
+     "marks": 6,
+     "prompt": "Explain the physiological changes that increase VO₂ max with endurance training. (6)",
+     "hints": [
+      "Heart, lungs, muscles.",
+      "Blood."
+     ],
+     "solution": "Cardiac muscle enlarges — greater stroke volume and cardiac output [B1]\nLower resting heart rate [B1]\nMore capillaries in muscles [B1]\nMore mitochondria and myoglobin in muscle fibres [B1]\nIncreased blood volume / red blood cells [B1]\nStronger respiratory muscles / better ventilation [B1]\nLevel-marked (5–6 marks).",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q34(b)",
+     "subtopic": "Training effects"
+    },
+    {
+     "id": "bio-ocrb-2019-p1-34b-c",
+     "marks": 6,
+     "prompt": "Discuss the ethical issues of carrying out exercise investigations on school students. (6)",
+     "hints": [
+      "Consent.",
+      "Safety and data."
+     ],
+     "solution": "Informed consent needed — parental consent for under-16s [B1]\nRight to withdraw at any time [B1]\nHealth screening — exclude students with heart or asthma conditions [B1]\nRisk of injury / overexertion — supervision needed [B1]\nConfidentiality of data [B1]\nAvoid pressure on students; activities appropriate for age [B1]\nLevel-marked (5–6 marks).",
+     "year": "June 2019",
+     "paper": "OCR B Paper 1 Q34(b)",
+     "subtopic": "Ethics in research"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-01d-a",
+     "marks": 4,
+     "prompt": "Evaluate studying a large group of people with an early-stage condition to see who progresses to cancer, compared with studying family pedigrees. (4)",
+     "hints": [
+      "Sample size vs genetic link.",
+      "Time."
+     ],
+     "solution": "Large group: more data, can identify environmental and genetic risk factors statistically [B1]\nBut takes many years / expensive / loss of participants [B1]\nPedigree analysis shows inheritance patterns within families [B1]\nBut small numbers; shared environment confounds; can't separate genes and environment easily [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q1(d)",
+     "subtopic": "Research methods"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-01d-b",
+     "marks": 4,
+     "prompt": "Compare cohort studies and case-control studies. (4)",
+     "hints": [
+      "Forwards vs backwards.",
+      "Rare diseases."
+     ],
+     "solution": "Cohort: follows a group over time to see who develops the disease [B1]\nGood for showing risk factors, but slow and expensive [B1]\nCase-control: compares people with the disease to matched people without, looking back at exposures [B1]\nQuicker, good for rare diseases, but relies on memory / records — bias [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q1(d)",
+     "subtopic": "Study designs"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-01d-c",
+     "marks": 4,
+     "prompt": "Explain how a pedigree can show whether a condition is caused by a dominant or recessive allele. (4)",
+     "hints": [
+      "Skipping generations.",
+      "Unaffected parents."
+     ],
+     "solution": "Recessive: can skip generations [B1]\nTwo unaffected parents can have an affected child [B1]\nDominant: every affected person has at least one affected parent [B1]\nTwo affected parents can have an unaffected child [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q1(d)",
+     "subtopic": "Pedigree analysis"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-03b-a",
+     "marks": 5,
+     "prompt": "MMP activity was much higher in grade III (most severe) breast tumours than in other grades (p < 0.0001).\n\n(i) State a null hypothesis. (1)\n(ii) Use \"probability\" and \"chance\" to state the conclusion. (1)\n(iii) Evaluate the hypothesis that MMP activity increases cancer severity. (3)",
+     "hints": [
+      "No difference.",
+      "Correlation vs cause."
+     ],
+     "solution": "(i) There is no difference in MMP activity between grade III tumours and other tumours [B1]\n(ii) The probability that the difference is due to chance is less than 0.01 %, so reject the null hypothesis [B1]\n(iii) Supports a link — higher MMP in more severe tumours [B1]\nBut correlation; severe tumours might produce more MMP rather than MMP causing severity [B1]\nSample size / variation within grades not known; mechanism plausible (MMPs break down ECM, allowing spread) [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q3(b)",
+     "subtopic": "Hypothesis testing"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-03b-b",
+     "marks": 5,
+     "prompt": "Explain what p < 0.05 means and why biologists use 0.05 as the significance level. (5)",
+     "hints": [
+      "Probability due to chance.",
+      "Type I errors."
+     ],
+     "solution": "p is the probability that the results are due to chance [B1]\np < 0.05 means less than 5 % probability that the difference is due to chance [B1]\nSo the null hypothesis is rejected and the result is significant [B1]\n0.05 balances the risk of wrongly rejecting a true null hypothesis [B1]\nAgainst missing a real effect [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q3(b)",
+     "subtopic": "Significance"
+    },
+    {
+     "id": "bio-ocrb-2019-p2-03b-c",
+     "marks": 5,
+     "prompt": "Explain how tumours spread to other parts of the body (metastasis), and why MMPs might be involved. (5)",
+     "hints": [
+      "Breaking out of tissue.",
+      "Blood and lymph."
+     ],
+     "solution": "Malignant cells detach from the primary tumour [B1]\nMMPs digest the extracellular matrix and basement membrane [B1]\nCells invade surrounding tissue and enter blood / lymph vessels [B1]\nCarried to other organs, forming secondary tumours [B1]\nInhibiting MMPs could slow spread [B1]",
+     "year": "June 2019",
+     "paper": "OCR B Paper 2 Q3(b)",
+     "subtopic": "Cancer"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-32b-a",
+     "marks": 4,
+     "prompt": "150 women using HRT and 150 not using HRT rated their perceived risk of breast cancer and uterine cancer from 1 to 10. Both groups rated breast cancer risk higher than uterine cancer risk, and HRT users rated both risks lower than non-users.\n\nDraw conclusions and suggest reasons for the differences. (4)",
+     "hints": [
+      "Compare groups.",
+      "Bias."
+     ],
+     "solution": "Both groups perceive breast cancer as a greater risk than uterine cancer [B1]\nHRT users perceive lower risks than non-users [B1]\nUsers may have been informed by doctors / chose HRT because they think risks are low [B1]\nPerceived risk is subjective — may not reflect actual risk; non-users may avoid HRT due to fears [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q32(b)",
+     "subtopic": "Questionnaire data"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-32b-b",
+     "marks": 4,
+     "prompt": "Give advantages and disadvantages of using questionnaires in health research. (4)",
+     "hints": [
+      "Large samples.",
+      "Bias."
+     ],
+     "solution": "Cheap and quick to collect data from many people [B1]\nCan collect information about opinions and lifestyle [B1]\nResponses may be dishonest / affected by memory [B1]\nSelf-selection bias; questions may be leading [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q32(b)",
+     "subtopic": "Questionnaires"
+    },
+    {
+     "id": "bio-ocrb-2022-p1-32b-c",
+     "marks": 4,
+     "prompt": "Discuss the benefits and risks of hormone replacement therapy. (4)",
+     "hints": [
+      "Symptoms and bones.",
+      "Cancer and clots."
+     ],
+     "solution": "Benefit: relieves menopausal symptoms (hot flushes) [B1]\nBenefit: reduces osteoporosis risk [B1]\nRisk: slightly increased risk of breast cancer [B1]\nRisk: increased risk of blood clots / stroke [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 1 Q32(b)",
+     "subtopic": "HRT"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-01b-b",
+     "marks": 4,
+     "prompt": "Describe how a trial of sodium bicarbonate on athletic performance should be designed so its results are valid. (4)",
+     "hints": [
+      "Placebo.",
+      "Double blind."
+     ],
+     "solution": "Use a placebo (e.g. salt solution) for comparison [B1]\nDouble blind so neither athletes nor researchers know who had which [B1]\nCrossover design — same athletes test both, in random order [B1]\nLarge sample; control diet, rest and conditions [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q1(b)",
+     "subtopic": "Trial design"
+    },
+    {
+     "id": "bio-ocrb-2022-p2-01b-c",
+     "marks": 4,
+     "prompt": "Mean 400 m times with bicarbonate and placebo differed by 0.5 s, but the standard deviations were about 1.2 s. Evaluate the claim that bicarbonate improves performance. (4)",
+     "hints": [
+      "Overlap.",
+      "Statistical test."
+     ],
+     "solution": "Bicarbonate gave a faster mean time [B1]\nBut SDs are large relative to the difference — data overlap [B1]\nThe difference may not be significant [B1]\nA statistical test (e.g. paired t-test) is needed; small samples reduce confidence [B1]",
+     "year": "June 2022",
+     "paper": "OCR B Paper 2 Q1(b)",
+     "subtopic": "Evaluating data"
+    }
+   ]
+  }
+ ]
+}
