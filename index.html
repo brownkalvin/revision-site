@@ -130,6 +130,31 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline
 .admin-qid{font-size:.75rem;color:var(--sub);margin-bottom:6px;overflow-wrap:anywhere;}
 .admin-qid code{font-size:.75rem;user-select:all;}
 .admin-preview{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line);}
+.bank-total{display:flex;gap:18px;flex-wrap:wrap;margin:0 0 12px;}
+.bank-total div{display:flex;flex-direction:column;}
+.bank-total strong{font-size:1.4rem;line-height:1.1;}
+.bank-total span{font-size:.72rem;color:var(--sub);text-transform:uppercase;letter-spacing:.04em;}
+.bank-group{margin-top:14px;}
+.bank-group-head{display:flex;justify-content:space-between;gap:10px;font-weight:800;font-size:.9rem;padding:6px 0;border-bottom:2px solid var(--line);}
+.bank-sub{border-bottom:1px solid var(--line);}
+.bank-sub>summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 2px;}
+.bank-sub>summary::-webkit-details-marker{display:none;}
+.bank-sub>summary::before{content:"›";display:inline-block;width:.8em;transition:transform .12s;color:var(--sub);}
+.bank-sub[open]>summary::before{transform:rotate(90deg);}
+.bank-name{flex:1;font-weight:600;font-size:.92rem;}
+.bank-num{font-weight:700;white-space:nowrap;text-align:right;font-size:.9rem;}
+.bank-num small{display:block;font-weight:400;color:var(--sub);font-size:.72rem;}
+.bank-body{padding:0 0 10px 14px;}
+.bank-cat{display:flex;justify-content:space-between;gap:10px;font-weight:700;font-size:.85rem;margin:10px 0 2px;padding-bottom:3px;border-bottom:1px dashed var(--line);}
+.bank-topic{display:flex;justify-content:space-between;gap:10px;font-size:.84rem;padding:3px 0;}
+.bank-topic.empty{color:var(--bad);}
+.bank-tags{display:flex;flex-wrap:wrap;gap:4px;margin:4px 0 2px;}
+.bank-tags .pill{margin-left:0;}
+.bank-zero{color:var(--bad);}
+.bank-secsum{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:8px;margin:2px 0 8px;}
+.bank-secsum div{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:8px 10px;display:flex;flex-direction:column;}
+.bank-secsum strong{font-size:1.15rem;line-height:1.1;}
+.bank-secsum span{font-size:.74rem;color:var(--sub);}
 .uname-status{font-size:.8rem;min-height:1.1em;margin:-4px 0 2px;color:var(--sub);}
 .uname-status.ok{color:var(--good);} .uname-status.err{color:var(--bad);}
 .uname-help{font-size:.76rem;color:var(--sub);margin-bottom:4px;}
@@ -1159,6 +1184,7 @@ function renderAdmin(){
       <div class="sub" style="margin:0 0 10px;">Questions only earn coins once the server knows about them. ${admin.catalogCount===null||admin.catalogCount===undefined ? "" : `The server knows <strong>${admin.catalogCount}</strong> question${admin.catalogCount===1?"":"s"}; the site has <strong>${siteQuestionItems().length}</strong>.`} Press this after uploading new or changed question files.</div>
       <button class="btn-ghost" id="syncCatalogBtn">Update coin question list</button>
     </div>
+    ${questionBankHtml()}
     <h3>Reported questions</h3>
     <div class="auth-tabs admin-tabs">${tabs}</div>
     <div style="margin-bottom:12px;"><button class="link-btn" id="adminRefreshBtn">Refresh</button></div>
@@ -1197,6 +1223,63 @@ async function safetyAction(fn, args, msg){
   catch(e){ state.toast = { message:socialErr(e), showUndo:false }; }
   await loadSafetyReports(); render();
   setTimeout(()=>{ state.toast = null; if(state.screen==="admin") render(); }, 2500);
+}
+// Admin: how many questions each subject / exam board has, split by section and topic.
+function bankStats(sid){
+  const bank = SUBJECT_BANKS[sid]; if(!bank) return null;
+  const st = { q:0, m:0, topics:0, filled:0, easy:0, medium:0, hard:0, calc:0, noncalc:0, typed:0, diagrams:0, cats:{} };
+  bank.forEach(t=>{
+    const cat = t.category || "General";
+    const c = st.cats[cat] || (st.cats[cat] = { q:0, m:0, topics:[] });
+    const qs = t.questions || [];
+    const marks = qs.reduce((n,q)=>n+(Math.max(1, parseInt(q.marks)||1)), 0);
+    c.q += qs.length; c.m += marks; c.topics.push({ name:t.topic, q:qs.length, m:marks });
+    st.q += qs.length; st.m += marks; st.topics++; if(qs.length) st.filled++;
+    qs.forEach(q=>{
+      st[difficultyOf(q.marks||1, sid).key]++;
+      if(q.calculator===true) st.calc++; else if(q.calculator===false) st.noncalc++;
+      if(answerSpec(q)) st.typed++;
+      if(q.diagram || q.table) st.diagrams++;
+    });
+  });
+  return st;
+}
+function questionBankHtml(){
+  let gq = 0, gm = 0, gt = 0, gf = 0;
+  const groups = [...new Set(SUBJECTS.map(s=>s.group))].map(g=>{
+    const subs = SUBJECTS.filter(s=>s.group===g);
+    let groupQ = 0;
+    const rows = subs.map(s=>{
+      const st = bankStats(s.id);
+      const board = (s.name.match(/\(([^)]*)\)\s*$/)||[])[1] || s.name;
+      if(!st) return `<div class="bank-sub"><div style="display:flex;justify-content:space-between;padding:10px 2px;"><span class="bank-name">${esc(board)}</span><span class="bank-num bank-zero">${bankErrors[s.id] ? "Couldn't load file" : "Loading…"}</span></div></div>`;
+      groupQ += st.q; gq += st.q; gm += st.m; gt += st.topics; gf += st.filled;
+      const tags = [
+        `<span class="pill">Easy ${st.easy}</span>`, `<span class="pill">Medium ${st.medium}</span>`, `<span class="pill">Hard ${st.hard}</span>`,
+        isGcseMaths(s.id) ? `<span class="pill">🧮 ${st.calc}</span><span class="pill">✏️ ${st.noncalc}</span>` : "",
+        isGcseMaths(s.id) && st.q ? `<span class="pill">Typed answer ${st.typed}/${st.q}</span>` : "",
+        st.diagrams ? `<span class="pill">Diagram/table ${st.diagrams}</span>` : ""
+      ].join("");
+      const cats = Object.entries(st.cats).map(([cat, c])=>`
+        <div class="bank-cat"><span>${esc(cat)}</span><span>${c.q} question${c.q===1?"":"s"} · ${c.m} marks</span></div>
+        ${c.topics.map(t=>`<div class="bank-topic${t.q ? "" : " empty"}"><span>${esc(t.name)}</span><span>${t.q ? `${t.q} q · ${t.m} marks` : "None yet"}</span></div>`).join("")}`).join("");
+      return `<details class="bank-sub"><summary>
+          <span class="bank-name">${esc(board)}<br><span class="qlist-topic">${st.filled}/${st.topics} topics have questions</span></span>
+          <span class="bank-num${st.q ? "" : " bank-zero"}">${st.q} questions<small>${st.m} marks</small></span>
+        </summary><div class="bank-body">${Object.keys(st.cats).length ? `<div class="bank-secsum">${Object.entries(st.cats).map(([cat, c])=>`<div><strong>${c.q}</strong><span>${esc(CATEGORY_SHORT[cat] || cat)}</span></div>`).join("")}</div>` : ""}<div class="bank-tags">${tags}</div>${cats || `<div class="sub" style="margin:6px 0 0;">No topics in this file.</div>`}</div></details>`;
+    }).join("");
+    return `<div class="bank-group"><div class="bank-group-head"><span>${esc(g)}</span><span>${groupQ} questions</span></div>${rows}</div>`;
+  }).join("");
+  return `<div class="card"><h2 style="font-size:1rem;">Question bank</h2>
+    <div class="bank-total">
+      <div><strong>${gq}</strong><span>Questions</span></div>
+      <div><strong>${gm}</strong><span>Marks</span></div>
+      <div><strong>${gf}/${gt}</strong><span>Topics filled</span></div>
+      <div><strong>${SUBJECTS.length}</strong><span>Courses</span></div>
+    </div>
+    <div class="sub" style="margin:0;">Tap a course to see each section and topic. Built-in questions only (not ones students add themselves). Topics in red have no questions yet.</div>
+    ${groups}
+  </div>`;
 }
 function siteQuestionItems(){
   const out = [];
