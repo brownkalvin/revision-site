@@ -108,19 +108,6 @@
     "subtopic": "Biochemical tests"
    },
    {
-    "id": "bio-p1-2019-10.3-b",
-    "marks": 5,
-    "prompt": "Compare and contrast the structures of starch, glycogen and cellulose. (5)",
-    "hints": [
-     "Which isomer of glucose does each use?",
-     "Which are branched?"
-    ],
-    "solution": "All are polysaccharides made of glucose joined by glycosidic bonds [B1]\nStarch and glycogen are made of α-glucose; cellulose of β-glucose [B1]\nGlycogen is more highly branched than amylopectin (1-4 and 1-6 bonds) [B1]\nAmylose is unbranched and helical [B1]\nCellulose forms straight chains linked by hydrogen bonds into microfibrils. [B1]",
-    "year": "June 2019",
-    "paper": "AQA Paper 1 Q10.3",
-    "subtopic": "Polysaccharides"
-   },
-   {
     "id": "bio-p1-2019-10.3-c",
     "marks": 5,
     "prompt": "Describe how glycogen is made from glucose and how glucose is released from glycogen. (5)",
@@ -4035,19 +4022,6 @@
     "subtopic": "Magnification"
    },
    {
-    "id": "bio-p3-2017-02.2-c",
-    "marks": 2,
-    "prompt": "A bacterium is 20 mm long in an image at ×10 000. A virus is 40 mm long at ×200 000. Calculate how many times longer the bacterium is than the virus. (2)",
-    "hints": [
-     "Actual size of each.",
-     "Ratio."
-    ],
-    "solution": "Bacterium = 20 ÷ 10 000 = 2 µm; virus = 40 ÷ 200 000 = 0.2 µm [M1]\n2 ÷ 0.2 = 10 times. [A1]",
-    "year": "June 2017",
-    "paper": "AQA Paper 3 Q02.2",
-    "subtopic": "Magnification"
-   },
-   {
     "id": "bio-p3-2018-04.5-a",
     "marks": 1,
     "prompt": "A stain made cell nuclei appear dark blue. Explain how this allowed white cells to be counted among red cells. (1)",
@@ -4251,32 +4225,6 @@
      "Image ÷ actual."
     ],
     "solution": "25 000 µm ÷ 1 µm = ×25 000. [B1]",
-    "year": "Specimen",
-    "paper": "AQA Paper 3 Q02.4",
-    "subtopic": "Magnification"
-   },
-   {
-    "id": "bio-p3-spec-02.4-b",
-    "marks": 1,
-    "prompt": "A scale bar representing 2 µm measures 40 mm on an image. Calculate the magnification. (1)",
-    "hints": [
-     "40 mm = 40 000 µm.",
-     "Divide."
-    ],
-    "solution": "40 000 ÷ 2 = ×20 000. [B1]",
-    "year": "Specimen",
-    "paper": "AQA Paper 3 Q02.4",
-    "subtopic": "Magnification"
-   },
-   {
-    "id": "bio-p3-spec-02.4-c",
-    "marks": 1,
-    "prompt": "A scale bar representing 0.5 µm measures 15 mm on an image. Calculate the magnification. (1)",
-    "hints": [
-     "15 000 µm.",
-     "Divide."
-    ],
-    "solution": "15 000 ÷ 0.5 = ×30 000. [B1]",
     "year": "Specimen",
     "paper": "AQA Paper 3 Q02.4",
     "subtopic": "Magnification"
@@ -4748,19 +4696,6 @@
     "subtopic": "Root tip squash"
    },
    {
-    "id": "bio-p3-2022-03.1-b",
-    "marks": 2,
-    "prompt": "Explain why a stain such as toluidine blue is used in a root tip squash. (2)",
-    "hints": [
-     "Chromosomes are colourless.",
-     "Contrast."
-    ],
-    "solution": "Stains DNA / chromosomes [B1]\nSo chromosomes are visible and stages can be identified. [B1]",
-    "year": "June 2022",
-    "paper": "AQA Paper 3 Q03.1",
-    "subtopic": "Root tip squash"
-   },
-   {
     "id": "bio-p3-2022-03.1-c",
     "marks": 2,
     "prompt": "Explain why root tips are used to observe mitosis. (2)",
@@ -4850,32 +4785,6 @@
     "year": "June 2022",
     "paper": "AQA Paper 3 Q03.3",
     "subtopic": "Stages of mitosis"
-   },
-   {
-    "id": "bio-p3-2022-03.4-a",
-    "marks": 1,
-    "prompt": "In a field of view, 8 of 40 cells were in mitosis. Calculate the mitotic index. (1)",
-    "hints": [
-     "Cells in mitosis ÷ total.",
-     "As a decimal or %."
-    ],
-    "solution": "8 ÷ 40 = 0.2 (20%). [B1]",
-    "year": "June 2022",
-    "paper": "AQA Paper 3 Q03.4",
-    "subtopic": "Mitotic index"
-   },
-   {
-    "id": "bio-p3-2022-03.4-b",
-    "marks": 1,
-    "prompt": "In a field of view, 15 of 50 cells were in mitosis. Calculate the mitotic index. (1)",
-    "hints": [
-     "Divide.",
-     "Decimal."
-    ],
-    "solution": "15 ÷ 50 = 0.3 (30%). [B1]",
-    "year": "June 2022",
-    "paper": "AQA Paper 3 Q03.4",
-    "subtopic": "Mitotic index"
    },
    {
     "id": "bio-p3-2022-03.4-c",
@@ -6948,19 +6857,6 @@
     "subtopic": "Humoral response"
    },
    {
-    "id": "bio-p3-2020-03.4-c",
-    "marks": 3,
-    "prompt": "Explain why the secondary immune response is faster and larger than the primary response. (3)",
-    "hints": [
-     "Memory cells.",
-     "Clonal expansion."
-    ],
-    "solution": "Memory cells already present that recognise the antigen [B1]\nThey divide rapidly into plasma cells [B1]\nSo more antibodies produced quickly, before symptoms appear. [B1]",
-    "year": "June 2020",
-    "paper": "AQA Paper 3 Q03.4",
-    "subtopic": "Immune response"
-   },
-   {
     "id": "bio-p3-2021-02.1-c",
     "marks": 4,
     "prompt": "Explain why antibiotics are not effective against HIV, and how antiretroviral drugs work. (4)",
@@ -7204,19 +7100,6 @@
      "÷ 6000 cm³."
     ],
     "solution": "5000 × 1500 × 86 400 = 6.48 × 10¹¹ [M1]\n÷ 6000 = 1.08 × 10⁸ per cm³. [A1]",
-    "year": "June 2025",
-    "paper": "AQA Paper 3 Q04.3",
-    "subtopic": "Antibodies"
-   },
-   {
-    "id": "bio-p3-2025-04.3-c",
-    "marks": 2,
-    "prompt": "2000 plasma cells each make 2500 antibody molecules per second. Blood volume is 4.5 dm³. Calculate the number of antibody molecules per cm³ of blood after 6 hours. (2)",
-    "hints": [
-     "21 600 s.",
-     "÷ 4500 cm³."
-    ],
-    "solution": "2000 × 2500 × 21 600 = 1.08 × 10¹¹ [M1]\n÷ 4500 = 2.4 × 10⁷ per cm³. [A1]",
     "year": "June 2025",
     "paper": "AQA Paper 3 Q04.3",
     "subtopic": "Antibodies"
@@ -9160,19 +9043,6 @@
     "subtopic": "Blood vessels"
    },
    {
-    "id": "bio-p1-2021-04.2-c",
-    "marks": 2,
-    "prompt": "Explain why veins have valves but arteries (other than at the heart) do not. (2)",
-    "hints": [
-     "Compare blood pressure in each.",
-     "What could happen to blood in veins?"
-    ],
-    "solution": "Blood pressure in veins is low [B1]\nValves prevent backflow; in arteries high pressure keeps blood moving forwards. [B1]",
-    "year": "June 2021",
-    "paper": "AQA Paper 1 Q04.2",
-    "subtopic": "Blood vessels"
-   },
-   {
     "id": "bio-p1-2022-08.4-a",
     "marks": 2,
     "prompt": "Give two differences between the circulatory system of a fish and that of a mammal. (2)",
@@ -9600,19 +9470,6 @@
     "year": "June 2020",
     "paper": "AQA Paper 3 Q04.4",
     "subtopic": "Tissue fluid"
-   },
-   {
-    "id": "bio-p3-2020-06.1-a",
-    "marks": 2,
-    "prompt": "Describe the advantage of the Bohr effect during intense exercise. (2)",
-    "hints": [
-     "More CO₂ — affinity?",
-     "Where is oxygen needed?"
-    ],
-    "solution": "Higher CO₂ / lower pH reduces haemoglobin's affinity for oxygen [B1]\nMore oxygen unloaded to respiring muscles. [B1]",
-    "year": "June 2020",
-    "paper": "AQA Paper 3 Q06.1",
-    "subtopic": "Bohr effect"
    },
    {
     "id": "bio-p3-2020-06.1-b",
@@ -10641,19 +10498,6 @@
     "year": "June 2017",
     "paper": "AQA Paper 3 Q05.1",
     "subtopic": "DNA replication"
-   },
-   {
-    "id": "bio-p3-2017-05.1-c",
-    "marks": 2,
-    "prompt": "Explain why DNA replication is described as semi-conservative. (2)",
-    "hints": [
-     "What happens to each original strand?",
-     "What is in each new molecule?"
-    ],
-    "solution": "Each original strand acts as a template [B1]\nEach new molecule contains one original strand and one new strand. [B1]",
-    "year": "June 2017",
-    "paper": "AQA Paper 3 Q05.1",
-    "subtopic": "DNA replication"
    }
   ]
  },
@@ -10725,19 +10569,6 @@
     "year": "June 2017",
     "paper": "AQA Paper 1 Q01.3",
     "subtopic": "Protein synthesis: translation"
-   },
-   {
-    "id": "bio-p1-2017-01.3-c",
-    "marks": 1,
-    "prompt": "A DNA template strand has the base sequence\n\nT A C G G A C T T A A G\n\nGive the base sequence of the mRNA transcribed from this strand. (1)",
-    "hints": [
-     "mRNA is complementary to the template strand.",
-     "Remember A in DNA pairs with U in RNA."
-    ],
-    "solution": "A U G C C U G A A U U C [B1]\n\nModel answer:\nT→A, A→U, C→G, G→C.\nmRNA: AUG CCU GAA UUC",
-    "year": "June 2017",
-    "paper": "AQA Paper 1 Q01.3",
-    "subtopic": "Protein synthesis: transcription"
    },
    {
     "id": "bio-p1-2017-01.4-a",
@@ -11314,19 +11145,6 @@
     "year": "Specimen",
     "paper": "AQA Paper 2 Q10.3",
     "subtopic": "tRNA"
-   },
-   {
-    "id": "bio-p2-spec-10.3-c",
-    "marks": 3,
-    "prompt": "Describe two differences between tRNA and mRNA. (3)",
-    "hints": [
-     "Shape.",
-     "Amino acid binding site."
-    ],
-    "solution": "tRNA is clover-leaf shaped; mRNA is linear [B1]\ntRNA has hydrogen bonds between base pairs; mRNA doesn't [B1]\ntRNA has an amino acid binding site and anticodon; mRNA has codons. [B1]",
-    "year": "Specimen",
-    "paper": "AQA Paper 2 Q10.3",
-    "subtopic": "RNA"
    }
   ]
  },
@@ -11629,19 +11447,6 @@
      "How many cells are formed?"
     ],
     "solution": "Homologous chromosomes separate (in anaphase I) [B1]\nOne chromosome of each pair goes to each new cell [B1]\nEach chromosome still has two chromatids, but there are half as many chromosomes per cell. [B1]",
-    "year": "Specimen",
-    "paper": "AQA Paper 1 Q10.3",
-    "subtopic": "DNA content in meiosis"
-   },
-   {
-    "id": "bio-p1-spec-10.3-b",
-    "marks": 3,
-    "prompt": "Explain why the DNA content per cell halves at the end of meiosis II. (3)",
-    "hints": [
-     "What separates in anaphase II?",
-     "Where do they go?"
-    ],
-    "solution": "Centromeres divide [B1]\nSister chromatids separate and move to opposite poles [B1]\nEach new cell receives one chromatid of each chromosome. [B1]",
     "year": "Specimen",
     "paper": "AQA Paper 1 Q10.3",
     "subtopic": "DNA content in meiosis"
@@ -13194,19 +12999,6 @@
      "Both are counts of organisms."
     ],
     "solution": "N = total number of organisms of all species; n = number of organisms of each species. [B1]",
-    "year": "June 2019",
-    "paper": "AQA Paper 1 Q03.1",
-    "subtopic": "Index of diversity"
-   },
-   {
-    "id": "bio-p1-2019-03.1-b",
-    "marks": 1,
-    "prompt": "A sample contained 10 individuals of species A, 5 of species B and 5 of species C. Calculate the index of diversity using d = N(N − 1) ÷ Σn(n − 1). (1)",
-    "hints": [
-     "N = 20.",
-     "Σn(n − 1) = 10×9 + 5×4 + 5×4."
-    ],
-    "solution": "2.92 (380 ÷ 130). [B1]\n\nModel answer:\nN(N − 1) = 20 × 19 = 380\nΣn(n − 1) = 90 + 20 + 20 = 130\nd = 380 ÷ 130 = 2.92",
     "year": "June 2019",
     "paper": "AQA Paper 1 Q03.1",
     "subtopic": "Index of diversity"
@@ -15565,19 +15357,6 @@
      "Coenzyme A."
     ],
     "solution": "CO₂; NAD; reduced NAD; coenzyme A (forming acetyl coenzyme A). [B2]\n4 correct = 2 marks; 2 or 3 correct = 1 mark.",
-    "year": "June 2023",
-    "paper": "AQA Paper 3 Q02.5",
-    "subtopic": "Link reaction"
-   },
-   {
-    "id": "bio-p3-2023-02.5-b",
-    "marks": 2,
-    "prompt": "Describe the link reaction. (2)",
-    "hints": [
-     "Where?",
-     "Products."
-    ],
-    "solution": "Pyruvate is decarboxylated (CO₂ removed) and oxidised (NAD reduced) in the mitochondrial matrix [B1]\nAcetate combines with coenzyme A to form acetyl coenzyme A. [B1]",
     "year": "June 2023",
     "paper": "AQA Paper 3 Q02.5",
     "subtopic": "Link reaction"
@@ -18358,19 +18137,6 @@
     "subtopic": "Inhibitory synapses"
    },
    {
-    "id": "bio-p2-2024-01.3-c",
-    "marks": 2,
-    "prompt": "Explain what is meant by spatial summation at a synapse. (2)",
-    "hints": [
-     "How many presynaptic neurones?",
-     "What adds together?"
-    ],
-    "solution": "Several presynaptic neurones release neurotransmitter onto one postsynaptic neurone [B1]\nThe combined effect reaches threshold and triggers an action potential. [B1]",
-    "year": "June 2024",
-    "paper": "AQA Paper 2 Q01.3",
-    "subtopic": "Summation"
-   },
-   {
     "id": "bio-p2-2025-06.1-a",
     "marks": 2,
     "prompt": "Name the parts of a myelinated motor neurone: the part containing the nucleus, the cells that form the myelin sheath, the gaps in the myelin, and the long process carrying impulses away from the cell body. (2)",
@@ -18551,19 +18317,6 @@
     "year": "Specimen",
     "paper": "AQA Paper 2 Q04.4",
     "subtopic": "Saltatory conduction"
-   },
-   {
-    "id": "bio-p2-spec-04.4-b",
-    "marks": 2,
-    "prompt": "Explain the refractory period and its importance. (2)",
-    "hints": [
-     "Can another action potential occur immediately?",
-     "Effects on direction and frequency."
-    ],
-    "solution": "Period after an action potential when sodium channels are closed / can't open [B1]\nEnsures impulses travel in one direction / are discrete / limits frequency. [B1]",
-    "year": "Specimen",
-    "paper": "AQA Paper 2 Q04.4",
-    "subtopic": "Refractory period"
    },
    {
     "id": "bio-p2-spec-04.4-c",
@@ -19013,32 +18766,6 @@
     "year": "June 2020",
     "paper": "AQA Paper 2 Q04.1",
     "subtopic": "Sarcomere"
-   },
-   {
-    "id": "bio-p2-2023-10.1-a",
-    "marks": 2,
-    "prompt": "Describe the roles of ATP in muscle contraction. (2)",
-    "hints": [
-     "What happens to the myosin head?",
-     "How is calcium removed?"
-    ],
-    "solution": "Hydrolysis of ATP releases energy to move the myosin head (power stroke) / ATP binding detaches myosin from actin [B1]\nEnergy for active transport of calcium ions back into the sarcoplasmic reticulum. [B1]",
-    "year": "June 2023",
-    "paper": "AQA Paper 2 Q10.1",
-    "subtopic": "Sliding filament"
-   },
-   {
-    "id": "bio-p2-2023-10.1-b",
-    "marks": 2,
-    "prompt": "Describe the role of calcium ions in muscle contraction. (2)",
-    "hints": [
-     "What blocks the binding sites on actin?",
-     "Which enzyme do they activate?"
-    ],
-    "solution": "Calcium ions bind to tropomyosin (troponin) and cause it to move, exposing binding sites on actin [B1]\nCalcium ions activate ATPase (ATP hydrolysis). [B1]",
-    "year": "June 2023",
-    "paper": "AQA Paper 2 Q10.1",
-    "subtopic": "Sliding filament"
    },
    {
     "id": "bio-p2-2023-10.1-c",
@@ -19721,19 +19448,6 @@
     "year": "June 2021",
     "paper": "AQA Paper 2 Q05.2",
     "subtopic": "Type II diabetes"
-   },
-   {
-    "id": "bio-p2-2021-05.3-a",
-    "marks": 3,
-    "prompt": "Describe how glucose is reabsorbed in the proximal convoluted tubule. (3)",
-    "hints": [
-     "Which ion moves with glucose?",
-     "How is the sodium gradient maintained?"
-    ],
-    "solution": "Na⁺ actively transported out of the epithelial cells into the blood [B1]\nGlucose enters the cells from the filtrate by co-transport with Na⁺ [B1]\nGlucose moves into the blood by facilitated diffusion; microvilli give a large surface area. [B1]",
-    "year": "June 2021",
-    "paper": "AQA Paper 2 Q05.3",
-    "subtopic": "Selective reabsorption"
    },
    {
     "id": "bio-p2-2021-05.3-b",
@@ -20757,19 +20471,6 @@
   "category": "Genetics, populations, evolution and ecosystems",
   "questions": [
    {
-    "id": "bio-p1-spec-06.2-b",
-    "marks": 1,
-    "prompt": "Define allele frequency. (1)",
-    "hints": [
-     "It's a proportion.",
-     "Of what, in what?"
-    ],
-    "solution": "The proportion of a particular allele in a population's gene pool. [B1]",
-    "year": "Specimen",
-    "paper": "AQA Paper 1 Q06.2",
-    "subtopic": "Allele frequency"
-   },
-   {
     "id": "bio-p2-2017-07.1-a",
     "marks": 2,
     "prompt": "Define the term genotype. (2)",
@@ -21207,19 +20908,6 @@
      "Parents must carry a hidden allele."
     ],
     "solution": "The condition is dominant (both parents are heterozygous). [B1]",
-    "year": "June 2019",
-    "paper": "AQA Paper 2 Q06.2",
-    "subtopic": "Pedigrees"
-   },
-   {
-    "id": "bio-p2-2019-06.2-c",
-    "marks": 1,
-    "prompt": "Two unaffected parents have an affected child. What does this show about the condition? (1)",
-    "hints": [
-     "Where did the child's alleles come from?",
-     "Carriers."
-    ],
-    "solution": "The condition is recessive (both parents are carriers). [B1]",
     "year": "June 2019",
     "paper": "AQA Paper 2 Q06.2",
     "subtopic": "Pedigrees"
@@ -21693,19 +21381,6 @@
     "subtopic": "Epistasis"
    },
    {
-    "id": "bio-p2-2023-04.1-c",
-    "marks": 1,
-    "prompt": "Two alleles of a gene are both expressed in the phenotype of a heterozygote. Name this type of inheritance. (1)",
-    "hints": [
-     "Neither is dominant.",
-     "Both are seen."
-    ],
-    "solution": "Codominance. [B1]",
-    "year": "June 2023",
-    "paper": "AQA Paper 2 Q04.1",
-    "subtopic": "Codominance"
-   },
-   {
     "id": "bio-p2-2023-04.2-a",
     "marks": 1,
     "prompt": "The X-linked fur colour alleles Xᴳ (ginger) and Xᴮ (black) are codominant. The dominant allele F gives white fur. State the phenotype of a cat with the genotype XᴳXᴮff. (1)",
@@ -21753,19 +21428,6 @@
      "Females get the father's X."
     ],
     "solution": "Offspring genotypes: XᴮXᴳFf, XᴮXᴳff, XᴮYFf, XᴮYff [B1]\nPhenotypes: white female, tortoiseshell female, white male, black male [B1]\nRatio 1 : 1 : 1 : 1 — i.e. 2 white : 1 tortoiseshell : 1 black. [B1]",
-    "year": "June 2023",
-    "paper": "AQA Paper 2 Q04.3",
-    "subtopic": "Genetic crosses"
-   },
-   {
-    "id": "bio-p2-2023-04.3-b",
-    "marks": 3,
-    "prompt": "Using the same alleles, give the genotypes and phenotypes of the offspring of the cross XᴳXᴮff × XᴳYff, and the expected phenotype ratio. (3)",
-    "hints": [
-     "Neither parent has F.",
-     "Mother's gametes: Xᴳf and Xᴮf."
-    ],
-    "solution": "Offspring genotypes: XᴳXᴳff, XᴳXᴮff, XᴳYff, XᴮYff [B1]\nPhenotypes: ginger female, tortoiseshell female, ginger male, black male [B1]\nRatio 1 : 1 : 1 : 1. [B1]",
     "year": "June 2023",
     "paper": "AQA Paper 2 Q04.3",
     "subtopic": "Genetic crosses"
@@ -21883,19 +21545,6 @@
      "Gg × Gg gives 3 : 1."
     ],
     "solution": "Wings Rr : rr = 1 : 1; body grey : black = 3 : 1 [B1]\nPhenotypes: curly grey, curly black, straight grey, straight black [B1]\nRatio 3 : 1 : 3 : 1. [B1]",
-    "year": "June 2024",
-    "paper": "AQA Paper 2 Q04.4",
-    "subtopic": "Lethal alleles"
-   },
-   {
-    "id": "bio-p2-2024-04.4-c",
-    "marks": 3,
-    "prompt": "Using the same alleles (RR lethal), give the genotypes, phenotypes and ratio of adult offspring from Rrgg × Rrgg. (3)",
-    "hints": [
-     "All offspring are gg.",
-     "Remove RR."
-    ],
-    "solution": "Genotypes Rrgg and rrgg (RRgg die) [B1]\nCurly black and straight black [B1]\nRatio 2 : 1. [B1]",
     "year": "June 2024",
     "paper": "AQA Paper 2 Q04.4",
     "subtopic": "Lethal alleles"
@@ -22126,32 +21775,6 @@
     "subtopic": "Dihybrid crosses"
    },
    {
-    "id": "bio-p2-spec-03.3-b",
-    "marks": 1,
-    "prompt": "State the ratio of phenotypes expected from a cross of GgNn × GgNn if the two genes were not linked. (1)",
-    "hints": [
-     "Dihybrid cross of two heterozygotes.",
-     "16 squares."
-    ],
-    "solution": "9 : 3 : 3 : 1. [B1]",
-    "year": "Specimen",
-    "paper": "AQA Paper 2 Q03.3",
-    "subtopic": "Dihybrid crosses"
-   },
-   {
-    "id": "bio-p2-spec-03.3-c",
-    "marks": 1,
-    "prompt": "State the ratio of phenotypes expected from GgNn × Ggnn if the genes are not linked. (1)",
-    "hints": [
-     "Gg × Gg = 3:1; Nn × nn = 1:1.",
-     "Multiply."
-    ],
-    "solution": "3 : 3 : 1 : 1. [B1]",
-    "year": "Specimen",
-    "paper": "AQA Paper 2 Q03.3",
-    "subtopic": "Dihybrid crosses"
-   },
-   {
     "id": "bio-p2-spec-10.2-a",
     "marks": 4,
     "prompt": "Mitochondria are inherited only from the mother. Some forms of a muscle disease are caused by mutations in mitochondrial DNA; others by recessive alleles in nuclear DNA. In couple A, the mother has the disease and all their children have it. In couple B, neither parent has the disease but one of their four children does. Explain these results. (4)",
@@ -22241,6 +21864,19 @@
     "year": "June 2025",
     "paper": "AQA Paper 3 Q05.1",
     "subtopic": "Polygenic inheritance"
+   },
+   {
+    "id": "bio-p2-2019-06.2-c",
+    "marks": 1,
+    "prompt": "Two unaffected parents have an affected child. What does this show about the condition? (1)",
+    "hints": [
+     "Where did the child's alleles come from?",
+     "Carriers."
+    ],
+    "solution": "The condition is recessive (both parents are carriers). [B1]",
+    "year": "June 2019",
+    "paper": "AQA Paper 2 Q06.2",
+    "subtopic": "Pedigrees"
    }
   ]
  },
@@ -22574,19 +22210,6 @@
     "subtopic": "Hardy–Weinberg"
    },
    {
-    "id": "bio-p2-2019-06.5-c",
-    "marks": 2,
-    "prompt": "51% of a population shows the dominant phenotype. Calculate the percentage that are heterozygous. (2)",
-    "hints": [
-     "q² = 0.49.",
-     "q = 0.7."
-    ],
-    "solution": "q = 0.7, p = 0.3 [M1]\n2pq = 0.42 = 42%. [A1]",
-    "year": "June 2019",
-    "paper": "AQA Paper 2 Q06.5",
-    "subtopic": "Hardy–Weinberg"
-   },
-   {
     "id": "bio-p2-2019-09.1-a",
     "marks": 5,
     "prompt": "Describe how to estimate the population size of daisies in a field. (5)",
@@ -22634,19 +22257,6 @@
      "Then p and 2pq."
     ],
     "solution": "q = 0.5, p = 0.5 [M1]\n2pq = 0.50 = 50%. [A1]",
-    "year": "June 2020",
-    "paper": "AQA Paper 2 Q06.4",
-    "subtopic": "Hardy–Weinberg"
-   },
-   {
-    "id": "bio-p2-2020-06.4-c",
-    "marks": 2,
-    "prompt": "In a population with codominant red and white alleles, 4% of plants are red. Calculate the percentage that are pink. (2)",
-    "hints": [
-     "p² = 0.04.",
-     "q = 1 − p."
-    ],
-    "solution": "p = 0.2, q = 0.8 [M1]\n2pq = 0.32 = 32%. [A1]",
     "year": "June 2020",
     "paper": "AQA Paper 2 Q06.4",
     "subtopic": "Hardy–Weinberg"
@@ -22899,32 +22509,6 @@
     "subtopic": "Hardy–Weinberg"
    },
    {
-    "id": "bio-p2-2024-04.3-b",
-    "marks": 2,
-    "prompt": "In a population of flies, 51% have a grey body (G, dominant). Calculate the percentage that are heterozygous. (2)",
-    "hints": [
-     "q² = 0.49.",
-     "2pq."
-    ],
-    "solution": "q = 0.7, p = 0.3 [M1]\n2pq = 0.42, so 42%. [A1]",
-    "year": "June 2024",
-    "paper": "AQA Paper 2 Q04.3",
-    "subtopic": "Hardy–Weinberg"
-   },
-   {
-    "id": "bio-p2-2024-04.3-c",
-    "marks": 2,
-    "prompt": "In a population of flies, 75% have a grey body (G, dominant). Calculate the percentage that are heterozygous. (2)",
-    "hints": [
-     "q² = 0.25.",
-     "p = 1 − q."
-    ],
-    "solution": "q = 0.5, p = 0.5 [M1]\n2pq = 0.5, so 50%. [A1]",
-    "year": "June 2024",
-    "paper": "AQA Paper 2 Q04.3",
-    "subtopic": "Hardy–Weinberg"
-   },
-   {
     "id": "bio-p2-spec-06.1-a",
     "marks": 2,
     "prompt": "In one year, the frequency of an insecticide-resistance allele in a mosquito population was 0.3. Calculate the frequency of heterozygotes. (2)",
@@ -22951,19 +22535,6 @@
     "subtopic": "Hardy–Weinberg"
    },
    {
-    "id": "bio-p2-spec-06.1-c",
-    "marks": 2,
-    "prompt": "The frequency of a resistance allele was 0.6. Calculate the frequency of heterozygotes. (2)",
-    "hints": [
-     "p = 0.4.",
-     "2pq."
-    ],
-    "solution": "p = 0.4 [M1]\n2pq = 2 × 0.4 × 0.6 = 0.48. [A1]",
-    "year": "Specimen",
-    "paper": "AQA Paper 2 Q06.1",
-    "subtopic": "Hardy–Weinberg"
-   },
-   {
     "id": "bio-p3-2018-06.5-c",
     "marks": 4,
     "prompt": "Describe and explain the phases of growth in a bacterial culture in a closed container. (4)",
@@ -22985,19 +22556,6 @@
      "Heterozygotes = 2pq × 50."
     ],
     "solution": "q² = 0.04, q = 0.2, p = 0.8 [M1]\n2pq = 0.32; 0.32 × 50 = 16 squirrels. [A1]",
-    "year": "June 2021",
-    "paper": "AQA Paper 3 Q01.1",
-    "subtopic": "Hardy–Weinberg"
-   },
-   {
-    "id": "bio-p3-2021-01.1-b",
-    "marks": 2,
-    "prompt": "Using the same alleles, a population of 100 squirrels contains 9 black squirrels. Estimate the number of brown-black squirrels. (2)",
-    "hints": [
-     "q² = 0.09.",
-     "2pq × 100."
-    ],
-    "solution": "q = 0.3, p = 0.7 [M1]\n2pq = 0.42, so 42 squirrels. [A1]",
     "year": "June 2021",
     "paper": "AQA Paper 3 Q01.1",
     "subtopic": "Hardy–Weinberg"
@@ -23037,19 +22595,6 @@
      "Count Cᴳ."
     ],
     "solution": "(122 + 30) ÷ 200 = 0.76. [B1]",
-    "year": "June 2021",
-    "paper": "AQA Paper 3 Q01.2",
-    "subtopic": "Allele frequency"
-   },
-   {
-    "id": "bio-p3-2021-01.2-c",
-    "marks": 1,
-    "prompt": "80 squirrels: 53 grey, 22 brown-black, 5 black. Calculate the actual frequency of the Cᴳ allele. (1)",
-    "hints": [
-     "160 alleles.",
-     "Grey have two Cᴳ."
-    ],
-    "solution": "(106 + 22) ÷ 160 = 0.80. [B1]",
     "year": "June 2021",
     "paper": "AQA Paper 3 Q01.2",
     "subtopic": "Allele frequency"
@@ -23569,19 +23114,6 @@
      "It includes more than one species."
     ],
     "solution": "All the populations of different species living in the same place at the same time. [B1]",
-    "year": "June 2018",
-    "paper": "AQA Paper 1 Q03.1",
-    "subtopic": "Ecological terms"
-   },
-   {
-    "id": "bio-p1-2018-03.1-c",
-    "marks": 1,
-    "prompt": "Define the term population. (1)",
-    "hints": [
-     "How many species does it involve?",
-     "Think about place and time."
-    ],
-    "solution": "All the organisms of one species living in the same area at the same time. [B1]",
     "year": "June 2018",
     "paper": "AQA Paper 1 Q03.1",
     "subtopic": "Ecological terms"
@@ -24212,19 +23744,6 @@
     "subtopic": "Succession"
    },
    {
-    "id": "bio-p2-2025-10.4-b",
-    "marks": 4,
-    "prompt": "Describe primary succession on bare rock. (4)",
-    "hints": [
-     "What are the first colonisers?",
-     "How does soil form?"
-    ],
-    "solution": "Pioneer species (e.g. lichens) colonise bare rock [B1]\nThey die and decompose, forming a thin soil / humus [B1]\nConditions change so other species (mosses, grasses, shrubs) can grow and outcompete earlier ones [B1]\nBiodiversity increases until a climax community. [B1]",
-    "year": "June 2025",
-    "paper": "AQA Paper 2 Q10.4",
-    "subtopic": "Succession"
-   },
-   {
     "id": "bio-p2-2025-10.4-c",
     "marks": 4,
     "prompt": "Describe the features of pioneer species that allow them to colonise bare ground. (4)",
@@ -24460,19 +23979,6 @@
     "subtopic": "Succession"
    },
    {
-    "id": "bio-p3-2024-06.5-c",
-    "marks": 2,
-    "prompt": "Explain why biodiversity usually increases during succession. (2)",
-    "hints": [
-     "Conditions less harsh.",
-     "More niches."
-    ],
-    "solution": "Conditions become less hostile / more soil and nutrients [B1]\nMore habitats and niches, so more species. [B1]",
-    "year": "June 2024",
-    "paper": "AQA Paper 3 Q06.5",
-    "subtopic": "Succession"
-   },
-   {
     "id": "bio-p3-2024-06.6-a",
     "marks": 2,
     "prompt": "In the last 10 years of a study, the similarity index stayed fairly constant. Name this stage of succession and suggest why the index is not perfectly constant. (2)",
@@ -24577,19 +24083,6 @@
     "subtopic": "Mark–release–recapture"
    },
    {
-    "id": "bio-p3-2025-03.3-c",
-    "marks": 2,
-    "prompt": "220 beetles were marked. In the second sample, 165 were unmarked and 55 marked. Estimate the population. (2)",
-    "hints": [
-     "Total = 220.",
-     "Formula."
-    ],
-    "solution": "Second sample = 220 [M1]\n220 × 220 ÷ 55 = 880. [A1]",
-    "year": "June 2025",
-    "paper": "AQA Paper 3 Q03.3",
-    "subtopic": "Mark–release–recapture"
-   },
-   {
     "id": "bio-p3-spec-01.1-a",
     "marks": 2,
     "prompt": "Ecologists captured insects from several sites on an island for a mark-release-recapture study. Explain how they should choose the sites. (2)",
@@ -24627,19 +24120,6 @@
     "year": "Specimen",
     "paper": "AQA Paper 3 Q01.1",
     "subtopic": "Random sampling"
-   },
-   {
-    "id": "bio-p3-spec-01.2-a",
-    "marks": 2,
-    "prompt": "Give two assumptions made when using mark-release-recapture. (2)",
-    "hints": [
-     "Population size constant.",
-     "Mixing."
-    ],
-    "solution": "No births, deaths, immigration or emigration between samples [B1]\nMarked individuals mix randomly / marks don't affect survival or come off. [B1]",
-    "year": "Specimen",
-    "paper": "AQA Paper 3 Q01.2",
-    "subtopic": "Mark–release–recapture"
    },
    {
     "id": "bio-p3-spec-01.2-b",
@@ -24715,19 +24195,6 @@
      "Substitute."
     ],
     "solution": "1200 × 450 ÷ 60 [M1]\n= 9000. [A1]",
-    "year": "Specimen",
-    "paper": "AQA Paper 3 Q01.4",
-    "subtopic": "Mark–release–recapture"
-   },
-   {
-    "id": "bio-p3-spec-01.4-b",
-    "marks": 2,
-    "prompt": "800 marked insects were released. Of 300 later captured, 40 were marked. Estimate the population. (2)",
-    "hints": [
-     "N = M × C ÷ R.",
-     "Substitute."
-    ],
-    "solution": "800 × 300 ÷ 40 [M1]\n= 6000. [A1]",
     "year": "Specimen",
     "paper": "AQA Paper 3 Q01.4",
     "subtopic": "Mark–release–recapture"
@@ -25383,19 +24850,6 @@
     "subtopic": "Mutations"
    },
    {
-    "id": "bio-p3-2021-01.4-c",
-    "marks": 2,
-    "prompt": "A protein of 180 amino acids is produced from an allele with a 9 base-pair deletion. Calculate the percentage reduction in protein length, to 3 significant figures. (2)",
-    "hints": [
-     "9 ÷ 3.",
-     "Original."
-    ],
-    "solution": "3 amino acids lost; original = 183 [M1]\n3 ÷ 183 × 100 = 1.64%. [A1]",
-    "year": "June 2021",
-    "paper": "AQA Paper 3 Q01.4",
-    "subtopic": "Mutations"
-   },
-   {
     "id": "bio-p3-2021-01.5-a",
     "marks": 3,
     "prompt": "A receptor in skin cells normally switches on black pigment production only when a hormone binds to it; without the hormone, grey pigment is made. A deletion produces a receptor that has the same shape as the receptor with the hormone bound. Explain why squirrels homozygous for the deletion have black fur. (3)",
@@ -25492,19 +24946,6 @@
     "paper": "AQA Paper 1 Q09.2",
     "subtopic": "RNA interference",
     "table": "Treatment | % cells in mitosis\nControl | 30\nsiRNA for P | 2\nsiRNA for P + protein P added | 28"
-   },
-   {
-    "id": "bio-p1-2018-09.2-c",
-    "marks": 3,
-    "prompt": "Explain how a mutation in a tumour suppressor gene can lead to a tumour. (3)",
-    "hints": [
-     "What does the normal protein do?",
-     "What happens if it no longer works?"
-    ],
-    "solution": "Normal tumour suppressor protein slows cell division / causes apoptosis of damaged cells [B1]\nMutation produces a non-functional protein [B1]\nSo cells divide uncontrollably / rapidly, forming a tumour. [B1]",
-    "year": "June 2018",
-    "paper": "AQA Paper 1 Q09.2",
-    "subtopic": "Cancer"
    },
    {
     "id": "bio-p1-2020-05.4-a",
@@ -25872,19 +25313,6 @@
     "subtopic": "Gene silencing"
    },
    {
-    "id": "bio-p2-2018-09.3-a",
-    "marks": 2,
-    "prompt": "Suggest how a mutation in a gene's promoter region could increase expression of the gene. (2)",
-    "hints": [
-     "What binds to the promoter?",
-     "Could binding become easier?"
-    ],
-    "solution": "Transcription factors / RNA polymerase bind more easily [B1]\nSo more transcription / more mRNA. [B1]",
-    "year": "June 2018",
-    "paper": "AQA Paper 2 Q09.3",
-    "subtopic": "Gene regulation"
-   },
-   {
     "id": "bio-p2-2018-09.3-b",
     "marks": 2,
     "prompt": "Suggest how a mutation in the gene for a transcription factor could stop another gene being switched off. (2)",
@@ -26052,19 +25480,6 @@
     "year": "June 2020",
     "paper": "AQA Paper 2 Q02.2",
     "subtopic": "Hormone receptors"
-   },
-   {
-    "id": "bio-p2-2020-02.3-a",
-    "marks": 2,
-    "prompt": "Explain how oestrogen stimulates transcription of a target gene. (2)",
-    "hints": [
-     "What does oestrogen bind to inside the cell?",
-     "Where does that complex then bind?"
-    ],
-    "solution": "Oestrogen binds to a receptor that is part of a transcription factor, changing its shape [B1]\nThe activated transcription factor binds to the promoter, so RNA polymerase can transcribe the gene. [B1]",
-    "year": "June 2020",
-    "paper": "AQA Paper 2 Q02.3",
-    "subtopic": "Transcription factors"
    },
    {
     "id": "bio-p2-2020-02.3-b",
@@ -28148,19 +27563,6 @@
     "subtopic": "PCR calculations"
    },
    {
-    "id": "bio-p2-2023-09.3-b",
-    "marks": 2,
-    "prompt": "One double-stranded DNA molecule 20 base pairs long is copied by PCR for 25 cycles. Calculate the total number of base pairs at the end. (2)",
-    "hints": [
-     "2²⁵ molecules.",
-     "Multiply by 20."
-    ],
-    "solution": "2²⁵ = 3.36 × 10⁷ molecules [M1]\n× 20 = 6.71 × 10⁸ base pairs. [A1]",
-    "year": "June 2023",
-    "paper": "AQA Paper 2 Q09.3",
-    "subtopic": "PCR calculations"
-   },
-   {
     "id": "bio-p2-2023-09.3-c",
     "marks": 2,
     "prompt": "One double-stranded DNA molecule 8 base pairs long is copied by PCR for 40 cycles. Calculate the total number of base pairs at the end. (2)",
@@ -29811,19 +29213,6 @@
     "subtopic": "Bacterial growth"
    },
    {
-    "id": "bio-p1-2021-09.2-b",
-    "marks": 2,
-    "prompt": "Using N = N₀ × 2ⁿ, calculate the generation time of bacteria that increased from 500 to 32 000 cells in 4 hours. (2)",
-    "hints": [
-     "32 000 ÷ 500 = 2ⁿ.",
-     "Then divide 240 minutes by n."
-    ],
-    "solution": "64 = 2⁶, so n = 6 [M1]\n240 ÷ 6 = 40 minutes. [A1]",
-    "year": "June 2021",
-    "paper": "AQA Paper 1 Q09.2",
-    "subtopic": "Bacterial growth"
-   },
-   {
     "id": "bio-p1-2021-09.2-c",
     "marks": 2,
     "prompt": "A population increased from 2.0 × 10³ to 1.6 × 10⁶ cells in 6 hours. Using n = (log N − log N₀) ÷ log 2, calculate the generation time in minutes. (2)",
@@ -29845,19 +29234,6 @@
      "Square each fraction n/N and add them up."
     ],
     "solution": "Σ(n/N)² = 0.01 + 0.04 + 0.09 + 0.16 = 0.30 [M1]\nd = 0.70. [A1]",
-    "year": "June 2022",
-    "paper": "AQA Paper 1 Q01.4",
-    "subtopic": "Index of diversity"
-   },
-   {
-    "id": "bio-p1-2022-01.4-b",
-    "marks": 2,
-    "prompt": "A sample contained 25 individuals of each of four species. Calculate the index of diversity using d = 1 − Σ(n/N)². (2)",
-    "hints": [
-     "Each n/N = 0.25.",
-     "0.25² = 0.0625."
-    ],
-    "solution": "Σ(n/N)² = 4 × 0.0625 = 0.25 [M1]\nd = 0.75. [A1]",
     "year": "June 2022",
     "paper": "AQA Paper 1 Q01.4",
     "subtopic": "Index of diversity"
@@ -30118,19 +29494,6 @@
      "Magnification = image ÷ actual."
     ],
     "solution": "35 mm = 35 000 µm [M1]\n35 000 ÷ 7 = × 5000. [A1]",
-    "year": "June 2023",
-    "paper": "AQA Paper 1 Q06.4",
-    "subtopic": "Magnification"
-   },
-   {
-    "id": "bio-p1-2023-06.4-b",
-    "marks": 2,
-    "prompt": "The image of a cell is 18 mm long at a magnification of × 1200. Calculate the actual length in µm. (2)",
-    "hints": [
-     "Actual = image ÷ magnification.",
-     "Work in µm."
-    ],
-    "solution": "18 000 ÷ 1200 [M1]\n15 µm. [A1]",
     "year": "June 2023",
     "paper": "AQA Paper 1 Q06.4",
     "subtopic": "Magnification"
@@ -30443,32 +29806,6 @@
      "One part = 10 cm³."
     ],
     "solution": "10 cm³. [B1]",
-    "year": "June 2025",
-    "paper": "AQA Paper 1 Q03.2",
-    "subtopic": "Ratios"
-   },
-   {
-    "id": "bio-p1-2025-03.2-b",
-    "marks": 1,
-    "prompt": "Three solutions are mixed in the ratio 7 : 2 : 1 to give 50 cm³. What volume of the second solution is used? (1)",
-    "hints": [
-     "Total parts = 10.",
-     "Second solution = 2 parts."
-    ],
-    "solution": "10 cm³. [B1]",
-    "year": "June 2025",
-    "paper": "AQA Paper 1 Q03.2",
-    "subtopic": "Ratios"
-   },
-   {
-    "id": "bio-p1-2025-03.2-c",
-    "marks": 1,
-    "prompt": "Two solutions are mixed in the ratio 5 : 3 to give 40 cm³. What volume of the second solution is used? (1)",
-    "hints": [
-     "Total parts = 8.",
-     "One part = 5 cm³."
-    ],
-    "solution": "15 cm³. [B1]",
     "year": "June 2025",
     "paper": "AQA Paper 1 Q03.2",
     "subtopic": "Ratios"
@@ -31033,58 +30370,6 @@
     "subtopic": "Respirometer calculations"
    },
    {
-    "id": "bio-p2-2018-03.3-b",
-    "marks": 2,
-    "prompt": "Liquid moved 2.0 cm in 10 minutes in a capillary tube with a lumen diameter of 1 mm. Using V = πr²l (π = 3.14), calculate the volume of gas used per hour in cm³. (2)",
-    "hints": [
-     "r = 0.05 cm.",
-     "Multiply by 6 for an hour."
-    ],
-    "solution": "V = 3.14 × 0.05² × 2.0 = 0.0157 cm³ in 10 min [M1]\n0.094 cm³ per hour. [A1]",
-    "year": "June 2018",
-    "paper": "AQA Paper 2 Q03.3",
-    "subtopic": "Respirometer calculations"
-   },
-   {
-    "id": "bio-p2-2018-03.3-c",
-    "marks": 2,
-    "prompt": "Liquid moved 45 mm in 30 minutes in a capillary tube with a lumen diameter of 2 mm. Using V = πr²l (π = 3.14), calculate the volume of gas per hour in cm³. (2)",
-    "hints": [
-     "Convert to cm: r = 0.1 cm, l = 4.5 cm.",
-     "Double for an hour."
-    ],
-    "solution": "V = 3.14 × 0.1² × 4.5 = 0.141 cm³ in 30 min [M1]\n0.28 cm³ per hour. [A1]",
-    "year": "June 2018",
-    "paper": "AQA Paper 2 Q03.3",
-    "subtopic": "Respirometer calculations"
-   },
-   {
-    "id": "bio-p2-2018-03.6-a",
-    "marks": 2,
-    "prompt": "Using Xₜ = X₀e^(rt), with X₀ = 500, r = 0.3 h⁻¹ and t = 10 h (e = 2.72), predict the population after 10 hours. (2)",
-    "hints": [
-     "rt = 3.",
-     "2.72³ = ?"
-    ],
-    "solution": "2.72³ = 20.1 [M1]\n500 × 20.1 = 1.0 × 10⁴. [A1]",
-    "year": "June 2018",
-    "paper": "AQA Paper 2 Q03.6",
-    "subtopic": "Population models"
-   },
-   {
-    "id": "bio-p2-2018-03.6-b",
-    "marks": 2,
-    "prompt": "Using Xₜ = X₀e^(rt), with X₀ = 1000, r = 0.4 h⁻¹ and t = 5 h (e = 2.72), predict the population. (2)",
-    "hints": [
-     "rt = 2.",
-     "2.72² = 7.40."
-    ],
-    "solution": "2.72² = 7.40 [M1]\n7.4 × 10³. [A1]",
-    "year": "June 2018",
-    "paper": "AQA Paper 2 Q03.6",
-    "subtopic": "Population models"
-   },
-   {
     "id": "bio-p2-2018-03.6-c",
     "marks": 2,
     "prompt": "Using Xₜ = X₀e^(rt), with X₀ = 200, r = 0.7 h⁻¹ and t = 4 h (e = 2.72), predict the population. (2)",
@@ -31176,19 +30461,6 @@
     "subtopic": "Energy transfer"
    },
    {
-    "id": "bio-p2-2019-03.5-a",
-    "marks": 1,
-    "prompt": "A stock solution of IAA is 1000 ppm. Give the volumes of stock solution and distilled water needed to make 50 cm³ of 20 ppm solution. (1)",
-    "hints": [
-     "Dilution factor = 1000 ÷ 20.",
-     "Stock volume = 50 ÷ 50."
-    ],
-    "solution": "1.0 cm³ stock + 49.0 cm³ water. [B1]",
-    "year": "June 2019",
-    "paper": "AQA Paper 2 Q03.5",
-    "subtopic": "Dilutions"
-   },
-   {
     "id": "bio-p2-2019-03.5-b",
     "marks": 1,
     "prompt": "A stock solution is 100 ppm. Give the volumes of stock and distilled water needed to make 25 cm³ of 5 ppm solution. (1)",
@@ -31197,19 +30469,6 @@
      "25 ÷ 20 = stock volume."
     ],
     "solution": "1.25 cm³ stock + 23.75 cm³ water. [B1]",
-    "year": "June 2019",
-    "paper": "AQA Paper 2 Q03.5",
-    "subtopic": "Dilutions"
-   },
-   {
-    "id": "bio-p2-2019-03.5-c",
-    "marks": 1,
-    "prompt": "A stock solution of IAA is 0.1 g dm⁻³ (100 ppm). Give the volumes of stock and distilled water needed to make 100 cm³ of 1 ppm solution. (1)",
-    "hints": [
-     "Dilution factor = 100.",
-     "Stock volume = 1 cm³."
-    ],
-    "solution": "1 cm³ stock + 99 cm³ water. [B1]",
     "year": "June 2019",
     "paper": "AQA Paper 2 Q03.5",
     "subtopic": "Dilutions"
@@ -31267,32 +30526,6 @@
     "subtopic": "Rf values"
    },
    {
-    "id": "bio-p2-2019-07.5-b",
-    "marks": 1,
-    "prompt": "A pigment moved 7.1 cm and the solvent front 8.0 cm. Calculate the Rf value. (1)",
-    "hints": [
-     "Divide.",
-     "It should be less than 1."
-    ],
-    "solution": "0.89. [B1]",
-    "year": "June 2019",
-    "paper": "AQA Paper 2 Q07.5",
-    "subtopic": "Rf values"
-   },
-   {
-    "id": "bio-p2-2019-07.5-c",
-    "marks": 1,
-    "prompt": "A pigment moved 1.8 cm and the solvent front 7.5 cm. Calculate the Rf value. (1)",
-    "hints": [
-     "Divide.",
-     "Round to 2 d.p."
-    ],
-    "solution": "0.24. [B1]",
-    "year": "June 2019",
-    "paper": "AQA Paper 2 Q07.5",
-    "subtopic": "Rf values"
-   },
-   {
     "id": "bio-p2-2020-01.3-a",
     "marks": 2,
     "prompt": "A retina has an area of 1.0 × 10³ mm². The fovea is circular, with a diameter of 1.5 × 10³ µm. Calculate the fovea's area as a percentage of the retina's area. Use π = 3.14. (2)",
@@ -31319,19 +30552,6 @@
     "subtopic": "Area calculations"
    },
    {
-    "id": "bio-p2-2020-01.3-c",
-    "marks": 2,
-    "prompt": "A retina has an area of 800 mm². The fovea is circular with a diameter of 2.0 mm. Calculate the fovea area as a percentage of the retina area. Use π = 3.14. (2)",
-    "hints": [
-     "r = 1.0 mm.",
-     "πr² ÷ 800 × 100."
-    ],
-    "solution": "Area = 3.14 mm² [M1]\n3.14 ÷ 800 × 100 = 0.39%. [A1]",
-    "year": "June 2020",
-    "paper": "AQA Paper 2 Q01.3",
-    "subtopic": "Area calculations"
-   },
-   {
     "id": "bio-p2-2020-03.2-a",
     "marks": 2,
     "prompt": "1.5 g of dried biomass was burned in a calorimeter containing 200 cm³ of water. The temperature rose by 9.0 °C. 4.18 J is needed to raise 1 cm³ of water by 1 °C. Calculate the energy released in kJ per g. (2)",
@@ -31353,19 +30573,6 @@
      "Divide by 0.80."
     ],
     "solution": "50 × 12.5 × 4.18 = 2612.5 J [M1]\n2612.5 ÷ 0.80 = 3266 J g⁻¹ = 3.27 kJ g⁻¹. [A1]",
-    "year": "June 2020",
-    "paper": "AQA Paper 2 Q03.2",
-    "subtopic": "Calorimetry"
-   },
-   {
-    "id": "bio-p2-2020-03.2-c",
-    "marks": 2,
-    "prompt": "3.0 g of biomass heated 150 cm³ of water by 22 °C. Calculate the energy released in kJ per g (4.18 J cm⁻³ °C⁻¹). (2)",
-    "hints": [
-     "150 × 22 × 4.18.",
-     "÷ 3.0 ÷ 1000."
-    ],
-    "solution": "150 × 22 × 4.18 = 13 794 J [M1]\n13 794 ÷ 3.0 = 4598 J g⁻¹ = 4.60 kJ g⁻¹. [A1]",
     "year": "June 2020",
     "paper": "AQA Paper 2 Q03.2",
     "subtopic": "Calorimetry"
@@ -31605,19 +30812,6 @@
     "subtopic": "Rates"
    },
    {
-    "id": "bio-p2-2021-10.2-b",
-    "marks": 2,
-    "prompt": "Forest cover fell from 35% to 30% of a 120 000 km² area over 10 years. Calculate the mean loss per week in km². (1 year = 52 weeks.) (2)",
-    "hints": [
-     "5% of 120 000.",
-     "÷ 520 weeks."
-    ],
-    "solution": "6000 km² over 520 weeks [M1]\n11.5 km² per week. [A1]",
-    "year": "June 2021",
-    "paper": "AQA Paper 2 Q10.2",
-    "subtopic": "Rates"
-   },
-   {
     "id": "bio-p2-2021-10.2-c",
     "marks": 2,
     "prompt": "Coral cover on a 2000 km² reef fell from 50% to 28% over 30 years. Calculate the mean loss of coral cover per year in km². (2)",
@@ -31629,19 +30823,6 @@
     "year": "June 2021",
     "paper": "AQA Paper 2 Q10.2",
     "subtopic": "Rates"
-   },
-   {
-    "id": "bio-p2-2022-02.2-a",
-    "marks": 1,
-    "prompt": "The breeding herd was 40% of all female cattle in a country, and 60% of the breeding herd were beef cows. What percentage of all female cattle were beef cows? (1)",
-    "hints": [
-     "Multiply the two fractions.",
-     "0.4 × 0.6."
-    ],
-    "solution": "24%. [B1]",
-    "year": "June 2022",
-    "paper": "AQA Paper 2 Q02.2",
-    "subtopic": "Percentages"
    },
    {
     "id": "bio-p2-2022-02.2-b",
@@ -31761,19 +30942,6 @@
     "subtopic": "Rates"
    },
    {
-    "id": "bio-p2-2022-04.5-c",
-    "marks": 1,
-    "prompt": "5 g of seeds absorbed 2.5 × 10⁻² cm³ of oxygen in 10 hours. Calculate the oxygen uptake in cm³ g⁻¹ h⁻¹, in standard form. (1)",
-    "hints": [
-     "Divide by 5 then by 10.",
-     "Standard form."
-    ],
-    "solution": "5.0 × 10⁻⁴ cm³ g⁻¹ h⁻¹. [B1]",
-    "year": "June 2022",
-    "paper": "AQA Paper 2 Q04.5",
-    "subtopic": "Rates"
-   },
-   {
     "id": "bio-p2-2022-05.4-a",
     "marks": 1,
     "prompt": "In a mark–release–recapture study, 40 animals were marked and 50 caught in the second sample. The population was estimated as 500. How many animals in the second sample were marked? (1)",
@@ -31795,19 +30963,6 @@
      "Divide."
     ],
     "solution": "4. [B1]",
-    "year": "June 2022",
-    "paper": "AQA Paper 2 Q05.4",
-    "subtopic": "Mark–release–recapture"
-   },
-   {
-    "id": "bio-p2-2022-05.4-c",
-    "marks": 1,
-    "prompt": "25 animals were marked and 40 caught later. The population was estimated as 200. How many in the second sample were marked? (1)",
-    "hints": [
-     "(25 × 40) ÷ 200.",
-     "Divide."
-    ],
-    "solution": "5. [B1]",
     "year": "June 2022",
     "paper": "AQA Paper 2 Q05.4",
     "subtopic": "Mark–release–recapture"
@@ -31865,19 +31020,6 @@
     "subtopic": "Dosage calculations"
    },
    {
-    "id": "bio-p2-2023-02.3-b",
-    "marks": 2,
-    "prompt": "A patient of mass 60 kg receives a drug at 4 ng per kg of body mass per hour for 5 days. Calculate the total mass of drug, in grams. 1 ng = 1 × 10⁻⁹ g. (2)",
-    "hints": [
-     "5 days is how many hours?",
-     "Then convert to grams."
-    ],
-    "solution": "5 days = 120 h; 4 × 60 × 120 = 28 800 ng [M1]\n= 2.88 × 10⁻⁵ g. [A1]",
-    "year": "June 2023",
-    "paper": "AQA Paper 2 Q02.3",
-    "subtopic": "Dosage calculations"
-   },
-   {
     "id": "bio-p2-2023-02.3-c",
     "marks": 2,
     "prompt": "A patient of mass 90 kg receives a drug at 1.5 ng per kg of body mass per hour for 14 days. Calculate the total mass of drug, in grams. 1 ng = 1 × 10⁻⁹ g. (2)",
@@ -31917,45 +31059,6 @@
     "subtopic": "Rates"
    },
    {
-    "id": "bio-p2-2023-10.2-c",
-    "marks": 1,
-    "prompt": "Muscle contains 4.4 × 10⁻³ mmol of ATP per gram. ATP is used at 2.0 mmol per kg per second. Calculate how long the ATP would last. (1)",
-    "hints": [
-     "4.4 × 10⁻³ mmol g⁻¹ = 4.4 mmol kg⁻¹.",
-     "Divide."
-    ],
-    "solution": "4.4 ÷ 2.0 = 2.2 s. [B1]",
-    "year": "June 2023",
-    "paper": "AQA Paper 2 Q10.2",
-    "subtopic": "Rates"
-   },
-   {
-    "id": "bio-p2-2024-02.1-a",
-    "marks": 2,
-    "prompt": "A myofibril has 50 sarcomeres in a row, each 2.4 µm long. On contraction each sarcomere shortens by 25%. Calculate the length of the myofibril after contraction in mm, in standard form. (2)",
-    "hints": [
-     "Find the original length first.",
-     "1 mm = 1000 µm."
-    ],
-    "solution": "50 × 2.4 = 120 µm; × 0.75 = 90 µm [M1]\n= 9.0 × 10⁻² mm. [A1]",
-    "year": "June 2024",
-    "paper": "AQA Paper 2 Q02.1",
-    "subtopic": "Unit conversions"
-   },
-   {
-    "id": "bio-p2-2024-02.1-b",
-    "marks": 2,
-    "prompt": "A myofibril has 40 sarcomeres, each 2.5 µm long. On contraction each sarcomere shortens by 15%. Calculate the length of the myofibril after contraction in mm, in standard form. (2)",
-    "hints": [
-     "Total length then reduce by 15%.",
-     "Convert µm to mm."
-    ],
-    "solution": "40 × 2.5 = 100 µm; × 0.85 = 85 µm [M1]\n= 8.5 × 10⁻² mm. [A1]",
-    "year": "June 2024",
-    "paper": "AQA Paper 2 Q02.1",
-    "subtopic": "Unit conversions"
-   },
-   {
     "id": "bio-p2-2024-02.1-c",
     "marks": 2,
     "prompt": "A myofibril has 25 sarcomeres, each 2.2 µm long. On contraction each sarcomere shortens by 30%. Calculate the length of the myofibril after contraction in mm, in standard form. (2)",
@@ -31977,32 +31080,6 @@
      "1 kg = 10⁶ mg."
     ],
     "solution": "400 × 15 000 × 0.80 = 4.8 × 10⁶ viable seeds [M1]\n× 0.5 mg = 2.4 × 10⁶ mg = 2.4 kg. [A1]",
-    "year": "June 2024",
-    "paper": "AQA Paper 2 Q05.3",
-    "subtopic": "Unit conversions"
-   },
-   {
-    "id": "bio-p2-2024-05.3-b",
-    "marks": 2,
-    "prompt": "There are 250 weed plants; each produces up to 30 000 seeds of mean mass 1.2 mg, and 60% are viable. Calculate the maximum mass of viable seeds in kg. (2)",
-    "hints": [
-     "Find the number of viable seeds.",
-     "Convert mg to kg."
-    ],
-    "solution": "250 × 30 000 × 0.60 = 4.5 × 10⁶ seeds [M1]\n× 1.2 mg = 5.4 × 10⁶ mg = 5.4 kg. [A1]",
-    "year": "June 2024",
-    "paper": "AQA Paper 2 Q05.3",
-    "subtopic": "Unit conversions"
-   },
-   {
-    "id": "bio-p2-2024-05.3-c",
-    "marks": 2,
-    "prompt": "There are 1000 weed plants; each produces up to 5000 seeds of mean mass 0.4 mg, and 90% are viable. Calculate the maximum mass of viable seeds in kg. (2)",
-    "hints": [
-     "Seeds × 0.9.",
-     "mg to kg ÷ 10⁶."
-    ],
-    "solution": "1000 × 5000 × 0.90 = 4.5 × 10⁶ seeds [M1]\n× 0.4 mg = 1.8 × 10⁶ mg = 1.8 kg. [A1]",
     "year": "June 2024",
     "paper": "AQA Paper 2 Q05.3",
     "subtopic": "Unit conversions"
@@ -32047,32 +31124,6 @@
     "subtopic": "Percentage change"
    },
    {
-    "id": "bio-p2-2024-09.3-a",
-    "marks": 2,
-    "prompt": "300 volunteers were split equally into two groups. 46% of group P and 6% of group Q went into remission. Calculate the difference in the number of people in remission. (2)",
-    "hints": [
-     "Each group has 150.",
-     "Subtract."
-    ],
-    "solution": "150 × 0.46 = 69; 150 × 0.06 = 9 [M1]\nDifference = 60. [A1]",
-    "year": "June 2024",
-    "paper": "AQA Paper 2 Q09.3",
-    "subtopic": "Percentages"
-   },
-   {
-    "id": "bio-p2-2024-09.3-b",
-    "marks": 2,
-    "prompt": "240 volunteers were split equally into two groups. 35% of one group and 5% of the other went into remission. Calculate the difference in the number of people in remission. (2)",
-    "hints": [
-     "120 per group.",
-     "Subtract."
-    ],
-    "solution": "120 × 0.35 = 42; 120 × 0.05 = 6 [M1]\nDifference = 36. [A1]",
-    "year": "June 2024",
-    "paper": "AQA Paper 2 Q09.3",
-    "subtopic": "Percentages"
-   },
-   {
     "id": "bio-p2-2024-09.3-c",
     "marks": 2,
     "prompt": "400 volunteers were split equally into two groups. 27.5% of one group and 3.5% of the other went into remission. Calculate the difference in the number of people in remission. (2)",
@@ -32099,19 +31150,6 @@
     "subtopic": "Calorimetry"
    },
    {
-    "id": "bio-p2-2025-03.2-b",
-    "marks": 2,
-    "prompt": "A 1.20 g dry sample was burned under 100 cm³ of water, raising its temperature by 22.0 °C. 4.18 J raises 1 cm³ of water by 1 °C. Calculate the energy released per gram in kJ g⁻¹. (2)",
-    "hints": [
-     "Volume × 4.18 × ΔT.",
-     "Divide by 1.20, then by 1000."
-    ],
-    "solution": "100 × 4.18 × 22.0 = 9196 J [M1]\n÷ 1.20 = 7663 J g⁻¹ = 7.66 kJ g⁻¹. [A1]",
-    "year": "June 2025",
-    "paper": "AQA Paper 2 Q03.2",
-    "subtopic": "Calorimetry"
-   },
-   {
     "id": "bio-p2-2025-03.2-c",
     "marks": 2,
     "prompt": "A 0.80 g dry sample was burned under 120 cm³ of water, raising its temperature by 12.4 °C. 4.18 J raises 1 cm³ of water by 1 °C. Calculate the energy released per gram in kJ g⁻¹. (2)",
@@ -32123,32 +31161,6 @@
     "year": "June 2025",
     "paper": "AQA Paper 2 Q03.2",
     "subtopic": "Calorimetry"
-   },
-   {
-    "id": "bio-p2-2025-06.4-a",
-    "marks": 2,
-    "prompt": "Dose = 0.01 mg per kg of lean body weight (LBW). LBW = 9.27 × 10³ × TBW ÷ (6.68 × 10³ + 216 × BMI). Calculate the dose for a patient with TBW = 90.0 kg and BMI = 32, to 3 significant figures. (2)",
-    "hints": [
-     "Calculate the bottom of the fraction first.",
-     "Then multiply by 0.01."
-    ],
-    "solution": "LBW = 834 300 ÷ 13 592 = 61.38 kg [M1]\nDose = 0.614 mg. [A1]",
-    "year": "June 2025",
-    "paper": "AQA Paper 2 Q06.4",
-    "subtopic": "Using formulae"
-   },
-   {
-    "id": "bio-p2-2025-06.4-b",
-    "marks": 2,
-    "prompt": "Dose = 0.02 mg per kg of lean body weight. LBW = 9.27 × 10³ × TBW ÷ (6.68 × 10³ + 216 × BMI). Calculate the dose for TBW = 75.0 kg and BMI = 25, to 3 significant figures. (2)",
-    "hints": [
-     "216 × 25 = 5400.",
-     "Multiply LBW by 0.02."
-    ],
-    "solution": "LBW = 695 250 ÷ 12 080 = 57.55 kg [M1]\nDose = 1.15 mg. [A1]",
-    "year": "June 2025",
-    "paper": "AQA Paper 2 Q06.4",
-    "subtopic": "Using formulae"
    },
    {
     "id": "bio-p2-2025-06.4-c",
@@ -32172,19 +31184,6 @@
      "Number of mutations ÷ rate = number of cycles."
     ],
     "solution": "3.80 × 10⁻⁹ × 3 × 10⁹ = 11.4 mutations [M1]\n11.4 ÷ 1.14 = 10 cycles = 10 days. [A1]",
-    "year": "June 2025",
-    "paper": "AQA Paper 2 Q08.1",
-    "subtopic": "Standard form"
-   },
-   {
-    "id": "bio-p2-2025-08.1-b",
-    "marks": 2,
-    "prompt": "1.60 × 10⁻⁷ % of a genome of 3 × 10⁹ nucleotides had changed. The mutation rate is 1.2 per cell cycle and each cycle lasts 24 hours. Calculate the age in days. (2)",
-    "hints": [
-     "÷ 100 first.",
-     "Mutations ÷ rate."
-    ],
-    "solution": "1.60 × 10⁻⁹ × 3 × 10⁹ = 4.8 mutations [M1]\n4.8 ÷ 1.2 = 4 cycles = 4 days. [A1]",
     "year": "June 2025",
     "paper": "AQA Paper 2 Q08.1",
     "subtopic": "Standard form"
@@ -32229,19 +31228,6 @@
     "subtopic": "Proportions"
    },
    {
-    "id": "bio-p2-2025-09.1-c",
-    "marks": 2,
-    "prompt": "12 000 people in a population of 70.0 million had a condition. Later the population was 72.0 million and 12 500 had it. How many more people had it than expected if the relative frequency was unchanged? (2)",
-    "hints": [
-     "Expected = 12 000 × 72.0 ÷ 70.0.",
-     "Round to a whole number."
-    ],
-    "solution": "Expected = 12 343 [M1]\n12 500 − 12 343 = 157 more. [A1]",
-    "year": "June 2025",
-    "paper": "AQA Paper 2 Q09.1",
-    "subtopic": "Proportions"
-   },
-   {
     "id": "bio-p2-spec-01.4-a",
     "marks": 2,
     "prompt": "Germinating seeds with mass 1.6 g used 0.48 cm³ of oxygen in 30 minutes. Calculate the rate of oxygen consumption in cm³ g⁻¹ h⁻¹. (2)",
@@ -32250,19 +31236,6 @@
      "Convert to per hour."
     ],
     "solution": "0.48 ÷ 1.6 = 0.30 cm³ g⁻¹ in 30 min [M1]\n× 2 = 0.60 cm³ g⁻¹ h⁻¹. [A1]",
-    "year": "Specimen",
-    "paper": "AQA Paper 2 Q01.4",
-    "subtopic": "Rates"
-   },
-   {
-    "id": "bio-p2-spec-01.4-b",
-    "marks": 2,
-    "prompt": "Seeds of mass 2.0 g used 0.36 cm³ of oxygen in 20 minutes. Calculate the rate in cm³ g⁻¹ h⁻¹. (2)",
-    "hints": [
-     "Per gram first.",
-     "There are three 20-minute periods per hour."
-    ],
-    "solution": "0.36 ÷ 2.0 = 0.18 cm³ g⁻¹ in 20 min [M1]\n× 3 = 0.54 cm³ g⁻¹ h⁻¹. [A1]",
     "year": "Specimen",
     "paper": "AQA Paper 2 Q01.4",
     "subtopic": "Rates"
@@ -32302,19 +31275,6 @@
      "Per minute."
     ],
     "solution": "1800 ÷ 0.0125 = 144 000 cm³ per day ÷ 1440 = 100 cm³ min⁻¹. [B1]",
-    "year": "Specimen",
-    "paper": "AQA Paper 2 Q07.4",
-    "subtopic": "Rates"
-   },
-   {
-    "id": "bio-p2-spec-07.4-c",
-    "marks": 1,
-    "prompt": "A person excretes 2016 mg of creatinine in 24 hours; blood creatinine is 0.01 mg cm⁻³. Calculate the GFR in cm³ min⁻¹. (1)",
-    "hints": [
-     "Volume per day first.",
-     "1440 minutes per day."
-    ],
-    "solution": "2016 ÷ 0.01 = 201 600 cm³ per day ÷ 1440 = 140 cm³ min⁻¹. [B1]",
     "year": "Specimen",
     "paper": "AQA Paper 2 Q07.4",
     "subtopic": "Rates"
@@ -32438,19 +31398,6 @@
     "subtopic": "Potometers"
    },
    {
-    "id": "bio-p3-2017-06.1-b",
-    "marks": 2,
-    "prompt": "A bubble moved 9 mm in 10 minutes along a capillary of diameter 1.2 mm. Calculate the rate of water uptake in mm³ per hour. (2)",
-    "hints": [
-     "r = 0.6 mm.",
-     "× 6 for an hour."
-    ],
-    "solution": "π × 0.6² × 9 = 10.2 mm³ [M1]\n× 6 = 61.1 mm³ h⁻¹. [A1]",
-    "year": "June 2017",
-    "paper": "AQA Paper 3 Q06.1",
-    "subtopic": "Potometers"
-   },
-   {
     "id": "bio-p3-2017-06.1-c",
     "marks": 2,
     "prompt": "A bubble moved 25 mm in 30 minutes along a capillary of diameter 0.5 mm. Calculate the rate of water uptake in mm³ per hour. (2)",
@@ -32490,19 +31437,6 @@
     "subtopic": "Standard form"
    },
    {
-    "id": "bio-p3-2018-02.3-c",
-    "marks": 2,
-    "prompt": "Blood contains 1.5 × 10⁹ B cells per dm³. A drug destroyed 18% in one group and 6% in another. Calculate the difference in cells destroyed per dm³, in standard form. (2)",
-    "hints": [
-     "12% difference.",
-     "Multiply."
-    ],
-    "solution": "18 − 6 = 12% [M1]\n0.12 × 1.5 × 10⁹ = 1.8 × 10⁸ per dm³. [A1]",
-    "year": "June 2018",
-    "paper": "AQA Paper 3 Q02.3",
-    "subtopic": "Standard form"
-   },
-   {
     "id": "bio-p3-2018-03.3-a",
     "marks": 2,
     "prompt": "A cell has a diameter of 12.0 µm and its nucleus has a diameter of 6.0 µm. There are 0.1 mitochondria per µm³ of cytoplasm. Treating both as spheres (V = 4/3 πr³, π = 3.14), calculate the number of mitochondria in the cell. (2)",
@@ -32511,32 +31445,6 @@
      "Use radii, not diameters."
     ],
     "solution": "Cell 904.3 µm³ − nucleus 113.0 µm³ = 791.3 µm³ [M1]\n× 0.1 = 79 mitochondria. [A1]",
-    "year": "June 2018",
-    "paper": "AQA Paper 3 Q03.3",
-    "subtopic": "Volumes"
-   },
-   {
-    "id": "bio-p3-2018-03.3-b",
-    "marks": 2,
-    "prompt": "A cell has a diameter of 20 µm and its nucleus a diameter of 8 µm. There are 0.05 mitochondria per µm³ of cytoplasm. Treating both as spheres (π = 3.14), calculate the number of mitochondria. (2)",
-    "hints": [
-     "r = 10 and 4.",
-     "Subtract, then multiply."
-    ],
-    "solution": "4186.7 − 267.9 = 3918.7 µm³ [M1]\n× 0.05 = 196 mitochondria. [A1]",
-    "year": "June 2018",
-    "paper": "AQA Paper 3 Q03.3",
-    "subtopic": "Volumes"
-   },
-   {
-    "id": "bio-p3-2018-03.3-c",
-    "marks": 2,
-    "prompt": "A cell has a diameter of 15 µm and its nucleus a diameter of 5 µm. There are 0.02 mitochondria per µm³ of cytoplasm. Treating both as spheres (π = 3.14), calculate the number of mitochondria. (2)",
-    "hints": [
-     "r = 7.5 and 2.5.",
-     "Cytoplasm volume × density."
-    ],
-    "solution": "1766.3 − 65.4 = 1700.8 µm³ [M1]\n× 0.02 = 34 mitochondria. [A1]",
     "year": "June 2018",
     "paper": "AQA Paper 3 Q03.3",
     "subtopic": "Volumes"
@@ -32594,32 +31502,6 @@
     "subtopic": "Rates"
    },
    {
-    "id": "bio-p3-2018-06.2-b",
-    "marks": 2,
-    "prompt": "Ammonia in soil A fell from 150 to 90 µg g⁻¹ in 2 days; in soil B it fell from 150 to 138 µg g⁻¹. Calculate the difference in rate, with units. (2)",
-    "hints": [
-     "Each rate.",
-     "Subtract."
-    ],
-    "solution": "A: 30; B: 6 µg g⁻¹ day⁻¹ [M1]\nDifference = 24 µg g⁻¹ day⁻¹. [A1]",
-    "year": "June 2018",
-    "paper": "AQA Paper 3 Q06.2",
-    "subtopic": "Rates"
-   },
-   {
-    "id": "bio-p3-2018-06.2-c",
-    "marks": 2,
-    "prompt": "Ammonia in soil A fell from 200 to 40 µg g⁻¹ in 4 days; in soil B it fell from 200 to 160 µg g⁻¹. Calculate the difference in rate, with units. (2)",
-    "hints": [
-     "Divide by 4.",
-     "Subtract."
-    ],
-    "solution": "A: 40; B: 10 µg g⁻¹ day⁻¹ [M1]\nDifference = 30 µg g⁻¹ day⁻¹. [A1]",
-    "year": "June 2018",
-    "paper": "AQA Paper 3 Q06.2",
-    "subtopic": "Rates"
-   },
-   {
     "id": "bio-p3-2018-06.4-a",
     "marks": 2,
     "prompt": "When pH changed from 4.9 to 7.5, mRNA copies for an enzyme in species S fell from 500 to 200, and in species T rose from 100 to 400. Use a calculation to state which species was more affected. (2)",
@@ -32641,19 +31523,6 @@
      "Compare."
     ],
     "solution": "S: −25%; T: +350% [M1]\nT was more affected. [A1]",
-    "year": "June 2018",
-    "paper": "AQA Paper 3 Q06.4",
-    "subtopic": "Percentage change"
-   },
-   {
-    "id": "bio-p3-2018-06.4-c",
-    "marks": 2,
-    "prompt": "mRNA copies in species S fell from 300 to 30 and in species T rose from 150 to 210. Which species was more affected? Use a calculation. (2)",
-    "hints": [
-     "Percentage change.",
-     "Compare."
-    ],
-    "solution": "S: −90%; T: +40% [M1]\nS was more affected. [A1]",
     "year": "June 2018",
     "paper": "AQA Paper 3 Q06.4",
     "subtopic": "Percentage change"
@@ -32683,45 +31552,6 @@
     "year": "June 2019",
     "paper": "AQA Paper 3 Q01.3",
     "subtopic": "Using equations"
-   },
-   {
-    "id": "bio-p3-2019-01.3-c",
-    "marks": 1,
-    "prompt": "Urine concentration y = 0.5x + 5, where x is loop length in mm. Calculate x when y = 13.5. (1)",
-    "hints": [
-     "Subtract 5.",
-     "Divide by 0.5."
-    ],
-    "solution": "x = (13.5 − 5) ÷ 0.5 = 17 mm. [B1]",
-    "year": "June 2019",
-    "paper": "AQA Paper 3 Q01.3",
-    "subtopic": "Using equations"
-   },
-   {
-    "id": "bio-p3-2019-03.5-a",
-    "marks": 1,
-    "prompt": "Cardiac output was 4700 cm³ per minute and heart rate was 75 beats per minute. Calculate the stroke volume. (1)",
-    "hints": [
-     "Cardiac output = stroke volume × heart rate.",
-     "Divide."
-    ],
-    "solution": "4700 ÷ 75 = 62.7 cm³. [B1]",
-    "year": "June 2019",
-    "paper": "AQA Paper 3 Q03.5",
-    "subtopic": "Cardiac output"
-   },
-   {
-    "id": "bio-p3-2019-03.5-b",
-    "marks": 1,
-    "prompt": "Cardiac output was 5280 cm³ per minute and heart rate was 88 beats per minute. Calculate the stroke volume. (1)",
-    "hints": [
-     "Rearrange.",
-     "cm³ per beat."
-    ],
-    "solution": "5280 ÷ 88 = 60 cm³. [B1]",
-    "year": "June 2019",
-    "paper": "AQA Paper 3 Q03.5",
-    "subtopic": "Cardiac output"
    },
    {
     "id": "bio-p3-2019-03.5-c",
@@ -32763,19 +31593,6 @@
     "subtopic": "Speed"
    },
    {
-    "id": "bio-p3-2019-05.4-c",
-    "marks": 2,
-    "prompt": "An animal moves at 500 mm per minute. Calculate the time, in hours, to travel from 100 m to 10 m below the surface. (2)",
-    "hints": [
-     "90 m.",
-     "÷ 500."
-    ],
-    "solution": "90 000 ÷ 500 = 180 minutes [M1]\n= 3 hours. [A1]",
-    "year": "June 2019",
-    "paper": "AQA Paper 3 Q05.4",
-    "subtopic": "Speed"
-   },
-   {
     "id": "bio-p3-2019-06.1-a",
     "marks": 1,
     "prompt": "A tumour is detected when it contains 10⁹ cells. Its maximum size is 10¹² cells. Calculate the percentage of maximum size reached at detection. (1)",
@@ -32802,19 +31619,6 @@
     "subtopic": "Logarithms"
    },
    {
-    "id": "bio-p3-2019-06.1-c",
-    "marks": 1,
-    "prompt": "A tumour is detected at 10¹⁰ cells and its maximum size is 10¹²·⁵ cells. Calculate the percentage of maximum size at detection. (1)",
-    "hints": [
-     "Divide the powers of 10.",
-     "× 100."
-    ],
-    "solution": "10¹⁰ ÷ 10¹²·⁵ × 100 = 0.32%. [B1]",
-    "year": "June 2019",
-    "paper": "AQA Paper 3 Q06.1",
-    "subtopic": "Logarithms"
-   },
-   {
     "id": "bio-p3-2019-06.2-a",
     "marks": 1,
     "prompt": "During early growth, log₁₀(number of tumour cells) = 0.2 × time in months. Calculate the age of a tumour containing 3.98 × 10¹¹ cells. (1)",
@@ -32823,19 +31627,6 @@
      "Divide by 0.2."
     ],
     "solution": "log₁₀(3.98 × 10¹¹) = 11.6; ÷ 0.2 = 58 months. [B1]",
-    "year": "June 2019",
-    "paper": "AQA Paper 3 Q06.2",
-    "subtopic": "Logarithms"
-   },
-   {
-    "id": "bio-p3-2019-06.2-b",
-    "marks": 1,
-    "prompt": "log₁₀(number of cells) = 0.2 × time in months. Calculate the age of a tumour of 1.0 × 10¹⁰ cells. (1)",
-    "hints": [
-     "log₁₀ = 10.",
-     "Divide."
-    ],
-    "solution": "10 ÷ 0.2 = 50 months. [B1]",
     "year": "June 2019",
     "paper": "AQA Paper 3 Q06.2",
     "subtopic": "Logarithms"
@@ -32862,19 +31653,6 @@
      "That's 60% of the original."
     ],
     "solution": "V after = 4/3 × 3.14 × 15³ = 14 130 mm³ [M1]\nBefore = 14 130 ÷ 0.6 = 23 550 mm³. [A1]",
-    "year": "June 2019",
-    "paper": "AQA Paper 3 Q06.5",
-    "subtopic": "Volumes"
-   },
-   {
-    "id": "bio-p3-2019-06.5-b",
-    "marks": 2,
-    "prompt": "After treatment, a tumour had a diameter of 24.0 mm and its volume had decreased by 25%. Treating it as a sphere (π = 3.14), calculate its volume before treatment. (2)",
-    "hints": [
-     "r = 12 mm.",
-     "Divide by 0.75."
-    ],
-    "solution": "V after = 4/3 × 3.14 × 12³ = 7234.6 mm³ [M1]\nBefore = 7234.6 ÷ 0.75 = 9646 mm³. [A1]",
     "year": "June 2019",
     "paper": "AQA Paper 3 Q06.5",
     "subtopic": "Volumes"
@@ -32945,19 +31723,6 @@
     "subtopic": "Percentages"
    },
    {
-    "id": "bio-p3-2020-04.3-b",
-    "marks": 2,
-    "prompt": "1 200 000 patients took a medicine and 3.5% developed a condition. The control group had 6.0 times fewer cases. Calculate the number of control cases. (2)",
-    "hints": [
-     "3.5% of the total.",
-     "Divide."
-    ],
-    "solution": "1 200 000 × 0.035 = 42 000 [M1]\n÷ 6.0 = 7000. [A1]",
-    "year": "June 2020",
-    "paper": "AQA Paper 3 Q04.3",
-    "subtopic": "Percentages"
-   },
-   {
     "id": "bio-p3-2020-04.3-c",
     "marks": 2,
     "prompt": "640 000 patients took a medicine and 6.25% developed a condition. The control group had 2.5 times fewer cases. Calculate the number of control cases. (2)",
@@ -32979,19 +31744,6 @@
      "÷ 12."
     ],
     "solution": "600 000 × 0.28 × 0.04 = 6720 [M1]\n÷ 12 = 560 per month. [A1]",
-    "year": "June 2020",
-    "paper": "AQA Paper 3 Q05.1",
-    "subtopic": "Percentages"
-   },
-   {
-    "id": "bio-p3-2020-05.1-b",
-    "marks": 2,
-    "prompt": "480 000 people died in a year. 30% were from cancer, and 2.5% of these were from one type. Calculate the mean deaths per month from this cancer. (2)",
-    "hints": [
-     "Two percentages.",
-     "Per month."
-    ],
-    "solution": "480 000 × 0.30 × 0.025 = 3600 [M1]\n÷ 12 = 300 per month. [A1]",
     "year": "June 2020",
     "paper": "AQA Paper 3 Q05.1",
     "subtopic": "Percentages"
@@ -33063,19 +31815,6 @@
     "subtopic": "Logarithms"
    },
    {
-    "id": "bio-p3-2021-04.4-b",
-    "marks": 2,
-    "prompt": "R = (ln H₂ − ln H₁) ÷ t. A plant grew from 200 mm to 350 mm with R = 0.08 per day. Calculate t to the nearest day. (2)",
-    "hints": [
-     "ln(350 ÷ 200).",
-     "Divide by R."
-    ],
-    "solution": "ln 350 − ln 200 = 0.560 [M1]\n÷ 0.08 = 7.0, so 7 days. [A1]",
-    "year": "June 2021",
-    "paper": "AQA Paper 3 Q04.4",
-    "subtopic": "Logarithms"
-   },
-   {
     "id": "bio-p3-2021-04.4-c",
     "marks": 2,
     "prompt": "R = (ln H₂ − ln H₁) ÷ t. A plant grew from 120 mm to 300 mm with R = 0.06 per day. Calculate t to the nearest day. (2)",
@@ -33136,19 +31875,6 @@
      "Two of each."
     ],
     "solution": "β = 156 [M1]\nTotal = 2 × 150 + 2 × 156 = 612. [A1]",
-    "year": "June 2022",
-    "paper": "AQA Paper 3 Q01.3",
-    "subtopic": "Percentages"
-   },
-   {
-    "id": "bio-p3-2022-01.3-b",
-    "marks": 2,
-    "prompt": "A protein has two α chains of 120 amino acids and two β chains, each with 5% more amino acids than an α chain. Calculate the total number of amino acids. (2)",
-    "hints": [
-     "120 × 1.05.",
-     "Add all four."
-    ],
-    "solution": "β = 126 [M1]\nTotal = 240 + 252 = 492. [A1]",
     "year": "June 2022",
     "paper": "AQA Paper 3 Q01.3",
     "subtopic": "Percentages"
@@ -33219,19 +31945,6 @@
     "subtopic": "Standard form"
    },
    {
-    "id": "bio-p3-2022-05.1-b",
-    "marks": 3,
-    "prompt": "A 5000 m² area of forest took up CO₂ at 10 µmol m⁻² s⁻¹ for 2 hours. Calculate the total uptake in µmol, in standard form. (3)",
-    "hints": [
-     "2 h in seconds.",
-     "Multiply."
-    ],
-    "solution": "2 h = 7200 s [M1]\n10 × 7200 = 72 000 µmol m⁻² [M1]\n× 5000 = 3.6 × 10⁸ µmol. [A1]",
-    "year": "June 2022",
-    "paper": "AQA Paper 3 Q05.1",
-    "subtopic": "Standard form"
-   },
-   {
     "id": "bio-p3-2022-05.1-c",
     "marks": 3,
     "prompt": "A 20 000 m² area took up CO₂ at 5 µmol m⁻² s⁻¹ for 1.5 hours. Calculate the total uptake in µmol, in standard form. (3)",
@@ -33271,19 +31984,6 @@
     "subtopic": "Using equations"
    },
    {
-    "id": "bio-p3-2022-05.4-c",
-    "marks": 2,
-    "prompt": "Using D = 0.4 × L ÷ F, calculate D when L = 5.0 × 10⁻² MJ m⁻² h⁻¹ and F = 16 MJ kg⁻¹. Give units. (2)",
-    "hints": [
-     "Substitute.",
-     "Standard form."
-    ],
-    "solution": "0.4 × 5.0 × 10⁻² ÷ 16 [M1]\n= 1.25 × 10⁻³ kg m⁻² h⁻¹. [A1]",
-    "year": "June 2022",
-    "paper": "AQA Paper 3 Q05.4",
-    "subtopic": "Using equations"
-   },
-   {
     "id": "bio-p3-2023-02.2-a",
     "marks": 2,
     "prompt": "A drop of coloured liquid in a tube connected to yeast in glucose moved 14 mm in 300 s. Calculate the rate of CO₂ production in mm s⁻¹, in standard form to 2 significant figures. (2)",
@@ -33292,19 +31992,6 @@
      "Standard form."
     ],
     "solution": "14 ÷ 300 = 0.0467 [M1]\n= 4.7 × 10⁻² mm s⁻¹. [A1]",
-    "year": "June 2023",
-    "paper": "AQA Paper 3 Q02.2",
-    "subtopic": "Rates"
-   },
-   {
-    "id": "bio-p3-2023-02.2-b",
-    "marks": 2,
-    "prompt": "The liquid moved 9 mm in 600 s. Calculate the rate in mm s⁻¹, in standard form to 2 significant figures. (2)",
-    "hints": [
-     "Divide.",
-     "Standard form."
-    ],
-    "solution": "9 ÷ 600 = 0.015 [M1]\n= 1.5 × 10⁻² mm s⁻¹. [A1]",
     "year": "June 2023",
     "paper": "AQA Paper 3 Q02.2",
     "subtopic": "Rates"
@@ -33331,19 +32018,6 @@
      "× 10 (per cm³) × 10⁴ × 10 cm³."
     ],
     "solution": "Mean = 132 per 0.1 cm³ = 1320 per cm³ diluted [M1]\n× 10⁴ × 10 = 1.32 × 10⁸ bacteria. [A1]",
-    "year": "June 2023",
-    "paper": "AQA Paper 3 Q03.2",
-    "subtopic": "Serial dilutions"
-   },
-   {
-    "id": "bio-p3-2023-03.2-b",
-    "marks": 2,
-    "prompt": "A culture was diluted 1 in 10⁶ and 0.5 cm³ samples gave 45, 52 and 59 colonies. Calculate the number of bacteria per cm³ in the undiluted culture. (2)",
-    "hints": [
-     "Mean = 52.",
-     "× 2 × 10⁶."
-    ],
-    "solution": "52 per 0.5 cm³ = 104 per cm³ diluted [M1]\n× 10⁶ = 1.04 × 10⁸ per cm³. [A1]",
     "year": "June 2023",
     "paper": "AQA Paper 3 Q03.2",
     "subtopic": "Serial dilutions"
@@ -33388,19 +32062,6 @@
     "subtopic": "Exponential growth"
    },
    {
-    "id": "bio-p3-2023-03.3-c",
-    "marks": 1,
-    "prompt": "Starting from one bacterium, how many generations are needed to reach at least 7.25 × 10⁶ cells? (1)",
-    "hints": [
-     "2ⁿ.",
-     "2²² = 4.2 × 10⁶."
-    ],
-    "solution": "2²³ = 8.4 × 10⁶, so 23 generations. [B1]",
-    "year": "June 2023",
-    "paper": "AQA Paper 3 Q03.3",
-    "subtopic": "Exponential growth"
-   },
-   {
     "id": "bio-p3-2023-04.3-a",
     "marks": 2,
     "prompt": "Mean ventricular pressure was 60 (control, 0% new cardiomyocytes), 90 (c-KIT⁺, 68% new cardiomyocytes) and 75 (c-KIT⁻). Assuming pressure is directly proportional to the number of cardiomyocytes, calculate the percentage of new cardiomyocytes in the c-KIT⁻ group. (2)",
@@ -33409,19 +32070,6 @@
      "Compare with c-KIT⁺."
     ],
     "solution": "(75 − 60) ÷ (90 − 60) = 0.5 [M1]\n0.5 × 68% = 34%. [A1]",
-    "year": "June 2023",
-    "paper": "AQA Paper 3 Q04.3",
-    "subtopic": "Proportionality"
-   },
-   {
-    "id": "bio-p3-2023-04.3-b",
-    "marks": 2,
-    "prompt": "Pressure was 50 in the control (0% new cells), 80 with treatment A (60% new cells) and 62 with treatment B. Assuming proportionality, calculate the percentage of new cells with treatment B. (2)",
-    "hints": [
-     "12 ÷ 30.",
-     "× 60."
-    ],
-    "solution": "(62 − 50) ÷ (80 − 50) = 0.4 [M1]\n0.4 × 60 = 24%. [A1]",
     "year": "June 2023",
     "paper": "AQA Paper 3 Q04.3",
     "subtopic": "Proportionality"
@@ -33507,19 +32155,6 @@
     "subtopic": "Respirometers"
    },
    {
-    "id": "bio-p3-2024-02.4-c",
-    "marks": 3,
-    "prompt": "The drop moved 18 mm in 240 s along a capillary of radius 1.0 mm. The organisms had a mass of 0.60 g. Calculate the rate of oxygen uptake in mm³ s⁻¹ g⁻¹ to 2 d.p. (π = 3.14). (3)",
-    "hints": [
-     "πr²l.",
-     "Divide."
-    ],
-    "solution": "3.14 × 1 × 18 = 56.52 mm³ [M1]\n÷ 240 = 0.2355 mm³ s⁻¹ [M1]\n÷ 0.60 = 0.39 mm³ s⁻¹ g⁻¹. [A1]",
-    "year": "June 2024",
-    "paper": "AQA Paper 3 Q02.4",
-    "subtopic": "Respirometers"
-   },
-   {
     "id": "bio-p3-2024-03.2-a",
     "marks": 3,
     "prompt": "Surface area (m²) = √(height in cm × mass in kg ÷ 3600) and volume (m³) = mass ÷ 1010. Person A is 175 cm and 70 kg; person B is 160 cm and 80 kg. Use calculations to find which person has the smaller SA : V ratio, to 3 s.f. (3)",
@@ -33585,19 +32220,6 @@
     "subtopic": "Percentages"
    },
    {
-    "id": "bio-p3-2024-05.2-c",
-    "marks": 3,
-    "prompt": "A population of 120 000 has a disease frequency of 1 in 4000. 90% of cases are nuclear and 10% of those are in one gene. Estimate the number of people with a mutation in that gene. (3)",
-    "hints": [
-     "Cases.",
-     "× 0.9 × 0.1."
-    ],
-    "solution": "120 000 ÷ 4000 = 30 [M1]\n30 × 0.9 = 27 [M1]\n27 × 0.1 = 2.7, so 3 people. [A1]",
-    "year": "June 2024",
-    "paper": "AQA Paper 3 Q05.2",
-    "subtopic": "Percentages"
-   },
-   {
     "id": "bio-p3-2025-01.2-a",
     "marks": 2,
     "prompt": "After 8 hours, the log₁₀ of the bacterial population was 6.2 at 20 °C and 6.6 at 24 °C. Calculate the percentage increase in population at 24 °C compared with 20 °C, to the nearest whole number. (2)",
@@ -33645,32 +32267,6 @@
      "Convert cm³ to dm³."
     ],
     "solution": "3000 × (10 − 4.0) ÷ 4.0 = 4500 cm³ [M1]\n= 4.5 dm³. [A1]",
-    "year": "June 2025",
-    "paper": "AQA Paper 3 Q06.3",
-    "subtopic": "Using equations"
-   },
-   {
-    "id": "bio-p3-2025-06.3-b",
-    "marks": 2,
-    "prompt": "V₂ = V₁(C₁ − C₂) ÷ C₂. V₁ = 2500 cm³, C₁ = 12%, C₂ = 5.0%. Calculate lung volume in dm³. (2)",
-    "hints": [
-     "2500 × 7 ÷ 5.",
-     "÷ 1000."
-    ],
-    "solution": "2500 × 7.0 ÷ 5.0 = 3500 cm³ [M1]\n= 3.5 dm³. [A1]",
-    "year": "June 2025",
-    "paper": "AQA Paper 3 Q06.3",
-    "subtopic": "Using equations"
-   },
-   {
-    "id": "bio-p3-2025-06.3-c",
-    "marks": 2,
-    "prompt": "V₂ = V₁(C₁ − C₂) ÷ C₂. V₁ = 3500 cm³, C₁ = 10%, C₂ = 3.5%. Calculate lung volume in dm³. (2)",
-    "hints": [
-     "3500 × 6.5 ÷ 3.5.",
-     "÷ 1000."
-    ],
-    "solution": "3500 × 6.5 ÷ 3.5 = 6500 cm³ [M1]\n= 6.5 dm³. [A1]",
     "year": "June 2025",
     "paper": "AQA Paper 3 Q06.3",
     "subtopic": "Using equations"
@@ -34143,32 +32739,6 @@
     "subtopic": "Averages"
    },
    {
-    "id": "bio-p1-2023-05.4-b",
-    "marks": 1,
-    "prompt": "The diameters of five clear zones were 20, 18, 25, 19 and 18 mm. Calculate the median and the mean. (1)",
-    "hints": [
-     "Order: 18, 18, 19, 20, 25.",
-     "Total = 100."
-    ],
-    "solution": "Median 19 mm; mean 20.0 mm. [B1]",
-    "year": "June 2023",
-    "paper": "AQA Paper 1 Q05.4",
-    "subtopic": "Averages"
-   },
-   {
-    "id": "bio-p1-2023-05.4-c",
-    "marks": 1,
-    "prompt": "The diameters of five clear zones were 9, 0, 11, 10 and 10 mm. Calculate the median and the mean. (1)",
-    "hints": [
-     "Order the values including the 0.",
-     "Total = 40."
-    ],
-    "solution": "Median 10 mm; mean 8.0 mm. [B1]",
-    "year": "June 2023",
-    "paper": "AQA Paper 1 Q05.4",
-    "subtopic": "Averages"
-   },
-   {
     "id": "bio-p1-2023-05.5-a",
     "marks": 2,
     "prompt": "Mean clear-zone diameter was 13.0 mm (SD 1.6) for substance A and 20.0 mm (SD 2.8) for substance B. Use the mean ± 2 SD to decide whether the difference could be due to chance. (2)",
@@ -34288,19 +32858,6 @@
     "subtopic": "Evaluating tests"
    },
    {
-    "id": "bio-p1-2024-05.3-a",
-    "marks": 2,
-    "prompt": "A correlation test gave r = +0.85, P < 0.05. Interpret this result. (2)",
-    "hints": [
-     "What does the sign tell you?",
-     "What does P < 0.05 mean?"
-    ],
-    "solution": "Strong positive correlation [B1]\nSignificant — less than 5% probability it is due to chance. [B1]",
-    "year": "June 2024",
-    "paper": "AQA Paper 1 Q05.3",
-    "subtopic": "Correlation"
-   },
-   {
     "id": "bio-p1-2024-05.3-b",
     "marks": 2,
     "prompt": "A correlation test gave r = −0.30, P > 0.05. Interpret this result. (2)",
@@ -34406,19 +32963,6 @@
     "subtopic": "Lines of best fit"
    },
    {
-    "id": "bio-p1-2025-08.3-a",
-    "marks": 1,
-    "prompt": "Spearman's rₛ = 0.70 for 5 pairs of values. The critical value at P = 0.05 is 0.90. State the conclusion. (1)",
-    "hints": [
-     "Compare rₛ with the critical value.",
-     "Is it bigger?"
-    ],
-    "solution": "0.70 < 0.90, so no significant correlation / accept the null hypothesis. [B1]",
-    "year": "June 2025",
-    "paper": "AQA Paper 1 Q08.3",
-    "subtopic": "Spearman's rank"
-   },
-   {
     "id": "bio-p1-2025-08.3-b",
     "marks": 1,
     "prompt": "Spearman's rₛ = −0.89 for 6 pairs of values. The critical value at P = 0.05 is 0.83. State the conclusion. (1)",
@@ -34427,19 +32971,6 @@
      "Then describe the direction."
     ],
     "solution": "0.89 > 0.83, so significant negative correlation (reject the null hypothesis). [B1]",
-    "year": "June 2025",
-    "paper": "AQA Paper 1 Q08.3",
-    "subtopic": "Spearman's rank"
-   },
-   {
-    "id": "bio-p1-2025-08.3-c",
-    "marks": 1,
-    "prompt": "Spearman's rₛ = 0.86 for 8 pairs of values. The critical value at P = 0.05 is 0.74. State the conclusion. (1)",
-    "hints": [
-     "Is rₛ above the critical value?",
-     "Positive or negative?"
-    ],
-    "solution": "0.86 > 0.74, so significant positive correlation. [B1]",
     "year": "June 2025",
     "paper": "AQA Paper 1 Q08.3",
     "subtopic": "Spearman's rank"
@@ -34670,19 +33201,6 @@
     "subtopic": "Evaluating evidence"
    },
    {
-    "id": "bio-p2-2018-05.2-c",
-    "marks": 2,
-    "prompt": "Mean urine volume (± 2 SD) was 2200 ± 100 cm³ with drug Q, 1500 ± 150 cm³ with drug R and 300 ± 50 cm³ with a placebo. What can you conclude? (2)",
-    "hints": [
-     "Compare all three ranges.",
-     "Which drug is most effective?"
-    ],
-    "solution": "No ranges overlap, so all differences are significant [B1]\nDrug Q is the most effective diuretic, then R. [B1]",
-    "year": "June 2018",
-    "paper": "AQA Paper 2 Q05.2",
-    "subtopic": "Evaluating evidence"
-   },
-   {
     "id": "bio-p2-2019-09.1-c",
     "marks": 5,
     "prompt": "Describe how to find out whether the mean density of a plant species differs significantly between two fields. (5)",
@@ -34744,19 +33262,6 @@
      "Do they overlap?"
     ],
     "solution": "Ranges (1.9–2.9 and 0.8–1.2) do not overlap, so the difference is significant [B1]\nTransgenic fish are about 2.4 times heavier — the gene is effective. [B1]",
-    "year": "June 2020",
-    "paper": "AQA Paper 2 Q09.3",
-    "subtopic": "Interpreting data"
-   },
-   {
-    "id": "bio-p2-2020-09.3-b",
-    "marks": 2,
-    "prompt": "Mean mass (± 2 SD) was 1.2 ± 0.4 g for transgenic fish and 0.9 ± 0.3 g for controls. What can you conclude? (2)",
-    "hints": [
-     "Find each range.",
-     "Do they overlap?"
-    ],
-    "solution": "Ranges overlap (0.8–1.6 and 0.6–1.2) [B1]\nSo the difference may be due to chance — not shown to be effective. [B1]",
     "year": "June 2020",
     "paper": "AQA Paper 2 Q09.3",
     "subtopic": "Interpreting data"
@@ -35189,34 +33694,6 @@
     "paper": "AQA Paper 2 Q07.4",
     "subtopic": "Chi-squared",
     "table": "df | P 0.05 | P 0.01\n2 | 5.99 | 9.21\n3 | 7.82 | 11.35\n4 | 9.49 | 13.28"
-   },
-   {
-    "id": "bio-p2-2025-07.4-b",
-    "marks": 4,
-    "prompt": "In a choice chamber with three sections, χ² = 4.10. Use the critical values to draw a conclusion. Use the terms probability and chance. (4)",
-    "hints": [
-     "df = 2.",
-     "Compare with 5.99."
-    ],
-    "solution": "2 degrees of freedom [B1]\n4.10 is less than the critical value of 5.99 at P = 0.05 [B1]\nSo the probability the difference is due to chance is more than 5% [B1]\nAccept the null hypothesis — no significant difference in distribution. [B1]",
-    "year": "June 2025",
-    "paper": "AQA Paper 2 Q07.4",
-    "subtopic": "Chi-squared",
-    "table": "df | P 0.05 | P 0.01\n2 | 5.99 | 9.21\n3 | 7.82 | 11.35\n4 | 9.49 | 13.28"
-   },
-   {
-    "id": "bio-p2-2025-07.4-c",
-    "marks": 4,
-    "prompt": "In a choice chamber with five sections, χ² = 13.50. Use the critical values to draw a conclusion. Use the terms probability and chance. (4)",
-    "hints": [
-     "df = 4.",
-     "Compare with both critical values."
-    ],
-    "solution": "4 degrees of freedom [B1]\n13.50 is greater than 13.28 at P = 0.01 [B1]\nSo the probability the difference is due to chance is less than 1% [B1]\nReject the null hypothesis — significant difference in distribution. [B1]",
-    "year": "June 2025",
-    "paper": "AQA Paper 2 Q07.4",
-    "subtopic": "Chi-squared",
-    "table": "df | P 0.05 | P 0.01\n3 | 7.82 | 11.35\n4 | 9.49 | 13.28\n5 | 11.07 | 15.09"
    },
    {
     "id": "bio-p2-2025-08.4-a",
@@ -37688,19 +36165,6 @@
     "subtopic": "Clinical trials"
    },
    {
-    "id": "bio-p2-2021-06.3-c",
-    "marks": 2,
-    "prompt": "Explain why drug trials are often double-blind. (2)",
-    "hints": [
-     "Who doesn't know which treatment is given?",
-     "What does this prevent?"
-    ],
-    "solution": "Neither patients nor doctors know who receives which treatment [B1]\nPrevents bias in reporting or assessing the results. [B1]",
-    "year": "June 2021",
-    "paper": "AQA Paper 2 Q06.3",
-    "subtopic": "Clinical trials"
-   },
-   {
     "id": "bio-p2-2022-03.1-a",
     "marks": 2,
     "prompt": "Apart from temperature and pH, name two variables to control when growing yeast cultures to compare their growth. (2)",
@@ -37959,32 +36423,6 @@
     "year": "June 2024",
     "paper": "AQA Paper 2 Q08.3",
     "subtopic": "Serial dilutions"
-   },
-   {
-    "id": "bio-p2-2024-08.3-b",
-    "marks": 1,
-    "prompt": "Describe how to make 10 cm³ of a 0.05 mol dm⁻³ solution from a 0.5 mol dm⁻³ stock solution. (1)",
-    "hints": [
-     "Ten-fold dilution.",
-     "Total volume 10 cm³."
-    ],
-    "solution": "1 cm³ of stock + 9 cm³ distilled water. [B1]",
-    "year": "June 2024",
-    "paper": "AQA Paper 2 Q08.3",
-    "subtopic": "Dilutions"
-   },
-   {
-    "id": "bio-p2-2024-08.3-c",
-    "marks": 1,
-    "prompt": "Describe how to make 20 cm³ of a 0.2 mol dm⁻³ solution from a 1.0 mol dm⁻³ stock solution. (1)",
-    "hints": [
-     "0.2 is one fifth of 1.0.",
-     "One fifth of 20 cm³."
-    ],
-    "solution": "4 cm³ of stock + 16 cm³ distilled water. [B1]",
-    "year": "June 2024",
-    "paper": "AQA Paper 2 Q08.3",
-    "subtopic": "Dilutions"
    },
    {
     "id": "bio-p2-2024-08.4-a",
