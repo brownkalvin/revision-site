@@ -375,40 +375,7 @@ body.ads-on .wrap{padding-bottom:12px !important;}
 .shop-btn[disabled]{opacity:.75;cursor:default;}
 @media (max-width:420px){ .toprow-links{gap:12px;margin-left:0;} .nav-link{font-size:1rem;padding:6px 1px;} }
 
-/* Fixed quick navigation: keeps the original page engine intact. */
-.quick-nav{position:fixed;top:calc(10px + env(safe-area-inset-top,0px));left:50%;transform:translateX(-50%);z-index:40;font-size:.9rem;}
-.quick-nav-btn{display:flex;align-items:center;gap:7px;background:var(--panel);color:var(--ink);border:1px solid var(--line);box-shadow:0 3px 14px rgba(0,0,0,.12);padding:9px 12px;border-radius:11px;font-weight:700;min-height:42px;}
-.quick-nav-btn .quick-nav-icon{font-size:1.05rem;line-height:1;}
-.quick-nav-panel{display:none;position:absolute;top:49px;left:0;width:min(360px,calc(100vw - 24px));max-height:min(72vh,620px);overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:14px;box-shadow:0 12px 34px rgba(0,0,0,.18);padding:10px;overscroll-behavior:contain;}
-.quick-nav.open .quick-nav-panel{display:block;}
-.quick-nav-head{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:3px 4px 8px;}
-.quick-nav-title{font-weight:800;font-size:.95rem;line-height:1.25;}
-.quick-nav-home{background:transparent;color:var(--accent);padding:5px 6px;font-size:.8rem;text-decoration:underline;}
-.quick-nav select,.quick-nav input[type=search]{width:100%;margin:0 0 8px;padding:9px 10px;border-radius:9px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:inherit;}
-.quick-nav-section{font-size:.72rem;color:var(--sub);text-transform:uppercase;letter-spacing:.04em;font-weight:800;padding:9px 6px 4px;}
-.quick-nav-topic,.quick-nav-subject{display:block;width:100%;text-align:left;background:transparent;color:var(--ink);border:none;border-radius:8px;padding:9px 8px;font-size:.88rem;line-height:1.25;}
-.quick-nav-topic:hover,.quick-nav-topic:focus-visible,.quick-nav-subject:hover,.quick-nav-subject:focus-visible{background:var(--bg);outline:none;}
-.quick-nav-topic small{display:block;color:var(--sub);font-size:.72rem;margin-top:2px;}
-.quick-nav-empty{color:var(--sub);font-size:.82rem;padding:8px 6px 10px;line-height:1.4;}
-.quick-nav-divider{height:1px;background:var(--line);margin:4px 0;}
-@media (max-width:700px){
-  .quick-nav{left:12px;}
-  .wrap{padding-top:68px;}
-  .quick-nav-panel{max-height:calc(100vh - 82px - env(safe-area-inset-bottom,0px));}
-}
 
-.quick-nav-level,.quick-nav-subject-group{border:0;}
-.quick-nav-level>summary,.quick-nav-subject-group>summary{list-style:none;cursor:pointer;font-weight:800;padding:9px 8px;border-radius:8px;}
-.quick-nav-level>summary::-webkit-details-marker,.quick-nav-subject-group>summary::-webkit-details-marker{display:none;}
-.quick-nav-level>summary::before,.quick-nav-subject-group>summary::before{content:"›";display:inline-block;width:1em;transition:transform .12s;margin-right:3px;}
-.quick-nav-level[open]>summary::before,.quick-nav-subject-group[open]>summary::before{transform:rotate(90deg);}
-.quick-nav-level>summary:hover,.quick-nav-subject-group>summary:hover{background:var(--bg);}
-.quick-nav-level-body{padding:0 0 3px 8px;}
-.quick-nav-subject-body{padding:0 0 5px 12px;}
-.quick-nav-subject-jump{display:block;width:100%;text-align:left;background:transparent;color:var(--accent);border:none;border-radius:8px;padding:8px;font-size:.84rem;}
-.quick-nav-subject-jump:hover{background:var(--bg);}
-.quick-nav-panel{width:min(380px,calc(100vw - 24px));}
-@media print{.quick-nav{display:none !important;}}
 
 </style>
 <script>window.MathJax={tex:{inlineMath:[['$','$']],displayMath:[['$$','$$']],processEscapes:true,macros:{pounds:'\\text{£}'}},svg:{fontCache:'local'},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code','svg']}};</script>
@@ -3665,71 +3632,6 @@ function masteryLabel(pct){
 }
 
 
-// ======================= FIXED TOPIC NAVIGATION =======================
-// Uses the same SUBJECTS/getAllTopics/switchSubject/browse state as the original site.
-function quickNavHtml(){
-  const levelGroups = ["GCSE","A-Level"];
-  const makeKey = (level, subjectId, topic) => encodeURIComponent(level + "|||" + subjectId + "|||" + topic);
-  const subjectLevel = s => s.group || (s.id.startsWith("gcse-") ? "GCSE" : "A-Level");
-  const subjectLabel = s => s.name.replace(/^GCSE\s+Maths\s+\(/,"Maths (").replace(/^A-Level\s+/,"");
-  const subjects = level => SUBJECTS.filter(s=>subjectLevel(s)===level);
-  const homeContent = levelGroups.map(level=>{
-    const subs = subjects(level).map(s=>{
-      const bank = SUBJECT_BANKS[s.id];
-      const topics = bank ? getAllTopics(s.id).filter(t=>t.questions && t.questions.length>0) : [];
-      return `<details class="quick-nav-subject-group"><summary>${esc(subjectLabel(s))}</summary><div class="quick-nav-subject-body">
-        ${topics.length ? topics.map(t=>`<button type="button" class="quick-nav-topic" data-quick-topic-key="${makeKey(level,s.id,t.topic)}"><span>${esc(t.topic)}</span></button>`).join("") : `<button type="button" class="quick-nav-subject-jump" data-quick-subject="${esc(s.id)}">Open ${esc(subjectLabel(s))}</button>`}
-      </div></details>`;
-    }).join("");
-    return `<details class="quick-nav-level"><summary>${esc(level)}</summary><div class="quick-nav-level-body">${subs}</div></details>`;
-  }).join("");
-  return `<nav class="quick-nav" id="quickNav" aria-label="Quick navigation">
-    <button type="button" class="quick-nav-btn" id="quickNavBtn" aria-expanded="false" aria-controls="quickNavPanel"><span class="quick-nav-icon" aria-hidden="true">☰</span><span>Topics</span></button>
-    <div class="quick-nav-panel" id="quickNavPanel">
-      <div class="quick-nav-head"><div class="quick-nav-title">Navigate</div><button type="button" class="quick-nav-home" id="quickNavHome">Home</button></div>
-      <input type="search" id="quickNavSearch" placeholder="Find a topic…" autocomplete="off" aria-label="Find a topic">
-      <div class="quick-nav-divider"></div>${homeContent}
-    </div>
-  </nav>`;
-}
-
-function attachQuickNavHandlers(){
-  const nav = document.getElementById("quickNav"), btn = document.getElementById("quickNavBtn");
-  if(!nav || !btn) return;
-  const close = ()=>{ nav.classList.remove("open"); btn.setAttribute("aria-expanded","false"); };
-  btn.onclick = e=>{ e.stopPropagation(); const open=!nav.classList.contains("open"); nav.classList.toggle("open",open); btn.setAttribute("aria-expanded",open?"true":"false"); if(open){ const q=document.getElementById("quickNavSearch"); if(q) setTimeout(()=>q.focus(),0); } };
-  const home = document.getElementById("quickNavHome");
-  if(home) home.onclick = ()=>{ state.screen="home"; state.editForm=null; document.title=SITE_NAME; render(); window.scrollTo(0,0); };
-  nav.querySelectorAll("[data-quick-subject]").forEach(b=>{ b.onclick=(e)=>{ e.preventDefault(); e.stopPropagation(); switchSubject(b.dataset.quickSubject); window.scrollTo(0,0); }; });
-  nav.querySelectorAll("[data-quick-topic-key]").forEach(b=>{ b.onclick=(e)=>{
-    e.preventDefault(); e.stopPropagation();
-    const decoded=decodeURIComponent(b.dataset.quickTopicKey||"").split("|||");
-    const sid=decoded[1], topic=decoded.slice(2).join("|||");
-    switchSubject(sid);
-    loadSubject(sid).then(()=>{
-      state.browseTopic=topic; state.browseSearch=""; state.browseSort="default"; state.screen="browse";
-      render(); window.scrollTo(0,0);
-    }).catch(()=>{});
-  }; });
-  const search=document.getElementById("quickNavSearch");
-  if(search) search.oninput=()=>{
-    const q=search.value.trim().toLowerCase();
-    nav.querySelectorAll("[data-quick-topic-key]").forEach(b=>{ b.style.display=!q || b.textContent.toLowerCase().includes(q) ? "block" : "none"; });
-    nav.querySelectorAll(".quick-nav-subject-group").forEach(d=>{
-      const any=[...d.querySelectorAll("[data-quick-topic-key]")].some(b=>b.style.display!=="none");
-      d.style.display=any || !q ? "" : "none";
-    });
-    nav.querySelectorAll(".quick-nav-level").forEach(d=>{
-      const any=[...d.querySelectorAll(".quick-nav-subject-group")].some(x=>x.style.display!=="none");
-      d.style.display=any || !q ? "" : "none";
-    });
-  };
-  const outside=e=>{ if(!document.body.contains(nav)){ document.removeEventListener("click",outside); return; } if(!nav.contains(e.target)) close(); };
-  const escHandler=e=>{ if(!document.body.contains(nav)){ document.removeEventListener("keydown",escHandler); return; } if(e.key==="Escape"){ close(); btn.focus(); } };
-  document.addEventListener("click",outside);
-  document.addEventListener("keydown",escHandler);
-}
-
 function render(){
   const app = document.getElementById("app");
   if(state.screen==="thread") state.screen = "inbox";
@@ -3754,11 +3656,9 @@ function render(){
   else if(state.screen === "account") html = renderAccount();
   else if(state.screen === "paperSetup") html = renderPaperSetup();
   else if(state.screen === "paperView") html = renderPaperView();
-  html = quickNavHtml() + html;
   html += footerHtml();
   html += renderToast();
   app.innerHTML = html;
-  attachQuickNavHandlers();
   attachHandlers();
   attachAdminHandlers();
   attachShopHandlers();
