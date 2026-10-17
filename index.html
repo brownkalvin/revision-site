@@ -377,6 +377,11 @@ body.ads-on .wrap{padding-bottom:12px !important;}
 
 
 
+.about-head{margin-top:32px;padding-top:18px;border-top:1px solid var(--line);}
+.about-card>summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:10px;}
+.about-card>summary::-webkit-details-marker{display:none;}
+.about-arrow{font-size:1.5rem;line-height:1;color:var(--accent);transition:transform .15s;}
+.about-card[open] .about-arrow{transform:rotate(90deg);}
 </style>
 <script>window.MathJax={tex:{inlineMath:[['$','$']],displayMath:[['$$','$$']],processEscapes:true,macros:{pounds:'\\text{£}'}},svg:{fontCache:'local'},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code','svg']}};</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-svg.js"></script>
@@ -400,7 +405,9 @@ body.ads-on .wrap{padding-bottom:12px !important;}
 </script>
 <div class="acct-bar" id="acctBar"></div>
 <div id="authScreen" style="display:none"></div>
-<div class="wrap" id="app"></div>
+<div class="wrap" id="app"><h1>kelvincard: free GCSE and A-Level revision</h1>
+<p>Free practice questions for GCSE Maths, GCSE Science, GCSE Computer Science and A-Level Maths, Further Maths, Biology, Chemistry, Physics and Computer Science, written in the style of AQA, Edexcel and OCR exam papers. Every question has hints and a fully worked solution, and you can generate printable practice papers with mark schemes.</p>
+<p><a href="privacy.html">Privacy notice</a> · <a href="terms.html">Rules</a> · <a href="mailto:kelvincardsupport@gmail.com">Contact</a></p></div>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
@@ -986,7 +993,7 @@ function initAccounts(){
   const recovery = /type=recovery/.test(hash);
   const linkError = (hash.match(/error_description=([^&]+)/)||[])[1];
   const guest = localStorage.getItem(GUEST_KEY)==="1";
-  if(!guest || recovery){ document.getElementById("app").style.display = "none"; setBar("loading"); }
+  if(recovery){ document.getElementById("app").style.display = "none"; setBar("loading"); }
   let inRecovery = recovery;
   sb.auth.onAuthStateChange((event, session)=>{
     if(event==="PASSWORD_RECOVERY"){ inRecovery = true; setTimeout(()=>showAuth("newpass"), 0); }
@@ -1000,8 +1007,7 @@ function initAccounts(){
     if(inRecovery){ if(s) return showAuth("newpass"); return showAuth("forgot", "That reset link has expired. Send a new one."); }
     cleanUrl();
     if(s) afterLogin(s.user, false);
-    else if(guest){ document.getElementById("app").style.display = ""; setBar("guest"); }
-    else showAuth("login");
+    else { document.getElementById("app").style.display = ""; setBar("guest"); }
   }).catch(()=>{ document.getElementById("app").style.display = ""; setBar("unavailable"); });
   window.addEventListener("online", ()=>{ if(user) syncNow(); });
   document.addEventListener("visibilitychange", ()=>{ if(user && document.visibilityState==="visible") syncNow(); });
@@ -1440,6 +1446,10 @@ function renderHome(){
       <div class="toprow-links">${themeSwitchHtml()}${isAdmin ? `<button class="nav-link" id="adminBtn">Admin${adminOpenCount ? ` (${adminOpenCount})` : ""}</button>` : ""}</div></div>
     ${cont}
     ${groups}
+    <h3 class="about-head">About</h3>
+    <details class="card about-card"><summary><h2 style="font-size:1rem;margin:0;">About kelvincard</h2><span class="about-arrow" aria-hidden="true">›</span></summary>
+      <div class="sub" style="margin:10px 0 0;">kelvincard is a free revision site for GCSE and A-Level students. Every subject has practice questions written in the style of real exam papers from AQA, Edexcel and OCR, each with step-by-step hints and a fully worked solution. GCSE Maths questions let you type your answer and check it straight away. The site uses spaced repetition, so questions you find hard come back sooner and ones you know well are spaced further apart, and your grade for each topic is estimated from your scores. You can also build your own decks of questions, share them with friends, and generate printable practice papers with full mark schemes. No account is needed: your progress is saved on your device, or create a free account to keep it across devices.</div>
+    </details>
     ${sponsorHtml()}
     ${supportLineHtml()}`;
 }
