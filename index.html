@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>kelvincard</title>
 <link rel="canonical" href="https://www.kelvincard.co.uk/">
@@ -143,6 +145,15 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline
 .bank-sub[open]>summary::before{transform:rotate(90deg);}
 .bank-name{flex:1;font-weight:600;font-size:.92rem;}
 .bank-num{font-weight:700;white-space:nowrap;text-align:right;font-size:.9rem;}
+.home-level{display:flex;align-items:center;gap:12px;margin:28px 0 6px;font-size:1.35rem;font-weight:700;color:var(--ink);}
+.home-level::after{content:"";flex:1;height:2px;background:var(--line);}
+.home-group{border:1px solid var(--line);border-radius:12px;margin:10px 0;padding:0 14px;}
+.home-group > summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;padding:14px 0;font-weight:600;font-size:1.05rem;color:var(--ink);}
+.home-group > summary::-webkit-details-marker{display:none;}
+.home-group > summary::after{content:"▾";display:inline-block;transition:transform .2s;margin-left:10px;opacity:.6;}
+.home-group[open] > summary::after{transform:rotate(180deg);}
+.home-group-count{margin-left:auto;font-weight:400;font-size:.85rem;opacity:.65;}
+.home-group[open] > .subject-grid{padding-bottom:14px;}
 .bank-num small{display:block;font-weight:400;color:var(--sub);font-size:.72rem;}
 .bank-body{padding:0 0 10px 14px;}
 .bank-cat{display:flex;justify-content:space-between;gap:10px;font-weight:700;font-size:.85rem;margin:10px 0 2px;padding-bottom:3px;border-bottom:1px dashed var(--line);}
@@ -357,7 +368,6 @@ body.ads-on .wrap{padding-bottom:12px !important;}
 .select-row .btn-ghost{width:auto;padding:8px 14px;margin:0;}
 .paper-select{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--ink);font-size:1rem;margin-bottom:6px;}
 .subject-bar{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px;}
-.subject-select{width:auto;max-width:62%;margin:0;padding:8px 10px;font-weight:600;border-radius:10px;}
 .coin-pill{background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:20px;padding:7px 12px;font-weight:700;font-size:.9rem;white-space:nowrap;}
 .coin-pill span{color:var(--accent);font-weight:600;margin-left:4px;}
 .topic-row.soon .topic-name{color:var(--sub);font-weight:500;}
@@ -383,7 +393,7 @@ body.ads-on .wrap{padding-bottom:12px !important;}
 .about-arrow{font-size:1.5rem;line-height:1;color:var(--accent);transition:transform .15s;}
 .about-card[open] .about-arrow{transform:rotate(90deg);}
 </style>
-<script>window.MathJax={tex:{inlineMath:[['$','$']],displayMath:[['$$','$$']],processEscapes:true,macros:{pounds:'\\text{£}'}},svg:{fontCache:'local'},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code','svg']}};</script>
+<script>window.MathJax={loader:{load:['ui/safe']},tex:{inlineMath:[['$','$']],displayMath:[['$$','$$']],processEscapes:true,macros:{pounds:'\\text{£}'}},svg:{fontCache:'local'},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code','svg']}};</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-svg.js"></script>
 <!-- Google AdSense. The first line must stay before the AdSense script: it makes every ad non-personalised. -->
 <script>(window.adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1;</script>
@@ -409,7 +419,8 @@ body.ads-on .wrap{padding-bottom:12px !important;}
 <p>Free practice questions for GCSE Maths, GCSE Science, GCSE Computer Science and A-Level Maths, Further Maths, Biology, Chemistry, Physics and Computer Science, written in the style of AQA, Edexcel and OCR exam papers. Every question has hints and a fully worked solution, and you can generate printable practice papers with mark schemes.</p>
 <p><a href="privacy.html">Privacy notice</a> · <a href="terms.html">Rules</a> · <a href="mailto:kelvincardsupport@gmail.com">Contact</a></p></div>
 
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<!-- Pinned to an exact version so a new release can't change the site without you knowing. -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.118.0"></script>
 <script>
 // ================= Accounts (Supabase) =================
 // To turn on accounts, paste your Supabase Project URL and publishable/anon key below.
@@ -421,6 +432,9 @@ const META_KEY = "alevel_maths_meta_v1";
 const GUEST_KEY = "alevel_maths_guest_v1";
 const PENDING_KEY = "alevel_maths_pending_signup_v1";
 let sb = null, user = null, syncTimer = null, syncing = false, syncAgain = false, applyingRemote = false, lastSyncOk = true, barStatus = "";
+// Cheaper syncing: remember the cloud copy's timestamp so unchanged progress is never downloaded or uploaded again.
+let cloudStamp = 0, localDirty = true;
+const SYNC_DELAY_MS = 4000; // was 1.5 s; saves also happen straight away when the tab is hidden or closed
 
 function accountsEnabled(){ return !!(SUPABASE_URL && SUPABASE_KEY); }
 function isHosted(){ return /^https?:$/.test(location.protocol); }
@@ -490,7 +504,7 @@ function deriveProgress(attempts){
 // those subjects is moved back here (same question ids; topic progress uses plain topic names).
 const RETIRED_SUBJECTS = ["alevel-maths-stats","alevel-maths-mechanics"];
 // The single "A-Level Further Maths" subject became one subject per exam board; its questions were Edexcel's.
-const RENAMED_SUBJECTS = { "alevel-further-maths": "alevel-further-maths-edexcel" };
+const RENAMED_SUBJECTS = { "alevel-further-maths": "alevel-further-maths-edexcel", "gcse-combined-biology-aqa": "gcse-combined-biology-aqa-higher", "gcse-combined-chemistry-aqa": "gcse-combined-chemistry-aqa-higher", "gcse-combined-physics-aqa": "gcse-combined-physics-aqa-higher", "gcse-biology-aqa": "gcse-biology-aqa-higher", "gcse-chemistry-aqa": "gcse-chemistry-aqa-higher", "gcse-physics-aqa": "gcse-physics-aqa-higher" };
 function migrateBlob(b){
   let changed = false;
   const touched = new Set();
@@ -615,9 +629,10 @@ function sameData(a, b){ return JSON.stringify(forCloud(a))===JSON.stringify(for
 // ---- syncing ----
 function cloudSchedule(){
   if(applyingRemote || !user) return;
+  localDirty = true;
   setBar("saving");
   clearTimeout(syncTimer);
-  syncTimer = setTimeout(syncNow, 1500);
+  syncTimer = setTimeout(syncNow, SYNC_DELAY_MS);
 }
 async function syncNow(){
   if(!user || !sb) return false;
@@ -625,14 +640,31 @@ async function syncNow(){
   if(syncing){ syncAgain = true; return false; }
   syncing = true;
   try{
-    const res = await sb.from("progress").select("data").eq("user_id", user.id).maybeSingle();
-    if(res.error) throw res.error;
+    // 1. A tiny request first: has another device saved since we last synced?
+    const head = await sb.from("progress").select("updated_at").eq("user_id", user.id).maybeSingle();
+    if(head.error) throw head.error;
+    const remoteStamp = head.data && head.data.updated_at ? Date.parse(head.data.updated_at) : 0;
+    const remoteChanged = !cloudStamp || remoteStamp!==cloudStamp;
+    if(!remoteChanged && !localDirty){ lastSyncOk = true; setBar("saved"); flushReports(); flushAwards(); return true; }
+    // 2. Only download the full copy when it changed elsewhere.
+    let remote = null;
+    if(remoteChanged && remoteStamp){
+      const res = await sb.from("progress").select("data").eq("user_id", user.id).maybeSingle();
+      if(res.error) throw res.error;
+      remote = res.data && res.data.data ? res.data.data : {};
+    }
     const before = localBlob();
-    const merged = mergeBlobs(before, res.data && res.data.data ? res.data.data : {});
+    const merged = remote ? mergeBlobs(before, remote) : before;
     const changed = !sameData(merged, before);
     if(changed) writeLocal(merged);
-    const up = await sb.from("progress").upsert({ user_id:user.id, data:forCloud(merged), updated_at:new Date().toISOString() });
-    if(up.error) throw up.error;
+    // 3. Only upload when something is actually different from the cloud copy.
+    if(localDirty || (remote && !sameData(merged, remote)) || !remoteStamp){
+      localDirty = false;
+      const stamp = new Date().toISOString();
+      const up = await sb.from("progress").upsert({ user_id:user.id, data:forCloud(merged), updated_at:stamp });
+      if(up.error){ localDirty = true; throw up.error; }
+      cloudStamp = Date.parse(stamp);
+    }else cloudStamp = remoteStamp;
     lastSyncOk = true;
     setBar("saved");
     flushReports();
@@ -680,6 +712,35 @@ function setBar(status){
   const rt = document.getElementById("retrySyncBtn"); if(rt) rt.onclick = ()=>{ setBar("saving"); syncNow(); };
 }
 
+// ---- bot protection (Cloudflare Turnstile) ----
+// Off until you paste your Turnstile SITE key here AND switch on CAPTCHA in Supabase
+// (Authentication → Attack Protection, with the SECRET key). Do both at the same time.
+const TURNSTILE_SITE_KEY = "";
+let tsReady = null, tsWidget = null;
+function captchaOn(){ return !!TURNSTILE_SITE_KEY; }
+function loadTurnstile(){
+  if(tsReady) return tsReady;
+  tsReady = new Promise((resolve, reject)=>{
+    const sc = document.createElement("script");
+    sc.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"; sc.async = true;
+    sc.onload = ()=>resolve(window.turnstile);
+    sc.onerror = ()=>{ tsReady = null; reject(new Error("captcha script")); };
+    document.head.appendChild(sc);
+  });
+  return tsReady;
+}
+function removeCaptcha(){ try{ if(window.turnstile && tsWidget!=null) window.turnstile.remove(tsWidget); }catch(e){} tsWidget = null; }
+function mountCaptcha(){
+  const box = document.getElementById("captchaBox");
+  if(!captchaOn() || !box) return;
+  loadTurnstile().then(t=>{ if(document.body.contains(box)) tsWidget = t.render(box, { sitekey:TURNSTILE_SITE_KEY, theme:"auto" }); })
+    .catch(()=>{ box.textContent = "The security check couldn't load. Check your connection and reload the page."; });
+}
+function captchaToken(){
+  if(!captchaOn()) return undefined;
+  try{ return window.turnstile && tsWidget!=null ? (window.turnstile.getResponse(tsWidget) || "") : ""; }catch(e){ return ""; }
+}
+
 // ---- login screen ----
 let authMode = "login", authModeShown = "";
 function authHtml(mode, msg, cls){
@@ -700,8 +761,9 @@ function authHtml(mode, msg, cls){
         <div class="uname-help">3–20 letters, numbers or underscores. You can't change it later.</div>` : ""}
         <label class="field" for="authEmail">Email</label>
         <input type="email" id="authEmail" autocomplete="email" required>
-        <label class="field" for="authPass">Password${su?" (at least 6 characters)":""}</label>
+        <label class="field" for="authPass">Password${su?" (at least 8 characters)":""}</label>
         <input type="password" id="authPass" autocomplete="${su?"new-password":"current-password"}" required>
+        ${captchaOn() ? `<div id="captchaBox" style="margin:12px 0;min-height:65px;"></div>` : ""}
         ${m}
         ${su ? `<label class="agree-row"><input type="checkbox" id="authAgree"> <span>I'm 13 or older, and I agree to the <a href="terms.html" target="_blank" rel="noopener">rules</a> and have read the <a href="privacy.html" target="_blank" rel="noopener">privacy notice</a>.</span></label>` : ""}
         <button type="submit" class="btn-primary" id="authGo">${su?"Create account":"Log in"}</button>
@@ -713,6 +775,7 @@ function authHtml(mode, msg, cls){
       <form id="authForm" novalidate>
         <label class="field" for="authEmail">Email</label>
         <input type="email" id="authEmail" autocomplete="email" required>
+        ${captchaOn() ? `<div id="captchaBox" style="margin:12px 0;min-height:65px;"></div>` : ""}
         ${m}
         <button type="submit" class="btn-primary" id="authGo">Send reset link</button>
       </form>
@@ -746,7 +809,7 @@ function authHtml(mode, msg, cls){
     body = `
       <h2>Choose a new password</h2>
       <form id="authForm" novalidate>
-        <label class="field" for="authPass">New password (at least 6 characters)</label>
+        <label class="field" for="authPass">New password (at least 8 characters)</label>
         <input type="password" id="authPass" autocomplete="new-password" required>
         <label class="field" for="authPass2">Type it again</label>
         <input type="password" id="authPass2" autocomplete="new-password" required>
@@ -772,6 +835,7 @@ function showAuth(mode, msg, cls){
   document.getElementById("app").style.display = "none";
   const el = document.getElementById("authScreen");
   el.style.display = "block";
+  removeCaptcha();
   el.innerHTML = authHtml(mode, msg, cls);
   if(typeof updateTabBar==="function") updateTabBar();
   const e2 = document.getElementById("authEmail"); if(e2 && keepEmail) e2.value = keepEmail;
@@ -781,9 +845,11 @@ function showAuth(mode, msg, cls){
   authModeShown = mode;
   if(!user && barStatus!=="unavailable") document.getElementById("acctBar").innerHTML = "";
   attachAuth();
+  mountCaptcha();
   window.scrollTo(0,0);
 }
 function hideAuth(){
+  removeCaptcha();
   document.getElementById("authScreen").style.display = "none";
   document.getElementById("authScreen").innerHTML = "";
   document.getElementById("app").style.display = "";
@@ -796,10 +862,11 @@ function friendlyAuthError(err){
   if(/invalid login credentials/i.test(t)) return "That email and password don't match an account.";
   if(/email not confirmed/i.test(t)) return "Confirm your email first. Check your inbox for the link, then log in.";
   if(/already registered|already exists/i.test(t)) return "There's already an account with this email. Log in instead.";
+  if(/captcha/i.test(t)) return "The security check failed or expired. Tick it again and retry.";
   if(/rate limit|too many/i.test(t)) return "Too many attempts. Wait a few minutes and try again.";
   if(/username_available|profiles/i.test(t)) return "Usernames aren't set up on the server yet. Run the username SQL in Supabase.";
   if(/failed to fetch|network/i.test(t)) return "Couldn't connect. Check your internet connection and try again.";
-  if(/password/i.test(t) && /(6|characters|short|weak)/i.test(t)) return "Choose a longer password (at least 6 characters).";
+  if(/password/i.test(t) && /(6|characters|short|weak)/i.test(t)) return "Choose a longer password (at least 8 characters).";
   return t || "Something went wrong. Try again.";
 }
 function attachAuth(){
@@ -823,17 +890,20 @@ function attachAuth(){
     const uname = g("authUser") ? g("authUser").value.trim() : "";
     if((authMode==="signup" || authMode==="username") && usernameProblem(uname)) return showAuth(authMode, usernameProblem(uname));
     if(!["newpass","username","terms"].includes(authMode) && !/^\S+@\S+\.\S+$/.test(email)) return showAuth(authMode, "Enter a valid email address.");
+    const needsCaptcha = ["login","signup","forgot"].includes(authMode);
+    const captcha = needsCaptcha ? captchaToken() : undefined;
+    if(needsCaptcha && captchaOn() && !captcha) return showAuth(authMode, "Please complete the security check first.");
     authBusy(true);
     try{
       if(authMode==="login"){
-        const { data, error } = await sb.auth.signInWithPassword({ email, password:pass });
+        const { data, error } = await sb.auth.signInWithPassword({ email, password:pass, options:{ captchaToken:captcha } });
         if(error) throw error;
         await afterLogin(data.user, false);
       }else if(authMode==="signup"){
-        if(pass.length<6) return showAuth("signup", "Choose a longer password (at least 6 characters).");
+        if(pass.length<8) return showAuth("signup", "Choose a longer password (at least 8 characters).");
         if(!(await usernameAvailable(uname))) return showAuth("signup", `“${uname}” is taken. Try another username.`);
         if(!g("authAgree") || !g("authAgree").checked) return showAuth("signup", "Please confirm you're 13 or older and agree to the rules.");
-        const opts = { data:{ username:uname, terms_version:TERMS_VERSION, age_13_plus:true }, ...(isHosted() ? { emailRedirectTo:herePage() } : {}) };
+        const opts = { data:{ username:uname, terms_version:TERMS_VERSION, age_13_plus:true }, captchaToken:captcha, ...(isHosted() ? { emailRedirectTo:herePage() } : {}) };
         const { data, error } = await sb.auth.signUp({ email, password:pass, options:opts });
         if(error) throw error;
         if(data.user && Array.isArray(data.user.identities) && data.user.identities.length===0)
@@ -856,11 +926,11 @@ function attachAuth(){
         await finishLogin();
       }else if(authMode==="forgot"){
         if(!isHosted()) return showAuth("forgot", "Password reset only works once the site is online at a web address, not from a downloaded file.");
-        const { error } = await sb.auth.resetPasswordForEmail(email, { redirectTo:herePage() });
+        const { error } = await sb.auth.resetPasswordForEmail(email, { redirectTo:herePage(), captchaToken:captcha });
         if(error) throw error;
         showAuth("forgot", "If there's an account for that email, a reset link is on its way. Check your inbox.", "ok");
       }else if(authMode==="newpass"){
-        if(pass.length<6) return showAuth("newpass", "Choose a longer password (at least 6 characters).");
+        if(pass.length<8) return showAuth("newpass", "Choose a longer password (at least 8 characters).");
         if(pass!==g("authPass2").value) return showAuth("newpass", "The two passwords don't match.");
         const { data, error } = await sb.auth.updateUser({ password:pass });
         if(error) throw error;
@@ -1010,7 +1080,8 @@ function initAccounts(){
     else { document.getElementById("app").style.display = ""; setBar("guest"); }
   }).catch(()=>{ document.getElementById("app").style.display = ""; setBar("unavailable"); });
   window.addEventListener("online", ()=>{ if(user) syncNow(); });
-  document.addEventListener("visibilitychange", ()=>{ if(user && document.visibilityState==="visible") syncNow(); });
+  document.addEventListener("visibilitychange", ()=>{ if(user) syncNow(); }); // visible: pick up other devices; hidden: save now
+  window.addEventListener("pagehide", ()=>{ if(user && localDirty) syncNow(); });
 }
 
 // ================= Question reports + admin screen =================
@@ -1322,12 +1393,18 @@ const SUBJECTS = [
   { id:"gcse-maths-foundation", name:"GCSE Maths (Foundation)", group:"GCSE Maths", grades:"gcse-foundation", idPrefix:"gcse-f-" },
   { id:"gcse-maths-higher", name:"GCSE Maths (Higher)", group:"GCSE Maths", grades:"gcse-higher", idPrefix:"gcse-h-" },
   { id:"gcse-maths-extended", name:"GCSE Maths (Extended)", group:"GCSE Maths", grades:"gcse-higher", idPrefix:"gcse-e-" },
-  { id:"gcse-combined-biology-aqa", name:"GCSE Combined Biology (AQA Trilogy)", group:"GCSE Combined Science (AQA)", grades:"gcse-higher", idPrefix:"gcse-cb-aqa-" },
-  { id:"gcse-combined-chemistry-aqa", name:"GCSE Combined Chemistry (AQA Trilogy)", group:"GCSE Combined Science (AQA)", grades:"gcse-higher", idPrefix:"gcse-cc-aqa-" },
-  { id:"gcse-combined-physics-aqa", name:"GCSE Combined Physics (AQA Trilogy)", group:"GCSE Combined Science (AQA)", grades:"gcse-higher", idPrefix:"gcse-cp-aqa-" },
-  { id:"gcse-biology-aqa", name:"GCSE Biology (AQA Triple)", group:"GCSE Triple Science (AQA)", grades:"gcse-higher", idPrefix:"gcse-bio-aqa-" },
-  { id:"gcse-chemistry-aqa", name:"GCSE Chemistry (AQA Triple)", group:"GCSE Triple Science (AQA)", grades:"gcse-higher", idPrefix:"gcse-chem-aqa-" },
-  { id:"gcse-physics-aqa", name:"GCSE Physics (AQA Triple)", group:"GCSE Triple Science (AQA)", grades:"gcse-higher", idPrefix:"gcse-phys-aqa-" },
+  { id:"gcse-combined-biology-aqa-foundation", name:"GCSE Combined Biology (AQA Trilogy, Foundation)", group:"GCSE Combined Science (AQA)", grades:"gcse-foundation", idPrefix:"gcse-cb-aqa-" },
+  { id:"gcse-combined-chemistry-aqa-foundation", name:"GCSE Combined Chemistry (AQA Trilogy, Foundation)", group:"GCSE Combined Science (AQA)", grades:"gcse-foundation", idPrefix:"gcse-cc-aqa-" },
+  { id:"gcse-combined-physics-aqa-foundation", name:"GCSE Combined Physics (AQA Trilogy, Foundation)", group:"GCSE Combined Science (AQA)", grades:"gcse-foundation", idPrefix:"gcse-cp-aqa-" },
+  { id:"gcse-combined-biology-aqa-higher", name:"GCSE Combined Biology (AQA Trilogy, Higher)", group:"GCSE Combined Science (AQA)", grades:"gcse-higher", idPrefix:"gcse-cb-aqa-" },
+  { id:"gcse-combined-chemistry-aqa-higher", name:"GCSE Combined Chemistry (AQA Trilogy, Higher)", group:"GCSE Combined Science (AQA)", grades:"gcse-higher", idPrefix:"gcse-cc-aqa-" },
+  { id:"gcse-combined-physics-aqa-higher", name:"GCSE Combined Physics (AQA Trilogy, Higher)", group:"GCSE Combined Science (AQA)", grades:"gcse-higher", idPrefix:"gcse-cp-aqa-" },
+  { id:"gcse-biology-aqa-foundation", name:"GCSE Biology (AQA Triple, Foundation)", group:"GCSE Triple Science (AQA)", grades:"gcse-foundation", idPrefix:"gcse-bio-aqa-" },
+  { id:"gcse-chemistry-aqa-foundation", name:"GCSE Chemistry (AQA Triple, Foundation)", group:"GCSE Triple Science (AQA)", grades:"gcse-foundation", idPrefix:"gcse-chem-aqa-" },
+  { id:"gcse-physics-aqa-foundation", name:"GCSE Physics (AQA Triple, Foundation)", group:"GCSE Triple Science (AQA)", grades:"gcse-foundation", idPrefix:"gcse-phys-aqa-" },
+  { id:"gcse-biology-aqa-higher", name:"GCSE Biology (AQA Triple, Higher)", group:"GCSE Triple Science (AQA)", grades:"gcse-higher", idPrefix:"gcse-bio-aqa-" },
+  { id:"gcse-chemistry-aqa-higher", name:"GCSE Chemistry (AQA Triple, Higher)", group:"GCSE Triple Science (AQA)", grades:"gcse-higher", idPrefix:"gcse-chem-aqa-" },
+  { id:"gcse-physics-aqa-higher", name:"GCSE Physics (AQA Triple, Higher)", group:"GCSE Triple Science (AQA)", grades:"gcse-higher", idPrefix:"gcse-phys-aqa-" },
   { id:"gcse-computer-science-aqa", name:"GCSE Computer Science (AQA)", group:"GCSE Computer Science", grades:"gcse-higher", idPrefix:"gcse-cs-aqa-" },
   { id:"gcse-computer-science-edexcel", name:"GCSE Computer Science (Edexcel)", group:"GCSE Computer Science", grades:"gcse-higher", idPrefix:"gcse-cs-edx-" },
   { id:"gcse-computer-science-ocr", name:"GCSE Computer Science (OCR)", group:"GCSE Computer Science", grades:"gcse-higher", idPrefix:"gcse-cs-ocr-" },
@@ -1357,7 +1434,7 @@ const SUBJECTS = [
 ];
 // Each subject's questions live in their own file: questions/<subject id>.json
 // Change QUESTIONS_VERSION whenever you edit a question file, so browsers fetch the new copy straight away.
-const QUESTIONS_VERSION = "36";
+const QUESTIONS_VERSION = "37";
 const SUBJECT_BANKS = {};
 const bankLoads = {}, bankErrors = {};
 function bankLoaded(sid){ return !!SUBJECT_BANKS[sid]; }
@@ -1394,12 +1471,6 @@ function currentSubject(){
 function subjectInfo(id){ const sid = id || currentSubject(); return SUBJECTS.find(s=>s.id===sid) || SUBJECTS.find(s=>s.id==="alevel-maths"); }
 // A-Level Maths keeps plain topic names (so existing progress is untouched); other subjects are namespaced.
 function topicKey(subject, topic){ subject = subject || "alevel-maths"; return subject==="alevel-maths" ? topic : subject + "|" + topic; }
-function subjectPickerHtml(){
-  const cur = currentSubject();
-  const groups = [...new Set(SUBJECTS.map(s=>s.group))];
-  return `<select id="subjectSelect" class="subject-select" aria-label="Subject">${groups.map(g=>`<optgroup label="${g}">${
-    SUBJECTS.filter(s=>s.group===g).map(s=>`<option value="${s.id}" ${s.id===cur?"selected":""}>${esc(s.name)}</option>`).join("")}</optgroup>`).join("")}</select>`;
-}
 
 // ======================= HOME PAGE =======================
 const SITE_NAME = "kelvincard";
@@ -1429,6 +1500,7 @@ function renderHome(){
       <div class="home-continue-name">Where do you want to start?</div>
       <div class="sub" style="margin:4px 0 0;">Pick a subject below. You'll earn a coin for every whole mark you score, to spend on colour themes in the shop.</div>
     </div>`;
+  let homeLvl = null;
   const groups = [...new Set(SUBJECTS.map(s=>s.group))].map(g=>{
     const cards = SUBJECTS.filter(s=>s.group===g).map(s=>{
       const sm = subjectSummary(s.id);
@@ -1438,7 +1510,11 @@ function renderHome(){
         ${sm.count ? gradeBadge(sm.pct, true, s.id) : `<span class="subject-card-go" aria-hidden="true">›</span>`}
       </button>`;
     }).join("");
-    return `<h3>${esc(g)}</h3><div class="subject-grid">${cards}</div>`;
+    const subs = SUBJECTS.filter(s=>s.group===g);
+    const open = subs.some(s=>s.id===lastSid) || homeOpenGroups().includes(g);
+    const lvl = g.startsWith("GCSE") ? "GCSE" : g.startsWith("A-Level") ? "A-Level" : "Other";
+    const head = lvl!==homeLvl ? `<div class="home-level"><span>${lvl}</span></div>` : ""; homeLvl = lvl;
+    return head + `<details class="home-group" data-home-group="${esc(g)}" ${open?"open":""}><summary><span>${esc(g)}</span><span class="home-group-count">${subs.length} option${subs.length===1?"":"s"}</span></summary><div class="subject-grid">${cards}</div></details>`;
   }).join("");
   return `
     <div class="subject-bar"><div class="home-hello">${name ? `Hi, ${esc(name)}` : "Welcome"}</div>${coinPillHtml()}</div>
@@ -1453,7 +1529,12 @@ function renderHome(){
     ${sponsorHtml()}
     ${supportLineHtml()}`;
 }
+function homeOpenGroups(){ try{ return JSON.parse(localStorage.getItem("home_open_groups_v1")||"[]")||[]; }catch(e){ return []; } }
 function attachHomeHandlers(){
+  document.querySelectorAll("details[data-home-group]").forEach(d=>{ d.addEventListener("toggle", ()=>{
+    let o = homeOpenGroups().filter(x=>x!==d.dataset.homeGroup); if(d.open) o.push(d.dataset.homeGroup);
+    try{ localStorage.setItem("home_open_groups_v1", JSON.stringify(o)); }catch(e){}
+  }); });
   document.querySelectorAll("[data-open-subject]").forEach(b=>{ b.onclick = ()=>{ switchSubject(b.dataset.openSubject); window.scrollTo(0,0); }; });
   const hb = document.getElementById("homeBtn");
   if(hb) hb.onclick = ()=>{ state.screen = "home"; state.editForm = null; document.title = SITE_NAME; render(); window.scrollTo(0,0); };
@@ -1634,13 +1715,14 @@ function importCustom(items){
   const custom = loadCustom(), have = new Set(); let added = 0;
   custom.forEach(t=>(t.questions||[]).forEach(q=>have.add(q.id)));
   (items||[]).forEach(it=>{
-    if(!it || !it.question || !it.question.id || have.has(it.question.id)) return;
+    if(!it || !it.question || !safeId(it.question.id) || have.has(String(it.question.id))) return;
     const sid = SUBJECTS.some(s=>s.id===it.subject) ? it.subject : "alevel-maths";
-    let e = custom.find(t=>t.topic===it.topic && subjectOf(t)===sid);
-    if(!e){ e = {topic:String(it.topic||"Shared questions"), category:String(it.category||"Shared"), subject:sid, questions:[]}; custom.push(e); }
+    let e = custom.find(t=>t.topic===plainLabel(it.topic||"Shared questions", 120) && subjectOf(t)===sid);
+    const topicName = plainLabel(it.topic||"Shared questions", 120) || "Shared questions";
+    if(!e){ e = {topic:topicName, category:plainLabel(it.category||"Shared", 80) || "Shared", subject:sid, questions:[]}; custom.push(e); }
     const q = it.question;
     e.questions.push({ id:String(q.id), prompt:String(q.prompt||""), solution:String(q.solution||""), hints:Array.isArray(q.hints)?q.hints.map(String):[], marks:Math.max(1, parseInt(q.marks)||1),
-      year:String(q.year||""), paper:String(q.paper||""), link:"", subtopic:String(q.subtopic||""), ...(typeof q.calculator==="boolean" ? {calculator:q.calculator} : {}), ...(Array.isArray(q.answers) ? {answers:q.answers.map(String).slice(0,20)} : q.answer!==undefined ? {answers:[String(q.answer)]} : {}), ...(q.exact ? {exact:true} : {}), ...(Array.isArray(q.roots) ? {roots:q.roots.map(String).slice(0,10), variable:String(q.variable||"x").slice(0,3)} : {}), ...(q.table ? {table:tableToText(q.table).slice(0,5000)} : {}), ...(Array.isArray(q.parts) ? {parts:q.parts.slice(0,10).map(pp=>({label:String(pp.label||""), answers:acceptedList(pp).slice(0,20), ...(pp.exact?{exact:true}:{})}))} : {}), ...(q.diagram && q.diagram.image && /^data:image\//.test(q.diagram.image) ? {diagram:{image:q.diagram.image, caption:String(q.diagram.caption||""), alt:String(q.diagram.alt||"Diagram")}} : {}) });
+      year:plainLabel(q.year, 40), paper:plainLabel(q.paper, 80), link:"", subtopic:plainLabel(q.subtopic, 120), ...(typeof q.calculator==="boolean" ? {calculator:q.calculator} : {}), ...(Array.isArray(q.answers) ? {answers:q.answers.map(String).slice(0,20)} : q.answer!==undefined ? {answers:[String(q.answer)]} : {}), ...(q.exact ? {exact:true} : {}), ...(Array.isArray(q.roots) ? {roots:q.roots.map(String).slice(0,10), variable:String(q.variable||"x").slice(0,3)} : {}), ...(q.table ? {table:tableToText(q.table).slice(0,5000)} : {}), ...(Array.isArray(q.parts) ? {parts:q.parts.slice(0,10).map(pp=>({label:String(pp.label||""), answers:acceptedList(pp).slice(0,20), ...(pp.exact?{exact:true}:{})}))} : {}), ...(q.diagram && safeImage(q.diagram.image) ? {diagram:{image:safeImage(q.diagram.image), caption:String(q.diagram.caption||"").slice(0,300), alt:String(q.diagram.alt||"Diagram").slice(0,300)}} : {}) });
     have.add(q.id); added++;
   });
   if(added) saveCustom(custom);
@@ -1850,7 +1932,7 @@ function saveSharedThing(kind, title, p){
     const added = importCustom(p.custom);
     const decks = loadDecks();
     const id = "deck" + Date.now() + Math.random().toString(36).slice(2,6);
-    decks.push({ id, name:String(p.name||title||"Shared deck").slice(0,60), questionIds:(p.questionIds||[]).map(String) });
+    decks.push({ id, name:plainLabel(p.name||title||"Shared deck", 60) || "Shared deck", questionIds:(Array.isArray(p.questionIds) ? p.questionIds : []).map(safeId).filter(Boolean).slice(0,500) });
     saveDecksL(decks);
     return { deckId:id, added };
   }
@@ -1928,13 +2010,13 @@ function renderSharedItem(){
   const p = it.payload || {};
   const back = `<button class="link-btn" id="sharedBackBtn">Back</button>`;
   const canReport = it.item_key && it.source!=="sent";
-  const reportLink = canReport ? ` · <button class="link-btn" style="font-size:inherit;" data-report-kind="${it.item_key[0]==="g" ? "group_share" : "direct_message"}" data-report-target="${esc(it.item_key.slice(1))}" data-report-label="this ${it.kind}">Report</button>` : "";
+  const reportLink = canReport ? ` · <button class="link-btn" style="font-size:inherit;" data-report-kind="${it.item_key[0]==="g" ? "group_share" : "direct_message"}" data-report-target="${esc(it.item_key.slice(1))}" data-report-label="this ${esc(it.kind==="deck" ? "deck" : "question")}">Report</button>` : "";
   const src = it.source==="group" ? `Shared by @${esc(it.from_user||"someone")} in ${esc(it.group_name||"a group")}` :
               it.source==="sent" ? "You sent this" : `Sent by @${esc(it.from_user||"someone")}`;
   if(it.kind==="deck"){
     const ids = (p.questionIds||[]).map(String);
     const qs = ids.map(id=>({ id, d:describeSharedQuestion(id, p) }));
-    const list = qs.map(({d},i)=>`<div class="qlist-row"><div><div class="qlist-topic">${d ? `${esc(d.topic||"")} · ${d.marks} mark${d.marks===1?"":"s"}${d.subject && d.subject!==currentSubject() ? ` · ${esc(subjectInfo(d.subject).name)}` : ""}` : "Unavailable"}</div>
+    const list = qs.map(({d},i)=>`<div class="qlist-row"><div><div class="qlist-topic">${d ? `${esc(d.topic||"")} · ${Math.max(1, parseInt(d.marks)||1)} mark${Math.max(1, parseInt(d.marks)||1)===1?"":"s"}${d.subject && d.subject!==currentSubject() ? ` · ${esc(subjectInfo(d.subject).name)}` : ""}` : "Unavailable"}</div>
       <div class="qlist-text">${d ? snip(d.prompt, 110) : "This question isn't on the site any more."}</div></div></div>`).join("");
     return `<div class="toprow"><h2>${esc(it.title)}</h2>${back}</div>
       <div class="card">
@@ -1950,7 +2032,7 @@ function renderSharedItem(){
   const q = p.question || {};
   return `<div class="toprow"><h2>Shared question</h2>${back}</div>
     <div class="card">
-      <div class="qlist-topic" style="margin-bottom:8px;">${src} · ${esc(p.topic||"")} · ${q.marks||1} mark${(q.marks||1)===1?"":"s"}${reportLink}</div>
+      <div class="qlist-topic" style="margin-bottom:8px;">${src} · ${esc(p.topic||"")} · ${Math.max(1, parseInt(q.marks)||1)} mark${Math.max(1, parseInt(q.marks)||1)===1?"":"s"}${reportLink}</div>
       <div class="qprompt">${fmtPrompt(q.prompt||"")}</div>
       <div class="btn-row">
         <button class="btn-primary" id="sharedSaveBtn">Save to my questions</button>
@@ -3369,6 +3451,38 @@ function gradeForPct(pct, sid){
 }
 
 function esc(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;"); }
+// Security: only plain picture data (no quotes or scripts) is ever shown as a diagram image.
+const SAFE_IMAGE_RE = /^data:image\/(png|jpeg|webp|gif);base64,[A-Za-z0-9+\/=]+$/;
+function safeImage(src){ return typeof src==="string" && SAFE_IMAGE_RE.test(src) ? src : ""; }
+// Built-in question files may also point at picture files on this site (e.g. "img/q12.png").
+function displayImage(src){ return safeImage(src) || (typeof src==="string" && /^(\.\/)?[A-Za-z0-9_\/-]+\.(png|jpe?g|webp|gif|svg)$/i.test(src) && !src.includes("//") ? src : ""); }
+// Security: labels that arrive from other people (topic, year, paper...) lose any HTML characters.
+function plainLabel(v, max){ return String(v==null ? "" : v).replace(/[<>"'`]/g, "").slice(0, max||200); }
+function safeId(v){ const t = String(v==null ? "" : v); return /^[A-Za-z0-9_.:-]{1,100}$/.test(t) ? t : ""; }
+// Pictures are resized (longest side 1200px) and re-encoded before saving, so each is usually 50–250 KB
+// instead of several MB. This keeps every save small and also strips anything hidden inside the file.
+function shrinkImage(file){
+  return new Promise((resolve, reject)=>{
+    const url = URL.createObjectURL(file), img = new Image();
+    img.onload = ()=>{
+      try{
+        const max = 1200, k = Math.min(1, max / Math.max(img.naturalWidth, img.naturalHeight));
+        const w = Math.max(1, Math.round(img.naturalWidth*k)), h = Math.max(1, Math.round(img.naturalHeight*k));
+        const c = document.createElement("canvas"); c.width = w; c.height = h;
+        const ctx = c.getContext("2d");
+        ctx.drawImage(img, 0, 0, w, h);
+        let out = c.toDataURL("image/webp", 0.82);
+        if(!/^data:image\/webp/.test(out)){            // older Safari can't make WebP: use JPEG on white
+          ctx.globalCompositeOperation = "destination-over"; ctx.fillStyle = "#fff"; ctx.fillRect(0, 0, w, h);
+          out = c.toDataURL("image/jpeg", 0.85);
+        }
+        URL.revokeObjectURL(url); resolve(out);
+      }catch(e){ URL.revokeObjectURL(url); reject(e); }
+    };
+    img.onerror = ()=>{ URL.revokeObjectURL(url); reject(new Error("unreadable")); };
+    img.src = url;
+  });
+}
 function splitPromptLines(str){
   const out = []; let cur = ""; let inDisplay = false;
   for(let i=0;i<str.length;i++){
@@ -3405,7 +3519,7 @@ function diagramHtml(q, tableMode){
 function figureHtml(q){
   if(!q.diagram) return "";
   const inner = q.diagram.svg ? q.diagram.svg
-    : q.diagram.image ? `<img src="${q.diagram.image}" alt="${esc(q.diagram.alt||"Diagram")}" style="max-width:100%;height:auto;border-radius:8px;">`
+    : displayImage(q.diagram.image) ? `<img src="${esc(displayImage(q.diagram.image))}" alt="${esc(q.diagram.alt||"Diagram")}" style="max-width:100%;height:auto;border-radius:8px;">`
     : "";
   if(!inner) return "";
   return `<figure class="diagram" role="img" aria-label="${esc(q.diagram.alt||"Diagram")}">${inner}${q.diagram.caption ? `<figcaption>${esc(q.diagram.caption)}</figcaption>` : ""}</figure>`;
@@ -3425,7 +3539,7 @@ function diagramFieldHtml(){
     }</div><button type="button" class="skip-link" id="removeDiagramBtn" style="margin-top:0;">Remove diagram</button>`;
   }
   return `${preview}
-    <input type="file" id="qImageFile" accept="image/*">
+    <input type="file" id="qImageFile" accept="image/png,image/jpeg,image/webp,image/gif">
     <div class="sub" id="imageUploadStatus"></div>
     <input type="text" id="qDiagramCaption" placeholder="Caption (optional)" value="${upload ? esc(upload.caption||"") : (ef && ef.diagram ? esc(ef.diagram.caption||"") : "")}">`;
 }
@@ -3681,8 +3795,6 @@ function render(){
   updateTabBar();
   const retry = document.getElementById("bankRetryBtn");
   if(retry) retry.onclick = ()=>{ delete bankErrors[currentSubject()]; render(); };
-  const subjSel = document.getElementById("subjectSelect");
-  if(subjSel) subjSel.onchange = ()=>switchSubject(subjSel.value);
   typesetMath();
 }
 
@@ -3696,7 +3808,7 @@ function switchSubject(id){
 function renderToast(){
   if(!state.toast) return "";
   const undo = state.toast.showUndo ? `<button class="link-btn" id="undoSuspendBtn">Undo</button>` : "";
-  return `<div class="toast"><span>${state.toast.message}</span>${undo}</div>`;
+  return `<div class="toast"><span>${esc(state.toast.message)}</span>${undo}</div>`;
 }
 
 // "Select all Pure / Stats / Mechanics" buttons, shown when a subject's topics are split into several folders.
@@ -3940,10 +4052,10 @@ function renderReview(){
       </div>
     </div>` : `<div class="sub" style="margin-top:8px;">You rated this: ${ratingLabel(q.rating)} · <button class="link-btn" id="editResponseBtn">Edit response</button></div>`;
   return `
-    <div class="qmeta">${q.topic} <span class="pill">${q.marks||1} marks</span>${calcPill(q)}${q.year||q.paper ? `<span class="pill">Inspired by ${[q.year,q.paper].filter(Boolean).join(" · ")}</span>` : ""}${q.link ? ` <a class="pill" href="${q.link}" target="_blank" rel="noopener">🔗 See original</a>` : ""} <span class="pill">Reviewing</span></div>
+    <div class="qmeta">${esc(q.topic)} <span class="pill">${Math.max(1, parseInt(q.marks)||1)} marks</span>${calcPill(q)}${q.year||q.paper ? `<span class="pill">Inspired by ${esc([q.year,q.paper].filter(Boolean).join(" · "))}</span>` : ""}${/^https:\/\//.test(q.link||"") ? ` <a class="pill" href="${esc(q.link)}" target="_blank" rel="noopener noreferrer">🔗 See original</a>` : ""} <span class="pill">Reviewing</span></div>
     <div class="card">
       <div class="qprompt">${fmtPrompt(q.prompt)}</div>${diagramHtml(q, "answers")}
-      ${q.inspiredBy ? `<div class="sub" style="font-style:italic;margin-top:-6px;">${q.inspiredBy}</div>` : ""}
+      ${q.inspiredBy ? `<div class="sub" style="font-style:italic;margin-top:-6px;">${esc(q.inspiredBy)}</div>` : ""}
       ${hintsHtml}
       <div class="solbox"><strong>Solution:</strong> ${solutionHtml(q.solution)}${q.subtopic ? `\n\n<span class="qlist-topic">Subtopic: ${esc(q.subtopic)}</span>` : ""}</div>
       ${q.rating ? (q.auto ? `<div class="sub" style="margin-top:8px;">Marked automatically: ${q.rating==="correct" ? `correct${q.wrongTries ? ` after ${q.wrongTries} wrong ${q.wrongTries===1?"try":"tries"}` : ""}` : "not answered correctly"}.</div>` : ratingBlock) : ""}
@@ -4007,8 +4119,8 @@ function renderPractice(){
     </div>` : "";
   return `
     ${prevLink}
-    <div class="qmeta">${q.topic} <span class="pill">${q.marks||1} marks</span>${calcPill(q)}${q.year||q.paper ? `<span class="pill">Inspired by ${[q.year,q.paper].filter(Boolean).join(" · ")}</span>` : ""}${q.link ? ` <a class="pill" href="${q.link}" target="_blank" rel="noopener">🔗 See original</a>` : ""} <span class="pill">${state.practiceOrigin==="browse" ? "Single question" : state.practiceOrigin==="decks" ? "Deck practice — "+state.queue.length+" left" : state.queue.length+" left in queue"}</span></div>
-    ${q.inspiredBy ? `<div class="sub" style="margin-top:-10px;font-style:italic;">${q.inspiredBy}</div>` : ""}
+    <div class="qmeta">${esc(q.topic)} <span class="pill">${Math.max(1, parseInt(q.marks)||1)} marks</span>${calcPill(q)}${q.year||q.paper ? `<span class="pill">Inspired by ${esc([q.year,q.paper].filter(Boolean).join(" · "))}</span>` : ""}${/^https:\/\//.test(q.link||"") ? ` <a class="pill" href="${esc(q.link)}" target="_blank" rel="noopener noreferrer">🔗 See original</a>` : ""} <span class="pill">${state.practiceOrigin==="browse" ? "Single question" : state.practiceOrigin==="decks" ? "Deck practice — "+state.queue.length+" left" : state.queue.length+" left in queue"}</span></div>
+    ${q.inspiredBy ? `<div class="sub" style="margin-top:-10px;font-style:italic;">${esc(q.inspiredBy)}</div>` : ""}
     <div class="card">
       <div class="qprompt">${fmtPrompt(q.prompt)}</div>${diagramHtml(q, typed ? "input" : state.solutionShown ? "answers" : "display")}
       ${hintsHtml}
@@ -4097,7 +4209,7 @@ function renderDecks(){
 function renderManage(){
   const topics = getAllTopics();
   const ef = state.editForm;
-  const options = topics.map(t=>`<option value="${t.topic}" ${ef && ef.topic===t.topic ? "selected":""}>${t.topic}</option>`).join("");
+  const options = topics.map(t=>`<option value="${esc(t.topic)}" ${ef && ef.topic===t.topic ? "selected":""}>${esc(t.topic)}</option>`).join("");
   const hintFields = state.formHints.map((h,i)=>`
     <div class="hint-item">
       <input type="text" data-hint-idx="${i}" placeholder="Hint ${i+1}" value="${esc(h||"")}">
@@ -4109,10 +4221,10 @@ function renderManage(){
   custom.forEach(t=>{
     t.questions.forEach(q=>{
       listHtml += `<div class="qlist-row">
-        <div><div class="qlist-topic">${t.topic} · ${q.marks||1} marks${isGcseMaths() && typeof q.calculator==="boolean" ? (q.calculator ? " · Calculator" : " · Non-calculator") : ""}${q.year||q.paper ? " · "+[q.year,q.paper].filter(Boolean).join(" ") : ""}</div><div class="qlist-text">${snip(q.prompt,60)}</div></div>
+        <div><div class="qlist-topic">${esc(t.topic)} · ${Math.max(1, parseInt(q.marks)||1)} marks${isGcseMaths() && typeof q.calculator==="boolean" ? (q.calculator ? " · Calculator" : " · Non-calculator") : ""}${q.year||q.paper ? " · "+esc([q.year,q.paper].filter(Boolean).join(" ")) : ""}</div><div class="qlist-text">${snip(q.prompt,60)}</div></div>
         <div class="qlist-actions">
-          <button class="icon-btn accent" data-edit-topic="${t.topic}" data-edit-id="${q.id}">Edit</button>
-          <button class="icon-btn" data-del-topic="${t.topic}" data-del-id="${q.id}">Delete</button>
+          <button class="icon-btn accent" data-edit-topic="${esc(t.topic)}" data-edit-id="${esc(q.id)}">Edit</button>
+          <button class="icon-btn" data-del-topic="${esc(t.topic)}" data-del-id="${esc(q.id)}">Delete</button>
         </div>
       </div>`;
     });
@@ -4123,7 +4235,7 @@ function renderManage(){
   topics.forEach(t=>{
     const hiddenQs = t.questions.filter(q=>getQState(q.id).suspended);
     if(hiddenQs.length===0) return;
-    hiddenHtml += `<h3>${t.topic}</h3>`;
+    hiddenHtml += `<h3>${esc(t.topic)}</h3>`;
     hiddenQs.forEach(q=>{
       hiddenHtml += `<div class="qlist-row">
         <div class="qlist-text">${snip(q.prompt,60)}</div>
@@ -4136,7 +4248,7 @@ function renderManage(){
   const reports = loadReports();
   let reportsHtml = reports.map((r,i)=>`
     <div class="qlist-row">
-      <div><div class="qlist-topic">${r.topic} · ${r.reason}</div>
+      <div><div class="qlist-topic">${esc(r.topic)} · ${esc(r.reason)}</div>
         <div class="qlist-text">${snip(r.prompt,80)}${r.comment ? " — "+esc(r.comment) : ""}</div></div>
       <button class="icon-btn" data-dismiss-report="${i}">Dismiss</button>
     </div>`).join("");
@@ -4509,17 +4621,20 @@ function attachHandlers(){
     const f = qImageFile.files && qImageFile.files[0];
     const status = document.getElementById("imageUploadStatus");
     if(!f) return;
-    if(f.size > 1500000){
-      if(status) status.textContent = "That image is quite large (" + Math.round(f.size/1024) + " KB) — it's saved in this browser's storage, so very large images may not fit. Consider a smaller file if saving fails.";
-    } else if(status) status.textContent = "";
-    const reader = new FileReader();
-    reader.onload = ()=>{
-      state.formDiagramImage = { image: String(reader.result||""), caption:"" };
+    if(!/^image\/(png|jpeg|webp|gif)$/.test(f.type)){
+      if(status) status.textContent = "Please choose a PNG, JPEG, WebP or GIF picture.";
+      qImageFile.value = ""; return;
+    }
+    if(f.size > 15000000){ if(status) status.textContent = "That picture is too big (over 15 MB)."; qImageFile.value = ""; return; }
+    if(status) status.textContent = "Preparing picture…";
+    shrinkImage(f).then(src=>{
+      if(!safeImage(src)) throw new Error("bad image");
+      state.formDiagramImage = { image: src, caption:"" };
       state.formDiagramRemoved = false;
       render();
-    };
-    reader.onerror = ()=>{ if(status) status.textContent = "Couldn't read that image."; };
-    reader.readAsDataURL(f);
+      const st = document.getElementById("imageUploadStatus");
+      if(st) st.textContent = "Picture added (" + Math.round(src.length*0.75/1024) + " KB).";
+    }).catch(()=>{ if(status) status.textContent = "Couldn't read that image."; });
   };
   const removeDiagramBtn = document.getElementById("removeDiagramBtn");
   if(removeDiagramBtn) removeDiagramBtn.onclick = ()=>{
