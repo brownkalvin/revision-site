@@ -184,18 +184,6 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline
 .group-row{display:flex;justify-content:space-between;align-items:center;width:100%;background:none;border:none;border-bottom:1px solid var(--line);padding:12px 2px;color:var(--ink);text-align:left;border-radius:0;}
 .group-row:last-child{border-bottom:none;}
 .group-row > span:first-child{display:flex;flex-direction:column;gap:2px;}
-.chat-card{padding:0;overflow:hidden;}
-.chat-list{height:min(55vh,460px);overflow-y:auto;padding:14px 14px 6px;display:flex;flex-direction:column;gap:10px;}
-.chat-msg{max-width:85%;align-self:flex-start;}
-.chat-msg.mine{align-self:flex-end;text-align:right;}
-.chat-meta{font-size:.72rem;color:var(--sub);margin-bottom:2px;}
-.chat-body{display:inline-block;text-align:left;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:8px 11px;font-size:.93rem;white-space:pre-wrap;overflow-wrap:anywhere;}
-.chat-msg.mine .chat-body{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);}
-.chat-del{background:none;border:none;padding:0 0 0 4px;color:var(--sub);font-size:.72rem;text-decoration:underline;cursor:pointer;}
-.chat-compose{display:flex;gap:8px;padding:10px 12px;border-top:1px solid var(--line);align-items:flex-end;}
-.chat-compose textarea{margin:0;min-height:42px;max-height:140px;resize:vertical;}
-.chat-compose .btn-primary{width:auto;flex-shrink:0;}
-.chat-note{font-size:.72rem;margin:0;padding:0 12px 10px;}
 .lb-row{display:grid;grid-template-columns:28px 1fr auto auto;gap:12px;align-items:center;padding:10px 4px;border-bottom:1px solid var(--line);}
 .lb-row:last-child{border-bottom:none;}
 .lb-row.me{background:var(--bg);border-radius:8px;}
@@ -216,11 +204,8 @@ body.has-tabbar .toast{bottom:calc(78px + env(safe-area-inset-bottom,0px));}
 .inbox-row{display:flex;align-items:center;gap:12px;width:100%;background:none;border:none;border-bottom:1px solid var(--line);padding:12px 2px;color:var(--ink);text-align:left;border-radius:0;}
 .inbox-row:last-child{border-bottom:none;}
 .inbox-icon{font-size:1.3rem;width:36px;height:36px;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
-.inbox-icon.avatar{border-radius:50%;background:var(--accent);color:var(--accent-ink);font-weight:700;font-size:1rem;}
 .inbox-text{flex:1;display:flex;flex-direction:column;gap:3px;min-width:0;}
 .new-pill{display:inline-block;background:var(--bad);color:#fff;font-size:.65rem;font-weight:700;border-radius:8px;padding:1px 6px;vertical-align:middle;}
-.share-bubble{display:flex;gap:10px;align-items:center;text-align:left;margin-top:4px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:9px 12px;color:var(--ink);font-size:.85rem;}
-.share-bubble span span{color:var(--accent);font-size:.78rem;}
 .site-footer{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;margin:26px 0 6px;font-size:.8rem;color:var(--sub);}
 .site-footer a,.site-footer .link-btn{color:var(--sub);font-size:.8rem;}
 .acct-name{font-size:.8rem;color:var(--sub);text-decoration:none;}
@@ -230,8 +215,6 @@ body.has-tabbar .toast{bottom:calc(78px + env(safe-area-inset-bottom,0px));}
 .help-box{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:10px;padding:12px 14px;font-size:.86rem;line-height:1.5;margin:12px 0;}
 .danger-card{border-color:var(--bad);}
 .danger-btn{color:var(--bad);border-color:var(--bad);}
-.thread-actions{display:flex;gap:16px;justify-content:flex-end;margin:-6px 0 10px;}
-.thread-actions .link-btn{font-size:.8rem;color:var(--sub);}
 .safety-report{border-top:1px solid var(--line);padding:12px 0;}
 .safety-report.done{opacity:.7;}
 .safety-report .btn-row{flex-wrap:wrap;gap:6px;}
@@ -1492,6 +1475,37 @@ function loadSubject(sid){
   return bankLoads[sid];
 }
 function loadAllSubjects(){ return Promise.allSettled(SUBJECTS.map(s=>loadSubject(s.id))); }
+// Decks and shared decks can mix subjects. Rather than downloading every subject's file, work out
+// which subjects a list of question ids comes from (by their id prefix) and load only those.
+function subjectsForIds(ids){
+  const own = new Set(); loadCustom().forEach(t=>(t.questions||[]).forEach(q=>own.add(String(q.id))));
+  const out = new Set();
+  (ids||[]).forEach(raw=>{
+    const id = String(raw); if(own.has(id)) return;           // questions students wrote need no file
+    let best = 0, hits = [];
+    SUBJECTS.forEach(sj=>{ const pre = sj.idPrefix || ""; if(!pre || !id.startsWith(pre)) return;
+      if(pre.length>best){ best = pre.length; hits = [sj.id]; } else if(pre.length===best) hits.push(sj.id); });
+    (hits.length ? hits : ["alevel-maths"]).forEach(x=>out.add(x));   // A-Level Maths ids have no prefix
+  });
+  return [...out];
+}
+// Loads what a list of ids needs. If any question still can't be found (an id that doesn't follow the
+// prefix rule), it falls back to loading everything, so nothing goes missing.
+async function ensureQuestions(ids){
+  ids = (ids||[]).map(String);
+  await Promise.allSettled(subjectsForIds(ids).map(loadSubject));
+  if(ids.some(id=>!findQuestionById(id))) await loadAllSubjects();
+}
+const idsReady = {}, idsLoading = {};
+// True once the questions for these ids are available; otherwise starts loading them and redraws when done.
+function questionsReadyFor(ids){
+  ids = (ids||[]).map(String);
+  const key = ids.join(",");
+  if(!ids.length || idsReady[key]) return true;
+  if(ids.every(id=>findQuestionById(id))){ idsReady[key] = true; return true; }
+  if(!idsLoading[key]) idsLoading[key] = ensureQuestions(ids).finally(()=>{ idsReady[key] = true; delete idsLoading[key]; render(); });
+  return false;
+}
 function subjectOf(x){ return (x && x.subject) || "alevel-maths"; }
 function currentSubject(){
   let s = null; try{ s = localStorage.getItem(SUBJECT_KEY); }catch(e){}
@@ -1575,9 +1589,9 @@ function attachHomeHandlers(){
 // Only usernames are ever sent to other users; email addresses never leave the server.
 const social = {
   tab:"friends", query:"", results:null, searching:false, friends:[], invites:[], groups:[], loaded:false, error:"",
-  group:null, gtab:"chat", messages:[], members:[], shares:[], board:[], draft:"", busy:false
+  group:null, gtab:"leaderboard", members:[], shares:[], board:[]
 };
-let socialSearchTimer = null, chatPoll = null;
+let socialSearchTimer = null;
 
 async function rpc(fn, args){
   const { data, error } = await sb.rpc(fn, args||{});
@@ -1664,7 +1678,7 @@ function renderFriendsPage(){
 // ---------- a single group ----------
 function openGroup(id){
   const g = social.groups.find(x=>x.id===id); if(!g) return;
-  social.group = g; social.gtab = "leaderboard"; social.messages = []; social.members = []; social.shares = []; social.board = []; social.draft = "";
+  social.group = g; social.gtab = "leaderboard"; social.members = []; social.shares = []; social.board = [];
   state.screen = "group"; render(); window.scrollTo(0,0);
   loadGroupTab();
   rpc("group_member_list", { p_group:id }).then(m=>{ social.members = m||[]; if(state.screen==="group" && social.gtab==="members") render(); }).catch(()=>{});
@@ -1672,68 +1686,18 @@ function openGroup(id){
 async function loadGroupTab(){
   const g = social.group; if(!g) return;
   try{
-    if(social.gtab==="chat"){ await fetchMessages(true); }
-    else if(social.gtab==="leaderboard"){ social.board = await rpc("group_leaderboard", { p_group:g.id }) || []; }
+    if(social.gtab==="leaderboard"){ social.board = await rpc("group_leaderboard", { p_group:g.id }) || []; }
     else if(social.gtab==="shared"){ social.shares = await rpc("get_shares", { p_group:g.id }) || []; }
     else if(social.gtab==="members"){ social.members = await rpc("group_member_list", { p_group:g.id }) || []; if(!social.loaded) await loadSocial(); }
     social.error = "";
   }catch(e){ social.error = socialErr(e); }
-  if(state.screen==="group" && social.gtab!=="chat") render();
-}
-async function fetchMessages(full){
-  const g = social.group; if(!g) return;
-  const last = social.messages.length ? social.messages[social.messages.length-1].id : null;
-  const rows = await rpc("get_messages", { p_group:g.id, p_after: full ? null : last });
-  if(full) social.messages = rows||[];
-  else if(rows && rows.length){ const seen = new Set(social.messages.map(m=>m.id)); social.messages.push(...rows.filter(m=>!seen.has(m.id))); }
-  else return;
-  updateChatList(true);
+  if(state.screen==="group") render();
 }
 function fmtWhen(ts){
   const d = new Date(ts), now = new Date();
   const time = d.toLocaleTimeString("en-GB", {hour:"2-digit", minute:"2-digit"});
   return d.toDateString()===now.toDateString() ? time : d.toLocaleDateString("en-GB", {day:"numeric", month:"short"}) + " " + time;
 }
-function chatListHtml(){
-  if(!social.messages.length) return `<div class="sub" style="text-align:center;margin:20px 0;">No messages yet. Say hello!</div>`;
-  const ownerMe = social.group && social.group.role==="owner";
-  return social.messages.map(m=>{
-    const mine = user && m.user_id===user.id;
-    return `<div class="chat-msg${mine?" mine":""}">
-      <div class="chat-meta">${mine ? "You" : "@"+esc(m.username||"deleted user")} · ${fmtWhen(m.created_at)}${mine||ownerMe ? ` <button class="chat-del" data-msg-del="${m.id}" aria-label="Delete message">Delete</button>` : ""}${mine ? "" : ` <button class="chat-del" data-report-kind="group_message" data-report-target="${m.id}" data-report-label="a message from @${esc(m.username||"someone")}">Report</button>`}</div>
-      <div class="chat-body">${esc(m.body)}</div>
-    </div>`;
-  }).join("");
-}
-function updateChatList(scroll){
-  const el = document.getElementById("chatList"); if(!el) return;
-  const nearBottom = el.scrollHeight - el.scrollTop - el.clientHeight < 80;
-  el.innerHTML = chatListHtml();
-  el.querySelectorAll("[data-msg-del]").forEach(b=>{ b.onclick = ()=>deleteMessage(Number(b.dataset.msgDel)); });
-  if(scroll || nearBottom) el.scrollTop = el.scrollHeight;
-}
-async function sendMessage(){
-  const box = document.getElementById("chatInput"); if(!box) return;
-  const body = box.value.trim(); if(!body || social.busy) return;
-  social.busy = true;
-  try{ await rpc("post_message", { p_group:social.group.id, p_body:body }); box.value = ""; social.draft = ""; await fetchMessages(false); updateChatList(true); }
-  catch(e){ socialToast(socialErr(e)); }
-  social.busy = false;
-  const b2 = document.getElementById("chatInput"); if(b2) b2.focus();
-}
-async function deleteMessage(id){
-  if(!confirm("Delete this message?")) return;
-  try{ await rpc("delete_message", { p_id:id }); social.messages = social.messages.filter(m=>m.id!==id); updateChatList(false); }
-  catch(e){ socialToast(socialErr(e)); }
-}
-function startChatPolling(){
-  if(chatPoll) return;   // keep one steady timer; re-rendering must not restart it
-  chatPoll = setInterval(()=>{
-    if(state.screen!=="group" || social.gtab!=="chat" || document.visibilityState!=="visible"){ return; }
-    fetchMessages(false).catch(()=>{});
-  }, 5000);
-}
-function stopChatPolling(){ if(chatPoll){ clearInterval(chatPoll); chatPoll = null; } }
 
 // Sharing: decks carry the ids of built-in questions plus full copies of any questions the sharer wrote.
 function customQuestionIndex(){
@@ -1766,27 +1730,7 @@ async function shareDeck(){
   try{ await rpc("share_to_group", { p_group:social.group.id, p_kind:"deck", p_title:d.name, p_payload:payload }); socialToast("Deck shared."); social.gtab = "shared"; loadGroupTab(); }
   catch(e){ socialToast(/pg_column_size|check constraint/i.test(e.message||"") ? "That deck is too big to share (its pictures take up too much space)." : socialErr(e)); }
 }
-async function shareQuestion(){
-  const sel = document.getElementById("shareQSelect"); if(!sel || !sel.value) return;
-  const it = customQuestionIndex()[sel.value]; if(!it) return;
-  try{ await rpc("share_to_group", { p_group:social.group.id, p_kind:"question", p_title:snipPlain(it.question.prompt, 80), p_payload:it }); socialToast("Question shared."); loadGroupTab(); }
-  catch(e){ socialToast(/pg_column_size|check constraint/i.test(e.message||"") ? "That question's picture is too big to share." : socialErr(e)); }
-}
 function snipPlain(s, n){ const t = String(s||"").replace(/\$+/g,"").replace(/\s+/g," ").trim(); return t.length>n ? t.slice(0,n)+"…" : (t||"Question"); }
-function saveShare(id){
-  const sh = social.shares.find(x=>x.id===id); if(!sh) return;
-  const p = sh.payload || {};
-  if(sh.kind==="deck"){
-    const added = importCustom(p.custom);
-    const decks = loadDecks();
-    decks.push({ id:"deck"+Date.now()+Math.random().toString(36).slice(2,6), name:String(p.name||sh.title).slice(0,60), questionIds:(p.questionIds||[]).map(String) });
-    saveDecksL(decks);
-    socialToast(`Saved “${sh.title}” to your decks${added?` (plus ${added} new question${added===1?"":"s"})`:""}.`);
-  }else{
-    const added = importCustom([p]);
-    socialToast(added ? "Question added to your questions (see Manage)." : "You already have this question.");
-  }
-}
 async function deleteShare(id){
   if(!confirm("Remove this from the group?")) return;
   try{ await rpc("delete_share", { p_id:id }); social.shares = social.shares.filter(s=>s.id!==id); render(); }
@@ -1799,16 +1743,7 @@ function renderGroupPage(){
     .map(([k,l])=>`<button type="button" data-group-tab="${k}" class="${social.gtab===k?"on":""}">${l}</button>`).join("");
   const err = social.error ? `<div class="auth-msg err">${esc(social.error)}</div>` : "";
   let body = "";
-  if(social.gtab==="chat"){
-    body = `<div class="card chat-card">
-      <div class="chat-list" id="chatList">${chatListHtml()}</div>
-      <div class="chat-compose">
-        <textarea id="chatInput" maxlength="1000" rows="1" placeholder="Message ${esc(g.name)}">${esc(social.draft)}</textarea>
-        <button class="btn-primary" id="chatSendBtn">Send</button>
-      </div>
-      <div class="sub chat-note">Be kind. Messages can be seen by everyone in this group and by site admins.</div>
-    </div>`;
-  }else if(social.gtab==="leaderboard"){
+  if(social.gtab==="leaderboard"){
     const rows = social.board.map((r,i)=>`<div class="lb-row${user && r.user_id===user.id?" me":""}">
       <div class="lb-rank">${i+1}</div><div class="lb-name">@${esc(r.username||"unknown")}${user && r.user_id===user.id?" (you)":""}</div>
       <div class="lb-num"><strong>${r.week_coins}</strong><span>this week</span></div><div class="lb-num"><strong>${r.total_coins}</strong><span>all time</span></div></div>`).join("");
@@ -1869,7 +1804,6 @@ function attachSocialHandlers(){
     document.querySelectorAll("[data-invite-accept]").forEach(b=>{ b.onclick = ()=>socialAction("respond_group_invite", { p_group:b.dataset.inviteAccept, p_accept:true }, "You've joined the group."); });
     document.querySelectorAll("[data-invite-decline]").forEach(b=>{ b.onclick = ()=>socialAction("respond_group_invite", { p_group:b.dataset.inviteDecline, p_accept:false }); });
     document.querySelectorAll("[data-open-group]").forEach(b=>{ b.onclick = ()=>openGroup(b.dataset.openGroup); });
-    document.querySelectorAll("[data-open-thread]").forEach(b=>{ b.onclick = ()=>openThread(b.dataset.openThread, b.dataset.threadName); });
     const cg = document.getElementById("createGroupBtn");
     if(cg) cg.onclick = async ()=>{
       const name = document.getElementById("newGroupName").value.trim();
@@ -1879,25 +1813,13 @@ function attachSocialHandlers(){
       catch(e){ cg.disabled = false; socialToast(socialErr(e)); }
     };
   }
-  if(state.screen!=="group"){ stopChatPolling(); return; }
+  if(state.screen!=="group") return;
   const back = document.getElementById("groupBackBtn");
-  if(back) back.onclick = ()=>{ stopChatPolling(); state.screen = "friends"; social.tab = "groups"; social.group = null; render(); loadSocial(); };
+  if(back) back.onclick = ()=>{ state.screen = "friends"; social.tab = "groups"; social.group = null; render(); loadSocial(); };
   document.querySelectorAll("[data-group-tab]").forEach(b=>{ b.onclick = ()=>{ social.gtab = b.dataset.groupTab; social.error = ""; render(); loadGroupTab(); }; });
-  if(social.gtab==="chat"){
-    updateChatList(true);
-    const input = document.getElementById("chatInput");
-    if(input){
-      input.oninput = ()=>{ social.draft = input.value; };
-      input.onkeydown = (e)=>{ if(e.key==="Enter" && !e.shiftKey){ e.preventDefault(); sendMessage(); } };
-    }
-    const send = document.getElementById("chatSendBtn"); if(send) send.onclick = sendMessage;
-    startChatPolling();
-  }else stopChatPolling();
   const sd = document.getElementById("shareDeckBtn"); if(sd) sd.onclick = shareDeck;
-  const sq = document.getElementById("shareQBtn"); if(sq) sq.onclick = shareQuestion;
   document.querySelectorAll("[data-share-save]").forEach(b=>{ b.onclick = ()=>{
     const sh = social.shares.find(x=>x.id===Number(b.dataset.shareSave)); if(!sh) return;
-    stopChatPolling();
     openSharedItem({ item_key: user && sh.user_id===user.id ? null : "g"+sh.id, source: user && sh.user_id===user.id ? "sent" : "group",
       from_user:sh.username, group_name:social.group.name, kind:sh.kind, title:sh.title, payload:sh.payload, created_at:sh.created_at }, "group");
   }; });
@@ -1918,18 +1840,16 @@ function attachSocialHandlers(){
   if(leave) leave.onclick = async ()=>{
     const msg = social.group.role==="owner" ? "Leave this group? Ownership passes to the longest-standing member, or the group is deleted if you're the only one left." : "Leave this group?";
     if(!confirm(msg)) return;
-    try{ await rpc("leave_group", { p_group:social.group.id }); stopChatPolling(); social.group = null; state.screen = "friends"; social.tab = "groups"; await loadSocial(); render(); }
+    try{ await rpc("leave_group", { p_group:social.group.id }); social.group = null; state.screen = "friends"; social.tab = "groups"; await loadSocial(); render(); }
     catch(e){ socialToast(socialErr(e)); }
   };
 }
 
-// ======================= INBOX & DIRECT MESSAGES =======================
-// "Shared with me" lists decks and questions sent to you by friends or shared in your groups.
-// "Messages" holds one-to-one chats with friends; a message can carry a deck or question.
+// ======================= SHARED WITH ME =======================
+// Lists decks and questions sent to you by friends or shared in your groups.
 const INBOX_SEEN_KEY = "alevel_maths_inbox_seen_v1";
-const inbox = { tab:"shared", items:[], convos:[], loaded:false, error:"", unreadDM:0,
-                thread:null, tmsgs:[], tdraft:"", view:null, viewFrom:"inbox" };
-let threadPoll = null, inboxPoll = null;
+const inbox = { items:[], loaded:false, error:"", view:null, viewFrom:"inbox" };
+let inboxPoll = null;
 
 function seenKeys(){ const s = loadJSON(INBOX_SEEN_KEY, null); return new Set(s && user && s.uid===user.id ? s.keys : []); }
 function markSeen(keys){
@@ -1938,12 +1858,12 @@ function markSeen(keys){
   try{ localStorage.setItem(INBOX_SEEN_KEY, JSON.stringify({ uid:user.id, keys:[...set].slice(-600) })); }catch(e){}
 }
 function unseenShares(){ const seen = seenKeys(); return inbox.items.filter(i=>!seen.has(i.item_key)).length; }
-function inboxBadge(){ return user ? unseenShares() + (inbox.unreadDM||0) : 0; }
+function inboxBadge(){ return user ? unseenShares() : 0; }
 
 async function loadInbox(){
   if(!user || !sb) return;
   try{
-    inbox.items = await rpc("inbox_items") || []; inbox.convos = []; inbox.unreadDM = 0;
+    inbox.items = await rpc("inbox_items") || [];
     inbox.error = "";
   }catch(e){ inbox.error = socialErr(e).replace("social-and-coins-setup.sql", "inbox-setup.sql"); }
   inbox.loaded = true;
@@ -1968,10 +1888,10 @@ function saveSharedThing(kind, title, p){
   }
   return { added: importCustom([p]) };
 }
-function practiseIds(ids, origin){
+async function practiseIds(ids, origin){
+  await ensureQuestions(ids);
   const pool = ids.map(qid=>findQuestionById(qid)).filter(q=>q && !getQState(q.id).suspended);
   if(!pool.length){ alert("None of these questions can be practised right now."); return; }
-  stopThreadPolling();
   state.queue = shuffleArr(pool); state.screen = "practice"; state.lastAnswered = null;
   state.practiceOrigin = origin || "decks"; state.session = { possibleMarks:0, earnedPoints:0, answered:0 };
   nextQuestion(); render(); window.scrollTo(0,0);
@@ -1989,18 +1909,15 @@ function describeSharedQuestion(qid, p){
 function openSharedItem(item, from){
   inbox.view = item; inbox.viewFrom = from || "inbox";
   if(item.item_key) markSeen([item.item_key]);
-  stopThreadPolling();
   state.screen = "sharedItem"; render(); window.scrollTo(0,0);
 }
 function renderInbox(){
   const head = `<div class="toprow"><h2>Shared with me</h2></div>`;
   if(!user) return `${head}<div class="card"><div class="sub" style="margin:0 0 12px;">Log in to receive decks from friends.</div><button class="btn-primary" id="shopLoginBtn">Log in or create account</button></div>`;
   const unseen = unseenShares();
-  const tabs = "";
-  inbox.tab = "shared";
   const err = inbox.error ? `<div class="auth-msg err">${esc(inbox.error)}</div>` : "";
-  if(!inbox.loaded) return `${head}${tabs}<div class="sub">Loading…</div>`;
-  if(inbox.tab==="shared"){
+  if(!inbox.loaded) return `${head}<div class="sub">Loading…</div>`;
+  {
     const seen = seenKeys();
     const rows = inbox.items.map((it,i)=>{
       const n = payloadQuestionCount(it.kind, it.payload);
@@ -2012,25 +1929,10 @@ function renderInbox(){
         <span class="subject-card-go" aria-hidden="true">›</span>
       </button>`;
     }).join("");
-    return `${head}${tabs}${err}
+    return `${head}${err}
       <div class="card">${rows || `<div class="sub" style="margin:0;">Nothing here yet. When a friend sends you a deck, or someone shares one in your groups, it appears here. To share one of your own, open Decks and press "Share with friends or groups".</div>`}</div>
       ${inbox.items.length && unseen ? `<button class="skip-link" id="markAllSeenBtn">Mark all as seen</button>` : ""}`;
   }
-  const friends = social.friends.filter(f=>f.status==="friend");
-  const talked = new Set(inbox.convos.map(c=>c.user_id));
-  const rows = inbox.convos.map(c=>`<button class="inbox-row" data-open-thread="${esc(c.user_id)}" data-thread-name="${esc(c.username||"")}">
-      <span class="inbox-icon avatar" aria-hidden="true">${esc((c.username||"?").slice(0,1).toUpperCase())}</span>
-      <span class="inbox-text"><span class="social-name">@${esc(c.username||"unknown")}${c.unread ? ` <span class="new-pill">${c.unread}</span>` : ""}</span>
-        <span class="qlist-topic">${c.last_from_me ? "You: " : ""}${esc(snipPlain(c.last_body, 60))} · ${fmtWhen(c.last_at)}</span></span>
-      <span class="subject-card-go" aria-hidden="true">›</span>
-    </button>`).join("");
-  const others = friends.filter(f=>!talked.has(f.user_id));
-  return `${head}${tabs}${err}
-    <div class="card">${rows || `<div class="sub" style="margin:0;">No conversations yet.</div>`}</div>
-    <div class="card"><h2 style="font-size:1rem;">Start a conversation</h2>
-      ${others.length ? others.map(f=>`<div class="qlist-row"><div class="social-name">@${esc(f.username||"")}</div><div class="qlist-actions"><button class="icon-btn accent" data-open-thread="${esc(f.user_id)}" data-thread-name="${esc(f.username||"")}">Message</button></div></div>`).join("")
-        : friends.length ? `<div class="sub" style="margin:0;">You've already got a conversation with every friend.</div>` : `<div class="sub" style="margin:0 0 10px;">You can message people once you're friends.</div><button class="btn-ghost" id="goFriendsBtn">Find friends</button>`}
-    </div>`;
 }
 
 // ---------- a shared deck or question ----------
@@ -2045,8 +1947,9 @@ function renderSharedItem(){
               it.source==="sent" ? "You sent this" : `Sent by @${esc(it.from_user||"someone")}`;
   if(it.kind==="deck"){
     const ids = (p.questionIds||[]).map(String);
+    const ready = questionsReadyFor(ids);
     const qs = ids.map(id=>({ id, d:describeSharedQuestion(id, p) }));
-    const list = qs.map(({d},i)=>`<div class="qlist-row"><div><div class="qlist-topic">${d ? `${esc(d.topic||"")} · ${Math.max(1, parseInt(d.marks)||1)} mark${Math.max(1, parseInt(d.marks)||1)===1?"":"s"}${d.subject && d.subject!==currentSubject() ? ` · ${esc(subjectInfo(d.subject).name)}` : ""}` : "Unavailable"}</div>
+    const list = !ready ? `<div class="sub" style="margin:0;">Loading questions…</div>` : qs.map(({d},i)=>`<div class="qlist-row"><div><div class="qlist-topic">${d ? `${esc(d.topic||"")} · ${Math.max(1, parseInt(d.marks)||1)} mark${Math.max(1, parseInt(d.marks)||1)===1?"":"s"}${d.subject && d.subject!==currentSubject() ? ` · ${esc(subjectInfo(d.subject).name)}` : ""}` : "Unavailable"}</div>
       <div class="qlist-text">${d ? snip(d.prompt, 110) : "This question isn't on the site any more."}</div></div></div>`).join("");
     return `<div class="toprow"><h2>${esc(it.title)}</h2>${back}</div>
       <div class="card">
@@ -2072,107 +1975,17 @@ function renderSharedItem(){
     </div>`;
 }
 
-// ---------- one-to-one chat ----------
-function openThread(uid, name){
-  inbox.thread = { user_id:uid, username:name }; inbox.tmsgs = []; inbox.tdraft = "";
-  stopChatPolling();
-  state.screen = "thread"; render(); window.scrollTo(0,0);
-  fetchThread(true).then(()=>loadInbox());
-  startThreadPolling();
-}
-async function fetchThread(full){
-  const t = inbox.thread; if(!t) return;
-  const last = inbox.tmsgs.length ? inbox.tmsgs[inbox.tmsgs.length-1].id : null;
-  try{
-    const rows = await rpc("get_direct", { p_user:t.user_id, p_after: full ? null : last });
-    if(full) inbox.tmsgs = rows||[];
-    else if(rows && rows.length){ const seen = new Set(inbox.tmsgs.map(m=>m.id)); inbox.tmsgs.push(...rows.filter(m=>!seen.has(m.id))); }
-    else return;
-    updateThreadList(true);
-  }catch(e){ inbox.error = socialErr(e); if(state.screen==="thread") render(); }
-}
-function threadListHtml(){
-  if(!inbox.tmsgs.length) return `<div class="sub" style="text-align:center;margin:20px 0;">No messages yet. Say hello, or send a deck below.</div>`;
-  return inbox.tmsgs.map((m,i)=>{
-    const card = m.share_kind ? `<button class="share-bubble" data-thread-share="${i}">
-        <span aria-hidden="true">${m.share_kind==="deck" ? "📚" : "❓"}</span>
-        <span><strong>${esc(m.share_title||"")}</strong><br><span>${m.share_kind==="deck" ? `Deck · ${payloadQuestionCount("deck", m.payload)} questions` : "Question"} · View ›</span></span>
-      </button>` : "";
-    return `<div class="chat-msg${m.from_me?" mine":""}">
-      <div class="chat-meta">${m.from_me ? "You" : "@"+esc(inbox.thread.username||"")} · ${fmtWhen(m.created_at)}${m.from_me ? ` <button class="chat-del" data-dm-del="${m.id}">Delete</button>` : ` <button class="chat-del" data-report-kind="direct_message" data-report-target="${m.id}" data-report-label="a message from @${esc(inbox.thread.username||"someone")}">Report</button>`}</div>
-      ${m.body ? `<div class="chat-body">${esc(m.body)}</div>` : ""}${card}
-    </div>`;
-  }).join("");
-}
-function updateThreadList(scroll){
-  const el = document.getElementById("chatList"); if(!el || state.screen!=="thread") return;
-  const nearBottom = el.scrollHeight - el.scrollTop - el.clientHeight < 80;
-  el.innerHTML = threadListHtml();
-  el.querySelectorAll("[data-dm-del]").forEach(b=>{ b.onclick = async ()=>{
-    if(!confirm("Delete this message? It disappears for both of you.")) return;
-    try{ await rpc("delete_direct", { p_id:Number(b.dataset.dmDel) }); inbox.tmsgs = inbox.tmsgs.filter(m=>m.id!==Number(b.dataset.dmDel)); updateThreadList(false); }
-    catch(e){ socialToast(socialErr(e)); }
-  }; });
-  el.querySelectorAll("[data-thread-share]").forEach(b=>{ b.onclick = ()=>{
-    const m = inbox.tmsgs[Number(b.dataset.threadShare)];
-    openSharedItem({ item_key: m.from_me ? null : "d"+m.id, source: m.from_me ? "sent" : "direct", from_user: inbox.thread.username,
-                     kind:m.share_kind, title:m.share_title, payload:m.payload, created_at:m.created_at }, "thread");
-  }; });
-  if(scroll || nearBottom) el.scrollTop = el.scrollHeight;
-}
-async function sendDirect(kind, title, payload){
-  const box = document.getElementById("chatInput");
-  const body = box ? box.value.trim() : "";
-  if(!body && !kind) return;
-  if(inbox.busy) return; inbox.busy = true;
-  try{
-    await rpc("send_direct", { p_to:inbox.thread.user_id, p_body: kind ? "" : body, p_kind:kind||null, p_title:title||null, p_payload:payload||null });
-    if(!kind && box){ box.value = ""; inbox.tdraft = ""; }
-    await fetchThread(false); updateThreadList(true);
-    if(kind) socialToast(kind==="deck" ? "Deck sent." : "Question sent.");
-  }catch(e){ socialToast(/pg_column_size|check constraint/i.test(e.message||"") ? "That's too big to send (its pictures take up too much space)." : socialErr(e)); }
-  inbox.busy = false;
-}
-function renderThread(){
-  const t = inbox.thread; if(!t) return `<div class="sub">Conversation not found.</div>`;
-  const decks = loadDecks(), mine = Object.entries(customQuestionIndex());
-  return `<div class="toprow"><h2>@${esc(t.username||"")}</h2><button class="link-btn" id="threadBackBtn">Back</button></div>
-    <div class="thread-actions"><button class="link-btn" data-report-kind="user" data-report-target="${esc(t.user_id)}" data-report-label="@${esc(t.username||"")}">Report @${esc(t.username||"")}</button><button class="link-btn" data-block-user="${esc(t.user_id)}" data-block-name="${esc(t.username||"")}">Block</button></div>
-    ${inbox.error ? `<div class="auth-msg err">${esc(inbox.error)}</div>` : ""}
-    <div class="card chat-card">
-      <div class="chat-list" id="chatList">${threadListHtml()}</div>
-      <div class="chat-compose">
-        <textarea id="chatInput" maxlength="1000" rows="1" placeholder="Message @${esc(t.username||"")}">${esc(inbox.tdraft)}</textarea>
-        <button class="btn-primary" id="chatSendBtn">Send</button>
-      </div>
-    </div>
-    <div class="card"><h2 style="font-size:1rem;">Send something to practise</h2>
-      <div class="btn-row" style="margin-top:0;"><select id="dmDeckSelect" style="flex:2;margin-bottom:0;">${decks.length ? decks.map(d=>`<option value="${esc(d.id)}">${esc(d.name)} (${d.questionIds.length})</option>`).join("") : `<option value="">You have no decks yet</option>`}</select><button class="btn-ghost" id="dmDeckBtn" style="flex:1;" ${decks.length?"":"disabled"}>Send deck</button></div>
-      ${mine.length ? `<div class="btn-row"><select id="dmQSelect" style="flex:2;margin-bottom:0;">${mine.map(([id,it])=>`<option value="${esc(id)}">${esc(snipPlain(it.question.prompt, 50))}</option>`).join("")}</select><button class="btn-ghost" id="dmQBtn" style="flex:1;">Send question</button></div>` : ""}
-    </div>`;
-}
-function startThreadPolling(){
-  if(threadPoll) return;
-  threadPoll = setInterval(()=>{ if(state.screen==="thread" && document.visibilityState==="visible") fetchThread(false); }, 5000);
-}
-function stopThreadPolling(){ if(threadPoll){ clearInterval(threadPoll); threadPoll = null; } }
-
 function attachInboxHandlers(){
-  if(state.screen!=="thread") stopThreadPolling();
   if(state.screen==="inbox"){
     const lb = document.getElementById("shopLoginBtn"); if(lb) lb.onclick = ()=>showAuth("login");
-    document.querySelectorAll("[data-inbox-tab]").forEach(b=>{ b.onclick = ()=>{ inbox.tab = b.dataset.inboxTab; render(); }; });
     document.querySelectorAll("[data-inbox-item]").forEach(b=>{ b.onclick = ()=>openSharedItem({...inbox.items[Number(b.dataset.inboxItem)]}, "inbox"); });
-    document.querySelectorAll("[data-open-thread]").forEach(b=>{ b.onclick = ()=>openThread(b.dataset.openThread, b.dataset.threadName); });
     const ma = document.getElementById("markAllSeenBtn"); if(ma) ma.onclick = ()=>{ markSeen(inbox.items.map(i=>i.item_key)); render(); };
-    const gf = document.getElementById("goFriendsBtn"); if(gf) gf.onclick = ()=>goTab("friends");
   }
   if(state.screen==="sharedItem"){
     const it = inbox.view;
     const back = document.getElementById("sharedBackBtn");
     if(back) back.onclick = ()=>{
-      if(inbox.viewFrom==="thread" && inbox.thread){ state.screen = "thread"; render(); fetchThread(false); startThreadPolling(); }
-      else if(inbox.viewFrom==="group" && social.group){ state.screen = "group"; render(); loadGroupTab(); }
+      if(inbox.viewFrom==="group" && social.group){ state.screen = "group"; render(); loadGroupTab(); }
       else { state.screen = "inbox"; render(); }
     };
     const save = document.getElementById("sharedSaveBtn");
@@ -2196,26 +2009,7 @@ function attachInboxHandlers(){
       practiseIds(ids, "decks");
     };
   }
-  if(state.screen==="thread"){
-    startThreadPolling();
-    updateThreadList(true);
-    const back = document.getElementById("threadBackBtn");
-    if(back) back.onclick = ()=>{ stopThreadPolling(); inbox.tab = "messages"; state.screen = "inbox"; render(); loadInbox(); };
-    const input = document.getElementById("chatInput");
-    if(input){ input.oninput = ()=>{ inbox.tdraft = input.value; }; input.onkeydown = (e)=>{ if(e.key==="Enter" && !e.shiftKey){ e.preventDefault(); sendDirect(); } }; }
-    const send = document.getElementById("chatSendBtn"); if(send) send.onclick = ()=>sendDirect();
-    const db = document.getElementById("dmDeckBtn");
-    if(db) db.onclick = ()=>{
-      const d = loadDecks().find(x=>x.id===document.getElementById("dmDeckSelect").value); if(!d) return;
-      const idx = customQuestionIndex();
-      sendDirect("deck", d.name, { name:d.name, questionIds:d.questionIds.slice(0,500), custom:d.questionIds.filter(id=>idx[id]).map(id=>idx[id]) });
-    };
-    const qb = document.getElementById("dmQBtn");
-    if(qb) qb.onclick = ()=>{
-      const it = customQuestionIndex()[document.getElementById("dmQSelect").value]; if(!it) return;
-      sendDirect("question", snipPlain(it.question.prompt, 80), it);
-    };
-  }
+
 }
 
 // ======================= TAB BAR (links every main page) =======================
@@ -2227,9 +2021,8 @@ const TAB_ICONS = {
   shop:'<path d="M5 8h14l-1.2 11.2a1 1 0 0 1-1 .8H7.2a1 1 0 0 1-1-.8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/>'
 };
 const TAB_FOR_SCREEN = { home:"home", select:"home", stats:"home", browse:"home", manage:"home", admin:"home",
-  decks:"decks", inbox:"inbox", sharedItem:"inbox", thread:"inbox", friends:"friends", group:"friends", shop:"shop", account:"home", report:"inbox", shareDeck:"decks", paperSetup:"home", paperView:"home" };
+  decks:"decks", inbox:"inbox", sharedItem:"inbox", friends:"friends", group:"friends", shop:"shop", account:"home", report:"inbox", shareDeck:"decks", paperSetup:"home", paperView:"home" };
 function goTab(tab){
-  stopChatPolling(); stopThreadPolling();
   state.editForm = null; state.backTo = "home";
   if(tab==="home"){ state.screen = "home"; document.title = SITE_NAME; }
   else if(tab==="decks"){ state.viewDeckId = null; state.screen = "decks"; }
@@ -2303,7 +2096,6 @@ function renderReport(){
 function leaveReport(){
   const back = reportCtx ? reportCtx.returnTo : "home";
   state.screen = back; render();
-  if(back==="thread") fetchThread(false);
   if(back==="group") loadGroupTab();
 }
 async function sendReport(btn){
@@ -2320,8 +2112,7 @@ async function blockUser(uid, name){
   try{ await rpc("block_user", { p_user:uid }); }
   catch(e){ socialToast(socialErr(e).replace("social-and-coins-setup.sql", "safety-and-privacy-setup.sql")); return; }
   await loadSocial(); loadInbox();
-  if(state.screen==="thread"){ stopThreadPolling(); inbox.tab = "messages"; state.screen = "inbox"; }
-  if(state.screen==="group"){ social.messages = []; loadGroupTab(); }
+  if(state.screen==="group") loadGroupTab();
   render();
   socialToast(`You've blocked @${name}.`);
 }
@@ -2334,7 +2125,7 @@ async function loadAccount(){
   account.loaded = true;
   if(state.screen==="account") render();
 }
-function goAccount(){ stopChatPolling(); stopThreadPolling(); state.backTo = state.screen; state.screen = "account"; render(); window.scrollTo(0,0); loadAccount(); }
+function goAccount(){ state.backTo = state.screen; state.screen = "account"; render(); window.scrollTo(0,0); loadAccount(); }
 function renderAccount(){
   if(!user) return `<div class="toprow"><h2>Account</h2></div><div class="card"><div class="sub" style="margin:0 0 12px;">You're not logged in. Progress is saved on this device only.</div><button class="btn-primary" id="shopLoginBtn">Log in or create account</button></div>${HELP_BOX}`;
   const since = user.created_at ? new Date(user.created_at).toLocaleDateString("en-GB", {day:"numeric", month:"long", year:"numeric"}) : "";
@@ -3199,7 +2990,7 @@ function bankScreenBlocked(){
     if(!bankErrors[sid]) loadSubject(sid).then(render, render);
     return bankLoadingHtml(sid);
   }
-  if(["decks","admin","sharedItem"].includes(state.screen)){
+  if(state.screen==="admin"){
     const missing = SUBJECTS.filter(s=>!bankLoaded(s.id) && !bankErrors[s.id]);
     if(missing.length){ loadAllSubjects().then(render); return `<div class="card"><div class="sub" style="margin:0;">Loading questions…</div></div>`; }
   }
@@ -3797,7 +3588,6 @@ function masteryLabel(pct){
 
 function render(){
   const app = document.getElementById("app");
-  if(state.screen==="thread") state.screen = "inbox";
   let html = "";
   const blocked = bankScreenBlocked();
   if(blocked) html = blocked;
@@ -4204,7 +3994,9 @@ function renderDecks(){
     const expanded = state.viewDeckId === d.id;
     let inner = "";
     if(expanded){
-      if(d.questionIds.length===0){
+      if(!questionsReadyFor(d.questionIds)){
+        inner = `<div class="sub" style="padding:6px 0;">Loading questions…</div>`;
+      } else if(d.questionIds.length===0){
         inner = `<div class="sub" style="padding:6px 0;">No questions in this deck yet — add some from Browse or from a practice question.</div>`;
       } else {
         inner = d.questionIds.map(qid=>{
@@ -4797,13 +4589,15 @@ function attachHandlers(){
     };
   });
   document.querySelectorAll('[data-deck-practice]').forEach(btn=>{
-    btn.onclick = ()=>{
+    btn.onclick = async ()=>{
       const deck = loadDecks().find(d=>d.id===btn.dataset.deckPractice);
       if(!deck || deck.questionIds.length===0) return;
+      btn.disabled = true; btn.textContent = "Loading questions…";
+      await ensureQuestions(deck.questionIds);
       const pool = deck.questionIds
         .map(qid=>findQuestionById(qid))
         .filter(q=>q && !getQState(q.id).suspended);
-      if(pool.length===0){ alert("Every question in this deck is currently hidden."); return; }
+      if(pool.length===0){ btn.disabled = false; btn.textContent = "Practice this deck"; alert("None of this deck's questions can be practised right now (they're hidden or no longer on the site)."); return; }
       state.queue = shuffleArr(pool);
       state.screen = "practice";
       state.lastAnswered = null;
