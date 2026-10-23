@@ -181,7 +181,11 @@
     "paper": "AQA Physics Paper 1",
     "subtopic": "Elastic potential energy",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 300 210\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"40\" y1=\"20\" x2=\"260\" y2=\"20\" stroke-width=\"4\"/><line x1=\"70\" y1=\"20\" x2=\"70\" y2=\"200\" stroke-width=\"3\"/><path d=\"M150 20 V40 l15 6 l-30 12 l30 12 l-30 12 l30 12 l-30 12 l15 6 V130\"/><rect x=\"132\" y=\"130\" width=\"36\" height=\"34\"/><text x=\"150\" y=\"152\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">mass</text><rect x=\"210\" y=\"30\" width=\"22\" height=\"170\"/><line x1=\"210\" y1=\"40\" x2=\"220\" y2=\"40\" stroke-width=\"1\"/><line x1=\"210\" y1=\"56\" x2=\"220\" y2=\"56\" stroke-width=\"1\"/><line x1=\"210\" y1=\"72\" x2=\"220\" y2=\"72\" stroke-width=\"1\"/><line x1=\"210\" y1=\"88\" x2=\"220\" y2=\"88\" stroke-width=\"1\"/><line x1=\"210\" y1=\"104\" x2=\"220\" y2=\"104\" stroke-width=\"1\"/><line x1=\"210\" y1=\"120\" x2=\"220\" y2=\"120\" stroke-width=\"1\"/><line x1=\"210\" y1=\"136\" x2=\"220\" y2=\"136\" stroke-width=\"1\"/><line x1=\"210\" y1=\"152\" x2=\"220\" y2=\"152\" stroke-width=\"1\"/><line x1=\"210\" y1=\"168\" x2=\"220\" y2=\"168\" stroke-width=\"1\"/><line x1=\"210\" y1=\"184\" x2=\"220\" y2=\"184\" stroke-width=\"1\"/><line x1=\"168\" y1=\"130\" x2=\"210\" y2=\"130\" stroke-dasharray=\"3 3\" stroke-width=\"1\"/><text x=\"240\" y=\"120\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">ruler</text><text x=\"180\" y=\"15\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">clamp stand</text></svg>",
+     "alt": "Spring hanging from a clamp stand with a mass, next to a vertical ruler with a pointer."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t01-n006",
@@ -556,7 +560,11 @@
     "paper": "AQA Physics Paper 1",
     "subtopic": "Elastic potential energy",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 300 210\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"40\" y1=\"20\" x2=\"260\" y2=\"20\" stroke-width=\"4\"/><line x1=\"70\" y1=\"20\" x2=\"70\" y2=\"200\" stroke-width=\"3\"/><path d=\"M150 20 V40 l15 6 l-30 12 l30 12 l-30 12 l30 12 l-30 12 l15 6 V130\"/><rect x=\"132\" y=\"130\" width=\"36\" height=\"34\"/><text x=\"150\" y=\"152\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">mass</text><rect x=\"210\" y=\"30\" width=\"22\" height=\"170\"/><line x1=\"210\" y1=\"40\" x2=\"220\" y2=\"40\" stroke-width=\"1\"/><line x1=\"210\" y1=\"56\" x2=\"220\" y2=\"56\" stroke-width=\"1\"/><line x1=\"210\" y1=\"72\" x2=\"220\" y2=\"72\" stroke-width=\"1\"/><line x1=\"210\" y1=\"88\" x2=\"220\" y2=\"88\" stroke-width=\"1\"/><line x1=\"210\" y1=\"104\" x2=\"220\" y2=\"104\" stroke-width=\"1\"/><line x1=\"210\" y1=\"120\" x2=\"220\" y2=\"120\" stroke-width=\"1\"/><line x1=\"210\" y1=\"136\" x2=\"220\" y2=\"136\" stroke-width=\"1\"/><line x1=\"210\" y1=\"152\" x2=\"220\" y2=\"152\" stroke-width=\"1\"/><line x1=\"210\" y1=\"168\" x2=\"220\" y2=\"168\" stroke-width=\"1\"/><line x1=\"210\" y1=\"184\" x2=\"220\" y2=\"184\" stroke-width=\"1\"/><line x1=\"168\" y1=\"130\" x2=\"210\" y2=\"130\" stroke-dasharray=\"3 3\" stroke-width=\"1\"/><text x=\"240\" y=\"120\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">ruler</text><text x=\"180\" y=\"15\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">clamp stand</text></svg>",
+     "alt": "Spring hanging from a clamp stand with a mass, next to a vertical ruler with a pointer."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t01-n031",
@@ -751,7 +759,11 @@
     "paper": "AQA Physics Paper 1H Q01",
     "subtopic": "Efficiency",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"100\" y=\"30\" width=\"140\" height=\"120\" stroke-width=\"6\"/><rect x=\"118\" y=\"48\" width=\"104\" height=\"84\"/><path d=\"M95 50 h16\"/><path d=\"M95 62 h16\"/><path d=\"M95 74 h16\"/><path d=\"M95 86 h16\"/><path d=\"M95 98 h16\"/><path d=\"M95 110 h16\"/><path d=\"M95 122 h16\"/><path d=\"M229 45 h16\"/><path d=\"M229 54 h16\"/><path d=\"M229 63 h16\"/><path d=\"M229 72 h16\"/><path d=\"M229 81 h16\"/><path d=\"M229 90 h16\"/><path d=\"M229 99 h16\"/><path d=\"M229 108 h16\"/><path d=\"M229 117 h16\"/><path d=\"M229 126 h16\"/><path d=\"M229 135 h16\"/><path d=\"M95 50 H40 M95 122 H40 M245 45 H300 M245 135 H300\"/><text x=\"70\" y=\"170\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">primary coil</text><text x=\"270\" y=\"170\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">secondary coil</text><text x=\"170\" y=\"22\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">iron core</text></svg>",
+     "alt": "Transformer: primary and secondary coils wound on an iron core."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t01-n044",
@@ -796,7 +808,11 @@
     "paper": "AQA Physics Paper 1H Q07",
     "subtopic": "Elastic potential energy",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 300 210\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"40\" y1=\"20\" x2=\"260\" y2=\"20\" stroke-width=\"4\"/><line x1=\"70\" y1=\"20\" x2=\"70\" y2=\"200\" stroke-width=\"3\"/><path d=\"M150 20 V40 l15 6 l-30 12 l30 12 l-30 12 l30 12 l-30 12 l15 6 V130\"/><rect x=\"132\" y=\"130\" width=\"36\" height=\"34\"/><text x=\"150\" y=\"152\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">mass</text><rect x=\"210\" y=\"30\" width=\"22\" height=\"170\"/><line x1=\"210\" y1=\"40\" x2=\"220\" y2=\"40\" stroke-width=\"1\"/><line x1=\"210\" y1=\"56\" x2=\"220\" y2=\"56\" stroke-width=\"1\"/><line x1=\"210\" y1=\"72\" x2=\"220\" y2=\"72\" stroke-width=\"1\"/><line x1=\"210\" y1=\"88\" x2=\"220\" y2=\"88\" stroke-width=\"1\"/><line x1=\"210\" y1=\"104\" x2=\"220\" y2=\"104\" stroke-width=\"1\"/><line x1=\"210\" y1=\"120\" x2=\"220\" y2=\"120\" stroke-width=\"1\"/><line x1=\"210\" y1=\"136\" x2=\"220\" y2=\"136\" stroke-width=\"1\"/><line x1=\"210\" y1=\"152\" x2=\"220\" y2=\"152\" stroke-width=\"1\"/><line x1=\"210\" y1=\"168\" x2=\"220\" y2=\"168\" stroke-width=\"1\"/><line x1=\"210\" y1=\"184\" x2=\"220\" y2=\"184\" stroke-width=\"1\"/><line x1=\"168\" y1=\"130\" x2=\"210\" y2=\"130\" stroke-dasharray=\"3 3\" stroke-width=\"1\"/><text x=\"240\" y=\"120\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">ruler</text><text x=\"180\" y=\"15\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">clamp stand</text></svg>",
+     "alt": "Spring hanging from a clamp stand with a mass, next to a vertical ruler with a pointer."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t01-n047",
@@ -931,7 +947,11 @@
     "paper": "AQA Physics Paper 1H Q10",
     "subtopic": "Elastic potential energy",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Energy",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 300 210\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"40\" y1=\"20\" x2=\"260\" y2=\"20\" stroke-width=\"4\"/><line x1=\"70\" y1=\"20\" x2=\"70\" y2=\"200\" stroke-width=\"3\"/><path d=\"M150 20 V40 l15 6 l-30 12 l30 12 l-30 12 l30 12 l-30 12 l15 6 V130\"/><rect x=\"132\" y=\"130\" width=\"36\" height=\"34\"/><text x=\"150\" y=\"152\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">mass</text><rect x=\"210\" y=\"30\" width=\"22\" height=\"170\"/><line x1=\"210\" y1=\"40\" x2=\"220\" y2=\"40\" stroke-width=\"1\"/><line x1=\"210\" y1=\"56\" x2=\"220\" y2=\"56\" stroke-width=\"1\"/><line x1=\"210\" y1=\"72\" x2=\"220\" y2=\"72\" stroke-width=\"1\"/><line x1=\"210\" y1=\"88\" x2=\"220\" y2=\"88\" stroke-width=\"1\"/><line x1=\"210\" y1=\"104\" x2=\"220\" y2=\"104\" stroke-width=\"1\"/><line x1=\"210\" y1=\"120\" x2=\"220\" y2=\"120\" stroke-width=\"1\"/><line x1=\"210\" y1=\"136\" x2=\"220\" y2=\"136\" stroke-width=\"1\"/><line x1=\"210\" y1=\"152\" x2=\"220\" y2=\"152\" stroke-width=\"1\"/><line x1=\"210\" y1=\"168\" x2=\"220\" y2=\"168\" stroke-width=\"1\"/><line x1=\"210\" y1=\"184\" x2=\"220\" y2=\"184\" stroke-width=\"1\"/><line x1=\"168\" y1=\"130\" x2=\"210\" y2=\"130\" stroke-dasharray=\"3 3\" stroke-width=\"1\"/><text x=\"240\" y=\"120\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">ruler</text><text x=\"180\" y=\"15\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">clamp stand</text></svg>",
+     "alt": "Spring hanging from a clamp stand with a mass, next to a vertical ruler with a pointer."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t01-n056",
@@ -1256,7 +1276,11 @@
     "paper": "AQA Physics Paper 1",
     "subtopic": "I-V characteristics required practical",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity · family 3"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity · family 3",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M40 40 H140 M160 40 H300 V150 H40 V40\"/><path d=\"M140 28 V52 M152 22 V58\" stroke-width=\"3\"/><rect x=\"150\" y=\"138\" width=\"50\" height=\"24\" fill=\"var(--bg,#fff)\"/><path d=\"M140 170 L210 128\"/><path d=\"M210 128 l-9 1 l5 7z\" fill=\"currentColor\" stroke=\"none\"/><rect x=\"230\" y=\"138\" width=\"40\" height=\"24\" fill=\"var(--bg,#fff)\"/><path d=\"M230 150 H270\"/><circle cx=\"300\" cy=\"95\" r=\"14\" fill=\"var(--bg,#fff)\"/><text x=\"300\" y=\"100\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">A</text><path d=\"M230 150 V185 H270 V150\"/><circle cx=\"250\" cy=\"185\" r=\"12\" fill=\"var(--bg,#fff)\"/><text x=\"250\" y=\"190\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">V</text><text x=\"150\" y=\"125\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">variable resistor</text><text x=\"250\" y=\"128\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">component</text></svg>",
+     "alt": "Circuit to find the I–V characteristic: component with an ammeter in series, voltmeter in parallel and a variable resistor."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t02-f04a",
@@ -1286,7 +1310,11 @@
     "paper": "AQA Physics Paper 1",
     "subtopic": "Non-ohmic conductors",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity · family 5"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity · family 5",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M40 40 H140 M160 40 H300 V150 H40 V40\"/><path d=\"M140 28 V52 M152 22 V58\" stroke-width=\"3\"/><rect x=\"150\" y=\"138\" width=\"50\" height=\"24\" fill=\"var(--bg,#fff)\"/><path d=\"M140 170 L210 128\"/><path d=\"M210 128 l-9 1 l5 7z\" fill=\"currentColor\" stroke=\"none\"/><rect x=\"230\" y=\"138\" width=\"40\" height=\"24\" fill=\"var(--bg,#fff)\"/><path d=\"M230 150 H270\"/><circle cx=\"300\" cy=\"95\" r=\"14\" fill=\"var(--bg,#fff)\"/><text x=\"300\" y=\"100\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">A</text><path d=\"M230 150 V185 H270 V150\"/><circle cx=\"250\" cy=\"185\" r=\"12\" fill=\"var(--bg,#fff)\"/><text x=\"250\" y=\"190\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">V</text><text x=\"150\" y=\"125\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">variable resistor</text><text x=\"250\" y=\"128\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">component</text></svg>",
+     "alt": "Circuit to find the I–V characteristic: component with an ammeter in series, voltmeter in parallel and a variable resistor."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t02-n001",
@@ -1346,7 +1374,11 @@
     "paper": "AQA Physics Paper 1",
     "subtopic": "Series and parallel circuits",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 190\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M40 40 H140 M160 40 H300 V150 H40 V40\"/><path d=\"M140 28 V52 M152 22 V58\" stroke-width=\"3\"/><rect x=\"80\" y=\"138\" width=\"50\" height=\"24\" fill=\"var(--bg,#fff)\"/><rect x=\"200\" y=\"138\" width=\"50\" height=\"24\" fill=\"var(--bg,#fff)\"/><circle cx=\"300\" cy=\"95\" r=\"14\" fill=\"var(--bg,#fff)\"/><text x=\"300\" y=\"100\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">A</text><text x=\"146\" y=\"18\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">cell</text><text x=\"105\" y=\"182\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">R₁</text><text x=\"225\" y=\"182\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">R₂</text></svg>",
+     "alt": "Series circuit: a cell, two resistors and an ammeter in a single loop."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t02-n005",
@@ -1361,7 +1393,11 @@
     "paper": "AQA Physics Paper 1",
     "subtopic": "Series and parallel circuits",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M40 30 H150 M170 30 H300 V170 H40 V30 M40 100 H300\"/><path d=\"M150 18 V42 M162 12 V48\" stroke-width=\"3\"/><rect x=\"145\" y=\"88\" width=\"50\" height=\"24\" fill=\"var(--bg,#fff)\"/><rect x=\"145\" y=\"158\" width=\"50\" height=\"24\" fill=\"var(--bg,#fff)\"/><circle cx=\"70\" cy=\"30\" r=\"13\" fill=\"var(--bg,#fff)\"/><text x=\"70\" y=\"35\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">A</text><text x=\"170\" y=\"82\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">R₁</text><text x=\"170\" y=\"196\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">R₂</text><text x=\"156\" y=\"10\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">cell</text></svg>",
+     "alt": "Parallel circuit: two resistors on separate branches connected across a cell, with an ammeter in the main line."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t02-n006",
@@ -1376,7 +1412,11 @@
     "paper": "AQA Physics Paper 1",
     "subtopic": "Series and parallel circuits",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M40 30 H150 M170 30 H300 V170 H40 V30 M40 100 H300\"/><path d=\"M150 18 V42 M162 12 V48\" stroke-width=\"3\"/><rect x=\"145\" y=\"88\" width=\"50\" height=\"24\" fill=\"var(--bg,#fff)\"/><rect x=\"145\" y=\"158\" width=\"50\" height=\"24\" fill=\"var(--bg,#fff)\"/><circle cx=\"70\" cy=\"30\" r=\"13\" fill=\"var(--bg,#fff)\"/><text x=\"70\" y=\"35\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">A</text><text x=\"170\" y=\"82\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">R₁</text><text x=\"170\" y=\"196\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">R₂</text><text x=\"156\" y=\"10\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">cell</text></svg>",
+     "alt": "Parallel circuit: two resistors on separate branches connected across a cell, with an ammeter in the main line."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t02-n007",
@@ -1391,7 +1431,11 @@
     "paper": "AQA Physics Paper 1",
     "subtopic": "Resistance required practical",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 190\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M40 40 H140 M160 40 H300 V110 M40 40 V150 H70\"/><path d=\"M140 28 V52 M152 22 V58\" stroke-width=\"3\"/><line x1=\"70\" y1=\"150\" x2=\"290\" y2=\"150\" stroke-width=\"4\"/><path d=\"M60 165 H300\" stroke-width=\"1\"/><line x1=\"60\" y1=\"160\" x2=\"60\" y2=\"170\" stroke-width=\"1\"/><line x1=\"84\" y1=\"160\" x2=\"84\" y2=\"170\" stroke-width=\"1\"/><line x1=\"108\" y1=\"160\" x2=\"108\" y2=\"170\" stroke-width=\"1\"/><line x1=\"132\" y1=\"160\" x2=\"132\" y2=\"170\" stroke-width=\"1\"/><line x1=\"156\" y1=\"160\" x2=\"156\" y2=\"170\" stroke-width=\"1\"/><line x1=\"180\" y1=\"160\" x2=\"180\" y2=\"170\" stroke-width=\"1\"/><line x1=\"204\" y1=\"160\" x2=\"204\" y2=\"170\" stroke-width=\"1\"/><line x1=\"228\" y1=\"160\" x2=\"228\" y2=\"170\" stroke-width=\"1\"/><line x1=\"252\" y1=\"160\" x2=\"252\" y2=\"170\" stroke-width=\"1\"/><line x1=\"276\" y1=\"160\" x2=\"276\" y2=\"170\" stroke-width=\"1\"/><line x1=\"300\" y1=\"160\" x2=\"300\" y2=\"170\" stroke-width=\"1\"/><path d=\"M300 110 V125 L230 145\"/><circle cx=\"300\" cy=\"80\" r=\"14\" fill=\"var(--bg,#fff)\"/><text x=\"300\" y=\"85\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">A</text><text x=\"180\" y=\"188\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">metre rule</text><text x=\"232\" y=\"140\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">crocodile clip</text><text x=\"80\" y=\"140\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">wire</text></svg>",
+     "alt": "Circuit for resistance of a wire: test wire along a metre rule with a crocodile clip to change length, ammeter in series."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t02-n008",
@@ -1421,7 +1465,11 @@
     "paper": "AQA Physics Paper 1",
     "subtopic": "Component characteristics",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M40 40 H140 M160 40 H300 V150 H40 V40\"/><path d=\"M140 28 V52 M152 22 V58\" stroke-width=\"3\"/><rect x=\"150\" y=\"138\" width=\"50\" height=\"24\" fill=\"var(--bg,#fff)\"/><path d=\"M140 170 L210 128\"/><path d=\"M210 128 l-9 1 l5 7z\" fill=\"currentColor\" stroke=\"none\"/><rect x=\"230\" y=\"138\" width=\"40\" height=\"24\" fill=\"var(--bg,#fff)\"/><path d=\"M230 150 H270\"/><circle cx=\"300\" cy=\"95\" r=\"14\" fill=\"var(--bg,#fff)\"/><text x=\"300\" y=\"100\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">A</text><path d=\"M230 150 V185 H270 V150\"/><circle cx=\"250\" cy=\"185\" r=\"12\" fill=\"var(--bg,#fff)\"/><text x=\"250\" y=\"190\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">V</text><text x=\"150\" y=\"125\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">variable resistor</text><text x=\"250\" y=\"128\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">component</text></svg>",
+     "alt": "Circuit to find the I–V characteristic: component with an ammeter in series, voltmeter in parallel and a variable resistor."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t02-n010",
@@ -1526,7 +1574,11 @@
     "paper": "AQA Physics Paper 1",
     "subtopic": "National Grid",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"100\" y=\"30\" width=\"140\" height=\"120\" stroke-width=\"6\"/><rect x=\"118\" y=\"48\" width=\"104\" height=\"84\"/><path d=\"M95 50 h16\"/><path d=\"M95 62 h16\"/><path d=\"M95 74 h16\"/><path d=\"M95 86 h16\"/><path d=\"M95 98 h16\"/><path d=\"M95 110 h16\"/><path d=\"M95 122 h16\"/><path d=\"M229 45 h16\"/><path d=\"M229 54 h16\"/><path d=\"M229 63 h16\"/><path d=\"M229 72 h16\"/><path d=\"M229 81 h16\"/><path d=\"M229 90 h16\"/><path d=\"M229 99 h16\"/><path d=\"M229 108 h16\"/><path d=\"M229 117 h16\"/><path d=\"M229 126 h16\"/><path d=\"M229 135 h16\"/><path d=\"M95 50 H40 M95 122 H40 M245 45 H300 M245 135 H300\"/><text x=\"70\" y=\"170\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">primary coil</text><text x=\"270\" y=\"170\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">secondary coil</text><text x=\"170\" y=\"22\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">iron core</text></svg>",
+     "alt": "Transformer: primary and secondary coils wound on an iron core."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t02-n017",
@@ -1601,7 +1653,11 @@
     "paper": "AQA Physics Paper 1",
     "subtopic": "Series and parallel circuits",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M40 30 H150 M170 30 H300 V170 H40 V30 M40 100 H300\"/><path d=\"M150 18 V42 M162 12 V48\" stroke-width=\"3\"/><rect x=\"145\" y=\"88\" width=\"50\" height=\"24\" fill=\"var(--bg,#fff)\"/><rect x=\"145\" y=\"158\" width=\"50\" height=\"24\" fill=\"var(--bg,#fff)\"/><circle cx=\"70\" cy=\"30\" r=\"13\" fill=\"var(--bg,#fff)\"/><text x=\"70\" y=\"35\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">A</text><text x=\"170\" y=\"82\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">R₁</text><text x=\"170\" y=\"196\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">R₂</text><text x=\"156\" y=\"10\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">cell</text></svg>",
+     "alt": "Parallel circuit: two resistors on separate branches connected across a cell, with an ammeter in the main line."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t02-n022",
@@ -1631,7 +1687,11 @@
     "paper": "AQA Physics Paper 1",
     "subtopic": "Component characteristics",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M40 40 H140 M160 40 H300 V150 H40 V40\"/><path d=\"M140 28 V52 M152 22 V58\" stroke-width=\"3\"/><rect x=\"150\" y=\"138\" width=\"50\" height=\"24\" fill=\"var(--bg,#fff)\"/><path d=\"M140 170 L210 128\"/><path d=\"M210 128 l-9 1 l5 7z\" fill=\"currentColor\" stroke=\"none\"/><rect x=\"230\" y=\"138\" width=\"40\" height=\"24\" fill=\"var(--bg,#fff)\"/><path d=\"M230 150 H270\"/><circle cx=\"300\" cy=\"95\" r=\"14\" fill=\"var(--bg,#fff)\"/><text x=\"300\" y=\"100\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">A</text><path d=\"M230 150 V185 H270 V150\"/><circle cx=\"250\" cy=\"185\" r=\"12\" fill=\"var(--bg,#fff)\"/><text x=\"250\" y=\"190\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">V</text><text x=\"150\" y=\"125\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">variable resistor</text><text x=\"250\" y=\"128\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">component</text></svg>",
+     "alt": "Circuit to find the I–V characteristic: component with an ammeter in series, voltmeter in parallel and a variable resistor."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t02-n024",
@@ -1676,7 +1736,11 @@
     "paper": "AQA Physics Paper 1",
     "subtopic": "National Grid",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"100\" y=\"30\" width=\"140\" height=\"120\" stroke-width=\"6\"/><rect x=\"118\" y=\"48\" width=\"104\" height=\"84\"/><path d=\"M95 50 h16\"/><path d=\"M95 62 h16\"/><path d=\"M95 74 h16\"/><path d=\"M95 86 h16\"/><path d=\"M95 98 h16\"/><path d=\"M95 110 h16\"/><path d=\"M95 122 h16\"/><path d=\"M229 45 h16\"/><path d=\"M229 54 h16\"/><path d=\"M229 63 h16\"/><path d=\"M229 72 h16\"/><path d=\"M229 81 h16\"/><path d=\"M229 90 h16\"/><path d=\"M229 99 h16\"/><path d=\"M229 108 h16\"/><path d=\"M229 117 h16\"/><path d=\"M229 126 h16\"/><path d=\"M229 135 h16\"/><path d=\"M95 50 H40 M95 122 H40 M245 45 H300 M245 135 H300\"/><text x=\"70\" y=\"170\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">primary coil</text><text x=\"270\" y=\"170\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">secondary coil</text><text x=\"170\" y=\"22\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">iron core</text></svg>",
+     "alt": "Transformer: primary and secondary coils wound on an iron core."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t02-n027",
@@ -1736,7 +1800,11 @@
     "paper": "AQA Physics Paper 1",
     "subtopic": "Series and parallel circuits",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M40 30 H150 M170 30 H300 V170 H40 V30 M40 100 H300\"/><path d=\"M150 18 V42 M162 12 V48\" stroke-width=\"3\"/><rect x=\"145\" y=\"88\" width=\"50\" height=\"24\" fill=\"var(--bg,#fff)\"/><rect x=\"145\" y=\"158\" width=\"50\" height=\"24\" fill=\"var(--bg,#fff)\"/><circle cx=\"70\" cy=\"30\" r=\"13\" fill=\"var(--bg,#fff)\"/><text x=\"70\" y=\"35\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">A</text><text x=\"170\" y=\"82\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">R₁</text><text x=\"170\" y=\"196\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">R₂</text><text x=\"156\" y=\"10\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">cell</text></svg>",
+     "alt": "Parallel circuit: two resistors on separate branches connected across a cell, with an ammeter in the main line."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t02-n031",
@@ -1781,7 +1849,11 @@
     "paper": "AQA Physics Paper 1H Q05",
     "subtopic": "Filament lamp",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M40 40 H140 M160 40 H300 V150 H40 V40\"/><path d=\"M140 28 V52 M152 22 V58\" stroke-width=\"3\"/><rect x=\"150\" y=\"138\" width=\"50\" height=\"24\" fill=\"var(--bg,#fff)\"/><path d=\"M140 170 L210 128\"/><path d=\"M210 128 l-9 1 l5 7z\" fill=\"currentColor\" stroke=\"none\"/><rect x=\"230\" y=\"138\" width=\"40\" height=\"24\" fill=\"var(--bg,#fff)\"/><path d=\"M230 150 H270\"/><circle cx=\"300\" cy=\"95\" r=\"14\" fill=\"var(--bg,#fff)\"/><text x=\"300\" y=\"100\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">A</text><path d=\"M230 150 V185 H270 V150\"/><circle cx=\"250\" cy=\"185\" r=\"12\" fill=\"var(--bg,#fff)\"/><text x=\"250\" y=\"190\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">V</text><text x=\"150\" y=\"125\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">variable resistor</text><text x=\"250\" y=\"128\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">component</text></svg>",
+     "alt": "Circuit to find the I–V characteristic: component with an ammeter in series, voltmeter in parallel and a variable resistor."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t02-n034",
@@ -1796,7 +1868,11 @@
     "paper": "AQA Physics Paper 1H Q05",
     "subtopic": "LDR",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M40 40 H140 M160 40 H300 V150 H40 V40\"/><path d=\"M140 28 V52 M152 22 V58\" stroke-width=\"3\"/><rect x=\"150\" y=\"138\" width=\"50\" height=\"24\" fill=\"var(--bg,#fff)\"/><path d=\"M140 170 L210 128\"/><path d=\"M210 128 l-9 1 l5 7z\" fill=\"currentColor\" stroke=\"none\"/><rect x=\"230\" y=\"138\" width=\"40\" height=\"24\" fill=\"var(--bg,#fff)\"/><path d=\"M230 150 H270\"/><circle cx=\"300\" cy=\"95\" r=\"14\" fill=\"var(--bg,#fff)\"/><text x=\"300\" y=\"100\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">A</text><path d=\"M230 150 V185 H270 V150\"/><circle cx=\"250\" cy=\"185\" r=\"12\" fill=\"var(--bg,#fff)\"/><text x=\"250\" y=\"190\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">V</text><text x=\"150\" y=\"125\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">variable resistor</text><text x=\"250\" y=\"128\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">component</text></svg>",
+     "alt": "Circuit to find the I–V characteristic: component with an ammeter in series, voltmeter in parallel and a variable resistor."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t02-n035",
@@ -1841,7 +1917,11 @@
     "paper": "AQA Physics Paper 1H Q03",
     "subtopic": "Required practical",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 190\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M40 40 H140 M160 40 H300 V110 M40 40 V150 H70\"/><path d=\"M140 28 V52 M152 22 V58\" stroke-width=\"3\"/><line x1=\"70\" y1=\"150\" x2=\"290\" y2=\"150\" stroke-width=\"4\"/><path d=\"M60 165 H300\" stroke-width=\"1\"/><line x1=\"60\" y1=\"160\" x2=\"60\" y2=\"170\" stroke-width=\"1\"/><line x1=\"84\" y1=\"160\" x2=\"84\" y2=\"170\" stroke-width=\"1\"/><line x1=\"108\" y1=\"160\" x2=\"108\" y2=\"170\" stroke-width=\"1\"/><line x1=\"132\" y1=\"160\" x2=\"132\" y2=\"170\" stroke-width=\"1\"/><line x1=\"156\" y1=\"160\" x2=\"156\" y2=\"170\" stroke-width=\"1\"/><line x1=\"180\" y1=\"160\" x2=\"180\" y2=\"170\" stroke-width=\"1\"/><line x1=\"204\" y1=\"160\" x2=\"204\" y2=\"170\" stroke-width=\"1\"/><line x1=\"228\" y1=\"160\" x2=\"228\" y2=\"170\" stroke-width=\"1\"/><line x1=\"252\" y1=\"160\" x2=\"252\" y2=\"170\" stroke-width=\"1\"/><line x1=\"276\" y1=\"160\" x2=\"276\" y2=\"170\" stroke-width=\"1\"/><line x1=\"300\" y1=\"160\" x2=\"300\" y2=\"170\" stroke-width=\"1\"/><path d=\"M300 110 V125 L230 145\"/><circle cx=\"300\" cy=\"80\" r=\"14\" fill=\"var(--bg,#fff)\"/><text x=\"300\" y=\"85\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">A</text><text x=\"180\" y=\"188\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">metre rule</text><text x=\"232\" y=\"140\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">crocodile clip</text><text x=\"80\" y=\"140\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">wire</text></svg>",
+     "alt": "Circuit for resistance of a wire: test wire along a metre rule with a crocodile clip to change length, ammeter in series."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t02-n038",
@@ -2006,7 +2086,11 @@
     "paper": "AQA Physics Paper 1H Q06",
     "subtopic": "Required practical",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M40 40 H140 M160 40 H300 V150 H40 V40\"/><path d=\"M140 28 V52 M152 22 V58\" stroke-width=\"3\"/><rect x=\"150\" y=\"138\" width=\"50\" height=\"24\" fill=\"var(--bg,#fff)\"/><path d=\"M140 170 L210 128\"/><path d=\"M210 128 l-9 1 l5 7z\" fill=\"currentColor\" stroke=\"none\"/><rect x=\"230\" y=\"138\" width=\"40\" height=\"24\" fill=\"var(--bg,#fff)\"/><path d=\"M230 150 H270\"/><circle cx=\"300\" cy=\"95\" r=\"14\" fill=\"var(--bg,#fff)\"/><text x=\"300\" y=\"100\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">A</text><path d=\"M230 150 V185 H270 V150\"/><circle cx=\"250\" cy=\"185\" r=\"12\" fill=\"var(--bg,#fff)\"/><text x=\"250\" y=\"190\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">V</text><text x=\"150\" y=\"125\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">variable resistor</text><text x=\"250\" y=\"128\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">component</text></svg>",
+     "alt": "Circuit to find the I–V characteristic: component with an ammeter in series, voltmeter in parallel and a variable resistor."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t02-n049",
@@ -2126,7 +2210,11 @@
     "paper": "AQA Physics Paper 1H Q03",
     "subtopic": "Diodes",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 190\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M40 40 H140 M160 40 H300 V150 H40 V40\"/><path d=\"M140 28 V52 M152 22 V58\" stroke-width=\"3\"/><rect x=\"80\" y=\"138\" width=\"50\" height=\"24\" fill=\"var(--bg,#fff)\"/><rect x=\"200\" y=\"138\" width=\"50\" height=\"24\" fill=\"var(--bg,#fff)\"/><circle cx=\"300\" cy=\"95\" r=\"14\" fill=\"var(--bg,#fff)\"/><text x=\"300\" y=\"100\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">A</text><text x=\"146\" y=\"18\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">cell</text><text x=\"105\" y=\"182\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">R₁</text><text x=\"225\" y=\"182\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">R₂</text></svg>",
+     "alt": "Series circuit: a cell, two resistors and an ammeter in a single loop."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t02-n057",
@@ -2186,7 +2274,11 @@
     "paper": "AQA Physics Paper 1F Q03",
     "subtopic": "Parallel circuits",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M40 30 H150 M170 30 H300 V170 H40 V30 M40 100 H300\"/><path d=\"M150 18 V42 M162 12 V48\" stroke-width=\"3\"/><rect x=\"145\" y=\"88\" width=\"50\" height=\"24\" fill=\"var(--bg,#fff)\"/><rect x=\"145\" y=\"158\" width=\"50\" height=\"24\" fill=\"var(--bg,#fff)\"/><circle cx=\"70\" cy=\"30\" r=\"13\" fill=\"var(--bg,#fff)\"/><text x=\"70\" y=\"35\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">A</text><text x=\"170\" y=\"82\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">R₁</text><text x=\"170\" y=\"196\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">R₂</text><text x=\"156\" y=\"10\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">cell</text></svg>",
+     "alt": "Parallel circuit: two resistors on separate branches connected across a cell, with an ammeter in the main line."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t02-n061",
@@ -2231,7 +2323,11 @@
     "paper": "AQA Physics Paper 1F Q01",
     "subtopic": "Measurement",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Electricity",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 190\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M40 40 H140 M160 40 H300 V150 H40 V40\"/><path d=\"M140 28 V52 M152 22 V58\" stroke-width=\"3\"/><rect x=\"80\" y=\"138\" width=\"50\" height=\"24\" fill=\"var(--bg,#fff)\"/><rect x=\"200\" y=\"138\" width=\"50\" height=\"24\" fill=\"var(--bg,#fff)\"/><circle cx=\"300\" cy=\"95\" r=\"14\" fill=\"var(--bg,#fff)\"/><text x=\"300\" y=\"100\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">A</text><text x=\"146\" y=\"18\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">cell</text><text x=\"105\" y=\"182\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">R₁</text><text x=\"225\" y=\"182\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">R₂</text></svg>",
+     "alt": "Series circuit: a cell, two resistors and an ammeter in a single loop."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t02-n064",
@@ -3252,7 +3348,11 @@
     "paper": "AQA Physics Paper 1",
     "subtopic": "Radioactive decay",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure · family 2"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure · family 2",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 195\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"45\" y1=\"160\" x2=\"320\" y2=\"160\"/><path d=\"M320 160L311.7 163.5L311.7 156.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"45\" y1=\"160\" x2=\"45\" y2=\"20\"/><path d=\"M45 20L48.5 28.3L41.5 28.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182.5\" y=\"184\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">time</text><text x=\"14\" y=\"90.0\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" transform=\"rotate(-90 14 90.0)\">activity / Bq</text><path d=\"M50 30 C90 90 130 115 180 135 S280 152 315 155\" stroke-width=\"3\"/><path d=\"M45 95 H112 V160\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><text x=\"50\" y=\"26\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A₀</text><text x=\"50\" y=\"90\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A₀/2</text><text x=\"112\" y=\"176\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">t½</text></svg>",
+     "alt": "Radioactive decay curve showing activity halving after one half-life."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t04-f03a",
@@ -3267,7 +3367,11 @@
     "paper": "AQA Physics Paper 1",
     "subtopic": "Half-life",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure · family 3"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure · family 3",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 195\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"45\" y1=\"160\" x2=\"320\" y2=\"160\"/><path d=\"M320 160L311.7 163.5L311.7 156.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"45\" y1=\"160\" x2=\"45\" y2=\"20\"/><path d=\"M45 20L48.5 28.3L41.5 28.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182.5\" y=\"184\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">time</text><text x=\"14\" y=\"90.0\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" transform=\"rotate(-90 14 90.0)\">activity / Bq</text><path d=\"M50 30 C90 90 130 115 180 135 S280 152 315 155\" stroke-width=\"3\"/><path d=\"M45 95 H112 V160\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><text x=\"50\" y=\"26\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A₀</text><text x=\"50\" y=\"90\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A₀/2</text><text x=\"112\" y=\"176\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">t½</text></svg>",
+     "alt": "Radioactive decay curve showing activity halving after one half-life."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t04-f03b",
@@ -3282,7 +3386,11 @@
     "paper": "AQA Physics Paper 1",
     "subtopic": "Half-life",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure · family 3"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure · family 3",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 195\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"45\" y1=\"160\" x2=\"320\" y2=\"160\"/><path d=\"M320 160L311.7 163.5L311.7 156.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"45\" y1=\"160\" x2=\"45\" y2=\"20\"/><path d=\"M45 20L48.5 28.3L41.5 28.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182.5\" y=\"184\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">time</text><text x=\"14\" y=\"90.0\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" transform=\"rotate(-90 14 90.0)\">activity / Bq</text><path d=\"M50 30 C90 90 130 115 180 135 S280 152 315 155\" stroke-width=\"3\"/><path d=\"M45 95 H112 V160\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><text x=\"50\" y=\"26\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A₀</text><text x=\"50\" y=\"90\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A₀/2</text><text x=\"112\" y=\"176\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">t½</text></svg>",
+     "alt": "Radioactive decay curve showing activity halving after one half-life."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t04-f03c",
@@ -3297,7 +3405,11 @@
     "paper": "AQA Physics Paper 1",
     "subtopic": "Half-life",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure · family 3"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure · family 3",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 195\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"45\" y1=\"160\" x2=\"320\" y2=\"160\"/><path d=\"M320 160L311.7 163.5L311.7 156.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"45\" y1=\"160\" x2=\"45\" y2=\"20\"/><path d=\"M45 20L48.5 28.3L41.5 28.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182.5\" y=\"184\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">time</text><text x=\"14\" y=\"90.0\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" transform=\"rotate(-90 14 90.0)\">activity / Bq</text><path d=\"M50 30 C90 90 130 115 180 135 S280 152 315 155\" stroke-width=\"3\"/><path d=\"M45 95 H112 V160\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><text x=\"50\" y=\"26\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A₀</text><text x=\"50\" y=\"90\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A₀/2</text><text x=\"112\" y=\"176\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">t½</text></svg>",
+     "alt": "Radioactive decay curve showing activity halving after one half-life."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t04-f04a",
@@ -3357,7 +3469,11 @@
     "paper": "AQA Physics Paper 1",
     "subtopic": "Atomic models",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"230\" cy=\"90\" r=\"7\" fill=\"currentColor\"/><text x=\"230\" y=\"120\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">nucleus</text><line x1=\"20\" y1=\"40\" x2=\"320\" y2=\"40\"/><path d=\"M320 40L311.7 43.5L311.7 36.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"20\" y1=\"140\" x2=\"320\" y2=\"140\"/><path d=\"M320 140L311.7 143.5L311.7 136.5Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M20 100 C150 100 200 72 300 30\"/><line x1=\"290\" y1=\"35\" x2=\"300\" y2=\"30\"/><path d=\"M300 30L294.2 36.8L291.0 30.6Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M20 90 L210 90 C195 92 180 96 30 115\"/><line x1=\"40\" y1=\"113\" x2=\"30\" y2=\"115\"/><path d=\"M30 115L37.4 109.9L38.8 116.8Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"20\" y=\"30\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">alpha particles</text></svg>",
+     "alt": "Alpha scattering: most particles pass straight through, some are deflected and a few bounce back from the nucleus."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t04-n003",
@@ -3462,7 +3578,11 @@
     "paper": "AQA Physics Paper 1",
     "subtopic": "Half-life",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 195\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"45\" y1=\"160\" x2=\"320\" y2=\"160\"/><path d=\"M320 160L311.7 163.5L311.7 156.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"45\" y1=\"160\" x2=\"45\" y2=\"20\"/><path d=\"M45 20L48.5 28.3L41.5 28.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182.5\" y=\"184\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">time</text><text x=\"14\" y=\"90.0\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" transform=\"rotate(-90 14 90.0)\">activity / Bq</text><path d=\"M50 30 C90 90 130 115 180 135 S280 152 315 155\" stroke-width=\"3\"/><path d=\"M45 95 H112 V160\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><text x=\"50\" y=\"26\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A₀</text><text x=\"50\" y=\"90\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A₀/2</text><text x=\"112\" y=\"176\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">t½</text></svg>",
+     "alt": "Radioactive decay curve showing activity halving after one half-life."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t04-n010",
@@ -3537,7 +3657,11 @@
     "paper": "AQA Physics Paper 1",
     "subtopic": "Uses of radiation",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 195\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"45\" y1=\"160\" x2=\"320\" y2=\"160\"/><path d=\"M320 160L311.7 163.5L311.7 156.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"45\" y1=\"160\" x2=\"45\" y2=\"20\"/><path d=\"M45 20L48.5 28.3L41.5 28.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182.5\" y=\"184\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">time</text><text x=\"14\" y=\"90.0\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" transform=\"rotate(-90 14 90.0)\">activity / Bq</text><path d=\"M50 30 C90 90 130 115 180 135 S280 152 315 155\" stroke-width=\"3\"/><path d=\"M45 95 H112 V160\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><text x=\"50\" y=\"26\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A₀</text><text x=\"50\" y=\"90\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A₀/2</text><text x=\"112\" y=\"176\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">t½</text></svg>",
+     "alt": "Radioactive decay curve showing activity halving after one half-life."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t04-n015",
@@ -3642,7 +3766,11 @@
     "paper": "AQA Physics Paper 1",
     "subtopic": "Half-life",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 195\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"45\" y1=\"160\" x2=\"320\" y2=\"160\"/><path d=\"M320 160L311.7 163.5L311.7 156.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"45\" y1=\"160\" x2=\"45\" y2=\"20\"/><path d=\"M45 20L48.5 28.3L41.5 28.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182.5\" y=\"184\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">time</text><text x=\"14\" y=\"90.0\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" transform=\"rotate(-90 14 90.0)\">activity / Bq</text><path d=\"M50 30 C90 90 130 115 180 135 S280 152 315 155\" stroke-width=\"3\"/><path d=\"M45 95 H112 V160\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><text x=\"50\" y=\"26\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A₀</text><text x=\"50\" y=\"90\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A₀/2</text><text x=\"112\" y=\"176\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">t½</text></svg>",
+     "alt": "Radioactive decay curve showing activity halving after one half-life."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t04-n022",
@@ -3702,7 +3830,11 @@
     "paper": "AQA Physics Paper 1",
     "subtopic": "Uses of radiation",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 195\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"45\" y1=\"160\" x2=\"320\" y2=\"160\"/><path d=\"M320 160L311.7 163.5L311.7 156.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"45\" y1=\"160\" x2=\"45\" y2=\"20\"/><path d=\"M45 20L48.5 28.3L41.5 28.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182.5\" y=\"184\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">time</text><text x=\"14\" y=\"90.0\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" transform=\"rotate(-90 14 90.0)\">activity / Bq</text><path d=\"M50 30 C90 90 130 115 180 135 S280 152 315 155\" stroke-width=\"3\"/><path d=\"M45 95 H112 V160\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><text x=\"50\" y=\"26\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A₀</text><text x=\"50\" y=\"90\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A₀/2</text><text x=\"112\" y=\"176\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">t½</text></svg>",
+     "alt": "Radioactive decay curve showing activity halving after one half-life."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t04-n026",
@@ -3837,7 +3969,11 @@
     "paper": "AQA Physics Paper 1H Q06",
     "subtopic": "Uses of radiation",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 195\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"45\" y1=\"160\" x2=\"320\" y2=\"160\"/><path d=\"M320 160L311.7 163.5L311.7 156.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"45\" y1=\"160\" x2=\"45\" y2=\"20\"/><path d=\"M45 20L48.5 28.3L41.5 28.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182.5\" y=\"184\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">time</text><text x=\"14\" y=\"90.0\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" transform=\"rotate(-90 14 90.0)\">activity / Bq</text><path d=\"M50 30 C90 90 130 115 180 135 S280 152 315 155\" stroke-width=\"3\"/><path d=\"M45 95 H112 V160\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><text x=\"50\" y=\"26\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A₀</text><text x=\"50\" y=\"90\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A₀/2</text><text x=\"112\" y=\"176\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">t½</text></svg>",
+     "alt": "Radioactive decay curve showing activity halving after one half-life."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t04-n035",
@@ -3882,7 +4018,11 @@
     "paper": "AQA Physics Paper 1H Q05",
     "subtopic": "Half-life",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 195\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"45\" y1=\"160\" x2=\"320\" y2=\"160\"/><path d=\"M320 160L311.7 163.5L311.7 156.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"45\" y1=\"160\" x2=\"45\" y2=\"20\"/><path d=\"M45 20L48.5 28.3L41.5 28.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182.5\" y=\"184\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">time</text><text x=\"14\" y=\"90.0\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" transform=\"rotate(-90 14 90.0)\">activity / Bq</text><path d=\"M50 30 C90 90 130 115 180 135 S280 152 315 155\" stroke-width=\"3\"/><path d=\"M45 95 H112 V160\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><text x=\"50\" y=\"26\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A₀</text><text x=\"50\" y=\"90\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A₀/2</text><text x=\"112\" y=\"176\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">t½</text></svg>",
+     "alt": "Radioactive decay curve showing activity halving after one half-life."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t04-n038",
@@ -4002,7 +4142,11 @@
     "paper": "AQA Physics Paper 1H Q07",
     "subtopic": "Half-life",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 195\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"45\" y1=\"160\" x2=\"320\" y2=\"160\"/><path d=\"M320 160L311.7 163.5L311.7 156.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"45\" y1=\"160\" x2=\"45\" y2=\"20\"/><path d=\"M45 20L48.5 28.3L41.5 28.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182.5\" y=\"184\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">time</text><text x=\"14\" y=\"90.0\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" transform=\"rotate(-90 14 90.0)\">activity / Bq</text><path d=\"M50 30 C90 90 130 115 180 135 S280 152 315 155\" stroke-width=\"3\"/><path d=\"M45 95 H112 V160\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><text x=\"50\" y=\"26\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A₀</text><text x=\"50\" y=\"90\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A₀/2</text><text x=\"112\" y=\"176\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">t½</text></svg>",
+     "alt": "Radioactive decay curve showing activity halving after one half-life."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t04-n046",
@@ -4017,7 +4161,11 @@
     "paper": "AQA Physics Paper 1H Q07",
     "subtopic": "Half-life",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure"
+    "inspiredBy": "AQA 8463 Physics Paper 1 style · Atomic structure",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 195\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"45\" y1=\"160\" x2=\"320\" y2=\"160\"/><path d=\"M320 160L311.7 163.5L311.7 156.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"45\" y1=\"160\" x2=\"45\" y2=\"20\"/><path d=\"M45 20L48.5 28.3L41.5 28.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182.5\" y=\"184\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">time</text><text x=\"14\" y=\"90.0\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" transform=\"rotate(-90 14 90.0)\">activity / Bq</text><path d=\"M50 30 C90 90 130 115 180 135 S280 152 315 155\" stroke-width=\"3\"/><path d=\"M45 95 H112 V160\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><text x=\"50\" y=\"26\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A₀</text><text x=\"50\" y=\"90\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A₀/2</text><text x=\"112\" y=\"176\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">t½</text></svg>",
+     "alt": "Radioactive decay curve showing activity halving after one half-life."
+    }
    },
    {
     "id": "gcse-phys-aqa-p1-t04-n047",
@@ -4200,7 +4348,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Force and extension required practical",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces · family 3"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces · family 3",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 300 210\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"40\" y1=\"20\" x2=\"260\" y2=\"20\" stroke-width=\"4\"/><line x1=\"70\" y1=\"20\" x2=\"70\" y2=\"200\" stroke-width=\"3\"/><path d=\"M150 20 V40 l15 6 l-30 12 l30 12 l-30 12 l30 12 l-30 12 l15 6 V130\"/><rect x=\"132\" y=\"130\" width=\"36\" height=\"34\"/><text x=\"150\" y=\"152\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">mass</text><rect x=\"210\" y=\"30\" width=\"22\" height=\"170\"/><line x1=\"210\" y1=\"40\" x2=\"220\" y2=\"40\" stroke-width=\"1\"/><line x1=\"210\" y1=\"56\" x2=\"220\" y2=\"56\" stroke-width=\"1\"/><line x1=\"210\" y1=\"72\" x2=\"220\" y2=\"72\" stroke-width=\"1\"/><line x1=\"210\" y1=\"88\" x2=\"220\" y2=\"88\" stroke-width=\"1\"/><line x1=\"210\" y1=\"104\" x2=\"220\" y2=\"104\" stroke-width=\"1\"/><line x1=\"210\" y1=\"120\" x2=\"220\" y2=\"120\" stroke-width=\"1\"/><line x1=\"210\" y1=\"136\" x2=\"220\" y2=\"136\" stroke-width=\"1\"/><line x1=\"210\" y1=\"152\" x2=\"220\" y2=\"152\" stroke-width=\"1\"/><line x1=\"210\" y1=\"168\" x2=\"220\" y2=\"168\" stroke-width=\"1\"/><line x1=\"210\" y1=\"184\" x2=\"220\" y2=\"184\" stroke-width=\"1\"/><line x1=\"168\" y1=\"130\" x2=\"210\" y2=\"130\" stroke-dasharray=\"3 3\" stroke-width=\"1\"/><text x=\"240\" y=\"120\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">ruler</text><text x=\"180\" y=\"15\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">clamp stand</text></svg>",
+     "alt": "Spring hanging from a clamp stand with a mass, next to a vertical ruler with a pointer."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t05-f04a",
@@ -4215,7 +4367,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Moments",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces · family 4"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces · family 4",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"30\" y1=\"80\" x2=\"310\" y2=\"80\" stroke-width=\"5\"/><path d=\"M170 80 l-18 30 h36z\" fill=\"currentColor\" fill-opacity=\"0.15\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"78\"/><path d=\"M60 78L56.5 69.7L63.5 69.7Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"260\" y1=\"40\" x2=\"260\" y2=\"78\"/><path d=\"M260 78L256.5 69.7L263.5 69.7Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"60\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">F₁</text><text x=\"260\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">F₂</text><line x1=\"170\" y1=\"130\" x2=\"60\" y2=\"130\"/><path d=\"M60 130L68.3 126.5L68.3 133.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"170\" y1=\"130\" x2=\"260\" y2=\"130\"/><path d=\"M260 130L251.7 133.5L251.7 126.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"115\" y=\"145\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">d₁</text><text x=\"215\" y=\"145\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">d₂</text><text x=\"170\" y=\"125\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">pivot</text></svg>",
+     "alt": "Balanced beam on a pivot with forces F₁ and F₂ at distances d₁ and d₂."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t05-f04b",
@@ -4230,7 +4386,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Moments",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces · family 4"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces · family 4",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"30\" y1=\"80\" x2=\"310\" y2=\"80\" stroke-width=\"5\"/><path d=\"M170 80 l-18 30 h36z\" fill=\"currentColor\" fill-opacity=\"0.15\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"78\"/><path d=\"M60 78L56.5 69.7L63.5 69.7Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"260\" y1=\"40\" x2=\"260\" y2=\"78\"/><path d=\"M260 78L256.5 69.7L263.5 69.7Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"60\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">F₁</text><text x=\"260\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">F₂</text><line x1=\"170\" y1=\"130\" x2=\"60\" y2=\"130\"/><path d=\"M60 130L68.3 126.5L68.3 133.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"170\" y1=\"130\" x2=\"260\" y2=\"130\"/><path d=\"M260 130L251.7 133.5L251.7 126.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"115\" y=\"145\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">d₁</text><text x=\"215\" y=\"145\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">d₂</text><text x=\"170\" y=\"125\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">pivot</text></svg>",
+     "alt": "Balanced beam on a pivot with forces F₁ and F₂ at distances d₁ and d₂."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t05-f04c",
@@ -4245,7 +4405,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Moments",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces · family 4"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces · family 4",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"30\" y1=\"80\" x2=\"310\" y2=\"80\" stroke-width=\"5\"/><path d=\"M170 80 l-18 30 h36z\" fill=\"currentColor\" fill-opacity=\"0.15\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"78\"/><path d=\"M60 78L56.5 69.7L63.5 69.7Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"260\" y1=\"40\" x2=\"260\" y2=\"78\"/><path d=\"M260 78L256.5 69.7L263.5 69.7Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"60\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">F₁</text><text x=\"260\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">F₂</text><line x1=\"170\" y1=\"130\" x2=\"60\" y2=\"130\"/><path d=\"M60 130L68.3 126.5L68.3 133.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"170\" y1=\"130\" x2=\"260\" y2=\"130\"/><path d=\"M260 130L251.7 133.5L251.7 126.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"115\" y=\"145\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">d₁</text><text x=\"215\" y=\"145\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">d₂</text><text x=\"170\" y=\"125\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">pivot</text></svg>",
+     "alt": "Balanced beam on a pivot with forces F₁ and F₂ at distances d₁ and d₂."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t05-f05a",
@@ -4380,7 +4544,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Distance-time graphs",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 195\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"45\" y1=\"160\" x2=\"320\" y2=\"160\"/><path d=\"M320 160L311.7 163.5L311.7 156.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"45\" y1=\"160\" x2=\"45\" y2=\"20\"/><path d=\"M45 20L48.5 28.3L41.5 28.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182.5\" y=\"184\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">time / s</text><text x=\"14\" y=\"90.0\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" transform=\"rotate(-90 14 90.0)\">distance / m</text><path d=\"M45 160 L130 90 L200 90 L300 30\" stroke-width=\"3\"/><text x=\"70\" y=\"115\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A</text><text x=\"160\" y=\"82\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">B</text><text x=\"250\" y=\"50\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">C</text></svg>",
+     "alt": "Distance–time graph: sloping section A, flat section B, steeper section C."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t05-n007",
@@ -4395,7 +4563,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Velocity-time graphs",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 195\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"45\" y1=\"160\" x2=\"320\" y2=\"160\"/><path d=\"M320 160L311.7 163.5L311.7 156.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"45\" y1=\"160\" x2=\"45\" y2=\"20\"/><path d=\"M45 20L48.5 28.3L41.5 28.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182.5\" y=\"184\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">time / s</text><text x=\"14\" y=\"90.0\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" transform=\"rotate(-90 14 90.0)\">velocity / m/s</text><path d=\"M45 160 L130 70 L230 70 L300 160\" stroke-width=\"3\"/><path d=\"M45 160 L130 70 L230 70 L300 160Z\" fill=\"currentColor\" opacity=\"0.08\" stroke=\"none\"/><text x=\"75\" y=\"105\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">A</text><text x=\"175\" y=\"62\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">B</text><text x=\"270\" y=\"105\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">C</text></svg>",
+     "alt": "Velocity–time graph: accelerating (A), constant velocity (B), decelerating (C); area under the line is distance."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t05-n008",
@@ -4545,7 +4717,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Hooke's law",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 300 210\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"40\" y1=\"20\" x2=\"260\" y2=\"20\" stroke-width=\"4\"/><line x1=\"70\" y1=\"20\" x2=\"70\" y2=\"200\" stroke-width=\"3\"/><path d=\"M150 20 V40 l15 6 l-30 12 l30 12 l-30 12 l30 12 l-30 12 l15 6 V130\"/><rect x=\"132\" y=\"130\" width=\"36\" height=\"34\"/><text x=\"150\" y=\"152\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">mass</text><rect x=\"210\" y=\"30\" width=\"22\" height=\"170\"/><line x1=\"210\" y1=\"40\" x2=\"220\" y2=\"40\" stroke-width=\"1\"/><line x1=\"210\" y1=\"56\" x2=\"220\" y2=\"56\" stroke-width=\"1\"/><line x1=\"210\" y1=\"72\" x2=\"220\" y2=\"72\" stroke-width=\"1\"/><line x1=\"210\" y1=\"88\" x2=\"220\" y2=\"88\" stroke-width=\"1\"/><line x1=\"210\" y1=\"104\" x2=\"220\" y2=\"104\" stroke-width=\"1\"/><line x1=\"210\" y1=\"120\" x2=\"220\" y2=\"120\" stroke-width=\"1\"/><line x1=\"210\" y1=\"136\" x2=\"220\" y2=\"136\" stroke-width=\"1\"/><line x1=\"210\" y1=\"152\" x2=\"220\" y2=\"152\" stroke-width=\"1\"/><line x1=\"210\" y1=\"168\" x2=\"220\" y2=\"168\" stroke-width=\"1\"/><line x1=\"210\" y1=\"184\" x2=\"220\" y2=\"184\" stroke-width=\"1\"/><line x1=\"168\" y1=\"130\" x2=\"210\" y2=\"130\" stroke-dasharray=\"3 3\" stroke-width=\"1\"/><text x=\"240\" y=\"120\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">ruler</text><text x=\"180\" y=\"15\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">clamp stand</text></svg>",
+     "alt": "Spring hanging from a clamp stand with a mass, next to a vertical ruler with a pointer."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t05-n018",
@@ -4605,7 +4781,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Levers and gears",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"30\" y1=\"80\" x2=\"310\" y2=\"80\" stroke-width=\"5\"/><path d=\"M170 80 l-18 30 h36z\" fill=\"currentColor\" fill-opacity=\"0.15\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"78\"/><path d=\"M60 78L56.5 69.7L63.5 69.7Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"260\" y1=\"40\" x2=\"260\" y2=\"78\"/><path d=\"M260 78L256.5 69.7L263.5 69.7Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"60\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">F₁</text><text x=\"260\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">F₂</text><line x1=\"170\" y1=\"130\" x2=\"60\" y2=\"130\"/><path d=\"M60 130L68.3 126.5L68.3 133.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"170\" y1=\"130\" x2=\"260\" y2=\"130\"/><path d=\"M260 130L251.7 133.5L251.7 126.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"115\" y=\"145\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">d₁</text><text x=\"215\" y=\"145\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">d₂</text><text x=\"170\" y=\"125\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">pivot</text></svg>",
+     "alt": "Balanced beam on a pivot with forces F₁ and F₂ at distances d₁ and d₂."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t05-n022",
@@ -4740,7 +4920,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Moments",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"30\" y1=\"80\" x2=\"310\" y2=\"80\" stroke-width=\"5\"/><path d=\"M170 80 l-18 30 h36z\" fill=\"currentColor\" fill-opacity=\"0.15\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"78\"/><path d=\"M60 78L56.5 69.7L63.5 69.7Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"260\" y1=\"40\" x2=\"260\" y2=\"78\"/><path d=\"M260 78L256.5 69.7L263.5 69.7Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"60\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">F₁</text><text x=\"260\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">F₂</text><line x1=\"170\" y1=\"130\" x2=\"60\" y2=\"130\"/><path d=\"M60 130L68.3 126.5L68.3 133.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"170\" y1=\"130\" x2=\"260\" y2=\"130\"/><path d=\"M260 130L251.7 133.5L251.7 126.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"115\" y=\"145\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">d₁</text><text x=\"215\" y=\"145\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">d₂</text><text x=\"170\" y=\"125\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">pivot</text></svg>",
+     "alt": "Balanced beam on a pivot with forces F₁ and F₂ at distances d₁ and d₂."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t05-n031",
@@ -4800,7 +4984,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Hooke's law",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 195\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"45\" y1=\"160\" x2=\"320\" y2=\"160\"/><path d=\"M320 160L311.7 163.5L311.7 156.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"45\" y1=\"160\" x2=\"45\" y2=\"20\"/><path d=\"M45 20L48.5 28.3L41.5 28.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182.5\" y=\"184\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">extension / m</text><text x=\"14\" y=\"90.0\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" transform=\"rotate(-90 14 90.0)\">force / N</text><path d=\"M45 160 L200 60\" stroke-width=\"3\"/><path d=\"M200 60 C240 38 270 32 315 30\" stroke-width=\"3\"/><circle cx=\"200\" cy=\"60\" r=\"4\" fill=\"currentColor\"/><text x=\"205\" y=\"80\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">limit of proportionality</text></svg>",
+     "alt": "Force–extension graph: straight line through the origin, then curving after the limit of proportionality."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t05-n036",
@@ -4815,7 +5003,11 @@
     "paper": "AQA Physics Paper 2H Q02",
     "subtopic": "Required practical",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 300 210\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"40\" y1=\"20\" x2=\"260\" y2=\"20\" stroke-width=\"4\"/><line x1=\"70\" y1=\"20\" x2=\"70\" y2=\"200\" stroke-width=\"3\"/><path d=\"M150 20 V40 l15 6 l-30 12 l30 12 l-30 12 l30 12 l-30 12 l15 6 V130\"/><rect x=\"132\" y=\"130\" width=\"36\" height=\"34\"/><text x=\"150\" y=\"152\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">mass</text><rect x=\"210\" y=\"30\" width=\"22\" height=\"170\"/><line x1=\"210\" y1=\"40\" x2=\"220\" y2=\"40\" stroke-width=\"1\"/><line x1=\"210\" y1=\"56\" x2=\"220\" y2=\"56\" stroke-width=\"1\"/><line x1=\"210\" y1=\"72\" x2=\"220\" y2=\"72\" stroke-width=\"1\"/><line x1=\"210\" y1=\"88\" x2=\"220\" y2=\"88\" stroke-width=\"1\"/><line x1=\"210\" y1=\"104\" x2=\"220\" y2=\"104\" stroke-width=\"1\"/><line x1=\"210\" y1=\"120\" x2=\"220\" y2=\"120\" stroke-width=\"1\"/><line x1=\"210\" y1=\"136\" x2=\"220\" y2=\"136\" stroke-width=\"1\"/><line x1=\"210\" y1=\"152\" x2=\"220\" y2=\"152\" stroke-width=\"1\"/><line x1=\"210\" y1=\"168\" x2=\"220\" y2=\"168\" stroke-width=\"1\"/><line x1=\"210\" y1=\"184\" x2=\"220\" y2=\"184\" stroke-width=\"1\"/><line x1=\"168\" y1=\"130\" x2=\"210\" y2=\"130\" stroke-dasharray=\"3 3\" stroke-width=\"1\"/><text x=\"240\" y=\"120\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">ruler</text><text x=\"180\" y=\"15\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">clamp stand</text></svg>",
+     "alt": "Spring hanging from a clamp stand with a mass, next to a vertical ruler with a pointer."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t05-n037",
@@ -5085,7 +5277,11 @@
     "paper": "AQA Physics Paper 2H Q03",
     "subtopic": "Moments",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"30\" y1=\"80\" x2=\"310\" y2=\"80\" stroke-width=\"5\"/><path d=\"M170 80 l-18 30 h36z\" fill=\"currentColor\" fill-opacity=\"0.15\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"78\"/><path d=\"M60 78L56.5 69.7L63.5 69.7Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"260\" y1=\"40\" x2=\"260\" y2=\"78\"/><path d=\"M260 78L256.5 69.7L263.5 69.7Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"60\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">F₁</text><text x=\"260\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">F₂</text><line x1=\"170\" y1=\"130\" x2=\"60\" y2=\"130\"/><path d=\"M60 130L68.3 126.5L68.3 133.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"170\" y1=\"130\" x2=\"260\" y2=\"130\"/><path d=\"M260 130L251.7 133.5L251.7 126.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"115\" y=\"145\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">d₁</text><text x=\"215\" y=\"145\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">d₂</text><text x=\"170\" y=\"125\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">pivot</text></svg>",
+     "alt": "Balanced beam on a pivot with forces F₁ and F₂ at distances d₁ and d₂."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t05-n055",
@@ -5175,7 +5371,11 @@
     "paper": "AQA Physics Paper 2H Q02",
     "subtopic": "Hooke's law",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 300 210\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"40\" y1=\"20\" x2=\"260\" y2=\"20\" stroke-width=\"4\"/><line x1=\"70\" y1=\"20\" x2=\"70\" y2=\"200\" stroke-width=\"3\"/><path d=\"M150 20 V40 l15 6 l-30 12 l30 12 l-30 12 l30 12 l-30 12 l15 6 V130\"/><rect x=\"132\" y=\"130\" width=\"36\" height=\"34\"/><text x=\"150\" y=\"152\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">mass</text><rect x=\"210\" y=\"30\" width=\"22\" height=\"170\"/><line x1=\"210\" y1=\"40\" x2=\"220\" y2=\"40\" stroke-width=\"1\"/><line x1=\"210\" y1=\"56\" x2=\"220\" y2=\"56\" stroke-width=\"1\"/><line x1=\"210\" y1=\"72\" x2=\"220\" y2=\"72\" stroke-width=\"1\"/><line x1=\"210\" y1=\"88\" x2=\"220\" y2=\"88\" stroke-width=\"1\"/><line x1=\"210\" y1=\"104\" x2=\"220\" y2=\"104\" stroke-width=\"1\"/><line x1=\"210\" y1=\"120\" x2=\"220\" y2=\"120\" stroke-width=\"1\"/><line x1=\"210\" y1=\"136\" x2=\"220\" y2=\"136\" stroke-width=\"1\"/><line x1=\"210\" y1=\"152\" x2=\"220\" y2=\"152\" stroke-width=\"1\"/><line x1=\"210\" y1=\"168\" x2=\"220\" y2=\"168\" stroke-width=\"1\"/><line x1=\"210\" y1=\"184\" x2=\"220\" y2=\"184\" stroke-width=\"1\"/><line x1=\"168\" y1=\"130\" x2=\"210\" y2=\"130\" stroke-dasharray=\"3 3\" stroke-width=\"1\"/><text x=\"240\" y=\"120\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">ruler</text><text x=\"180\" y=\"15\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">clamp stand</text></svg>",
+     "alt": "Spring hanging from a clamp stand with a mass, next to a vertical ruler with a pointer."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t05-n062",
@@ -5190,7 +5390,11 @@
     "paper": "AQA Physics Paper 2H Q02",
     "subtopic": "Hooke's law",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Forces",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 195\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"45\" y1=\"160\" x2=\"320\" y2=\"160\"/><path d=\"M320 160L311.7 163.5L311.7 156.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"45\" y1=\"160\" x2=\"45\" y2=\"20\"/><path d=\"M45 20L48.5 28.3L41.5 28.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182.5\" y=\"184\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">extension / m</text><text x=\"14\" y=\"90.0\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" transform=\"rotate(-90 14 90.0)\">force / N</text><path d=\"M45 160 L200 60\" stroke-width=\"3\"/><path d=\"M200 60 C240 38 270 32 315 30\" stroke-width=\"3\"/><circle cx=\"200\" cy=\"60\" r=\"4\" fill=\"currentColor\"/><text x=\"205\" y=\"80\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">limit of proportionality</text></svg>",
+     "alt": "Force–extension graph: straight line through the origin, then curving after the limit of proportionality."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t05-n063",
@@ -5478,7 +5682,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Wave types",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves · family 2"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves · family 2",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 140\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"20\" y1=\"35\" x2=\"20\" y2=\"95\" stroke-width=\"2\"/><line x1=\"30\" y1=\"35\" x2=\"30\" y2=\"95\" stroke-width=\"2\"/><line x1=\"38\" y1=\"35\" x2=\"38\" y2=\"95\" stroke-width=\"2\"/><line x1=\"44\" y1=\"35\" x2=\"44\" y2=\"95\" stroke-width=\"2\"/><line x1=\"49\" y1=\"35\" x2=\"49\" y2=\"95\" stroke-width=\"2\"/><line x1=\"54\" y1=\"35\" x2=\"54\" y2=\"95\" stroke-width=\"2\"/><line x1=\"60\" y1=\"35\" x2=\"60\" y2=\"95\" stroke-width=\"2\"/><line x1=\"68\" y1=\"35\" x2=\"68\" y2=\"95\" stroke-width=\"2\"/><line x1=\"80\" y1=\"35\" x2=\"80\" y2=\"95\" stroke-width=\"2\"/><line x1=\"95\" y1=\"35\" x2=\"95\" y2=\"95\" stroke-width=\"2\"/><line x1=\"110\" y1=\"35\" x2=\"110\" y2=\"95\" stroke-width=\"2\"/><line x1=\"122\" y1=\"35\" x2=\"122\" y2=\"95\" stroke-width=\"2\"/><line x1=\"130\" y1=\"35\" x2=\"130\" y2=\"95\" stroke-width=\"2\"/><line x1=\"136\" y1=\"35\" x2=\"136\" y2=\"95\" stroke-width=\"2\"/><line x1=\"141\" y1=\"35\" x2=\"141\" y2=\"95\" stroke-width=\"2\"/><line x1=\"146\" y1=\"35\" x2=\"146\" y2=\"95\" stroke-width=\"2\"/><line x1=\"152\" y1=\"35\" x2=\"152\" y2=\"95\" stroke-width=\"2\"/><line x1=\"160\" y1=\"35\" x2=\"160\" y2=\"95\" stroke-width=\"2\"/><line x1=\"172\" y1=\"35\" x2=\"172\" y2=\"95\" stroke-width=\"2\"/><line x1=\"187\" y1=\"35\" x2=\"187\" y2=\"95\" stroke-width=\"2\"/><line x1=\"202\" y1=\"35\" x2=\"202\" y2=\"95\" stroke-width=\"2\"/><line x1=\"214\" y1=\"35\" x2=\"214\" y2=\"95\" stroke-width=\"2\"/><line x1=\"222\" y1=\"35\" x2=\"222\" y2=\"95\" stroke-width=\"2\"/><line x1=\"228\" y1=\"35\" x2=\"228\" y2=\"95\" stroke-width=\"2\"/><line x1=\"233\" y1=\"35\" x2=\"233\" y2=\"95\" stroke-width=\"2\"/><line x1=\"238\" y1=\"35\" x2=\"238\" y2=\"95\" stroke-width=\"2\"/><line x1=\"244\" y1=\"35\" x2=\"244\" y2=\"95\" stroke-width=\"2\"/><line x1=\"252\" y1=\"35\" x2=\"252\" y2=\"95\" stroke-width=\"2\"/><line x1=\"264\" y1=\"35\" x2=\"264\" y2=\"95\" stroke-width=\"2\"/><line x1=\"279\" y1=\"35\" x2=\"279\" y2=\"95\" stroke-width=\"2\"/><line x1=\"294\" y1=\"35\" x2=\"294\" y2=\"95\" stroke-width=\"2\"/><line x1=\"306\" y1=\"35\" x2=\"306\" y2=\"95\" stroke-width=\"2\"/><line x1=\"314\" y1=\"35\" x2=\"314\" y2=\"95\" stroke-width=\"2\"/><line x1=\"320\" y1=\"35\" x2=\"320\" y2=\"95\" stroke-width=\"2\"/><text x=\"48\" y=\"120\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">compression</text><text x=\"100\" y=\"120\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">rarefaction</text><line x1=\"240\" y1=\"18\" x2=\"320\" y2=\"18\"/><path d=\"M320 18L311.7 21.5L311.7 14.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"200\" y=\"22\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">wave travel</text></svg>",
+     "alt": "Longitudinal wave showing compressions and rarefactions."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t06-f03a",
@@ -5523,7 +5731,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Electromagnetic spectrum",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves · family 5"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves · family 5",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 110\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"10\" y=\"30\" width=\"46\" height=\"34\"/><rect x=\"56\" y=\"30\" width=\"46\" height=\"34\"/><rect x=\"102\" y=\"30\" width=\"46\" height=\"34\"/><rect x=\"148\" y=\"30\" width=\"46\" height=\"34\"/><rect x=\"194\" y=\"30\" width=\"46\" height=\"34\"/><rect x=\"240\" y=\"30\" width=\"46\" height=\"34\"/><rect x=\"286\" y=\"30\" width=\"46\" height=\"34\"/><text x=\"33\" y=\"52\" font-size=\"9.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">radio</text><text x=\"79\" y=\"52\" font-size=\"9.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">micro</text><text x=\"125\" y=\"52\" font-size=\"9.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">infrared</text><text x=\"171\" y=\"52\" font-size=\"9.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">visible</text><text x=\"217\" y=\"52\" font-size=\"9.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">UV</text><text x=\"263\" y=\"52\" font-size=\"9.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">X-ray</text><text x=\"309\" y=\"52\" font-size=\"9.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">gamma</text><line x1=\"30\" y1=\"85\" x2=\"320\" y2=\"85\"/><path d=\"M320 85L311.7 88.5L311.7 81.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"170\" y=\"102\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">increasing frequency, decreasing wavelength</text></svg>",
+     "alt": "The electromagnetic spectrum from radio waves to gamma rays, in order of increasing frequency."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t06-n001",
@@ -5598,7 +5810,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Waves in solids required practical",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M20 85 C45 25 70 25 95 85 S145 145 170 85 S220 25 245 85 S295 145 320 85\" stroke-width=\"3\"/><line x1=\"15\" y1=\"85\" x2=\"330\" y2=\"85\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><line x1=\"57\" y1=\"85\" x2=\"57\" y2=\"42\"/><path d=\"M57 42L60.5 50.3L53.5 50.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"62\" y=\"66\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">amplitude</text><line x1=\"57\" y1=\"155\" x2=\"207\" y2=\"155\"/><path d=\"M207 155L198.7 158.5L198.7 151.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"207\" y1=\"155\" x2=\"57\" y2=\"155\"/><path d=\"M57 155L65.3 151.5L65.3 158.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"132\" y=\"150\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">wavelength</text><line x1=\"57\" y1=\"40\" x2=\"57\" y2=\"160\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><line x1=\"207\" y1=\"40\" x2=\"207\" y2=\"160\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/></svg>",
+     "alt": "Transverse wave showing the amplitude and one wavelength."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t06-n006",
@@ -5613,7 +5829,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Reflection and refraction",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 210\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"110\" y=\"70\" width=\"140\" height=\"80\" fill=\"currentColor\" fill-opacity=\"0.06\"/><line x1=\"170\" y1=\"20\" x2=\"170\" y2=\"200\" stroke-dasharray=\"5 4\" stroke-width=\"1\"/><line x1=\"80\" y1=\"20\" x2=\"170\" y2=\"70\"/><path d=\"M170 70L161.1 69.0L164.5 62.9Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"170\" y1=\"70\" x2=\"200\" y2=\"150\"/><line x1=\"200\" y1=\"150\" x2=\"290\" y2=\"200\"/><path d=\"M290 200L281.1 199.0L284.5 192.9Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"176\" y=\"32\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">normal</text><text x=\"60\" y=\"35\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">incident ray</text><text x=\"255\" y=\"130\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">glass block</text><text x=\"152\" y=\"60\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">i</text><text x=\"176\" y=\"100\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">r</text></svg>",
+     "alt": "Ray of light entering a glass block at an angle: it bends towards the normal inside the block."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t06-n007",
@@ -5628,7 +5848,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Light required practical",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 210\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"110\" y=\"70\" width=\"140\" height=\"80\" fill=\"currentColor\" fill-opacity=\"0.06\"/><line x1=\"170\" y1=\"20\" x2=\"170\" y2=\"200\" stroke-dasharray=\"5 4\" stroke-width=\"1\"/><line x1=\"80\" y1=\"20\" x2=\"170\" y2=\"70\"/><path d=\"M170 70L161.1 69.0L164.5 62.9Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"170\" y1=\"70\" x2=\"200\" y2=\"150\"/><line x1=\"200\" y1=\"150\" x2=\"290\" y2=\"200\"/><path d=\"M290 200L281.1 199.0L284.5 192.9Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"176\" y=\"32\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">normal</text><text x=\"60\" y=\"35\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">incident ray</text><text x=\"255\" y=\"130\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">glass block</text><text x=\"152\" y=\"60\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">i</text><text x=\"176\" y=\"100\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">r</text></svg>",
+     "alt": "Ray of light entering a glass block at an angle: it bends towards the normal inside the block."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t06-n008",
@@ -5673,7 +5897,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Electromagnetic spectrum",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M20 85 C45 25 70 25 95 85 S145 145 170 85 S220 25 245 85 S295 145 320 85\" stroke-width=\"3\"/><line x1=\"15\" y1=\"85\" x2=\"330\" y2=\"85\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><line x1=\"57\" y1=\"85\" x2=\"57\" y2=\"42\"/><path d=\"M57 42L60.5 50.3L53.5 50.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"62\" y=\"66\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">amplitude</text><line x1=\"57\" y1=\"155\" x2=\"207\" y2=\"155\"/><path d=\"M207 155L198.7 158.5L198.7 151.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"207\" y1=\"155\" x2=\"57\" y2=\"155\"/><path d=\"M57 155L65.3 151.5L65.3 158.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"132\" y=\"150\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">wavelength</text><line x1=\"57\" y1=\"40\" x2=\"57\" y2=\"160\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><line x1=\"207\" y1=\"40\" x2=\"207\" y2=\"160\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/></svg>",
+     "alt": "Transverse wave showing the amplitude and one wavelength."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t06-n011",
@@ -5748,7 +5976,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Lenses",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"10\" y1=\"90\" x2=\"330\" y2=\"90\" stroke-width=\"1\"/><path d=\"M170 20 C190 60 190 120 170 160 C150 120 150 60 170 20Z\"/><line x1=\"20\" y1=\"50\" x2=\"170\" y2=\"50\"/><path d=\"M170 50L161.7 53.5L161.7 46.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"170\" y1=\"50\" x2=\"300\" y2=\"133\"/><path d=\"M300 133L291.1 131.5L294.9 125.6Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"20\" y1=\"130\" x2=\"170\" y2=\"130\"/><path d=\"M170 130L161.7 133.5L161.7 126.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"170\" y1=\"130\" x2=\"300\" y2=\"47\"/><path d=\"M300 47L294.9 54.4L291.1 48.5Z\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"235\" cy=\"90\" r=\"3\" fill=\"currentColor\"/><text x=\"235\" y=\"108\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">F</text><text x=\"200\" y=\"175\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">convex lens</text></svg>",
+     "alt": "Parallel rays passing through a convex lens and converging at the principal focus F."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t06-n016",
@@ -5838,7 +6070,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Wave equation",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M20 85 C45 25 70 25 95 85 S145 145 170 85 S220 25 245 85 S295 145 320 85\" stroke-width=\"3\"/><line x1=\"15\" y1=\"85\" x2=\"330\" y2=\"85\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><line x1=\"57\" y1=\"85\" x2=\"57\" y2=\"42\"/><path d=\"M57 42L60.5 50.3L53.5 50.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"62\" y=\"66\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">amplitude</text><line x1=\"57\" y1=\"155\" x2=\"207\" y2=\"155\"/><path d=\"M207 155L198.7 158.5L198.7 151.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"207\" y1=\"155\" x2=\"57\" y2=\"155\"/><path d=\"M57 155L65.3 151.5L65.3 158.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"132\" y=\"150\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">wavelength</text><line x1=\"57\" y1=\"40\" x2=\"57\" y2=\"160\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><line x1=\"207\" y1=\"40\" x2=\"207\" y2=\"160\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/></svg>",
+     "alt": "Transverse wave showing the amplitude and one wavelength."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t06-n022",
@@ -5943,7 +6179,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Electromagnetic spectrum",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M20 85 C45 25 70 25 95 85 S145 145 170 85 S220 25 245 85 S295 145 320 85\" stroke-width=\"3\"/><line x1=\"15\" y1=\"85\" x2=\"330\" y2=\"85\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><line x1=\"57\" y1=\"85\" x2=\"57\" y2=\"42\"/><path d=\"M57 42L60.5 50.3L53.5 50.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"62\" y=\"66\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">amplitude</text><line x1=\"57\" y1=\"155\" x2=\"207\" y2=\"155\"/><path d=\"M207 155L198.7 158.5L198.7 151.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"207\" y1=\"155\" x2=\"57\" y2=\"155\"/><path d=\"M57 155L65.3 151.5L65.3 158.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"132\" y=\"150\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">wavelength</text><line x1=\"57\" y1=\"40\" x2=\"57\" y2=\"160\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><line x1=\"207\" y1=\"40\" x2=\"207\" y2=\"160\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/></svg>",
+     "alt": "Transverse wave showing the amplitude and one wavelength."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t06-n029",
@@ -5958,7 +6198,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Black body radiation",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M20 85 C45 25 70 25 95 85 S145 145 170 85 S220 25 245 85 S295 145 320 85\" stroke-width=\"3\"/><line x1=\"15\" y1=\"85\" x2=\"330\" y2=\"85\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><line x1=\"57\" y1=\"85\" x2=\"57\" y2=\"42\"/><path d=\"M57 42L60.5 50.3L53.5 50.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"62\" y=\"66\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">amplitude</text><line x1=\"57\" y1=\"155\" x2=\"207\" y2=\"155\"/><path d=\"M207 155L198.7 158.5L198.7 151.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"207\" y1=\"155\" x2=\"57\" y2=\"155\"/><path d=\"M57 155L65.3 151.5L65.3 158.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"132\" y=\"150\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">wavelength</text><line x1=\"57\" y1=\"40\" x2=\"57\" y2=\"160\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><line x1=\"207\" y1=\"40\" x2=\"207\" y2=\"160\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/></svg>",
+     "alt": "Transverse wave showing the amplitude and one wavelength."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t06-n030",
@@ -5988,7 +6232,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Wave properties",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M40 40 L300 40 L320 110 L20 110 Z\"/><path d=\"M70 45 L60 105\" stroke-width=\"1.5\"/><path d=\"M106 45 L98 105\" stroke-width=\"1.5\"/><path d=\"M142 45 L136 105\" stroke-width=\"1.5\"/><path d=\"M178 45 L174 105\" stroke-width=\"1.5\"/><path d=\"M214 45 L212 105\" stroke-width=\"1.5\"/><path d=\"M250 45 L250 105\" stroke-width=\"1.5\"/><path d=\"M286 45 L288 105\" stroke-width=\"1.5\"/><circle cx=\"170\" cy=\"15\" r=\"8\"/><text x=\"185\" y=\"19\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">lamp</text><rect x=\"20\" y=\"125\" width=\"300\" height=\"20\"/><text x=\"170\" y=\"139\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">screen / paper</text><text x=\"28\" y=\"34\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">ripple tank</text></svg>",
+     "alt": "Ripple tank with a lamp above, projecting the waves onto a screen below."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t06-n032",
@@ -6093,7 +6341,11 @@
     "paper": "AQA Physics Paper 2H Q02",
     "subtopic": "Wave equation",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M20 85 C45 25 70 25 95 85 S145 145 170 85 S220 25 245 85 S295 145 320 85\" stroke-width=\"3\"/><line x1=\"15\" y1=\"85\" x2=\"330\" y2=\"85\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><line x1=\"57\" y1=\"85\" x2=\"57\" y2=\"42\"/><path d=\"M57 42L60.5 50.3L53.5 50.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"62\" y=\"66\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">amplitude</text><line x1=\"57\" y1=\"155\" x2=\"207\" y2=\"155\"/><path d=\"M207 155L198.7 158.5L198.7 151.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"207\" y1=\"155\" x2=\"57\" y2=\"155\"/><path d=\"M57 155L65.3 151.5L65.3 158.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"132\" y=\"150\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">wavelength</text><line x1=\"57\" y1=\"40\" x2=\"57\" y2=\"160\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><line x1=\"207\" y1=\"40\" x2=\"207\" y2=\"160\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/></svg>",
+     "alt": "Transverse wave showing the amplitude and one wavelength."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t06-n039",
@@ -6168,7 +6420,11 @@
     "paper": "AQA Physics Paper 2H Q06",
     "subtopic": "Wave equation",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M20 85 C45 25 70 25 95 85 S145 145 170 85 S220 25 245 85 S295 145 320 85\" stroke-width=\"3\"/><line x1=\"15\" y1=\"85\" x2=\"330\" y2=\"85\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><line x1=\"57\" y1=\"85\" x2=\"57\" y2=\"42\"/><path d=\"M57 42L60.5 50.3L53.5 50.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"62\" y=\"66\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">amplitude</text><line x1=\"57\" y1=\"155\" x2=\"207\" y2=\"155\"/><path d=\"M207 155L198.7 158.5L198.7 151.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"207\" y1=\"155\" x2=\"57\" y2=\"155\"/><path d=\"M57 155L65.3 151.5L65.3 158.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"132\" y=\"150\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">wavelength</text><line x1=\"57\" y1=\"40\" x2=\"57\" y2=\"160\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><line x1=\"207\" y1=\"40\" x2=\"207\" y2=\"160\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/></svg>",
+     "alt": "Transverse wave showing the amplitude and one wavelength."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t06-n044",
@@ -6183,7 +6439,11 @@
     "paper": "AQA Physics Paper 2H Q07",
     "subtopic": "Refraction",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 210\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"110\" y=\"70\" width=\"140\" height=\"80\" fill=\"currentColor\" fill-opacity=\"0.06\"/><line x1=\"170\" y1=\"20\" x2=\"170\" y2=\"200\" stroke-dasharray=\"5 4\" stroke-width=\"1\"/><line x1=\"80\" y1=\"20\" x2=\"170\" y2=\"70\"/><path d=\"M170 70L161.1 69.0L164.5 62.9Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"170\" y1=\"70\" x2=\"200\" y2=\"150\"/><line x1=\"200\" y1=\"150\" x2=\"290\" y2=\"200\"/><path d=\"M290 200L281.1 199.0L284.5 192.9Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"176\" y=\"32\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">normal</text><text x=\"60\" y=\"35\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">incident ray</text><text x=\"255\" y=\"130\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">glass block</text><text x=\"152\" y=\"60\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">i</text><text x=\"176\" y=\"100\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">r</text></svg>",
+     "alt": "Ray of light entering a glass block at an angle: it bends towards the normal inside the block."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t06-n045",
@@ -6228,7 +6488,11 @@
     "paper": "AQA Physics Paper 2H Q04",
     "subtopic": "Seismic waves",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M20 85 C45 25 70 25 95 85 S145 145 170 85 S220 25 245 85 S295 145 320 85\" stroke-width=\"3\"/><line x1=\"15\" y1=\"85\" x2=\"330\" y2=\"85\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><line x1=\"57\" y1=\"85\" x2=\"57\" y2=\"42\"/><path d=\"M57 42L60.5 50.3L53.5 50.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"62\" y=\"66\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">amplitude</text><line x1=\"57\" y1=\"155\" x2=\"207\" y2=\"155\"/><path d=\"M207 155L198.7 158.5L198.7 151.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"207\" y1=\"155\" x2=\"57\" y2=\"155\"/><path d=\"M57 155L65.3 151.5L65.3 158.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"132\" y=\"150\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">wavelength</text><line x1=\"57\" y1=\"40\" x2=\"57\" y2=\"160\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><line x1=\"207\" y1=\"40\" x2=\"207\" y2=\"160\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/></svg>",
+     "alt": "Transverse wave showing the amplitude and one wavelength."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t06-n048",
@@ -6273,7 +6537,11 @@
     "paper": "AQA Physics Paper 2H Q01",
     "subtopic": "Refraction",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 210\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"110\" y=\"70\" width=\"140\" height=\"80\" fill=\"currentColor\" fill-opacity=\"0.06\"/><line x1=\"170\" y1=\"20\" x2=\"170\" y2=\"200\" stroke-dasharray=\"5 4\" stroke-width=\"1\"/><line x1=\"80\" y1=\"20\" x2=\"170\" y2=\"70\"/><path d=\"M170 70L161.1 69.0L164.5 62.9Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"170\" y1=\"70\" x2=\"200\" y2=\"150\"/><line x1=\"200\" y1=\"150\" x2=\"290\" y2=\"200\"/><path d=\"M290 200L281.1 199.0L284.5 192.9Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"176\" y=\"32\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">normal</text><text x=\"60\" y=\"35\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">incident ray</text><text x=\"255\" y=\"130\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">glass block</text><text x=\"152\" y=\"60\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">i</text><text x=\"176\" y=\"100\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">r</text></svg>",
+     "alt": "Ray of light entering a glass block at an angle: it bends towards the normal inside the block."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t06-n051",
@@ -6303,7 +6571,11 @@
     "paper": "AQA Physics Paper 2H Q04",
     "subtopic": "Wave equation",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M20 85 C45 25 70 25 95 85 S145 145 170 85 S220 25 245 85 S295 145 320 85\" stroke-width=\"3\"/><line x1=\"15\" y1=\"85\" x2=\"330\" y2=\"85\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><line x1=\"57\" y1=\"85\" x2=\"57\" y2=\"42\"/><path d=\"M57 42L60.5 50.3L53.5 50.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"62\" y=\"66\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">amplitude</text><line x1=\"57\" y1=\"155\" x2=\"207\" y2=\"155\"/><path d=\"M207 155L198.7 158.5L198.7 151.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"207\" y1=\"155\" x2=\"57\" y2=\"155\"/><path d=\"M57 155L65.3 151.5L65.3 158.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"132\" y=\"150\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">wavelength</text><line x1=\"57\" y1=\"40\" x2=\"57\" y2=\"160\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><line x1=\"207\" y1=\"40\" x2=\"207\" y2=\"160\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/></svg>",
+     "alt": "Transverse wave showing the amplitude and one wavelength."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t06-n053",
@@ -6393,7 +6665,11 @@
     "paper": "AQA Physics Paper 2F Q05",
     "subtopic": "Refraction",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 210\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"110\" y=\"70\" width=\"140\" height=\"80\" fill=\"currentColor\" fill-opacity=\"0.06\"/><line x1=\"170\" y1=\"20\" x2=\"170\" y2=\"200\" stroke-dasharray=\"5 4\" stroke-width=\"1\"/><line x1=\"80\" y1=\"20\" x2=\"170\" y2=\"70\"/><path d=\"M170 70L161.1 69.0L164.5 62.9Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"170\" y1=\"70\" x2=\"200\" y2=\"150\"/><line x1=\"200\" y1=\"150\" x2=\"290\" y2=\"200\"/><path d=\"M290 200L281.1 199.0L284.5 192.9Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"176\" y=\"32\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">normal</text><text x=\"60\" y=\"35\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">incident ray</text><text x=\"255\" y=\"130\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">glass block</text><text x=\"152\" y=\"60\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">i</text><text x=\"176\" y=\"100\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">r</text></svg>",
+     "alt": "Ray of light entering a glass block at an angle: it bends towards the normal inside the block."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t06-n059",
@@ -6468,7 +6744,11 @@
     "paper": "AQA Physics Paper 2F Q04",
     "subtopic": "Wave equation",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M20 85 C45 25 70 25 95 85 S145 145 170 85 S220 25 245 85 S295 145 320 85\" stroke-width=\"3\"/><line x1=\"15\" y1=\"85\" x2=\"330\" y2=\"85\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><line x1=\"57\" y1=\"85\" x2=\"57\" y2=\"42\"/><path d=\"M57 42L60.5 50.3L53.5 50.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"62\" y=\"66\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">amplitude</text><line x1=\"57\" y1=\"155\" x2=\"207\" y2=\"155\"/><path d=\"M207 155L198.7 158.5L198.7 151.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"207\" y1=\"155\" x2=\"57\" y2=\"155\"/><path d=\"M57 155L65.3 151.5L65.3 158.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"132\" y=\"150\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">wavelength</text><line x1=\"57\" y1=\"40\" x2=\"57\" y2=\"160\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><line x1=\"207\" y1=\"40\" x2=\"207\" y2=\"160\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/></svg>",
+     "alt": "Transverse wave showing the amplitude and one wavelength."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t06-n064",
@@ -6498,7 +6778,11 @@
     "paper": "AQA Physics Paper 2F Q01",
     "subtopic": "Wave equation",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Waves",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M20 85 C45 25 70 25 95 85 S145 145 170 85 S220 25 245 85 S295 145 320 85\" stroke-width=\"3\"/><line x1=\"15\" y1=\"85\" x2=\"330\" y2=\"85\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><line x1=\"57\" y1=\"85\" x2=\"57\" y2=\"42\"/><path d=\"M57 42L60.5 50.3L53.5 50.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"62\" y=\"66\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">amplitude</text><line x1=\"57\" y1=\"155\" x2=\"207\" y2=\"155\"/><path d=\"M207 155L198.7 158.5L198.7 151.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"207\" y1=\"155\" x2=\"57\" y2=\"155\"/><path d=\"M57 155L65.3 151.5L65.3 158.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"132\" y=\"150\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">wavelength</text><line x1=\"57\" y1=\"40\" x2=\"57\" y2=\"160\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><line x1=\"207\" y1=\"40\" x2=\"207\" y2=\"160\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/></svg>",
+     "alt": "Transverse wave showing the amplitude and one wavelength."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t06-n066",
@@ -6628,7 +6912,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Transformers",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism · family 5"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism · family 5",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"100\" y=\"30\" width=\"140\" height=\"120\" stroke-width=\"6\"/><rect x=\"118\" y=\"48\" width=\"104\" height=\"84\"/><path d=\"M95 50 h16\"/><path d=\"M95 62 h16\"/><path d=\"M95 74 h16\"/><path d=\"M95 86 h16\"/><path d=\"M95 98 h16\"/><path d=\"M95 110 h16\"/><path d=\"M95 122 h16\"/><path d=\"M229 45 h16\"/><path d=\"M229 54 h16\"/><path d=\"M229 63 h16\"/><path d=\"M229 72 h16\"/><path d=\"M229 81 h16\"/><path d=\"M229 90 h16\"/><path d=\"M229 99 h16\"/><path d=\"M229 108 h16\"/><path d=\"M229 117 h16\"/><path d=\"M229 126 h16\"/><path d=\"M229 135 h16\"/><path d=\"M95 50 H40 M95 122 H40 M245 45 H300 M245 135 H300\"/><text x=\"70\" y=\"170\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">primary coil</text><text x=\"270\" y=\"170\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">secondary coil</text><text x=\"170\" y=\"22\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">iron core</text></svg>",
+     "alt": "Transformer: primary and secondary coils wound on an iron core."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t07-n001",
@@ -6748,7 +7036,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Motor effect",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 190\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"40\" width=\"60\" height=\"110\" fill=\"currentColor\" fill-opacity=\"0.08\"/><rect x=\"260\" y=\"40\" width=\"60\" height=\"110\" fill=\"currentColor\" fill-opacity=\"0.08\"/><text x=\"50\" y=\"100\" font-size=\"18\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">N</text><text x=\"290\" y=\"100\" font-size=\"18\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">S</text><path d=\"M120 60 H220 V130 H120 Z\" stroke-width=\"3\"/><line x1=\"90\" y1=\"95\" x2=\"115\" y2=\"95\"/><path d=\"M115 95L106.7 98.5L106.7 91.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"225\" y1=\"95\" x2=\"250\" y2=\"95\"/><path d=\"M250 95L241.7 98.5L241.7 91.5Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M160 130 V160 M180 130 V160\"/><path d=\"M152 160 a18 10 0 0 0 18 10 M188 160 a18 10 0 0 1 -18 10\" stroke-width=\"3\"/><text x=\"170\" y=\"188\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">split-ring commutator</text><text x=\"170\" y=\"52\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">coil</text></svg>",
+     "alt": "Simple d.c. motor: a coil between north and south poles with a split-ring commutator."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t07-n009",
@@ -6763,7 +7055,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Electric motors",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 190\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"40\" width=\"60\" height=\"110\" fill=\"currentColor\" fill-opacity=\"0.08\"/><rect x=\"260\" y=\"40\" width=\"60\" height=\"110\" fill=\"currentColor\" fill-opacity=\"0.08\"/><text x=\"50\" y=\"100\" font-size=\"18\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">N</text><text x=\"290\" y=\"100\" font-size=\"18\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">S</text><path d=\"M120 60 H220 V130 H120 Z\" stroke-width=\"3\"/><line x1=\"90\" y1=\"95\" x2=\"115\" y2=\"95\"/><path d=\"M115 95L106.7 98.5L106.7 91.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"225\" y1=\"95\" x2=\"250\" y2=\"95\"/><path d=\"M250 95L241.7 98.5L241.7 91.5Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M160 130 V160 M180 130 V160\"/><path d=\"M152 160 a18 10 0 0 0 18 10 M188 160 a18 10 0 0 1 -18 10\" stroke-width=\"3\"/><text x=\"170\" y=\"188\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">split-ring commutator</text><text x=\"170\" y=\"52\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">coil</text></svg>",
+     "alt": "Simple d.c. motor: a coil between north and south poles with a split-ring commutator."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t07-n010",
@@ -6853,7 +7149,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Transformers",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"100\" y=\"30\" width=\"140\" height=\"120\" stroke-width=\"6\"/><rect x=\"118\" y=\"48\" width=\"104\" height=\"84\"/><path d=\"M95 50 h16\"/><path d=\"M95 62 h16\"/><path d=\"M95 74 h16\"/><path d=\"M95 86 h16\"/><path d=\"M95 98 h16\"/><path d=\"M95 110 h16\"/><path d=\"M95 122 h16\"/><path d=\"M229 45 h16\"/><path d=\"M229 54 h16\"/><path d=\"M229 63 h16\"/><path d=\"M229 72 h16\"/><path d=\"M229 81 h16\"/><path d=\"M229 90 h16\"/><path d=\"M229 99 h16\"/><path d=\"M229 108 h16\"/><path d=\"M229 117 h16\"/><path d=\"M229 126 h16\"/><path d=\"M229 135 h16\"/><path d=\"M95 50 H40 M95 122 H40 M245 45 H300 M245 135 H300\"/><text x=\"70\" y=\"170\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">primary coil</text><text x=\"270\" y=\"170\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">secondary coil</text><text x=\"170\" y=\"22\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">iron core</text></svg>",
+     "alt": "Transformer: primary and secondary coils wound on an iron core."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t07-n017",
@@ -6868,7 +7168,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Transformers",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"100\" y=\"30\" width=\"140\" height=\"120\" stroke-width=\"6\"/><rect x=\"118\" y=\"48\" width=\"104\" height=\"84\"/><path d=\"M95 50 h16\"/><path d=\"M95 62 h16\"/><path d=\"M95 74 h16\"/><path d=\"M95 86 h16\"/><path d=\"M95 98 h16\"/><path d=\"M95 110 h16\"/><path d=\"M95 122 h16\"/><path d=\"M229 45 h16\"/><path d=\"M229 54 h16\"/><path d=\"M229 63 h16\"/><path d=\"M229 72 h16\"/><path d=\"M229 81 h16\"/><path d=\"M229 90 h16\"/><path d=\"M229 99 h16\"/><path d=\"M229 108 h16\"/><path d=\"M229 117 h16\"/><path d=\"M229 126 h16\"/><path d=\"M229 135 h16\"/><path d=\"M95 50 H40 M95 122 H40 M245 45 H300 M245 135 H300\"/><text x=\"70\" y=\"170\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">primary coil</text><text x=\"270\" y=\"170\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">secondary coil</text><text x=\"170\" y=\"22\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">iron core</text></svg>",
+     "alt": "Transformer: primary and secondary coils wound on an iron core."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t07-n018",
@@ -6883,7 +7187,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Transformers",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"100\" y=\"30\" width=\"140\" height=\"120\" stroke-width=\"6\"/><rect x=\"118\" y=\"48\" width=\"104\" height=\"84\"/><path d=\"M95 50 h16\"/><path d=\"M95 62 h16\"/><path d=\"M95 74 h16\"/><path d=\"M95 86 h16\"/><path d=\"M95 98 h16\"/><path d=\"M95 110 h16\"/><path d=\"M95 122 h16\"/><path d=\"M229 45 h16\"/><path d=\"M229 54 h16\"/><path d=\"M229 63 h16\"/><path d=\"M229 72 h16\"/><path d=\"M229 81 h16\"/><path d=\"M229 90 h16\"/><path d=\"M229 99 h16\"/><path d=\"M229 108 h16\"/><path d=\"M229 117 h16\"/><path d=\"M229 126 h16\"/><path d=\"M229 135 h16\"/><path d=\"M95 50 H40 M95 122 H40 M245 45 H300 M245 135 H300\"/><text x=\"70\" y=\"170\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">primary coil</text><text x=\"270\" y=\"170\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">secondary coil</text><text x=\"170\" y=\"22\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">iron core</text></svg>",
+     "alt": "Transformer: primary and secondary coils wound on an iron core."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t07-n019",
@@ -6988,7 +7296,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Transformers",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"100\" y=\"30\" width=\"140\" height=\"120\" stroke-width=\"6\"/><rect x=\"118\" y=\"48\" width=\"104\" height=\"84\"/><path d=\"M95 50 h16\"/><path d=\"M95 62 h16\"/><path d=\"M95 74 h16\"/><path d=\"M95 86 h16\"/><path d=\"M95 98 h16\"/><path d=\"M95 110 h16\"/><path d=\"M95 122 h16\"/><path d=\"M229 45 h16\"/><path d=\"M229 54 h16\"/><path d=\"M229 63 h16\"/><path d=\"M229 72 h16\"/><path d=\"M229 81 h16\"/><path d=\"M229 90 h16\"/><path d=\"M229 99 h16\"/><path d=\"M229 108 h16\"/><path d=\"M229 117 h16\"/><path d=\"M229 126 h16\"/><path d=\"M229 135 h16\"/><path d=\"M95 50 H40 M95 122 H40 M245 45 H300 M245 135 H300\"/><text x=\"70\" y=\"170\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">primary coil</text><text x=\"270\" y=\"170\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">secondary coil</text><text x=\"170\" y=\"22\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">iron core</text></svg>",
+     "alt": "Transformer: primary and secondary coils wound on an iron core."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t07-n026",
@@ -7003,7 +7315,11 @@
     "paper": "AQA Physics Paper 2",
     "subtopic": "Transformers",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"100\" y=\"30\" width=\"140\" height=\"120\" stroke-width=\"6\"/><rect x=\"118\" y=\"48\" width=\"104\" height=\"84\"/><path d=\"M95 50 h16\"/><path d=\"M95 62 h16\"/><path d=\"M95 74 h16\"/><path d=\"M95 86 h16\"/><path d=\"M95 98 h16\"/><path d=\"M95 110 h16\"/><path d=\"M95 122 h16\"/><path d=\"M229 45 h16\"/><path d=\"M229 54 h16\"/><path d=\"M229 63 h16\"/><path d=\"M229 72 h16\"/><path d=\"M229 81 h16\"/><path d=\"M229 90 h16\"/><path d=\"M229 99 h16\"/><path d=\"M229 108 h16\"/><path d=\"M229 117 h16\"/><path d=\"M229 126 h16\"/><path d=\"M229 135 h16\"/><path d=\"M95 50 H40 M95 122 H40 M245 45 H300 M245 135 H300\"/><text x=\"70\" y=\"170\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">primary coil</text><text x=\"270\" y=\"170\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">secondary coil</text><text x=\"170\" y=\"22\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">iron core</text></svg>",
+     "alt": "Transformer: primary and secondary coils wound on an iron core."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t07-n027",
@@ -7078,7 +7394,11 @@
     "paper": "AQA Physics Paper 2H Q10",
     "subtopic": "Motor effect",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 190\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"40\" width=\"60\" height=\"110\" fill=\"currentColor\" fill-opacity=\"0.08\"/><rect x=\"260\" y=\"40\" width=\"60\" height=\"110\" fill=\"currentColor\" fill-opacity=\"0.08\"/><text x=\"50\" y=\"100\" font-size=\"18\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">N</text><text x=\"290\" y=\"100\" font-size=\"18\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">S</text><path d=\"M120 60 H220 V130 H120 Z\" stroke-width=\"3\"/><line x1=\"90\" y1=\"95\" x2=\"115\" y2=\"95\"/><path d=\"M115 95L106.7 98.5L106.7 91.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"225\" y1=\"95\" x2=\"250\" y2=\"95\"/><path d=\"M250 95L241.7 98.5L241.7 91.5Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M160 130 V160 M180 130 V160\"/><path d=\"M152 160 a18 10 0 0 0 18 10 M188 160 a18 10 0 0 1 -18 10\" stroke-width=\"3\"/><text x=\"170\" y=\"188\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">split-ring commutator</text><text x=\"170\" y=\"52\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">coil</text></svg>",
+     "alt": "Simple d.c. motor: a coil between north and south poles with a split-ring commutator."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t07-n032",
@@ -7093,7 +7413,11 @@
     "paper": "AQA Physics Paper 2H Q07",
     "subtopic": "Transformers",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"100\" y=\"30\" width=\"140\" height=\"120\" stroke-width=\"6\"/><rect x=\"118\" y=\"48\" width=\"104\" height=\"84\"/><path d=\"M95 50 h16\"/><path d=\"M95 62 h16\"/><path d=\"M95 74 h16\"/><path d=\"M95 86 h16\"/><path d=\"M95 98 h16\"/><path d=\"M95 110 h16\"/><path d=\"M95 122 h16\"/><path d=\"M229 45 h16\"/><path d=\"M229 54 h16\"/><path d=\"M229 63 h16\"/><path d=\"M229 72 h16\"/><path d=\"M229 81 h16\"/><path d=\"M229 90 h16\"/><path d=\"M229 99 h16\"/><path d=\"M229 108 h16\"/><path d=\"M229 117 h16\"/><path d=\"M229 126 h16\"/><path d=\"M229 135 h16\"/><path d=\"M95 50 H40 M95 122 H40 M245 45 H300 M245 135 H300\"/><text x=\"70\" y=\"170\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">primary coil</text><text x=\"270\" y=\"170\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">secondary coil</text><text x=\"170\" y=\"22\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">iron core</text></svg>",
+     "alt": "Transformer: primary and secondary coils wound on an iron core."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t07-n033",
@@ -7228,7 +7552,11 @@
     "paper": "AQA Physics Paper 2H Q09",
     "subtopic": "Transformers",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"100\" y=\"30\" width=\"140\" height=\"120\" stroke-width=\"6\"/><rect x=\"118\" y=\"48\" width=\"104\" height=\"84\"/><path d=\"M95 50 h16\"/><path d=\"M95 62 h16\"/><path d=\"M95 74 h16\"/><path d=\"M95 86 h16\"/><path d=\"M95 98 h16\"/><path d=\"M95 110 h16\"/><path d=\"M95 122 h16\"/><path d=\"M229 45 h16\"/><path d=\"M229 54 h16\"/><path d=\"M229 63 h16\"/><path d=\"M229 72 h16\"/><path d=\"M229 81 h16\"/><path d=\"M229 90 h16\"/><path d=\"M229 99 h16\"/><path d=\"M229 108 h16\"/><path d=\"M229 117 h16\"/><path d=\"M229 126 h16\"/><path d=\"M229 135 h16\"/><path d=\"M95 50 H40 M95 122 H40 M245 45 H300 M245 135 H300\"/><text x=\"70\" y=\"170\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">primary coil</text><text x=\"270\" y=\"170\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">secondary coil</text><text x=\"170\" y=\"22\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">iron core</text></svg>",
+     "alt": "Transformer: primary and secondary coils wound on an iron core."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t07-n042",
@@ -7258,7 +7586,11 @@
     "paper": "AQA Physics Paper 2H Q07",
     "subtopic": "Motor effect",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Magnetism and electromagnetism",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"30\" y1=\"80\" x2=\"310\" y2=\"80\" stroke-width=\"5\"/><path d=\"M170 80 l-18 30 h36z\" fill=\"currentColor\" fill-opacity=\"0.15\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"78\"/><path d=\"M60 78L56.5 69.7L63.5 69.7Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"260\" y1=\"40\" x2=\"260\" y2=\"78\"/><path d=\"M260 78L256.5 69.7L263.5 69.7Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"60\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">F₁</text><text x=\"260\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">F₂</text><line x1=\"170\" y1=\"130\" x2=\"60\" y2=\"130\"/><path d=\"M60 130L68.3 126.5L68.3 133.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"170\" y1=\"130\" x2=\"260\" y2=\"130\"/><path d=\"M260 130L251.7 133.5L251.7 126.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"115\" y=\"145\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">d₁</text><text x=\"215\" y=\"145\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">d₂</text><text x=\"170\" y=\"125\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">pivot</text></svg>",
+     "alt": "Balanced beam on a pivot with forces F₁ and F₂ at distances d₁ and d₂."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t07-n044",
@@ -7879,7 +8211,11 @@
     "paper": "AQA Physics Paper 2H Q05",
     "subtopic": "Red-shift",
     "tier": "Higher",
-    "inspiredBy": "AQA 8463 Physics Paper 2 style · Space physics"
+    "inspiredBy": "AQA 8463 Physics Paper 2 style · Space physics",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M20 85 C45 25 70 25 95 85 S145 145 170 85 S220 25 245 85 S295 145 320 85\" stroke-width=\"3\"/><line x1=\"15\" y1=\"85\" x2=\"330\" y2=\"85\" stroke-dasharray=\"4 4\" stroke-width=\"1\"/><line x1=\"57\" y1=\"85\" x2=\"57\" y2=\"42\"/><path d=\"M57 42L60.5 50.3L53.5 50.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"62\" y=\"66\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">amplitude</text><line x1=\"57\" y1=\"155\" x2=\"207\" y2=\"155\"/><path d=\"M207 155L198.7 158.5L198.7 151.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"207\" y1=\"155\" x2=\"57\" y2=\"155\"/><path d=\"M57 155L65.3 151.5L65.3 158.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"132\" y=\"150\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">wavelength</text><line x1=\"57\" y1=\"40\" x2=\"57\" y2=\"160\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><line x1=\"207\" y1=\"40\" x2=\"207\" y2=\"160\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/></svg>",
+     "alt": "Transverse wave showing the amplitude and one wavelength."
+    }
    },
    {
     "id": "gcse-phys-aqa-p2-t08-n031",

@@ -440,7 +440,11 @@
     "paper": "AQA Combined Biology Paper 1",
     "subtopic": "Differentiation",
     "tier": "Foundation",
-    "inspiredBy": "AQA AQA Combined Biology Paper 1 style · Cell biology"
+    "inspiredBy": "AQA AQA Combined Biology Paper 1 style · Cell biology",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><ellipse cx=\"85\" cy=\"85\" rx=\"65\" ry=\"55\"/><circle cx=\"85\" cy=\"80\" r=\"16\" fill=\"currentColor\" fill-opacity=\"0.15\"/><ellipse cx=\"60\" cy=\"110\" rx=\"9\" ry=\"5\"/><text x=\"85\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">animal cell</text><rect x=\"190\" y=\"25\" width=\"130\" height=\"120\" rx=\"6\"/><rect x=\"198\" y=\"33\" width=\"114\" height=\"104\" rx=\"4\"/><rect x=\"230\" y=\"55\" width=\"55\" height=\"60\" rx=\"8\" fill=\"currentColor\" fill-opacity=\"0.06\"/><circle cx=\"212\" cy=\"50\" r=\"10\" fill=\"currentColor\" fill-opacity=\"0.15\"/><ellipse cx=\"212\" cy=\"125\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><ellipse cx=\"298\" cy=\"50\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><ellipse cx=\"300\" cy=\"120\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><text x=\"255\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">plant cell</text><text x=\"257\" y=\"88\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">vacuole</text></svg>",
+     "alt": "An animal cell (membrane, cytoplasm, nucleus, mitochondria) and a plant cell (also with cell wall, chloroplasts and a permanent vacuole)."
+    }
    },
    {
     "id": "gcse-cb-aqa-cellbiolog-n029-f",
@@ -515,7 +519,11 @@
     "paper": "AQA Combined Biology Paper 1",
     "subtopic": "Cell structure",
     "tier": "Foundation",
-    "inspiredBy": "AQA AQA Combined Biology Paper 1 style · Cell biology"
+    "inspiredBy": "AQA AQA Combined Biology Paper 1 style · Cell biology",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><ellipse cx=\"85\" cy=\"85\" rx=\"65\" ry=\"55\"/><circle cx=\"85\" cy=\"80\" r=\"16\" fill=\"currentColor\" fill-opacity=\"0.15\"/><ellipse cx=\"60\" cy=\"110\" rx=\"9\" ry=\"5\"/><text x=\"85\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">animal cell</text><rect x=\"190\" y=\"25\" width=\"130\" height=\"120\" rx=\"6\"/><rect x=\"198\" y=\"33\" width=\"114\" height=\"104\" rx=\"4\"/><rect x=\"230\" y=\"55\" width=\"55\" height=\"60\" rx=\"8\" fill=\"currentColor\" fill-opacity=\"0.06\"/><circle cx=\"212\" cy=\"50\" r=\"10\" fill=\"currentColor\" fill-opacity=\"0.15\"/><ellipse cx=\"212\" cy=\"125\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><ellipse cx=\"298\" cy=\"50\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><ellipse cx=\"300\" cy=\"120\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><text x=\"255\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">plant cell</text><text x=\"257\" y=\"88\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">vacuole</text></svg>",
+     "alt": "An animal cell (membrane, cytoplasm, nucleus, mitochondria) and a plant cell (also with cell wall, chloroplasts and a permanent vacuole)."
+    }
    },
    {
     "id": "gcse-cb-aqa-cellbiolog-n034-f",
@@ -590,7 +598,11 @@
     "paper": "AQA Combined Biology Paper 1",
     "subtopic": "Osmosis",
     "tier": "Foundation",
-    "inspiredBy": "AQA AQA Combined Biology Paper 1 style · Cell biology"
+    "inspiredBy": "AQA AQA Combined Biology Paper 1 style · Cell biology",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><ellipse cx=\"85\" cy=\"85\" rx=\"65\" ry=\"55\"/><circle cx=\"85\" cy=\"80\" r=\"16\" fill=\"currentColor\" fill-opacity=\"0.15\"/><ellipse cx=\"60\" cy=\"110\" rx=\"9\" ry=\"5\"/><text x=\"85\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">animal cell</text><rect x=\"190\" y=\"25\" width=\"130\" height=\"120\" rx=\"6\"/><rect x=\"198\" y=\"33\" width=\"114\" height=\"104\" rx=\"4\"/><rect x=\"230\" y=\"55\" width=\"55\" height=\"60\" rx=\"8\" fill=\"currentColor\" fill-opacity=\"0.06\"/><circle cx=\"212\" cy=\"50\" r=\"10\" fill=\"currentColor\" fill-opacity=\"0.15\"/><ellipse cx=\"212\" cy=\"125\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><ellipse cx=\"298\" cy=\"50\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><ellipse cx=\"300\" cy=\"120\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><text x=\"255\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">plant cell</text><text x=\"257\" y=\"88\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">vacuole</text></svg>",
+     "alt": "An animal cell (membrane, cytoplasm, nucleus, mitochondria) and a plant cell (also with cell wall, chloroplasts and a permanent vacuole)."
+    }
    },
    {
     "id": "gcse-cb-aqa-cellbiolog-n039-f",
@@ -605,7 +617,11 @@
     "paper": "AQA Combined Biology Paper 1",
     "subtopic": "Osmosis",
     "tier": "Foundation",
-    "inspiredBy": "AQA AQA Combined Biology Paper 1 style · Cell biology"
+    "inspiredBy": "AQA AQA Combined Biology Paper 1 style · Cell biology",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><ellipse cx=\"85\" cy=\"85\" rx=\"65\" ry=\"55\"/><circle cx=\"85\" cy=\"80\" r=\"16\" fill=\"currentColor\" fill-opacity=\"0.15\"/><ellipse cx=\"60\" cy=\"110\" rx=\"9\" ry=\"5\"/><text x=\"85\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">animal cell</text><rect x=\"190\" y=\"25\" width=\"130\" height=\"120\" rx=\"6\"/><rect x=\"198\" y=\"33\" width=\"114\" height=\"104\" rx=\"4\"/><rect x=\"230\" y=\"55\" width=\"55\" height=\"60\" rx=\"8\" fill=\"currentColor\" fill-opacity=\"0.06\"/><circle cx=\"212\" cy=\"50\" r=\"10\" fill=\"currentColor\" fill-opacity=\"0.15\"/><ellipse cx=\"212\" cy=\"125\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><ellipse cx=\"298\" cy=\"50\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><ellipse cx=\"300\" cy=\"120\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><text x=\"255\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">plant cell</text><text x=\"257\" y=\"88\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">vacuole</text></svg>",
+     "alt": "An animal cell (membrane, cytoplasm, nucleus, mitochondria) and a plant cell (also with cell wall, chloroplasts and a permanent vacuole)."
+    }
    },
    {
     "id": "gcse-cb-aqa-cellbiolog-n040-f",
@@ -785,7 +801,11 @@
     "paper": "AQA Combined Biology Paper 1",
     "subtopic": "Cell structure",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 1 style · Cell biology · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 1 style · Cell biology · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><ellipse cx=\"85\" cy=\"85\" rx=\"65\" ry=\"55\"/><circle cx=\"85\" cy=\"80\" r=\"16\" fill=\"currentColor\" fill-opacity=\"0.15\"/><ellipse cx=\"60\" cy=\"110\" rx=\"9\" ry=\"5\"/><text x=\"85\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">animal cell</text><rect x=\"190\" y=\"25\" width=\"130\" height=\"120\" rx=\"6\"/><rect x=\"198\" y=\"33\" width=\"114\" height=\"104\" rx=\"4\"/><rect x=\"230\" y=\"55\" width=\"55\" height=\"60\" rx=\"8\" fill=\"currentColor\" fill-opacity=\"0.06\"/><circle cx=\"212\" cy=\"50\" r=\"10\" fill=\"currentColor\" fill-opacity=\"0.15\"/><ellipse cx=\"212\" cy=\"125\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><ellipse cx=\"298\" cy=\"50\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><ellipse cx=\"300\" cy=\"120\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><text x=\"255\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">plant cell</text><text x=\"257\" y=\"88\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">vacuole</text></svg>",
+     "alt": "An animal cell (membrane, cytoplasm, nucleus, mitochondria) and a plant cell (also with cell wall, chloroplasts and a permanent vacuole)."
+    }
    },
    {
     "id": "gcse-cb-aqa-cellbiolog-m008-f",
@@ -890,7 +910,11 @@
     "paper": "AQA Combined Biology Paper 1",
     "subtopic": "Osmosis",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 1 style · Cell biology · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 1 style · Cell biology · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><ellipse cx=\"85\" cy=\"85\" rx=\"65\" ry=\"55\"/><circle cx=\"85\" cy=\"80\" r=\"16\" fill=\"currentColor\" fill-opacity=\"0.15\"/><ellipse cx=\"60\" cy=\"110\" rx=\"9\" ry=\"5\"/><text x=\"85\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">animal cell</text><rect x=\"190\" y=\"25\" width=\"130\" height=\"120\" rx=\"6\"/><rect x=\"198\" y=\"33\" width=\"114\" height=\"104\" rx=\"4\"/><rect x=\"230\" y=\"55\" width=\"55\" height=\"60\" rx=\"8\" fill=\"currentColor\" fill-opacity=\"0.06\"/><circle cx=\"212\" cy=\"50\" r=\"10\" fill=\"currentColor\" fill-opacity=\"0.15\"/><ellipse cx=\"212\" cy=\"125\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><ellipse cx=\"298\" cy=\"50\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><ellipse cx=\"300\" cy=\"120\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><text x=\"255\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">plant cell</text><text x=\"257\" y=\"88\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">vacuole</text></svg>",
+     "alt": "An animal cell (membrane, cytoplasm, nucleus, mitochondria) and a plant cell (also with cell wall, chloroplasts and a permanent vacuole)."
+    }
    },
    {
     "id": "gcse-cb-aqa-cellbiolog-m016-f",
@@ -1010,7 +1034,11 @@
     "paper": "AQA Combined Biology Paper 1",
     "subtopic": "Differentiation",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 1 style · Cell biology · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 1 style · Cell biology · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><ellipse cx=\"85\" cy=\"85\" rx=\"65\" ry=\"55\"/><circle cx=\"85\" cy=\"80\" r=\"16\" fill=\"currentColor\" fill-opacity=\"0.15\"/><ellipse cx=\"60\" cy=\"110\" rx=\"9\" ry=\"5\"/><text x=\"85\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">animal cell</text><rect x=\"190\" y=\"25\" width=\"130\" height=\"120\" rx=\"6\"/><rect x=\"198\" y=\"33\" width=\"114\" height=\"104\" rx=\"4\"/><rect x=\"230\" y=\"55\" width=\"55\" height=\"60\" rx=\"8\" fill=\"currentColor\" fill-opacity=\"0.06\"/><circle cx=\"212\" cy=\"50\" r=\"10\" fill=\"currentColor\" fill-opacity=\"0.15\"/><ellipse cx=\"212\" cy=\"125\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><ellipse cx=\"298\" cy=\"50\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><ellipse cx=\"300\" cy=\"120\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><text x=\"255\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">plant cell</text><text x=\"257\" y=\"88\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">vacuole</text></svg>",
+     "alt": "An animal cell (membrane, cytoplasm, nucleus, mitochondria) and a plant cell (also with cell wall, chloroplasts and a permanent vacuole)."
+    }
    },
    {
     "id": "gcse-cb-aqa-cellbiolog-m025-f",
@@ -1055,7 +1083,11 @@
     "paper": "AQA Combined Biology Paper 1",
     "subtopic": "Prokaryotes",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 1 style · Cell biology · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 1 style · Cell biology · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><ellipse cx=\"85\" cy=\"85\" rx=\"65\" ry=\"55\"/><circle cx=\"85\" cy=\"80\" r=\"16\" fill=\"currentColor\" fill-opacity=\"0.15\"/><ellipse cx=\"60\" cy=\"110\" rx=\"9\" ry=\"5\"/><text x=\"85\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">animal cell</text><rect x=\"190\" y=\"25\" width=\"130\" height=\"120\" rx=\"6\"/><rect x=\"198\" y=\"33\" width=\"114\" height=\"104\" rx=\"4\"/><rect x=\"230\" y=\"55\" width=\"55\" height=\"60\" rx=\"8\" fill=\"currentColor\" fill-opacity=\"0.06\"/><circle cx=\"212\" cy=\"50\" r=\"10\" fill=\"currentColor\" fill-opacity=\"0.15\"/><ellipse cx=\"212\" cy=\"125\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><ellipse cx=\"298\" cy=\"50\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><ellipse cx=\"300\" cy=\"120\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><text x=\"255\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">plant cell</text><text x=\"257\" y=\"88\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">vacuole</text></svg>",
+     "alt": "An animal cell (membrane, cytoplasm, nucleus, mitochondria) and a plant cell (also with cell wall, chloroplasts and a permanent vacuole)."
+    }
    },
    {
     "id": "gcse-cb-aqa-cellbiolog-m028-f",
@@ -1115,7 +1147,11 @@
     "paper": "AQA Combined Biology Paper 1",
     "subtopic": "Cell specialisation",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 1 style · Cell biology · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 1 style · Cell biology · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"15\" width=\"300\" height=\"14\"/><text x=\"170\" y=\"11\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">upper epidermis</text><rect x=\"24\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"49\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"74\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"99\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"124\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"149\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"174\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"199\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"224\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"249\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"274\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"299\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><text x=\"170\" y=\"100\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">palisade mesophyll (above)</text><circle cx=\"40\" cy=\"110\" r=\"13\"/><circle cx=\"80\" cy=\"130\" r=\"13\"/><circle cx=\"120\" cy=\"110\" r=\"13\"/><circle cx=\"160\" cy=\"130\" r=\"13\"/><circle cx=\"200\" cy=\"110\" r=\"13\"/><circle cx=\"240\" cy=\"130\" r=\"13\"/><circle cx=\"280\" cy=\"110\" r=\"13\"/><circle cx=\"320\" cy=\"130\" r=\"13\"/><text x=\"170\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">spongy mesophyll (air spaces)</text><rect x=\"20\" y=\"170\" width=\"300\" height=\"14\"/><path d=\"M160 170 v14 M180 170 v14\"/><text x=\"170\" y=\"198\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">lower epidermis with stoma (guard cells)</text></svg>",
+     "alt": "Cross-section of a leaf: epidermis, palisade mesophyll, spongy mesophyll with air spaces, and a stoma in the lower epidermis."
+    }
    },
    {
     "id": "gcse-cb-aqa-cellbiolog-m032-f",
@@ -1706,7 +1742,11 @@
     "paper": "AQA Combined Biology Paper 1",
     "subtopic": "Heart",
     "tier": "Foundation",
-    "inspiredBy": "AQA AQA Combined Biology Paper 1 style · Organisation"
+    "inspiredBy": "AQA AQA Combined Biology Paper 1 style · Organisation",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 320 230\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M60 70 Q60 40 95 40 H150 V200 Q90 200 70 150 Z\"/><path d=\"M170 40 H225 Q260 40 260 70 L250 150 Q230 200 170 200 V40\"/><line x1=\"60\" y1=\"110\" x2=\"150\" y2=\"110\"/><line x1=\"170\" y1=\"110\" x2=\"257\" y2=\"110\"/><text x=\"105\" y=\"85\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">right atrium</text><text x=\"105\" y=\"160\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">right ventricle</text><text x=\"215\" y=\"85\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">left atrium</text><text x=\"215\" y=\"160\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">left ventricle</text><text x=\"160\" y=\"225\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">(viewed from the front: left side of the heart is on the right)</text></svg>",
+     "alt": "Simplified heart showing the right and left atria and ventricles; the left ventricle wall is thicker."
+    }
    },
    {
     "id": "gcse-cb-aqa-organisati-n011-f",
@@ -1931,7 +1971,11 @@
     "paper": "AQA Combined Biology Paper 1",
     "subtopic": "Stomata",
     "tier": "Foundation",
-    "inspiredBy": "AQA AQA Combined Biology Paper 1 style · Organisation"
+    "inspiredBy": "AQA AQA Combined Biology Paper 1 style · Organisation",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"15\" width=\"300\" height=\"14\"/><text x=\"170\" y=\"11\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">upper epidermis</text><rect x=\"24\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"49\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"74\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"99\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"124\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"149\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"174\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"199\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"224\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"249\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"274\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"299\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><text x=\"170\" y=\"100\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">palisade mesophyll (above)</text><circle cx=\"40\" cy=\"110\" r=\"13\"/><circle cx=\"80\" cy=\"130\" r=\"13\"/><circle cx=\"120\" cy=\"110\" r=\"13\"/><circle cx=\"160\" cy=\"130\" r=\"13\"/><circle cx=\"200\" cy=\"110\" r=\"13\"/><circle cx=\"240\" cy=\"130\" r=\"13\"/><circle cx=\"280\" cy=\"110\" r=\"13\"/><circle cx=\"320\" cy=\"130\" r=\"13\"/><text x=\"170\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">spongy mesophyll (air spaces)</text><rect x=\"20\" y=\"170\" width=\"300\" height=\"14\"/><path d=\"M160 170 v14 M180 170 v14\"/><text x=\"170\" y=\"198\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">lower epidermis with stoma (guard cells)</text></svg>",
+     "alt": "Cross-section of a leaf: epidermis, palisade mesophyll, spongy mesophyll with air spaces, and a stoma in the lower epidermis."
+    }
    },
    {
     "id": "gcse-cb-aqa-organisati-n028-f",
@@ -2036,7 +2080,11 @@
     "paper": "AQA Combined Biology Paper 1",
     "subtopic": "Plant tissues",
     "tier": "Foundation",
-    "inspiredBy": "AQA AQA Combined Biology Paper 1 style · Organisation"
+    "inspiredBy": "AQA AQA Combined Biology Paper 1 style · Organisation",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"15\" width=\"300\" height=\"14\"/><text x=\"170\" y=\"11\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">upper epidermis</text><rect x=\"24\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"49\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"74\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"99\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"124\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"149\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"174\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"199\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"224\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"249\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"274\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"299\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><text x=\"170\" y=\"100\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">palisade mesophyll (above)</text><circle cx=\"40\" cy=\"110\" r=\"13\"/><circle cx=\"80\" cy=\"130\" r=\"13\"/><circle cx=\"120\" cy=\"110\" r=\"13\"/><circle cx=\"160\" cy=\"130\" r=\"13\"/><circle cx=\"200\" cy=\"110\" r=\"13\"/><circle cx=\"240\" cy=\"130\" r=\"13\"/><circle cx=\"280\" cy=\"110\" r=\"13\"/><circle cx=\"320\" cy=\"130\" r=\"13\"/><text x=\"170\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">spongy mesophyll (air spaces)</text><rect x=\"20\" y=\"170\" width=\"300\" height=\"14\"/><path d=\"M160 170 v14 M180 170 v14\"/><text x=\"170\" y=\"198\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">lower epidermis with stoma (guard cells)</text></svg>",
+     "alt": "Cross-section of a leaf: epidermis, palisade mesophyll, spongy mesophyll with air spaces, and a stoma in the lower epidermis."
+    }
    },
    {
     "id": "gcse-cb-aqa-organisati-n035-f",
@@ -2366,7 +2414,11 @@
     "paper": "AQA Combined Biology Paper 1",
     "subtopic": "Heart",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 1 style · Organisation · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 1 style · Organisation · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 320 230\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M60 70 Q60 40 95 40 H150 V200 Q90 200 70 150 Z\"/><path d=\"M170 40 H225 Q260 40 260 70 L250 150 Q230 200 170 200 V40\"/><line x1=\"60\" y1=\"110\" x2=\"150\" y2=\"110\"/><line x1=\"170\" y1=\"110\" x2=\"257\" y2=\"110\"/><text x=\"105\" y=\"85\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">right atrium</text><text x=\"105\" y=\"160\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">right ventricle</text><text x=\"215\" y=\"85\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">left atrium</text><text x=\"215\" y=\"160\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">left ventricle</text><text x=\"160\" y=\"225\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">(viewed from the front: left side of the heart is on the right)</text></svg>",
+     "alt": "Simplified heart showing the right and left atria and ventricles; the left ventricle wall is thicker."
+    }
    },
    {
     "id": "gcse-cb-aqa-organisati-m013-f",
@@ -2456,7 +2508,11 @@
     "paper": "AQA Combined Biology Paper 1",
     "subtopic": "Stomata",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 1 style · Organisation · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 1 style · Organisation · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"15\" width=\"300\" height=\"14\"/><text x=\"170\" y=\"11\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">upper epidermis</text><rect x=\"24\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"49\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"74\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"99\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"124\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"149\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"174\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"199\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"224\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"249\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"274\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"299\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><text x=\"170\" y=\"100\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">palisade mesophyll (above)</text><circle cx=\"40\" cy=\"110\" r=\"13\"/><circle cx=\"80\" cy=\"130\" r=\"13\"/><circle cx=\"120\" cy=\"110\" r=\"13\"/><circle cx=\"160\" cy=\"130\" r=\"13\"/><circle cx=\"200\" cy=\"110\" r=\"13\"/><circle cx=\"240\" cy=\"130\" r=\"13\"/><circle cx=\"280\" cy=\"110\" r=\"13\"/><circle cx=\"320\" cy=\"130\" r=\"13\"/><text x=\"170\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">spongy mesophyll (air spaces)</text><rect x=\"20\" y=\"170\" width=\"300\" height=\"14\"/><path d=\"M160 170 v14 M180 170 v14\"/><text x=\"170\" y=\"198\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">lower epidermis with stoma (guard cells)</text></svg>",
+     "alt": "Cross-section of a leaf: epidermis, palisade mesophyll, spongy mesophyll with air spaces, and a stoma in the lower epidermis."
+    }
    },
    {
     "id": "gcse-cb-aqa-organisati-m021-f",
@@ -2471,7 +2527,11 @@
     "paper": "AQA Combined Biology Paper 1",
     "subtopic": "Plant organs",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 1 style · Organisation · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 1 style · Organisation · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"15\" width=\"300\" height=\"14\"/><text x=\"170\" y=\"11\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">upper epidermis</text><rect x=\"24\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"49\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"74\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"99\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"124\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"149\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"174\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"199\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"224\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"249\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"274\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"299\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><text x=\"170\" y=\"100\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">palisade mesophyll (above)</text><circle cx=\"40\" cy=\"110\" r=\"13\"/><circle cx=\"80\" cy=\"130\" r=\"13\"/><circle cx=\"120\" cy=\"110\" r=\"13\"/><circle cx=\"160\" cy=\"130\" r=\"13\"/><circle cx=\"200\" cy=\"110\" r=\"13\"/><circle cx=\"240\" cy=\"130\" r=\"13\"/><circle cx=\"280\" cy=\"110\" r=\"13\"/><circle cx=\"320\" cy=\"130\" r=\"13\"/><text x=\"170\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">spongy mesophyll (air spaces)</text><rect x=\"20\" y=\"170\" width=\"300\" height=\"14\"/><path d=\"M160 170 v14 M180 170 v14\"/><text x=\"170\" y=\"198\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">lower epidermis with stoma (guard cells)</text></svg>",
+     "alt": "Cross-section of a leaf: epidermis, palisade mesophyll, spongy mesophyll with air spaces, and a stoma in the lower epidermis."
+    }
    },
    {
     "id": "gcse-cb-aqa-organisati-m022-f",
@@ -2726,7 +2786,11 @@
     "paper": "AQA Combined Biology Paper 1",
     "subtopic": "Transpiration",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 1 style · Organisation · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 1 style · Organisation · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"15\" width=\"300\" height=\"14\"/><text x=\"170\" y=\"11\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">upper epidermis</text><rect x=\"24\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"49\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"74\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"99\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"124\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"149\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"174\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"199\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"224\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"249\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"274\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"299\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><text x=\"170\" y=\"100\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">palisade mesophyll (above)</text><circle cx=\"40\" cy=\"110\" r=\"13\"/><circle cx=\"80\" cy=\"130\" r=\"13\"/><circle cx=\"120\" cy=\"110\" r=\"13\"/><circle cx=\"160\" cy=\"130\" r=\"13\"/><circle cx=\"200\" cy=\"110\" r=\"13\"/><circle cx=\"240\" cy=\"130\" r=\"13\"/><circle cx=\"280\" cy=\"110\" r=\"13\"/><circle cx=\"320\" cy=\"130\" r=\"13\"/><text x=\"170\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">spongy mesophyll (air spaces)</text><rect x=\"20\" y=\"170\" width=\"300\" height=\"14\"/><path d=\"M160 170 v14 M180 170 v14\"/><text x=\"170\" y=\"198\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">lower epidermis with stoma (guard cells)</text></svg>",
+     "alt": "Cross-section of a leaf: epidermis, palisade mesophyll, spongy mesophyll with air spaces, and a stoma in the lower epidermis."
+    }
    },
    {
     "id": "gcse-cb-aqa-organisati-m039-f",
@@ -2921,7 +2985,11 @@
     "paper": "AQA Combined Science Biology Paper 1F Q04",
     "subtopic": "Heart",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 1 style · Organisation · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 1 style · Organisation · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 320 230\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M60 70 Q60 40 95 40 H150 V200 Q90 200 70 150 Z\"/><path d=\"M170 40 H225 Q260 40 260 70 L250 150 Q230 200 170 200 V40\"/><line x1=\"60\" y1=\"110\" x2=\"150\" y2=\"110\"/><line x1=\"170\" y1=\"110\" x2=\"257\" y2=\"110\"/><text x=\"105\" y=\"85\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">right atrium</text><text x=\"105\" y=\"160\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">right ventricle</text><text x=\"215\" y=\"85\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">left atrium</text><text x=\"215\" y=\"160\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">left ventricle</text><text x=\"160\" y=\"225\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">(viewed from the front: left side of the heart is on the right)</text></svg>",
+     "alt": "Simplified heart showing the right and left atria and ventricles; the left ventricle wall is thicker."
+    }
    },
    {
     "id": "gcse-cb-aqa-organisati-m072-f",
@@ -3101,7 +3169,11 @@
     "paper": "AQA Combined Science Biology Paper 1F Q04",
     "subtopic": "Stomata",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 1 style · Organisation · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 1 style · Organisation · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"15\" width=\"300\" height=\"14\"/><text x=\"170\" y=\"11\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">upper epidermis</text><rect x=\"24\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"49\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"74\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"99\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"124\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"149\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"174\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"199\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"224\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"249\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"274\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"299\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><text x=\"170\" y=\"100\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">palisade mesophyll (above)</text><circle cx=\"40\" cy=\"110\" r=\"13\"/><circle cx=\"80\" cy=\"130\" r=\"13\"/><circle cx=\"120\" cy=\"110\" r=\"13\"/><circle cx=\"160\" cy=\"130\" r=\"13\"/><circle cx=\"200\" cy=\"110\" r=\"13\"/><circle cx=\"240\" cy=\"130\" r=\"13\"/><circle cx=\"280\" cy=\"110\" r=\"13\"/><circle cx=\"320\" cy=\"130\" r=\"13\"/><text x=\"170\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">spongy mesophyll (air spaces)</text><rect x=\"20\" y=\"170\" width=\"300\" height=\"14\"/><path d=\"M160 170 v14 M180 170 v14\"/><text x=\"170\" y=\"198\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">lower epidermis with stoma (guard cells)</text></svg>",
+     "alt": "Cross-section of a leaf: epidermis, palisade mesophyll, spongy mesophyll with air spaces, and a stoma in the lower epidermis."
+    }
    },
    {
     "id": "gcse-cb-aqa-organisati-m085-f",
@@ -3116,7 +3188,11 @@
     "paper": "AQA Combined Science Biology Paper 1F Q04",
     "subtopic": "Stomata",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 1 style · Organisation · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 1 style · Organisation · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"15\" width=\"300\" height=\"14\"/><text x=\"170\" y=\"11\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">upper epidermis</text><rect x=\"24\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"49\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"74\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"99\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"124\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"149\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"174\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"199\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"224\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"249\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"274\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><rect x=\"299\" y=\"32\" width=\"20\" height=\"55\" rx=\"8\"/><text x=\"170\" y=\"100\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">palisade mesophyll (above)</text><circle cx=\"40\" cy=\"110\" r=\"13\"/><circle cx=\"80\" cy=\"130\" r=\"13\"/><circle cx=\"120\" cy=\"110\" r=\"13\"/><circle cx=\"160\" cy=\"130\" r=\"13\"/><circle cx=\"200\" cy=\"110\" r=\"13\"/><circle cx=\"240\" cy=\"130\" r=\"13\"/><circle cx=\"280\" cy=\"110\" r=\"13\"/><circle cx=\"320\" cy=\"130\" r=\"13\"/><text x=\"170\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">spongy mesophyll (air spaces)</text><rect x=\"20\" y=\"170\" width=\"300\" height=\"14\"/><path d=\"M160 170 v14 M180 170 v14\"/><text x=\"170\" y=\"198\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">lower epidermis with stoma (guard cells)</text></svg>",
+     "alt": "Cross-section of a leaf: epidermis, palisade mesophyll, spongy mesophyll with air spaces, and a stoma in the lower epidermis."
+    }
    },
    {
     "id": "gcse-cb-aqa-organisati-m087-f",
@@ -4628,7 +4704,11 @@
     "paper": "AQA Combined Biology Paper 1",
     "subtopic": "Photosynthesis",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 1 style · Bioenergetics · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 1 style · Bioenergetics · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 195\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"45\" y1=\"160\" x2=\"320\" y2=\"160\"/><path d=\"M320 160L311.7 163.5L311.7 156.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"45\" y1=\"160\" x2=\"45\" y2=\"20\"/><path d=\"M45 20L48.5 28.3L41.5 28.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182.5\" y=\"184\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">light intensity</text><text x=\"14\" y=\"90.0\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" transform=\"rotate(-90 14 90.0)\">rate of photosynthesis</text><path d=\"M45 160 L150 70 C175 52 200 48 315 48\" stroke-width=\"3\"/><text x=\"240\" y=\"40\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">levels off</text></svg>",
+     "alt": "Graph of rate of photosynthesis against light intensity: rises then levels off."
+    }
    },
    {
     "id": "gcse-cb-aqa-p1-t04-f02a-f",
@@ -4763,7 +4843,11 @@
     "paper": "AQA Combined Biology Paper 1",
     "subtopic": "Required practical",
     "tier": "Foundation",
-    "inspiredBy": "AQA AQA Combined Biology Paper 1 style · Bioenergetics"
+    "inspiredBy": "AQA AQA Combined Biology Paper 1 style · Bioenergetics",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 195\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"45\" y1=\"160\" x2=\"320\" y2=\"160\"/><path d=\"M320 160L311.7 163.5L311.7 156.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"45\" y1=\"160\" x2=\"45\" y2=\"20\"/><path d=\"M45 20L48.5 28.3L41.5 28.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182.5\" y=\"184\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">light intensity</text><text x=\"14\" y=\"90.0\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" transform=\"rotate(-90 14 90.0)\">rate of photosynthesis</text><path d=\"M45 160 L150 70 C175 52 200 48 315 48\" stroke-width=\"3\"/><text x=\"240\" y=\"40\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">levels off</text></svg>",
+     "alt": "Graph of rate of photosynthesis against light intensity: rises then levels off."
+    }
    },
    {
     "id": "gcse-cb-aqa-bioenerget-n009-f",
@@ -5003,7 +5087,11 @@
     "paper": "AQA Combined Biology Paper 1",
     "subtopic": "Required practical",
     "tier": "Foundation",
-    "inspiredBy": "AQA AQA Combined Biology Paper 1 style · Bioenergetics"
+    "inspiredBy": "AQA AQA Combined Biology Paper 1 style · Bioenergetics",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 195\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"45\" y1=\"160\" x2=\"320\" y2=\"160\"/><path d=\"M320 160L311.7 163.5L311.7 156.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"45\" y1=\"160\" x2=\"45\" y2=\"20\"/><path d=\"M45 20L48.5 28.3L41.5 28.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182.5\" y=\"184\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">light intensity</text><text x=\"14\" y=\"90.0\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" transform=\"rotate(-90 14 90.0)\">rate of photosynthesis</text><path d=\"M45 160 L150 70 C175 52 200 48 315 48\" stroke-width=\"3\"/><text x=\"240\" y=\"40\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">levels off</text></svg>",
+     "alt": "Graph of rate of photosynthesis against light intensity: rises then levels off."
+    }
    },
    {
     "id": "gcse-cb-aqa-bioenerget-n028-f",
@@ -5273,7 +5361,11 @@
     "paper": "AQA Combined Biology Paper 1",
     "subtopic": "Limiting factors",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 1 style · Bioenergetics · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 1 style · Bioenergetics · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 195\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"45\" y1=\"160\" x2=\"320\" y2=\"160\"/><path d=\"M320 160L311.7 163.5L311.7 156.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"45\" y1=\"160\" x2=\"45\" y2=\"20\"/><path d=\"M45 20L48.5 28.3L41.5 28.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182.5\" y=\"184\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">light intensity</text><text x=\"14\" y=\"90.0\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" transform=\"rotate(-90 14 90.0)\">rate of photosynthesis</text><path d=\"M45 160 L150 70 C175 52 200 48 315 48\" stroke-width=\"3\"/><text x=\"240\" y=\"40\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">levels off</text></svg>",
+     "alt": "Graph of rate of photosynthesis against light intensity: rises then levels off."
+    }
    },
    {
     "id": "gcse-cb-aqa-bioenerget-m007-f",
@@ -5723,7 +5815,11 @@
     "paper": "AQA Combined Science Biology Paper 1H Q05",
     "subtopic": "Respiration",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 1 style · Bioenergetics · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 1 style · Bioenergetics · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><ellipse cx=\"85\" cy=\"85\" rx=\"65\" ry=\"55\"/><circle cx=\"85\" cy=\"80\" r=\"16\" fill=\"currentColor\" fill-opacity=\"0.15\"/><ellipse cx=\"60\" cy=\"110\" rx=\"9\" ry=\"5\"/><text x=\"85\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">animal cell</text><rect x=\"190\" y=\"25\" width=\"130\" height=\"120\" rx=\"6\"/><rect x=\"198\" y=\"33\" width=\"114\" height=\"104\" rx=\"4\"/><rect x=\"230\" y=\"55\" width=\"55\" height=\"60\" rx=\"8\" fill=\"currentColor\" fill-opacity=\"0.06\"/><circle cx=\"212\" cy=\"50\" r=\"10\" fill=\"currentColor\" fill-opacity=\"0.15\"/><ellipse cx=\"212\" cy=\"125\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><ellipse cx=\"298\" cy=\"50\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><ellipse cx=\"300\" cy=\"120\" rx=\"8\" ry=\"5\" fill=\"currentColor\" fill-opacity=\"0.3\"/><text x=\"255\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">plant cell</text><text x=\"257\" y=\"88\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">vacuole</text></svg>",
+     "alt": "An animal cell (membrane, cytoplasm, nucleus, mitochondria) and a plant cell (also with cell wall, chloroplasts and a permanent vacuole)."
+    }
    },
    {
     "id": "gcse-cb-aqa-bioenerget-m050-f",
@@ -5753,7 +5849,11 @@
     "paper": "AQA Combined Science Biology Paper 1F Q01",
     "subtopic": "Photosynthesis",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 1 style · Bioenergetics · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 1 style · Bioenergetics · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 195\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"45\" y1=\"160\" x2=\"320\" y2=\"160\"/><path d=\"M320 160L311.7 163.5L311.7 156.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"45\" y1=\"160\" x2=\"45\" y2=\"20\"/><path d=\"M45 20L48.5 28.3L41.5 28.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182.5\" y=\"184\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">light intensity</text><text x=\"14\" y=\"90.0\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" transform=\"rotate(-90 14 90.0)\">rate of photosynthesis</text><path d=\"M45 160 L150 70 C175 52 200 48 315 48\" stroke-width=\"3\"/><text x=\"240\" y=\"40\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">levels off</text></svg>",
+     "alt": "Graph of rate of photosynthesis against light intensity: rises then levels off."
+    }
    },
    {
     "id": "gcse-cb-aqa-bioenerget-m052-f",
@@ -5909,7 +6009,11 @@
     "paper": "AQA Combined Biology Paper 2",
     "subtopic": "Nervous system",
     "tier": "Foundation",
-    "inspiredBy": "AQA AQA Combined Biology Paper 2 style · Homeostasis and response"
+    "inspiredBy": "AQA AQA Combined Biology Paper 2 style · Homeostasis and response",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"240\" y=\"40\" width=\"80\" height=\"90\" rx=\"30\"/><text x=\"280\" y=\"30\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">spinal cord</text><circle cx=\"30\" cy=\"40\" r=\"8\"/><text x=\"30\" y=\"25\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">receptor</text><path d=\"M38 40 H250\"/><line x1=\"150\" y1=\"40\" x2=\"170\" y2=\"40\"/><path d=\"M170 40L161.7 43.5L161.7 36.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"130\" y=\"32\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">sensory neurone</text><path d=\"M255 45 V115\"/><text x=\"300\" y=\"85\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">relay</text><path d=\"M250 120 H60\"/><line x1=\"150\" y1=\"120\" x2=\"130\" y2=\"120\"/><path d=\"M130 120L138.3 116.5L138.3 123.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"140\" y=\"140\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">motor neurone</text><rect x=\"25\" y=\"105\" width=\"35\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.1\"/><text x=\"42\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">effector (muscle)</text></svg>",
+     "alt": "Reflex arc: receptor → sensory neurone → relay neurone in the spinal cord → motor neurone → effector."
+    }
    },
    {
     "id": "gcse-cb-aqa-homeostasi-n004-f",
@@ -5924,7 +6028,11 @@
     "paper": "AQA Combined Biology Paper 2",
     "subtopic": "Nervous system",
     "tier": "Foundation",
-    "inspiredBy": "AQA AQA Combined Biology Paper 2 style · Homeostasis and response"
+    "inspiredBy": "AQA AQA Combined Biology Paper 2 style · Homeostasis and response",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 320 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M20 40 H170 Q195 40 195 75 Q195 110 170 110 H20\"/><path d=\"M230 30 Q215 75 230 120 H300\"/><path d=\"M230 30 H300\"/><circle cx=\"160\" cy=\"60\" r=\"5\"/><circle cx=\"170\" cy=\"80\" r=\"5\"/><circle cx=\"158\" cy=\"95\" r=\"5\"/><circle cx=\"180\" cy=\"62\" r=\"5\"/><circle cx=\"205\" cy=\"60\" r=\"2\" fill=\"currentColor\"/><circle cx=\"212\" cy=\"75\" r=\"2\" fill=\"currentColor\"/><circle cx=\"207\" cy=\"90\" r=\"2\" fill=\"currentColor\"/><circle cx=\"215\" cy=\"100\" r=\"2\" fill=\"currentColor\"/><text x=\"100\" y=\"80\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">neurone 1</text><text x=\"265\" y=\"80\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">neurone 2</text><text x=\"212\" y=\"142\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">synapse (gap)</text></svg>",
+     "alt": "A synapse: neurotransmitter released from one neurone diffuses across the gap to receptors on the next neurone."
+    }
    },
    {
     "id": "gcse-cb-aqa-homeostasi-n005-f",
@@ -6299,7 +6407,11 @@
     "paper": "AQA Combined Biology Paper 2",
     "subtopic": "Nervous system",
     "tier": "Foundation",
-    "inspiredBy": "AQA AQA Combined Biology Paper 2 style · Homeostasis and response"
+    "inspiredBy": "AQA AQA Combined Biology Paper 2 style · Homeostasis and response",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"240\" y=\"40\" width=\"80\" height=\"90\" rx=\"30\"/><text x=\"280\" y=\"30\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">spinal cord</text><circle cx=\"30\" cy=\"40\" r=\"8\"/><text x=\"30\" y=\"25\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">receptor</text><path d=\"M38 40 H250\"/><line x1=\"150\" y1=\"40\" x2=\"170\" y2=\"40\"/><path d=\"M170 40L161.7 43.5L161.7 36.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"130\" y=\"32\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">sensory neurone</text><path d=\"M255 45 V115\"/><text x=\"300\" y=\"85\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">relay</text><path d=\"M250 120 H60\"/><line x1=\"150\" y1=\"120\" x2=\"130\" y2=\"120\"/><path d=\"M130 120L138.3 116.5L138.3 123.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"140\" y=\"140\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">motor neurone</text><rect x=\"25\" y=\"105\" width=\"35\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.1\"/><text x=\"42\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">effector (muscle)</text></svg>",
+     "alt": "Reflex arc: receptor → sensory neurone → relay neurone in the spinal cord → motor neurone → effector."
+    }
    },
    {
     "id": "gcse-cb-aqa-homeostasi-n036-f",
@@ -6494,7 +6606,11 @@
     "paper": "AQA Combined Biology Paper 2",
     "subtopic": "Nervous system",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 2 style · Homeostasis and response · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 2 style · Homeostasis and response · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"240\" y=\"40\" width=\"80\" height=\"90\" rx=\"30\"/><text x=\"280\" y=\"30\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">spinal cord</text><circle cx=\"30\" cy=\"40\" r=\"8\"/><text x=\"30\" y=\"25\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">receptor</text><path d=\"M38 40 H250\"/><line x1=\"150\" y1=\"40\" x2=\"170\" y2=\"40\"/><path d=\"M170 40L161.7 43.5L161.7 36.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"130\" y=\"32\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">sensory neurone</text><path d=\"M255 45 V115\"/><text x=\"300\" y=\"85\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">relay</text><path d=\"M250 120 H60\"/><line x1=\"150\" y1=\"120\" x2=\"130\" y2=\"120\"/><path d=\"M130 120L138.3 116.5L138.3 123.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"140\" y=\"140\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">motor neurone</text><rect x=\"25\" y=\"105\" width=\"35\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.1\"/><text x=\"42\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">effector (muscle)</text></svg>",
+     "alt": "Reflex arc: receptor → sensory neurone → relay neurone in the spinal cord → motor neurone → effector."
+    }
    },
    {
     "id": "gcse-cb-aqa-homeostasi-m004-f",
@@ -6749,7 +6865,11 @@
     "paper": "AQA Combined Biology Paper 2",
     "subtopic": "Nervous system",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 2 style · Homeostasis and response · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 2 style · Homeostasis and response · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"240\" y=\"40\" width=\"80\" height=\"90\" rx=\"30\"/><text x=\"280\" y=\"30\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">spinal cord</text><circle cx=\"30\" cy=\"40\" r=\"8\"/><text x=\"30\" y=\"25\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">receptor</text><path d=\"M38 40 H250\"/><line x1=\"150\" y1=\"40\" x2=\"170\" y2=\"40\"/><path d=\"M170 40L161.7 43.5L161.7 36.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"130\" y=\"32\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">sensory neurone</text><path d=\"M255 45 V115\"/><text x=\"300\" y=\"85\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">relay</text><path d=\"M250 120 H60\"/><line x1=\"150\" y1=\"120\" x2=\"130\" y2=\"120\"/><path d=\"M130 120L138.3 116.5L138.3 123.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"140\" y=\"140\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">motor neurone</text><rect x=\"25\" y=\"105\" width=\"35\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.1\"/><text x=\"42\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">effector (muscle)</text></svg>",
+     "alt": "Reflex arc: receptor → sensory neurone → relay neurone in the spinal cord → motor neurone → effector."
+    }
    },
    {
     "id": "gcse-cb-aqa-homeostasi-m028-f",
@@ -6884,7 +7004,11 @@
     "paper": "AQA Combined Science Biology Paper 2H Q04",
     "subtopic": "Reflexes",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 2 style · Homeostasis and response · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 2 style · Homeostasis and response · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"240\" y=\"40\" width=\"80\" height=\"90\" rx=\"30\"/><text x=\"280\" y=\"30\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">spinal cord</text><circle cx=\"30\" cy=\"40\" r=\"8\"/><text x=\"30\" y=\"25\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">receptor</text><path d=\"M38 40 H250\"/><line x1=\"150\" y1=\"40\" x2=\"170\" y2=\"40\"/><path d=\"M170 40L161.7 43.5L161.7 36.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"130\" y=\"32\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">sensory neurone</text><path d=\"M255 45 V115\"/><text x=\"300\" y=\"85\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">relay</text><path d=\"M250 120 H60\"/><line x1=\"150\" y1=\"120\" x2=\"130\" y2=\"120\"/><path d=\"M130 120L138.3 116.5L138.3 123.5Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"140\" y=\"140\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">motor neurone</text><rect x=\"25\" y=\"105\" width=\"35\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.1\"/><text x=\"42\" y=\"160\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">effector (muscle)</text></svg>",
+     "alt": "Reflex arc: receptor → sensory neurone → relay neurone in the spinal cord → motor neurone → effector."
+    }
    },
    {
     "id": "gcse-cb-aqa-homeostasi-m042-f",
@@ -7340,7 +7464,11 @@
     "paper": "AQA Combined Biology Paper 2",
     "subtopic": "Genetic crosses",
     "tier": "Foundation",
-    "inspiredBy": "AQA AQA Combined Biology Paper 2 style · Inheritance, variation and evolution"
+    "inspiredBy": "AQA AQA Combined Biology Paper 2 style · Inheritance, variation and evolution",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 240 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"80\" y=\"40\" width=\"140\" height=\"110\"/><line x1=\"150\" y1=\"40\" x2=\"150\" y2=\"150\"/><line x1=\"80\" y1=\"95\" x2=\"220\" y2=\"95\"/><text x=\"115\" y=\"30\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">?</text><text x=\"185\" y=\"30\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">?</text><text x=\"65\" y=\"72\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">?</text><text x=\"65\" y=\"127\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">?</text><text x=\"150\" y=\"14\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">gametes from one parent</text><text x=\"20\" y=\"100\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">gametes</text></svg>",
+     "alt": "A blank Punnett square: write each parent's gametes on the edges and fill in the four offspring genotypes."
+    }
    },
    {
     "id": "gcse-cb-aqa-inheritanc-n007-f",
@@ -7370,7 +7498,11 @@
     "paper": "AQA Combined Biology Paper 2",
     "subtopic": "Sex determination",
     "tier": "Foundation",
-    "inspiredBy": "AQA AQA Combined Biology Paper 2 style · Inheritance, variation and evolution"
+    "inspiredBy": "AQA AQA Combined Biology Paper 2 style · Inheritance, variation and evolution",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 240 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"80\" y=\"40\" width=\"140\" height=\"110\"/><line x1=\"150\" y1=\"40\" x2=\"150\" y2=\"150\"/><line x1=\"80\" y1=\"95\" x2=\"220\" y2=\"95\"/><text x=\"115\" y=\"30\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">?</text><text x=\"185\" y=\"30\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">?</text><text x=\"65\" y=\"72\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">?</text><text x=\"65\" y=\"127\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">?</text><text x=\"150\" y=\"14\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">gametes from one parent</text><text x=\"20\" y=\"100\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">gametes</text></svg>",
+     "alt": "A blank Punnett square: write each parent's gametes on the edges and fill in the four offspring genotypes."
+    }
    },
    {
     "id": "gcse-cb-aqa-inheritanc-n009-f",
@@ -8786,7 +8918,11 @@
     "paper": "AQA Combined Biology Paper 2",
     "subtopic": "Trophic levels",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 2 style · Ecology · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 2 style · Ecology · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"40\" y=\"130\" width=\"260\" height=\"28\"/><rect x=\"95\" y=\"100\" width=\"150\" height=\"28\"/><rect x=\"135\" y=\"70\" width=\"70\" height=\"28\"/><rect x=\"155\" y=\"40\" width=\"30\" height=\"28\"/><text x=\"170\" y=\"149\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">producers</text><text x=\"170\" y=\"119\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">primary consumers</text><text x=\"250\" y=\"88\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">secondary</text><text x=\"195\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">tertiary</text></svg>",
+     "alt": "Pyramid of biomass: each trophic level has less biomass than the one below."
+    }
    },
    {
     "id": "gcse-cb-aqa-p2-t07-f02a-f",
@@ -8816,7 +8952,11 @@
     "paper": "AQA Combined Biology Paper 2",
     "subtopic": "Ecology fieldwork",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 2 style · Ecology · family 3"
+    "inspiredBy": "AQA 8464 Biology Paper 2 style · Ecology · family 3",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 320 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"280\" height=\"160\"/><line x1=\"48\" y1=\"20\" x2=\"48\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"76\" y1=\"20\" x2=\"76\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"104\" y1=\"20\" x2=\"104\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"132\" y1=\"20\" x2=\"132\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"160\" y1=\"20\" x2=\"160\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"188\" y1=\"20\" x2=\"188\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"216\" y1=\"20\" x2=\"216\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"244\" y1=\"20\" x2=\"244\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"272\" y1=\"20\" x2=\"272\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"52\" x2=\"300\" y2=\"52\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"84\" x2=\"300\" y2=\"84\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"116\" x2=\"300\" y2=\"116\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"148\" x2=\"300\" y2=\"148\" stroke-width=\"0.5\"/><rect x=\"49\" y=\"53\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"161\" y=\"21\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"245\" y=\"117\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"77\" y=\"149\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"189\" y=\"85\" width=\"26\" height=\"26\" stroke-width=\"3\"/><text x=\"160\" y=\"196\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">quadrats placed at random coordinates on a grid</text></svg>",
+     "alt": "A field marked with a grid, with quadrats placed at random coordinates."
+    }
    },
    {
     "id": "gcse-cb-aqa-ecology-n001-f",
@@ -8966,7 +9106,11 @@
     "paper": "AQA Combined Biology Paper 2",
     "subtopic": "Required practical",
     "tier": "Foundation",
-    "inspiredBy": "AQA AQA Combined Biology Paper 2 style · Ecology"
+    "inspiredBy": "AQA AQA Combined Biology Paper 2 style · Ecology",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 320 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"280\" height=\"160\"/><line x1=\"48\" y1=\"20\" x2=\"48\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"76\" y1=\"20\" x2=\"76\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"104\" y1=\"20\" x2=\"104\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"132\" y1=\"20\" x2=\"132\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"160\" y1=\"20\" x2=\"160\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"188\" y1=\"20\" x2=\"188\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"216\" y1=\"20\" x2=\"216\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"244\" y1=\"20\" x2=\"244\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"272\" y1=\"20\" x2=\"272\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"52\" x2=\"300\" y2=\"52\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"84\" x2=\"300\" y2=\"84\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"116\" x2=\"300\" y2=\"116\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"148\" x2=\"300\" y2=\"148\" stroke-width=\"0.5\"/><rect x=\"49\" y=\"53\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"161\" y=\"21\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"245\" y=\"117\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"77\" y=\"149\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"189\" y=\"85\" width=\"26\" height=\"26\" stroke-width=\"3\"/><text x=\"160\" y=\"196\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">quadrats placed at random coordinates on a grid</text></svg>",
+     "alt": "A field marked with a grid, with quadrats placed at random coordinates."
+    }
    },
    {
     "id": "gcse-cb-aqa-ecology-n011-f",
@@ -8981,7 +9125,11 @@
     "paper": "AQA Combined Biology Paper 2",
     "subtopic": "Required practical",
     "tier": "Foundation",
-    "inspiredBy": "AQA AQA Combined Biology Paper 2 style · Ecology"
+    "inspiredBy": "AQA AQA Combined Biology Paper 2 style · Ecology",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 320 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"280\" height=\"160\"/><line x1=\"48\" y1=\"20\" x2=\"48\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"76\" y1=\"20\" x2=\"76\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"104\" y1=\"20\" x2=\"104\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"132\" y1=\"20\" x2=\"132\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"160\" y1=\"20\" x2=\"160\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"188\" y1=\"20\" x2=\"188\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"216\" y1=\"20\" x2=\"216\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"244\" y1=\"20\" x2=\"244\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"272\" y1=\"20\" x2=\"272\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"52\" x2=\"300\" y2=\"52\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"84\" x2=\"300\" y2=\"84\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"116\" x2=\"300\" y2=\"116\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"148\" x2=\"300\" y2=\"148\" stroke-width=\"0.5\"/><rect x=\"49\" y=\"53\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"161\" y=\"21\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"245\" y=\"117\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"77\" y=\"149\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"189\" y=\"85\" width=\"26\" height=\"26\" stroke-width=\"3\"/><text x=\"160\" y=\"196\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">quadrats placed at random coordinates on a grid</text></svg>",
+     "alt": "A field marked with a grid, with quadrats placed at random coordinates."
+    }
    },
    {
     "id": "gcse-cb-aqa-ecology-n012-f",
@@ -8996,7 +9144,11 @@
     "paper": "AQA Combined Biology Paper 2",
     "subtopic": "Required practical",
     "tier": "Foundation",
-    "inspiredBy": "AQA AQA Combined Biology Paper 2 style · Ecology"
+    "inspiredBy": "AQA AQA Combined Biology Paper 2 style · Ecology",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 320 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"280\" height=\"160\"/><line x1=\"48\" y1=\"20\" x2=\"48\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"76\" y1=\"20\" x2=\"76\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"104\" y1=\"20\" x2=\"104\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"132\" y1=\"20\" x2=\"132\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"160\" y1=\"20\" x2=\"160\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"188\" y1=\"20\" x2=\"188\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"216\" y1=\"20\" x2=\"216\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"244\" y1=\"20\" x2=\"244\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"272\" y1=\"20\" x2=\"272\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"52\" x2=\"300\" y2=\"52\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"84\" x2=\"300\" y2=\"84\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"116\" x2=\"300\" y2=\"116\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"148\" x2=\"300\" y2=\"148\" stroke-width=\"0.5\"/><rect x=\"49\" y=\"53\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"161\" y=\"21\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"245\" y=\"117\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"77\" y=\"149\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"189\" y=\"85\" width=\"26\" height=\"26\" stroke-width=\"3\"/><text x=\"160\" y=\"196\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">quadrats placed at random coordinates on a grid</text></svg>",
+     "alt": "A field marked with a grid, with quadrats placed at random coordinates."
+    }
    },
    {
     "id": "gcse-cb-aqa-ecology-n013-f",
@@ -9221,7 +9373,11 @@
     "paper": "AQA Combined Biology Paper 2",
     "subtopic": "Food chains",
     "tier": "Foundation",
-    "inspiredBy": "AQA AQA Combined Biology Paper 2 style · Ecology"
+    "inspiredBy": "AQA AQA Combined Biology Paper 2 style · Ecology",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"40\" y=\"130\" width=\"260\" height=\"28\"/><rect x=\"95\" y=\"100\" width=\"150\" height=\"28\"/><rect x=\"135\" y=\"70\" width=\"70\" height=\"28\"/><rect x=\"155\" y=\"40\" width=\"30\" height=\"28\"/><text x=\"170\" y=\"149\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">producers</text><text x=\"170\" y=\"119\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">primary consumers</text><text x=\"250\" y=\"88\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">secondary</text><text x=\"195\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">tertiary</text></svg>",
+     "alt": "Pyramid of biomass: each trophic level has less biomass than the one below."
+    }
    },
    {
     "id": "gcse-cb-aqa-ecology-n029-f",
@@ -9251,7 +9407,11 @@
     "paper": "AQA Combined Biology Paper 2",
     "subtopic": "Pyramids",
     "tier": "Foundation",
-    "inspiredBy": "AQA AQA Combined Biology Paper 2 style · Ecology"
+    "inspiredBy": "AQA AQA Combined Biology Paper 2 style · Ecology",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"40\" y=\"130\" width=\"260\" height=\"28\"/><rect x=\"95\" y=\"100\" width=\"150\" height=\"28\"/><rect x=\"135\" y=\"70\" width=\"70\" height=\"28\"/><rect x=\"155\" y=\"40\" width=\"30\" height=\"28\"/><text x=\"170\" y=\"149\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">producers</text><text x=\"170\" y=\"119\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">primary consumers</text><text x=\"250\" y=\"88\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">secondary</text><text x=\"195\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">tertiary</text></svg>",
+     "alt": "Pyramid of biomass: each trophic level has less biomass than the one below."
+    }
    },
    {
     "id": "gcse-cb-aqa-ecology-n031-f",
@@ -9281,7 +9441,11 @@
     "paper": "AQA Combined Biology Paper 2",
     "subtopic": "Required practical",
     "tier": "Foundation",
-    "inspiredBy": "AQA AQA Combined Biology Paper 2 style · Ecology"
+    "inspiredBy": "AQA AQA Combined Biology Paper 2 style · Ecology",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 320 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"280\" height=\"160\"/><line x1=\"48\" y1=\"20\" x2=\"48\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"76\" y1=\"20\" x2=\"76\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"104\" y1=\"20\" x2=\"104\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"132\" y1=\"20\" x2=\"132\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"160\" y1=\"20\" x2=\"160\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"188\" y1=\"20\" x2=\"188\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"216\" y1=\"20\" x2=\"216\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"244\" y1=\"20\" x2=\"244\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"272\" y1=\"20\" x2=\"272\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"52\" x2=\"300\" y2=\"52\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"84\" x2=\"300\" y2=\"84\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"116\" x2=\"300\" y2=\"116\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"148\" x2=\"300\" y2=\"148\" stroke-width=\"0.5\"/><rect x=\"49\" y=\"53\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"161\" y=\"21\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"245\" y=\"117\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"77\" y=\"149\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"189\" y=\"85\" width=\"26\" height=\"26\" stroke-width=\"3\"/><text x=\"160\" y=\"196\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">quadrats placed at random coordinates on a grid</text></svg>",
+     "alt": "A field marked with a grid, with quadrats placed at random coordinates."
+    }
    },
    {
     "id": "gcse-cb-aqa-ecology-n033-f",
@@ -9371,7 +9535,11 @@
     "paper": "AQA Combined Biology Paper 2",
     "subtopic": "Required practical",
     "tier": "Foundation",
-    "inspiredBy": "AQA AQA Combined Biology Paper 2 style · Ecology"
+    "inspiredBy": "AQA AQA Combined Biology Paper 2 style · Ecology",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 320 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"280\" height=\"160\"/><line x1=\"48\" y1=\"20\" x2=\"48\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"76\" y1=\"20\" x2=\"76\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"104\" y1=\"20\" x2=\"104\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"132\" y1=\"20\" x2=\"132\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"160\" y1=\"20\" x2=\"160\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"188\" y1=\"20\" x2=\"188\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"216\" y1=\"20\" x2=\"216\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"244\" y1=\"20\" x2=\"244\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"272\" y1=\"20\" x2=\"272\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"52\" x2=\"300\" y2=\"52\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"84\" x2=\"300\" y2=\"84\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"116\" x2=\"300\" y2=\"116\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"148\" x2=\"300\" y2=\"148\" stroke-width=\"0.5\"/><rect x=\"49\" y=\"53\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"161\" y=\"21\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"245\" y=\"117\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"77\" y=\"149\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"189\" y=\"85\" width=\"26\" height=\"26\" stroke-width=\"3\"/><text x=\"160\" y=\"196\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">quadrats placed at random coordinates on a grid</text></svg>",
+     "alt": "A field marked with a grid, with quadrats placed at random coordinates."
+    }
    },
    {
     "id": "gcse-cb-aqa-ecology-n039-f",
@@ -9581,7 +9749,11 @@
     "paper": "AQA Combined Biology Paper 2",
     "subtopic": "Required practical",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 2 style · Ecology · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 2 style · Ecology · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 320 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"280\" height=\"160\"/><line x1=\"48\" y1=\"20\" x2=\"48\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"76\" y1=\"20\" x2=\"76\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"104\" y1=\"20\" x2=\"104\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"132\" y1=\"20\" x2=\"132\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"160\" y1=\"20\" x2=\"160\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"188\" y1=\"20\" x2=\"188\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"216\" y1=\"20\" x2=\"216\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"244\" y1=\"20\" x2=\"244\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"272\" y1=\"20\" x2=\"272\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"52\" x2=\"300\" y2=\"52\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"84\" x2=\"300\" y2=\"84\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"116\" x2=\"300\" y2=\"116\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"148\" x2=\"300\" y2=\"148\" stroke-width=\"0.5\"/><rect x=\"49\" y=\"53\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"161\" y=\"21\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"245\" y=\"117\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"77\" y=\"149\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"189\" y=\"85\" width=\"26\" height=\"26\" stroke-width=\"3\"/><text x=\"160\" y=\"196\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">quadrats placed at random coordinates on a grid</text></svg>",
+     "alt": "A field marked with a grid, with quadrats placed at random coordinates."
+    }
    },
    {
     "id": "gcse-cb-aqa-ecology-m009-f",
@@ -9596,7 +9768,11 @@
     "paper": "AQA Combined Biology Paper 2",
     "subtopic": "Required practical",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 2 style · Ecology · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 2 style · Ecology · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 340 195\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"45\" y1=\"160\" x2=\"320\" y2=\"160\"/><path d=\"M320 160L311.7 163.5L311.7 156.5Z\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"45\" y1=\"160\" x2=\"45\" y2=\"20\"/><path d=\"M45 20L48.5 28.3L41.5 28.3Z\" fill=\"currentColor\" stroke=\"none\"/><text x=\"182.5\" y=\"184\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">light intensity</text><text x=\"14\" y=\"90.0\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" transform=\"rotate(-90 14 90.0)\">rate of photosynthesis</text><path d=\"M45 160 L150 70 C175 52 200 48 315 48\" stroke-width=\"3\"/><text x=\"240\" y=\"40\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">levels off</text></svg>",
+     "alt": "Graph of rate of photosynthesis against light intensity: rises then levels off."
+    }
    },
    {
     "id": "gcse-cb-aqa-ecology-m010-f",
@@ -9611,7 +9787,11 @@
     "paper": "AQA Combined Biology Paper 2",
     "subtopic": "Required practical",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 2 style · Ecology · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 2 style · Ecology · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 320 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"280\" height=\"160\"/><line x1=\"48\" y1=\"20\" x2=\"48\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"76\" y1=\"20\" x2=\"76\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"104\" y1=\"20\" x2=\"104\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"132\" y1=\"20\" x2=\"132\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"160\" y1=\"20\" x2=\"160\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"188\" y1=\"20\" x2=\"188\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"216\" y1=\"20\" x2=\"216\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"244\" y1=\"20\" x2=\"244\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"272\" y1=\"20\" x2=\"272\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"52\" x2=\"300\" y2=\"52\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"84\" x2=\"300\" y2=\"84\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"116\" x2=\"300\" y2=\"116\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"148\" x2=\"300\" y2=\"148\" stroke-width=\"0.5\"/><rect x=\"49\" y=\"53\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"161\" y=\"21\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"245\" y=\"117\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"77\" y=\"149\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"189\" y=\"85\" width=\"26\" height=\"26\" stroke-width=\"3\"/><text x=\"160\" y=\"196\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">quadrats placed at random coordinates on a grid</text></svg>",
+     "alt": "A field marked with a grid, with quadrats placed at random coordinates."
+    }
    },
    {
     "id": "gcse-cb-aqa-ecology-m011-f",
@@ -9761,7 +9941,11 @@
     "paper": "AQA Combined Biology Paper 2",
     "subtopic": "Range and mode",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 2 style · Ecology · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 2 style · Ecology · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 320 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"280\" height=\"160\"/><line x1=\"48\" y1=\"20\" x2=\"48\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"76\" y1=\"20\" x2=\"76\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"104\" y1=\"20\" x2=\"104\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"132\" y1=\"20\" x2=\"132\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"160\" y1=\"20\" x2=\"160\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"188\" y1=\"20\" x2=\"188\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"216\" y1=\"20\" x2=\"216\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"244\" y1=\"20\" x2=\"244\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"272\" y1=\"20\" x2=\"272\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"52\" x2=\"300\" y2=\"52\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"84\" x2=\"300\" y2=\"84\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"116\" x2=\"300\" y2=\"116\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"148\" x2=\"300\" y2=\"148\" stroke-width=\"0.5\"/><rect x=\"49\" y=\"53\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"161\" y=\"21\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"245\" y=\"117\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"77\" y=\"149\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"189\" y=\"85\" width=\"26\" height=\"26\" stroke-width=\"3\"/><text x=\"160\" y=\"196\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">quadrats placed at random coordinates on a grid</text></svg>",
+     "alt": "A field marked with a grid, with quadrats placed at random coordinates."
+    }
    },
    {
     "id": "gcse-cb-aqa-ecology-m023-f",
@@ -9881,7 +10065,11 @@
     "paper": "AQA Combined Biology Paper 2",
     "subtopic": "Required practical",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 2 style · Ecology · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 2 style · Ecology · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 320 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"280\" height=\"160\"/><line x1=\"48\" y1=\"20\" x2=\"48\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"76\" y1=\"20\" x2=\"76\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"104\" y1=\"20\" x2=\"104\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"132\" y1=\"20\" x2=\"132\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"160\" y1=\"20\" x2=\"160\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"188\" y1=\"20\" x2=\"188\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"216\" y1=\"20\" x2=\"216\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"244\" y1=\"20\" x2=\"244\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"272\" y1=\"20\" x2=\"272\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"52\" x2=\"300\" y2=\"52\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"84\" x2=\"300\" y2=\"84\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"116\" x2=\"300\" y2=\"116\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"148\" x2=\"300\" y2=\"148\" stroke-width=\"0.5\"/><rect x=\"49\" y=\"53\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"161\" y=\"21\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"245\" y=\"117\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"77\" y=\"149\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"189\" y=\"85\" width=\"26\" height=\"26\" stroke-width=\"3\"/><text x=\"160\" y=\"196\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">quadrats placed at random coordinates on a grid</text></svg>",
+     "alt": "A field marked with a grid, with quadrats placed at random coordinates."
+    }
    },
    {
     "id": "gcse-cb-aqa-ecology-m031-f",
@@ -9896,7 +10084,11 @@
     "paper": "AQA Combined Biology Paper 2",
     "subtopic": "Required practical",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 2 style · Ecology · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 2 style · Ecology · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 320 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"280\" height=\"160\"/><line x1=\"48\" y1=\"20\" x2=\"48\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"76\" y1=\"20\" x2=\"76\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"104\" y1=\"20\" x2=\"104\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"132\" y1=\"20\" x2=\"132\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"160\" y1=\"20\" x2=\"160\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"188\" y1=\"20\" x2=\"188\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"216\" y1=\"20\" x2=\"216\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"244\" y1=\"20\" x2=\"244\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"272\" y1=\"20\" x2=\"272\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"52\" x2=\"300\" y2=\"52\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"84\" x2=\"300\" y2=\"84\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"116\" x2=\"300\" y2=\"116\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"148\" x2=\"300\" y2=\"148\" stroke-width=\"0.5\"/><rect x=\"49\" y=\"53\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"161\" y=\"21\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"245\" y=\"117\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"77\" y=\"149\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"189\" y=\"85\" width=\"26\" height=\"26\" stroke-width=\"3\"/><text x=\"160\" y=\"196\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">quadrats placed at random coordinates on a grid</text></svg>",
+     "alt": "A field marked with a grid, with quadrats placed at random coordinates."
+    }
    },
    {
     "id": "gcse-cb-aqa-ecology-m032-f",
@@ -10046,7 +10238,11 @@
     "paper": "AQA Combined Science Biology Paper 2H Q01",
     "subtopic": "Sampling",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 2 style · Ecology · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 2 style · Ecology · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 320 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"280\" height=\"160\"/><line x1=\"48\" y1=\"20\" x2=\"48\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"76\" y1=\"20\" x2=\"76\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"104\" y1=\"20\" x2=\"104\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"132\" y1=\"20\" x2=\"132\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"160\" y1=\"20\" x2=\"160\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"188\" y1=\"20\" x2=\"188\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"216\" y1=\"20\" x2=\"216\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"244\" y1=\"20\" x2=\"244\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"272\" y1=\"20\" x2=\"272\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"52\" x2=\"300\" y2=\"52\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"84\" x2=\"300\" y2=\"84\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"116\" x2=\"300\" y2=\"116\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"148\" x2=\"300\" y2=\"148\" stroke-width=\"0.5\"/><rect x=\"49\" y=\"53\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"161\" y=\"21\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"245\" y=\"117\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"77\" y=\"149\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"189\" y=\"85\" width=\"26\" height=\"26\" stroke-width=\"3\"/><text x=\"160\" y=\"196\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">quadrats placed at random coordinates on a grid</text></svg>",
+     "alt": "A field marked with a grid, with quadrats placed at random coordinates."
+    }
    },
    {
     "id": "gcse-cb-aqa-ecology-m043-f",
@@ -10196,7 +10392,11 @@
     "paper": "AQA Combined Science Biology Paper 2F Q02",
     "subtopic": "Sampling",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 2 style · Ecology · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 2 style · Ecology · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 320 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"280\" height=\"160\"/><line x1=\"48\" y1=\"20\" x2=\"48\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"76\" y1=\"20\" x2=\"76\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"104\" y1=\"20\" x2=\"104\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"132\" y1=\"20\" x2=\"132\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"160\" y1=\"20\" x2=\"160\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"188\" y1=\"20\" x2=\"188\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"216\" y1=\"20\" x2=\"216\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"244\" y1=\"20\" x2=\"244\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"272\" y1=\"20\" x2=\"272\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"52\" x2=\"300\" y2=\"52\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"84\" x2=\"300\" y2=\"84\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"116\" x2=\"300\" y2=\"116\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"148\" x2=\"300\" y2=\"148\" stroke-width=\"0.5\"/><rect x=\"49\" y=\"53\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"161\" y=\"21\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"245\" y=\"117\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"77\" y=\"149\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"189\" y=\"85\" width=\"26\" height=\"26\" stroke-width=\"3\"/><text x=\"160\" y=\"196\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">quadrats placed at random coordinates on a grid</text></svg>",
+     "alt": "A field marked with a grid, with quadrats placed at random coordinates."
+    }
    },
    {
     "id": "gcse-cb-aqa-ecology-m071-f",
@@ -10211,7 +10411,11 @@
     "paper": "AQA Combined Science Biology Paper 2F Q02",
     "subtopic": "Sampling",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 2 style · Ecology · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 2 style · Ecology · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 320 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"280\" height=\"160\"/><line x1=\"48\" y1=\"20\" x2=\"48\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"76\" y1=\"20\" x2=\"76\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"104\" y1=\"20\" x2=\"104\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"132\" y1=\"20\" x2=\"132\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"160\" y1=\"20\" x2=\"160\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"188\" y1=\"20\" x2=\"188\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"216\" y1=\"20\" x2=\"216\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"244\" y1=\"20\" x2=\"244\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"272\" y1=\"20\" x2=\"272\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"52\" x2=\"300\" y2=\"52\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"84\" x2=\"300\" y2=\"84\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"116\" x2=\"300\" y2=\"116\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"148\" x2=\"300\" y2=\"148\" stroke-width=\"0.5\"/><rect x=\"49\" y=\"53\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"161\" y=\"21\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"245\" y=\"117\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"77\" y=\"149\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"189\" y=\"85\" width=\"26\" height=\"26\" stroke-width=\"3\"/><text x=\"160\" y=\"196\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">quadrats placed at random coordinates on a grid</text></svg>",
+     "alt": "A field marked with a grid, with quadrats placed at random coordinates."
+    }
    },
    {
     "id": "gcse-cb-aqa-ecology-m072-f",
@@ -10226,7 +10430,11 @@
     "paper": "AQA Combined Science Biology Paper 2F Q02",
     "subtopic": "Sampling",
     "tier": "Foundation",
-    "inspiredBy": "AQA 8464 Biology Paper 2 style · Ecology · family 1"
+    "inspiredBy": "AQA 8464 Biology Paper 2 style · Ecology · family 1",
+    "diagram": {
+     "svg": "<svg viewBox=\"0 0 320 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"280\" height=\"160\"/><line x1=\"48\" y1=\"20\" x2=\"48\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"76\" y1=\"20\" x2=\"76\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"104\" y1=\"20\" x2=\"104\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"132\" y1=\"20\" x2=\"132\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"160\" y1=\"20\" x2=\"160\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"188\" y1=\"20\" x2=\"188\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"216\" y1=\"20\" x2=\"216\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"244\" y1=\"20\" x2=\"244\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"272\" y1=\"20\" x2=\"272\" y2=\"180\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"52\" x2=\"300\" y2=\"52\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"84\" x2=\"300\" y2=\"84\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"116\" x2=\"300\" y2=\"116\" stroke-width=\"0.5\"/><line x1=\"20\" y1=\"148\" x2=\"300\" y2=\"148\" stroke-width=\"0.5\"/><rect x=\"49\" y=\"53\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"161\" y=\"21\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"245\" y=\"117\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"77\" y=\"149\" width=\"26\" height=\"26\" stroke-width=\"3\"/><rect x=\"189\" y=\"85\" width=\"26\" height=\"26\" stroke-width=\"3\"/><text x=\"160\" y=\"196\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">quadrats placed at random coordinates on a grid</text></svg>",
+     "alt": "A field marked with a grid, with quadrats placed at random coordinates."
+    }
    },
    {
     "id": "gcse-cb-aqa-ecology-m073-f",
