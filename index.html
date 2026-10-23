@@ -420,7 +420,28 @@ body.ads-on .wrap{padding-bottom:12px !important;}
 <p><a href="privacy.html">Privacy notice</a> · <a href="terms.html">Rules</a> · <a href="mailto:kelvincardsupport@gmail.com">Contact</a></p></div>
 
 <!-- Pinned to an exact version so a new release can't change the site without you knowing. -->
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.118.0"></script>
+<script>
+// Load the login library. Some school networks and ad blockers block one CDN, so try this site's own copy
+// (vendor/supabase.js) first, then two CDNs. Logins only fail if all three are blocked.
+window.__sbLib = (function(){
+  const srcs = [
+    "vendor/supabase.js",
+    "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.118.0/dist/umd/supabase.js",
+    "https://unpkg.com/@supabase/supabase-js@2.118.0/dist/umd/supabase.js"
+  ];
+  return new Promise(resolve=>{
+    let i = 0;
+    const next = ()=>{
+      if(window.supabase && window.supabase.createClient) return resolve(true);
+      if(i>=srcs.length) return resolve(false);
+      const s = document.createElement("script"); s.src = srcs[i++];
+      s.onload = next; s.onerror = next;
+      document.head.appendChild(s);
+    };
+    next();
+  });
+})();
+</script>
 <script>
 // ================= Accounts (Supabase) =================
 // To turn on accounts, paste your Supabase Project URL and publishable/anon key below.
@@ -701,7 +722,7 @@ function setBar(status){
     offline:`<span class="err">Offline. Saving on this device and will sync when you reconnect.</span>`,
     error:`<span class="err">Couldn't reach your account. Saving on this device for now.</span> <button class="link-btn" id="retrySyncBtn">Try again</button>`,
     guest:`<span>Progress is saved on this device only.</span>`,
-    unavailable:`<span class="err">Log in isn't available right now. Progress is saving on this device.</span>`
+    unavailable:`<span class="err">Log in can't load on this browser or network (an ad blocker or school Wi-Fi filter may be blocking it). Progress is saving on this device.</span> <button class="link-btn" onclick="location.reload()">Try again</button>`
   };
   let right = "";
   if(user) right = `<span class="acct-who"><button class="link-btn acct-name" data-go-account title="Your account">${user.username ? "@"+esc(user.username) : esc(user.email||"")}</button><button class="link-btn" id="logoutBtn">Log out</button></span>`;
@@ -885,6 +906,7 @@ function attachAuth(){
   const f = g("authForm");
   if(f) f.onsubmit = async (ev)=>{
     ev.preventDefault();
+    if(!sb) return showAuth(authMode, "Log in can't load on this browser or network right now. An ad blocker or a school Wi-Fi filter may be blocking it. Try turning off the ad blocker for this site, using mobile data, or another browser, then reload the page.");
     const email = g("authEmail") ? g("authEmail").value.trim() : "";
     const pass = g("authPass") ? g("authPass").value : "";
     const uname = g("authUser") ? g("authUser").value.trim() : "";
@@ -1057,7 +1079,15 @@ async function logOut(){
 
 function initAccounts(){
   if(!accountsEnabled()) return;
-  if(!window.supabase || !window.supabase.createClient){ setBar("unavailable"); return; }
+  if(!window.supabase || !window.supabase.createClient){
+    // Still loading (or blocked): wait for the loader above, then try again.
+    setBar("loading");
+    (window.__sbLib || Promise.resolve(false)).then(ok=>{
+      if(ok && window.supabase && window.supabase.createClient) initAccounts();
+      else { document.getElementById("app").style.display = ""; setBar("unavailable"); }
+    });
+    return;
+  }
   sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY, { auth:{ persistSession:true, autoRefreshToken:true, detectSessionInUrl:true } });
   const hash = location.hash + location.search;
   const recovery = /type=recovery/.test(hash);
