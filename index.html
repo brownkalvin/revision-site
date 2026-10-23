@@ -1264,7 +1264,7 @@ function renderAdmin(){
     <div style="margin-bottom:12px;"><button class="link-btn" id="adminRefreshBtn">Refresh</button></div>
     ${body}`;
 }
-const SAFETY_KIND = { group_message:"Group message", direct_message:"Private message", group_share:"Shared item", user:"User" };
+const SAFETY_KIND = { group_message:"Group message", direct_message:"Private message", group_share:"Shared in a group", friend_share:"Sent to a friend", user:"User" };
 async function loadSafetyReports(){
   try{ admin.safety = await rpc("admin_list_content_reports", { p_status: admin.safetyAll ? "all" : "open" }) || []; admin.safetyError = ""; }
   catch(e){ admin.safety = []; admin.safetyError = socialErr(e).replace("social-and-coins-setup.sql", "safety-and-privacy-setup.sql"); }
@@ -2040,7 +2040,7 @@ function renderSharedItem(){
   const p = it.payload || {};
   const back = `<button class="link-btn" id="sharedBackBtn">Back</button>`;
   const canReport = it.item_key && it.source!=="sent";
-  const reportLink = canReport ? ` · <button class="link-btn" style="font-size:inherit;" data-report-kind="${it.item_key[0]==="g" ? "group_share" : "direct_message"}" data-report-target="${esc(it.item_key.slice(1))}" data-report-label="this ${esc(it.kind==="deck" ? "deck" : "question")}">Report</button>` : "";
+  const reportLink = canReport ? ` · <button class="link-btn" style="font-size:inherit;" data-report-kind="${it.item_key[0]==="g" ? "group_share" : "friend_share"}" data-report-target="${esc(it.item_key.slice(1))}" data-report-label="this ${esc(it.kind==="deck" ? "deck" : "question")}">Report</button>` : "";
   const src = it.source==="group" ? `Shared by @${esc(it.from_user||"someone")} in ${esc(it.group_name||"a group")}` :
               it.source==="sent" ? "You sent this" : `Sent by @${esc(it.from_user||"someone")}`;
   if(it.kind==="deck"){
@@ -2056,6 +2056,7 @@ function renderSharedItem(){
           <button class="btn-primary" id="sharedSaveBtn">Save to my decks</button>
           <button class="btn-ghost" id="sharedPractiseBtn">Save and practise</button>
         </div>
+        ${it.item_key && it.item_key[0]==="d" ? `<button class="skip-link" id="sharedDeleteBtn">Remove from my Shared list</button>` : ""}
       </div>
       <div class="card"><h2 style="font-size:1rem;">What's in it</h2>${list || `<div class="sub" style="margin:0;">This deck is empty.</div>`}</div>`;
   }
@@ -2179,6 +2180,14 @@ function attachInboxHandlers(){
       const r = saveSharedThing(it.kind, it.title, it.payload);
       if(it.kind==="deck"){ state.viewDeckId = r.deckId; state.backTo = "inbox"; state.screen = "decks"; render(); window.scrollTo(0,0); socialToast(`Saved “${it.title}” to your decks.`); }
       else socialToast(r.added ? "Added to your questions. Find it in Manage for its subject." : "You already have this question.");
+    };
+    const del = document.getElementById("sharedDeleteBtn");
+    if(del) del.onclick = async ()=>{
+      if(!confirm("Remove this from your Shared list? Save it to your decks first if you want to keep it.")) return;
+      try{ await rpc("delete_friend_share", { p_id:Number(it.item_key.slice(1)) }); }
+      catch(e){ socialToast(socialErr(e)); return; }
+      inbox.items = inbox.items.filter(x=>x.item_key!==it.item_key);
+      state.screen = "inbox"; render(); socialToast("Removed.");
     };
     const pr = document.getElementById("sharedPractiseBtn");
     if(pr) pr.onclick = ()=>{
@@ -2451,7 +2460,7 @@ async function sendDeck(kind, id, btn){
   const d = loadDecks().find(x=>x.id===shareUI.deckId); if(!d) return;
   btn.disabled = true;
   try{
-    if(kind==="friend") await rpc("send_direct", { p_to:id, p_body:"", p_kind:"deck", p_title:d.name, p_payload:deckPayload(d) });
+    if(kind==="friend") await rpc("share_to_friend", { p_to:id, p_kind:"deck", p_title:d.name, p_payload:deckPayload(d) });
     else await rpc("share_to_group", { p_group:id, p_kind:"deck", p_title:d.name, p_payload:deckPayload(d) });
     shareUI.sent[(kind==="friend"?"f":"g")+id] = true; render();
   }catch(e){
