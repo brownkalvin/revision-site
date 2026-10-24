@@ -1392,7 +1392,7 @@ function attachAdminHandlers(){
 //    { "id": "gcse-h-surds-001", "marks": 3, "prompt": "Simplify $\\sqrt{50}$.", "hints": ["50 = 25 × 2"],
 //      "solution": "$\\sqrt{50} = 5\\sqrt{2}$", "year": "2023", "paper": "Edexcel 1MA1 Paper 1H", "calculator": false }
 // GCSE questions also need "calculator": true (calculator paper) or "calculator": false (non-calculator paper),
-// so the calculator filter can find them. GCSE difficulty: 1 mark = easy, 2-4 = medium, 5-6 = hard.
+// so the calculator filter can find them. Easy / Medium / Hard is worked out per subject from the marks (see DIFFICULTY_SPLIT).
 // GCSE questions should also have "answer" (or "answers" / "parts"), so students type their answer to unlock
 // the solution. See "GCSE: TYPED ANSWERS" further down for the format.
 // Any question can include a "table"; blank cells become answer boxes on GCSE. See "QUESTION TABLES".
@@ -3388,18 +3388,70 @@ function typesetMath(){
 function themeSwitchHtml(){
   return `<label class="theme-switch"><span class="track"><input type="checkbox" id="themeSwitch" ${isDarkActive()?"checked":""}><span class="slider"></span></span>Dark</label>`;
 }
-// Difficulty comes from a question's marks. GCSE and A-Level use different bands.
+// Difficulty comes from a question's marks, relative to the other questions in the same subject.
+// Each subject gets its own mark ranges, picked so its questions split roughly into the proportions
+// below (easiest third = Easy, middle third = Medium, hardest third = Hard). Change the numbers to
+// change the split, e.g. [0.4, 0.4, 0.2] for fewer Hard questions.
 function isGcse(sid){ return String(sid || currentSubject()).startsWith("gcse-"); }
 function isGcseMaths(sid){ return String(sid || currentSubject()).startsWith("gcse-maths-"); }
+const DIFFICULTY_SPLIT = [1/3, 1/3, 1/3];   // Easy, Medium, Hard
+const bandCache = {};
+// Works out a subject's mark cut-offs from its built-in questions (questions students add don't count).
+// Returns null when there's too little to go on, and the fixed ranges further down are used instead.
+function bandCutoffs(sid){
+  sid = sid || currentSubject();
+  const bank = SUBJECT_BANKS[sid]; if(!bank) return null;
+  const counts = {}; let n = 0;
+  bank.forEach(t=>(t.questions||[]).forEach(q=>{ const m = Math.max(1, parseInt(q.marks)||1); counts[m] = (counts[m]||0) + 1; n++; }));
+  if(bandCache[sid] && bandCache[sid].n===n) return bandCache[sid].cut;
+  const marks = Object.keys(counts).map(Number).sort((a,b)=>a-b);
+  let cut = null;
+  if(n>=12 && marks.length>=2){
+    const below = []; let run = 0;                       // below[i] = share of questions worth marks[i] or less
+    marks.forEach(m=>{ run += counts[m]; below.push(run/n); });
+    // Try every pair of cut-offs and keep the one whose split is closest to DIFFICULTY_SPLIT.
+    // Easy and Hard must each hold at least 10% of questions when any split allows it, so a band is
+    // never just a handful of questions (Medium may be left out instead).
+    const tryAll = (minShare)=>{
+      let best = Infinity, pick = null;
+      for(let i=0; i<marks.length-1; i++) for(let j=i+1; j<marks.length; j++){
+        const easy = below[i], hard = 1 - below[j-1], mid = 1 - easy - hard;
+        if(easy < minShare || hard < minShare) continue;
+        const err = (easy-DIFFICULTY_SPLIT[0])**2 + (mid-DIFFICULTY_SPLIT[1])**2 + (hard-DIFFICULTY_SPLIT[2])**2;
+        if(err < best - 1e-12){ best = err; pick = { min:marks[0], easyMax:marks[i], hardMin:marks[j],
+          medium: j>i+1 ? [marks[i]+1, marks[j]-1] : null, share:[easy, mid, hard] }; }
+      }
+      return pick;
+    };
+    cut = tryAll(0.1) || tryAll(0);
+  }
+  bandCache[sid] = { n, cut };
+  return cut;
+}
+function marksText(lo, hi){ return lo===hi ? `${lo} mark${lo===1?"":"s"}` : `${lo}–${hi} marks`; }
+// Labels for the difficulty tick boxes. medium is null when a subject has no middle band
+// (e.g. every question is worth 6 or 7 marks), and that box is hidden.
 function difficultyBands(sid){
+  const c = bandCutoffs(sid);
+  if(c) return {
+    easy: `Easy (${c.easyMax===1 ? "1 mark" : c.min===1 ? marksText(1, c.easyMax) : "up to " + c.easyMax + " marks"})`,
+    medium: c.medium ? `Medium (${marksText(c.medium[0], c.medium[1])})` : null,
+    hard: `Hard (${c.hardMin}+ marks)` };
   return isGcse(sid)
     ? { easy:"Easy (1 mark)", medium:"Medium (2–4 marks)", hard:"Hard (5+ marks)" }
     : { easy:"Easy (1–3 marks)", medium:"Medium (4–6 marks)", hard:"Hard (7+ marks)" };
 }
 function difficultyOf(marks, sid){
   const m = marks||1;
-  if(isGcse(sid)) return m<=1 ? {key:"easy",label:"Easy"} : m<=4 ? {key:"medium",label:"Medium"} : {key:"hard",label:"Hard"};
-  return m<=3 ? {key:"easy",label:"Easy"} : m<=6 ? {key:"medium",label:"Medium"} : {key:"hard",label:"Hard"};
+  const E = {key:"easy",label:"Easy"}, M = {key:"medium",label:"Medium"}, H = {key:"hard",label:"Hard"};
+  const c = bandCutoffs(sid);
+  if(c){
+    if(m >= c.hardMin) return H;
+    if(m <= c.easyMax || !c.medium) return E;   // with no middle band, anything below Hard is Easy
+    return M;
+  }
+  if(isGcse(sid)) return m<=1 ? E : m<=4 ? M : H;
+  return m<=3 ? E : m<=6 ? M : H;
 }
 // ---- GCSE calculator / non-calculator ----
 // GCSE questions carry "calculator": true (calculator paper) or false (non-calculator paper).
@@ -3698,7 +3750,7 @@ function renderSelect(){
       <label class="field" style="margin-top:0;">Difficulty</label>
       <div class="diff-row">
         <label class="chk"><input type="checkbox" id="includeEasyCheck" ${state.includeEasy?"checked":""}> <span>${difficultyBands().easy}</span></label>
-        <label class="chk"><input type="checkbox" id="includeMediumCheck" ${state.includeMedium?"checked":""}> <span>${difficultyBands().medium}</span></label>
+        ${difficultyBands().medium ? `<label class="chk"><input type="checkbox" id="includeMediumCheck" ${state.includeMedium?"checked":""}> <span>${difficultyBands().medium}</span></label>` : ""}
         <label class="chk"><input type="checkbox" id="includeHardCheck" ${state.includeHard?"checked":""}> <span>${difficultyBands().hard}</span></label>
       </div>
       <label class="field" for="targetMarksInput">Target marks (optional)</label>
@@ -3820,9 +3872,10 @@ function renderBrowse(){
 }
 
 function difficultyAllows(marks){
-  if(!(state.includeEasy || state.includeMedium || state.includeHard)) return true; // nothing ticked — treat as all
-  const k = difficultyOf(marks, currentSubject()).key;
-  return (k==="easy" && state.includeEasy) || (k==="medium" && state.includeMedium) || (k==="hard" && state.includeHard);
+  const sid = currentSubject();
+  const on = { easy:state.includeEasy, medium:state.includeMedium && !!difficultyBands(sid).medium, hard:state.includeHard };
+  if(!(on.easy || on.medium || on.hard)) return true; // nothing ticked — treat as all
+  return !!on[difficultyOf(marks, sid).key];
 }
 
 function shuffleArr(arr){
